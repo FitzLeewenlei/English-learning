@@ -2,292 +2,36 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>英语单词学习</title>
-
+<title>English Learning Vocabulary</title>
 <style>
-body {
-    font-family: Arial, "Microsoft YaHei", sans-serif;
-    line-height: 2;
-    padding: 30px;
-    background: #f7f9fc;
-}
-
-h1 {
-    text-align: center;
-}
-
-.article {
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
-    font-size: 18px;
-}
-
-.word {
-    color: #0066cc;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.word:hover {
-    text-decoration: underline;
-}
-
-#box {
-    margin-top: 25px;
-    padding: 20px;
-    background: #fff3cd;
-    border-radius: 10px;
-    display: none;
-}
+body{font-family:Arial,"Microsoft YaHei";background:#f5f7fb;padding:30px;line-height:2}
+h1{text-align:center}.article,.card{background:white;padding:25px;border-radius:12px;margin:20px auto;max-width:900px}
+.word{color:#0066cc;font-weight:bold;cursor:pointer}.word:hover{text-decoration:underline}
+#box{display:none;background:#fff3cd}.btn{padding:8px 15px;border:0;border-radius:8px;cursor:pointer}
+.n{color:#0066cc}.v{color:#198754}.adj{color:#fd7e14}.adv{color:#6f42c1}
 </style>
-
 </head>
-
 <body>
-
 <h1>University Life and Money Management</h1>
-
 <div class="article">
-
-<span class="word">Students</span> at 
-<span class="word">university</span> can 
-<span class="word">learn</span> and 
-<span class="word">make</span> 
-<span class="word">friends</span> that will 
-<span class="word">last</span> a 
-<span class="word">lifetime</span>.
-
-<span class="word">However</span>, the 
-<span class="word">cost</span> of 
-<span class="word">studying</span> is on the 
-<span class="word">rise</span>.
-
-This 
-<span class="word">increase</span> means that 
-<span class="word">most</span> students can 
-<span class="word">get into</span> money 
-<span class="word">trouble</span> if they do not know how to 
-<span class="word">manage</span> their money.
-
-It is not just the 
-<span class="word">course fees</span>.
-Students must also 
-<span class="word">pay</span> for 
-<span class="word">room</span> and 
-<span class="word">board</span>.
-
-In 
-<span class="word">addition</span>, they may 
-<span class="word">spend</span> money on 
-<span class="word">clothes</span>, 
-<span class="word">travel</span>, and other 
-<span class="word">things</span>.
-
-<span class="word">Thus</span>, students 
-<span class="word">need</span> to 
-<span class="word">budget</span> 
-<span class="word">carefully</span>.
-
+Students at <span class="word">university</span> can <span class="word">learn</span> and make <span class="word">friends</span> that will last a lifetime. However, the <span class="word">cost</span> of studying is on the rise. This <span class="word">increase</span> means students may get into <span class="word">trouble</span> if they do not know how to <span class="word">manage</span> money. Students need to <span class="word">budget</span> carefully.
 </div>
-
-
-<div id="box"></div>
-
-
+<div id="box" class="card"></div>
 <script>
-
-const dictionary = {
-
-"Students":{
-"音标":"/ˈstuːdnts/",
-"词性":"n.",
-"意思":"学生"
-},
-
-"university":{
-"音标":"/ˌjuːnɪˈvɜːrsəti/",
-"词性":"n.",
-"意思":"大学"
-},
-
-"learn":{
-"音标":"/lɜːrn/",
-"词性":"v.",
-"意思":"学习；学会"
-},
-
-"make":{
-"音标":"/meɪk/",
-"词性":"v.",
-"意思":"制作；使；交（朋友）"
-},
-
-"friends":{
-"音标":"/frendz/",
-"词性":"n.",
-"意思":"朋友"
-},
-
-"last":{
-"音标":"/læst/",
-"词性":"v.",
-"意思":"持续；维持"
-},
-
-"lifetime":{
-"音标":"/ˈlaɪftaɪm/",
-"词性":"n.",
-"意思":"一生；终身"
-},
-
-"However":{
-"音标":"/haʊˈevər/",
-"词性":"adv.",
-"意思":"然而；但是"
-},
-
-"cost":{
-"音标":"/kɔːst/",
-"词性":"n.",
-"意思":"费用；成本"
-},
-
-"studying":{
-"音标":"/ˈstʌdiɪŋ/",
-"词性":"n./v.",
-"意思":"学习；研究"
-},
-
-"rise":{
-"音标":"/raɪz/",
-"词性":"n./v.",
-"意思":"上升；增加"
-},
-
-"increase":{
-"音标":"/ɪnˈkriːs/",
-"词性":"n./v.",
-"意思":"增加；增长"
-},
-
-"most":{
-"音标":"/moʊst/",
-"词性":"adj./pron.",
-"意思":"大多数"
-},
-
-"trouble":{
-"音标":"/ˈtrʌbl/",
-"词性":"n.",
-"意思":"麻烦；困难"
-},
-
-"manage":{
-"音标":"/ˈmænɪdʒ/",
-"词性":"v.",
-"意思":"管理；控制"
-},
-
-"pay":{
-"音标":"/peɪ/",
-"词性":"v.",
-"意思":"支付；付钱"
-},
-
-"room":{
-"音标":"/ruːm/",
-"词性":"n.",
-"意思":"房间；住宿"
-},
-
-"board":{
-"音标":"/bɔːrd/",
-"词性":"n.",
-"意思":"伙食；膳食"
-},
-
-"addition":{
-"音标":"/əˈdɪʃn/",
-"词性":"n.",
-"意思":"增加；附加"
-},
-
-"spend":{
-"音标":"/spend/",
-"词性":"v.",
-"意思":"花费"
-},
-
-"clothes":{
-"音标":"/kloʊðz/",
-"词性":"n.",
-"意思":"衣服"
-},
-
-"travel":{
-"音标":"/ˈtrævl/",
-"词性":"n./v.",
-"意思":"旅行"
-},
-
-"things":{
-"音标":"/θɪŋz/",
-"词性":"n.",
-"意思":"事情；东西"
-},
-
-"Thus":{
-"音标":"/ðʌs/",
-"词性":"adv.",
-"意思":"因此；所以"
-},
-
-"need":{
-"音标":"/niːd/",
-"词性":"v.",
-"意思":"需要"
-},
-
-"budget":{
-"音标":"/ˈbʌdʒɪt/",
-"词性":"n./v.",
-"意思":"预算；规划开支"
-},
-
-"carefully":{
-"音标":"/ˈkerfəli/",
-"词性":"adv.",
-"意思":"仔细地；谨慎地"
-}
-
+const dictionary={
+university:{ipa:'/ˌjuːnɪˈvɜːrsəti/',pos:'n.',cn:'大学',ex:'She studies at a famous university.'},
+learn:{ipa:'/lɜːrn/',pos:'v.',cn:'学习；学会',ex:'Students learn new skills every day.'},
+friends:{ipa:'/frendz/',pos:'n.',cn:'朋友',ex:'Good friends can last a lifetime.'},
+cost:{ipa:'/kɔːst/',pos:'n.',cn:'费用；成本',ex:'The cost of education is increasing.'},
+increase:{ipa:'/ɪnˈkriːs/',pos:'n./v.',cn:'增加；增长',ex:'There is an increase in prices.'},
+trouble:{ipa:'/ˈtrʌbəl/',pos:'n.',cn:'麻烦；困难',ex:'He got into trouble.'},
+manage:{ipa:'/ˈmænɪdʒ/',pos:'v.',cn:'管理；控制',ex:'Learn to manage your money.'},
+budget:{ipa:'/ˈbʌdʒɪt/',pos:'n./v.',cn:'预算；规划开支',ex:'Students should make a budget.'}
 };
 
-
-document.querySelectorAll(".word").forEach(item=>{
-
-item.onclick=function(){
-
-let w=this.innerText;
-
-if(dictionary[w]){
-
-document.getElementById("box").style.display="block";
-
-document.getElementById("box").innerHTML=
-"<b>"+w+"</b><br>"+
-"音标："+dictionary[w].音标+"<br>"+
-"词性："+dictionary[w].词性+"<br>"+
-"中文："+dictionary[w].意思;
-
-}
-
-}
-
-});
-
+document.querySelectorAll('.word').forEach(w=>{w.onclick=()=>{let d=dictionary[w.innerText];if(d){box.style.display='block';box.innerHTML=`<h2>${w.innerText}</h2><p>音标：${d.ipa}</p><p>词性：${d.pos}</p><p>中文：${d.cn}</p><p>例句：${d.ex}</p><button class='btn' onclick="speak('${w.innerText}')">🔊 发音</button><button class='btn' onclick="saveWord('${w.innerText}')">⭐ 生词本</button>`}}});
+function speak(t){speechSynthesis.speak(new SpeechSynthesisUtterance(t))}
+function saveWord(w){let a=JSON.parse(localStorage.words||'[]');if(!a.includes(w))a.push(w);localStorage.words=JSON.stringify(a);alert('已加入生词本')}
 </script>
-
-
 </body>
 </html>
