@@ -1,98 +1,151 @@
 (() => {
   'use strict';
-  const data = window.READING;
+  const course = window.COURSE;
   const $ = (id) => document.getElementById(id);
   const icon = (name) => `<svg aria-hidden="true"><use href="#i-${name}"/></svg>`;
-  const targetWords = new Set(data.vocabulary.map((entry) => entry.word.toLowerCase()));
-  const wordAudio = (word) => data.audio.words[word.toLowerCase()];
-  const wordItems = data.vocabulary.map((entry, index) => ({ text: entry.word, src: entry.audio, elementId: `vocab-${index}`, type: 'word' }));
-  const sentenceItems = data.audio.sentences.map((clip, index) => ({ text: clip.text, src: clip.src, elementId: `sentence-${index}`, type: 'sentence' }));
-
-  for (const [index, entry] of data.vocabulary.entries()) {
-    const button = document.createElement('button');
-    button.className = 'word-card';
-    button.id = `vocab-${index}`;
-    button.type = 'button';
-    button.setAttribute('aria-label', `朗读单词 ${entry.word}`);
-    const topline = document.createElement('span');
-    topline.className = 'word-topline';
-    const name = document.createElement('span');
-    name.className = 'word-name';
-    name.lang = 'en';
-    name.textContent = entry.word;
-    const sound = document.createElement('span');
-    sound.className = 'word-sound';
-    sound.innerHTML = icon('volume');
-    topline.append(name, sound);
-    const ipa = document.createElement('span');
-    ipa.className = 'word-ipa';
-    ipa.lang = 'en';
-    ipa.textContent = entry.ipa;
-    const meaning = document.createElement('span');
-    meaning.className = 'word-meaning';
-    meaning.textContent = entry.meaning;
-    button.append(topline, ipa, meaning);
-    button.addEventListener('click', () => player.start([wordItems[index]], 'word'));
-    $('vocabulary-grid').append(button);
-  }
-
-  let sentenceIndex = 0;
-  for (const paragraph of data.paragraphs) {
-    const group = document.createElement('div');
-    group.className = 'paragraph-group';
-    for (const text of paragraph) {
-      const index = sentenceIndex++;
-      const line = document.createElement('p');
-      line.className = 'sentence';
-      line.id = `sentence-${index}`;
-      const parts = text.split(/([A-Za-z]+(?:'[A-Za-z]+)?)/g);
-      let tokenIndex = 0;
-      for (const part of parts) {
-        if (/^[A-Za-z]+(?:'[A-Za-z]+)?$/.test(part)) {
-          const button = document.createElement('button');
-          button.type = 'button';
-          button.className = 'word-token';
-          if (targetWords.has(part.toLowerCase())) button.classList.add('target-word');
-          button.id = `token-${index}-${tokenIndex++}`;
-          button.textContent = part;
-          button.setAttribute('aria-label', `朗读单词 ${part}`);
-          button.addEventListener('click', () => player.start([{ text: part, src: wordAudio(part), elementId: button.id, type: 'word' }], 'word'));
-          line.append(button);
-        } else {
-          line.append(document.createTextNode(part));
-        }
-      }
-      const speaker = document.createElement('button');
-      speaker.type = 'button';
-      speaker.className = 'sentence-play';
-      speaker.innerHTML = icon('volume');
-      speaker.setAttribute('aria-label', `朗读整句：${text}`);
-      speaker.addEventListener('click', () => player.start([sentenceItems[index]], 'sentence'));
-      line.append(speaker);
-      group.append(line);
-    }
-    $('article-content').append(group);
-  }
-  for (const text of data.translations) {
-    const paragraph = document.createElement('p');
-    paragraph.textContent = text;
-    $('translation-content').append(paragraph);
-  }
+  const normalize = (word) => word.toLowerCase().replace(/’/g, "'");
+  const tokenPattern = /([A-Za-z]+(?:[’'-][A-Za-z]+)*|\d+(?:,\d{3})*)/g;
+  const isToken = /^[A-Za-z]+(?:[’'-][A-Za-z]+)*$|^\d+(?:,\d{3})*$/;
+  let data, currentList, wordItems = [], exampleItems = [], sentenceItems = [];
+  let translationElements = [];
+  let targetWords = new Set();
 
   function readPreference(key, fallback) {
     try { return localStorage.getItem(key) ?? fallback; } catch { return fallback; }
   }
   function storePreference(key, value) {
-    try { localStorage.setItem(key, value); } catch { /* The controls still work when storage is disabled. */ }
+    try { localStorage.setItem(key, value); } catch { /* Controls work without storage. */ }
   }
   const storedSpeed = readPreference('garden-reader-speed', '1');
   $('speed').value = ['0.75', '1', '1.25'].includes(storedSpeed) ? storedSpeed : '1';
   $('show-translation').checked = readPreference('garden-reader-translation', 'true') !== 'false';
-  $('translation-panel').hidden = !$('show-translation').checked;
-  $('show-translation').addEventListener('change', () => {
-    $('translation-panel').hidden = !$('show-translation').checked;
-    storePreference('garden-reader-translation', String($('show-translation').checked));
-  });
+
+  function updateTranslations() {
+    for (const element of translationElements) element.hidden = !$('show-translation').checked;
+  }
+
+  function createSentence(text, item) {
+    const line = document.createElement('p');
+    line.className = 'sentence';
+    line.id = item.elementId;
+    line.lang = 'en';
+    let tokenIndex = 0;
+    for (const part of text.split(tokenPattern)) {
+      if (isToken.test(part)) {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'word-token';
+        if (targetWords.has(normalize(part))) button.classList.add('target-word');
+        button.id = `${item.elementId}-word-${tokenIndex++}`;
+        button.textContent = part;
+        button.setAttribute('aria-label', `朗读单词 ${part}`);
+        button.addEventListener('click', () => player.start([{
+          text: part, src: data.audio.words[normalize(part)], elementId: button.id, type: 'word'
+        }], 'word'));
+        line.append(button);
+      } else {
+        line.append(document.createTextNode(part));
+      }
+    }
+    const speaker = document.createElement('button');
+    speaker.type = 'button';
+    speaker.className = 'sentence-play';
+    speaker.innerHTML = icon('volume');
+    speaker.setAttribute('aria-label', `朗读整句：${text}`);
+    speaker.setAttribute('aria-pressed', 'false');
+    speaker.addEventListener('click', () => player.start([item], 'sentence'));
+    line.append(speaker);
+    return line;
+  }
+
+  function renderList(number) {
+    const next = course.lists[number];
+    if (!next) { $('list-select').value = String(currentList); return; }
+    player.stop();
+    currentList = number;
+    data = next;
+    $('list-select').value = String(number);
+    $('current-list').textContent = `List ${number}`;
+    $('content-count').textContent = `${data.vocabulary.length} 个单词 · ${data.examples.length} 条真题例句 · 1 篇短文`;
+    $('vocabulary-grid').replaceChildren();
+    $('examples-content').replaceChildren();
+    $('article-content').replaceChildren();
+    $('translation-content').replaceChildren();
+    translationElements = [$('translation-panel'), $('article-subtitle')];
+    targetWords = new Set([...data.vocabulary.map((entry) => normalize(entry.word)), ...(data.targetForms || [])]);
+    wordItems = data.vocabulary.map((entry, index) => ({text: entry.word, src: entry.audio, elementId: `vocab-${index}`, type: 'word'}));
+    exampleItems = data.examples.map((entry, index) => ({text: entry.text, src: entry.audio, elementId: `example-${index}`, type: 'sentence'}));
+    sentenceItems = [];
+
+    for (const [index, entry] of data.vocabulary.entries()) {
+      const button = document.createElement('button');
+      button.className = 'word-card';
+      button.id = `vocab-${index}`;
+      button.type = 'button';
+      button.setAttribute('aria-label', `朗读单词 ${entry.word}`);
+      const topline = document.createElement('span');
+      topline.className = 'word-topline';
+      const name = document.createElement('span');
+      name.className = 'word-name';
+      name.lang = 'en';
+      name.textContent = entry.word;
+      const sound = document.createElement('span');
+      sound.className = 'word-sound';
+      sound.innerHTML = icon('volume');
+      topline.append(name, sound);
+      const ipa = document.createElement('span');
+      ipa.className = 'word-ipa';
+      ipa.lang = 'en';
+      ipa.textContent = entry.ipa;
+      const meaning = document.createElement('span');
+      meaning.className = 'word-meaning';
+      meaning.textContent = entry.meaning;
+      button.append(topline, ipa, meaning);
+      button.addEventListener('click', () => player.start([wordItems[index]], 'word'));
+      $('vocabulary-grid').append(button);
+    }
+
+    for (const [index, entry] of data.examples.entries()) {
+      const row = document.createElement('article');
+      row.className = 'example-row';
+      const number = document.createElement('span');
+      number.className = 'example-number';
+      number.textContent = String(index + 1).padStart(2, '0');
+      number.setAttribute('aria-hidden', 'true');
+      const body = document.createElement('div');
+      body.className = 'example-body';
+      const translation = document.createElement('p');
+      translation.className = 'example-translation';
+      translation.lang = 'zh-CN';
+      translation.textContent = entry.translation;
+      translationElements.push(translation);
+      body.append(createSentence(entry.text, exampleItems[index]), translation);
+      row.append(number, body);
+      $('examples-content').append(row);
+    }
+
+    $('article-title').textContent = data.title;
+    $('article-subtitle').textContent = data.subtitle;
+    let index = 0;
+    for (const paragraph of data.paragraphs) {
+      const group = document.createElement('div');
+      group.className = 'paragraph-group';
+      for (const text of paragraph) {
+        const clip = data.audio.sentences.find((entry) => entry.text === text);
+        const item = {text, src: clip?.src, elementId: `sentence-${index++}`, type: 'sentence'};
+        sentenceItems.push(item);
+        group.append(createSentence(text, item));
+      }
+      $('article-content').append(group);
+    }
+    for (const text of data.translations) {
+      const paragraph = document.createElement('p');
+      paragraph.textContent = text;
+      $('translation-content').append(paragraph);
+    }
+    updateTranslations();
+    storePreference('english-reader-list', String(number));
+  }
 
   class AudioPlayer {
     constructor() {
@@ -126,6 +179,7 @@
     }
     start(items, mode) {
       this.stop();
+      $('notice').hidden = true;
       this.items = items;
       this.mode = mode;
       this.index = 0;
@@ -148,6 +202,7 @@
       $('player-count').textContent = this.items.length > 1 ? `${String(this.index + 1).padStart(2, '0')} / ${this.items.length}` : '';
       $('screen-reader-status').textContent = `正在朗读：${item.text}`;
       this.updateButtons();
+      if (!item.src) return this.fail();
       this.audio.src = item.src;
       this.audio.playbackRate = Number($('speed').value);
       try {
@@ -167,12 +222,15 @@
       }
     }
     updateButtons() {
-      const vocabActive = this.mode === 'vocabulary' && this.items.length > 0;
-      const articleActive = this.mode === 'reading' && this.items.length > 0;
-      $('play-vocabulary').innerHTML = icon(vocabActive ? 'stop' : 'play') + `<span>${vocabActive ? '停止朗读' : '依次朗读'}</span>`;
-      $('play-reading').innerHTML = icon(articleActive ? 'stop' : 'play') + `<span>${articleActive ? '停止朗读' : '朗读文章'}</span>`;
-      $('play-vocabulary').setAttribute('aria-pressed', String(vocabActive));
-      $('play-reading').setAttribute('aria-pressed', String(articleActive));
+      for (const [mode, id, label] of [
+        ['vocabulary', 'play-vocabulary', '依次朗读'],
+        ['examples', 'play-examples', '依次朗读'],
+        ['reading', 'play-reading', '朗读短文']
+      ]) {
+        const active = this.mode === mode && this.items.length > 0;
+        $(id).innerHTML = icon(active ? 'stop' : 'play') + `<span>${active ? '停止朗读' : label}</span>`;
+        $(id).setAttribute('aria-pressed', String(active));
+      }
     }
     stop() {
       this.generation++;
@@ -198,19 +256,36 @@
   }
 
   const player = new AudioPlayer();
-  player.updateButtons();
-  $('play-vocabulary').addEventListener('click', () => {
-    if (player.mode === 'vocabulary') player.stop();
-    else player.start(wordItems, 'vocabulary');
-  });
-  $('play-reading').addEventListener('click', () => {
-    if (player.mode === 'reading') player.stop();
-    else player.start(sentenceItems, 'reading');
-  });
+  for (let number = 1; number <= course.totalLists; number++) {
+    const option = document.createElement('option');
+    option.value = String(number);
+    option.disabled = !course.lists[number];
+    option.textContent = `List ${number}${option.disabled ? ' · 待添加' : ''}`;
+    $('list-select').append(option);
+  }
+  const available = Object.keys(course.lists).map(Number).sort((a, b) => a - b);
+  $('list-availability').textContent = `共 ${course.totalLists} 个 List，目前已添加 ${available.map((n) => `List ${n}`).join('、')}。`;
+  const storedList = Number(readPreference('english-reader-list', '1'));
+  renderList(course.lists[storedList] ? storedList : available[0]);
+  $('list-select').addEventListener('change', () => renderList(Number($('list-select').value)));
+  for (const [mode, id, getItems] of [
+    ['vocabulary', 'play-vocabulary', () => wordItems],
+    ['examples', 'play-examples', () => exampleItems],
+    ['reading', 'play-reading', () => sentenceItems]
+  ]) {
+    $(id).addEventListener('click', () => {
+      if (player.mode === mode) player.stop();
+      else player.start(getItems(), mode);
+    });
+  }
   $('stop-reading').addEventListener('click', () => player.stop());
   $('speed').addEventListener('change', () => {
     player.audio.playbackRate = Number($('speed').value);
     storePreference('garden-reader-speed', $('speed').value);
+  });
+  $('show-translation').addEventListener('change', () => {
+    updateTranslations();
+    storePreference('garden-reader-translation', String($('show-translation').checked));
   });
   document.addEventListener('keydown', (event) => { if (event.key === 'Escape') player.stop(); });
   window.addEventListener('pagehide', () => player.stop());

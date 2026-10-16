@@ -1,0 +1,3129 @@
+{
+  "version": "20261016-list1",
+  "source_file": "new-reading.m4a",
+  "source_sha256": "2e45c8ecb88320e6110c2c9d8783a91c4acee8855b44aaab08ff24c9b5feb613",
+  "transcript_sha256": "65fda19ba750dc4e0463645e282587fca49ae21875d089c60075771891d1e32c",
+  "sentences": [
+    {
+      "text": "By comparison, an earthquake of similar intensity that shook America in 1988 claimed 25,000 victims.",
+      "spoken_text": "By comparison, an earthquake of similar intensity that shook America in nineteen eighty-eight claimed twenty-five thousand victims.",
+      "src": "audio/20261016-list1/examples/01.mp3",
+      "source_start": 0,
+      "source_end": 8.735,
+      "rate": 0.8,
+      "first_srt_row": 0,
+      "last_srt_row": 1,
+      "sha256": "3067ec12529abed9ccbdb7e14851721a9af03ce573712bc710c0f56f745ea3e3"
+    },
+    {
+      "text": "Thus for rats, population and violence are directly related.",
+      "spoken_text": "Thus for rats, population and violence are directly related.",
+      "src": "audio/20261016-list1/examples/02.mp3",
+      "source_start": 8.735,
+      "source_end": 13.4995,
+      "rate": 0.8,
+      "first_srt_row": 2,
+      "last_srt_row": 2,
+      "sha256": "c86d2c2002bbfb639223ea17d42e89d9260c6557da56abc2c20a37f8ceebca3f"
+    },
+    {
+      "text": "The saying \"Shared sorrow is half a sorrow, shared joy is double joy\" points out the importance of emotional help.",
+      "spoken_text": "The saying \"Shared sorrow is half a sorrow, shared joy is double joy\" points out the importance of emotional help.",
+      "src": "audio/20261016-list1/examples/03.mp3",
+      "source_start": 13.4995,
+      "source_end": 21.889,
+      "rate": 0.8,
+      "first_srt_row": 3,
+      "last_srt_row": 4,
+      "sha256": "b25e0b1b6d30c091389ab1e7f20dc4dc0ad40b1a297e1d9bd771ad807f3de9db"
+    },
+    {
+      "text": "Whether you volunteer at your local youth group or take dogs from shelters for a walk, the simple fact that you are giving up your time to help someone else is incredible.",
+      "spoken_text": "Whether you volunteer at your local youth group or take dogs from shelters for a walk, the simple fact that you are giving up your time to help someone else is incredible.",
+      "src": "audio/20261016-list1/examples/04.mp3",
+      "source_start": 21.889,
+      "source_end": 32.6445,
+      "rate": 0.8,
+      "first_srt_row": 5,
+      "last_srt_row": 7,
+      "sha256": "4bfc729d941161a4530c615243a671d2c26f7477e49758ff1ea48b24f18949e1"
+    },
+    {
+      "text": "Her technique for making space is to go through things by category, starting with clothing, then books, papers, tiny objects, and finally, memorable items.",
+      "spoken_text": "Her technique for making space is to go through things by category, starting with clothing, then books, papers, tiny objects, and finally, memorable items.",
+      "src": "audio/20261016-list1/examples/05.mp3",
+      "source_start": 32.6445,
+      "source_end": 43.6195,
+      "rate": 0.8,
+      "first_srt_row": 8,
+      "last_srt_row": 9,
+      "sha256": "f82a61bff478e74f107b72795b68309764ebe3bd577b20c6c6f89d166f0adcb8"
+    },
+    {
+      "text": "We can find many sports facilities on the playground of this primary school.",
+      "spoken_text": "We can find many sports facilities on the playground of this primary school.",
+      "src": "audio/20261016-list1/examples/06.mp3",
+      "source_start": 43.6195,
+      "source_end": 48.08,
+      "rate": 0.8,
+      "first_srt_row": 10,
+      "last_srt_row": 10,
+      "sha256": "65102677a9f5fe2e2beb610bd331aba341d2bb02f172aa79ceab85d8fc064d43"
+    },
+    {
+      "text": "Hers was an old family; her ancestors had come to the United States 200 years before.",
+      "spoken_text": "Hers was an old family; her ancestors had come to the United States two hundred years before.",
+      "src": "audio/20261016-list1/examples/07.mp3",
+      "source_start": 48.08,
+      "source_end": 54.4895,
+      "rate": 0.8,
+      "first_srt_row": 11,
+      "last_srt_row": 12,
+      "sha256": "c7b0ec126b17e1fb59ac652ebf9b12ad12d319e4d4a90d201e67a5705f0dc6c9"
+    },
+    {
+      "text": "Compared with last year, our summer crops output has increased by 10 percent.",
+      "spoken_text": "Compared with last year, our summer crops output has increased by ten percent.",
+      "src": "audio/20261016-list1/examples/08.mp3",
+      "source_start": 54.4895,
+      "source_end": 59.694,
+      "rate": 0.8,
+      "first_srt_row": 13,
+      "last_srt_row": 13,
+      "sha256": "bbde3b8467454158a86eb5fb7a6d3375c9dbfea6886d4d01269f3a49bead13e5"
+    },
+    {
+      "text": "Later, people tried to lift a building off its foundation, and insert rubber and steel between the building and its foundation to reduce the impact of ground vibrations.",
+      "spoken_text": "Later, people tried to lift a building off its foundation, and insert rubber and steel between the building and its foundation to reduce the impact of ground vibrations.",
+      "src": "audio/20261016-list1/examples/09.mp3",
+      "source_start": 59.694,
+      "source_end": 70.439,
+      "rate": 0.8,
+      "first_srt_row": 14,
+      "last_srt_row": 16,
+      "sha256": "58f26eb65e47048a8b0941a4c53247cf5ed00115b01efb1eab59ec56704e4432"
+    },
+    {
+      "text": "In the past, making structures quake-resistant meant firm yet flexible materials, such as steel and wood, that bent without breaking.",
+      "spoken_text": "In the past, making structures quake-resistant meant firm yet flexible materials, such as steel and wood, that bent without breaking.",
+      "src": "audio/20261016-list1/examples/10.mp3",
+      "source_start": 70.439,
+      "source_end": 79.8195,
+      "rate": 0.8,
+      "first_srt_row": 17,
+      "last_srt_row": 18,
+      "sha256": "f4fc094c1e4741ad72eaa3ce8e392b3983666184bbf0e13aadd2977f292660a1"
+    },
+    {
+      "text": "Cooper spoke with the Associated Press from Barcelona, Spain, where he attended the Mobile World Congress (MWC), the biggest telecom industry trade show.",
+      "spoken_text": "Cooper spoke with the Associated Press from Barcelona, Spain, where he attended the Mobile World Congress (M W C), the biggest telecom industry trade show.",
+      "src": "audio/20261016-list1/examples/11.mp3",
+      "source_start": 79.8195,
+      "source_end": 90.16499999999999,
+      "rate": 0.8,
+      "first_srt_row": 19,
+      "last_srt_row": 20,
+      "sha256": "92f65dad99461d40a6fa76c27cd8d074aacfb9056907a3db4a70de4b3f72a13e"
+    },
+    {
+      "text": "Nishinari’s previous research showed that ants can maintain their flow even at high densities.",
+      "spoken_text": "Nishinari’s previous research showed that ants can maintain their flow even at high densities.",
+      "src": "audio/20261016-list1/examples/12.mp3",
+      "source_start": 90.16499999999999,
+      "source_end": 96.354,
+      "rate": 0.8,
+      "first_srt_row": 21,
+      "last_srt_row": 22,
+      "sha256": "575252ff938aa6e163e888c1239ee1b43c093417cdb47fb1c0a73f24aa669d69"
+    },
+    {
+      "text": "Focusing on our health is particularly crucial.",
+      "spoken_text": "Focusing on our health is particularly crucial.",
+      "src": "audio/20261016-list1/examples/13.mp3",
+      "source_start": 96.354,
+      "source_end": 99.72399999999999,
+      "rate": 0.8,
+      "first_srt_row": 23,
+      "last_srt_row": 23,
+      "sha256": "6838ff04ba040314fc7ca3a504ebee135d098462c96c785e933dd62a75dfe930"
+    },
+    {
+      "text": "Kondo stresses that it is not about throwing things away, but about finding the things you want to remain with you and striking a balance between personal joy and possessions.",
+      "spoken_text": "Kondo stresses that it is not about throwing things away, but about finding the things you want to remain with you and striking a balance between personal joy and possessions.",
+      "src": "audio/20261016-list1/examples/14.mp3",
+      "source_start": 99.72399999999999,
+      "source_end": 110.439,
+      "rate": 0.8,
+      "first_srt_row": 24,
+      "last_srt_row": 26,
+      "sha256": "1882bf1443e1d5151c1aceab8dc83df123efdbade88262c2e2272f852ab988e5"
+    },
+    {
+      "text": "You win, lose, or tie.",
+      "spoken_text": "You win, lose, or tie.",
+      "src": "audio/20261016-list1/examples/15.mp3",
+      "source_start": 110.439,
+      "source_end": 113.114,
+      "rate": 0.8,
+      "first_srt_row": 27,
+      "last_srt_row": 27,
+      "sha256": "1b35021214772ee2008184a2868f0d26587f98ac49d96c390719e802240931b1"
+    }
+  ],
+  "words": [
+    {
+      "text": "that",
+      "key": "that",
+      "spoken_text": "that.",
+      "src": "audio/20261016-list1/words/that.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "9854ec58fbf46771b50c2b620c922d990c82da5330d5376d7fc0aee649b5246e",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 5555410,
+          "text": "that"
+        }
+      ]
+    },
+    {
+      "text": "similar",
+      "key": "similar",
+      "spoken_text": "similar.",
+      "src": "audio/20261016-list1/words/similar.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "e16bc61a96d26df8a0991432e662316f5b36455febf21d79d6dddbf3e5b58f43",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 7638750,
+          "text": "similar"
+        }
+      ]
+    },
+    {
+      "text": "earthquake",
+      "key": "earthquake",
+      "spoken_text": "earthquake.",
+      "src": "audio/20261016-list1/words/earthquake.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "8af50c2014c4e82fb4de78522e893da3387e83abfbbefc8e4c5bb8820e905bb4",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 9861250,
+          "text": "earthquake"
+        }
+      ]
+    },
+    {
+      "text": "intensity",
+      "key": "intensity",
+      "spoken_text": "intensity.",
+      "src": "audio/20261016-list1/words/intensity.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "2afc4104af348f473dfef7398b4cb123b8f98d7139fd2e64b8d0ff1f405dcb18",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 11111250,
+          "text": "intensity"
+        }
+      ]
+    },
+    {
+      "text": "comparison",
+      "key": "comparison",
+      "spoken_text": "comparison.",
+      "src": "audio/20261016-list1/words/comparison.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "8e64f81a0b1d6450b6da1a0f50bca21c72309f8e9b5724b81b8b9dcf093d09ae",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 11250000,
+          "text": "comparison"
+        }
+      ]
+    },
+    {
+      "text": "in",
+      "key": "in",
+      "spoken_text": "in.",
+      "src": "audio/20261016-list1/words/in.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "da04e5698aa2e4bb39ba9616eb3c2cf2e5047b13ce24b5c37b4ca70c51fa5056",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 4166660,
+          "text": "in"
+        }
+      ]
+    },
+    {
+      "text": "claimed",
+      "key": "claimed",
+      "spoken_text": "claimed.",
+      "src": "audio/20261016-list1/words/claimed.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "b345d269adf6d26c0f9492cd5ac7b1fe40ca2f51965884fe9e8164f264bc1fe5",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 7222080,
+          "text": "claimed"
+        }
+      ]
+    },
+    {
+      "text": "shook",
+      "key": "shook",
+      "spoken_text": "shook.",
+      "src": "audio/20261016-list1/words/shook.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "091c8162cb69fe9049c4bf604df4d1fd11f61ca3eb517b5b8cb693c6e9af40a2",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 5972080,
+          "text": "shook"
+        }
+      ]
+    },
+    {
+      "text": "1988",
+      "key": "1988",
+      "spoken_text": "nineteen eighty-eight.",
+      "src": "audio/20261016-list1/words/1988.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "ddf2a1de4df9df8b54cd155999c1d2322de51fba47e6ef4aaffe45d5d2112058",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 6944580,
+          "text": "nineteen"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 8416660,
+          "duration": 8750000,
+          "text": "eighty-eight"
+        }
+      ]
+    },
+    {
+      "text": "America",
+      "key": "america",
+      "spoken_text": "America.",
+      "src": "audio/20261016-list1/words/america.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "c19e7fdbd81290bf5ce8b77779e36312fc9d3e9603223b711ba34709f9b7699f",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 9027910,
+          "text": "America"
+        }
+      ]
+    },
+    {
+      "text": "Thus",
+      "key": "thus",
+      "spoken_text": "Thus.",
+      "src": "audio/20261016-list1/words/thus.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "c26a76a3a46946ab5bc9e1b9c365608a490bbea1e76317f435f1ad43b99fac94",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 5694580,
+          "text": "Thus"
+        }
+      ]
+    },
+    {
+      "text": "victims",
+      "key": "victims",
+      "spoken_text": "victims.",
+      "src": "audio/20261016-list1/words/victims.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "2c7169d7c0068ebd6c48bbaf9a0bb80c61a0362e34079b85e95a09d86d5f6e7d",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 9027910,
+          "text": "victims"
+        }
+      ]
+    },
+    {
+      "text": "rats",
+      "key": "rats",
+      "spoken_text": "rats.",
+      "src": "audio/20261016-list1/words/rats.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "5f120b665e21685f62e0ed91a7f64a5685e4edba355d8ddcee8fd6e219f8f1f5",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 6805410,
+          "text": "rats"
+        }
+      ]
+    },
+    {
+      "text": "for",
+      "key": "for",
+      "spoken_text": "for.",
+      "src": "audio/20261016-list1/words/for.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "a8a132e2a2bc1751a76abb5016bf3fe67bf103fcf9227ed6ef5cd931099ad160",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 5833330,
+          "text": "for"
+        }
+      ]
+    },
+    {
+      "text": "25,000",
+      "key": "25,000",
+      "spoken_text": "twenty-five thousand.",
+      "src": "audio/20261016-list1/words/25-000.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "08a28529bcd31c12242a30704cf466d338e8b44cba748145a165f0e53b5d2568",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 8194580,
+          "text": "twenty-five"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 9347080,
+          "duration": 7916660,
+          "text": "thousand"
+        }
+      ]
+    },
+    {
+      "text": "are",
+      "key": "are",
+      "spoken_text": "are.",
+      "src": "audio/20261016-list1/words/are.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "19688acaad3421e603ff66ba33b9aa9e0f8f5124a597b795d8f64ccecf2a2410",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 4305410,
+          "text": "are"
+        }
+      ]
+    },
+    {
+      "text": "population",
+      "key": "population",
+      "spoken_text": "population.",
+      "src": "audio/20261016-list1/words/population.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "32c56cb66ae8cc9ba98a2a7dcc8e061c926485ff3ec2eee7f6709df40f014900",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 11666660,
+          "text": "population"
+        }
+      ]
+    },
+    {
+      "text": "directly",
+      "key": "directly",
+      "spoken_text": "directly.",
+      "src": "audio/20261016-list1/words/directly.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "12c52250ccfca2d53944a61519cdf123a888250cd6dd5b73025df7702c63894c",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 9027910,
+          "text": "directly"
+        }
+      ]
+    },
+    {
+      "text": "saying",
+      "key": "saying",
+      "spoken_text": "saying.",
+      "src": "audio/20261016-list1/words/saying.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "c46fd7787a6cc49c84eaac6e9d7cde6c713d13eec4cbbb2f5acd1d4648ac7fd6",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 6666660,
+          "text": "saying"
+        }
+      ]
+    },
+    {
+      "text": "related",
+      "key": "related",
+      "spoken_text": "related.",
+      "src": "audio/20261016-list1/words/related.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "1a3ad350064bcdd21345c971c0eafc275e28bef577852c95df88e9594a46cb2d",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 8750000,
+          "text": "related"
+        }
+      ]
+    },
+    {
+      "text": "half",
+      "key": "half",
+      "spoken_text": "half.",
+      "src": "audio/20261016-list1/words/half.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "d7a2ea0da2c8a49fa5e6a1477d074e60b32f120008333276773cc27bd9b9c563",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 5694580,
+          "text": "half"
+        }
+      ]
+    },
+    {
+      "text": "joy",
+      "key": "joy",
+      "spoken_text": "joy.",
+      "src": "audio/20261016-list1/words/joy.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "0b4b259e86088ec2d545268ac33b7591291788f98756f492adc7d4455f1df716",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 5694580,
+          "text": "joy"
+        }
+      ]
+    },
+    {
+      "text": "Shared",
+      "key": "shared",
+      "spoken_text": "Shared.",
+      "src": "audio/20261016-list1/words/shared.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "143a6c0d0e39d702ade0f09016d9500b9bcf82cc26d18ffb03bc177ab11a620c",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1041660,
+          "duration": 6388750,
+          "text": "Shared"
+        }
+      ]
+    },
+    {
+      "text": "is",
+      "key": "is",
+      "spoken_text": "is.",
+      "src": "audio/20261016-list1/words/is.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "81b84d7fc2f7a00d550f8969215c83b6b2474eb001ae5a3dfb5ebacee9fd6d33",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 4861250,
+          "text": "is"
+        }
+      ]
+    },
+    {
+      "text": "double",
+      "key": "double",
+      "spoken_text": "double.",
+      "src": "audio/20261016-list1/words/double.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "891b454114b629b205273fecba01a5a49698ffe5b07b0105aa000d7feb8b66cd",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 5833330,
+          "text": "double"
+        }
+      ]
+    },
+    {
+      "text": "Whether",
+      "key": "whether",
+      "spoken_text": "Whether.",
+      "src": "audio/20261016-list1/words/whether.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "1782ab7d25860a7d7bf207626fd5e684ade7cfa7ae086a41f6b21345a819c82c",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1027910,
+          "duration": 6527910,
+          "text": "Whether"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "key": "help",
+      "spoken_text": "help.",
+      "src": "audio/20261016-list1/words/help.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "3d0dc55dd0ec527dfa358838d0607fc7f18831252d677c199c24150db35c719a",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 5972080,
+          "text": "help"
+        }
+      ]
+    },
+    {
+      "text": "emotional",
+      "key": "emotional",
+      "spoken_text": "emotional.",
+      "src": "audio/20261016-list1/words/emotional.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "cc08674387f609b5a8cfee8e06b4f4b1f256a1a81c4f2f74090d87fd7e47d75f",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 9027910,
+          "text": "emotional"
+        }
+      ]
+    },
+    {
+      "text": "points",
+      "key": "points",
+      "spoken_text": "points.",
+      "src": "audio/20261016-list1/words/points.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "8561625bdbab1aadd021e3c5dd31683b39dc7e12248d5659cf6296d50a4f1c7e",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 7361250,
+          "text": "points"
+        }
+      ]
+    },
+    {
+      "text": "importance",
+      "key": "importance",
+      "spoken_text": "importance.",
+      "src": "audio/20261016-list1/words/importance.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "40c53a45c2b86e6ee4f94df20bdaa65483d6686ef04f2c9815470d3d4c081828",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1027910,
+          "duration": 11250000,
+          "text": "importance"
+        }
+      ]
+    },
+    {
+      "text": "you",
+      "key": "you",
+      "spoken_text": "you.",
+      "src": "audio/20261016-list1/words/you.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "0c59149cea856ea21b4d9ac5ae6e59a93feabe678773a21d53942c1047e04ba6",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 4583330,
+          "text": "you"
+        }
+      ]
+    },
+    {
+      "text": "at",
+      "key": "at",
+      "spoken_text": "at.",
+      "src": "audio/20261016-list1/words/at.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "853f88e522fc282c38eb2c6703a50676445e1099706d137dde941f98eb82e0be",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 5000000,
+          "text": "at"
+        }
+      ]
+    },
+    {
+      "text": "local",
+      "key": "local",
+      "spoken_text": "local.",
+      "src": "audio/20261016-list1/words/local.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "b72013dcf12606531398d8380d07c97a7927c8b5837e5c8904823935e9291571",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 7361250,
+          "text": "local"
+        }
+      ]
+    },
+    {
+      "text": "your",
+      "key": "your",
+      "spoken_text": "your.",
+      "src": "audio/20261016-list1/words/your.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "bc4edfd0acabc86c6d7a54229cc4c93643542c25d87acc61a4eb3c9e29b4013b",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1027910,
+          "duration": 5000000,
+          "text": "your"
+        }
+      ]
+    },
+    {
+      "text": "volunteer",
+      "key": "volunteer",
+      "spoken_text": "volunteer.",
+      "src": "audio/20261016-list1/words/volunteer.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "114ce5ebdc1a8fcb26e0d6ee6c48593609ec0b1a727271e89b0b9102ea7d21cf",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 10000000,
+          "text": "volunteer"
+        }
+      ]
+    },
+    {
+      "text": "or",
+      "key": "or",
+      "spoken_text": "or.",
+      "src": "audio/20261016-list1/words/or.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "7df507e31a8a936015838a3e54624c600d164caaef1dd3f4e4a093171085190a",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 5138750,
+          "text": "or"
+        }
+      ]
+    },
+    {
+      "text": "group",
+      "key": "group",
+      "spoken_text": "group.",
+      "src": "audio/20261016-list1/words/group.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "19794d53ebc98285bbbc7bc46bb795acf7fa552453f932163987a4c52a4f1a8a",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 6527910,
+          "text": "group"
+        }
+      ]
+    },
+    {
+      "text": "take",
+      "key": "take",
+      "spoken_text": "take.",
+      "src": "audio/20261016-list1/words/take.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "f79bb9215b9fe09e98b024c1ce7a798acb1c6743f02549c17a0ecbc83262c70d",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1027910,
+          "duration": 6111250,
+          "text": "take"
+        }
+      ]
+    },
+    {
+      "text": "youth",
+      "key": "youth",
+      "spoken_text": "youth.",
+      "src": "audio/20261016-list1/words/youth.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "91b8bd921254636d1942719857731e2a424abc7fc618a46999b2ea75aecd5460",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 5555410,
+          "text": "youth"
+        }
+      ]
+    },
+    {
+      "text": "dogs",
+      "key": "dogs",
+      "spoken_text": "dogs.",
+      "src": "audio/20261016-list1/words/dogs.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "3795a226ea05b550f28b6f2d3922bb633120cf0c80bd3bd76aff504519869021",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 6805410,
+          "text": "dogs"
+        }
+      ]
+    },
+    {
+      "text": "fact",
+      "key": "fact",
+      "spoken_text": "fact.",
+      "src": "audio/20261016-list1/words/fact.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "d3015fd72fb25f9bdd7d22994f01e10966043a6760afd212651519ab0f3d026e",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 6805410,
+          "text": "fact"
+        }
+      ]
+    },
+    {
+      "text": "giving",
+      "key": "giving",
+      "spoken_text": "giving.",
+      "src": "audio/20261016-list1/words/giving.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "b619fb9f73fe056e0b6a5f8274f5f746d6b40ff2327185b5f70714cd66e9e9ab",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 6250000,
+          "text": "giving"
+        }
+      ]
+    },
+    {
+      "text": "simple",
+      "key": "simple",
+      "spoken_text": "simple.",
+      "src": "audio/20261016-list1/words/simple.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "1364052b6e88b5d70f4f719cae731da7c4df55dcd084899d1e3fffcddaf90b2a",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 7638750,
+          "text": "simple"
+        }
+      ]
+    },
+    {
+      "text": "from",
+      "key": "from",
+      "spoken_text": "from.",
+      "src": "audio/20261016-list1/words/from.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "1a8a54f1a38da18a092a73367c7d18d3ddefb80c33e3058e097f8a3f82902b88",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 5833330,
+          "text": "from"
+        }
+      ]
+    },
+    {
+      "text": "shelters",
+      "key": "shelters",
+      "spoken_text": "shelters.",
+      "src": "audio/20261016-list1/words/shelters.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "ae3462cd675502657ca63fff7e62a6f7823a38738c1b4b29f9f83448b2d92e78",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 9166660,
+          "text": "shelters"
+        }
+      ]
+    },
+    {
+      "text": "someone",
+      "key": "someone",
+      "spoken_text": "someone.",
+      "src": "audio/20261016-list1/words/someone.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "b9fd7828d345fd9dc6cf2c9b1509d27115134e0531444ea1c755a4d5008560a8",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 7638750,
+          "text": "someone"
+        }
+      ]
+    },
+    {
+      "text": "incredible",
+      "key": "incredible",
+      "spoken_text": "incredible.",
+      "src": "audio/20261016-list1/words/incredible.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "f610dde88d8a533dcbf7f7da48ed6618b42f931f7d1e8617b23d26c4a33c105f",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 9722080,
+          "text": "incredible"
+        }
+      ]
+    },
+    {
+      "text": "up",
+      "key": "up",
+      "spoken_text": "up.",
+      "src": "audio/20261016-list1/words/up.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "19b0f5b453f119fe68c623679be8847b4d9debbf4159fb3e547fb10fc8323d5f",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 4583330,
+          "text": "up"
+        }
+      ]
+    },
+    {
+      "text": "else",
+      "key": "else",
+      "spoken_text": "else.",
+      "src": "audio/20261016-list1/words/else.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "e4f223b9322adf432a68b9adac14a170ba8afbe91821c6822e69dd9a92a577e9",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 6111250,
+          "text": "else"
+        }
+      ]
+    },
+    {
+      "text": "time",
+      "key": "time",
+      "spoken_text": "time.",
+      "src": "audio/20261016-list1/words/time.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "3c2c5eb48b4ddbe548a4a19b4ec67e2fd565b876be0e677c4c35f754cb09ff4e",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 5555410,
+          "text": "time"
+        }
+      ]
+    },
+    {
+      "text": "space",
+      "key": "space",
+      "spoken_text": "space.",
+      "src": "audio/20261016-list1/words/space.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "c54a92ca0e1a9a58b59b04f05b02d19c885d130d36b5122235479a2364f6408b",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 7500000,
+          "text": "space"
+        }
+      ]
+    },
+    {
+      "text": "Her",
+      "key": "her",
+      "spoken_text": "Her.",
+      "src": "audio/20261016-list1/words/her.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "a4b97d07b8fdb98126260cf225a668250e5779d314e22f2a1ac6f5d6cdbe7a4f",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 4722080,
+          "text": "Her"
+        }
+      ]
+    },
+    {
+      "text": "making",
+      "key": "making",
+      "spoken_text": "making.",
+      "src": "audio/20261016-list1/words/making.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "80450564c16d5a30656826fd2751e3ab80856139c5643f7fa38d0fcc1cc5d673",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 7500000,
+          "text": "making"
+        }
+      ]
+    },
+    {
+      "text": "go",
+      "key": "go",
+      "spoken_text": "go.",
+      "src": "audio/20261016-list1/words/go.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "85b57724587a551fc4cb0e94497b1fa05b6b419fbd088f348844f3045123ee20",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 5416660,
+          "text": "go"
+        }
+      ]
+    },
+    {
+      "text": "technique",
+      "key": "technique",
+      "spoken_text": "technique.",
+      "src": "audio/20261016-list1/words/technique.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "ef3511ceddafc4d81b4e73dc3aadc2cc842b6e6966697da7da8903fde8ee8096",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 8472080,
+          "text": "technique"
+        }
+      ]
+    },
+    {
+      "text": "category",
+      "key": "category",
+      "spoken_text": "category.",
+      "src": "audio/20261016-list1/words/category.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "cca573e29523d6acd495066d6812d67757ceb7e0f0d39631b74a90eb0a699279",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1055410,
+          "duration": 8055410,
+          "text": "category"
+        }
+      ]
+    },
+    {
+      "text": "through",
+      "key": "through",
+      "spoken_text": "through.",
+      "src": "audio/20261016-list1/words/through.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "d1889086bc292b20cbbdd4c6ce35675e1a1a6c0c533c4e3cce23b3b1c3430749",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 5694580,
+          "text": "through"
+        }
+      ]
+    },
+    {
+      "text": "starting",
+      "key": "starting",
+      "spoken_text": "starting.",
+      "src": "audio/20261016-list1/words/starting.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "8f08670d156bdc8399e7d98eb5e4f13c3c3b5c8795a0cac9798baca37888816b",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 8333330,
+          "text": "starting"
+        }
+      ]
+    },
+    {
+      "text": "clothing",
+      "key": "clothing",
+      "spoken_text": "clothing.",
+      "src": "audio/20261016-list1/words/clothing.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "ea9bf17d1fcfa706ab12a7f284a2c3c91d5fd8a1e749de83b671ac1d3f3464eb",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 7638750,
+          "text": "clothing"
+        }
+      ]
+    },
+    {
+      "text": "things",
+      "key": "things",
+      "spoken_text": "things.",
+      "src": "audio/20261016-list1/words/things.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "797c3219871c298642c21200b355fd82ba62a554a6f2003fd372808731f12272",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1055410,
+          "duration": 6805410,
+          "text": "things"
+        }
+      ]
+    },
+    {
+      "text": "books",
+      "key": "books",
+      "spoken_text": "books.",
+      "src": "audio/20261016-list1/words/books.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "5f721abb0ae053430f59aeac5f393cb63a6df0b4f85dffa7b6c458f163ae13c6",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 6388750,
+          "text": "books"
+        }
+      ]
+    },
+    {
+      "text": "finally",
+      "key": "finally",
+      "spoken_text": "finally.",
+      "src": "audio/20261016-list1/words/finally.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "64ac6b0f77561dd10021676951bfae867e74486a855b47c66323261fc2c3b755",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 7777910,
+          "text": "finally"
+        }
+      ]
+    },
+    {
+      "text": "then",
+      "key": "then",
+      "spoken_text": "then.",
+      "src": "audio/20261016-list1/words/then.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "2b6ede749be256a5fd460320a94615b65809da2abc478f1362c71570a24bb7e7",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 5277910,
+          "text": "then"
+        }
+      ]
+    },
+    {
+      "text": "papers",
+      "key": "papers",
+      "spoken_text": "papers.",
+      "src": "audio/20261016-list1/words/papers.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "27937d8db6a442616ea5f85bea409d152ddc6b87cea914ce0c6d087585531c9c",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 8055410,
+          "text": "papers"
+        }
+      ]
+    },
+    {
+      "text": "objects",
+      "key": "objects",
+      "spoken_text": "objects.",
+      "src": "audio/20261016-list1/words/objects.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "a2dfe46aa4ed53f2d190c860ea248c0de556f97f22b938d3a52bad1a2a1547aa",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1055410,
+          "duration": 8750000,
+          "text": "objects"
+        }
+      ]
+    },
+    {
+      "text": "items",
+      "key": "items",
+      "spoken_text": "items.",
+      "src": "audio/20261016-list1/words/items.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "6a9ccccb3bbfd3c1fe3b2224c105e397aa4b76ef99287b630d26ae6936b992cc",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 8194580,
+          "text": "items"
+        }
+      ]
+    },
+    {
+      "text": "memorable",
+      "key": "memorable",
+      "spoken_text": "memorable.",
+      "src": "audio/20261016-list1/words/memorable.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "67f92b3a52255bb8e281943619257258cd846f88bd3993d6671ebc66617a779c",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 8888750,
+          "text": "memorable"
+        }
+      ]
+    },
+    {
+      "text": "find",
+      "key": "find",
+      "spoken_text": "find.",
+      "src": "audio/20261016-list1/words/find.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "9825a8504e3fd731fb0190b7c23fae4a1a97affc25d09d8c77dfea2c65065e69",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 7083330,
+          "text": "find"
+        }
+      ]
+    },
+    {
+      "text": "can",
+      "key": "can",
+      "spoken_text": "can.",
+      "src": "audio/20261016-list1/words/can.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "d2038bb811b7e7d56314b7ed1aac024b06356c3302e6d9d5b4a063a2595b1169",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1055410,
+          "duration": 5277910,
+          "text": "can"
+        }
+      ]
+    },
+    {
+      "text": "We",
+      "key": "we",
+      "spoken_text": "We.",
+      "src": "audio/20261016-list1/words/we.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "501eac9d5533f3663b542edb4d4cf8081203d85d04c87ed724788caf8b5c0e83",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 4722080,
+          "text": "We"
+        }
+      ]
+    },
+    {
+      "text": "primary",
+      "key": "primary",
+      "spoken_text": "primary.",
+      "src": "audio/20261016-list1/words/primary.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "a1ea772a427fcd19cbf84a2ae0289d2c2820befd2436bb4bce0f6b4d327353f4",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 7638750,
+          "text": "primary"
+        }
+      ]
+    },
+    {
+      "text": "sports",
+      "key": "sports",
+      "spoken_text": "sports.",
+      "src": "audio/20261016-list1/words/sports.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "26b00efea7ea1c303d903514d43326351c0eec84ad66cacd8abd239fb9e2627e",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 8750000,
+          "text": "sports"
+        }
+      ]
+    },
+    {
+      "text": "many",
+      "key": "many",
+      "spoken_text": "many.",
+      "src": "audio/20261016-list1/words/many.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "6f90b4a9df6a8146cb9d837124270298310932d2d138a84c0ca6a590e7925b56",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 5277910,
+          "text": "many"
+        }
+      ]
+    },
+    {
+      "text": "facilities",
+      "key": "facilities",
+      "spoken_text": "facilities.",
+      "src": "audio/20261016-list1/words/facilities.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "e3476206fc1e626da322d1fa38a4b6035e64621a26036ce2a77026d0ab38ddbf",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 11111250,
+          "text": "facilities"
+        }
+      ]
+    },
+    {
+      "text": "this",
+      "key": "this",
+      "spoken_text": "this.",
+      "src": "audio/20261016-list1/words/this.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "ae54f3a8f381ab5dc71d71550b270a00c61946793dc7822f5656ca5b43e3b8ff",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 5416660,
+          "text": "this"
+        }
+      ]
+    },
+    {
+      "text": "family",
+      "key": "family",
+      "spoken_text": "family.",
+      "src": "audio/20261016-list1/words/family.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "7ac59d23d2f9efb0a5d4590c542e616cd04caedb8832777aedbfde21924fffab",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 7222080,
+          "text": "family"
+        }
+      ]
+    },
+    {
+      "text": "Hers",
+      "key": "hers",
+      "spoken_text": "Hers.",
+      "src": "audio/20261016-list1/words/hers.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "c0c93a3ebaf317ad87529fd5b53f6983afe660dd9b76db607e381d261d26a58b",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1041660,
+          "duration": 6666660,
+          "text": "Hers"
+        }
+      ]
+    },
+    {
+      "text": "old",
+      "key": "old",
+      "spoken_text": "old.",
+      "src": "audio/20261016-list1/words/old.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "b0ce456be384fc759f00e0b563d34ab242bcb7350e973ee490ffb3320b9aedf0",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 5555410,
+          "text": "old"
+        }
+      ]
+    },
+    {
+      "text": "ancestors",
+      "key": "ancestors",
+      "spoken_text": "ancestors.",
+      "src": "audio/20261016-list1/words/ancestors.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "1e854dcde408a40ae9ece9018e0bcfc21abd462f58e5a8ea35e8c3bb2ca48780",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 10833330,
+          "text": "ancestors"
+        }
+      ]
+    },
+    {
+      "text": "school",
+      "key": "school",
+      "spoken_text": "school.",
+      "src": "audio/20261016-list1/words/school.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "267efc71c04c2ff6a448e76dfe0a1748409645caa80d1d0fa2f78c031ddce0cc",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 6666660,
+          "text": "school"
+        }
+      ]
+    },
+    {
+      "text": "200",
+      "key": "200",
+      "spoken_text": "two hundred.",
+      "src": "audio/20261016-list1/words/200.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "9171676004fd0647ea68538a0517de35fd2245b24b3db0bda39f7e777a2bc89c",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 3333330,
+          "text": "two"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 4486250,
+          "duration": 7222080,
+          "text": "hundred"
+        }
+      ]
+    },
+    {
+      "text": "come",
+      "key": "come",
+      "spoken_text": "come.",
+      "src": "audio/20261016-list1/words/come.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "7a45e0ed1e71bc25bd96b233e976ebaf71ee41492e84b86499d3809fe34b9762",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 4722080,
+          "text": "come"
+        }
+      ]
+    },
+    {
+      "text": "had",
+      "key": "had",
+      "spoken_text": "had.",
+      "src": "audio/20261016-list1/words/had.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "6c2df0f4c2792bc213abb5e8b6dfa6fa326bd6b6b41ce7d550ea75b5809fd739",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 5138750,
+          "text": "had"
+        }
+      ]
+    },
+    {
+      "text": "United",
+      "key": "united",
+      "spoken_text": "United.",
+      "src": "audio/20261016-list1/words/united.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "c908c583b737fd80e8ba03700638ee483c698f66e1e25f3a2b18acc386b3b594",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 8888750,
+          "text": "United"
+        }
+      ]
+    },
+    {
+      "text": "States",
+      "key": "states",
+      "spoken_text": "States.",
+      "src": "audio/20261016-list1/words/states.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "bf2c68b1dc8347f231d5a3c265bcc42cf4a7bb5a4904229a4536c3766fd4ab9a",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 8055410,
+          "text": "States"
+        }
+      ]
+    },
+    {
+      "text": "before",
+      "key": "before",
+      "spoken_text": "before.",
+      "src": "audio/20261016-list1/words/before.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "158a500ec949553850347f2f49e824974d7ae1fb0cc82cf40f4cf0be1f93ff73",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 7500000,
+          "text": "before"
+        }
+      ]
+    },
+    {
+      "text": "year",
+      "key": "year",
+      "spoken_text": "year.",
+      "src": "audio/20261016-list1/words/year.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "0142d4fbed7ab68bf74b6cb53a1f98093b28477b2ec678b564032ab050812e5b",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 4583330,
+          "text": "year"
+        }
+      ]
+    },
+    {
+      "text": "years",
+      "key": "years",
+      "spoken_text": "years.",
+      "src": "audio/20261016-list1/words/years.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "4f126746c31a55ff6aa95f11844ceeaa237b2c8e99e40ff3ee8953eb7cb7c658",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1027910,
+          "duration": 6388750,
+          "text": "years"
+        }
+      ]
+    },
+    {
+      "text": "Compared",
+      "key": "compared",
+      "spoken_text": "Compared.",
+      "src": "audio/20261016-list1/words/compared.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "3fedbd0f01c1ec79a0ebee13fb1f6f7530ee611fd43719fea0427ac8bb3f48d7",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 8750000,
+          "text": "Compared"
+        }
+      ]
+    },
+    {
+      "text": "last",
+      "key": "last",
+      "spoken_text": "last.",
+      "src": "audio/20261016-list1/words/last.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "97ea740789a212880d05e68faf659f281bda796477f7496d989a00a2ceedc825",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 6805410,
+          "text": "last"
+        }
+      ]
+    },
+    {
+      "text": "our",
+      "key": "our",
+      "spoken_text": "our.",
+      "src": "audio/20261016-list1/words/our.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "96d5760d8ba4d21afca2ac369fd3290c6403eab777db6b711230e1e2d0ffe551",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 5972080,
+          "text": "our"
+        }
+      ]
+    },
+    {
+      "text": "summer",
+      "key": "summer",
+      "spoken_text": "summer.",
+      "src": "audio/20261016-list1/words/summer.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "f8b7770730eec490a896e2d1cb2a1907fcef6e3be576618f4ec9a011b52b387d",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 6250000,
+          "text": "summer"
+        }
+      ]
+    },
+    {
+      "text": "has",
+      "key": "has",
+      "spoken_text": "has.",
+      "src": "audio/20261016-list1/words/has.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "849fb862415e8cafeb2736aae4d5c50d992a68306a3edac55eb251a5230f27e7",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 5555410,
+          "text": "has"
+        }
+      ]
+    },
+    {
+      "text": "output",
+      "key": "output",
+      "spoken_text": "output.",
+      "src": "audio/20261016-list1/words/output.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "7b5b9ede5a529e5a0b45c891388432c40c08fb43d2970d142c68330b4c027601",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1041660,
+          "duration": 8750000,
+          "text": "output"
+        }
+      ]
+    },
+    {
+      "text": "crops",
+      "key": "crops",
+      "spoken_text": "crops.",
+      "src": "audio/20261016-list1/words/crops.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "e56f969aa96865d95f886743e32d9414ad5d56ae7ff4a449d7bb5bf7f268c21d",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 7777910,
+          "text": "crops"
+        }
+      ]
+    },
+    {
+      "text": "10",
+      "key": "10",
+      "spoken_text": "ten.",
+      "src": "audio/20261016-list1/words/10.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "cc27a721a06fb50e3d9b57bc8c28cdf5b2efcbc503568580f8fc89fcf712cce9",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 5138750,
+          "text": "ten"
+        }
+      ]
+    },
+    {
+      "text": "people",
+      "key": "people",
+      "spoken_text": "people.",
+      "src": "audio/20261016-list1/words/people.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "c45fccc213611a9667a82f2c563616c32007b22fc963baac17cafac14c28106d",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 6944580,
+          "text": "people"
+        }
+      ]
+    },
+    {
+      "text": "Later",
+      "key": "later",
+      "spoken_text": "Later.",
+      "src": "audio/20261016-list1/words/later.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "485748eb334133a88695f3f488782aca20ed7efe84de698487061d80d7a83ba7",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 7083330,
+          "text": "Later"
+        }
+      ]
+    },
+    {
+      "text": "increased",
+      "key": "increased",
+      "spoken_text": "increased.",
+      "src": "audio/20261016-list1/words/increased.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "e9e00cfab603b72c1afa3035611441d647f2157d5c014379505fd3e3737b1b24",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 9027910,
+          "text": "increased"
+        }
+      ]
+    },
+    {
+      "text": "percent",
+      "key": "percent",
+      "spoken_text": "percent.",
+      "src": "audio/20261016-list1/words/percent.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "4a37fa77b1a18e327de994437abc0bb41a0781422a127a116307feb6555d0d27",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 7638750,
+          "text": "percent"
+        }
+      ]
+    },
+    {
+      "text": "off",
+      "key": "off",
+      "spoken_text": "off.",
+      "src": "audio/20261016-list1/words/off.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "5afe9e7a3e23b1a90394197bd43816c32d8e5425dd34f22050b26ed7fa4dfa0a",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 4861250,
+          "text": "off"
+        }
+      ]
+    },
+    {
+      "text": "building",
+      "key": "building",
+      "spoken_text": "building.",
+      "src": "audio/20261016-list1/words/building.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "d46a2ff10ddeee6a5388bfa3e6806b6855007afa80db809e3ba308223af437e4",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 7222080,
+          "text": "building"
+        }
+      ]
+    },
+    {
+      "text": "its",
+      "key": "its",
+      "spoken_text": "its.",
+      "src": "audio/20261016-list1/words/its.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "fa68b21d87fd3735d65e7a1c87d6d5fac2a7bdeca54d7ce0277e25aeaa1a4967",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 5138750,
+          "text": "its"
+        }
+      ]
+    },
+    {
+      "text": "lift",
+      "key": "lift",
+      "spoken_text": "lift.",
+      "src": "audio/20261016-list1/words/lift.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "c7ef7ee1338c0e492c733e8923a8055caf49c29704ee189e73ba444ed8387cf8",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1055410,
+          "duration": 6527910,
+          "text": "lift"
+        }
+      ]
+    },
+    {
+      "text": "tried",
+      "key": "tried",
+      "spoken_text": "tried.",
+      "src": "audio/20261016-list1/words/tried.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "5d0ef4f79c5af1f0c7cb8257d5ea32aa707552fe9b48407febc92385dcd0f3b2",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 6527910,
+          "text": "tried"
+        }
+      ]
+    },
+    {
+      "text": "rubber",
+      "key": "rubber",
+      "spoken_text": "rubber.",
+      "src": "audio/20261016-list1/words/rubber.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "f3bf688f82bd771ccd770efb48f7319d8b5ab69f4def490b21f0d4896b92b730",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 6527910,
+          "text": "rubber"
+        }
+      ]
+    },
+    {
+      "text": "foundation",
+      "key": "foundation",
+      "spoken_text": "foundation.",
+      "src": "audio/20261016-list1/words/foundation.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "363dcff9ddc014b92f4a554698335d47d6e5df778f2c512966999b0beefd2191",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 10416660,
+          "text": "foundation"
+        }
+      ]
+    },
+    {
+      "text": "between",
+      "key": "between",
+      "spoken_text": "between.",
+      "src": "audio/20261016-list1/words/between.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "a8779a41c82cdf9edf2f78500200f3633f1b93893b445b653f25e2e2a2da87d8",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 7361250,
+          "text": "between"
+        }
+      ]
+    },
+    {
+      "text": "insert",
+      "key": "insert",
+      "spoken_text": "insert.",
+      "src": "audio/20261016-list1/words/insert.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "34716e18c37c68fa2ad2e3b3048db19bbaf94b48be24e8c2c8f22eea3be30f55",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 8333330,
+          "text": "insert"
+        }
+      ]
+    },
+    {
+      "text": "reduce",
+      "key": "reduce",
+      "spoken_text": "reduce.",
+      "src": "audio/20261016-list1/words/reduce.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "b9328159f7dd17ee04f690373b7a303f4eef3b7007283c6fa799b4514e062a5c",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 8333330,
+          "text": "reduce"
+        }
+      ]
+    },
+    {
+      "text": "structures",
+      "key": "structures",
+      "spoken_text": "structures.",
+      "src": "audio/20261016-list1/words/structures.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "c5b70d9436b75b4d83a1b62bb48ff0f9a2483a1ee4f2087d74ba2cc3740c1321",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 10000000,
+          "text": "structures"
+        }
+      ]
+    },
+    {
+      "text": "past",
+      "key": "past",
+      "spoken_text": "past.",
+      "src": "audio/20261016-list1/words/past.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "67337ae75d375af48df60d29170fb76db06b929fc7e89fac5c97c39a0066c958",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 6666660,
+          "text": "past"
+        }
+      ]
+    },
+    {
+      "text": "ground",
+      "key": "ground",
+      "spoken_text": "ground.",
+      "src": "audio/20261016-list1/words/ground.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "cdc0f1c39e439597ed4aa79c1b133687a8b6355328346e3ab7864d609f6da80d",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 7500000,
+          "text": "ground"
+        }
+      ]
+    },
+    {
+      "text": "vibrations",
+      "key": "vibrations",
+      "spoken_text": "vibrations.",
+      "src": "audio/20261016-list1/words/vibrations.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "4ea7e1cec0801eeb539df79afb7120c5fe1ec702a6ce9c6f5b5a0e771265afa3",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1027910,
+          "duration": 11944580,
+          "text": "vibrations"
+        }
+      ]
+    },
+    {
+      "text": "impact",
+      "key": "impact",
+      "spoken_text": "impact.",
+      "src": "audio/20261016-list1/words/impact.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "d8c376d2912d3e1cbdd0cb662af2faf9d1cab0e3cb4c7622149708260884cb0e",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 8333330,
+          "text": "impact"
+        }
+      ]
+    },
+    {
+      "text": "yet",
+      "key": "yet",
+      "spoken_text": "yet.",
+      "src": "audio/20261016-list1/words/yet.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "829bc9a4ffb5dc606f231f0af8b12f8530a1cb6bd2941194d34a6a4d0ae9ae81",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 5416660,
+          "text": "yet"
+        }
+      ]
+    },
+    {
+      "text": "firm",
+      "key": "firm",
+      "spoken_text": "firm.",
+      "src": "audio/20261016-list1/words/firm.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "516e59c894cdb38c097cade61261a24beefefec4cfb9c476b218597c2814dda3",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1055410,
+          "duration": 6250000,
+          "text": "firm"
+        }
+      ]
+    },
+    {
+      "text": "flexible",
+      "key": "flexible",
+      "spoken_text": "flexible.",
+      "src": "audio/20261016-list1/words/flexible.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "c8605969c8e8b269339acc2d79e15ccc729d84be3c3fb43c69ee1fa298421777",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 9722080,
+          "text": "flexible"
+        }
+      ]
+    },
+    {
+      "text": "meant",
+      "key": "meant",
+      "spoken_text": "meant.",
+      "src": "audio/20261016-list1/words/meant.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "03ee1937d25266ed1f95a50a805844f8f188e33082d3e7703b81a0feca67d4b5",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 6111250,
+          "text": "meant"
+        }
+      ]
+    },
+    {
+      "text": "quake-resistant",
+      "key": "quake-resistant",
+      "spoken_text": "quake-resistant.",
+      "src": "audio/20261016-list1/words/quake-resistant.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "f4849a43e456cc5873be2a8dbe95caf46db29d557658ea4d60c768474f874899",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 13888750,
+          "text": "quake-resistant"
+        }
+      ]
+    },
+    {
+      "text": "such",
+      "key": "such",
+      "spoken_text": "such.",
+      "src": "audio/20261016-list1/words/such.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "d2595ca0d3af28f0b715dcc487e78d177aa9145d71166046182b7ee002b0fe81",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 6388750,
+          "text": "such"
+        }
+      ]
+    },
+    {
+      "text": "materials",
+      "key": "materials",
+      "spoken_text": "materials.",
+      "src": "audio/20261016-list1/words/materials.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "3f053805baca59c2f7822e860c2cab6556306bf75342422b9cecdd0d84e2c417",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 11111250,
+          "text": "materials"
+        }
+      ]
+    },
+    {
+      "text": "as",
+      "key": "as",
+      "spoken_text": "as.",
+      "src": "audio/20261016-list1/words/as.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "d809af34439e1c9c9a63d53d80607d2e51a88fba4ca8d3192d2aa4eb6233ed0b",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 4444580,
+          "text": "as"
+        }
+      ]
+    },
+    {
+      "text": "bent",
+      "key": "bent",
+      "spoken_text": "bent.",
+      "src": "audio/20261016-list1/words/bent.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "22fbafd956ec3a81716b8898a1495967378b6e846668290d8f18b3fb949425ab",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1027910,
+          "duration": 6250000,
+          "text": "bent"
+        }
+      ]
+    },
+    {
+      "text": "wood",
+      "key": "wood",
+      "spoken_text": "wood.",
+      "src": "audio/20261016-list1/words/wood.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "ccec2b42f769ce69d0a25b1dc0515675ab9ee3ee71c2b2786053d8a861e61fad",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 5416660,
+          "text": "wood"
+        }
+      ]
+    },
+    {
+      "text": "without",
+      "key": "without",
+      "spoken_text": "without.",
+      "src": "audio/20261016-list1/words/without.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "b90de78719bfb6500ae2d53c1c16e88301c735f5c3a7b8b350bfdbe0611977b2",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 7638750,
+          "text": "without"
+        }
+      ]
+    },
+    {
+      "text": "Cooper",
+      "key": "cooper",
+      "spoken_text": "Cooper.",
+      "src": "audio/20261016-list1/words/cooper.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "16920e62432ac8259c4edf547213b50270c128e6fa83c6b0e35dc1202fe1d74c",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1027910,
+          "duration": 6944580,
+          "text": "Cooper"
+        }
+      ]
+    },
+    {
+      "text": "breaking",
+      "key": "breaking",
+      "spoken_text": "breaking.",
+      "src": "audio/20261016-list1/words/breaking.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "e6695358c184c0cbeb50c5fe285d7fadd79172f543a01163ea4dd575f7182738",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 7916660,
+          "text": "breaking"
+        }
+      ]
+    },
+    {
+      "text": "Associated",
+      "key": "associated",
+      "spoken_text": "Associated.",
+      "src": "audio/20261016-list1/words/associated.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "c07939703ea9feaa2cb120ea4dde22e49ea0d80db500b7b3293f58df60d8b641",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 12638750,
+          "text": "Associated"
+        }
+      ]
+    },
+    {
+      "text": "spoke",
+      "key": "spoke",
+      "spoken_text": "spoke.",
+      "src": "audio/20261016-list1/words/spoke.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "f109ed3c318261c86963775ce80165f03a6b43b0681a8d46c754d57f1ef5deb0",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 7361250,
+          "text": "spoke"
+        }
+      ]
+    },
+    {
+      "text": "Mobile",
+      "key": "mobile",
+      "spoken_text": "Mobile.",
+      "src": "audio/20261016-list1/words/mobile.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "aff4b8786abec39b18665f03eff1359727c5f7a62aefe9594cb13cb61d38db8c",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 8194580,
+          "text": "Mobile"
+        }
+      ]
+    },
+    {
+      "text": "where",
+      "key": "where",
+      "spoken_text": "where.",
+      "src": "audio/20261016-list1/words/where.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "11a6a5262bb2fb3d0ae1aaa89a4522205c13ee14add69c3e16d6205ed78e6bde",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 5138750,
+          "text": "where"
+        }
+      ]
+    },
+    {
+      "text": "Spain",
+      "key": "spain",
+      "spoken_text": "Spain.",
+      "src": "audio/20261016-list1/words/spain.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "937eb914aaaf85b55dbc3ab4e36aac53890ccdbf64c4d9b6a90c562ba3166eee",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 7361250,
+          "text": "Spain"
+        }
+      ]
+    },
+    {
+      "text": "attended",
+      "key": "attended",
+      "spoken_text": "attended.",
+      "src": "audio/20261016-list1/words/attended.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "87161085275d600b27163c55fea3512e944f71dbff57d52d375aef2fae91892e",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 8888750,
+          "text": "attended"
+        }
+      ]
+    },
+    {
+      "text": "Barcelona",
+      "key": "barcelona",
+      "spoken_text": "Barcelona.",
+      "src": "audio/20261016-list1/words/barcelona.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "28cda6e3ab3a078575f6ee5a3b0b539e5700450178355debda2f11dd2d0e57bb",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 10416660,
+          "text": "Barcelona"
+        }
+      ]
+    },
+    {
+      "text": "MWC",
+      "key": "mwc",
+      "spoken_text": "M W C.",
+      "src": "audio/20261016-list1/words/mwc.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "69b8b8e5477cd833f61889abbd9fc28db16c4c08fd21ca752d625045412c6e4d",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 2638750,
+          "text": "M"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 3972080,
+          "duration": 5416660,
+          "text": "W"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 9527910,
+          "duration": 5416660,
+          "text": "C"
+        }
+      ]
+    },
+    {
+      "text": "Congress",
+      "key": "congress",
+      "spoken_text": "Congress.",
+      "src": "audio/20261016-list1/words/congress.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "2870e6c79f4258448e307ebe2f7452526575da5b91ce0d397a40d05bf2b0d23c",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 9027910,
+          "text": "Congress"
+        }
+      ]
+    },
+    {
+      "text": "World",
+      "key": "world",
+      "spoken_text": "World.",
+      "src": "audio/20261016-list1/words/world.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "0c8367bf442899aadd5dcc253af922dea5ee134a2617f8d4fd8987317b3fc77a",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 6805410,
+          "text": "World"
+        }
+      ]
+    },
+    {
+      "text": "biggest",
+      "key": "biggest",
+      "spoken_text": "biggest.",
+      "src": "audio/20261016-list1/words/biggest.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "da4ec512c85cd2c21b8a023283afe9ff87d4d17a1995b70b9de1217aaf485196",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 8055410,
+          "text": "biggest"
+        }
+      ]
+    },
+    {
+      "text": "telecom",
+      "key": "telecom",
+      "spoken_text": "telecom.",
+      "src": "audio/20261016-list1/words/telecom.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "c562b549a6f2dd31ab3948da089135b9182338bbb0a29e41302db7068bfaf609",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 8750000,
+          "text": "telecom"
+        }
+      ]
+    },
+    {
+      "text": "industry",
+      "key": "industry",
+      "spoken_text": "industry.",
+      "src": "audio/20261016-list1/words/industry.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "fc6fbe3a7245172b2fc8d5d28cc23a5990d93e1b0ff976a36c6d77010e08adae",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 8194580,
+          "text": "industry"
+        }
+      ]
+    },
+    {
+      "text": "show",
+      "key": "show",
+      "spoken_text": "show.",
+      "src": "audio/20261016-list1/words/show.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "21b6712346f0348ff0f0319cf3795a1bfe356af874ce710d543228cffa91ba74",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 5694580,
+          "text": "show"
+        }
+      ]
+    },
+    {
+      "text": "trade",
+      "key": "trade",
+      "spoken_text": "trade.",
+      "src": "audio/20261016-list1/words/trade.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "1124b6f169cb64ff247600ef33abe2abded5988f029f934d818b65f53df524f0",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 6666660,
+          "text": "trade"
+        }
+      ]
+    },
+    {
+      "text": "previous",
+      "key": "previous",
+      "spoken_text": "previous.",
+      "src": "audio/20261016-list1/words/previous.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "1e8f83dcefc4b34194ac7b6236dd363241291e2c19cd06d84c426e5a0c8d49d3",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 9722080,
+          "text": "previous"
+        }
+      ]
+    },
+    {
+      "text": "Nishinari’s",
+      "key": "nishinari's",
+      "spoken_text": "Nishinari’s.",
+      "src": "audio/20261016-list1/words/nishinari-s.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "c901aa3a7a11e2fe36f64a18643856c68879da8a32068a2b5fa2e145e036a82e",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 11666660,
+          "text": "Nishinari’s"
+        }
+      ]
+    },
+    {
+      "text": "research",
+      "key": "research",
+      "spoken_text": "research.",
+      "src": "audio/20261016-list1/words/research.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "a8c7f6c34732ea4eeb3ee89f7f1a4b5941a174dae280e7d45fae980dcdcd0d8c",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 8333330,
+          "text": "research"
+        }
+      ]
+    },
+    {
+      "text": "even",
+      "key": "even",
+      "spoken_text": "even.",
+      "src": "audio/20261016-list1/words/even.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "a7ba97ebfce3fa4dfcb71d31ce9f8e094ae154bcf4dd0715659c6900b8ed2c44",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 6388750,
+          "text": "even"
+        }
+      ]
+    },
+    {
+      "text": "showed",
+      "key": "showed",
+      "spoken_text": "showed.",
+      "src": "audio/20261016-list1/words/showed.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "81638849cb57738b0a967b69f480f107e0fd2f6c61bf3ec89c5409f9697eae36",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1055410,
+          "duration": 6527910,
+          "text": "showed"
+        }
+      ]
+    },
+    {
+      "text": "flow",
+      "key": "flow",
+      "spoken_text": "flow.",
+      "src": "audio/20261016-list1/words/flow.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "647872c823aba2c6c28eaf3e0ebaf200718b39d2051da303c86d28aa569f0246",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 6250000,
+          "text": "flow"
+        }
+      ]
+    },
+    {
+      "text": "ants",
+      "key": "ants",
+      "spoken_text": "ants.",
+      "src": "audio/20261016-list1/words/ants.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "533aa8f7b0d82f81cdb1accfdf15cbaaf5fce3596a41f8d6c5293cfa04424e0e",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 6250000,
+          "text": "ants"
+        }
+      ]
+    },
+    {
+      "text": "particularly",
+      "key": "particularly",
+      "spoken_text": "particularly.",
+      "src": "audio/20261016-list1/words/particularly.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "794d8c415dd8d17444ff8d5cf41636608889a95ba577de34da04316e246d673b",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 10277910,
+          "text": "particularly"
+        }
+      ]
+    },
+    {
+      "text": "health",
+      "key": "health",
+      "spoken_text": "health.",
+      "src": "audio/20261016-list1/words/health.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "71c42363ffb9db3ecd626de351df263048aab34b1e231b972a481110492abc46",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 6111250,
+          "text": "health"
+        }
+      ]
+    },
+    {
+      "text": "high",
+      "key": "high",
+      "spoken_text": "high.",
+      "src": "audio/20261016-list1/words/high.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "cebecbf597f86ef104d10ec3dac7838197c28e8d2907d2b4995fbe74dce2ff41",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 5138750,
+          "text": "high"
+        }
+      ]
+    },
+    {
+      "text": "Focusing",
+      "key": "focusing",
+      "spoken_text": "Focusing.",
+      "src": "audio/20261016-list1/words/focusing.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "412a20062d60200c595819005d66c3b8f84186dae05d07b970c438bfcda48cb9",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 9722080,
+          "text": "Focusing"
+        }
+      ]
+    },
+    {
+      "text": "densities",
+      "key": "densities",
+      "spoken_text": "densities.",
+      "src": "audio/20261016-list1/words/densities.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "585e30763ee72388e6ca0b67e27c8d4498d3719d485aa445c3eb3e2e3a16c248",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 9722080,
+          "text": "densities"
+        }
+      ]
+    },
+    {
+      "text": "about",
+      "key": "about",
+      "spoken_text": "about.",
+      "src": "audio/20261016-list1/words/about.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "17473f48a91ed7732710844f4ff0a250949d9da70bda627b021b42660a891d50",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 6666660,
+          "text": "about"
+        }
+      ]
+    },
+    {
+      "text": "not",
+      "key": "not",
+      "spoken_text": "not.",
+      "src": "audio/20261016-list1/words/not.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "8a1e239155ab8be26f4330301880a927f67ccfb21253194d3bf2801dce241bfd",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 5555410,
+          "text": "not"
+        }
+      ]
+    },
+    {
+      "text": "Kondo",
+      "key": "kondo",
+      "spoken_text": "Kondo.",
+      "src": "audio/20261016-list1/words/kondo.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "060d2651f7bee6a9801e5ddc2769e5631cf279c3aa6d491eaf82d33b0ab36f00",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 7638750,
+          "text": "Kondo"
+        }
+      ]
+    },
+    {
+      "text": "stresses",
+      "key": "stresses",
+      "spoken_text": "stresses.",
+      "src": "audio/20261016-list1/words/stresses.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "343e254b423f17fd17aedb75d48333635665bef4a2ab4df0f1da1ffa40d96aee",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 9583330,
+          "text": "stresses"
+        }
+      ]
+    },
+    {
+      "text": "it",
+      "key": "it",
+      "spoken_text": "it.",
+      "src": "audio/20261016-list1/words/it.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "14eba80e628fee1d4cc22984db0961ecdf5276f4caa1aaea3c9deba3d4b3ef18",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 4444580,
+          "text": "it"
+        }
+      ]
+    },
+    {
+      "text": "away",
+      "key": "away",
+      "spoken_text": "away.",
+      "src": "audio/20261016-list1/words/away.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "dbc61999ff07f92c98ac8b619bea377872d644bd3838c7e825a377494828af33",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 6388750,
+          "text": "away"
+        }
+      ]
+    },
+    {
+      "text": "throwing",
+      "key": "throwing",
+      "spoken_text": "throwing.",
+      "src": "audio/20261016-list1/words/throwing.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "92c9f7719fb696ae2c403b26d62e264223920caed6fc29aa5039ff0a159d8eb2",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1027910,
+          "duration": 7500000,
+          "text": "throwing"
+        }
+      ]
+    },
+    {
+      "text": "want",
+      "key": "want",
+      "spoken_text": "want.",
+      "src": "audio/20261016-list1/words/want.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "b652fcac44ea1b458437fde9d6387a4a0af39b33e0a9c3e1bad0d5d8441c572f",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 6250000,
+          "text": "want"
+        }
+      ]
+    },
+    {
+      "text": "but",
+      "key": "but",
+      "spoken_text": "but.",
+      "src": "audio/20261016-list1/words/but.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "e6645d53231652d000b7c17b31072c04419d9f7560997b5e37052004fa921322",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 4861250,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "text": "finding",
+      "key": "finding",
+      "spoken_text": "finding.",
+      "src": "audio/20261016-list1/words/finding.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "5501746ccad69959333e8640d0add2312544ffb218c9b7eb096fea40fa9348bb",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 8055410,
+          "text": "finding"
+        }
+      ]
+    },
+    {
+      "text": "personal",
+      "key": "personal",
+      "spoken_text": "personal.",
+      "src": "audio/20261016-list1/words/personal.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "6c99cb5e74c8f5ff0edcc4db0f69045581ea976c575390536ade14e18b6c2584",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1472080,
+          "duration": 7777910,
+          "text": "personal"
+        }
+      ]
+    },
+    {
+      "text": "balance",
+      "key": "balance",
+      "spoken_text": "balance.",
+      "src": "audio/20261016-list1/words/balance.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "0692cd52383f6d019a74bb8a0f38f1f24c74bf866316f3254c997fdb54a64274",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1013750,
+          "duration": 8333330,
+          "text": "balance"
+        }
+      ]
+    },
+    {
+      "text": "striking",
+      "key": "striking",
+      "spoken_text": "striking.",
+      "src": "audio/20261016-list1/words/striking.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "61a090327c2f9266b0caac30444f1436b2e07c3755009aae8fa1fab0551c55e4",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 9027910,
+          "text": "striking"
+        }
+      ]
+    },
+    {
+      "text": "remain",
+      "key": "remain",
+      "spoken_text": "remain.",
+      "src": "audio/20261016-list1/words/remain.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "6fa673b34483bf8794027fd025d48a79081ef64866a2aa78a32de1723d0d10bb",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 6944580,
+          "text": "remain"
+        }
+      ]
+    },
+    {
+      "text": "possessions",
+      "key": "possessions",
+      "spoken_text": "possessions.",
+      "src": "audio/20261016-list1/words/possessions.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "3a698beffbc307f467f94e3c5f78dc0c62b7c6169f0b37d5af6da7728fa4bed1",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1194580,
+          "duration": 9861250,
+          "text": "possessions"
+        }
+      ]
+    },
+    {
+      "text": "win",
+      "key": "win",
+      "spoken_text": "win.",
+      "src": "audio/20261016-list1/words/win.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "4cc0d135be892ebd72ef5b43d08fd7c3459fd7aca6ba8a18117967a54eb23cff",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1333330,
+          "duration": 4861250,
+          "text": "win"
+        }
+      ]
+    },
+    {
+      "text": "lose",
+      "key": "lose",
+      "spoken_text": "lose.",
+      "src": "audio/20261016-list1/words/lose.mp3",
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-10%",
+      "sha256": "c539041b7d395f585e102a603b5181ec837eb5974e089001ca73250dae2ae555",
+      "boundaries": [
+        {
+          "type": "WordBoundary",
+          "offset": 1027910,
+          "duration": 6805410,
+          "text": "lose"
+        }
+      ]
+    }
+  ]
+}

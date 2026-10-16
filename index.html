@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f6f8fc">
-  <meta name="description" content="A Garden of Hope 英语点读。点击单词听英式发音，点击小喇叭朗读整句。">
-  <title>希望的小花园 · 英语点读</title>
+  <meta name="description" content="高频重点词·英语点读。按 List 学习单词、真题例句与短文助记，点击英文单词或句后小喇叭听英式发音。">
+  <title>高频重点词·英语点读</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230071e3'/%3E%3Cpath d='M16 18h13c4 0 6 3 6 5v25c-2-3-5-5-9-5H16zm32 0H35v30c2-3 5-5 9-5h4z' fill='none' stroke='white' stroke-width='3' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css">
-  <script src="content.js?v=20261016-fixed" defer></script>
-  <script src="app.js?v=20261016-fixed" defer></script>
+  <link rel="stylesheet" href="style.css?v=20261016-list1">
+  <script src="content.js?v=20261016-list1" defer></script>
+  <script src="app.js?v=20261016-list1" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#vocabulary">跳到学习内容</a>
@@ -24,26 +24,27 @@
 
   <header class="site-header">
     <div class="nav-inner">
-      <a class="brand" href="#top" aria-label="英语点读，回到顶部">
-        <span class="brand-mark"><svg><use href="#i-book"/></svg></span>
-        <span>英语点读<span class="brand-divider">/</span><span class="brand-en">English Reader</span></span>
+      <a class="brand" href="#top" aria-label="高频重点词·英语点读，回到顶部">
+        <span class="brand-mark"><svg aria-hidden="true"><use href="#i-book"/></svg></span>
+        <h1 class="brand-title">高频重点词·英语点读</h1>
       </a>
-      <nav class="section-nav" aria-label="页面导航">
-        <a href="#vocabulary">单词</a><a href="#reading">文章</a>
-      </nav>
+      <label class="list-control" for="list-select">
+        <span class="visually-hidden">选择学习列表</span>
+        <span class="select-wrap"><select id="list-select" aria-label="选择 List" aria-describedby="list-availability"></select><svg aria-hidden="true"><use href="#i-chevron"/></svg></span>
+      </label>
     </div>
   </header>
 
   <main id="top" class="page">
-    <section class="document-heading" aria-labelledby="document-title">
-      <div class="eyebrow"><span class="blue-dot"></span>英语阅读练习<span class="eyebrow-separator">·</span>英式发音</div>
-      <h1 id="document-title" lang="en">A Garden of Hope</h1>
-      <p class="chinese-title">希望的小花园</p>
-      <div class="document-intro">
-        <p>轻点英文单词听发音，点句后的<svg class="inline-icon"><use href="#i-volume"/></svg>听整句。</p>
-        <div class="content-count"><span>15 个单词</span><span class="count-divider"></span><span>10 个句子</span></div>
-      </div>
+    <section class="list-heading" aria-labelledby="current-list">
+      <div class="eyebrow"><span class="blue-dot"></span>高频重点词<span class="eyebrow-separator">·</span>英式发音</div>
+      <div class="list-summary"><h2 id="current-list">List 1</h2><div id="content-count" class="content-count"></div></div>
+      <p class="learning-tip">轻点英文单词听发音，点句后的<svg class="inline-icon" aria-hidden="true"><use href="#i-volume"/></svg>听整句。</p>
+      <p id="list-availability" class="list-availability">共 45 个 List，目前已添加 List 1。</p>
     </section>
+    <nav class="section-nav learning-nav" aria-label="学习内容导航">
+      <a href="#vocabulary">单词</a><a href="#examples">真题例句</a><a href="#reading">短文助记</a>
+    </nav>
 
     <div class="preferences" role="group" aria-label="朗读与显示设置">
       <label class="speed-control" for="speed"><span>朗读速度</span><span class="select-wrap"><select id="speed" aria-label="朗读速度"><option value="0.75">0.75×</option><option value="1" selected>1.0×</option><option value="1.25">1.25×</option></select><svg><use href="#i-chevron"/></svg></span></label>
@@ -52,19 +53,29 @@
 
     <section id="vocabulary" class="learning-section" aria-labelledby="vocab-title">
       <div class="section-heading">
-        <div><span class="section-index">01</span><h2 id="vocab-title">单词先读</h2><span class="section-caption" lang="en">Vocabulary</span></div>
+        <div><span class="section-index">01</span><h2 id="vocab-title">单词</h2><span class="section-caption" lang="en">Vocabulary</span></div>
         <button id="play-vocabulary" class="quiet-button"><svg><use href="#i-play"/></svg><span>依次朗读</span></button>
       </div>
       <div id="vocabulary-grid" class="vocabulary-grid"></div>
     </section>
 
+    <section id="examples" class="learning-section examples-section" aria-labelledby="examples-title">
+      <div class="section-heading">
+        <div><span class="section-index">02</span><h2 id="examples-title">真题例句</h2><span class="section-caption" lang="en">Examples</span></div>
+        <button id="play-examples" class="quiet-button" type="button"><svg aria-hidden="true"><use href="#i-play"/></svg><span>依次朗读</span></button>
+      </div>
+      <div id="examples-content" class="examples-paper"></div>
+    </section>
+
     <section id="reading" class="learning-section reading-section" aria-labelledby="reading-title">
       <div class="section-heading">
-        <div><span class="section-index">02</span><h2 id="reading-title">读一段故事</h2><span class="section-caption" lang="en">Reading</span></div>
+        <div><span class="section-index">03</span><h2 id="reading-title">短文助记</h2><span class="section-caption" lang="en">Reading</span></div>
         <button id="play-reading" class="primary-button"><svg><use href="#i-play"/></svg><span>朗读文章</span></button>
       </div>
-      <article class="reading-paper" aria-label="A Garden of Hope 英文文章">
-        <div class="paper-topline"><span lang="en">A GARDEN OF HOPE</span><span class="paper-mode"><span></span>点词即读</span></div>
+      <article class="reading-paper" aria-labelledby="article-title">
+        <div class="paper-topline"><span lang="en">READ &amp; REMEMBER</span><span class="paper-mode"><span></span>点词即读</span></div>
+        <h3 id="article-title" class="article-title" lang="en"></h3>
+        <p id="article-subtitle" class="article-subtitle"></p>
         <div id="article-content" lang="en"></div>
         <div class="translation-panel" id="translation-panel" aria-labelledby="translation-title">
           <h3 id="translation-title">中文译文</h3>
