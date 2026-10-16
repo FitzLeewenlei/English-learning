@@ -4,10 +4,9 @@
   const $ = (id) => document.getElementById(id);
   const icon = (name) => `<svg aria-hidden="true"><use href="#i-${name}"/></svg>`;
   const targetWords = new Set(data.vocabulary.map((entry) => entry.word.toLowerCase()));
-  const wordAudio = (word) => `audio/words/${word.toLowerCase()}.mp3`;
+  const wordAudio = (word) => data.audio.words[word.toLowerCase()];
   const wordItems = data.vocabulary.map((entry, index) => ({ text: entry.word, src: entry.audio, elementId: `vocab-${index}`, type: 'word' }));
-  const sentences = data.paragraphs.flat();
-  const sentenceItems = sentences.map((text, index) => ({ text, src: `audio/sentences/${String(index + 1).padStart(2, '0')}.mp3`, elementId: `sentence-${index}`, type: 'sentence' }));
+  const sentenceItems = data.audio.sentences.map((clip, index) => ({ text: clip.text, src: clip.src, elementId: `sentence-${index}`, type: 'sentence' }));
 
   for (const [index, entry] of data.vocabulary.entries()) {
     const button = document.createElement('button');

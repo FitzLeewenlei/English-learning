@@ -1,0 +1,747 @@
+{
+  "version": "20261016-fixed",
+  "sources": {
+    "original": {
+      "file": "original.m4a",
+      "sha256": "017ecf2f1654c55b524cd8834d896892d710d7bc68f6007874e9ede6893688f7",
+      "sample_rate": 44100
+    },
+    "additional": {
+      "file": "additional-words.m4a",
+      "sha256": "d20729fb30b42a85089fd1378d06aca2641084d7441127da7a89253b6fc82bb9",
+      "sample_rate": 44100
+    }
+  },
+  "clips": [
+    {
+      "text": "victim",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/victim.mp3",
+      "source": "original",
+      "source_start": 0.0,
+      "source_end": 0.7544897959183674,
+      "rate": 0.93,
+      "sha256": "57927c90f73b4d9792080f43c384f0b260e7e57e2ff656e25d36a03d1f96ba11"
+    },
+    {
+      "text": "violence",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/violence.mp3",
+      "source": "original",
+      "source_start": 0.7544897959183674,
+      "source_end": 1.8644897959183673,
+      "rate": 0.93,
+      "sha256": "849fa4f2c0774cb0490664c19e24f81ff7a323bec7100f581b3b3bf366e2abe0"
+    },
+    {
+      "text": "sorrow",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/sorrow.mp3",
+      "source": "original",
+      "source_start": 1.8644897959183673,
+      "source_end": 2.8390022675736963,
+      "rate": 0.93,
+      "sha256": "6c93f15676992be02fbf4fc1eb6e21e368b1036cf05c3996db6343410120cf02"
+    },
+    {
+      "text": "walk",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/walk.mp3",
+      "source": "original",
+      "source_start": 2.8390022675736963,
+      "source_end": 3.6844897959183673,
+      "rate": 0.93,
+      "sha256": "3ddc1477c04195b636638d6bf60ece808d0f1b6ceab7e050c7bc98bbda17f07a"
+    },
+    {
+      "text": "tiny",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/tiny.mp3",
+      "source": "original",
+      "source_start": 3.6844897959183673,
+      "source_end": 4.679501133786848,
+      "rate": 0.93,
+      "sha256": "a367e6131ed260d09106c9abb27d56e23e63f9bb4b89b56ddd0a0d88aa013451"
+    },
+    {
+      "text": "playground",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/playground.mp3",
+      "source": "original",
+      "source_start": 4.679501133786848,
+      "source_end": 5.779501133786848,
+      "rate": 0.93,
+      "sha256": "abe5dd729b735be2e89211a353bf20ba6cb223e73984528c144fae6914e86d0b"
+    },
+    {
+      "text": "ancestor",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/ancestor.mp3",
+      "source": "original",
+      "source_start": 5.779501133786848,
+      "source_end": 6.919501133786848,
+      "rate": 0.93,
+      "sha256": "877eef5a8fa5dc5f97c144f4d03ad675abd48e3e65f2c932b33639d8c2d8ed59"
+    },
+    {
+      "text": "crop",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/crop.mp3",
+      "source": "original",
+      "source_start": 6.919501133786848,
+      "source_end": 7.629501133786848,
+      "rate": 0.93,
+      "sha256": "e2749b5fa5e2348c1bedc1817e6eb97148e6a478e8db72f786b44396aeae0fde"
+    },
+    {
+      "text": "steel",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/steel.mp3",
+      "source": "original",
+      "source_start": 7.629501133786848,
+      "source_end": 8.76,
+      "rate": 0.93,
+      "sha256": "f8813892380d1c2e987fb0cb2aeeaf24ed928c1d1958cd292c71c8220a823074"
+    },
+    {
+      "text": "bend",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/bend.mp3",
+      "source": "original",
+      "source_start": 8.76,
+      "source_end": 9.634489795918368,
+      "rate": 0.93,
+      "sha256": "61fd7529ffe88594ecb5f920d4eca4b7fb835cf39ae43c7cd8fb2d7ff3ae2930"
+    },
+    {
+      "text": "press",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/press.mp3",
+      "source": "original",
+      "source_start": 9.634489795918368,
+      "source_end": 10.664489795918367,
+      "rate": 0.93,
+      "sha256": "f18f4c301011511187e6cb95bda55f8872dc5d56a1686996492d143d65c51c73"
+    },
+    {
+      "text": "maintain",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/maintain.mp3",
+      "source": "original",
+      "source_start": 10.664489795918367,
+      "source_end": 11.764489795918367,
+      "rate": 0.93,
+      "sha256": "40e0030f7701c5301879956dde3cd970a1ec4b0eee25870cf19f714bdfb41532"
+    },
+    {
+      "text": "crucial",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/crucial.mp3",
+      "source": "original",
+      "source_start": 11.764489795918367,
+      "source_end": 12.749002267573696,
+      "rate": 0.93,
+      "sha256": "2d3faf0a27c609a4e7666fbbbd506101678ac20eead2b3694116f2ed4759ba7c"
+    },
+    {
+      "text": "strike",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/strike.mp3",
+      "source": "original",
+      "source_start": 12.749002267573696,
+      "source_end": 13.783990929705215,
+      "rate": 0.93,
+      "sha256": "7fd06de4571ba56471e577b2bfab6b40897d5960450b6def7671f8ae4d83153c"
+    },
+    {
+      "text": "tie",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/tie.mp3",
+      "source": "original",
+      "source_start": 13.783990929705215,
+      "source_end": 14.52498866213152,
+      "rate": 0.93,
+      "sha256": "d885987e437c7de72234b8833025180d12c2d1ecef2a5147b287ad157d4033de"
+    },
+    {
+      "text": "A",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/a.mp3",
+      "source": "additional",
+      "source_start": 0.0,
+      "source_end": 0.5449886621315193,
+      "rate": 0.93,
+      "sha256": "d03c2d67a90bc9acf21208ffb0aff63f94011557800e7e761bae25da4b29aa5b"
+    },
+    {
+      "text": "Garden",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/garden.mp3",
+      "source": "additional",
+      "source_start": 0.5449886621315193,
+      "source_end": 1.38,
+      "rate": 0.93,
+      "sha256": "c49faa6cfa886a1d9286b02722cc876bace86b93fa35d1e05dc2ca753c577b4f"
+    },
+    {
+      "text": "of",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/of.mp3",
+      "source": "additional",
+      "source_start": 1.38,
+      "source_end": 2.0449886621315194,
+      "rate": 0.93,
+      "sha256": "0530b5f1bba13af0c5efeca7e9553a5c2c340f4148c6a6067f14c102f59f1b86"
+    },
+    {
+      "text": "Hope",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/hope.mp3",
+      "source": "additional",
+      "source_start": 2.0449886621315194,
+      "source_end": 2.8039909297052152,
+      "rate": 0.93,
+      "sha256": "a416c52b3191318ede00236d5cfc6f68ccf61ba3cc6e6a929b574c52427a7026"
+    },
+    {
+      "text": "Daniel",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/daniel.mp3",
+      "source": "additional",
+      "source_start": 2.8039909297052152,
+      "source_end": 3.849002267573696,
+      "rate": 0.93,
+      "sha256": "b5542c71cae042b65f33a9a873c493c3cc42b975b77364e62a80d9ec0845c8af"
+    },
+    {
+      "text": "was",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/was.mp3",
+      "source": "additional",
+      "source_start": 3.849002267573696,
+      "source_end": 4.729002267573696,
+      "rate": 0.93,
+      "sha256": "ffb946c7dd0a1818838c5f3efba9e0aac11dd45bb49c874cb540efa644702e7c"
+    },
+    {
+      "text": "He",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/he.mp3",
+      "source": "additional",
+      "source_start": 4.729002267573696,
+      "source_end": 5.49498866213152,
+      "rate": 0.93,
+      "sha256": "edf504e519186de0d6799efe6a8f5003635f5f48e745a52a7ba107fcd409f301"
+    },
+    {
+      "text": "felt",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/felt.mp3",
+      "source": "additional",
+      "source_start": 5.49498866213152,
+      "source_end": 6.519002267573696,
+      "rate": 0.93,
+      "sha256": "d05e6b49e72dea93204cf0b929361994e4cd97ea59938b07501f5d8839590e6f"
+    },
+    {
+      "text": "deep",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/deep.mp3",
+      "source": "additional",
+      "source_start": 6.519002267573696,
+      "source_end": 7.319002267573696,
+      "rate": 0.93,
+      "sha256": "908aed7697496d4b885a20747215889676c678aa3f82686b6e80f3d52ac711ac"
+    },
+    {
+      "text": "On",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/on.mp3",
+      "source": "additional",
+      "source_start": 7.319002267573696,
+      "source_end": 8.144489795918368,
+      "rate": 0.93,
+      "sha256": "bd51801c69b21be6cfd9517c5da0146d4ec5a87f4e2fabb0073c21b546d7242b"
+    },
+    {
+      "text": "saw",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/saw.mp3",
+      "source": "additional",
+      "source_start": 8.144489795918368,
+      "source_end": 9.044489795918368,
+      "rate": 0.93,
+      "sha256": "9448872b213ad0e7b8ca241d77e9f4446713c14632ea4a01916f2532c6701996"
+    },
+    {
+      "text": "field",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/field.mp3",
+      "source": "additional",
+      "source_start": 9.044489795918368,
+      "source_end": 10.019501133786848,
+      "rate": 0.93,
+      "sha256": "085b546800265dc111c36b6e6d8104b4457338d0b5ba4458fabf7d019b7c9410"
+    },
+    {
+      "text": "by",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/by.mp3",
+      "source": "additional",
+      "source_start": 10.019501133786848,
+      "source_end": 10.853990929705216,
+      "rate": 0.93,
+      "sha256": "ddece5493bb31d018c77275b3d05f2834fc31336e59ec47fdeb04a434c42601b"
+    },
+    {
+      "text": "the",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/the.mp3",
+      "source": "additional",
+      "source_start": 10.853990929705216,
+      "source_end": 11.623990929705215,
+      "rate": 0.93,
+      "sha256": "95f0d58f20190a2a724e9837b71828fd8abcba73e99374a2d0093602c0336780"
+    },
+    {
+      "text": "An",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/an.mp3",
+      "source": "additional",
+      "source_start": 11.623990929705215,
+      "source_end": 12.384489795918368,
+      "rate": 0.93,
+      "sha256": "5dec44a1d3f931e5575e19e82de6a0901d6099ec367a58755342e7653616b0bd"
+    },
+    {
+      "text": "his",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/his.mp3",
+      "source": "additional",
+      "source_start": 12.384489795918368,
+      "source_end": 13.239501133786849,
+      "rate": 0.93,
+      "sha256": "ec5e0b835c9a8392d212e0f6d1aa7c82535aa1c0c9f10ff8e4f21af149cb15dd"
+    },
+    {
+      "text": "once",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/once.mp3",
+      "source": "additional",
+      "source_start": 13.239501133786849,
+      "source_end": 14.234489795918368,
+      "rate": 0.93,
+      "sha256": "189e7c37af87ded645b7a7882d6fd8825f1a723e3639ddccf2efb9a2a1e6ea2d"
+    },
+    {
+      "text": "grew",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/grew.mp3",
+      "source": "additional",
+      "source_start": 14.234489795918368,
+      "source_end": 15.02498866213152,
+      "rate": 0.93,
+      "sha256": "61566cb4a299632c295f1cce33a38c0c8206b9531c2092295c967bd04706db7c"
+    },
+    {
+      "text": "food",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/food.mp3",
+      "source": "additional",
+      "source_start": 15.02498866213152,
+      "source_end": 15.914489795918367,
+      "rate": 0.93,
+      "sha256": "78648715e3dbbfc7b9f7720ed43c33c45a5bd39384976b02139fbeffd081706b"
+    },
+    {
+      "text": "there",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/there.mp3",
+      "source": "additional",
+      "source_start": 15.914489795918367,
+      "source_end": 16.753990929705214,
+      "rate": 0.93,
+      "sha256": "c21567ce2f1d3f2e31864128c49b555537b9acfcb68ac6ce403635655d442f6f"
+    },
+    {
+      "text": "began",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/began.mp3",
+      "source": "additional",
+      "source_start": 16.753990929705214,
+      "source_end": 17.704489795918366,
+      "rate": 0.93,
+      "sha256": "b434b550a0a8e24b0a203456123c23138b0d28deb4bf414c759374b6c0096e16"
+    },
+    {
+      "text": "to",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/to.mp3",
+      "source": "additional",
+      "source_start": 17.704489795918366,
+      "source_end": 18.543990929705217,
+      "rate": 0.93,
+      "sha256": "2096f753474097010439dd10f729605c797c0f20d61bd9463f0fa43ec8ead965"
+    },
+    {
+      "text": "grow",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/grow.mp3",
+      "source": "additional",
+      "source_start": 18.543990929705217,
+      "source_end": 19.474489795918366,
+      "rate": 0.93,
+      "sha256": "9663a41d08a6d96d80e4c3535977a29cc80a04af70d889a097873c61c22098b6"
+    },
+    {
+      "text": "with",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/with.mp3",
+      "source": "additional",
+      "source_start": 19.474489795918366,
+      "source_end": 20.343990929705214,
+      "rate": 0.93,
+      "sha256": "a1f4c644bcf7cb8ee2bee65d44fe2a3acd2dddc8e02d787f7444d2e641df9b77"
+    },
+    {
+      "text": "some",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/some.mp3",
+      "source": "additional",
+      "source_start": 20.343990929705214,
+      "source_end": 21.209501133786848,
+      "rate": 0.93,
+      "sha256": "cb9b0377303c1945a1fb7518a67ef8329488012d4bb02dc4a6c0213062b5433b"
+    },
+    {
+      "text": "children",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/children.mp3",
+      "source": "additional",
+      "source_start": 21.209501133786848,
+      "source_end": 22.209002267573695,
+      "rate": 0.93,
+      "sha256": "74774bfeedceab342736d6febc696d216e8468eaf553c65cd2f4dc3c29394e4b"
+    },
+    {
+      "text": "They",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/they.mp3",
+      "source": "additional",
+      "source_start": 22.209002267573695,
+      "source_end": 23.0,
+      "rate": 0.93,
+      "sha256": "96666df71bd8739127dde3e5b21a912d2198446d5e748689962a8d27f273fa21"
+    },
+    {
+      "text": "built",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/built.mp3",
+      "source": "additional",
+      "source_start": 23.0,
+      "source_end": 23.864489795918367,
+      "rate": 0.93,
+      "sha256": "49cb3c51b85b51dcef2d3f73f331354f2b0705745e4e1a88cef87ed2a4328b8a"
+    },
+    {
+      "text": "fence",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/fence.mp3",
+      "source": "additional",
+      "source_start": 23.864489795918367,
+      "source_end": 24.819501133786847,
+      "rate": 0.93,
+      "sha256": "4cc9d26dcadcdc306bd1957970251abe3be4150be30d4e55c371eabe9c22632e"
+    },
+    {
+      "text": "keep",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/keep.mp3",
+      "source": "additional",
+      "source_start": 24.819501133786847,
+      "source_end": 25.469002267573696,
+      "rate": 0.93,
+      "sha256": "b160f7cc180d56925892840ab988ed2a572b03eddeb74938dae986dc5a10a26e"
+    },
+    {
+      "text": "animals",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/animals.mp3",
+      "source": "additional",
+      "source_start": 25.469002267573696,
+      "source_end": 26.613990929705217,
+      "rate": 0.93,
+      "sha256": "3fc2fc79cde78b5279691a5948c6024f6512411f35d2ad9cc7bc1da408d8a69b"
+    },
+    {
+      "text": "out",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/out.mp3",
+      "source": "additional",
+      "source_start": 26.613990929705217,
+      "source_end": 27.409501133786847,
+      "rate": 0.93,
+      "sha256": "191f6be811c4a8c92387813561af4b51f3ec5673d823671a1a806d458cf7344c"
+    },
+    {
+      "text": "learnt",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/learnt.mp3",
+      "source": "additional",
+      "source_start": 27.409501133786847,
+      "source_end": 28.364489795918367,
+      "rate": 0.93,
+      "sha256": "a01dbb83033b94ca009f2bc4fe9177e9757cc8e19e3e077fb5cd24a732099a0d"
+    },
+    {
+      "text": "down",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/down.mp3",
+      "source": "additional",
+      "source_start": 28.364489795918367,
+      "source_end": 29.209002267573695,
+      "rate": 0.93,
+      "sha256": "e6968e252d1e8e3d168524a3c18a32a9b12a60d7ae440d2fc3140872361cdd76"
+    },
+    {
+      "text": "and",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/and.mp3",
+      "source": "additional",
+      "source_start": 29.209002267573695,
+      "source_end": 29.979501133786847,
+      "rate": 0.93,
+      "sha256": "0875f01eb4b90678766422cdacc02005d880d8eccc9d8765ea694fbd523756b5"
+    },
+    {
+      "text": "soil",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/soil.mp3",
+      "source": "additional",
+      "source_start": 29.979501133786847,
+      "source_end": 30.904489795918366,
+      "rate": 0.93,
+      "sha256": "4717e5e67762ed67729820b34c9ef8d525ab4fbd00a25f054fce49b579bf91d9"
+    },
+    {
+      "text": "around",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/around.mp3",
+      "source": "additional",
+      "source_start": 30.904489795918366,
+      "source_end": 31.744489795918366,
+      "rate": 0.93,
+      "sha256": "75fa5f0f9084f9e0148f4d98da02771e340e2b148a2fe231cb4d9696bd6969bf"
+    },
+    {
+      "text": "young",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/young.mp3",
+      "source": "additional",
+      "source_start": 31.744489795918366,
+      "source_end": 32.60950113378685,
+      "rate": 0.93,
+      "sha256": "f6aee01c3bca42b2a887847ccf20aa3e1eb5cfed80b18886d5ef52cea88681ec"
+    },
+    {
+      "text": "plants",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/plants.mp3",
+      "source": "additional",
+      "source_start": 32.60950113378685,
+      "source_end": 33.70950113378685,
+      "rate": 0.93,
+      "sha256": "ac087211fbf8384ae7d044266f9ad9e25fea7fd13d3cf5bee28a33d937dff5b2"
+    },
+    {
+      "text": "their",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/their.mp3",
+      "source": "additional",
+      "source_start": 33.70950113378685,
+      "source_end": 34.5490022675737,
+      "rate": 0.93,
+      "sha256": "1e472c15b15289e690c344bdc868bca30a7c56aa06b502cd82bb71307be8ce19"
+    },
+    {
+      "text": "daily",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/daily.mp3",
+      "source": "additional",
+      "source_start": 34.5490022675737,
+      "source_end": 35.36448979591837,
+      "rate": 0.93,
+      "sha256": "61628a3cd878d9417b1ea3e122e9e9587a2292e7000281d09852801655bd768c"
+    },
+    {
+      "text": "care",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/care.mp3",
+      "source": "additional",
+      "source_start": 35.36448979591837,
+      "source_end": 36.22399092970522,
+      "rate": 0.93,
+      "sha256": "8d040a1e5c910337c427321cd713c09cecf2071272c79f0b1c7ce276aec4e1d9"
+    },
+    {
+      "text": "Because",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/because.mp3",
+      "source": "additional",
+      "source_start": 36.22399092970522,
+      "source_end": 37.304489795918364,
+      "rate": 0.93,
+      "sha256": "4f76ec2173542904645bf92f23c6b865961e2269938aefca670c7629971ed533"
+    },
+    {
+      "text": "storms",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/storms.mp3",
+      "source": "additional",
+      "source_start": 37.304489795918364,
+      "source_end": 38.4090022675737,
+      "rate": 0.93,
+      "sha256": "80e862d492a989b40e5eab7a78403fcbd81792ce54db7973d25b88ca1850b428"
+    },
+    {
+      "text": "could",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/could.mp3",
+      "source": "additional",
+      "source_start": 38.4090022675737,
+      "source_end": 39.193990929705215,
+      "rate": 0.93,
+      "sha256": "9446dc7b0a627158c67a01351b4247077bf01d547f042e125a6d0160e1d240fe"
+    },
+    {
+      "text": "sticks",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/sticks.mp3",
+      "source": "additional",
+      "source_start": 39.193990929705215,
+      "source_end": 40.24950113378685,
+      "rate": 0.93,
+      "sha256": "9a31d389198aa7f68b2b23ccae4447cf1316783651afcd021ce4a86196aaef50"
+    },
+    {
+      "text": "happy",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/happy.mp3",
+      "source": "additional",
+      "source_start": 40.24950113378685,
+      "source_end": 41.084489795918365,
+      "rate": 0.93,
+      "sha256": "6497ff01ca552e1ccd88b546d100073a0f9886a29650393081238df68f063466"
+    },
+    {
+      "text": "when",
+      "kind": "words",
+      "src": "audio/20261016-fixed/words/when.mp3",
+      "source": "additional",
+      "source_start": 41.084489795918365,
+      "source_end": 42.00489795918367,
+      "rate": 0.93,
+      "sha256": "b7ee14afc1cba69e10755255d85f8780569e8a64ccd5506c4469656fbae8d5aa"
+    },
+    {
+      "text": "Daniel was a victim of violence.",
+      "kind": "sentences",
+      "src": "audio/20261016-fixed/sentences/01.mp3",
+      "source": "original",
+      "source_start": 16.139501133786847,
+      "source_end": 18.94448979591837,
+      "rate": 0.8,
+      "sha256": "bd68d93e6cbcc857a1cf20253d51b29d6d69020f3bc4d1468d9c0114292ea1d0"
+    },
+    {
+      "text": "He felt deep sorrow.",
+      "kind": "sentences",
+      "src": "audio/20261016-fixed/sentences/02.mp3",
+      "source": "original",
+      "source_start": 18.94448979591837,
+      "source_end": 21.029501133786848,
+      "rate": 0.8,
+      "sha256": "7bc172bfd469df8819573231400dba116949b5880ac7f1b5472d8c782e0d6ba4"
+    },
+    {
+      "text": "On a walk, he saw a tiny field by the playground.",
+      "kind": "sentences",
+      "src": "audio/20261016-fixed/sentences/03.mp3",
+      "source": "original",
+      "source_start": 21.029501133786848,
+      "source_end": 24.8,
+      "rate": 0.8,
+      "sha256": "81ca581f17eb872073476e2aee06137a6645ff3a984df28e389522071c48dabb"
+    },
+    {
+      "text": "An ancestor of his once grew food there.",
+      "kind": "sentences",
+      "src": "audio/20261016-fixed/sentences/04.mp3",
+      "source": "original",
+      "source_start": 24.8,
+      "source_end": 27.66950113378685,
+      "rate": 0.8,
+      "sha256": "85124d49eb76ff2fc08763f85a7dcbf0a39038f7fa08d9f8fb5816fc50af2b28"
+    },
+    {
+      "text": "He began to grow a crop with some children.",
+      "kind": "sentences",
+      "src": "audio/20261016-fixed/sentences/05.mp3",
+      "source": "original",
+      "source_start": 27.66950113378685,
+      "source_end": 30.394489795918368,
+      "rate": 0.8,
+      "sha256": "bdd5cfbb4f4c7144799144de6d6bd6d56f7b90c64be8b36d368646baf36129db"
+    },
+    {
+      "text": "They built a steel fence to keep animals out.",
+      "kind": "sentences",
+      "src": "audio/20261016-fixed/sentences/06.mp3",
+      "source": "original",
+      "source_start": 30.394489795918368,
+      "source_end": 33.50950113378685,
+      "rate": 0.8,
+      "sha256": "b3163b6a5af51adcf7cbc68c978d892cbad6fce4cc76f6adf9d26f4fdd54b0b2"
+    },
+    {
+      "text": "They learnt to bend down and press the soil around young plants.",
+      "kind": "sentences",
+      "src": "audio/20261016-fixed/sentences/07.mp3",
+      "source": "original",
+      "source_start": 33.50950113378685,
+      "source_end": 38.013990929705216,
+      "rate": 0.8,
+      "sha256": "ff4572eb4160ed759cc407f2f7412597290a8e70ff6a125e8bcc9903c5ac8987"
+    },
+    {
+      "text": "To maintain their garden, daily care was crucial.",
+      "kind": "sentences",
+      "src": "audio/20261016-fixed/sentences/08.mp3",
+      "source": "original",
+      "source_start": 38.013990929705216,
+      "source_end": 41.61399092970522,
+      "rate": 0.8,
+      "sha256": "73aa7cf1f2e703b0d22d5efc56b85d740955f978cfbb2ed502b73f46d2f82521"
+    },
+    {
+      "text": "Because storms could strike, they learnt to tie plants to sticks.",
+      "kind": "sentences",
+      "src": "audio/20261016-fixed/sentences/09.mp3",
+      "source": "original",
+      "source_start": 41.61399092970522,
+      "source_end": 45.95399092970521,
+      "rate": 0.8,
+      "sha256": "4ecfb0406f91dab5f563cafd7e6625528246b13e59a8eb8cc2a8fb4ebe30bf27"
+    },
+    {
+      "text": "Daniel felt happy when their plants grew.",
+      "kind": "sentences",
+      "src": "audio/20261016-fixed/sentences/10.mp3",
+      "source": "original",
+      "source_start": 45.95399092970521,
+      "source_end": 48.64580498866213,
+      "rate": 0.8,
+      "sha256": "375bb86b9f27881e9bc7830a86c198b62c636940f41d63be3cb8b17ea6e5cbc9"
+    }
+  ]
+}
