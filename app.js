@@ -7,8 +7,8 @@
   const tokenPattern = /([A-Za-z]+(?:[’'-][A-Za-z]+)*|\d+(?:,\d{3})*)/g;
   const isToken = /^[A-Za-z]+(?:[’'-][A-Za-z]+)*$|^\d+(?:,\d{3})*$/;
   let data, currentList, wordItems = [], exampleItems = [];
-  let translationElements = [];
   let targetWords = new Set();
+  let selectedToken = null, selectedWord = null;
 
   function readPreference(key, fallback) {
     try { return localStorage.getItem(key) ?? fallback; } catch { return fallback; }
@@ -17,11 +17,70 @@
     try { localStorage.setItem(key, value); } catch { /* Controls work without storage. */ }
   }
   const storedSpeed = readPreference('garden-reader-speed', '1');
-  $('speed').value = ['0.75', '1', '1.25'].includes(storedSpeed) ? storedSpeed : '1';
-  $('show-translation').checked = readPreference('garden-reader-translation', 'true') !== 'false';
+  $('speed').value = ['0.5', '0.75', '1', '1.25'].includes(storedSpeed) ? storedSpeed : '1';
 
-  function updateTranslations() {
-    for (const element of translationElements) element.hidden = !$('show-translation').checked;
+  function clearWordDetails() {
+    selectedToken?.classList.remove('is-selected');
+    selectedToken?.setAttribute('aria-expanded', 'false');
+    selectedToken = null;
+    selectedWord = null;
+    if (player.mode === 'word-detail') player.stop();
+  }
+
+  function hideWordDetails(restoreFocus = false) {
+    const trigger = selectedToken;
+    if ($('word-details').matches(':popover-open')) $('word-details').hidePopover();
+    clearWordDetails();
+    if (restoreFocus) trigger?.focus({preventScroll: true});
+  }
+
+  function positionWordDetails() {
+    if (!selectedToken || !$('word-details').matches(':popover-open')) return;
+    const card = $('word-details');
+    const anchor = selectedToken.getBoundingClientRect();
+    if (anchor.bottom < 0 || anchor.top > window.innerHeight) {
+      hideWordDetails();
+      return;
+    }
+    const gap = 10, margin = 12;
+    const left = Math.min(Math.max(margin, anchor.left), window.innerWidth - card.offsetWidth - margin);
+    const below = anchor.bottom + gap;
+    const top = below + card.offsetHeight <= window.innerHeight - margin
+      ? below : Math.max(margin, anchor.top - card.offsetHeight - gap);
+    card.style.left = `${left}px`;
+    card.style.top = `${top}px`;
+  }
+
+  function showWordDetails(word, trigger) {
+    if (selectedToken === trigger && $('word-details').matches(':popover-open')) {
+      hideWordDetails(true);
+      return;
+    }
+    hideWordDetails();
+    player.stop();
+    trigger.scrollIntoView({block: 'nearest', inline: 'nearest', behavior: 'instant'});
+    const key = normalize(word);
+    const dictionary = window.WORD_DICTIONARY || {};
+    const vocabularyEntry = data.vocabulary.find((entry) => normalize(entry.word) === key);
+    const meaningParts = vocabularyEntry?.meaning.match(/^(\S+)\s+(.+)$/);
+    const entry = Object.hasOwn(dictionary, key) ? dictionary[key] : {
+      ipa: vocabularyEntry?.ipa || '',
+      pos: meaningParts?.[1] || '',
+      meaning: meaningParts?.[2] || '暂未收录该词的释义。'
+    };
+    selectedToken = trigger;
+    selectedWord = {text: word, src: data.audio.words[key], elementId: 'word-detail-play', type: 'word'};
+    $('word-detail-title').textContent = word;
+    $('word-detail-ipa').textContent = entry.ipa;
+    $('word-detail-pos').textContent = entry.pos;
+    $('word-detail-meaning').textContent = entry.meaning;
+    $('word-detail-play').disabled = !selectedWord.src;
+    $('word-detail-play').setAttribute('aria-label', `播放 ${word} 的发音`);
+    trigger.classList.add('is-selected');
+    trigger.setAttribute('aria-expanded', 'true');
+    $('word-details').showPopover({source: trigger});
+    positionWordDetails();
+    $('word-detail-play').focus({preventScroll: true});
   }
 
   function createSentence(text, item) {
@@ -38,10 +97,11 @@
         if (targetWords.has(normalize(part))) button.classList.add('target-word');
         button.id = `${item.elementId}-word-${tokenIndex++}`;
         button.textContent = part;
-        button.setAttribute('aria-label', `朗读单词 ${part}`);
-        button.addEventListener('click', () => player.start([{
-          text: part, src: data.audio.words[normalize(part)], elementId: button.id, type: 'word'
-        }], 'word'));
+        button.setAttribute('aria-label', `查看单词 ${part}`);
+        button.setAttribute('aria-haspopup', 'dialog');
+        button.setAttribute('aria-controls', 'word-details');
+        button.setAttribute('aria-expanded', 'false');
+        button.addEventListener('click', () => showWordDetails(part, button));
         line.append(button);
       } else {
         line.append(document.createTextNode(part));
@@ -61,15 +121,14 @@
   function renderList(number) {
     const next = course.lists[number];
     if (!next) { $('list-select').value = String(currentList); return; }
+    hideWordDetails();
     player.stop();
     currentList = number;
     data = next;
     $('list-select').value = String(number);
     $('current-list').textContent = `List ${number}`;
-    $('content-count').textContent = `${data.vocabulary.length} 个单词 · ${data.examples.length} 条真题例句`;
     $('vocabulary-grid').replaceChildren();
     $('examples-content').replaceChildren();
-    translationElements = [];
     targetWords = new Set([...data.vocabulary.map((entry) => normalize(entry.word)), ...(data.targetForms || [])]);
     wordItems = data.vocabulary.map((entry, index) => ({text: entry.word, src: entry.audio, elementId: `vocab-${index}`, type: 'word'}));
     exampleItems = data.examples.map((entry, index) => ({text: entry.text, src: entry.audio, elementId: `example-${index}`, type: 'sentence'}));
@@ -115,13 +174,11 @@
       translation.className = 'example-translation';
       translation.lang = 'zh-CN';
       translation.textContent = entry.translation;
-      translationElements.push(translation);
       body.append(createSentence(entry.text, exampleItems[index]), translation);
       row.append(number, body);
       $('examples-content').append(row);
     }
 
-    updateTranslations();
     storePreference('english-reader-list', String(number));
   }
 
@@ -156,6 +213,7 @@
       });
     }
     start(items, mode) {
+      if (mode !== 'word-detail') hideWordDetails();
       this.stop();
       $('notice').hidden = true;
       this.items = items;
@@ -241,7 +299,6 @@
     $('list-select').append(option);
   }
   const available = Object.keys(course.lists).map(Number).sort((a, b) => a - b);
-  $('list-availability').textContent = `共 ${course.totalLists} 个 List，目前已添加 ${available.map((n) => `List ${n}`).join('、')}。`;
   const storedList = Number(readPreference('english-reader-list', '1'));
   renderList(course.lists[storedList] ? storedList : available[0]);
   $('list-select').addEventListener('change', () => renderList(Number($('list-select').value)));
@@ -259,10 +316,23 @@
     player.audio.playbackRate = Number($('speed').value);
     storePreference('garden-reader-speed', $('speed').value);
   });
-  $('show-translation').addEventListener('change', () => {
-    updateTranslations();
-    storePreference('garden-reader-translation', String($('show-translation').checked));
+  $('word-detail-play').addEventListener('click', () => {
+    if (selectedWord) player.start([selectedWord], 'word-detail');
   });
-  document.addEventListener('keydown', (event) => { if (event.key === 'Escape') player.stop(); });
-  window.addEventListener('pagehide', () => player.stop());
+  $('word-detail-close').addEventListener('click', () => hideWordDetails(true));
+  $('word-details').addEventListener('beforetoggle', (event) => {
+    if (event.newState === 'closed') clearWordDetails();
+  });
+  window.addEventListener('resize', positionWordDetails);
+  window.addEventListener('scroll', positionWordDetails, {passive: true});
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      hideWordDetails(true);
+      player.stop();
+    }
+  });
+  window.addEventListener('pagehide', () => {
+    hideWordDetails();
+    player.stop();
+  });
 })();

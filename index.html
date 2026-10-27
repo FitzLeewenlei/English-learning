@@ -4,12 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f6f8fc">
-  <meta name="description" content="高频重点词·英语点读。按 List 学习单词与真题例句，点击英文单词或句后小喇叭听英式发音。">
+  <meta name="description" content="高频重点词·英语点读。按 List 学习单词与真题例句，点击句中单词查看音标、词性、释义并听发音。">
   <title>高频重点词·英语点读</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230071e3'/%3E%3Cpath d='M16 18h13c4 0 6 3 6 5v25c-2-3-5-5-9-5H16zm32 0H35v30c2-3 5-5 9-5h4z' fill='none' stroke='white' stroke-width='3' stroke-linejoin='round'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css?v=20261016-list1">
+  <link rel="stylesheet" href="style.css?v=20261027-word-details">
   <script src="content.js?v=20261016-list1" defer></script>
-  <script src="app.js?v=20261027-vocabulary-examples" defer></script>
+  <script src="dictionary.js?v=20261027-word-details" defer></script>
+  <script src="app.js?v=20261027-word-details" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#vocabulary">跳到学习内容</a>
@@ -30,25 +31,15 @@
       </a>
       <label class="list-control" for="list-select">
         <span class="visually-hidden">选择学习列表</span>
-        <span class="select-wrap"><select id="list-select" aria-label="选择 List" aria-describedby="list-availability"></select><svg aria-hidden="true"><use href="#i-chevron"/></svg></span>
+        <span class="select-wrap"><select id="list-select" aria-label="选择 List"></select><svg aria-hidden="true"><use href="#i-chevron"/></svg></span>
       </label>
     </div>
   </header>
 
   <main id="top" class="page">
-    <section class="list-heading" aria-labelledby="current-list">
-      <div class="eyebrow"><span class="blue-dot"></span>高频重点词<span class="eyebrow-separator">·</span>英式发音</div>
-      <div class="list-summary"><h2 id="current-list">List 1</h2><div id="content-count" class="content-count"></div></div>
-      <p class="learning-tip">轻点英文单词听发音，点句后的<svg class="inline-icon" aria-hidden="true"><use href="#i-volume"/></svg>听整句。</p>
-      <p id="list-availability" class="list-availability">共 45 个 List，目前已添加 List 1。</p>
-    </section>
-    <nav class="section-nav learning-nav" aria-label="学习内容导航">
-      <a href="#vocabulary">单词</a><a href="#examples">真题例句</a>
-    </nav>
-
-    <div class="preferences" role="group" aria-label="朗读与显示设置">
-      <label class="speed-control" for="speed"><span>朗读速度</span><span class="select-wrap"><select id="speed" aria-label="朗读速度"><option value="0.75">0.75×</option><option value="1" selected>1.0×</option><option value="1.25">1.25×</option></select><svg><use href="#i-chevron"/></svg></span></label>
-      <label class="translation-control"><input type="checkbox" id="show-translation" checked><span class="switch-track" aria-hidden="true"><span></span></span><span>显示译文</span></label>
+    <div class="page-toolbar">
+      <h2 id="current-list">List 1</h2>
+      <label class="speed-control" for="speed"><span>朗读速度</span><span class="select-wrap"><select id="speed" aria-label="朗读速度"><option value="0.5">0.5×</option><option value="0.75">0.75×</option><option value="1" selected>1.0×</option><option value="1.25">1.25×</option></select><svg aria-hidden="true"><use href="#i-chevron"/></svg></span></label>
     </div>
 
     <section id="vocabulary" class="learning-section" aria-labelledby="vocab-title">
@@ -67,8 +58,14 @@
       <div id="examples-content" class="examples-paper"></div>
     </section>
 
-    <footer class="page-footer"><svg><use href="#i-volume"/></svg><span>点击即可重听，按 Esc 停止朗读。</span></footer>
   </main>
+
+  <div id="word-details" class="word-details" popover="auto" role="dialog" aria-labelledby="word-detail-title" aria-describedby="word-detail-definition">
+    <button id="word-detail-close" class="word-detail-close" type="button" aria-label="关闭单词卡片"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    <h3 id="word-detail-title" lang="en"></h3>
+    <div class="word-detail-pronunciation"><span id="word-detail-ipa" lang="en"></span><button id="word-detail-play" type="button" aria-label="播放单词发音"><svg aria-hidden="true"><use href="#i-volume"/></svg><span>发音</span></button></div>
+    <div id="word-detail-definition" class="word-detail-definition"><span id="word-detail-pos" lang="en"></span><p id="word-detail-meaning" lang="zh-CN"></p></div>
+  </div>
 
   <aside id="player" class="player" aria-label="当前朗读" hidden>
     <div class="player-progress" aria-hidden="true"><span id="player-progress"></span></div>
