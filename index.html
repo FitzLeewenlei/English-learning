@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f6f8fc">
-  <meta name="description" content="高频重点词·英语点读。按 List 学习单词、真题例句与短文助记，点击英文单词或句后小喇叭听英式发音。">
+  <meta name="description" content="高频重点词·英语点读。按 List 学习单词与真题例句，点击英文单词或句后小喇叭听英式发音。">
   <title>高频重点词·英语点读</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230071e3'/%3E%3Cpath d='M16 18h13c4 0 6 3 6 5v25c-2-3-5-5-9-5H16zm32 0H35v30c2-3 5-5 9-5h4z' fill='none' stroke='white' stroke-width='3' stroke-linejoin='round'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css?v=20261016-list1">
   <script src="content.js?v=20261016-list1" defer></script>
-  <script src="app.js?v=20261016-list1" defer></script>
+  <script src="app.js?v=20261027-vocabulary-examples" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#vocabulary">跳到学习内容</a>
@@ -43,7 +43,7 @@
       <p id="list-availability" class="list-availability">共 45 个 List，目前已添加 List 1。</p>
     </section>
     <nav class="section-nav learning-nav" aria-label="学习内容导航">
-      <a href="#vocabulary">单词</a><a href="#examples">真题例句</a><a href="#reading">短文助记</a>
+      <a href="#vocabulary">单词</a><a href="#examples">真题例句</a>
     </nav>
 
     <div class="preferences" role="group" aria-label="朗读与显示设置">
@@ -67,22 +67,6 @@
       <div id="examples-content" class="examples-paper"></div>
     </section>
 
-    <section id="reading" class="learning-section reading-section" aria-labelledby="reading-title">
-      <div class="section-heading">
-        <div><span class="section-index">03</span><h2 id="reading-title">短文助记</h2><span class="section-caption" lang="en">Reading</span></div>
-        <button id="play-reading" class="primary-button"><svg><use href="#i-play"/></svg><span>朗读文章</span></button>
-      </div>
-      <article class="reading-paper" aria-labelledby="article-title">
-        <div class="paper-topline"><span lang="en">READ &amp; REMEMBER</span><span class="paper-mode"><span></span>点词即读</span></div>
-        <h3 id="article-title" class="article-title" lang="en"></h3>
-        <p id="article-subtitle" class="article-subtitle"></p>
-        <div id="article-content" lang="en"></div>
-        <div class="translation-panel" id="translation-panel" aria-labelledby="translation-title">
-          <h3 id="translation-title">中文译文</h3>
-          <div id="translation-content"></div>
-        </div>
-      </article>
-    </section>
     <footer class="page-footer"><svg><use href="#i-volume"/></svg><span>点击即可重听，按 Esc 停止朗读。</span></footer>
   </main>
 

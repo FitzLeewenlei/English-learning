@@ -6,7 +6,7 @@
   const normalize = (word) => word.toLowerCase().replace(/’/g, "'");
   const tokenPattern = /([A-Za-z]+(?:[’'-][A-Za-z]+)*|\d+(?:,\d{3})*)/g;
   const isToken = /^[A-Za-z]+(?:[’'-][A-Za-z]+)*$|^\d+(?:,\d{3})*$/;
-  let data, currentList, wordItems = [], exampleItems = [], sentenceItems = [];
+  let data, currentList, wordItems = [], exampleItems = [];
   let translationElements = [];
   let targetWords = new Set();
 
@@ -66,16 +66,13 @@
     data = next;
     $('list-select').value = String(number);
     $('current-list').textContent = `List ${number}`;
-    $('content-count').textContent = `${data.vocabulary.length} 个单词 · ${data.examples.length} 条真题例句 · 1 篇短文`;
+    $('content-count').textContent = `${data.vocabulary.length} 个单词 · ${data.examples.length} 条真题例句`;
     $('vocabulary-grid').replaceChildren();
     $('examples-content').replaceChildren();
-    $('article-content').replaceChildren();
-    $('translation-content').replaceChildren();
-    translationElements = [$('translation-panel'), $('article-subtitle')];
+    translationElements = [];
     targetWords = new Set([...data.vocabulary.map((entry) => normalize(entry.word)), ...(data.targetForms || [])]);
     wordItems = data.vocabulary.map((entry, index) => ({text: entry.word, src: entry.audio, elementId: `vocab-${index}`, type: 'word'}));
     exampleItems = data.examples.map((entry, index) => ({text: entry.text, src: entry.audio, elementId: `example-${index}`, type: 'sentence'}));
-    sentenceItems = [];
 
     for (const [index, entry] of data.vocabulary.entries()) {
       const button = document.createElement('button');
@@ -124,25 +121,6 @@
       $('examples-content').append(row);
     }
 
-    $('article-title').textContent = data.title;
-    $('article-subtitle').textContent = data.subtitle;
-    let index = 0;
-    for (const paragraph of data.paragraphs) {
-      const group = document.createElement('div');
-      group.className = 'paragraph-group';
-      for (const text of paragraph) {
-        const clip = data.audio.sentences.find((entry) => entry.text === text);
-        const item = {text, src: clip?.src, elementId: `sentence-${index++}`, type: 'sentence'};
-        sentenceItems.push(item);
-        group.append(createSentence(text, item));
-      }
-      $('article-content').append(group);
-    }
-    for (const text of data.translations) {
-      const paragraph = document.createElement('p');
-      paragraph.textContent = text;
-      $('translation-content').append(paragraph);
-    }
     updateTranslations();
     storePreference('english-reader-list', String(number));
   }
@@ -224,8 +202,7 @@
     updateButtons() {
       for (const [mode, id, label] of [
         ['vocabulary', 'play-vocabulary', '依次朗读'],
-        ['examples', 'play-examples', '依次朗读'],
-        ['reading', 'play-reading', '朗读短文']
+        ['examples', 'play-examples', '依次朗读']
       ]) {
         const active = this.mode === mode && this.items.length > 0;
         $(id).innerHTML = icon(active ? 'stop' : 'play') + `<span>${active ? '停止朗读' : label}</span>`;
@@ -270,8 +247,7 @@
   $('list-select').addEventListener('change', () => renderList(Number($('list-select').value)));
   for (const [mode, id, getItems] of [
     ['vocabulary', 'play-vocabulary', () => wordItems],
-    ['examples', 'play-examples', () => exampleItems],
-    ['reading', 'play-reading', () => sentenceItems]
+    ['examples', 'play-examples', () => exampleItems]
   ]) {
     $(id).addEventListener('click', () => {
       if (player.mode === mode) player.stop();
