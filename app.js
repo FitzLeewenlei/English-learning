@@ -182,6 +182,141 @@
     storePreference('english-reader-list', String(number));
   }
 
+  class SentenceFocus {
+    constructor(owner) {
+      this.owner = owner;
+      this.dialog = $('sentence-focus');
+      this.words = [];
+      this.frame = null;
+      this.activeWord = -1;
+      window.addEventListener('resize', () => {
+        this.activeWord = -1;
+        this.sync();
+      });
+      $('focus-close').addEventListener('click', () => owner.stop());
+      $('focus-toggle').addEventListener('click', () => owner.togglePause());
+      $('focus-rewind').addEventListener('click', () => owner.seek(-5));
+      $('focus-forward').addEventListener('click', () => owner.seek(5));
+      this.dialog.addEventListener('cancel', (event) => {
+        event.preventDefault();
+        owner.stop();
+      });
+      this.dialog.addEventListener('close', () => {
+        if (!this.dialog.open && owner.items[owner.index]?.type === 'sentence') owner.stop();
+      });
+      const outside = (event) => {
+        const bounds = this.dialog.getBoundingClientRect();
+        return event.target === this.dialog && (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom);
+      };
+      let pressedOutside = false;
+      this.dialog.addEventListener('pointerdown', (event) => { pressedOutside = outside(event); });
+      this.dialog.addEventListener('click', (event) => {
+        if (pressedOutside && outside(event)) owner.stop();
+        pressedOutside = false;
+      });
+      this.dialog.addEventListener('keydown', (event) => {
+        if (event.altKey || event.ctrlKey || event.metaKey) return;
+        if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+          event.preventDefault();
+          owner.seek(event.key === 'ArrowLeft' ? -5 : 5);
+        } else if (event.code === 'Space' && event.target.tagName !== 'BUTTON') {
+          event.preventDefault();
+          owner.togglePause();
+        }
+      });
+    }
+    show(item, index, total) {
+      this.cancelFrame();
+      this.words = [];
+      this.activeWord = -1;
+      const sentence = $('focus-sentence');
+      sentence.replaceChildren();
+      let weight = 0;
+      const spokenNumbers = {'10': 'ten', '1988': 'nineteen eighty eight', '200': 'two hundred', '25,000': 'twenty five thousand', 'mwc': 'em double u see'};
+      for (const part of item.text.split(/(\s+)/)) {
+        const tokens = part.match(tokenPattern);
+        if (tokens?.length === 1) {
+          const element = document.createElement('span');
+          element.className = 'focus-word';
+          element.textContent = part;
+          const key = normalize(tokens[0]);
+          const length = Math.max(2, (spokenNumbers[key] || key).length);
+          this.words.push({element, key, from: weight, weight: length});
+          weight += length;
+          sentence.append(element);
+        } else {
+          sentence.append(document.createTextNode(part));
+        }
+      }
+      this.totalWeight = weight;
+      const aligned = window.SENTENCE_TIMINGS?.[item.src]?.words;
+      this.timings = aligned?.length === this.words.length && aligned.every((entry, i) =>
+        normalize(entry.text) === this.words[i].key && Number.isFinite(entry.start) && entry.end > entry.start
+      ) ? aligned : null;
+      $('focus-count').textContent = total > 1 ? `${String(index + 1).padStart(2, '0')} / ${total}` : '整句朗读';
+      this.dialog.classList.toggle('is-long', item.text.length > 180);
+      this.dialog.classList.toggle('is-short', item.text.length < 65);
+      sentence.scrollTop = 0;
+      document.body.classList.add('sentence-focus-open');
+      if (!this.dialog.open) this.dialog.showModal();
+      this.sync();
+    }
+    sync() {
+      if (!this.dialog.open) return;
+      const audio = this.owner.audio;
+      const duration = audio.duration;
+      const loaded = Number.isFinite(duration) && duration > 0;
+      const time = Math.max(0, audio.currentTime || 0);
+      const format = (value) => `${String(Math.floor(value / 60)).padStart(2, '0')}:${String(Math.floor(value % 60)).padStart(2, '0')}`;
+      const timeLabel = `${format(time)} / ${loaded ? format(duration) : '--:--'}`;
+      if ($('focus-time').textContent !== timeLabel) $('focus-time').textContent = timeLabel;
+      const label = audio.paused ? '继续朗读' : '暂停朗读';
+      if ($('focus-toggle').getAttribute('aria-label') !== label) {
+        $('focus-toggle').innerHTML = icon(audio.paused ? 'play' : 'pause');
+        $('focus-toggle').setAttribute('aria-label', label);
+      }
+      $('focus-rewind').disabled = !loaded;
+      $('focus-forward').disabled = !loaded;
+      let current = -1;
+      for (const [i, word] of this.words.entries()) {
+        const start = this.timings ? this.timings[i].start : duration * word.from / this.totalWeight;
+        const end = this.timings ? this.timings[i].end : duration * (word.from + word.weight) / this.totalWeight;
+        const fraction = loaded ? Math.max(0, Math.min(1, (time - start) / (end - start))) : 0;
+        word.element.style.setProperty('--word-progress', `${(fraction * 100).toFixed(2)}%`);
+        if (current === -1 && (time < end || !loaded)) current = i;
+      }
+      if (current === -1) current = this.words.length - 1;
+      if (current !== this.activeWord && current >= 0) {
+        this.activeWord = current;
+        // Scroll only the subtitle pane, leaving the dialog controls in place.
+        const pane = $('focus-sentence');
+        const bounds = pane.getBoundingClientRect();
+        const wordBounds = this.words[current].element.getBoundingClientRect();
+        if (wordBounds.top < bounds.top + 8) pane.scrollTop -= bounds.top + 8 - wordBounds.top;
+        else if (wordBounds.bottom > bounds.bottom - 8) pane.scrollTop += wordBounds.bottom - bounds.bottom + 8;
+      }
+    }
+    watch() {
+      this.cancelFrame();
+      const tick = () => {
+        this.sync();
+        if (this.dialog.open && !this.owner.audio.paused && !this.owner.audio.ended) this.frame = requestAnimationFrame(tick);
+      };
+      tick();
+    }
+    cancelFrame() {
+      if (this.frame !== null) cancelAnimationFrame(this.frame);
+      this.frame = null;
+    }
+    hide() {
+      this.cancelFrame();
+      if (this.dialog.open) this.dialog.close();
+      document.body.classList.remove('sentence-focus-open');
+      this.words = [];
+      this.timings = null;
+    }
+  }
+
   class AudioPlayer {
     constructor() {
       this.audio = new Audio();
@@ -193,6 +328,7 @@
       this.mode = '';
       this.generation = 0;
       this.activeElement = null;
+      this.focus = new SentenceFocus(this);
       this.audio.addEventListener('ended', () => {
         if (!this.items.length) return;
         if (this.index + 1 < this.items.length) {
@@ -207,6 +343,15 @@
         const fraction = Number.isFinite(duration) && duration > 0 ? this.audio.currentTime / duration : 0;
         const total = this.items.length || 1;
         $('player-progress').style.width = `${Math.min(100, ((this.index + fraction) / total) * 100)}%`;
+        this.focus.sync();
+      });
+      for (const name of ['loadedmetadata', 'durationchange', 'seeking', 'seeked']) {
+        this.audio.addEventListener(name, () => this.focus.sync());
+      }
+      this.audio.addEventListener('play', () => this.focus.watch());
+      this.audio.addEventListener('pause', () => {
+        this.focus.cancelFrame();
+        this.focus.sync();
       });
       this.audio.addEventListener('error', () => {
         if (this.items.length) this.fail();
@@ -225,14 +370,15 @@
       this.clearHighlight();
       const item = this.items[this.index];
       if (!item) return this.stop();
-      const generation = ++this.generation;
+      this.focus.cancelFrame();
+      this.generation++;
       this.activeElement = $(item.elementId);
       if (this.activeElement) {
         this.activeElement.classList.add(item.type === 'sentence' ? 'is-speaking' : 'is-playing');
         const speaker = item.type === 'sentence' ? this.activeElement.querySelector('.sentence-play') : this.activeElement;
         speaker?.setAttribute('aria-pressed', 'true');
       }
-      $('player').hidden = false;
+      $('player').hidden = item.type === 'sentence';
       $('player-kind').textContent = item.type === 'word' ? '单词朗读 · 英式发音' : '句子朗读 · 英式发音';
       $('player-text').textContent = item.text;
       $('player-count').textContent = this.items.length > 1 ? `${String(this.index + 1).padStart(2, '0')} / ${this.items.length}` : '';
@@ -241,6 +387,12 @@
       if (!item.src) return this.fail();
       this.audio.src = item.src;
       this.audio.playbackRate = Number($('speed').value);
+      if (item.type === 'sentence') this.focus.show(item, this.index, this.items.length);
+      else this.focus.hide();
+      this.resume();
+    }
+    resume() {
+      const generation = this.generation;
       try {
         const started = this.audio.play();
         started?.catch((error) => {
@@ -248,6 +400,18 @@
           this.fail();
         });
       } catch { this.fail(); }
+    }
+    togglePause() {
+      if (this.items[this.index]?.type !== 'sentence') return;
+      if (this.audio.paused) this.resume();
+      else this.audio.pause();
+      this.focus.sync();
+    }
+    seek(seconds) {
+      const duration = this.audio.duration;
+      if (this.items[this.index]?.type !== 'sentence' || !Number.isFinite(duration) || duration <= 0) return;
+      this.audio.currentTime = Math.max(0, Math.min(duration, this.audio.currentTime + seconds));
+      this.focus.sync();
     }
     clearHighlight() {
       if (this.activeElement) {
@@ -268,6 +432,7 @@
       }
     }
     stop() {
+      const restoreTo = this.focus.dialog.open ? this.activeElement?.querySelector('.sentence-play') : null;
       this.generation++;
       this.items = [];
       this.index = 0;
@@ -275,11 +440,13 @@
       this.audio.pause();
       this.audio.removeAttribute('src');
       this.audio.load();
+      this.focus.hide();
       this.clearHighlight();
       $('player').hidden = true;
       $('player-progress').style.width = '0%';
       $('screen-reader-status').textContent = '';
       this.updateButtons();
+      restoreTo?.focus({preventScroll: true});
     }
     fail() {
       this.stop();
