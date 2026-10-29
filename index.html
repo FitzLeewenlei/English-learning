@@ -7,11 +7,11 @@
   <meta name="description" content="海纳教育·英语重点词点读。按 Unit 学习单词与真题例句，点击句中单词查看音标、词性、释义并听发音。">
   <title>海纳教育·英语重点词点读</title>
   <link rel="icon" type="image/webp" href="assets/haina-emblem.webp">
-  <link rel="stylesheet" href="style.css?v=20261029-haina-logo-size">
+  <link rel="stylesheet" href="style.css?v=20261029-youdao-unit1">
   <script src="content.js?v=20261029-unit120" defer></script>
-  <script src="dictionary.js?v=20261027-word-details" defer></script>
+  <script src="dictionary.js?v=20261029-youdao-unit1" defer></script>
   <script src="sentence-timings.js?v=20261027-focus-player" defer></script>
-  <script src="app.js?v=20261029-unit120" defer></script>
+  <script src="app.js?v=20261029-youdao-unit1" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#vocabulary">跳到学习内容</a>
@@ -68,8 +68,10 @@
   <div id="word-details" class="word-details" popover="auto" role="dialog" aria-labelledby="word-detail-title" aria-describedby="word-detail-definition">
     <button id="word-detail-close" class="word-detail-close" type="button" aria-label="关闭单词卡片"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     <h3 id="word-detail-title" lang="en"></h3>
-    <div class="word-detail-pronunciation"><span id="word-detail-ipa" lang="en"></span><button id="word-detail-play" type="button" aria-label="播放单词发音"><svg aria-hidden="true"><use href="#i-volume"/></svg><span>发音</span></button></div>
-    <div id="word-detail-definition" class="word-detail-definition"><span id="word-detail-pos" lang="en"></span><p id="word-detail-meaning" lang="zh-CN"></p></div>
+    <p id="word-detail-headword" class="word-detail-headword" hidden></p>
+    <div class="word-detail-pronunciation"><span id="word-detail-ipa" lang="en"></span><button id="word-detail-play" type="button" aria-label="播放单词英式发音"><svg aria-hidden="true"><use href="#i-volume"/></svg><span>英音</span></button></div>
+    <div id="word-detail-definition" class="word-detail-definition"></div>
+    <a id="word-detail-source" class="word-detail-source" target="_blank" rel="noopener noreferrer" hidden>有道词典 ↗</a>
   </div>
 
   <dialog id="sentence-focus" class="sentence-focus" aria-label="句子朗读" aria-describedby="focus-sentence">

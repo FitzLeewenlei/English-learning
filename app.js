@@ -16,6 +16,37 @@
   function storePreference(key, value) {
     try { localStorage.setItem(key, value); } catch { /* Controls work without storage. */ }
   }
+
+  function wordEntry(word) {
+    const key = normalize(word);
+    const dictionary = window.WORD_DICTIONARY || {};
+    return Object.hasOwn(dictionary, key) ? dictionary[key] : {ipa: '', senses: [], audio: '', status: 'unavailable'};
+  }
+
+  function renderWordMeanings(container, entry) {
+    container.replaceChildren();
+    const senses = entry.senses || [];
+    for (const sense of senses) {
+      const row = document.createElement('span');
+      row.className = 'word-sense';
+      const pos = document.createElement('span');
+      pos.className = 'word-sense-pos';
+      pos.lang = /[a-z]/i.test(sense.pos) ? 'en' : 'zh-CN';
+      pos.textContent = sense.pos;
+      const meaning = document.createElement('span');
+      meaning.className = 'word-sense-meaning';
+      meaning.lang = 'zh-CN';
+      meaning.textContent = sense.meanings.slice(0, 3).join('；');
+      row.append(pos, meaning);
+      container.append(row);
+    }
+    if (!senses.length) {
+      const message = document.createElement('span');
+      message.className = 'word-unavailable';
+      message.textContent = '有道暂未提供该词形的释义';
+      container.append(message);
+    }
+  }
   const storedSpeed = readPreference('garden-reader-speed', '1');
   $('speed').value = ['0.5', '0.75', '1', '1.25'].includes(storedSpeed) ? storedSpeed : '1';
 
@@ -59,28 +90,28 @@
     hideWordDetails();
     player.stop();
     trigger.scrollIntoView({block: 'nearest', inline: 'nearest', behavior: 'instant'});
-    const key = normalize(word);
-    const dictionary = window.WORD_DICTIONARY || {};
-    const vocabularyEntry = data.vocabulary.find((entry) => normalize(entry.word) === key);
-    const meaningParts = vocabularyEntry?.meaning.match(/^(\S+)\s+(.+)$/);
-    const entry = Object.hasOwn(dictionary, key) ? dictionary[key] : {
-      ipa: vocabularyEntry?.ipa || '',
-      pos: meaningParts?.[1] || '',
-      meaning: meaningParts?.[2] || '暂未收录该词的释义。'
-    };
+    const entry = wordEntry(word);
     selectedToken = trigger;
-    selectedWord = {text: word, src: data.audio.words[key], elementId: 'word-detail-play', type: 'word'};
+    selectedWord = {text: word, src: entry.audio, elementId: 'word-detail-play', type: 'word'};
     $('word-detail-title').textContent = word;
-    $('word-detail-ipa').textContent = entry.ipa;
-    $('word-detail-pos').textContent = entry.pos;
-    $('word-detail-meaning').textContent = entry.meaning;
+    const headword = entry.lemma || entry.source?.lemma;
+    const headwordLabel = $('word-detail-headword');
+    headwordLabel.hidden = !headword || normalize(headword) === normalize(word);
+    headwordLabel.textContent = headwordLabel.hidden ? '' : `有道词头：${headword}`;
+    $('word-detail-ipa').textContent = entry.ipa ? `英 ${entry.ipa}` : '有道英式音标暂缺';
+    renderWordMeanings($('word-detail-definition'), entry);
     $('word-detail-play').disabled = !selectedWord.src;
-    $('word-detail-play').setAttribute('aria-label', `播放 ${word} 的发音`);
+    $('word-detail-play').setAttribute('aria-label', selectedWord.src ? `播放 ${word} 的英式发音` : `${word} 的有道英式发音暂缺`);
+    const source = $('word-detail-source');
+    const url = entry.source?.url;
+    source.hidden = !url || !url.startsWith('https://dict.youdao.com/');
+    if (source.hidden) source.removeAttribute('href');
+    else source.href = url;
     trigger.classList.add('is-selected');
     trigger.setAttribute('aria-expanded', 'true');
     $('word-details').showPopover({source: trigger});
     positionWordDetails();
-    $('word-detail-play').focus({preventScroll: true});
+    (selectedWord.src ? $('word-detail-play') : $('word-detail-close')).focus({preventScroll: true});
   }
 
   function createSentence(text, item) {
@@ -130,14 +161,16 @@
     $('vocabulary-grid').replaceChildren();
     $('examples-content').replaceChildren();
     targetWords = new Set([...data.vocabulary.map((entry) => normalize(entry.word)), ...(data.targetForms || [])]);
-    wordItems = data.vocabulary.map((entry, index) => ({text: entry.word, src: entry.audio, elementId: `vocab-${index}`, type: 'word'}));
+    wordItems = data.vocabulary.map((entry, index) => ({text: entry.word, src: wordEntry(entry.word).audio, elementId: `vocab-${index}`, type: 'word'}));
     exampleItems = data.examples.map((entry, index) => ({text: entry.text, src: entry.audio, elementId: `example-${index}`, type: 'sentence'}));
 
     for (const [index, entry] of data.vocabulary.entries()) {
+      const details = wordEntry(entry.word);
       const button = document.createElement('button');
       button.className = 'word-card';
       button.id = `vocab-${index}`;
       button.type = 'button';
+      button.disabled = !details.audio;
       button.setAttribute('aria-label', `朗读单词 ${entry.word}`);
       const topline = document.createElement('span');
       topline.className = 'word-topline';
@@ -152,10 +185,10 @@
       const ipa = document.createElement('span');
       ipa.className = 'word-ipa';
       ipa.lang = 'en';
-      ipa.textContent = entry.ipa;
+      ipa.textContent = details.ipa ? `英 ${details.ipa}` : '有道英式音标暂缺';
       const meaning = document.createElement('span');
       meaning.className = 'word-meaning';
-      meaning.textContent = entry.meaning;
+      renderWordMeanings(meaning, details);
       button.append(topline, ipa, meaning);
       button.addEventListener('click', () => player.start([wordItems[index]], 'word'));
       $('vocabulary-grid').append(button);

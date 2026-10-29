@@ -63,3 +63,14 @@ body.sentence-focus-open{overflow:hidden}
 
 .brand-mark{display:flex;flex-shrink:0;background:transparent;box-shadow:none;border-radius:0;overflow:hidden}
 .brand-mark img{display:block;width:100%;height:100%;object-fit:contain;transform:scale(1.22)}
+
+.word-detail-definition{display:grid;gap:12px}
+.word-sense{display:flex;align-items:baseline;gap:8px;text-align:left;line-height:1.75}
+.word-sense-pos{flex-shrink:0;color:#718095;font-size:12px}
+.word-sense-meaning{min-width:0;color:#48586f;overflow-wrap:anywhere}
+.word-meaning .word-sense+.word-sense{margin-top:5px}
+.word-detail-definition .word-sense-meaning{font-size:14px}
+.word-unavailable{display:block;color:#8a97a8;font-size:12px;line-height:1.7}
+.word-detail-source{display:inline-block;margin-top:16px;color:#718baa;font-size:11px;line-height:1.8}
+.word-detail-source:hover{color:var(--blue);text-decoration:underline}
+.word-detail-headword{margin:-5px 0 12px;color:#8a97a8;font-size:11px;line-height:1.7}
