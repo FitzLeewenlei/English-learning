@@ -126,7 +126,7 @@
     currentList = number;
     data = next;
     $('list-select').value = String(number);
-    $('current-list').textContent = `List ${number}`;
+    $('current-list').textContent = `Unit ${number}`;
     $('vocabulary-grid').replaceChildren();
     $('examples-content').replaceChildren();
     targetWords = new Set([...data.vocabulary.map((entry) => normalize(entry.word)), ...(data.targetForms || [])]);
@@ -462,7 +462,7 @@
     const option = document.createElement('option');
     option.value = String(number);
     option.disabled = !course.lists[number];
-    option.textContent = `List ${number}${option.disabled ? ' · 待添加' : ''}`;
+    option.textContent = `Unit ${number}${option.disabled ? ' · 待添加' : ''}`;
     $('list-select').append(option);
   }
   const available = Object.keys(course.lists).map(Number).sort((a, b) => a - b);

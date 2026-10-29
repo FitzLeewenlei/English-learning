@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate offline word timings for the recorded List 1 example sentences.
+"""Generate offline word timings for the recorded Unit 1 example sentences.
 
 Build-time requirements (no browser/runtime dependencies):
   Python 3.10+, ffmpeg on PATH, and pocketsphinx==5.1.1 with its bundled
