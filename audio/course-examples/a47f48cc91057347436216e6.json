@@ -1,0 +1,171 @@
+{
+  "speechText": "One driver tapping the brakes can cause traffic jams even if drivers cooperate well.",
+  "audio": "audio/course-examples/a47f48cc91057347436216e6.mp3",
+  "sha256": "d42222ceb41ac6c224fccc1418f48187cd7574ed63e6731a91237087bcc6bd6c",
+  "duration": 6.096,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "One",
+      "start": 0.147208,
+      "end": 0.452749
+    },
+    {
+      "text": "driver",
+      "start": 0.466666,
+      "end": 0.924999
+    },
+    {
+      "text": "tapping",
+      "start": 0.938875,
+      "end": 1.341666
+    },
+    {
+      "text": "the",
+      "start": 1.355541,
+      "end": 1.466666
+    },
+    {
+      "text": "brakes",
+      "start": 1.480541,
+      "end": 1.966666
+    },
+    {
+      "text": "can",
+      "start": 1.980541,
+      "end": 2.188874
+    },
+    {
+      "text": "cause",
+      "start": 2.202791,
+      "end": 2.494457
+    },
+    {
+      "text": "traffic",
+      "start": 2.508333,
+      "end": 2.980541
+    },
+    {
+      "text": "jams",
+      "start": 2.994458,
+      "end": 3.494458
+    },
+    {
+      "text": "even",
+      "start": 3.508333,
+      "end": 3.813874
+    },
+    {
+      "text": "if",
+      "start": 3.827791,
+      "end": 3.966666
+    },
+    {
+      "text": "drivers",
+      "start": 3.980541,
+      "end": 4.508332
+    },
+    {
+      "text": "cooperate",
+      "start": 4.522208,
+      "end": 5.216666
+    },
+    {
+      "text": "well",
+      "start": 5.230541,
+      "end": 5.688874
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 3055410,
+      "text": "One"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4666660,
+      "duration": 4583330,
+      "text": "driver"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9388750,
+      "duration": 4027910,
+      "text": "tapping"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13555410,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14805410,
+      "duration": 4861250,
+      "text": "brakes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19805410,
+      "duration": 2083330,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22027910,
+      "duration": 2916660,
+      "text": "cause"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25083330,
+      "duration": 4722080,
+      "text": "traffic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29944580,
+      "duration": 5000000,
+      "text": "jams"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35083330,
+      "duration": 3055410,
+      "text": "even"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38277910,
+      "duration": 1388750,
+      "text": "if"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39805410,
+      "duration": 5277910,
+      "text": "drivers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45222080,
+      "duration": 6944580,
+      "text": "cooperate"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52305410,
+      "duration": 4583330,
+      "text": "well"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:40:25.877011+00:00"
+}

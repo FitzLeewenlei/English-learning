@@ -1,0 +1,105 @@
+{
+  "speechText": "Playing table tennis helps him to keep healthy.",
+  "audio": "audio/course-examples/9e34fda509fdcede3e135f8f.mp3",
+  "sha256": "85fce5f5a79c1a05b47729b31bbc4321065f712ee205ecd7c4d90d65bdf181b3",
+  "duration": 3.48,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Playing",
+      "start": 0.102791,
+      "end": 0.533332
+    },
+    {
+      "text": "table",
+      "start": 0.547208,
+      "end": 0.936083
+    },
+    {
+      "text": "tennis",
+      "start": 0.95,
+      "end": 1.436125
+    },
+    {
+      "text": "helps",
+      "start": 1.45,
+      "end": 1.825
+    },
+    {
+      "text": "him",
+      "start": 1.838875,
+      "end": 2.033333
+    },
+    {
+      "text": "to",
+      "start": 2.047208,
+      "end": 2.172208
+    },
+    {
+      "text": "keep",
+      "start": 2.186125,
+      "end": 2.45
+    },
+    {
+      "text": "healthy",
+      "start": 2.463875,
+      "end": 3.075
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1027910,
+      "duration": 4305410,
+      "text": "Playing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5472080,
+      "duration": 3888750,
+      "text": "table"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9500000,
+      "duration": 4861250,
+      "text": "tennis"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14500000,
+      "duration": 3750000,
+      "text": "helps"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18388750,
+      "duration": 1944580,
+      "text": "him"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20472080,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21861250,
+      "duration": 2638750,
+      "text": "keep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24638750,
+      "duration": 6111250,
+      "text": "healthy"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:30:49.287849+00:00"
+}

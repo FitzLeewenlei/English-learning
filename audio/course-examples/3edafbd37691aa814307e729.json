@@ -1,0 +1,215 @@
+{
+  "speechText": "You open the closet to find you can count the number of clothing items inside on one hand.",
+  "audio": "audio/course-examples/3edafbd37691aa814307e729.mp3",
+  "sha256": "b045781eec2a5ba839ccbe1d57241fddc171f1bd14e635d6d1cda53268e366a8",
+  "duration": 6.288,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "You",
+      "start": 0.147208,
+      "end": 0.327749
+    },
+    {
+      "text": "open",
+      "start": 0.341666,
+      "end": 0.674999
+    },
+    {
+      "text": "the",
+      "start": 0.688875,
+      "end": 0.8
+    },
+    {
+      "text": "closet",
+      "start": 0.813875,
+      "end": 1.383333
+    },
+    {
+      "text": "to",
+      "start": 1.397208,
+      "end": 1.508333
+    },
+    {
+      "text": "find",
+      "start": 1.522208,
+      "end": 1.911083
+    },
+    {
+      "text": "you",
+      "start": 1.925,
+      "end": 2.022208
+    },
+    {
+      "text": "can",
+      "start": 2.036125,
+      "end": 2.216666
+    },
+    {
+      "text": "count",
+      "start": 2.230541,
+      "end": 2.619416
+    },
+    {
+      "text": "the",
+      "start": 2.633333,
+      "end": 2.730541
+    },
+    {
+      "text": "number",
+      "start": 2.744458,
+      "end": 3.063916
+    },
+    {
+      "text": "of",
+      "start": 3.077791,
+      "end": 3.202791
+    },
+    {
+      "text": "clothing",
+      "start": 3.216666,
+      "end": 3.688874
+    },
+    {
+      "text": "items",
+      "start": 3.702791,
+      "end": 4.230582
+    },
+    {
+      "text": "inside",
+      "start": 4.244458,
+      "end": 4.883333
+    },
+    {
+      "text": "on",
+      "start": 4.897208,
+      "end": 5.049999
+    },
+    {
+      "text": "one",
+      "start": 5.063875,
+      "end": 5.272208
+    },
+    {
+      "text": "hand",
+      "start": 5.286125,
+      "end": 5.869458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1805410,
+      "text": "You"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 3333330,
+      "text": "open"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6888750,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8138750,
+      "duration": 5694580,
+      "text": "closet"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15222080,
+      "duration": 3888750,
+      "text": "find"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 972080,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20361250,
+      "duration": 1805410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22305410,
+      "duration": 3888750,
+      "text": "count"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26333330,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27444580,
+      "duration": 3194580,
+      "text": "number"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30777910,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32166660,
+      "duration": 4722080,
+      "text": "clothing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37027910,
+      "duration": 5277910,
+      "text": "items"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42444580,
+      "duration": 6388750,
+      "text": "inside"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48972080,
+      "duration": 1527910,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50638750,
+      "duration": 2083330,
+      "text": "one"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52861250,
+      "duration": 5833330,
+      "text": "hand"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:53:45.645073+00:00"
+}

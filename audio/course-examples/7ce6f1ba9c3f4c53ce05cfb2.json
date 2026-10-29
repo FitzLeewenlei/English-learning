@@ -1,0 +1,204 @@
+{
+  "speechText": "Finally, if the government distributes society's income differently, it raises some poor people above the poverty line.",
+  "audio": "audio/course-examples/7ce6f1ba9c3f4c53ce05cfb2.mp3",
+  "sha256": "ead4a7d71dc197e18056e7215f1612a70f7fcbac7aa4d63a2d50cf747e5ac61e",
+  "duration": 8.16,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Finally",
+      "start": 0.133333,
+      "end": 0.855541
+    },
+    {
+      "text": "if",
+      "start": 1.091666,
+      "end": 1.258332
+    },
+    {
+      "text": "the",
+      "start": 1.272208,
+      "end": 1.383333
+    },
+    {
+      "text": "government",
+      "start": 1.397208,
+      "end": 1.924999
+    },
+    {
+      "text": "distributes",
+      "start": 1.938875,
+      "end": 2.563875
+    },
+    {
+      "text": "society's",
+      "start": 2.577791,
+      "end": 3.286124
+    },
+    {
+      "text": "income",
+      "start": 3.3,
+      "end": 3.744458
+    },
+    {
+      "text": "differently",
+      "start": 3.758333,
+      "end": 4.452791
+    },
+    {
+      "text": "it",
+      "start": 4.8,
+      "end": 4.952791
+    },
+    {
+      "text": "raises",
+      "start": 4.966666,
+      "end": 5.383332
+    },
+    {
+      "text": "some",
+      "start": 5.397208,
+      "end": 5.605541
+    },
+    {
+      "text": "poor",
+      "start": 5.619458,
+      "end": 5.897249
+    },
+    {
+      "text": "people",
+      "start": 5.911125,
+      "end": 6.383333
+    },
+    {
+      "text": "above",
+      "start": 6.397208,
+      "end": 6.716666
+    },
+    {
+      "text": "the",
+      "start": 6.730541,
+      "end": 6.841666
+    },
+    {
+      "text": "poverty",
+      "start": 6.855541,
+      "end": 7.286082
+    },
+    {
+      "text": "line",
+      "start": 7.3,
+      "end": 7.744458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 7222080,
+      "text": "Finally"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10916660,
+      "duration": 1666660,
+      "text": "if"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 5277910,
+      "text": "government"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19388750,
+      "duration": 6250000,
+      "text": "distributes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25777910,
+      "duration": 7083330,
+      "text": "society's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33000000,
+      "duration": 4444580,
+      "text": "income"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37583330,
+      "duration": 6944580,
+      "text": "differently"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48000000,
+      "duration": 1527910,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49666660,
+      "duration": 4166660,
+      "text": "raises"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53972080,
+      "duration": 2083330,
+      "text": "some"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56194580,
+      "duration": 2777910,
+      "text": "poor"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59111250,
+      "duration": 4722080,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63972080,
+      "duration": 3194580,
+      "text": "above"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67305410,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68555410,
+      "duration": 4305410,
+      "text": "poverty"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73000000,
+      "duration": 4444580,
+      "text": "line"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:40:36.681308+00:00"
+}

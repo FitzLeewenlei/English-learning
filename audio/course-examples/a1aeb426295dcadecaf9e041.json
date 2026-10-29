@@ -1,0 +1,347 @@
+{
+  "speechText": "Although I couldn't have predicted exactly what Nina would do, in three minutes I had assessed her as someone who could not be relied on to get a job done.",
+  "audio": "audio/course-examples/a1aeb426295dcadecaf9e041.mp3",
+  "sha256": "b7b5bd0ecc7a5a2f6e67c1556d95620b5551876cfb850450c33492a5fda85d02",
+  "duration": 9.144,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Although",
+      "start": 0.119458,
+      "end": 0.508333
+    },
+    {
+      "text": "I",
+      "start": 0.522208,
+      "end": 0.633333
+    },
+    {
+      "text": "couldn't",
+      "start": 0.647208,
+      "end": 0.980541
+    },
+    {
+      "text": "have",
+      "start": 0.994458,
+      "end": 1.161124
+    },
+    {
+      "text": "predicted",
+      "start": 1.175,
+      "end": 1.758333
+    },
+    {
+      "text": "exactly",
+      "start": 1.772208,
+      "end": 2.313874
+    },
+    {
+      "text": "what",
+      "start": 2.327791,
+      "end": 2.577791
+    },
+    {
+      "text": "Nina",
+      "start": 2.591666,
+      "end": 2.897207
+    },
+    {
+      "text": "would",
+      "start": 2.911125,
+      "end": 3.133333
+    },
+    {
+      "text": "do",
+      "start": 3.147208,
+      "end": 3.494416
+    },
+    {
+      "text": "in",
+      "start": 3.841666,
+      "end": 3.980541
+    },
+    {
+      "text": "three",
+      "start": 3.994458,
+      "end": 4.272249
+    },
+    {
+      "text": "minutes",
+      "start": 4.286125,
+      "end": 4.702791
+    },
+    {
+      "text": "I",
+      "start": 4.716666,
+      "end": 4.813874
+    },
+    {
+      "text": "had",
+      "start": 4.827791,
+      "end": 4.980582
+    },
+    {
+      "text": "assessed",
+      "start": 4.994458,
+      "end": 5.466666
+    },
+    {
+      "text": "her",
+      "start": 5.480541,
+      "end": 5.716666
+    },
+    {
+      "text": "as",
+      "start": 5.730541,
+      "end": 5.911082
+    },
+    {
+      "text": "someone",
+      "start": 5.925,
+      "end": 6.286125
+    },
+    {
+      "text": "who",
+      "start": 6.3,
+      "end": 6.425
+    },
+    {
+      "text": "could",
+      "start": 6.438875,
+      "end": 6.619416
+    },
+    {
+      "text": "not",
+      "start": 6.633333,
+      "end": 6.897208
+    },
+    {
+      "text": "be",
+      "start": 6.911125,
+      "end": 7.02225
+    },
+    {
+      "text": "relied",
+      "start": 7.036125,
+      "end": 7.494458
+    },
+    {
+      "text": "on",
+      "start": 7.508333,
+      "end": 7.674999
+    },
+    {
+      "text": "to",
+      "start": 7.688875,
+      "end": 7.786083
+    },
+    {
+      "text": "get",
+      "start": 7.8,
+      "end": 7.980541
+    },
+    {
+      "text": "a",
+      "start": 7.994458,
+      "end": 8.063916
+    },
+    {
+      "text": "job",
+      "start": 8.077791,
+      "end": 8.341666
+    },
+    {
+      "text": "done",
+      "start": 8.355541,
+      "end": 8.730541
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 3888750,
+      "text": "Although"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5222080,
+      "duration": 1111250,
+      "text": "I"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6472080,
+      "duration": 3333330,
+      "text": "couldn't"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9944580,
+      "duration": 1666660,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11750000,
+      "duration": 5833330,
+      "text": "predicted"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17722080,
+      "duration": 5416660,
+      "text": "exactly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23277910,
+      "duration": 2500000,
+      "text": "what"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 3055410,
+      "text": "Nina"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29111250,
+      "duration": 2222080,
+      "text": "would"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31472080,
+      "duration": 3472080,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38416660,
+      "duration": 1388750,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39944580,
+      "duration": 2777910,
+      "text": "three"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42861250,
+      "duration": 4166660,
+      "text": "minutes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47166660,
+      "duration": 972080,
+      "text": "I"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48277910,
+      "duration": 1527910,
+      "text": "had"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49944580,
+      "duration": 4722080,
+      "text": "assessed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54805410,
+      "duration": 2361250,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57305410,
+      "duration": 1805410,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59250000,
+      "duration": 3611250,
+      "text": "someone"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63000000,
+      "duration": 1250000,
+      "text": "who"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64388750,
+      "duration": 1805410,
+      "text": "could"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66333330,
+      "duration": 2638750,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69111250,
+      "duration": 1111250,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70361250,
+      "duration": 4583330,
+      "text": "relied"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 75083330,
+      "duration": 1666660,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 76888750,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 78000000,
+      "duration": 1805410,
+      "text": "get"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79944580,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 80777910,
+      "duration": 2638750,
+      "text": "job"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 83555410,
+      "duration": 3750000,
+      "text": "done"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:36:17.028131+00:00"
+}

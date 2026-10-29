@@ -1,6 +1,6 @@
 # 海纳教育·英语重点词点读
 
-顶部菜单保留 Unit 1–Unit 120。Unit 1–32 已按用户提供的《Unit1-Unit32 .docx》导入，每个单元包含 15 个单词和 15 组真题例句、译文，共 480 个单词、480 组例句；Unit 33–120 标记为“待添加”。页头使用海纳教育徽标。
+顶部菜单 Unit 1–Unit 120 均有内容，每个单元包含 15 个词条和 15 组真题例句、译文，共 1,800 个词条、1,800 组例句。原 Unit 1–32 保留《Unit1-Unit32 .docx》的既有内容与录音，新增 Unit 33–120 来自《重点单词汇总.docx》，没有覆盖旧单元。页头使用海纳教育徽标。
 
 “01 单词”中的单词、音标、词性和中文释义逐字采用文档内容，仅发音来自有道。`addict`、`present` 的两种读音及对应词性标记也按原文保留。
 
@@ -10,15 +10,15 @@
 
 整句播放时，当前英文居中放大，背景模糊，文字随音频时间由白色推进为蓝色。下方为后退 5 秒、暂停／继续、前进 5 秒；支持左右方向键和 Esc 关闭。中文批注和考试出处在页面中显示，但不读入音频。长句与手机横竖屏均适配，字幕区域必要时单独滚动。
 
-整句录音复用文字一致的既有录音，其余使用 Sonia 英式语音生成，并保存语音服务返回的词边界。复合事件拆成多个显示词元时会在数据中标记估计区间。480 条例句共使用 406 个不同录音文件，包含 393 个新增录音和 13 个复用录音。浏览器只读取本地静态数据和音频，无需实时连接有道或语音服务。
+整句录音复用文字一致的既有录音，其余使用 Sonia 英式语音生成，并保存语音服务返回的词边界。复合事件拆成多个显示词元时会在数据中标记估计区间。所有 1,800 条例句均有离线录音与时间数据，相同句子复用已校验的录音；原有 480 条记录及其音频路径、校验和与时间区间保持不变。浏览器只读取本地静态数据和音频，无需实时连接有道或语音服务。
 
-文档来源与逐段索引保存在 `data/course-units1-32.json`，含文件 SHA-256、480 条词条原文、480 组例句／译文／出处及批注位置。`content.js` 是面向页面的构建结果，不能直接改写其中的文档事实。
+合并后的文档来源与逐段索引保存在 `data/course-units1-120.json`，来源明确区分两个文档及对应单元范围，包含 1,800 条词条原文、1,800 组例句／译文／出处及批注位置。旧提取 `data/course-units1-32.json` 原样保留，`data/preserved-units1-32.json` 记录本次扩充前的可信指纹。`content.js` 是面向页面的构建结果，不能直接改写文档事实。
 
 `dictionary.js` 提供有道词卡资料与单词音频路径；`data/youdao-course.json` 保存查询结果、缺项、来源 URL、采集时间、原始响应 SHA-256、词条字段投影和音频校验和。音频保留有道实际返回的 MP3 或 WAV。旧版本资料与音频保留用于来源复用，页面以当前构建的词条路径为准。
 
-本次共核实 2,182 个词形：1,981 个词卡资料完整，201 个例句词形有字段缺项并照实提示；480 个文档重点词的有道发音全部齐备。返回原形的部分条目可显示有道原形释义，但不会将原形音标或录音冒充当前变形。
+完整课程涉及 3,905 个查询词形；1,800 次文档重点词展示对应 1,782 个不同单词，其有道发音全部齐备。有道未提供的例句词形字段会照实提示，查询及缺项统计见来源审计。返回原形的部分条目可显示有道原形释义，但不会将原形音标或录音冒充当前变形。
 
-`audio/course-examples/manifest.json` 逐单元绑定 480 条例句与录音、校验和及词元时间；新录音旁的 JSON 保存原始词边界和语音参数。`sentence-timings.js` 是浏览器使用的时间映射。
+`audio/course-examples/manifest.json` 逐单元绑定 1,800 条例句与录音、校验和及词元时间；新录音旁的 JSON 保存原始词边界和语音参数。`sentence-timings.js` 是浏览器使用的时间映射。
 
 本地开发无需构建后端。云环境已有 Python、aiohttp、Node.js、Playwright、Chromium。在仓库根目录运行 `python3 tools/serve.py --port 8003`。此服务器支持 HTTP Range，能验证音频快进／后退；Python 自带的 `http.server` 不适合验证 MP3 跳转。线上继续使用 GitHub Pages：
 https://leefitz19981027-dot.github.io/English-learning/
@@ -31,12 +31,14 @@ node tests/youdao.smoke.cjs
 node tests/playback.smoke.cjs
 ```
 
-课程检查核对全部 32 个单元、480 个单词与 480 组例句的文档一致性、菜单、录音绑定及手机排版。有道检查验证来源、缺项、音频校验和及解码。播放检查验证自然结束切换、字幕进度、暂停、跳转、0.5× 和手机横屏。可通过 `TEST_BASE_URL`、`CHROMIUM_PATH` 指定服务和浏览器路径；截图写入临时目录。
+课程检查核对全部 120 个单元、1,800 个词条与 1,800 组例句的文档一致性、菜单、录音绑定及手机排版，并用可信指纹验证原 Unit 1–32 未被更改。有道检查验证来源、缺项、音频校验和及解码。播放检查验证自然结束切换、字幕进度、暂停、跳转、0.5× 和手机横屏。可通过 `TEST_BASE_URL`、`CHROMIUM_PATH` 指定服务和浏览器路径；截图写入临时目录。
 
 更新当前资料的流程如下，来源文件路径须指向用户提供的实际文档：
 
 ```bash
-python3 -B tools/import_course_docx.py "/path/to/Unit1-Unit32 .docx"
+python3 -B tools/import_course_docx.py "/path/to/重点单词汇总.docx" \
+  --expected-units 120 --keep-units-from data/course-units1-32.json \
+  --keep-through 32 --output data/course-units1-120.json
 python3 -B tools/import_youdao_course.py --plan
 python3 -B tools/import_youdao_course.py --fetch
 python3 -B tools/import_youdao_course.py --build

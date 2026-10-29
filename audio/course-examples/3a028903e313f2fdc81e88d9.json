@@ -1,0 +1,193 @@
+{
+  "speechText": "During the hours when you labor through your work, you may say that you’re feeling “hot”.",
+  "audio": "audio/course-examples/3a028903e313f2fdc81e88d9.mp3",
+  "sha256": "7391d615eac0c397bb73f1fcd224f9761f21e1735d5fe1233e0ee9474ae36502",
+  "duration": 5.592,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "During",
+      "start": 0.102791,
+      "end": 0.505582
+    },
+    {
+      "text": "the",
+      "start": 0.519458,
+      "end": 0.686124
+    },
+    {
+      "text": "hours",
+      "start": 0.7,
+      "end": 1.2
+    },
+    {
+      "text": "when",
+      "start": 1.213875,
+      "end": 1.380541
+    },
+    {
+      "text": "you",
+      "start": 1.394458,
+      "end": 1.505583
+    },
+    {
+      "text": "labor",
+      "start": 1.519458,
+      "end": 1.880583
+    },
+    {
+      "text": "through",
+      "start": 1.894458,
+      "end": 2.116666
+    },
+    {
+      "text": "your",
+      "start": 2.130541,
+      "end": 2.283332
+    },
+    {
+      "text": "work",
+      "start": 2.297208,
+      "end": 2.824999
+    },
+    {
+      "text": "you",
+      "start": 3.172208,
+      "end": 3.297208
+    },
+    {
+      "text": "may",
+      "start": 3.311125,
+      "end": 3.491666
+    },
+    {
+      "text": "say",
+      "start": 3.505541,
+      "end": 3.824999
+    },
+    {
+      "text": "that",
+      "start": 3.838875,
+      "end": 4.019416
+    },
+    {
+      "text": "you’re",
+      "start": 4.033333,
+      "end": 4.186124
+    },
+    {
+      "text": "feeling",
+      "start": 4.2,
+      "end": 4.616666
+    },
+    {
+      "text": "hot",
+      "start": 4.630541,
+      "end": 5.186082
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1027910,
+      "duration": 4027910,
+      "text": "During"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5194580,
+      "duration": 1666660,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7000000,
+      "duration": 5000000,
+      "text": "hours"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12138750,
+      "duration": 1666660,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13944580,
+      "duration": 1111250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15194580,
+      "duration": 3611250,
+      "text": "labor"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18944580,
+      "duration": 2222080,
+      "text": "through"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21305410,
+      "duration": 1527910,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22972080,
+      "duration": 5277910,
+      "text": "work"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31722080,
+      "duration": 1250000,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33111250,
+      "duration": 1805410,
+      "text": "may"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35055410,
+      "duration": 3194580,
+      "text": "say"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38388750,
+      "duration": 1805410,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40333330,
+      "duration": 1527910,
+      "text": "you’re"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42000000,
+      "duration": 4166660,
+      "text": "feeling"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46305410,
+      "duration": 5555410,
+      "text": "hot"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:37:32.300557+00:00"
+}

@@ -1,0 +1,83 @@
+{
+  "speechText": "She performs physics experiments in theatres.",
+  "audio": "audio/course-examples/75365aa899d87c8c719b0d4b.mp3",
+  "sha256": "601fef93d6d3a78cb39db85e9c8d1cd6eeda1eae40eab064a535bb4530ed4070",
+  "duration": 3.72,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "She",
+      "start": 0.133333,
+      "end": 0.341666
+    },
+    {
+      "text": "performs",
+      "start": 0.355541,
+      "end": 1.049999
+    },
+    {
+      "text": "physics",
+      "start": 1.063875,
+      "end": 1.55
+    },
+    {
+      "text": "experiments",
+      "start": 1.563875,
+      "end": 2.383333
+    },
+    {
+      "text": "in",
+      "start": 2.397208,
+      "end": 2.536083
+    },
+    {
+      "text": "theatres",
+      "start": 2.55,
+      "end": 3.3
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2083330,
+      "text": "She"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 6944580,
+      "text": "performs"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10638750,
+      "duration": 4861250,
+      "text": "physics"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 8194580,
+      "text": "experiments"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23972080,
+      "duration": 1388750,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25500000,
+      "duration": 7500000,
+      "text": "theatres"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:34:28.581996+00:00"
+}

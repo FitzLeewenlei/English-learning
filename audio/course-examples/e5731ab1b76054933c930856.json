@@ -1,0 +1,248 @@
+{
+  "speechText": "Researchers also looked at what happens when someone offers something immediately after canceling plans, such as tickets or a future get-together.",
+  "audio": "audio/course-examples/e5731ab1b76054933c930856.mp3",
+  "sha256": "a9b4bc77a94fc41fba5ea24f994c8728c4355f2f0cf8b2c0fd6b88edc581c36f",
+  "duration": 9.408,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Researchers",
+      "start": 0.133333,
+      "end": 0.966666
+    },
+    {
+      "text": "also",
+      "start": 0.980541,
+      "end": 1.369416
+    },
+    {
+      "text": "looked",
+      "start": 1.383333,
+      "end": 1.716666
+    },
+    {
+      "text": "at",
+      "start": 1.730541,
+      "end": 1.827749
+    },
+    {
+      "text": "what",
+      "start": 1.841666,
+      "end": 2.036124
+    },
+    {
+      "text": "happens",
+      "start": 2.05,
+      "end": 2.605541
+    },
+    {
+      "text": "when",
+      "start": 2.619458,
+      "end": 2.813916
+    },
+    {
+      "text": "someone",
+      "start": 2.827791,
+      "end": 3.202791
+    },
+    {
+      "text": "offers",
+      "start": 3.216666,
+      "end": 3.536124
+    },
+    {
+      "text": "something",
+      "start": 3.55,
+      "end": 3.952791
+    },
+    {
+      "text": "immediately",
+      "start": 3.966666,
+      "end": 4.730541
+    },
+    {
+      "text": "after",
+      "start": 4.744458,
+      "end": 5.091666
+    },
+    {
+      "text": "canceling",
+      "start": 5.105541,
+      "end": 5.688874
+    },
+    {
+      "text": "plans",
+      "start": 5.702791,
+      "end": 6.258332
+    },
+    {
+      "text": "such",
+      "start": 6.591666,
+      "end": 6.813874
+    },
+    {
+      "text": "as",
+      "start": 6.827791,
+      "end": 6.952791
+    },
+    {
+      "text": "tickets",
+      "start": 6.966666,
+      "end": 7.563874
+    },
+    {
+      "text": "or",
+      "start": 7.577791,
+      "end": 7.730582
+    },
+    {
+      "text": "a",
+      "start": 7.744458,
+      "end": 7.799999
+    },
+    {
+      "text": "future",
+      "start": 7.813875,
+      "end": 8.216666
+    },
+    {
+      "text": "get-together",
+      "start": 8.230541,
+      "end": 8.994416
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 8333330,
+      "text": "Researchers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9805410,
+      "duration": 3888750,
+      "text": "also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13833330,
+      "duration": 3333330,
+      "text": "looked"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17305410,
+      "duration": 972080,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18416660,
+      "duration": 1944580,
+      "text": "what"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20500000,
+      "duration": 5555410,
+      "text": "happens"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26194580,
+      "duration": 1944580,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28277910,
+      "duration": 3750000,
+      "text": "someone"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32166660,
+      "duration": 3194580,
+      "text": "offers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35500000,
+      "duration": 4027910,
+      "text": "something"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39666660,
+      "duration": 7638750,
+      "text": "immediately"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47444580,
+      "duration": 3472080,
+      "text": "after"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51055410,
+      "duration": 5833330,
+      "text": "canceling"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57027910,
+      "duration": 5555410,
+      "text": "plans"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 65916660,
+      "duration": 2222080,
+      "text": "such"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68277910,
+      "duration": 1250000,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69666660,
+      "duration": 5972080,
+      "text": "tickets"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 75777910,
+      "duration": 1527910,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 77444580,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 78138750,
+      "duration": 4027910,
+      "text": "future"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82305410,
+      "duration": 7638750,
+      "text": "get-together"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:34:08.030557+00:00"
+}

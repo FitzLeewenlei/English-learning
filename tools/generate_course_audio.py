@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Generate/reuse British sentence MP3s and source word timings for Units 1–32.
+"""Generate/reuse British sentence MP3s and source word timings for the course.
 
 Build-time requirements: Python 3.10+, ffmpeg/ffprobe, edge-tts==7.3.1.
 Run from any directory with an isolated environment, for example:
   python3 -m venv /tmp/course-audio-tools
   /tmp/course-audio-tools/bin/python -m pip install edge-tts==7.3.1
-  /tmp/course-audio-tools/bin/python tools/generate_course_audio.py
+  /tmp/course-audio-tools/bin/python tools/generate_course_audio.py --input data/course-units1-120.json
 No browser/runtime Python dependency is added. This uses the existing HTTPS
 proxy and supplied CA bundle when present; TLS verification is never disabled.
 Exact lexical matches reuse the original repository British recordings and
@@ -13,13 +13,19 @@ forced-alignment timings. Other sentences use en-GB-SoniaNeural at -10%.
 Raw TTS WordBoundary events are retained beside cached MP3s. If an event spans
 multiple display tokens, its interval is split by character positions and
 explicitly marked as estimated; otherwise source boundaries are retained.
-Re-running resumes checksum-verified cached successes. --check performs offline
-validation of the saved manifest without synthesis. --limit is for staging.
+Re-running resumes checksum-verified cached successes. Published unit entries
+are retained exactly; matching new sentences reuse their existing recordings.
+--check performs offline validation without synthesis; --decode also completely
+decodes every distinct recording and verifies its non-silent waveform. --plan
+reports reuse/new-work counts without contacting the synthesis service.
+--limit is for staging and never overwrites the published manifest.
 """
 
 import argparse
 import array
 import asyncio
+from concurrent.futures import ThreadPoolExecutor
+from copy import deepcopy
 from datetime import datetime, timezone
 import hashlib
 from importlib.metadata import version
@@ -33,7 +39,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / 'audio/course-examples'
-INPUT = ROOT / 'data/course-units1-32.json'
+DEFAULT_INPUT = ROOT / 'data/course-units1-120.json'
+LEGACY_INPUT = ROOT / 'data/course-units1-32.json'
 MANIFEST = DEST / 'manifest.json'
 TOKEN = re.compile(r"[A-Za-z]+(?:[’'-][A-Za-z]+)*|\d+(?:,\d{3})*")
 VOICE = 'en-GB-SoniaNeural'
@@ -131,6 +138,55 @@ def existing_sources():
     return {lexical_key(s['text']): (s, timing_map[s['src']]) for s in old_manifest['sentences']}
 
 
+def existing_course_entries():
+    if not MANIFEST.is_file():
+        return {'units': {}}
+    return json.loads(MANIFEST.read_text())
+
+
+def plan_course(course, previous, limit=None):
+    """Preserve published entries verbatim before considering sentence reuse."""
+    selected = []
+    records = {}
+    by_text = {}
+    by_lexical = {}
+    for entries in previous['units'].values():
+        for entry in entries:
+            by_text.setdefault(entry['speechText'], entry)
+            by_lexical.setdefault(lexical_key(entry['speechText']), entry)
+    preserved = 0
+    for unit, content in course['units'].items():
+        published = previous['units'].get(unit)
+        if published is not None and len(published) != len(content['examples']):
+            raise ValueError(f'Published unit {unit} count changed; refusing to alter existing entries')
+        for index, example in enumerate(content['examples']):
+            text = example['speechText']
+            selected.append((unit, index, text))
+            if published is not None:
+                entry = published[index]
+                if entry['speechText'] != text:
+                    raise ValueError(f'Published unit {unit} example {index+1} speech changed; refusing to replace it')
+                validate_entry(entry, text)
+                records[(unit, index)] = deepcopy(entry)
+                preserved += 1
+            else:
+                entry = by_text.get(text) or by_lexical.get(lexical_key(text))
+                if entry is not None:
+                    reused = deepcopy(entry)
+                    if reused['speechText'] != text:
+                        reused['reusedFromSpeechText'] = reused['speechText']
+                        reused['speechText'] = text
+                        reused['words'] = [{**word, 'text': token} for word, token in zip(entry['words'], tokens(text))]
+                    validate_entry(reused, text)
+                    records[(unit, index)] = reused
+    if limit:
+        selected = selected[:limit]
+        retained = {(unit, index) for unit, index, _ in selected}
+        records = {key: entry for key, entry in records.items() if key in retained}
+        preserved = sum(1 for unit, index, _ in selected if unit in previous['units'])
+    return selected, records, preserved
+
+
 def validate_entry(entry, speech_text):
     path = ROOT / entry['audio']
     if not path.is_file() or sha(path.read_bytes()) != entry['sha256']:
@@ -154,11 +210,12 @@ async def build(args):
     if ca:
         edge_tts.communicate._SSL_CTX.load_verify_locations(cafile=ca)
     proxy = os.environ.get('HTTPS_PROXY') or os.environ.get('https_proxy')
-    course = json.loads(INPUT.read_text())
+    course = json.loads(args.input.read_text())
+    previous = existing_course_entries()
     old_sources = existing_sources()
     semaphore = asyncio.Semaphore(args.concurrency)
     new_jobs = {}
-    records = {}
+    selected, records, preserved = plan_course(course, previous, args.limit)
     progress = 0
 
     async def generated(text):
@@ -208,13 +265,9 @@ async def build(args):
                     temporary.unlink(missing_ok=True)
                     raise
 
-    selected = []
-    for unit, content in course['units'].items():
-        for index, example in enumerate(content['examples']):
-            selected.append((unit, index, example['speechText']))
-    if args.limit:
-        selected = selected[:args.limit]
     for unit, index, text in selected:
+        if (unit, index) in records:
+            continue
         key = lexical_key(text)
         if key in old_sources:
             source, timing = old_sources[key]
@@ -229,7 +282,7 @@ async def build(args):
             records[(unit,index)] = entry
         elif text not in new_jobs:
             new_jobs[text] = asyncio.create_task(generated(text))
-    print(f'Selected {len(selected)} entries; reused {len(records)}; synthesizing {len(new_jobs)} unique texts', flush=True)
+    print(f'Selected {len(selected)} entries; preserved {preserved}; reused {len(records)}; synthesizing/checking {len(new_jobs)} unique texts', flush=True)
     for text, task in new_jobs.items():
         try:
             await task
@@ -246,15 +299,25 @@ async def build(args):
         # token boundaries and compact provenance for each course occurrence.
         compact = {k:v for k,v in entry.items() if k not in {'sourceWordBoundaries','generatedAt'}}
         output_units.setdefault(unit, []).append(compact)
-    result = {'schemaVersion':1, 'inputSha256':sha(INPUT.read_bytes()),
+    # Reused/published entries must remain deep-equal, including their original
+    # provenance fields. Only newly generated sidecars need compacting.
+    for (unit, index), entry in records.items():
+        output_units[unit][index] = entry
+    for unit, published in previous['units'].items():
+        if unit in output_units and unit in course['units'] and not args.limit:
+            if output_units[unit] != published:
+                raise ValueError(f'Published unit {unit} changed unexpectedly')
+    result = {'schemaVersion':1, 'inputSha256':sha(args.input.read_bytes()),
               'source':'Known course speechText; exact British source reuse or en-GB-SoniaNeural synthesis',
-              'units': output_units, 'counts':{'entries':len(selected),'uniqueNew':len(new_jobs),'reusedEntries':len(records)}}
-    write_json(MANIFEST,result)
-    print('Wrote',MANIFEST,'with',len(selected),'playable sentence entries',flush=True)
+              'units': output_units, 'counts':{'entries':len(selected),'uniqueNew':len(new_jobs),'reusedEntries':len(records),
+                                              'preservedEntries':preserved,'generatedThisRun':progress}}
+    destination = MANIFEST.with_name('manifest-stage.json') if args.limit else MANIFEST
+    write_json(destination,result)
+    print('Wrote',destination,'with',len(selected),'playable sentence entries',flush=True)
 
 
-def check_manifest():
-    course = json.loads(INPUT.read_text())
+def check_manifest(args):
+    course = json.loads(args.input.read_text())
     manifest = json.loads(MANIFEST.read_text())
     count = 0
     paths = set()
@@ -269,18 +332,38 @@ def check_manifest():
             count += 1
             estimated += sum(bool(w.get('estimatedSplit')) for w in entry['words'])
             paths.add(entry['audio'])
-    print(json.dumps({'verifiedEntries':count,'uniqueAudioFiles':len(paths),'estimatedCompoundSplits':estimated}))
+    if args.decode:
+        expected = {entry['audio']: entry for entries in manifest['units'].values() for entry in entries}
+        def verify_decoded(path):
+            duration, checksum = validate_audio(ROOT / path)
+            entry = expected[path]
+            if checksum != entry['sha256'] or abs(duration - entry['duration']) > .001:
+                raise ValueError(f'Decoded audio differs from manifest: {path}')
+        with ThreadPoolExecutor(max_workers=4) as pool:
+            list(pool.map(verify_decoded, sorted(paths)))
+    print(json.dumps({'verifiedEntries':count,'uniqueAudioFiles':len(paths),'estimatedCompoundSplits':estimated,
+                      'fullyDecodedUniqueAudio':len(paths) if args.decode else 0}))
 
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check',action='store_true')
-    parser.add_argument('--concurrency',type=int,default=3,choices=range(1,4))
+    parser.add_argument('--decode',action='store_true',help='With --check, fully decode every distinct MP3 and reject silence')
+    parser.add_argument('--plan',action='store_true',help='Report reuse/new-work counts without synthesis')
+    parser.add_argument('--input',type=Path,default=DEFAULT_INPUT if DEFAULT_INPUT.is_file() else LEGACY_INPUT)
+    parser.add_argument('--concurrency',type=int,default=2,choices=range(1,4))
     parser.add_argument('--limit',type=int)
     args=parser.parse_args()
     DEST.mkdir(parents=True,exist_ok=True)
-    if args.check:
-        check_manifest()
+    if args.plan:
+        course = json.loads(args.input.read_text())
+        selected, records, preserved = plan_course(course, existing_course_entries(), args.limit)
+        new_texts = {text for unit, index, text in selected if (unit, index) not in records}
+        cached = sum((DEST / (sha((VOICE+'\n'+RATE+'\n'+text).encode())[:24]+'.json')).is_file() for text in new_texts)
+        print(json.dumps({'entries':len(selected),'preservedEntries':preserved,'reusedEntries':len(records),
+                          'newUniqueTexts':len(new_texts),'alreadyCached':cached}))
+    elif args.check:
+        check_manifest(args)
     else:
         asyncio.run(build(args))
 

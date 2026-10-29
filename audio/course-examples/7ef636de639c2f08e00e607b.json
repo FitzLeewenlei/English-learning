@@ -1,0 +1,204 @@
+{
+  "speechText": "Plastic containers, drinking cups and straws make up about 269,000 tons of plastic found in the oceans.",
+  "audio": "audio/course-examples/7ef636de639c2f08e00e607b.mp3",
+  "sha256": "8a9b61ba2dee4949aa944d429c2baf43f7ef7d82dd2403235f9846aead7348fe",
+  "duration": 9.048,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Plastic",
+      "start": 0.102791,
+      "end": 0.658332
+    },
+    {
+      "text": "containers",
+      "start": 0.672208,
+      "end": 1.463874
+    },
+    {
+      "text": "drinking",
+      "start": 1.727791,
+      "end": 2.172249
+    },
+    {
+      "text": "cups",
+      "start": 2.186125,
+      "end": 2.630583
+    },
+    {
+      "text": "and",
+      "start": 2.727791,
+      "end": 2.866666
+    },
+    {
+      "text": "straws",
+      "start": 2.880541,
+      "end": 3.449999
+    },
+    {
+      "text": "make",
+      "start": 3.463875,
+      "end": 3.72775
+    },
+    {
+      "text": "up",
+      "start": 3.741666,
+      "end": 3.880541
+    },
+    {
+      "text": "about",
+      "start": 3.894458,
+      "end": 4.297249
+    },
+    {
+      "text": "269,000",
+      "start": 4.311125,
+      "end": 6.213916
+    },
+    {
+      "text": "tons",
+      "start": 6.227791,
+      "end": 6.630582
+    },
+    {
+      "text": "of",
+      "start": 6.644458,
+      "end": 6.769458
+    },
+    {
+      "text": "plastic",
+      "start": 6.783333,
+      "end": 7.297208
+    },
+    {
+      "text": "found",
+      "start": 7.311125,
+      "end": 7.67225
+    },
+    {
+      "text": "in",
+      "start": 7.686125,
+      "end": 7.769458
+    },
+    {
+      "text": "the",
+      "start": 7.783333,
+      "end": 7.922208
+    },
+    {
+      "text": "oceans",
+      "start": 7.936125,
+      "end": 8.630583
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1027910,
+      "duration": 5555410,
+      "text": "Plastic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6722080,
+      "duration": 7916660,
+      "text": "containers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17277910,
+      "duration": 4444580,
+      "text": "drinking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21861250,
+      "duration": 4444580,
+      "text": "cups"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27277910,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28805410,
+      "duration": 5694580,
+      "text": "straws"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34638750,
+      "duration": 2638750,
+      "text": "make"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37416660,
+      "duration": 1388750,
+      "text": "up"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38944580,
+      "duration": 4027910,
+      "text": "about"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43111250,
+      "duration": 19027910,
+      "text": "269,000"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62277910,
+      "duration": 4027910,
+      "text": "tons"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66444580,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67833330,
+      "duration": 5138750,
+      "text": "plastic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73111250,
+      "duration": 3611250,
+      "text": "found"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 76861250,
+      "duration": 833330,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 77833330,
+      "duration": 1388750,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79361250,
+      "duration": 6944580,
+      "text": "oceans"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:39:37.479747+00:00"
+}

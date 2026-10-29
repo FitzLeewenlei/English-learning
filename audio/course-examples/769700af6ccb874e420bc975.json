@@ -1,0 +1,61 @@
+{
+  "speechText": "It's my alarm clock.",
+  "audio": "audio/course-examples/769700af6ccb874e420bc975.mp3",
+  "sha256": "974aa4077e719a10d637e417a218263a507c79df1e24897f7d330ae4c859b7ec",
+  "duration": 1.992,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "It's",
+      "start": 0.147208,
+      "end": 0.341666
+    },
+    {
+      "text": "my",
+      "start": 0.355541,
+      "end": 0.549999
+    },
+    {
+      "text": "alarm",
+      "start": 0.563875,
+      "end": 0.980541
+    },
+    {
+      "text": "clock",
+      "start": 0.994458,
+      "end": 1.577791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1944580,
+      "text": "It's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 1944580,
+      "text": "my"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5638750,
+      "duration": 4166660,
+      "text": "alarm"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9944580,
+      "duration": 5833330,
+      "text": "clock"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:41:58.093240+00:00"
+}

@@ -1,0 +1,204 @@
+{
+  "speechText": "What the author wants to express in the book is the love and care for the family.",
+  "audio": "audio/course-examples/3e1b4ca86fe3b20b7759f38d.mp3",
+  "sha256": "44165ab77169489ebf7d4de8928f685696806dc6b691d35e0686a5a17e59d195",
+  "duration": 5.016,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "What",
+      "start": 0.133333,
+      "end": 0.369458
+    },
+    {
+      "text": "the",
+      "start": 0.383333,
+      "end": 0.508333
+    },
+    {
+      "text": "author",
+      "start": 0.522208,
+      "end": 0.924999
+    },
+    {
+      "text": "wants",
+      "start": 0.938875,
+      "end": 1.258333
+    },
+    {
+      "text": "to",
+      "start": 1.272208,
+      "end": 1.383333
+    },
+    {
+      "text": "express",
+      "start": 1.397208,
+      "end": 1.952749
+    },
+    {
+      "text": "in",
+      "start": 1.966666,
+      "end": 2.063874
+    },
+    {
+      "text": "the",
+      "start": 2.077791,
+      "end": 2.188916
+    },
+    {
+      "text": "book",
+      "start": 2.202791,
+      "end": 2.577791
+    },
+    {
+      "text": "is",
+      "start": 2.591666,
+      "end": 2.772207
+    },
+    {
+      "text": "the",
+      "start": 2.786125,
+      "end": 2.911125
+    },
+    {
+      "text": "love",
+      "start": 2.925,
+      "end": 3.216666
+    },
+    {
+      "text": "and",
+      "start": 3.230541,
+      "end": 3.369416
+    },
+    {
+      "text": "care",
+      "start": 3.383333,
+      "end": 3.744458
+    },
+    {
+      "text": "for",
+      "start": 3.758333,
+      "end": 3.911124
+    },
+    {
+      "text": "the",
+      "start": 3.925,
+      "end": 4.022208
+    },
+    {
+      "text": "family",
+      "start": 4.036125,
+      "end": 4.605583
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2361250,
+      "text": "What"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3833330,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5222080,
+      "duration": 4027910,
+      "text": "author"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9388750,
+      "duration": 3194580,
+      "text": "wants"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 5555410,
+      "text": "express"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19666660,
+      "duration": 972080,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20777910,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22027910,
+      "duration": 3750000,
+      "text": "book"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 1805410,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27861250,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29250000,
+      "duration": 2916660,
+      "text": "love"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32305410,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33833330,
+      "duration": 3611250,
+      "text": "care"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37583330,
+      "duration": 1527910,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39250000,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40361250,
+      "duration": 5694580,
+      "text": "family"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:30:27.440859+00:00"
+}

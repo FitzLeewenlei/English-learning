@@ -1,0 +1,94 @@
+{
+  "speechText": "Being quiet can help you sleep well.",
+  "audio": "audio/course-examples/cc31d2c105a148b198259c3d.mp3",
+  "sha256": "335c5b365a0fcf56513a770427c5dfb7c48233e522752e31afdf882aa1802970",
+  "duration": 2.952,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Being",
+      "start": 0.147208,
+      "end": 0.424999
+    },
+    {
+      "text": "quiet",
+      "start": 0.438875,
+      "end": 1.036083
+    },
+    {
+      "text": "can",
+      "start": 1.05,
+      "end": 1.216666
+    },
+    {
+      "text": "help",
+      "start": 1.230541,
+      "end": 1.508332
+    },
+    {
+      "text": "you",
+      "start": 1.522208,
+      "end": 1.661083
+    },
+    {
+      "text": "sleep",
+      "start": 1.675,
+      "end": 2.063875
+    },
+    {
+      "text": "well",
+      "start": 2.077791,
+      "end": 2.549999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2777910,
+      "text": "Being"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 5972080,
+      "text": "quiet"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10500000,
+      "duration": 1666660,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12305410,
+      "duration": 2777910,
+      "text": "help"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15222080,
+      "duration": 1388750,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16750000,
+      "duration": 3888750,
+      "text": "sleep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20777910,
+      "duration": 4722080,
+      "text": "well"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:32:28.931319+00:00"
+}

@@ -1,0 +1,105 @@
+{
+  "speechText": "Mark Twain was also a very successful lecturer.",
+  "audio": "audio/course-examples/2c7d6d23f7449089da2fa0ec.mp3",
+  "sha256": "defaff471bf7de3fc821e5a270692088f44067443e2f8c7d87633bc8ba4c12ee",
+  "duration": 3.984,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Mark",
+      "start": 0.147208,
+      "end": 0.508333
+    },
+    {
+      "text": "Twain",
+      "start": 0.522208,
+      "end": 0.994416
+    },
+    {
+      "text": "was",
+      "start": 1.008333,
+      "end": 1.202791
+    },
+    {
+      "text": "also",
+      "start": 1.216666,
+      "end": 1.730541
+    },
+    {
+      "text": "a",
+      "start": 1.744458,
+      "end": 1.841666
+    },
+    {
+      "text": "very",
+      "start": 1.855541,
+      "end": 2.202749
+    },
+    {
+      "text": "successful",
+      "start": 2.216666,
+      "end": 2.911124
+    },
+    {
+      "text": "lecturer",
+      "start": 2.925,
+      "end": 3.577791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 3611250,
+      "text": "Mark"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5222080,
+      "duration": 4722080,
+      "text": "Twain"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10083330,
+      "duration": 1944580,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12166660,
+      "duration": 5138750,
+      "text": "also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17444580,
+      "duration": 972080,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18555410,
+      "duration": 3472080,
+      "text": "very"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22166660,
+      "duration": 6944580,
+      "text": "successful"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29250000,
+      "duration": 6527910,
+      "text": "lecturer"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:33:57.174300+00:00"
+}

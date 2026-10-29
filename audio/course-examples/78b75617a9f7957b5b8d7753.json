@@ -1,0 +1,160 @@
+{
+  "speechText": "Without these values, our jobs and our economy will bring us joyless riches.",
+  "audio": "audio/course-examples/78b75617a9f7957b5b8d7753.mp3",
+  "sha256": "37c6ffb998e822c8aca27aab672c2e61fb7dcdaec04fbf4035553ed568b37111",
+  "duration": 5.832,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Without",
+      "start": 0.147208,
+      "end": 0.591666
+    },
+    {
+      "text": "these",
+      "start": 0.605541,
+      "end": 0.855541
+    },
+    {
+      "text": "values",
+      "start": 0.869458,
+      "end": 1.508333
+    },
+    {
+      "text": "our",
+      "start": 1.744458,
+      "end": 1.924999
+    },
+    {
+      "text": "jobs",
+      "start": 1.938875,
+      "end": 2.466666
+    },
+    {
+      "text": "and",
+      "start": 2.577791,
+      "end": 2.786124
+    },
+    {
+      "text": "our",
+      "start": 2.8,
+      "end": 2.952791
+    },
+    {
+      "text": "economy",
+      "start": 2.966666,
+      "end": 3.577791
+    },
+    {
+      "text": "will",
+      "start": 3.591666,
+      "end": 3.799999
+    },
+    {
+      "text": "bring",
+      "start": 3.813875,
+      "end": 4.05
+    },
+    {
+      "text": "us",
+      "start": 4.063875,
+      "end": 4.244416
+    },
+    {
+      "text": "joyless",
+      "start": 4.258333,
+      "end": 4.772208
+    },
+    {
+      "text": "riches",
+      "start": 4.786125,
+      "end": 5.425
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 4444580,
+      "text": "Without"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6055410,
+      "duration": 2500000,
+      "text": "these"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8694580,
+      "duration": 6388750,
+      "text": "values"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17444580,
+      "duration": 1805410,
+      "text": "our"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19388750,
+      "duration": 5277910,
+      "text": "jobs"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25777910,
+      "duration": 2083330,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28000000,
+      "duration": 1527910,
+      "text": "our"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29666660,
+      "duration": 6111250,
+      "text": "economy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35916660,
+      "duration": 2083330,
+      "text": "will"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38138750,
+      "duration": 2361250,
+      "text": "bring"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40638750,
+      "duration": 1805410,
+      "text": "us"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42583330,
+      "duration": 5138750,
+      "text": "joyless"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47861250,
+      "duration": 6388750,
+      "text": "riches"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:49:33.314036+00:00"
+}

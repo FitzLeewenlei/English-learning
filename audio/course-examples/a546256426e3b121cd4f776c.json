@@ -1,0 +1,160 @@
+{
+  "speechText": "How did these extreme deserts form in places bordered by so much water?",
+  "audio": "audio/course-examples/a546256426e3b121cd4f776c.mp3",
+  "sha256": "19555bddc369558d036537c5c77f966278acb12b88a99f4f8d47a1c76ca0a98c",
+  "duration": 5.232,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "How",
+      "start": 0.147208,
+      "end": 0.355541
+    },
+    {
+      "text": "did",
+      "start": 0.369458,
+      "end": 0.563916
+    },
+    {
+      "text": "these",
+      "start": 0.577791,
+      "end": 0.813916
+    },
+    {
+      "text": "extreme",
+      "start": 0.827791,
+      "end": 1.383332
+    },
+    {
+      "text": "deserts",
+      "start": 1.397208,
+      "end": 1.994416
+    },
+    {
+      "text": "form",
+      "start": 2.008333,
+      "end": 2.341666
+    },
+    {
+      "text": "in",
+      "start": 2.355541,
+      "end": 2.480541
+    },
+    {
+      "text": "places",
+      "start": 2.494458,
+      "end": 3.049999
+    },
+    {
+      "text": "bordered",
+      "start": 3.063875,
+      "end": 3.536083
+    },
+    {
+      "text": "by",
+      "start": 3.55,
+      "end": 3.716666
+    },
+    {
+      "text": "so",
+      "start": 3.730541,
+      "end": 3.994416
+    },
+    {
+      "text": "much",
+      "start": 4.008333,
+      "end": 4.230541
+    },
+    {
+      "text": "water",
+      "start": 4.244458,
+      "end": 4.827791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2083330,
+      "text": "How"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3694580,
+      "duration": 1944580,
+      "text": "did"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5777910,
+      "duration": 2361250,
+      "text": "these"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8277910,
+      "duration": 5555410,
+      "text": "extreme"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 5972080,
+      "text": "deserts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20083330,
+      "duration": 3333330,
+      "text": "form"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23555410,
+      "duration": 1250000,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24944580,
+      "duration": 5555410,
+      "text": "places"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30638750,
+      "duration": 4722080,
+      "text": "bordered"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35500000,
+      "duration": 1666660,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37305410,
+      "duration": 2638750,
+      "text": "so"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40083330,
+      "duration": 2222080,
+      "text": "much"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42444580,
+      "duration": 5833330,
+      "text": "water"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:41:22.936839+00:00"
+}

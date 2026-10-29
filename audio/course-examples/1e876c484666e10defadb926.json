@@ -1,0 +1,50 @@
+{
+  "speechText": "Guarantee proper light.",
+  "audio": "audio/course-examples/1e876c484666e10defadb926.mp3",
+  "sha256": "2cd413d8ead9d42285e8fff359dbf393f01a1cdc4d7faecc8dc70b6c5a187848",
+  "duration": 2.16,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Guarantee",
+      "start": 0.147208,
+      "end": 0.772208
+    },
+    {
+      "text": "proper",
+      "start": 0.786125,
+      "end": 1.161125
+    },
+    {
+      "text": "light",
+      "start": 1.175,
+      "end": 1.744458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 6250000,
+      "text": "Guarantee"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7861250,
+      "duration": 3750000,
+      "text": "proper"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11750000,
+      "duration": 5694580,
+      "text": "light"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:40:17.906880+00:00"
+}

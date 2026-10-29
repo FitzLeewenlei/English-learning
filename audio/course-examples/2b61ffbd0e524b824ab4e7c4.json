@@ -1,0 +1,204 @@
+{
+  "speechText": "When my neighbors took turns filling in for me in the car pool, it helped me relax.",
+  "audio": "audio/course-examples/2b61ffbd0e524b824ab4e7c4.mp3",
+  "sha256": "b292c493003ae6222894c4341136e6c2568396bc23ce538da51867ffead6802b",
+  "duration": 5.64,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "When",
+      "start": 0.147208,
+      "end": 0.327749
+    },
+    {
+      "text": "my",
+      "start": 0.341666,
+      "end": 0.480541
+    },
+    {
+      "text": "neighbors",
+      "start": 0.494458,
+      "end": 1.022249
+    },
+    {
+      "text": "took",
+      "start": 1.036125,
+      "end": 1.27225
+    },
+    {
+      "text": "turns",
+      "start": 1.286125,
+      "end": 1.77225
+    },
+    {
+      "text": "filling",
+      "start": 1.786125,
+      "end": 2.105583
+    },
+    {
+      "text": "in",
+      "start": 2.119458,
+      "end": 2.272249
+    },
+    {
+      "text": "for",
+      "start": 2.286125,
+      "end": 2.438916
+    },
+    {
+      "text": "me",
+      "start": 2.452791,
+      "end": 2.619457
+    },
+    {
+      "text": "in",
+      "start": 2.633333,
+      "end": 2.730541
+    },
+    {
+      "text": "the",
+      "start": 2.744458,
+      "end": 2.841666
+    },
+    {
+      "text": "car",
+      "start": 2.855541,
+      "end": 3.133332
+    },
+    {
+      "text": "pool",
+      "start": 3.147208,
+      "end": 3.536083
+    },
+    {
+      "text": "it",
+      "start": 3.855541,
+      "end": 3.938874
+    },
+    {
+      "text": "helped",
+      "start": 3.952791,
+      "end": 4.313916
+    },
+    {
+      "text": "me",
+      "start": 4.327791,
+      "end": 4.438916
+    },
+    {
+      "text": "relax",
+      "start": 4.452791,
+      "end": 5.230582
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1805410,
+      "text": "When"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 1388750,
+      "text": "my"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 5277910,
+      "text": "neighbors"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10361250,
+      "duration": 2361250,
+      "text": "took"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12861250,
+      "duration": 4861250,
+      "text": "turns"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17861250,
+      "duration": 3194580,
+      "text": "filling"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21194580,
+      "duration": 1527910,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22861250,
+      "duration": 1527910,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24527910,
+      "duration": 1666660,
+      "text": "me"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26333330,
+      "duration": 972080,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27444580,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28555410,
+      "duration": 2777910,
+      "text": "car"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31472080,
+      "duration": 3888750,
+      "text": "pool"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38555410,
+      "duration": 833330,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39527910,
+      "duration": 3611250,
+      "text": "helped"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43277910,
+      "duration": 1111250,
+      "text": "me"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44527910,
+      "duration": 7777910,
+      "text": "relax"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:35:17.711105+00:00"
+}

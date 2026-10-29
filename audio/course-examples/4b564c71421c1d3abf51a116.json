@@ -1,0 +1,193 @@
+{
+  "speechText": "The body makes energy from food,” he argues, “so it could possibly also power a phone.",
+  "audio": "audio/course-examples/4b564c71421c1d3abf51a116.mp3",
+  "sha256": "eaed75dbe943dae94107ff55381da5a6a9276254ed08dae8e148a58844af2bb1",
+  "duration": 6.336,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "body",
+      "start": 0.3,
+      "end": 0.647208
+    },
+    {
+      "text": "makes",
+      "start": 0.661125,
+      "end": 0.994458
+    },
+    {
+      "text": "energy",
+      "start": 1.008333,
+      "end": 1.424999
+    },
+    {
+      "text": "from",
+      "start": 1.438875,
+      "end": 1.70275
+    },
+    {
+      "text": "food",
+      "start": 1.716666,
+      "end": 2.216666
+    },
+    {
+      "text": "he",
+      "start": 2.438875,
+      "end": 2.57775
+    },
+    {
+      "text": "argues",
+      "start": 2.591666,
+      "end": 3.161124
+    },
+    {
+      "text": "so",
+      "start": 3.466666,
+      "end": 3.605541
+    },
+    {
+      "text": "it",
+      "start": 3.619458,
+      "end": 3.730583
+    },
+    {
+      "text": "could",
+      "start": 3.744458,
+      "end": 3.924999
+    },
+    {
+      "text": "possibly",
+      "start": 3.938875,
+      "end": 4.494416
+    },
+    {
+      "text": "also",
+      "start": 4.508333,
+      "end": 4.911124
+    },
+    {
+      "text": "power",
+      "start": 4.925,
+      "end": 5.327791
+    },
+    {
+      "text": "a",
+      "start": 5.341666,
+      "end": 5.397207
+    },
+    {
+      "text": "phone",
+      "start": 5.411125,
+      "end": 5.911125
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 3472080,
+      "text": "body"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6611250,
+      "duration": 3333330,
+      "text": "makes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10083330,
+      "duration": 4166660,
+      "text": "energy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14388750,
+      "duration": 2638750,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17166660,
+      "duration": 5000000,
+      "text": "food"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24388750,
+      "duration": 1388750,
+      "text": "he"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 5694580,
+      "text": "argues"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34666660,
+      "duration": 1388750,
+      "text": "so"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36194580,
+      "duration": 1111250,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37444580,
+      "duration": 1805410,
+      "text": "could"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39388750,
+      "duration": 5555410,
+      "text": "possibly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45083330,
+      "duration": 4027910,
+      "text": "also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49250000,
+      "duration": 4027910,
+      "text": "power"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53416660,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54111250,
+      "duration": 5000000,
+      "text": "phone"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:34:25.060543+00:00"
+}

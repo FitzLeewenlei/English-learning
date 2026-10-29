@@ -1,0 +1,116 @@
+{
+  "speechText": "The welfare system will enable people to become rich.",
+  "audio": "audio/course-examples/79684084b3e9b4193c3bd257.mp3",
+  "sha256": "91d8d40287b8f36a8ec656962ea4f119afe6a65748c83e9447140aaeaba9266a",
+  "duration": 4.08,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.258333
+    },
+    {
+      "text": "welfare",
+      "start": 0.272208,
+      "end": 0.772208
+    },
+    {
+      "text": "system",
+      "start": 0.786125,
+      "end": 1.411125
+    },
+    {
+      "text": "will",
+      "start": 1.425,
+      "end": 1.647208
+    },
+    {
+      "text": "enable",
+      "start": 1.661125,
+      "end": 2.161125
+    },
+    {
+      "text": "people",
+      "start": 2.175,
+      "end": 2.577791
+    },
+    {
+      "text": "to",
+      "start": 2.591666,
+      "end": 2.688874
+    },
+    {
+      "text": "become",
+      "start": 2.702791,
+      "end": 3.119457
+    },
+    {
+      "text": "rich",
+      "start": 3.133333,
+      "end": 3.674999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1111250,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2722080,
+      "duration": 5000000,
+      "text": "welfare"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7861250,
+      "duration": 6250000,
+      "text": "system"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14250000,
+      "duration": 2222080,
+      "text": "will"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16611250,
+      "duration": 5000000,
+      "text": "enable"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21750000,
+      "duration": 4027910,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27027910,
+      "duration": 4166660,
+      "text": "become"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31333330,
+      "duration": 5416660,
+      "text": "rich"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:41:50.629662+00:00"
+}

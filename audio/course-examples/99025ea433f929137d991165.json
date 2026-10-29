@@ -1,0 +1,215 @@
+{
+  "speechText": "Others question whether it is right to “Play God” in an attempt to eliminate diseases of this world.",
+  "audio": "audio/course-examples/99025ea433f929137d991165.mp3",
+  "sha256": "95f7c440842b5e113a1bb3f6a838902b3f6665800002494f8b8c36abc1f00e65",
+  "duration": 6.6,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Others",
+      "start": 0.133333,
+      "end": 0.480541
+    },
+    {
+      "text": "question",
+      "start": 0.494458,
+      "end": 1.119458
+    },
+    {
+      "text": "whether",
+      "start": 1.133333,
+      "end": 1.480541
+    },
+    {
+      "text": "it",
+      "start": 1.494458,
+      "end": 1.619458
+    },
+    {
+      "text": "is",
+      "start": 1.633333,
+      "end": 1.786124
+    },
+    {
+      "text": "right",
+      "start": 1.8,
+      "end": 2.161125
+    },
+    {
+      "text": "to",
+      "start": 2.175,
+      "end": 2.272208
+    },
+    {
+      "text": "Play",
+      "start": 2.286125,
+      "end": 2.563916
+    },
+    {
+      "text": "God",
+      "start": 2.577791,
+      "end": 2.980582
+    },
+    {
+      "text": "in",
+      "start": 2.994458,
+      "end": 3.174999
+    },
+    {
+      "text": "an",
+      "start": 3.188875,
+      "end": 3.286083
+    },
+    {
+      "text": "attempt",
+      "start": 3.3,
+      "end": 3.897208
+    },
+    {
+      "text": "to",
+      "start": 3.911125,
+      "end": 4.05
+    },
+    {
+      "text": "eliminate",
+      "start": 4.063875,
+      "end": 4.661083
+    },
+    {
+      "text": "diseases",
+      "start": 4.675,
+      "end": 5.258333
+    },
+    {
+      "text": "of",
+      "start": 5.272208,
+      "end": 5.397208
+    },
+    {
+      "text": "this",
+      "start": 5.411125,
+      "end": 5.619458
+    },
+    {
+      "text": "world",
+      "start": 5.633333,
+      "end": 6.188874
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 3472080,
+      "text": "Others"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 6250000,
+      "text": "question"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11333330,
+      "duration": 3472080,
+      "text": "whether"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14944580,
+      "duration": 1250000,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16333330,
+      "duration": 1527910,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18000000,
+      "duration": 3611250,
+      "text": "right"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21750000,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22861250,
+      "duration": 2777910,
+      "text": "Play"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25777910,
+      "duration": 4027910,
+      "text": "God"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29944580,
+      "duration": 1805410,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31888750,
+      "duration": 972080,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33000000,
+      "duration": 5972080,
+      "text": "attempt"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39111250,
+      "duration": 1388750,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40638750,
+      "duration": 5972080,
+      "text": "eliminate"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46750000,
+      "duration": 5833330,
+      "text": "diseases"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52722080,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54111250,
+      "duration": 2083330,
+      "text": "this"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56333330,
+      "duration": 5555410,
+      "text": "world"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:35:57.788117+00:00"
+}

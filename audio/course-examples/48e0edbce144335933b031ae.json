@@ -1,0 +1,138 @@
+{
+  "speechText": "Use of a running machine can reduce some risks, says Dufek.",
+  "audio": "audio/course-examples/48e0edbce144335933b031ae.mp3",
+  "sha256": "8850009397fd7ed5d41148c7ec5c690d8b7879043d53780f0d5c2f6b466e8f3d",
+  "duration": 4.632,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Use",
+      "start": 0.147208,
+      "end": 0.452749
+    },
+    {
+      "text": "of",
+      "start": 0.466666,
+      "end": 0.577791
+    },
+    {
+      "text": "a",
+      "start": 0.591666,
+      "end": 0.647207
+    },
+    {
+      "text": "running",
+      "start": 0.661125,
+      "end": 1.008333
+    },
+    {
+      "text": "machine",
+      "start": 1.022208,
+      "end": 1.549999
+    },
+    {
+      "text": "can",
+      "start": 1.563875,
+      "end": 1.744416
+    },
+    {
+      "text": "reduce",
+      "start": 1.758333,
+      "end": 2.188874
+    },
+    {
+      "text": "some",
+      "start": 2.202791,
+      "end": 2.438916
+    },
+    {
+      "text": "risks",
+      "start": 2.452791,
+      "end": 2.994457
+    },
+    {
+      "text": "says",
+      "start": 3.244458,
+      "end": 3.522249
+    },
+    {
+      "text": "Dufek",
+      "start": 3.536125,
+      "end": 4.230583
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 3055410,
+      "text": "Use"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4666660,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5916660,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6611250,
+      "duration": 3472080,
+      "text": "running"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10222080,
+      "duration": 5277910,
+      "text": "machine"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 1805410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17583330,
+      "duration": 4305410,
+      "text": "reduce"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22027910,
+      "duration": 2361250,
+      "text": "some"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24527910,
+      "duration": 5416660,
+      "text": "risks"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32444580,
+      "duration": 2777910,
+      "text": "says"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35361250,
+      "duration": 6944580,
+      "text": "Dufek"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:40:07.799832+00:00"
+}

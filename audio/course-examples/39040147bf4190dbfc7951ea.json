@@ -1,0 +1,94 @@
+{
+  "speechText": "Anger can harm us physically and emotionally.",
+  "audio": "audio/course-examples/39040147bf4190dbfc7951ea.mp3",
+  "sha256": "aaca8ca5fdbf218198fdca640ec094a172d35afa28fe6d8ffce2b589c14ef0ca",
+  "duration": 3.504,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Anger",
+      "start": 0.119458,
+      "end": 0.605583
+    },
+    {
+      "text": "can",
+      "start": 0.619458,
+      "end": 0.799999
+    },
+    {
+      "text": "harm",
+      "start": 0.813875,
+      "end": 1.161083
+    },
+    {
+      "text": "us",
+      "start": 1.175,
+      "end": 1.397208
+    },
+    {
+      "text": "physically",
+      "start": 1.411125,
+      "end": 2.077791
+    },
+    {
+      "text": "and",
+      "start": 2.091666,
+      "end": 2.258332
+    },
+    {
+      "text": "emotionally",
+      "start": 2.272208,
+      "end": 3.091666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 4861250,
+      "text": "Anger"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6194580,
+      "duration": 1805410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8138750,
+      "duration": 3472080,
+      "text": "harm"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11750000,
+      "duration": 2222080,
+      "text": "us"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14111250,
+      "duration": 6666660,
+      "text": "physically"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20916660,
+      "duration": 1666660,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22722080,
+      "duration": 8194580,
+      "text": "emotionally"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:37:58.751509+00:00"
+}

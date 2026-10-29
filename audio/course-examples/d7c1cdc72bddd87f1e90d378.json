@@ -1,0 +1,160 @@
+{
+  "speechText": "Human drivers at rush hour, however, are hardly willing to follow such rules.",
+  "audio": "audio/course-examples/d7c1cdc72bddd87f1e90d378.mp3",
+  "sha256": "10824f4866af8b3bb38564091cfc8c7e1df5bb02c78a50309d783c4101c42a99",
+  "duration": 5.808,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Human",
+      "start": 0.133333,
+      "end": 0.522208
+    },
+    {
+      "text": "drivers",
+      "start": 0.536125,
+      "end": 1.14725
+    },
+    {
+      "text": "at",
+      "start": 1.161125,
+      "end": 1.327791
+    },
+    {
+      "text": "rush",
+      "start": 1.341666,
+      "end": 1.633332
+    },
+    {
+      "text": "hour",
+      "start": 1.647208,
+      "end": 2.022208
+    },
+    {
+      "text": "however",
+      "start": 2.216666,
+      "end": 2.758332
+    },
+    {
+      "text": "are",
+      "start": 3.036125,
+      "end": 3.133333
+    },
+    {
+      "text": "hardly",
+      "start": 3.147208,
+      "end": 3.577749
+    },
+    {
+      "text": "willing",
+      "start": 3.591666,
+      "end": 3.952791
+    },
+    {
+      "text": "to",
+      "start": 3.966666,
+      "end": 4.077791
+    },
+    {
+      "text": "follow",
+      "start": 4.091666,
+      "end": 4.452791
+    },
+    {
+      "text": "such",
+      "start": 4.466666,
+      "end": 4.772207
+    },
+    {
+      "text": "rules",
+      "start": 4.786125,
+      "end": 5.383333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 3888750,
+      "text": "Human"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5361250,
+      "duration": 6111250,
+      "text": "drivers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11611250,
+      "duration": 1666660,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13416660,
+      "duration": 2916660,
+      "text": "rush"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16472080,
+      "duration": 3750000,
+      "text": "hour"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22166660,
+      "duration": 5416660,
+      "text": "however"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30361250,
+      "duration": 972080,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31472080,
+      "duration": 4305410,
+      "text": "hardly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35916660,
+      "duration": 3611250,
+      "text": "willing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39666660,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40916660,
+      "duration": 3611250,
+      "text": "follow"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44666660,
+      "duration": 3055410,
+      "text": "such"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47861250,
+      "duration": 5972080,
+      "text": "rules"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:45:13.334846+00:00"
+}

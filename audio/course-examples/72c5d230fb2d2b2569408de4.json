@@ -1,0 +1,61 @@
+{
+  "speechText": "Look for other signs.",
+  "audio": "audio/course-examples/72c5d230fb2d2b2569408de4.mp3",
+  "sha256": "3b7a1f832fbf6f3d2624beb034868b5991716d52524ea7abfe82c5ea47e8e88c",
+  "duration": 2.064,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Look",
+      "start": 0.102791,
+      "end": 0.408332
+    },
+    {
+      "text": "for",
+      "start": 0.422208,
+      "end": 0.602749
+    },
+    {
+      "text": "other",
+      "start": 0.616666,
+      "end": 0.894457
+    },
+    {
+      "text": "signs",
+      "start": 0.908333,
+      "end": 1.658333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1027910,
+      "duration": 3055410,
+      "text": "Look"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4222080,
+      "duration": 1805410,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6166660,
+      "duration": 2777910,
+      "text": "other"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9083330,
+      "duration": 7500000,
+      "text": "signs"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:41:40.158903+00:00"
+}

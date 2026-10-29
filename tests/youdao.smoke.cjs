@@ -13,13 +13,37 @@ const normalize = word => word.toLowerCase().replace(/’/g, "'");
 const tokenPattern = /[A-Za-z]+(?:[’'-][A-Za-z]+)*|\d+(?:,\d{3})*/g;
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
 const readJSON = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
-const canonical = readJSON('data/course-units1-32.json');
+const canonicalPath = 'data/course-units1-120.json';
+const canonical = readJSON(canonicalPath);
+const previous = readJSON('data/course-units1-32.json');
+const preservedCoreWords = new Set(Object.values(previous.units).flatMap(unit => unit.vocabulary.map(entry => normalize(entry.word))));
 const audit = readJSON('data/youdao-course.json');
 const sandbox = {window: {}};
 vm.createContext(sandbox);
 for (const file of ['content.js', 'dictionary.js']) vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), sandbox);
 const dictionary = JSON.parse(JSON.stringify(sandbox.window.WORD_DICTIONARY));
 const course = JSON.parse(JSON.stringify(sandbox.window.COURSE));
+// Match the trusted baseline's JavaScript recursive key-sort followed by
+// JSON.stringify. Numeric-looking keys use JavaScript's integer enumeration
+// order; a Python sort_keys serializer would produce a different hash.
+const sortedValue = value => Array.isArray(value) ? value.map(sortedValue)
+  : value && typeof value === 'object' ? Object.fromEntries(Object.keys(value).sort().map(key => [key, sortedValue(value[key])]))
+    : value;
+const stableJSON = value => JSON.stringify(sortedValue(value));
+const baseline = readJSON('data/preserved-units1-32.json');
+assert.equal(sha256(fs.readFileSync(path.join(root, baseline.canonicalSource))), baseline.canonicalSourceSha256, 'The original canonical source must retain its trusted hash');
+const oldScope = new Set();
+for (const unit of Object.values(previous.units)) {
+  for (const entry of unit.vocabulary) oldScope.add(normalize(entry.word));
+  for (const entry of unit.examples) for (const form of entry.speechText.match(tokenPattern) || []) oldScope.add(normalize(form));
+}
+assert.equal(oldScope.size, baseline.dictionaryScopeCount);
+const oldRows = Object.fromEntries([...oldScope].map(word => {
+  assert.ok(dictionary[word], 'Preserved dictionary row missing: ' + word);
+  return [word, dictionary[word]];
+}));
+assert.equal(sha256(Buffer.from(stableJSON(oldRows), 'utf8')), baseline.dictionaryRowsSha256, 'All2182 original dictionary rows and their provenance must remain unchanged');
+console.log('Preservation audit: original canonical source and all2182 complete dictionary rows/provenance match their trusted baseline hashes.');
 const scope = new Map();
 const coreWords = new Set();
 for (const [unitNumber, unit] of Object.entries(canonical.units)) {
@@ -33,14 +57,19 @@ for (const [unitNumber, unit] of Object.entries(canonical.units)) {
   for (const word of unit.vocabulary) add(word.word, true);
   for (const sentence of unit.examples) for (const form of sentence.speechText.match(tokenPattern) || []) add(form);
 }
-assert.equal(coreWords.size, 480);
-assert.equal(scope.size, 2182);
+const coreOccurrences = Object.values(canonical.units).reduce((total, unit) => total + unit.vocabulary.length, 0);
+assert.equal(Object.keys(canonical.units).length, 120);
+assert.equal(coreOccurrences, 1800);
+assert.equal(coreWords.size, 1782);
+assert.equal(scope.size, 3905);
+assert.equal(preservedCoreWords.size, 480);
+for (const [number, unit] of Object.entries(previous.units)) assert.deepEqual(canonical.units[number], unit, `Unit ${number}: preserve the original Units1–32 extraction`);
 assert.deepEqual(Object.keys(dictionary).sort(), [...scope.keys()].sort(), 'The runtime dictionary must cover precisely the current document scope');
 assert.deepEqual(Object.keys(audit.entries).sort(), [...scope.keys()].sort(), 'Every runtime record needs a source-audit record');
 assert.equal(audit.scope_count, scope.size);
-assert.equal(audit.course_source.sha256, sha256(fs.readFileSync(path.join(root, 'data/course-units1-32.json'))));
-assert.equal(audit.counts.vocabulary_total, 480);
-assert.equal(audit.counts.vocabulary_audio, 480);
+assert.equal(audit.course_source.sha256, sha256(fs.readFileSync(path.join(root, canonicalPath))));
+assert.equal(audit.counts.vocabulary_total, coreWords.size);
+assert.equal(audit.counts.vocabulary_occurrences, coreOccurrences);
 assert.equal(audit.counts.audio, Object.keys(audit.audio_files).length);
 const officialURL = (value, label) => {
   const url = new URL(value);
@@ -74,6 +103,8 @@ function officialSpeechURL(speech, label) {
   return url;
 }
 let completeCount = 0, audioRecords = 0;
+const coreAudioWords = new Set();
+const newCoreMissingAudio = [];
 for (const [word, expected] of scope) {
   const entry = dictionary[word];
   const record = audit.entries[word];
@@ -143,10 +174,28 @@ for (const [word, expected] of scope) {
     assert.ok(entry.missing.includes('audio'), word);
     assert.equal(record.audio, null, word);
   }
-  if (coreWords.has(word)) assert.ok(entry.audio, `${word}: all480 document vocabulary words require Youdao UK audio`);
+  if (preservedCoreWords.has(word)) assert.ok(entry.audio, `${word}: preserve Youdao UK audio for all480 original core words`);
+  if (coreWords.has(word)) {
+    if (entry.audio) coreAudioWords.add(word);
+    else {
+      const returnedPhrase = source?.['return-phrase'];
+      const returned = typeof returnedPhrase === 'string' ? returnedPhrase : returnedPhrase?.l?.i;
+      const mismatch = record.source_form_mismatch;
+      const provenDifferentForm = mismatch && mismatch.query === word && typeof returned === 'string'
+        && normalize(mismatch.headword) === normalize(returned) && normalize(returned) !== normalize(record.lookup_query)
+        && entry.source.definition_scope === 'returned_headword';
+      assert.ok(!source?.ukspeech || provenDifferentForm, `${word}: a provided matching-form UK source recording must be acquired, not silently marked missing`);
+      assert.ok(entry.missing.includes('audio') && record.missing.includes('audio'), word);
+      newCoreMissingAudio.push({word, units: record.vocabulary_units, missing: entry.missing});
+    }
+  }
 }
 assert.equal(audit.counts.complete, completeCount);
-console.log(`Source audit: ${scope.size} entries, ${completeCount} complete; exact UK phonetics, source glosses/POS (maximum2), missing states and all480 core-word audio bindings passed.`);
+assert.equal(audit.counts.vocabulary_audio, coreAudioWords.size);
+const coreAudioOccurrences = Object.values(canonical.units).flatMap(unit => unit.vocabulary).filter(entry => dictionary[normalize(entry.word)].audio).length;
+assert.equal(audit.counts.vocabulary_audio_occurrences, coreAudioOccurrences);
+console.log(`Source audit: ${scope.size} entries, ${completeCount} complete; exact UK phonetics, source glosses/POS (maximum2), missing states and ${coreAudioWords.size}/${coreWords.size} distinct core-word audio bindings passed; original480 audio retained.`);
+console.log(JSON.stringify({newCoreWordsWithoutSourceUKAudio: newCoreMissingAudio}));
 
 async function verifyAudioFiles() {
   const files = Object.entries(audit.audio_files);
@@ -185,7 +234,7 @@ async function verifyAudioFiles() {
     });
     await page.goto(baseURL, {waitUntil: 'networkidle'});
     await page.selectOption('#speed', '0.5');
-    let coreSamples = 0, popupSamples = 0;
+    let coreSamples = 0, popupSamples = 0, missingCoreUISamples = 0;
     const checkedForms = new Set();
     const playback = async entry => {
       await page.waitForFunction(() => window.__audio.currentTime > 0 && !window.__audio.paused);
@@ -211,7 +260,7 @@ async function verifyAudioFiles() {
       await page.locator('#word-detail-close').click();
       checkedForms.add(normalize(form.text)); popupSamples++;
     }
-    for (const number of [1, 16, 32]) {
+    for (const number of [1, 32, 33, 64, 120]) {
       await page.selectOption('#list-select', String(number));
       const unit = canonical.units[number];
       for (const index of [0, 3, 7, 11, 14]) {
@@ -221,7 +270,10 @@ async function verifyAudioFiles() {
         assert.equal(await card.locator('.word-ipa').textContent(), documentWord.ipa, 'Section01 IPA must remain document-owned');
         assert.deepEqual(await card.locator('.word-sense-pos').allTextContents(), [documentWord.partsOfSpeech]);
         assert.deepEqual(await card.locator('.word-sense-meaning').allTextContents(), [documentWord.meaning]);
-        await card.click(); await playback(entry); await page.keyboard.press('Escape'); coreSamples++;
+        assert.equal(await card.isEnabled(), Boolean(entry.audio), `${documentWord.word}: recording availability`);
+        if (entry.audio) {await card.click(); await playback(entry); await page.keyboard.press('Escape');}
+        else missingCoreUISamples++;
+        coreSamples++;
       }
       const forms = await page.locator('.word-token').evaluateAll(nodes => [...new Map(nodes.map(node => [node.textContent.toLowerCase().replace(/’/g, "'"), {id: node.id, text: node.textContent}])).values()]);
       const chosen = new Map();
@@ -247,7 +299,19 @@ async function verifyAudioFiles() {
         if (form) {await checkPopup(form); break;}
       }
     }
-    await page.selectOption('#list-select', '32');
+    // Every genuinely missing new core recording remains visible as document
+    // text, with its play control disabled rather than silently using US/TTS.
+    for (const missing of newCoreMissingAudio) {
+      const number = missing.units[0];
+      await page.selectOption('#list-select', String(number));
+      const index = canonical.units[number].vocabulary.findIndex(entry => normalize(entry.word) === missing.word);
+      assert.ok(index >= 0, missing.word);
+      const card = page.locator('#vocab-' + index);
+      assert.equal(await card.isEnabled(), false, `${missing.word}: missing recording must not be disguised`);
+      assert.equal(await card.locator('.word-name').textContent(), canonical.units[number].vocabulary[index].word);
+      missingCoreUISamples++;
+    }
+    await page.selectOption('#list-select', '120');
     const rich = await page.locator('.word-token').evaluateAll(nodes => {
       const entries = window.WORD_DICTIONARY;
       return [...nodes].sort((a, b) => (entries[b.textContent.toLowerCase().replace(/’/g, "'")]?.senses.length || 0) - (entries[a.textContent.toLowerCase().replace(/’/g, "'")]?.senses.length || 0)).map(node => ({id: node.id, text: node.textContent}))[0];
@@ -263,6 +327,6 @@ async function verifyAudioFiles() {
     await page.reload({waitUntil: 'networkidle'});
     assert.equal(await page.locator('#speed').inputValue(), '0.5');
     assert.deepEqual(errors, []);
-    console.log(JSON.stringify({scope: scope.size, coreYoudaoAudio: 480, uniqueAudioAssets: Object.keys(audit.audio_files).length, documentOwnedVocabularySamples: coreSamples, youdaoPopupSamples: popupSamples, actualHalfSpeedAudio: 'passed', missingStates: 'passed', mobileWidths: [390, 320], browserErrors: errors}));
+    console.log(JSON.stringify({scope: scope.size, coreOccurrences, distinctCoreWords: coreWords.size, preservedCoreYoudaoAudio: preservedCoreWords.size, coreYoudaoAudio: coreAudioWords.size, coreYoudaoAudioOccurrences: coreAudioOccurrences, missingCoreYoudaoAudio: newCoreMissingAudio, missingCoreUISamples, uniqueAudioAssets: Object.keys(audit.audio_files).length, documentOwnedVocabularySamples: coreSamples, youdaoPopupSamples: popupSamples, actualHalfSpeedAudio: 'passed', missingStates: 'passed', mobileWidths: [390, 320], browserErrors: errors}));
   } finally {await browser.close();}
 })().catch(error => {console.error(error); process.exit(1);});

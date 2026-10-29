@@ -1,0 +1,138 @@
+{
+  "speechText": "Women get emotional support through a network of friends and family.",
+  "audio": "audio/course-examples/291cc718db9dbfb255eabae3.mp3",
+  "sha256": "e0f6296a810bf6ba9f04ee31efdb747bb6ff428eef33169491d5311514f56fcf",
+  "duration": 4.632,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Women",
+      "start": 0.147208,
+      "end": 0.536083
+    },
+    {
+      "text": "get",
+      "start": 0.55,
+      "end": 0.786125
+    },
+    {
+      "text": "emotional",
+      "start": 0.8,
+      "end": 1.341666
+    },
+    {
+      "text": "support",
+      "start": 1.355541,
+      "end": 1.994416
+    },
+    {
+      "text": "through",
+      "start": 2.008333,
+      "end": 2.299999
+    },
+    {
+      "text": "a",
+      "start": 2.313875,
+      "end": 2.369416
+    },
+    {
+      "text": "network",
+      "start": 2.383333,
+      "end": 2.897208
+    },
+    {
+      "text": "of",
+      "start": 2.911125,
+      "end": 3.036125
+    },
+    {
+      "text": "friends",
+      "start": 3.05,
+      "end": 3.494458
+    },
+    {
+      "text": "and",
+      "start": 3.508333,
+      "end": 3.633333
+    },
+    {
+      "text": "family",
+      "start": 3.647208,
+      "end": 4.216666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 3888750,
+      "text": "Women"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5500000,
+      "duration": 2361250,
+      "text": "get"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8000000,
+      "duration": 5416660,
+      "text": "emotional"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13555410,
+      "duration": 6388750,
+      "text": "support"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20083330,
+      "duration": 2916660,
+      "text": "through"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23138750,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23833330,
+      "duration": 5138750,
+      "text": "network"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29111250,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30500000,
+      "duration": 4444580,
+      "text": "friends"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35083330,
+      "duration": 1250000,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36472080,
+      "duration": 5694580,
+      "text": "family"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:30:06.963648+00:00"
+}

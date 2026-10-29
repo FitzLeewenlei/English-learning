@@ -1,0 +1,225 @@
+{
+  "speechText": "Eastern Australia's humpback whales came close to disappearing in the 1960s, when their number dropped to around 200.",
+  "audio": "audio/course-examples/f1c7a4df558ab0436d17a83c.mp3",
+  "sha256": "b23f2fbc8838258f285b6aa94b6620dc10b26b62c209206bcae30fa29a571d5d",
+  "duration": 8.592,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [
+    "1960",
+    "s"
+  ],
+  "words": [
+    {
+      "text": "Eastern",
+      "start": 0.101375,
+      "end": 0.5875
+    },
+    {
+      "text": "Australia's",
+      "start": 0.601375,
+      "end": 1.254166
+    },
+    {
+      "text": "humpback",
+      "start": 1.268041,
+      "end": 1.809707
+    },
+    {
+      "text": "whales",
+      "start": 1.823625,
+      "end": 2.351416
+    },
+    {
+      "text": "came",
+      "start": 2.365291,
+      "end": 2.656957
+    },
+    {
+      "text": "close",
+      "start": 2.670833,
+      "end": 3.087499
+    },
+    {
+      "text": "to",
+      "start": 3.101375,
+      "end": 3.2125
+    },
+    {
+      "text": "disappearing",
+      "start": 3.226375,
+      "end": 3.99025
+    },
+    {
+      "text": "in",
+      "start": 4.004166,
+      "end": 4.087499
+    },
+    {
+      "text": "the",
+      "start": 4.101375,
+      "end": 4.184708
+    },
+    {
+      "text": "1960",
+      "start": 4.198625,
+      "end": 5.109725,
+      "estimatedSplit": true
+    },
+    {
+      "text": "s",
+      "start": 5.109725,
+      "end": 5.3375,
+      "estimatedSplit": true
+    },
+    {
+      "text": "when",
+      "start": 5.670833,
+      "end": 5.823624
+    },
+    {
+      "text": "their",
+      "start": 5.8375,
+      "end": 5.9625
+    },
+    {
+      "text": "number",
+      "start": 5.976375,
+      "end": 6.3375
+    },
+    {
+      "text": "dropped",
+      "start": 6.351375,
+      "end": 6.754166
+    },
+    {
+      "text": "to",
+      "start": 6.768041,
+      "end": 6.879166
+    },
+    {
+      "text": "around",
+      "start": 6.893041,
+      "end": 7.365249
+    },
+    {
+      "text": "200",
+      "start": 7.379166,
+      "end": 8.184749
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 4861250,
+      "text": "Eastern"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6013750,
+      "duration": 6527910,
+      "text": "Australia's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12680410,
+      "duration": 5416660,
+      "text": "humpback"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18236250,
+      "duration": 5277910,
+      "text": "whales"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23652910,
+      "duration": 2916660,
+      "text": "came"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26708330,
+      "duration": 4166660,
+      "text": "close"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31013750,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32263750,
+      "duration": 7638750,
+      "text": "disappearing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40041660,
+      "duration": 833330,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41013750,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41986250,
+      "duration": 11388750,
+      "text": "1960s"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56708330,
+      "duration": 1527910,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58375000,
+      "duration": 1250000,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59763750,
+      "duration": 3611250,
+      "text": "number"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63513750,
+      "duration": 4027910,
+      "text": "dropped"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67680410,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68930410,
+      "duration": 4722080,
+      "text": "around"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73791660,
+      "duration": 8055830,
+      "text": "200"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:48:36.627860+00:00"
+}

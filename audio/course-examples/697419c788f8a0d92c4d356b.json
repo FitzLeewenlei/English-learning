@@ -1,0 +1,116 @@
+{
+  "speechText": "There are so many deserts along the subtropical belt.",
+  "audio": "audio/course-examples/697419c788f8a0d92c4d356b.mp3",
+  "sha256": "c44c64ba5b947f7c583005714bf65649f74975ae6047a5e001a8ea43c3bf2462",
+  "duration": 3.864,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "There",
+      "start": 0.147208,
+      "end": 0.299999
+    },
+    {
+      "text": "are",
+      "start": 0.313875,
+      "end": 0.438875
+    },
+    {
+      "text": "so",
+      "start": 0.452791,
+      "end": 0.758332
+    },
+    {
+      "text": "many",
+      "start": 0.772208,
+      "end": 1.049999
+    },
+    {
+      "text": "deserts",
+      "start": 1.063875,
+      "end": 1.633333
+    },
+    {
+      "text": "along",
+      "start": 1.647208,
+      "end": 1.952749
+    },
+    {
+      "text": "the",
+      "start": 1.966666,
+      "end": 2.077791
+    },
+    {
+      "text": "subtropical",
+      "start": 2.091666,
+      "end": 2.883332
+    },
+    {
+      "text": "belt",
+      "start": 2.897208,
+      "end": 3.452749
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1527910,
+      "text": "There"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3138750,
+      "duration": 1250000,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4527910,
+      "duration": 3055410,
+      "text": "so"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7722080,
+      "duration": 2777910,
+      "text": "many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10638750,
+      "duration": 5694580,
+      "text": "deserts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16472080,
+      "duration": 3055410,
+      "text": "along"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19666660,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20916660,
+      "duration": 7916660,
+      "text": "subtropical"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28972080,
+      "duration": 5555410,
+      "text": "belt"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:47:44.245647+00:00"
+}

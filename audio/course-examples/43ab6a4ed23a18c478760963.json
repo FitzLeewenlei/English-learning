@@ -1,0 +1,214 @@
+{
+  "speechText": "For example, medication side effects, vitamin B12 shortage, or infections in the brain can cause memory loss.",
+  "audio": "audio/course-examples/43ab6a4ed23a18c478760963.mp3",
+  "sha256": "ffae11ac542b6a35197514cbbc0da98359b89d1434938c0065f84d672d6c1d7f",
+  "duration": 8.496,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [
+    "B",
+    "12"
+  ],
+  "words": [
+    {
+      "text": "For",
+      "start": 0.133333,
+      "end": 0.313874
+    },
+    {
+      "text": "example",
+      "start": 0.327791,
+      "end": 1.077791
+    },
+    {
+      "text": "medication",
+      "start": 1.313875,
+      "end": 1.994416
+    },
+    {
+      "text": "side",
+      "start": 2.008333,
+      "end": 2.299999
+    },
+    {
+      "text": "effects",
+      "start": 2.313875,
+      "end": 2.883333
+    },
+    {
+      "text": "vitamin",
+      "start": 3.188875,
+      "end": 3.647208
+    },
+    {
+      "text": "B",
+      "start": 3.661125,
+      "end": 3.8416663,
+      "estimatedSplit": true
+    },
+    {
+      "text": "12",
+      "start": 3.8416663,
+      "end": 4.202749,
+      "estimatedSplit": true
+    },
+    {
+      "text": "shortage",
+      "start": 4.216666,
+      "end": 4.827791
+    },
+    {
+      "text": "or",
+      "start": 5.175,
+      "end": 5.286125
+    },
+    {
+      "text": "infections",
+      "start": 5.3,
+      "end": 5.980541
+    },
+    {
+      "text": "in",
+      "start": 5.994458,
+      "end": 6.077791
+    },
+    {
+      "text": "the",
+      "start": 6.091666,
+      "end": 6.188874
+    },
+    {
+      "text": "brain",
+      "start": 6.202791,
+      "end": 6.605582
+    },
+    {
+      "text": "can",
+      "start": 6.619458,
+      "end": 6.827791
+    },
+    {
+      "text": "cause",
+      "start": 6.841666,
+      "end": 7.161124
+    },
+    {
+      "text": "memory",
+      "start": 7.175,
+      "end": 7.577791
+    },
+    {
+      "text": "loss",
+      "start": 7.591666,
+      "end": 8.091666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1805410,
+      "text": "For"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3277910,
+      "duration": 7500000,
+      "text": "example"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13138750,
+      "duration": 6805410,
+      "text": "medication"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20083330,
+      "duration": 2916660,
+      "text": "side"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23138750,
+      "duration": 5694580,
+      "text": "effects"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31888750,
+      "duration": 4583330,
+      "text": "vitamin"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36611250,
+      "duration": 5416240,
+      "text": "B12"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42166660,
+      "duration": 6111250,
+      "text": "shortage"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51750000,
+      "duration": 1111250,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53000000,
+      "duration": 6805410,
+      "text": "infections"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59944580,
+      "duration": 833330,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60916660,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62027910,
+      "duration": 4027910,
+      "text": "brain"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66194580,
+      "duration": 2083330,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68416660,
+      "duration": 3194580,
+      "text": "cause"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71750000,
+      "duration": 4027910,
+      "text": "memory"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 75916660,
+      "duration": 5000000,
+      "text": "loss"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:45:30.237450+00:00"
+}

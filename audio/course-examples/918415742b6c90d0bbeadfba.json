@@ -1,0 +1,149 @@
+{
+  "speechText": "Though faced with many difficulties, he would not give up online learning.",
+  "audio": "audio/course-examples/918415742b6c90d0bbeadfba.mp3",
+  "sha256": "a39bc36ecfaba172a4c7660e3152ab2e9a53afc428db49895876257ff91b0a74",
+  "duration": 5.016,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Though",
+      "start": 0.147208,
+      "end": 0.397208
+    },
+    {
+      "text": "faced",
+      "start": 0.411125,
+      "end": 0.869458
+    },
+    {
+      "text": "with",
+      "start": 0.883333,
+      "end": 1.049999
+    },
+    {
+      "text": "many",
+      "start": 1.063875,
+      "end": 1.383333
+    },
+    {
+      "text": "difficulties",
+      "start": 1.397208,
+      "end": 2.299999
+    },
+    {
+      "text": "he",
+      "start": 2.619458,
+      "end": 2.702791
+    },
+    {
+      "text": "would",
+      "start": 2.716666,
+      "end": 2.883332
+    },
+    {
+      "text": "not",
+      "start": 2.897208,
+      "end": 3.147208
+    },
+    {
+      "text": "give",
+      "start": 3.161125,
+      "end": 3.355583
+    },
+    {
+      "text": "up",
+      "start": 3.369458,
+      "end": 3.563916
+    },
+    {
+      "text": "online",
+      "start": 3.577791,
+      "end": 4.022249
+    },
+    {
+      "text": "learning",
+      "start": 4.036125,
+      "end": 4.591666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2500000,
+      "text": "Though"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4111250,
+      "duration": 4583330,
+      "text": "faced"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8833330,
+      "duration": 1666660,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10638750,
+      "duration": 3194580,
+      "text": "many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 9027910,
+      "text": "difficulties"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26194580,
+      "duration": 833330,
+      "text": "he"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27166660,
+      "duration": 1666660,
+      "text": "would"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28972080,
+      "duration": 2500000,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31611250,
+      "duration": 1944580,
+      "text": "give"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33694580,
+      "duration": 1944580,
+      "text": "up"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35777910,
+      "duration": 4444580,
+      "text": "online"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40361250,
+      "duration": 5555410,
+      "text": "learning"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:38:07.102245+00:00"
+}

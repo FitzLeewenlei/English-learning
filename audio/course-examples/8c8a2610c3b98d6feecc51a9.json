@@ -1,0 +1,248 @@
+{
+  "speechText": "Some scientists want to apply the methods used in cloning animals to produce skin, organs and other body parts for humans.",
+  "audio": "audio/course-examples/8c8a2610c3b98d6feecc51a9.mp3",
+  "sha256": "c01f1f9c059493f5304f9da18ee09711ad3a501cec13372e01bbcaa01e878fcd",
+  "duration": 8.568,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Some",
+      "start": 0.133333,
+      "end": 0.438874
+    },
+    {
+      "text": "scientists",
+      "start": 0.452791,
+      "end": 1.230582
+    },
+    {
+      "text": "want",
+      "start": 1.244458,
+      "end": 1.494458
+    },
+    {
+      "text": "to",
+      "start": 1.508333,
+      "end": 1.605541
+    },
+    {
+      "text": "apply",
+      "start": 1.619458,
+      "end": 1.966666
+    },
+    {
+      "text": "the",
+      "start": 1.980541,
+      "end": 2.091666
+    },
+    {
+      "text": "methods",
+      "start": 2.105541,
+      "end": 2.577749
+    },
+    {
+      "text": "used",
+      "start": 2.591666,
+      "end": 2.924999
+    },
+    {
+      "text": "in",
+      "start": 2.938875,
+      "end": 3.05
+    },
+    {
+      "text": "cloning",
+      "start": 3.063875,
+      "end": 3.536083
+    },
+    {
+      "text": "animals",
+      "start": 3.55,
+      "end": 4.063875
+    },
+    {
+      "text": "to",
+      "start": 4.077791,
+      "end": 4.188916
+    },
+    {
+      "text": "produce",
+      "start": 4.202791,
+      "end": 4.647249
+    },
+    {
+      "text": "skin",
+      "start": 4.661125,
+      "end": 5.161125
+    },
+    {
+      "text": "organs",
+      "start": 5.480541,
+      "end": 6.077749
+    },
+    {
+      "text": "and",
+      "start": 6.188875,
+      "end": 6.369416
+    },
+    {
+      "text": "other",
+      "start": 6.383333,
+      "end": 6.619458
+    },
+    {
+      "text": "body",
+      "start": 6.633333,
+      "end": 6.924999
+    },
+    {
+      "text": "parts",
+      "start": 6.938875,
+      "end": 7.32775
+    },
+    {
+      "text": "for",
+      "start": 7.341666,
+      "end": 7.438874
+    },
+    {
+      "text": "humans",
+      "start": 7.452791,
+      "end": 8.147249
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 3055410,
+      "text": "Some"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4527910,
+      "duration": 7777910,
+      "text": "scientists"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12444580,
+      "duration": 2500000,
+      "text": "want"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15083330,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16194580,
+      "duration": 3472080,
+      "text": "apply"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19805410,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21055410,
+      "duration": 4722080,
+      "text": "methods"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 3333330,
+      "text": "used"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29388750,
+      "duration": 1111250,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30638750,
+      "duration": 4722080,
+      "text": "cloning"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35500000,
+      "duration": 5138750,
+      "text": "animals"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40777910,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42027910,
+      "duration": 4444580,
+      "text": "produce"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46611250,
+      "duration": 5000000,
+      "text": "skin"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54805410,
+      "duration": 5972080,
+      "text": "organs"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61888750,
+      "duration": 1805410,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63833330,
+      "duration": 2361250,
+      "text": "other"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66333330,
+      "duration": 2916660,
+      "text": "body"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69388750,
+      "duration": 3888750,
+      "text": "parts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73416660,
+      "duration": 972080,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 74527910,
+      "duration": 6944580,
+      "text": "humans"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:36:04.023619+00:00"
+}

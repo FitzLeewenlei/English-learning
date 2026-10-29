@@ -1,0 +1,127 @@
+{
+  "speechText": "People with income below the poverty line are considered poor.",
+  "audio": "audio/course-examples/88aa683de4c6507612307996.mp3",
+  "sha256": "0d915718c8a4f1a0a46324c5d451824d7f9bbb1a02403ecf67f3e701c6f8f12d",
+  "duration": 4.368,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "People",
+      "start": 0.102791,
+      "end": 0.547249
+    },
+    {
+      "text": "with",
+      "start": 0.561125,
+      "end": 0.741666
+    },
+    {
+      "text": "income",
+      "start": 0.755541,
+      "end": 1.283332
+    },
+    {
+      "text": "below",
+      "start": 1.297208,
+      "end": 1.630541
+    },
+    {
+      "text": "the",
+      "start": 1.644458,
+      "end": 1.769458
+    },
+    {
+      "text": "poverty",
+      "start": 1.783333,
+      "end": 2.255541
+    },
+    {
+      "text": "line",
+      "start": 2.269458,
+      "end": 2.658333
+    },
+    {
+      "text": "are",
+      "start": 2.672208,
+      "end": 2.797208
+    },
+    {
+      "text": "considered",
+      "start": 2.811125,
+      "end": 3.45
+    },
+    {
+      "text": "poor",
+      "start": 3.463875,
+      "end": 3.95
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1027910,
+      "duration": 4444580,
+      "text": "People"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5611250,
+      "duration": 1805410,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7555410,
+      "duration": 5277910,
+      "text": "income"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12972080,
+      "duration": 3333330,
+      "text": "below"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16444580,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17833330,
+      "duration": 4722080,
+      "text": "poverty"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22694580,
+      "duration": 3888750,
+      "text": "line"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26722080,
+      "duration": 1250000,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28111250,
+      "duration": 6388750,
+      "text": "considered"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34638750,
+      "duration": 4861250,
+      "text": "poor"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:39:21.599494+00:00"
+}

@@ -1,0 +1,182 @@
+{
+  "speechText": "For every writer kissed by fortune, there are thousands more whose longing is never rewarded.",
+  "audio": "audio/course-examples/e215632c74e8649ebf320177.mp3",
+  "sha256": "8c8cf9c04310138e6af4ba0a38ce3cd90e7aedb1ad446e6c6289fce093913a5a",
+  "duration": 6.384,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "For",
+      "start": 0.133333,
+      "end": 0.383333
+    },
+    {
+      "text": "every",
+      "start": 0.397208,
+      "end": 0.702749
+    },
+    {
+      "text": "writer",
+      "start": 0.716666,
+      "end": 1.216666
+    },
+    {
+      "text": "kissed",
+      "start": 1.230541,
+      "end": 1.591666
+    },
+    {
+      "text": "by",
+      "start": 1.605541,
+      "end": 1.772207
+    },
+    {
+      "text": "fortune",
+      "start": 1.786125,
+      "end": 2.466666
+    },
+    {
+      "text": "there",
+      "start": 2.8,
+      "end": 2.897208
+    },
+    {
+      "text": "are",
+      "start": 2.911125,
+      "end": 3.008333
+    },
+    {
+      "text": "thousands",
+      "start": 3.022208,
+      "end": 3.633333
+    },
+    {
+      "text": "more",
+      "start": 3.647208,
+      "end": 3.883333
+    },
+    {
+      "text": "whose",
+      "start": 3.897208,
+      "end": 4.161083
+    },
+    {
+      "text": "longing",
+      "start": 4.175,
+      "end": 4.688875
+    },
+    {
+      "text": "is",
+      "start": 4.702791,
+      "end": 4.855582
+    },
+    {
+      "text": "never",
+      "start": 4.869458,
+      "end": 5.174999
+    },
+    {
+      "text": "rewarded",
+      "start": 5.188875,
+      "end": 5.966666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2500000,
+      "text": "For"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3972080,
+      "duration": 3055410,
+      "text": "every"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7166660,
+      "duration": 5000000,
+      "text": "writer"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12305410,
+      "duration": 3611250,
+      "text": "kissed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16055410,
+      "duration": 1666660,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17861250,
+      "duration": 6805410,
+      "text": "fortune"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28000000,
+      "duration": 972080,
+      "text": "there"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29111250,
+      "duration": 972080,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30222080,
+      "duration": 6111250,
+      "text": "thousands"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36472080,
+      "duration": 2361250,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38972080,
+      "duration": 2638750,
+      "text": "whose"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41750000,
+      "duration": 5138750,
+      "text": "longing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47027910,
+      "duration": 1527910,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48694580,
+      "duration": 3055410,
+      "text": "never"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51888750,
+      "duration": 7777910,
+      "text": "rewarded"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:40:04.920347+00:00"
+}

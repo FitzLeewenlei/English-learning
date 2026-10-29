@@ -1,0 +1,116 @@
+{
+  "speechText": "What does the underlined phrase in Paragraph 1 mean?",
+  "audio": "audio/course-examples/642a829a9892ff35ced9e684.mp3",
+  "sha256": "7fb9f6028eac18c76bdad2095a6de116654d32fb17d34b27951357bcbe06c77f",
+  "duration": 4.08,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "What",
+      "start": 0.147208,
+      "end": 0.397208
+    },
+    {
+      "text": "does",
+      "start": 0.411125,
+      "end": 0.605583
+    },
+    {
+      "text": "the",
+      "start": 0.619458,
+      "end": 0.772249
+    },
+    {
+      "text": "underlined",
+      "start": 0.786125,
+      "end": 1.425
+    },
+    {
+      "text": "phrase",
+      "start": 1.438875,
+      "end": 1.980541
+    },
+    {
+      "text": "in",
+      "start": 1.994458,
+      "end": 2.202791
+    },
+    {
+      "text": "Paragraph",
+      "start": 2.216666,
+      "end": 2.911124
+    },
+    {
+      "text": "1",
+      "start": 2.925,
+      "end": 3.175
+    },
+    {
+      "text": "mean",
+      "start": 3.188875,
+      "end": 3.675
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2500000,
+      "text": "What"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4111250,
+      "duration": 1944580,
+      "text": "does"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6194580,
+      "duration": 1527910,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7861250,
+      "duration": 6388750,
+      "text": "underlined"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14388750,
+      "duration": 5416660,
+      "text": "phrase"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19944580,
+      "duration": 2083330,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22166660,
+      "duration": 6944580,
+      "text": "Paragraph"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29250000,
+      "duration": 2500000,
+      "text": "1"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31888750,
+      "duration": 4861250,
+      "text": "mean"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:39:52.947310+00:00"
+}

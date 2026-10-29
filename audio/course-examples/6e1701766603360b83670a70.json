@@ -1,0 +1,105 @@
+{
+  "speechText": "It was the difference between chaos and order.",
+  "audio": "audio/course-examples/6e1701766603360b83670a70.mp3",
+  "sha256": "fab869deb6f055cf5b25044232b545d79ba4331c97748236a53ecf598c08a6e2",
+  "duration": 3.36,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "It",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "was",
+      "start": 0.3,
+      "end": 0.466666
+    },
+    {
+      "text": "the",
+      "start": 0.480541,
+      "end": 0.619416
+    },
+    {
+      "text": "difference",
+      "start": 0.633333,
+      "end": 1.216666
+    },
+    {
+      "text": "between",
+      "start": 1.230541,
+      "end": 1.674999
+    },
+    {
+      "text": "chaos",
+      "start": 1.688875,
+      "end": 2.272208
+    },
+    {
+      "text": "and",
+      "start": 2.286125,
+      "end": 2.425
+    },
+    {
+      "text": "order",
+      "start": 2.438875,
+      "end": 2.95275
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "It"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1666660,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4805410,
+      "duration": 1388750,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6333330,
+      "duration": 5833330,
+      "text": "difference"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12305410,
+      "duration": 4444580,
+      "text": "between"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16888750,
+      "duration": 5833330,
+      "text": "chaos"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22861250,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24388750,
+      "duration": 5138750,
+      "text": "order"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:34:45.905398+00:00"
+}

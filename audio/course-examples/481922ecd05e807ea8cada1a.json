@@ -1,0 +1,182 @@
+{
+  "speechText": "Establishing these kinds of connections means \"there's some joy\" in having a landline, Lundberg said.",
+  "audio": "audio/course-examples/481922ecd05e807ea8cada1a.mp3",
+  "sha256": "e5889442f95a79f5776f320a3b6bd82b2480030bcf6f8b1602e1aa2e1d7b5e87",
+  "duration": 6.48,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Establishing",
+      "start": 0.147208,
+      "end": 0.924999
+    },
+    {
+      "text": "these",
+      "start": 0.938875,
+      "end": 1.147208
+    },
+    {
+      "text": "kinds",
+      "start": 1.161125,
+      "end": 1.52225
+    },
+    {
+      "text": "of",
+      "start": 1.536125,
+      "end": 1.64725
+    },
+    {
+      "text": "connections",
+      "start": 1.661125,
+      "end": 2.466666
+    },
+    {
+      "text": "means",
+      "start": 2.480541,
+      "end": 2.827749
+    },
+    {
+      "text": "there's",
+      "start": 2.841666,
+      "end": 3.036124
+    },
+    {
+      "text": "some",
+      "start": 3.05,
+      "end": 3.313875
+    },
+    {
+      "text": "joy",
+      "start": 3.327791,
+      "end": 3.661124
+    },
+    {
+      "text": "in",
+      "start": 3.675,
+      "end": 3.827791
+    },
+    {
+      "text": "having",
+      "start": 3.841666,
+      "end": 4.174999
+    },
+    {
+      "text": "a",
+      "start": 4.188875,
+      "end": 4.2305409
+    },
+    {
+      "text": "landline",
+      "start": 4.244458,
+      "end": 4.855583
+    },
+    {
+      "text": "Lundberg",
+      "start": 5.133333,
+      "end": 5.591666
+    },
+    {
+      "text": "said",
+      "start": 5.605541,
+      "end": 6.063874
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 7777910,
+      "text": "Establishing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9388750,
+      "duration": 2083330,
+      "text": "these"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11611250,
+      "duration": 3611250,
+      "text": "kinds"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16611250,
+      "duration": 8055410,
+      "text": "connections"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24805410,
+      "duration": 3472080,
+      "text": "means"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28416660,
+      "duration": 1944580,
+      "text": "there's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30500000,
+      "duration": 2638750,
+      "text": "some"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33277910,
+      "duration": 3333330,
+      "text": "joy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36750000,
+      "duration": 1527910,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38416660,
+      "duration": 3333330,
+      "text": "having"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41888750,
+      "duration": 416659,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42444580,
+      "duration": 6111250,
+      "text": "landline"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51333330,
+      "duration": 4583330,
+      "text": "Lundberg"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56055410,
+      "duration": 4583330,
+      "text": "said"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:32:45.491983+00:00"
+}

@@ -1,0 +1,193 @@
+{
+  "speechText": "At the time of economic crisis, he could only earn a salary of $ 2,000 per month.",
+  "audio": "audio/course-examples/034f6c83ae1cf2aea75c23e2.mp3",
+  "sha256": "0c0f17604b5923dac593ce9999a1f64a0f72079e31954e49a174531a6b6d6435",
+  "duration": 6.288,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "At",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "the",
+      "start": 0.3,
+      "end": 0.411125
+    },
+    {
+      "text": "time",
+      "start": 0.425,
+      "end": 0.758333
+    },
+    {
+      "text": "of",
+      "start": 0.772208,
+      "end": 0.883333
+    },
+    {
+      "text": "economic",
+      "start": 0.897208,
+      "end": 1.424999
+    },
+    {
+      "text": "crisis",
+      "start": 1.438875,
+      "end": 2.119416
+    },
+    {
+      "text": "he",
+      "start": 2.425,
+      "end": 2.508333
+    },
+    {
+      "text": "could",
+      "start": 2.522208,
+      "end": 2.688874
+    },
+    {
+      "text": "only",
+      "start": 2.702791,
+      "end": 3.008332
+    },
+    {
+      "text": "earn",
+      "start": 3.022208,
+      "end": 3.202749
+    },
+    {
+      "text": "a",
+      "start": 3.216666,
+      "end": 3.272207
+    },
+    {
+      "text": "salary",
+      "start": 3.286125,
+      "end": 3.855583
+    },
+    {
+      "text": "of",
+      "start": 3.869458,
+      "end": 4.063916
+    },
+    {
+      "text": "2,000",
+      "start": 4.077791,
+      "end": 5.188916
+    },
+    {
+      "text": "per",
+      "start": 5.202791,
+      "end": 5.327791
+    },
+    {
+      "text": "month",
+      "start": 5.341666,
+      "end": 5.869457
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "At"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4250000,
+      "duration": 3333330,
+      "text": "time"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7722080,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 5277910,
+      "text": "economic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14388750,
+      "duration": 6805410,
+      "text": "crisis"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24250000,
+      "duration": 833330,
+      "text": "he"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 1666660,
+      "text": "could"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27027910,
+      "duration": 3055410,
+      "text": "only"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30222080,
+      "duration": 1805410,
+      "text": "earn"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32166660,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32861250,
+      "duration": 5694580,
+      "text": "salary"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38694580,
+      "duration": 1944580,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40777910,
+      "duration": 11111250,
+      "text": "$ 2,000"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52027910,
+      "duration": 1250000,
+      "text": "per"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53416660,
+      "duration": 5277910,
+      "text": "month"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:34:29.820775+00:00"
+}

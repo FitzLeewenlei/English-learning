@@ -1,0 +1,182 @@
+{
+  "speechText": "It is reported that less than 20% of these phones end up actually being recycled.",
+  "audio": "audio/course-examples/6fe8b74eb2f3a8b7444ff9ca.mp3",
+  "sha256": "a6bc7ce52575e6ae49f5e3e712a14a1fc1bca179c16190014cceae569c0c2011",
+  "duration": 6.192,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "It",
+      "start": 0.147208,
+      "end": 0.272208
+    },
+    {
+      "text": "is",
+      "start": 0.286125,
+      "end": 0.438916
+    },
+    {
+      "text": "reported",
+      "start": 0.452791,
+      "end": 1.174999
+    },
+    {
+      "text": "that",
+      "start": 1.188875,
+      "end": 1.383333
+    },
+    {
+      "text": "less",
+      "start": 1.397208,
+      "end": 1.661083
+    },
+    {
+      "text": "than",
+      "start": 1.675,
+      "end": 1.869458
+    },
+    {
+      "text": "20",
+      "start": 1.883333,
+      "end": 2.7166659
+    },
+    {
+      "text": "of",
+      "start": 2.730541,
+      "end": 2.841666
+    },
+    {
+      "text": "these",
+      "start": 2.855541,
+      "end": 3.105541
+    },
+    {
+      "text": "phones",
+      "start": 3.119458,
+      "end": 3.674999
+    },
+    {
+      "text": "end",
+      "start": 3.688875,
+      "end": 3.911083
+    },
+    {
+      "text": "up",
+      "start": 3.925,
+      "end": 4.091666
+    },
+    {
+      "text": "actually",
+      "start": 4.105541,
+      "end": 4.536082
+    },
+    {
+      "text": "being",
+      "start": 4.55,
+      "end": 4.841666
+    },
+    {
+      "text": "recycled",
+      "start": 4.855541,
+      "end": 5.772207
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1250000,
+      "text": "It"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 1527910,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4527910,
+      "duration": 7222080,
+      "text": "reported"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11888750,
+      "duration": 1944580,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 2638750,
+      "text": "less"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16750000,
+      "duration": 1944580,
+      "text": "than"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18833330,
+      "duration": 8333329,
+      "text": "20%"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27305410,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28555410,
+      "duration": 2500000,
+      "text": "these"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31194580,
+      "duration": 5555410,
+      "text": "phones"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36888750,
+      "duration": 2222080,
+      "text": "end"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39250000,
+      "duration": 1666660,
+      "text": "up"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41055410,
+      "duration": 4305410,
+      "text": "actually"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45500000,
+      "duration": 2916660,
+      "text": "being"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48555410,
+      "duration": 9166660,
+      "text": "recycled"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:38:09.469081+00:00"
+}

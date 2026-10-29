@@ -1,0 +1,204 @@
+{
+  "speechText": "They also surveyed parents about their children's activities — and whether they had a family dog or not.",
+  "audio": "audio/course-examples/8231b5b8a32e27513f0984f3.mp3",
+  "sha256": "da5ff9afa55caa3966755c61854dc53377772cc582d648cb1b32881faed952d4",
+  "duration": 6.696,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "They",
+      "start": 0.147208,
+      "end": 0.327749
+    },
+    {
+      "text": "also",
+      "start": 0.341666,
+      "end": 0.786124
+    },
+    {
+      "text": "surveyed",
+      "start": 0.8,
+      "end": 1.369458
+    },
+    {
+      "text": "parents",
+      "start": 1.383333,
+      "end": 1.952791
+    },
+    {
+      "text": "about",
+      "start": 1.966666,
+      "end": 2.272207
+    },
+    {
+      "text": "their",
+      "start": 2.286125,
+      "end": 2.425
+    },
+    {
+      "text": "children's",
+      "start": 2.438875,
+      "end": 2.994416
+    },
+    {
+      "text": "activities",
+      "start": 3.008333,
+      "end": 3.869458
+    },
+    {
+      "text": "and",
+      "start": 3.994458,
+      "end": 4.147249
+    },
+    {
+      "text": "whether",
+      "start": 4.161125,
+      "end": 4.425
+    },
+    {
+      "text": "they",
+      "start": 4.438875,
+      "end": 4.563875
+    },
+    {
+      "text": "had",
+      "start": 4.577791,
+      "end": 4.772249
+    },
+    {
+      "text": "a",
+      "start": 4.786125,
+      "end": 4.841666
+    },
+    {
+      "text": "family",
+      "start": 4.855541,
+      "end": 5.313874
+    },
+    {
+      "text": "dog",
+      "start": 5.327791,
+      "end": 5.605582
+    },
+    {
+      "text": "or",
+      "start": 5.619458,
+      "end": 5.702791
+    },
+    {
+      "text": "not",
+      "start": 5.716666,
+      "end": 6.272207
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1805410,
+      "text": "They"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 4444580,
+      "text": "also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8000000,
+      "duration": 5694580,
+      "text": "surveyed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13833330,
+      "duration": 5694580,
+      "text": "parents"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19666660,
+      "duration": 3055410,
+      "text": "about"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22861250,
+      "duration": 1388750,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24388750,
+      "duration": 5555410,
+      "text": "children's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30083330,
+      "duration": 8611250,
+      "text": "activities"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39944580,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41611250,
+      "duration": 2638750,
+      "text": "whether"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44388750,
+      "duration": 1250000,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45777910,
+      "duration": 1944580,
+      "text": "had"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47861250,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48555410,
+      "duration": 4583330,
+      "text": "family"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53277910,
+      "duration": 2777910,
+      "text": "dog"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56194580,
+      "duration": 833330,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57166660,
+      "duration": 5555410,
+      "text": "not"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:50:23.136175+00:00"
+}

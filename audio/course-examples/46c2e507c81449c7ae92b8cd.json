@@ -1,0 +1,115 @@
+{
+  "speechText": "Over 40 percent of the poor people are children.",
+  "audio": "audio/course-examples/46c2e507c81449c7ae92b8cd.mp3",
+  "sha256": "4313067b32dfc70b2ae20a8bd709cebc2efd53ed1d3daf7302043b1edc6b47d1",
+  "duration": 3.576,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [
+    "40",
+    "percent"
+  ],
+  "words": [
+    {
+      "text": "Over",
+      "start": 0.101375,
+      "end": 0.4625
+    },
+    {
+      "text": "40",
+      "start": 0.476375,
+      "end": 0.6800879,
+      "estimatedSplit": true
+    },
+    {
+      "text": "percent",
+      "start": 0.6800879,
+      "end": 1.393083,
+      "estimatedSplit": true
+    },
+    {
+      "text": "of",
+      "start": 1.406958,
+      "end": 1.518083
+    },
+    {
+      "text": "the",
+      "start": 1.531958,
+      "end": 1.643083
+    },
+    {
+      "text": "poor",
+      "start": 1.656958,
+      "end": 1.906958
+    },
+    {
+      "text": "people",
+      "start": 1.920833,
+      "end": 2.365291
+    },
+    {
+      "text": "are",
+      "start": 2.379166,
+      "end": 2.448624
+    },
+    {
+      "text": "children",
+      "start": 2.4625,
+      "end": 3.156958
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 3611250,
+      "text": "Over"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4763750,
+      "duration": 9167080,
+      "text": "40 percent"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14069580,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15319580,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16569580,
+      "duration": 2500000,
+      "text": "poor"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19208330,
+      "duration": 4444580,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23791660,
+      "duration": 694580,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24625000,
+      "duration": 6944580,
+      "text": "children"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:35:32.442854+00:00"
+}

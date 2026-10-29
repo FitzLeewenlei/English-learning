@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch/reuse official Youdao word-card data for the document's 32 units.
+"""Fetch/reuse official Youdao word-card data for the document's course units.
 
 Section 01 textual fields remain document-owned; this tool supplies audio and
 section 02 word-card dictionary fields only. Uses normal TLS/proxy routing,
@@ -38,9 +38,10 @@ PARSER_VERSION = 'course-v2'
 
 def scope(course):
     words = {}
+    scope_version=source.digest(json.dumps(course['units'],ensure_ascii=False,sort_keys=True,separators=(',',':')).encode())
     def add(text, unit, vocabulary=False):
         key = source.normalize(text)
-        row = words.setdefault(key, {'query': key, 'forms': [], 'units': [], 'vocabulary_units': []})
+        row = words.setdefault(key, {'query': key, 'forms': [], 'units': [], 'vocabulary_units': [],'scope_version':scope_version})
         if text not in row['forms']: row['forms'].append(text)
         if unit not in row['units']: row['units'].append(unit)
         if vocabulary and unit not in row['vocabulary_units']: row['vocabulary_units'].append(unit)
@@ -48,7 +49,7 @@ def scope(course):
         for entry in unit['vocabulary']: add(entry['word'], int(unit_id), True)
         for entry in unit['examples']:
             for token in TOKEN.findall(entry['speechText']): add(token, int(unit_id))
-    return sorted(words.values(), key=lambda row: (not bool(row['vocabulary_units']), row['query']))
+    return sorted(words.values(), key=lambda row: (0 if any(unit>=33 for unit in row['vocabulary_units'])else 1 if row['vocabulary_units']else 2,row['query']))
 
 
 class RateLimitedCache:
@@ -193,9 +194,17 @@ def build(words, course_path):
         record=json.loads(path.read_text())
         if record.get('transport_error'):raise ValueError('Unresolved source transport: '+word['query'])
         if record.get('parser_version')!=PARSER_VERSION:raise ValueError('Re-run --fetch to refresh parsed cache version: '+word['query'])
+        if record.get('scope_version')!=word['scope_version']:raise ValueError('Re-run --fetch to refresh course memberships: '+word['query'])
         record.update(word)
         records.append(record)
-    old=json.loads((ROOT/'data/youdao-unit1.json').read_text());existing={m['sha256']:path for path,m in old['audio_files'].items()}
+    existing={}
+    for audit_path in [ROOT/'data/youdao-unit1.json',ROOT/'data/youdao-course.json']:
+        if audit_path.exists():
+            previous=json.loads(audit_path.read_text());existing.update({m['sha256']:path for path,m in previous['audio_files'].items()})
+    old_text=(ROOT/'dictionary.js').read_text()
+    old_assignment=old_text.partition('window.WORD_DICTIONARY = ')[2].strip().removesuffix(';')
+    if not old_assignment:raise ValueError('Cannot preserve existing word-card assignment')
+    old_runtime=json.loads(old_assignment)
     runtime={};documents={};entries={};audio_files={};audio_root=ROOT/'audio/youdao-course';audio_root.mkdir(exist_ok=True)
     for record in records:
         query=record['query'];lookup=record.get('lookup_query',query);provenance=record.get('provenance')
@@ -227,22 +236,34 @@ def build(words, course_path):
             expected_url=source.BASE+'dictvoice?'+parse.urlencode({'audio':expected['audio_query'],'type':'1'})
             if not expected['audio_query'] or meta['url']!=expected_url or meta['type']!=1:
                 raise ValueError('Staged audio does not match official UK reference: '+query)
-            path=existing.get(meta['sha256'])
+            path=old_runtime.get(query,{}).get('audio')
+            if path and source.digest((ROOT/path).read_bytes())!=meta['sha256']:
+                raise ValueError('Existing queried-word audio differs from verified source: '+query)
+            path=path or existing.get(meta['sha256'])
             if not path:
                 name=source.digest(query.encode())[:20]+meta['extension'];path='audio/youdao-course/'+name
                 raw=Path(meta['cache_file']).read_bytes()
                 if source.digest(raw)!=meta['sha256']:raise ValueError('Audio cache checksum mismatch')
-                (ROOT/path).write_bytes(raw)
+                destination=ROOT/path
+                if destination.exists():
+                    if source.digest(destination.read_bytes())!=meta['sha256']:raise ValueError('Existing audio output differs from source: '+path)
+                else:destination.write_bytes(raw)
             elif source.digest((ROOT/path).read_bytes())!=meta['sha256']:raise ValueError('Retained audio checksum mismatch')
             entry['audio']=path;audio_files[path]={k:v for k,v in meta.items() if k not in ['cache_file','extension']}
         entry['missing']=[field for field in ['ipa','senses','audio']if not entry.get(field)]
         entry['status']='complete'if not entry['missing']else'unavailable'
         runtime[query]=entry
         entries[query]={'units':record['units'],'vocabulary_units':record['vocabulary_units'],'forms':record['forms'],'status':entry['status'],'missing':entry['missing'],'lookup_query':lookup,'lemma':entry['lemma'],'source_document_sha256':provenance['raw_response_sha256'],'source_senses':entry['senses'],'ipa':entry['ipa'],'audio':entry.get('audio'),'audio_source':{k:v for k,v in meta.items()if k not in ['cache_file','extension']}if meta else None,'definition_sources':record.get('definition_sources',[]),'alias':record.get('alias'),'reason':record.get('reason'),'parse_warning':record.get('parse_warning'),'unparsed_senses':record.get('unparsed_senses',[]),'definition_scope':record.get('definition_scope'),'source_form_mismatch':record.get('source_form_mismatch')}
+    if set(old_runtime).issubset(runtime):
+        changed=[query for query,old_entry in old_runtime.items()if runtime[query]!=old_entry]
+        if changed:raise ValueError('Expansion would change existing word-card facts: '+', '.join(changed[:12]))
     course_raw=course_path.read_bytes()
-    audit={'source':'有道词典','generated_at_utc':source.utc_now(),'selection_policy':POLICY,'course_source':{'file':str(course_path.relative_to(ROOT))if course_path.is_relative_to(ROOT)else str(course_path),'sha256':source.digest(course_raw),'document_source':json.loads(course_raw).get('source')},'token_pattern':TOKEN.pattern,'scope_count':len(words),'counts':{'complete':sum(e['status']=='complete'for e in runtime.values()),'audio':len(audio_files),'vocabulary_total':sum(bool(w['vocabulary_units'])for w in words),'vocabulary_audio':sum(bool(e['vocabulary_units'])and bool(e['audio'])for e in entries.values())},'entries':entries,'audio_files':audio_files,'source_documents':documents}
+    course_object=json.loads(course_raw)
+    vocabulary_occurrences=[entry['word']for unit in course_object['units'].values()for entry in unit['vocabulary']]
+    audit={'source':'有道词典','generated_at_utc':source.utc_now(),'parser_version':PARSER_VERSION,'scope_version':words[0]['scope_version']if words else None,'selection_policy':POLICY,'course_source':{'file':str(course_path.relative_to(ROOT))if course_path.is_relative_to(ROOT)else str(course_path),'sha256':source.digest(course_raw),'document_source':json.loads(course_raw).get('source')},'token_pattern':TOKEN.pattern,'scope_count':len(words),'counts':{'complete':sum(e['status']=='complete'for e in runtime.values()),'audio':len(audio_files),'vocabulary_total':sum(bool(w['vocabulary_units'])for w in words),'vocabulary_audio':sum(bool(e['vocabulary_units'])and bool(e['audio'])for e in entries.values()),'vocabulary_occurrences':len(vocabulary_occurrences),'vocabulary_audio_occurrences':sum(bool(runtime.get(source.normalize(word),{}).get('audio'))for word in vocabulary_occurrences)},'entries':entries,'audio_files':audio_files,'source_documents':documents}
     source.write_json(STAGE/'final-runtime.json',runtime);source.write_json(STAGE/'final-audit.json',audit)
-    text='// Youdao word cards for document Units 1–32. UK source audio only; audit: data/youdao-course.json.\nwindow.WORD_DICTIONARY = '+json.dumps(runtime,ensure_ascii=False,separators=(',',':'))+';\n'
+    unit_ids=sorted({unit for word in words for unit in word['units']})
+    text=f'// Youdao word cards for document Units {min(unit_ids)}–{max(unit_ids)}. UK source audio only; audit: data/youdao-course.json.\nwindow.WORD_DICTIONARY = '+json.dumps(runtime,ensure_ascii=False,separators=(',',':'))+';\n'
     audit_target=ROOT/'data/youdao-course.json';audit_temporary=audit_target.with_suffix('.json.tmp')
     audit_temporary.write_text(json.dumps(audit,ensure_ascii=False,separators=(',',':'))+'\n');audit_temporary.replace(audit_target)
     runtime_target=ROOT/'dictionary.js';runtime_temporary=runtime_target.with_suffix('.js.tmp')
@@ -252,9 +273,10 @@ def build(words, course_path):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__,formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument('--course',type=Path,default=ROOT/'data/course-units1-32.json');parser.add_argument('--plan',action='store_true');parser.add_argument('--fetch',action='store_true');parser.add_argument('--build',action='store_true');parser.add_argument('--workers',type=int,default=3);parser.add_argument('--delay',type=float,default=.3);parser.add_argument('--vocabulary-only',action='store_true');parser.add_argument('--repair-partial',action='store_true',help='reparse incomplete staged entries from verified raw caches after an observed parser fix')
+    parser.add_argument('--input','--course',dest='course',type=Path,default=ROOT/'data/course-units1-120.json');parser.add_argument('--plan',action='store_true');parser.add_argument('--fetch',action='store_true');parser.add_argument('--build',action='store_true');parser.add_argument('--workers',type=int,default=3);parser.add_argument('--delay',type=float,default=.3);parser.add_argument('--vocabulary-only',action='store_true');parser.add_argument('--repair-partial',action='store_true',help='reparse incomplete staged entries from verified raw caches after an observed parser fix')
     args=parser.parse_args()
     if not 1<=args.workers<=3 or args.delay<.3:parser.error('1–3 workers; global delay minimum0.3 seconds')
+    if args.build and args.vocabulary_only:parser.error('--build requires full course scope; --vocabulary-only is for plan/fetch only')
     words=scope(json.loads(args.course.read_text()));words=[w for w in words if w['vocabulary_units']]if args.vocabulary_only else words
     plan={'scope':len(words),'vocabulary':sum(bool(w['vocabulary_units'])for w in words),'example_only':sum(not w['vocabulary_units']for w in words),'queries':[w['query']for w in words]}
     if args.plan:print(json.dumps(plan,ensure_ascii=False,indent=2));return

@@ -1,0 +1,138 @@
+{
+  "speechText": "The best collectors survived long cold winters or seasons without rain.",
+  "audio": "audio/course-examples/aeb1a7b8f10c85f8229449db.mp3",
+  "sha256": "4c9e0cec4efee547e1e5332e53cf5a3f21c05f15e59e0ac09e61cc619df9c358",
+  "duration": 5.304,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "best",
+      "start": 0.3,
+      "end": 0.619458
+    },
+    {
+      "text": "collectors",
+      "start": 0.633333,
+      "end": 1.286124
+    },
+    {
+      "text": "survived",
+      "start": 1.3,
+      "end": 1.925
+    },
+    {
+      "text": "long",
+      "start": 1.938875,
+      "end": 2.244416
+    },
+    {
+      "text": "cold",
+      "start": 2.258333,
+      "end": 2.563874
+    },
+    {
+      "text": "winters",
+      "start": 2.577791,
+      "end": 3.216666
+    },
+    {
+      "text": "or",
+      "start": 3.230541,
+      "end": 3.383332
+    },
+    {
+      "text": "seasons",
+      "start": 3.397208,
+      "end": 4.008333
+    },
+    {
+      "text": "without",
+      "start": 4.022208,
+      "end": 4.411083
+    },
+    {
+      "text": "rain",
+      "start": 4.425,
+      "end": 4.897208
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 3194580,
+      "text": "best"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6333330,
+      "duration": 6527910,
+      "text": "collectors"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13000000,
+      "duration": 6250000,
+      "text": "survived"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19388750,
+      "duration": 3055410,
+      "text": "long"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22583330,
+      "duration": 3055410,
+      "text": "cold"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25777910,
+      "duration": 6388750,
+      "text": "winters"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32305410,
+      "duration": 1527910,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33972080,
+      "duration": 6111250,
+      "text": "seasons"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40222080,
+      "duration": 3888750,
+      "text": "without"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44250000,
+      "duration": 4722080,
+      "text": "rain"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:30:19.062638+00:00"
+}

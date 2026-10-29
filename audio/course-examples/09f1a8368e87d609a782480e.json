@@ -1,0 +1,292 @@
+{
+  "speechText": "Today's drivers can learn at least one thing from ants to avoid causing a traffic jam: do not drive too close to the cars ahead.",
+  "audio": "audio/course-examples/09f1a8368e87d609a782480e.mp3",
+  "sha256": "7407f5056de93bd7f47052e21203fa3ebf1b4b19e9a601306c41f52e926d5bc0",
+  "duration": 8.52,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Today's",
+      "start": 0.101375,
+      "end": 0.601375
+    },
+    {
+      "text": "drivers",
+      "start": 0.615291,
+      "end": 1.170832
+    },
+    {
+      "text": "can",
+      "start": 1.184708,
+      "end": 1.379166
+    },
+    {
+      "text": "learn",
+      "start": 1.393041,
+      "end": 1.726374
+    },
+    {
+      "text": "at",
+      "start": 1.740291,
+      "end": 1.865291
+    },
+    {
+      "text": "least",
+      "start": 1.879166,
+      "end": 2.198624
+    },
+    {
+      "text": "one",
+      "start": 2.2125,
+      "end": 2.490291
+    },
+    {
+      "text": "thing",
+      "start": 2.504166,
+      "end": 2.768041
+    },
+    {
+      "text": "from",
+      "start": 2.781958,
+      "end": 2.976416
+    },
+    {
+      "text": "ants",
+      "start": 2.990291,
+      "end": 3.365291
+    },
+    {
+      "text": "to",
+      "start": 3.379166,
+      "end": 3.531957
+    },
+    {
+      "text": "avoid",
+      "start": 3.545833,
+      "end": 4.045833
+    },
+    {
+      "text": "causing",
+      "start": 4.059708,
+      "end": 4.462499
+    },
+    {
+      "text": "a",
+      "start": 4.476375,
+      "end": 4.5180409
+    },
+    {
+      "text": "traffic",
+      "start": 4.531958,
+      "end": 4.990291
+    },
+    {
+      "text": "jam",
+      "start": 5.004166,
+      "end": 5.365291
+    },
+    {
+      "text": "do",
+      "start": 5.726375,
+      "end": 5.851375
+    },
+    {
+      "text": "not",
+      "start": 5.865291,
+      "end": 6.073624
+    },
+    {
+      "text": "drive",
+      "start": 6.0875,
+      "end": 6.406958
+    },
+    {
+      "text": "too",
+      "start": 6.420833,
+      "end": 6.643041
+    },
+    {
+      "text": "close",
+      "start": 6.656958,
+      "end": 7.004166
+    },
+    {
+      "text": "to",
+      "start": 7.018041,
+      "end": 7.115249
+    },
+    {
+      "text": "the",
+      "start": 7.129166,
+      "end": 7.226374
+    },
+    {
+      "text": "cars",
+      "start": 7.240291,
+      "end": 7.587499
+    },
+    {
+      "text": "ahead",
+      "start": 7.601375,
+      "end": 8.101375
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 5000000,
+      "text": "Today's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6152910,
+      "duration": 5555410,
+      "text": "drivers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11847080,
+      "duration": 1944580,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13930410,
+      "duration": 3333330,
+      "text": "learn"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17402910,
+      "duration": 1250000,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18791660,
+      "duration": 3194580,
+      "text": "least"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22125000,
+      "duration": 2777910,
+      "text": "one"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25041660,
+      "duration": 2638750,
+      "text": "thing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27819580,
+      "duration": 1944580,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29902910,
+      "duration": 3750000,
+      "text": "ants"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33791660,
+      "duration": 1527910,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35458330,
+      "duration": 5000000,
+      "text": "avoid"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40597080,
+      "duration": 4027910,
+      "text": "causing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44763750,
+      "duration": 416659,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45319580,
+      "duration": 4583330,
+      "text": "traffic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50041660,
+      "duration": 3611250,
+      "text": "jam"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57263750,
+      "duration": 1250000,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58652910,
+      "duration": 2083330,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60875000,
+      "duration": 3194580,
+      "text": "drive"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64208330,
+      "duration": 2222080,
+      "text": "too"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66569580,
+      "duration": 3472080,
+      "text": "close"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70180410,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71291660,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 72402910,
+      "duration": 3472080,
+      "text": "cars"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 76013750,
+      "duration": 5000000,
+      "text": "ahead"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:33:41.107303+00:00"
+}

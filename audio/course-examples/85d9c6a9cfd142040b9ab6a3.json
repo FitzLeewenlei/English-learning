@@ -1,0 +1,391 @@
+{
+  "speechText": "It is precisely this kind of conversation that is of importance when we are seeking to develop our reading to meet the new demands being placed upon us by studying at a higher level.",
+  "audio": "audio/course-examples/85d9c6a9cfd142040b9ab6a3.mp3",
+  "sha256": "4d3df47fc6517c45a4ba4b0e58f41d9d727828518d9c882e42a7e8de8b8ce328",
+  "duration": 10.848,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "It",
+      "start": 0.101375,
+      "end": 0.309708
+    },
+    {
+      "text": "is",
+      "start": 0.323625,
+      "end": 0.4625
+    },
+    {
+      "text": "precisely",
+      "start": 0.476375,
+      "end": 1.156916
+    },
+    {
+      "text": "this",
+      "start": 1.170833,
+      "end": 1.365291
+    },
+    {
+      "text": "kind",
+      "start": 1.379166,
+      "end": 1.670832
+    },
+    {
+      "text": "of",
+      "start": 1.684708,
+      "end": 1.768041
+    },
+    {
+      "text": "conversation",
+      "start": 1.781958,
+      "end": 2.629166
+    },
+    {
+      "text": "that",
+      "start": 2.643041,
+      "end": 2.823582
+    },
+    {
+      "text": "is",
+      "start": 2.8375,
+      "end": 2.948625
+    },
+    {
+      "text": "of",
+      "start": 2.9625,
+      "end": 3.059708
+    },
+    {
+      "text": "importance",
+      "start": 3.073625,
+      "end": 3.893083
+    },
+    {
+      "text": "when",
+      "start": 3.906958,
+      "end": 4.115291
+    },
+    {
+      "text": "we",
+      "start": 4.129166,
+      "end": 4.254166
+    },
+    {
+      "text": "are",
+      "start": 4.268041,
+      "end": 4.323582
+    },
+    {
+      "text": "seeking",
+      "start": 4.3375,
+      "end": 4.795833
+    },
+    {
+      "text": "to",
+      "start": 4.809708,
+      "end": 4.906916
+    },
+    {
+      "text": "develop",
+      "start": 4.920833,
+      "end": 5.406958
+    },
+    {
+      "text": "our",
+      "start": 5.420833,
+      "end": 5.559708
+    },
+    {
+      "text": "reading",
+      "start": 5.573625,
+      "end": 6.031958
+    },
+    {
+      "text": "to",
+      "start": 6.045833,
+      "end": 6.184708
+    },
+    {
+      "text": "meet",
+      "start": 6.198625,
+      "end": 6.504166
+    },
+    {
+      "text": "the",
+      "start": 6.518041,
+      "end": 6.615249
+    },
+    {
+      "text": "new",
+      "start": 6.629166,
+      "end": 6.865291
+    },
+    {
+      "text": "demands",
+      "start": 6.879166,
+      "end": 7.434707
+    },
+    {
+      "text": "being",
+      "start": 7.448625,
+      "end": 7.68475
+    },
+    {
+      "text": "placed",
+      "start": 7.698625,
+      "end": 8.045833
+    },
+    {
+      "text": "upon",
+      "start": 8.059708,
+      "end": 8.351374
+    },
+    {
+      "text": "us",
+      "start": 8.365291,
+      "end": 8.573624
+    },
+    {
+      "text": "by",
+      "start": 8.5875,
+      "end": 8.740291
+    },
+    {
+      "text": "studying",
+      "start": 8.754166,
+      "end": 9.351374
+    },
+    {
+      "text": "at",
+      "start": 9.365291,
+      "end": 9.518082
+    },
+    {
+      "text": "a",
+      "start": 9.531958,
+      "end": 9.5736239
+    },
+    {
+      "text": "higher",
+      "start": 9.5875,
+      "end": 9.920833
+    },
+    {
+      "text": "level",
+      "start": 9.934708,
+      "end": 10.420833
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 2083330,
+      "text": "It"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3236250,
+      "duration": 1388750,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4763750,
+      "duration": 6805410,
+      "text": "precisely"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11708330,
+      "duration": 1944580,
+      "text": "this"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13791660,
+      "duration": 2916660,
+      "text": "kind"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16847080,
+      "duration": 833330,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17819580,
+      "duration": 8472080,
+      "text": "conversation"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26430410,
+      "duration": 1805410,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28375000,
+      "duration": 1111250,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29625000,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30736250,
+      "duration": 8194580,
+      "text": "importance"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39069580,
+      "duration": 2083330,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41291660,
+      "duration": 1250000,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42680410,
+      "duration": 555410,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43375000,
+      "duration": 4583330,
+      "text": "seeking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48097080,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49208330,
+      "duration": 4861250,
+      "text": "develop"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54208330,
+      "duration": 1388750,
+      "text": "our"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55736250,
+      "duration": 4583330,
+      "text": "reading"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60458330,
+      "duration": 1388750,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61986250,
+      "duration": 3055410,
+      "text": "meet"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 65180410,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66291660,
+      "duration": 2361250,
+      "text": "new"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68791660,
+      "duration": 5555410,
+      "text": "demands"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 74486250,
+      "duration": 2361250,
+      "text": "being"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 76986250,
+      "duration": 3472080,
+      "text": "placed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 80597080,
+      "duration": 2916660,
+      "text": "upon"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 83652910,
+      "duration": 2083330,
+      "text": "us"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 85875000,
+      "duration": 1527910,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 87541660,
+      "duration": 5972080,
+      "text": "studying"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 93652910,
+      "duration": 1527910,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 95319580,
+      "duration": 416659,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 95875000,
+      "duration": 3333330,
+      "text": "higher"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 99347080,
+      "duration": 4861250,
+      "text": "level"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:36:50.286933+00:00"
+}

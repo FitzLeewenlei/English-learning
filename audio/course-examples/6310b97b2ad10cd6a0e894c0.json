@@ -1,0 +1,127 @@
+{
+  "speechText": "Students with financial problems are troubled by high tuition fees.",
+  "audio": "audio/course-examples/6310b97b2ad10cd6a0e894c0.mp3",
+  "sha256": "0769de5eec71dfb1075b050eeb0e6fbd55c5efe70cc17da0dddcebe71ebe8540",
+  "duration": 5.016,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Students",
+      "start": 0.133333,
+      "end": 0.813874
+    },
+    {
+      "text": "with",
+      "start": 0.827791,
+      "end": 0.994457
+    },
+    {
+      "text": "financial",
+      "start": 1.008333,
+      "end": 1.619458
+    },
+    {
+      "text": "problems",
+      "start": 1.633333,
+      "end": 2.286124
+    },
+    {
+      "text": "are",
+      "start": 2.3,
+      "end": 2.411125
+    },
+    {
+      "text": "troubled",
+      "start": 2.425,
+      "end": 2.994458
+    },
+    {
+      "text": "by",
+      "start": 3.008333,
+      "end": 3.161124
+    },
+    {
+      "text": "high",
+      "start": 3.175,
+      "end": 3.466666
+    },
+    {
+      "text": "tuition",
+      "start": 3.480541,
+      "end": 4.036082
+    },
+    {
+      "text": "fees",
+      "start": 4.05,
+      "end": 4.605541
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 6805410,
+      "text": "Students"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8277910,
+      "duration": 1666660,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10083330,
+      "duration": 6111250,
+      "text": "financial"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16333330,
+      "duration": 6527910,
+      "text": "problems"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23000000,
+      "duration": 1111250,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24250000,
+      "duration": 5694580,
+      "text": "troubled"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30083330,
+      "duration": 1527910,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31750000,
+      "duration": 2916660,
+      "text": "high"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34805410,
+      "duration": 5555410,
+      "text": "tuition"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40500000,
+      "duration": 5555410,
+      "text": "fees"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:36:37.169251+00:00"
+}

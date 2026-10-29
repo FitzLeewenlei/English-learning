@@ -1,0 +1,171 @@
+{
+  "speechText": "Also, employers want to make sure that candidates provide new viewpoints for the company.",
+  "audio": "audio/course-examples/514c6d898c1042a57fa87e34.mp3",
+  "sha256": "c660e3dff642b8c6408da43577a536000194e1351d9c6c635d8a93e4854b2eaa",
+  "duration": 6.0,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Also",
+      "start": 0.119458,
+      "end": 0.702791
+    },
+    {
+      "text": "employers",
+      "start": 0.966666,
+      "end": 1.577791
+    },
+    {
+      "text": "want",
+      "start": 1.591666,
+      "end": 1.813874
+    },
+    {
+      "text": "to",
+      "start": 1.827791,
+      "end": 1.911124
+    },
+    {
+      "text": "make",
+      "start": 1.925,
+      "end": 2.147208
+    },
+    {
+      "text": "sure",
+      "start": 2.161125,
+      "end": 2.480583
+    },
+    {
+      "text": "that",
+      "start": 2.494458,
+      "end": 2.688916
+    },
+    {
+      "text": "candidates",
+      "start": 2.702791,
+      "end": 3.355582
+    },
+    {
+      "text": "provide",
+      "start": 3.369458,
+      "end": 3.869458
+    },
+    {
+      "text": "new",
+      "start": 3.883333,
+      "end": 4.133333
+    },
+    {
+      "text": "viewpoints",
+      "start": 4.147208,
+      "end": 4.772208
+    },
+    {
+      "text": "for",
+      "start": 4.786125,
+      "end": 4.883333
+    },
+    {
+      "text": "the",
+      "start": 4.897208,
+      "end": 4.994416
+    },
+    {
+      "text": "company",
+      "start": 5.008333,
+      "end": 5.591666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 5833330,
+      "text": "Also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9666660,
+      "duration": 6111250,
+      "text": "employers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15916660,
+      "duration": 2222080,
+      "text": "want"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18277910,
+      "duration": 833330,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 2222080,
+      "text": "make"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21611250,
+      "duration": 3194580,
+      "text": "sure"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24944580,
+      "duration": 1944580,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27027910,
+      "duration": 6527910,
+      "text": "candidates"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33694580,
+      "duration": 5000000,
+      "text": "provide"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38833330,
+      "duration": 2500000,
+      "text": "new"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41472080,
+      "duration": 6250000,
+      "text": "viewpoints"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47861250,
+      "duration": 972080,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48972080,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50083330,
+      "duration": 5833330,
+      "text": "company"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:49:19.509488+00:00"
+}

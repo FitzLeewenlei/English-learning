@@ -1,0 +1,149 @@
+{
+  "speechText": "Cooper said there are still ways for the mobile phone to change.",
+  "audio": "audio/course-examples/410f47886c815e2c43ec2951.mp3",
+  "sha256": "8ab31203e4e9830a7079ec9e7b22365984620a874fd058125b9a49149a4fd792",
+  "duration": 4.296,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Cooper",
+      "start": 0.101375,
+      "end": 0.518041
+    },
+    {
+      "text": "said",
+      "start": 0.531958,
+      "end": 0.920833
+    },
+    {
+      "text": "there",
+      "start": 0.934708,
+      "end": 1.045833
+    },
+    {
+      "text": "are",
+      "start": 1.059708,
+      "end": 1.170833
+    },
+    {
+      "text": "still",
+      "start": 1.184708,
+      "end": 1.601374
+    },
+    {
+      "text": "ways",
+      "start": 1.615291,
+      "end": 2.004166
+    },
+    {
+      "text": "for",
+      "start": 2.018041,
+      "end": 2.129166
+    },
+    {
+      "text": "the",
+      "start": 2.143041,
+      "end": 2.240249
+    },
+    {
+      "text": "mobile",
+      "start": 2.254166,
+      "end": 2.726374
+    },
+    {
+      "text": "phone",
+      "start": 2.740291,
+      "end": 3.073624
+    },
+    {
+      "text": "to",
+      "start": 3.0875,
+      "end": 3.2125
+    },
+    {
+      "text": "change",
+      "start": 3.226375,
+      "end": 3.879166
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 4166660,
+      "text": "Cooper"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5319580,
+      "duration": 3888750,
+      "text": "said"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9347080,
+      "duration": 1111250,
+      "text": "there"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10597080,
+      "duration": 1111250,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11847080,
+      "duration": 4166660,
+      "text": "still"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16152910,
+      "duration": 3888750,
+      "text": "ways"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20180410,
+      "duration": 1111250,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21430410,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22541660,
+      "duration": 4722080,
+      "text": "mobile"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27402910,
+      "duration": 3333330,
+      "text": "phone"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30875000,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32263750,
+      "duration": 6527910,
+      "text": "change"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:52:07.585208+00:00"
+}

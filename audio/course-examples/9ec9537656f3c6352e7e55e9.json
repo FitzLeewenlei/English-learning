@@ -1,0 +1,182 @@
+{
+  "speechText": "Furthermore, job satisfaction would seem to be causing overall happiness, not the other way around.",
+  "audio": "audio/course-examples/9ec9537656f3c6352e7e55e9.mp3",
+  "sha256": "6480a516fe4a2345f849da63560bf0b42f9ad0ef330bf7149d2c8b5e5aeadc7c",
+  "duration": 6.936,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Furthermore",
+      "start": 0.133333,
+      "end": 0.924999
+    },
+    {
+      "text": "job",
+      "start": 1.216666,
+      "end": 1.452791
+    },
+    {
+      "text": "satisfaction",
+      "start": 1.466666,
+      "end": 2.355541
+    },
+    {
+      "text": "would",
+      "start": 2.369458,
+      "end": 2.536124
+    },
+    {
+      "text": "seem",
+      "start": 2.55,
+      "end": 2.841666
+    },
+    {
+      "text": "to",
+      "start": 2.855541,
+      "end": 2.952749
+    },
+    {
+      "text": "be",
+      "start": 2.966666,
+      "end": 3.105541
+    },
+    {
+      "text": "causing",
+      "start": 3.119458,
+      "end": 3.647249
+    },
+    {
+      "text": "overall",
+      "start": 3.661125,
+      "end": 4.119458
+    },
+    {
+      "text": "happiness",
+      "start": 4.133333,
+      "end": 4.813874
+    },
+    {
+      "text": "not",
+      "start": 5.105541,
+      "end": 5.369416
+    },
+    {
+      "text": "the",
+      "start": 5.383333,
+      "end": 5.494458
+    },
+    {
+      "text": "other",
+      "start": 5.508333,
+      "end": 5.688874
+    },
+    {
+      "text": "way",
+      "start": 5.702791,
+      "end": 5.897249
+    },
+    {
+      "text": "around",
+      "start": 5.911125,
+      "end": 6.52225
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 7916660,
+      "text": "Furthermore"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12166660,
+      "duration": 2361250,
+      "text": "job"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14666660,
+      "duration": 8888750,
+      "text": "satisfaction"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23694580,
+      "duration": 1666660,
+      "text": "would"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25500000,
+      "duration": 2916660,
+      "text": "seem"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28555410,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29666660,
+      "duration": 1388750,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31194580,
+      "duration": 5277910,
+      "text": "causing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36611250,
+      "duration": 4583330,
+      "text": "overall"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41333330,
+      "duration": 6805410,
+      "text": "happiness"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51055410,
+      "duration": 2638750,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53833330,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55083330,
+      "duration": 1805410,
+      "text": "other"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57027910,
+      "duration": 1944580,
+      "text": "way"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59111250,
+      "duration": 6111250,
+      "text": "around"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:40:50.564809+00:00"
+}

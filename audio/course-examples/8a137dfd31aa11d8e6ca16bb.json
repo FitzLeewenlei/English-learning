@@ -1,0 +1,226 @@
+{
+  "speechText": "For over a million years, people have thought of the sea as a convenient place to throw their garbage.",
+  "audio": "audio/course-examples/8a137dfd31aa11d8e6ca16bb.mp3",
+  "sha256": "13f9a448fa49ee79368865500261ad8a17aaf2b01e4a4185e90a9bab7fa62335",
+  "duration": 6.6,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "For",
+      "start": 0.133333,
+      "end": 0.341666
+    },
+    {
+      "text": "over",
+      "start": 0.355541,
+      "end": 0.674999
+    },
+    {
+      "text": "a",
+      "start": 0.688875,
+      "end": 0.744416
+    },
+    {
+      "text": "million",
+      "start": 0.758333,
+      "end": 1.188874
+    },
+    {
+      "text": "years",
+      "start": 1.202791,
+      "end": 1.702791
+    },
+    {
+      "text": "people",
+      "start": 2.008333,
+      "end": 2.341666
+    },
+    {
+      "text": "have",
+      "start": 2.355541,
+      "end": 2.536082
+    },
+    {
+      "text": "thought",
+      "start": 2.55,
+      "end": 2.841666
+    },
+    {
+      "text": "of",
+      "start": 2.855541,
+      "end": 2.966666
+    },
+    {
+      "text": "the",
+      "start": 2.980541,
+      "end": 3.091666
+    },
+    {
+      "text": "sea",
+      "start": 3.105541,
+      "end": 3.508332
+    },
+    {
+      "text": "as",
+      "start": 3.522208,
+      "end": 3.661083
+    },
+    {
+      "text": "a",
+      "start": 3.675,
+      "end": 3.730541
+    },
+    {
+      "text": "convenient",
+      "start": 3.744458,
+      "end": 4.438916
+    },
+    {
+      "text": "place",
+      "start": 4.452791,
+      "end": 4.841666
+    },
+    {
+      "text": "to",
+      "start": 4.855541,
+      "end": 4.980541
+    },
+    {
+      "text": "throw",
+      "start": 4.994458,
+      "end": 5.272249
+    },
+    {
+      "text": "their",
+      "start": 5.286125,
+      "end": 5.452791
+    },
+    {
+      "text": "garbage",
+      "start": 5.466666,
+      "end": 6.174999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2083330,
+      "text": "For"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 3194580,
+      "text": "over"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6888750,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7583330,
+      "duration": 4305410,
+      "text": "million"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12027910,
+      "duration": 5000000,
+      "text": "years"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20083330,
+      "duration": 3333330,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23555410,
+      "duration": 1805410,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25500000,
+      "duration": 2916660,
+      "text": "thought"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28555410,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29805410,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31055410,
+      "duration": 4027910,
+      "text": "sea"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35222080,
+      "duration": 1388750,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36750000,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37444580,
+      "duration": 6944580,
+      "text": "convenient"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44527910,
+      "duration": 3888750,
+      "text": "place"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48555410,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49944580,
+      "duration": 2777910,
+      "text": "throw"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52861250,
+      "duration": 1666660,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54666660,
+      "duration": 7083330,
+      "text": "garbage"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:31:02.679097+00:00"
+}

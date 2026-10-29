@@ -1,0 +1,104 @@
+{
+  "speechText": "He once had a 43-game winning streak.",
+  "audio": "audio/course-examples/58f7844399218a6d939b0366.mp3",
+  "sha256": "34b5c33cadbc4be4d821e6dc405e6483e321166e0eb1ebbd08ba96a0ba6825d5",
+  "duration": 3.48,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [
+    "43",
+    "game"
+  ],
+  "words": [
+    {
+      "text": "He",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "once",
+      "start": 0.3,
+      "end": 0.647208
+    },
+    {
+      "text": "had",
+      "start": 0.661125,
+      "end": 0.883333
+    },
+    {
+      "text": "a",
+      "start": 0.897208,
+      "end": 0.966666
+    },
+    {
+      "text": "43",
+      "start": 0.980541,
+      "end": 1.337027,
+      "estimatedSplit": true
+    },
+    {
+      "text": "game",
+      "start": 1.337027,
+      "end": 2.0499989,
+      "estimatedSplit": true
+    },
+    {
+      "text": "winning",
+      "start": 2.063875,
+      "end": 2.425
+    },
+    {
+      "text": "streak",
+      "start": 2.438875,
+      "end": 3.063875
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "He"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 3472080,
+      "text": "once"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6611250,
+      "duration": 2222080,
+      "text": "had"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9805410,
+      "duration": 10694579,
+      "text": "43-game"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20638750,
+      "duration": 3611250,
+      "text": "winning"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24388750,
+      "duration": 6250000,
+      "text": "streak"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:54:01.514584+00:00"
+}

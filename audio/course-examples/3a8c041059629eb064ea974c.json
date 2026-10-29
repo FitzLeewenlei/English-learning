@@ -1,0 +1,149 @@
+{
+  "speechText": "When and where the new hospital will be built remains a mystery.",
+  "audio": "audio/course-examples/3a8c041059629eb064ea974c.mp3",
+  "sha256": "ee17a16e9f400ec7bc37e8b4d84b6c84a375b58072853fd539ce637cd702004e",
+  "duration": 4.32,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "When",
+      "start": 0.147208,
+      "end": 0.411083
+    },
+    {
+      "text": "and",
+      "start": 0.425,
+      "end": 0.577791
+    },
+    {
+      "text": "where",
+      "start": 0.591666,
+      "end": 0.841666
+    },
+    {
+      "text": "the",
+      "start": 0.855541,
+      "end": 0.980541
+    },
+    {
+      "text": "new",
+      "start": 0.994458,
+      "end": 1.258333
+    },
+    {
+      "text": "hospital",
+      "start": 1.272208,
+      "end": 1.911083
+    },
+    {
+      "text": "will",
+      "start": 1.925,
+      "end": 2.077791
+    },
+    {
+      "text": "be",
+      "start": 2.091666,
+      "end": 2.216666
+    },
+    {
+      "text": "built",
+      "start": 2.230541,
+      "end": 2.661082
+    },
+    {
+      "text": "remains",
+      "start": 2.675,
+      "end": 3.188875
+    },
+    {
+      "text": "a",
+      "start": 3.202791,
+      "end": 3.258332
+    },
+    {
+      "text": "mystery",
+      "start": 3.272208,
+      "end": 3.911083
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2638750,
+      "text": "When"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4250000,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5916660,
+      "duration": 2500000,
+      "text": "where"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8555410,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9944580,
+      "duration": 2638750,
+      "text": "new"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 6388750,
+      "text": "hospital"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 1527910,
+      "text": "will"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20916660,
+      "duration": 1250000,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22305410,
+      "duration": 4305410,
+      "text": "built"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26750000,
+      "duration": 5138750,
+      "text": "remains"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32027910,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32722080,
+      "duration": 6388750,
+      "text": "mystery"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:44:44.752532+00:00"
+}

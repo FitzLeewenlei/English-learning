@@ -1,0 +1,105 @@
+{
+  "speechText": "There are patterns in how people make decisions.",
+  "audio": "audio/course-examples/0a88ac06af53356e87f975bb.mp3",
+  "sha256": "2d6314bf4f60e19b3834261b300e85b92888670e331cb4f6cba86abee2407a18",
+  "duration": 3.528,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "There",
+      "start": 0.133333,
+      "end": 0.286124
+    },
+    {
+      "text": "are",
+      "start": 0.3,
+      "end": 0.438875
+    },
+    {
+      "text": "patterns",
+      "start": 0.452791,
+      "end": 1.161124
+    },
+    {
+      "text": "in",
+      "start": 1.175,
+      "end": 1.327791
+    },
+    {
+      "text": "how",
+      "start": 1.341666,
+      "end": 1.549999
+    },
+    {
+      "text": "people",
+      "start": 1.563875,
+      "end": 1.980541
+    },
+    {
+      "text": "make",
+      "start": 1.994458,
+      "end": 2.230583
+    },
+    {
+      "text": "decisions",
+      "start": 2.244458,
+      "end": 3.105583
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1527910,
+      "text": "There"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1388750,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4527910,
+      "duration": 7083330,
+      "text": "patterns"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11750000,
+      "duration": 1527910,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13416660,
+      "duration": 2083330,
+      "text": "how"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 4166660,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19944580,
+      "duration": 2361250,
+      "text": "make"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22444580,
+      "duration": 8611250,
+      "text": "decisions"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:41:19.300029+00:00"
+}

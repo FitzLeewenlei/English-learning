@@ -1,0 +1,182 @@
+{
+  "speechText": "Preventive measures like washing your hands often can significantly lower your odds of getting sick.",
+  "audio": "audio/course-examples/c287bab2863b807035557fdc.mp3",
+  "sha256": "12a045e7a58a4a5ca6cd8afa2fa58fba3c75e32c1d7b032aa8ede6d8b4506a1b",
+  "duration": 6.552,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Preventive",
+      "start": 0.101375,
+      "end": 0.754166
+    },
+    {
+      "text": "measures",
+      "start": 0.768041,
+      "end": 1.281916
+    },
+    {
+      "text": "like",
+      "start": 1.295833,
+      "end": 1.531958
+    },
+    {
+      "text": "washing",
+      "start": 1.545833,
+      "end": 1.934708
+    },
+    {
+      "text": "your",
+      "start": 1.948625,
+      "end": 2.05975
+    },
+    {
+      "text": "hands",
+      "start": 2.073625,
+      "end": 2.68475
+    },
+    {
+      "text": "often",
+      "start": 2.698625,
+      "end": 3.073625
+    },
+    {
+      "text": "can",
+      "start": 3.0875,
+      "end": 3.295833
+    },
+    {
+      "text": "significantly",
+      "start": 3.309708,
+      "end": 4.184708
+    },
+    {
+      "text": "lower",
+      "start": 4.198625,
+      "end": 4.55975
+    },
+    {
+      "text": "your",
+      "start": 4.573625,
+      "end": 4.795833
+    },
+    {
+      "text": "odds",
+      "start": 4.809708,
+      "end": 5.115249
+    },
+    {
+      "text": "of",
+      "start": 5.129166,
+      "end": 5.226374
+    },
+    {
+      "text": "getting",
+      "start": 5.240291,
+      "end": 5.587499
+    },
+    {
+      "text": "sick",
+      "start": 5.601375,
+      "end": 6.143041
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 6527910,
+      "text": "Preventive"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7680410,
+      "duration": 5138750,
+      "text": "measures"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12958330,
+      "duration": 2361250,
+      "text": "like"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15458330,
+      "duration": 3888750,
+      "text": "washing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19486250,
+      "duration": 1111250,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20736250,
+      "duration": 6111250,
+      "text": "hands"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26986250,
+      "duration": 3750000,
+      "text": "often"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30875000,
+      "duration": 2083330,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33097080,
+      "duration": 8750000,
+      "text": "significantly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41986250,
+      "duration": 3611250,
+      "text": "lower"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45736250,
+      "duration": 2222080,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48097080,
+      "duration": 3055410,
+      "text": "odds"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51291660,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52402910,
+      "duration": 3472080,
+      "text": "getting"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56013750,
+      "duration": 5416660,
+      "text": "sick"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:32:18.720698+00:00"
+}

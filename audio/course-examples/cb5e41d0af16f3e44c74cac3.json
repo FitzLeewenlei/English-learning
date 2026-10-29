@@ -1,0 +1,61 @@
+{
+  "speechText": "Something important has happened.",
+  "audio": "audio/course-examples/cb5e41d0af16f3e44c74cac3.mp3",
+  "sha256": "8644c6ce4555b42036cbef6e3899345ff20574e7433b11b4ebc6cb5a7d8a1664",
+  "duration": 2.664,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Something",
+      "start": 0.119458,
+      "end": 0.619458
+    },
+    {
+      "text": "important",
+      "start": 0.633333,
+      "end": 1.341666
+    },
+    {
+      "text": "has",
+      "start": 1.355541,
+      "end": 1.536082
+    },
+    {
+      "text": "happened",
+      "start": 1.55,
+      "end": 2.244458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 5000000,
+      "text": "Something"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6333330,
+      "duration": 7083330,
+      "text": "important"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13555410,
+      "duration": 1805410,
+      "text": "has"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15500000,
+      "duration": 6944580,
+      "text": "happened"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:47:36.329751+00:00"
+}

@@ -1,0 +1,138 @@
+{
+  "speechText": "The hiring process may be different from one company to another.",
+  "audio": "audio/course-examples/3ed47cdecb79b9aee5603d27.mp3",
+  "sha256": "3b548832e7905d28a71b79305f3a2b656520423f4cc9859f88520e1d28c4b708",
+  "duration": 4.584,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.244416
+    },
+    {
+      "text": "hiring",
+      "start": 0.258333,
+      "end": 0.786124
+    },
+    {
+      "text": "process",
+      "start": 0.8,
+      "end": 1.466666
+    },
+    {
+      "text": "may",
+      "start": 1.480541,
+      "end": 1.688874
+    },
+    {
+      "text": "be",
+      "start": 1.702791,
+      "end": 1.855582
+    },
+    {
+      "text": "different",
+      "start": 1.869458,
+      "end": 2.411124
+    },
+    {
+      "text": "from",
+      "start": 2.425,
+      "end": 2.661125
+    },
+    {
+      "text": "one",
+      "start": 2.675,
+      "end": 2.925
+    },
+    {
+      "text": "company",
+      "start": 2.938875,
+      "end": 3.411083
+    },
+    {
+      "text": "to",
+      "start": 3.425,
+      "end": 3.605541
+    },
+    {
+      "text": "another",
+      "start": 3.619458,
+      "end": 4.161124
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 972080,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2583330,
+      "duration": 5277910,
+      "text": "hiring"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8000000,
+      "duration": 6666660,
+      "text": "process"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14805410,
+      "duration": 2083330,
+      "text": "may"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17027910,
+      "duration": 1527910,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18694580,
+      "duration": 5416660,
+      "text": "different"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24250000,
+      "duration": 2361250,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26750000,
+      "duration": 2500000,
+      "text": "one"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29388750,
+      "duration": 4722080,
+      "text": "company"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34250000,
+      "duration": 1805410,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36194580,
+      "duration": 5416660,
+      "text": "another"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:46:40.299584+00:00"
+}

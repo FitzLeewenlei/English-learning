@@ -1,0 +1,182 @@
+{
+  "speechText": "Dr. Shelby Harris said patterns and routines are more important than the magic eight-hour number.",
+  "audio": "audio/course-examples/0934e5e3a448f9b7bb60f9f3.mp3",
+  "sha256": "eac5cb3975e7cbe92c19677b9b9207b41fe3c6a0ee01547fabfb4783d7a4afb0",
+  "duration": 6.384,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Dr",
+      "start": 0.119458,
+      "end": 0.508333
+    },
+    {
+      "text": "Shelby",
+      "start": 0.522208,
+      "end": 0.924999
+    },
+    {
+      "text": "Harris",
+      "start": 0.938875,
+      "end": 1.397208
+    },
+    {
+      "text": "said",
+      "start": 1.411125,
+      "end": 1.702791
+    },
+    {
+      "text": "patterns",
+      "start": 1.716666,
+      "end": 2.313874
+    },
+    {
+      "text": "and",
+      "start": 2.327791,
+      "end": 2.452791
+    },
+    {
+      "text": "routines",
+      "start": 2.466666,
+      "end": 3.202791
+    },
+    {
+      "text": "are",
+      "start": 3.216666,
+      "end": 3.341666
+    },
+    {
+      "text": "more",
+      "start": 3.355541,
+      "end": 3.591666
+    },
+    {
+      "text": "important",
+      "start": 3.605541,
+      "end": 4.369416
+    },
+    {
+      "text": "than",
+      "start": 4.383333,
+      "end": 4.522208
+    },
+    {
+      "text": "the",
+      "start": 4.536125,
+      "end": 4.619458
+    },
+    {
+      "text": "magic",
+      "start": 4.633333,
+      "end": 5.049999
+    },
+    {
+      "text": "eight-hour",
+      "start": 5.063875,
+      "end": 5.466666
+    },
+    {
+      "text": "number",
+      "start": 5.480541,
+      "end": 5.980541
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 3888750,
+      "text": "Dr."
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5222080,
+      "duration": 4027910,
+      "text": "Shelby"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9388750,
+      "duration": 4583330,
+      "text": "Harris"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14111250,
+      "duration": 2916660,
+      "text": "said"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17166660,
+      "duration": 5972080,
+      "text": "patterns"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23277910,
+      "duration": 1250000,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24666660,
+      "duration": 7361250,
+      "text": "routines"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32166660,
+      "duration": 1250000,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33555410,
+      "duration": 2361250,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36055410,
+      "duration": 7638750,
+      "text": "important"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43833330,
+      "duration": 1388750,
+      "text": "than"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45361250,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46333330,
+      "duration": 4166660,
+      "text": "magic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50638750,
+      "duration": 4027910,
+      "text": "eight-hour"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54805410,
+      "duration": 5000000,
+      "text": "number"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:43:02.496365+00:00"
+}

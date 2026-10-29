@@ -1,0 +1,193 @@
+{
+  "speechText": "At 15 vehicles per mile per lane, one driver tapping the brakes can cause traffic jams.",
+  "audio": "audio/course-examples/6a561278fd4a21f2daee7898.mp3",
+  "sha256": "2e02ddf05750d35964f08611dd75bf4e294ded35c8df57e1df9823e827f4db9c",
+  "duration": 6.48,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "At",
+      "start": 0.147208,
+      "end": 0.327749
+    },
+    {
+      "text": "15",
+      "start": 0.341666,
+      "end": 0.869457
+    },
+    {
+      "text": "vehicles",
+      "start": 0.883333,
+      "end": 1.424999
+    },
+    {
+      "text": "per",
+      "start": 1.438875,
+      "end": 1.57775
+    },
+    {
+      "text": "mile",
+      "start": 1.591666,
+      "end": 1.924999
+    },
+    {
+      "text": "per",
+      "start": 1.938875,
+      "end": 2.07775
+    },
+    {
+      "text": "lane",
+      "start": 2.091666,
+      "end": 2.522207
+    },
+    {
+      "text": "one",
+      "start": 2.897208,
+      "end": 3.133333
+    },
+    {
+      "text": "driver",
+      "start": 3.147208,
+      "end": 3.549999
+    },
+    {
+      "text": "tapping",
+      "start": 3.563875,
+      "end": 3.95275
+    },
+    {
+      "text": "the",
+      "start": 3.966666,
+      "end": 4.077791
+    },
+    {
+      "text": "brakes",
+      "start": 4.091666,
+      "end": 4.508332
+    },
+    {
+      "text": "can",
+      "start": 4.522208,
+      "end": 4.716666
+    },
+    {
+      "text": "cause",
+      "start": 4.730541,
+      "end": 5.049999
+    },
+    {
+      "text": "traffic",
+      "start": 5.063875,
+      "end": 5.508333
+    },
+    {
+      "text": "jams",
+      "start": 5.522208,
+      "end": 6.077749
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1805410,
+      "text": "At"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 5277910,
+      "text": "15"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8833330,
+      "duration": 5416660,
+      "text": "vehicles"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14388750,
+      "duration": 1388750,
+      "text": "per"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15916660,
+      "duration": 3333330,
+      "text": "mile"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19388750,
+      "duration": 1388750,
+      "text": "per"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20916660,
+      "duration": 4305410,
+      "text": "lane"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28972080,
+      "duration": 2361250,
+      "text": "one"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31472080,
+      "duration": 4027910,
+      "text": "driver"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35638750,
+      "duration": 3888750,
+      "text": "tapping"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39666660,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40916660,
+      "duration": 4166660,
+      "text": "brakes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45222080,
+      "duration": 1944580,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47305410,
+      "duration": 3194580,
+      "text": "cause"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50638750,
+      "duration": 4444580,
+      "text": "traffic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55222080,
+      "duration": 5555410,
+      "text": "jams"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:36:31.701750+00:00"
+}

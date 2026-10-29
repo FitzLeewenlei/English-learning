@@ -1,0 +1,215 @@
+{
+  "speechText": "That is because the equator receives the most direct sunlight and causes the air to warm and rise.",
+  "audio": "audio/course-examples/f52d185a296bc88aa02a30a2.mp3",
+  "sha256": "4ea82036509071763d74284e7a785b668cc8d994ba54fdb629cdd0186c7ca110",
+  "duration": 6.48,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "That",
+      "start": 0.147208,
+      "end": 0.341666
+    },
+    {
+      "text": "is",
+      "start": 0.355541,
+      "end": 0.494416
+    },
+    {
+      "text": "because",
+      "start": 0.508333,
+      "end": 0.897208
+    },
+    {
+      "text": "the",
+      "start": 0.911125,
+      "end": 1.02225
+    },
+    {
+      "text": "equator",
+      "start": 1.036125,
+      "end": 1.591666
+    },
+    {
+      "text": "receives",
+      "start": 1.605541,
+      "end": 2.119416
+    },
+    {
+      "text": "the",
+      "start": 2.133333,
+      "end": 2.230541
+    },
+    {
+      "text": "most",
+      "start": 2.244458,
+      "end": 2.549999
+    },
+    {
+      "text": "direct",
+      "start": 2.563875,
+      "end": 2.994416
+    },
+    {
+      "text": "sunlight",
+      "start": 3.008333,
+      "end": 3.688874
+    },
+    {
+      "text": "and",
+      "start": 3.702791,
+      "end": 3.841666
+    },
+    {
+      "text": "causes",
+      "start": 3.855541,
+      "end": 4.286082
+    },
+    {
+      "text": "the",
+      "start": 4.3,
+      "end": 4.480541
+    },
+    {
+      "text": "air",
+      "start": 4.494458,
+      "end": 4.730583
+    },
+    {
+      "text": "to",
+      "start": 4.744458,
+      "end": 4.897249
+    },
+    {
+      "text": "warm",
+      "start": 4.911125,
+      "end": 5.313916
+    },
+    {
+      "text": "and",
+      "start": 5.327791,
+      "end": 5.438916
+    },
+    {
+      "text": "rise",
+      "start": 5.452791,
+      "end": 6.077791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1944580,
+      "text": "That"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 1388750,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5083330,
+      "duration": 3888750,
+      "text": "because"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9111250,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10361250,
+      "duration": 5555410,
+      "text": "equator"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16055410,
+      "duration": 5138750,
+      "text": "receives"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21333330,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22444580,
+      "duration": 3055410,
+      "text": "most"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25638750,
+      "duration": 4305410,
+      "text": "direct"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30083330,
+      "duration": 6805410,
+      "text": "sunlight"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37027910,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38555410,
+      "duration": 4305410,
+      "text": "causes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43000000,
+      "duration": 1805410,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44944580,
+      "duration": 2361250,
+      "text": "air"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47444580,
+      "duration": 1527910,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49111250,
+      "duration": 4027910,
+      "text": "warm"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53277910,
+      "duration": 1111250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54527910,
+      "duration": 6250000,
+      "text": "rise"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:36:28.281548+00:00"
+}

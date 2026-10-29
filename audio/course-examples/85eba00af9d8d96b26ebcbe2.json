@@ -1,0 +1,204 @@
+{
+  "speechText": "The editor asked his journalists not to leave out any details in their reports of the accident.",
+  "audio": "audio/course-examples/85eba00af9d8d96b26ebcbe2.mp3",
+  "sha256": "c541e41b23eccaa2f1b349a71d4d458f807a601605249161d8b904f4b0a83596",
+  "duration": 6.384,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.133333,
+      "end": 0.313874
+    },
+    {
+      "text": "editor",
+      "start": 0.327791,
+      "end": 0.841666
+    },
+    {
+      "text": "asked",
+      "start": 0.855541,
+      "end": 1.230541
+    },
+    {
+      "text": "his",
+      "start": 1.244458,
+      "end": 1.411124
+    },
+    {
+      "text": "journalists",
+      "start": 1.425,
+      "end": 2.244458
+    },
+    {
+      "text": "not",
+      "start": 2.258333,
+      "end": 2.536124
+    },
+    {
+      "text": "to",
+      "start": 2.55,
+      "end": 2.647208
+    },
+    {
+      "text": "leave",
+      "start": 2.661125,
+      "end": 2.911125
+    },
+    {
+      "text": "out",
+      "start": 2.925,
+      "end": 3.175
+    },
+    {
+      "text": "any",
+      "start": 3.188875,
+      "end": 3.397208
+    },
+    {
+      "text": "details",
+      "start": 3.411125,
+      "end": 4.077791
+    },
+    {
+      "text": "in",
+      "start": 4.091666,
+      "end": 4.244457
+    },
+    {
+      "text": "their",
+      "start": 4.258333,
+      "end": 4.355541
+    },
+    {
+      "text": "reports",
+      "start": 4.369458,
+      "end": 4.924999
+    },
+    {
+      "text": "of",
+      "start": 4.938875,
+      "end": 5.036083
+    },
+    {
+      "text": "the",
+      "start": 5.05,
+      "end": 5.175
+    },
+    {
+      "text": "accident",
+      "start": 5.188875,
+      "end": 5.966666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1805410,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3277910,
+      "duration": 5138750,
+      "text": "editor"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8555410,
+      "duration": 3750000,
+      "text": "asked"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12444580,
+      "duration": 1666660,
+      "text": "his"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14250000,
+      "duration": 8194580,
+      "text": "journalists"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22583330,
+      "duration": 2777910,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25500000,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26611250,
+      "duration": 2500000,
+      "text": "leave"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29250000,
+      "duration": 2500000,
+      "text": "out"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31888750,
+      "duration": 2083330,
+      "text": "any"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34111250,
+      "duration": 6666660,
+      "text": "details"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40916660,
+      "duration": 1527910,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42583330,
+      "duration": 972080,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43694580,
+      "duration": 5555410,
+      "text": "reports"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49388750,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50500000,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51888750,
+      "duration": 7777910,
+      "text": "accident"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:38:35.347578+00:00"
+}

@@ -1,0 +1,116 @@
+{
+  "speechText": "He was not able to produce a single book.",
+  "audio": "audio/course-examples/dcc31e4e16851ec9026ef821.mp3",
+  "sha256": "92160fe66f8badcfb0c15b417220ab185f43ca9e9653a8022cb6f7e53df94b40",
+  "duration": 3.288,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "He",
+      "start": 0.133333,
+      "end": 0.272208
+    },
+    {
+      "text": "was",
+      "start": 0.286125,
+      "end": 0.466666
+    },
+    {
+      "text": "not",
+      "start": 0.480541,
+      "end": 0.758332
+    },
+    {
+      "text": "able",
+      "start": 0.772208,
+      "end": 1.091666
+    },
+    {
+      "text": "to",
+      "start": 1.105541,
+      "end": 1.216666
+    },
+    {
+      "text": "produce",
+      "start": 1.230541,
+      "end": 1.799999
+    },
+    {
+      "text": "a",
+      "start": 1.813875,
+      "end": 1.897208
+    },
+    {
+      "text": "single",
+      "start": 1.911125,
+      "end": 2.369458
+    },
+    {
+      "text": "book",
+      "start": 2.383333,
+      "end": 2.869458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1388750,
+      "text": "He"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 1805410,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4805410,
+      "duration": 2777910,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7722080,
+      "duration": 3194580,
+      "text": "able"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11055410,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12305410,
+      "duration": 5694580,
+      "text": "produce"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18138750,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19111250,
+      "duration": 4583330,
+      "text": "single"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23833330,
+      "duration": 4861250,
+      "text": "book"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:39:25.093128+00:00"
+}

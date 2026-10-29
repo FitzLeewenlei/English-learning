@@ -1,0 +1,160 @@
+{
+  "speechText": "Mr. Smith insisted that the work be finished by the end of April.",
+  "audio": "audio/course-examples/e99ffbc011030c9efdd250e6.mp3",
+  "sha256": "df5c7aaa9d39fc8b0bd9fd77444e2e6add152259d0a2df9afeab46474f5f1ea0",
+  "duration": 4.848,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Mr",
+      "start": 0.119458,
+      "end": 0.536124
+    },
+    {
+      "text": "Smith",
+      "start": 0.55,
+      "end": 1.022208
+    },
+    {
+      "text": "insisted",
+      "start": 1.036125,
+      "end": 1.77225
+    },
+    {
+      "text": "that",
+      "start": 1.786125,
+      "end": 1.952791
+    },
+    {
+      "text": "the",
+      "start": 1.966666,
+      "end": 2.063874
+    },
+    {
+      "text": "work",
+      "start": 2.077791,
+      "end": 2.424999
+    },
+    {
+      "text": "be",
+      "start": 2.438875,
+      "end": 2.57775
+    },
+    {
+      "text": "finished",
+      "start": 2.591666,
+      "end": 3.161124
+    },
+    {
+      "text": "by",
+      "start": 3.175,
+      "end": 3.327791
+    },
+    {
+      "text": "the",
+      "start": 3.341666,
+      "end": 3.522207
+    },
+    {
+      "text": "end",
+      "start": 3.536125,
+      "end": 3.716666
+    },
+    {
+      "text": "of",
+      "start": 3.730541,
+      "end": 3.841666
+    },
+    {
+      "text": "April",
+      "start": 3.855541,
+      "end": 4.424999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 4166660,
+      "text": "Mr."
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5500000,
+      "duration": 4722080,
+      "text": "Smith"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10361250,
+      "duration": 7361250,
+      "text": "insisted"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17861250,
+      "duration": 1666660,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19666660,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20777910,
+      "duration": 3472080,
+      "text": "work"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24388750,
+      "duration": 1388750,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 5694580,
+      "text": "finished"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31750000,
+      "duration": 1527910,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33416660,
+      "duration": 1805410,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35361250,
+      "duration": 1805410,
+      "text": "end"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37305410,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38555410,
+      "duration": 5694580,
+      "text": "April"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:44:33.472360+00:00"
+}

@@ -1,0 +1,193 @@
+{
+  "speechText": "I followed her instructions but I still couldn’t work out how to use the sewing machine.",
+  "audio": "audio/course-examples/15a69ede13d2f80d0540cdd4.mp3",
+  "sha256": "96b01bdceb63e3b8c5fde79d4d01b5190852bc7f5c2fac9ebad171110e8feb41",
+  "duration": 5.592,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "I",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "followed",
+      "start": 0.3,
+      "end": 0.702791
+    },
+    {
+      "text": "her",
+      "start": 0.716666,
+      "end": 0.883332
+    },
+    {
+      "text": "instructions",
+      "start": 0.897208,
+      "end": 1.813874
+    },
+    {
+      "text": "but",
+      "start": 1.827791,
+      "end": 2.049999
+    },
+    {
+      "text": "I",
+      "start": 2.063875,
+      "end": 2.161083
+    },
+    {
+      "text": "still",
+      "start": 2.175,
+      "end": 2.508333
+    },
+    {
+      "text": "couldn’t",
+      "start": 2.522208,
+      "end": 2.855541
+    },
+    {
+      "text": "work",
+      "start": 2.869458,
+      "end": 3.188916
+    },
+    {
+      "text": "out",
+      "start": 3.202791,
+      "end": 3.466666
+    },
+    {
+      "text": "how",
+      "start": 3.480541,
+      "end": 3.647207
+    },
+    {
+      "text": "to",
+      "start": 3.661125,
+      "end": 3.827791
+    },
+    {
+      "text": "use",
+      "start": 3.841666,
+      "end": 4.119457
+    },
+    {
+      "text": "the",
+      "start": 4.133333,
+      "end": 4.244458
+    },
+    {
+      "text": "sewing",
+      "start": 4.258333,
+      "end": 4.605541
+    },
+    {
+      "text": "machine",
+      "start": 4.619458,
+      "end": 5.188916
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "I"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 4027910,
+      "text": "followed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7166660,
+      "duration": 1666660,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 9166660,
+      "text": "instructions"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18277910,
+      "duration": 2222080,
+      "text": "but"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20638750,
+      "duration": 972080,
+      "text": "I"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21750000,
+      "duration": 3333330,
+      "text": "still"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 3333330,
+      "text": "couldn’t"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28694580,
+      "duration": 3194580,
+      "text": "work"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32027910,
+      "duration": 2638750,
+      "text": "out"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34805410,
+      "duration": 1666660,
+      "text": "how"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36611250,
+      "duration": 1666660,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38416660,
+      "duration": 2777910,
+      "text": "use"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41333330,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42583330,
+      "duration": 3472080,
+      "text": "sewing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46194580,
+      "duration": 5694580,
+      "text": "machine"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:48:44.243138+00:00"
+}

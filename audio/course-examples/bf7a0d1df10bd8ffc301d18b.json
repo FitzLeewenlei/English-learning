@@ -1,0 +1,78 @@
+{
+  "speechText": "He was then 74 years old.",
+  "audio": "audio/course-examples/bf7a0d1df10bd8ffc301d18b.mp3",
+  "sha256": "a7afba63ce419f6c956d12e20f6309ea5a3cd593c306c487ebae039d5a2823e3",
+  "duration": 2.976,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [
+    "74",
+    "years",
+    "old"
+  ],
+  "words": [
+    {
+      "text": "He",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "was",
+      "start": 0.3,
+      "end": 0.494458
+    },
+    {
+      "text": "then",
+      "start": 0.508333,
+      "end": 0.883333
+    },
+    {
+      "text": "74",
+      "start": 0.897208,
+      "end": 1.2305496,
+      "estimatedSplit": true
+    },
+    {
+      "text": "years",
+      "start": 1.2305496,
+      "end": 2.0639036,
+      "estimatedSplit": true
+    },
+    {
+      "text": "old",
+      "start": 2.0639036,
+      "end": 2.563916,
+      "estimatedSplit": true
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "He"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1944580,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5083330,
+      "duration": 3750000,
+      "text": "then"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 16667080,
+      "text": "74 years old"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:45:36.469508+00:00"
+}

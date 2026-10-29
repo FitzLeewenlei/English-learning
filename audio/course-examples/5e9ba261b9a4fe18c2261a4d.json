@@ -1,0 +1,325 @@
+{
+  "speechText": "When one loses everything that was once familiar, such as understanding a transportation system, knowing how to make friends, difficulties in coping with the new society may arise.",
+  "audio": "audio/course-examples/5e9ba261b9a4fe18c2261a4d.mp3",
+  "sha256": "5bea5f5a6e742141cc7305a70cac05fda5a49bb5421cd0b3e62894179d54902a",
+  "duration": 11.592,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "When",
+      "start": 0.147208,
+      "end": 0.355541
+    },
+    {
+      "text": "one",
+      "start": 0.369458,
+      "end": 0.619458
+    },
+    {
+      "text": "loses",
+      "start": 0.633333,
+      "end": 1.105541
+    },
+    {
+      "text": "everything",
+      "start": 1.119458,
+      "end": 1.619458
+    },
+    {
+      "text": "that",
+      "start": 1.633333,
+      "end": 1.772208
+    },
+    {
+      "text": "was",
+      "start": 1.786125,
+      "end": 1.938916
+    },
+    {
+      "text": "once",
+      "start": 1.952791,
+      "end": 2.272249
+    },
+    {
+      "text": "familiar",
+      "start": 2.286125,
+      "end": 2.89725
+    },
+    {
+      "text": "such",
+      "start": 3.188875,
+      "end": 3.411083
+    },
+    {
+      "text": "as",
+      "start": 3.425,
+      "end": 3.536125
+    },
+    {
+      "text": "understanding",
+      "start": 3.55,
+      "end": 4.286125
+    },
+    {
+      "text": "a",
+      "start": 4.3,
+      "end": 4.3416659
+    },
+    {
+      "text": "transportation",
+      "start": 4.355541,
+      "end": 5.216666
+    },
+    {
+      "text": "system",
+      "start": 5.230541,
+      "end": 5.730541
+    },
+    {
+      "text": "knowing",
+      "start": 6.063875,
+      "end": 6.355541
+    },
+    {
+      "text": "how",
+      "start": 6.369458,
+      "end": 6.508333
+    },
+    {
+      "text": "to",
+      "start": 6.522208,
+      "end": 6.661083
+    },
+    {
+      "text": "make",
+      "start": 6.675,
+      "end": 6.883333
+    },
+    {
+      "text": "friends",
+      "start": 6.897208,
+      "end": 7.438874
+    },
+    {
+      "text": "difficulties",
+      "start": 7.772208,
+      "end": 8.480541
+    },
+    {
+      "text": "in",
+      "start": 8.494458,
+      "end": 8.619458
+    },
+    {
+      "text": "coping",
+      "start": 8.633333,
+      "end": 9.105541
+    },
+    {
+      "text": "with",
+      "start": 9.119458,
+      "end": 9.258333
+    },
+    {
+      "text": "the",
+      "start": 9.272208,
+      "end": 9.369416
+    },
+    {
+      "text": "new",
+      "start": 9.383333,
+      "end": 9.577791
+    },
+    {
+      "text": "society",
+      "start": 9.591666,
+      "end": 10.286124
+    },
+    {
+      "text": "may",
+      "start": 10.3,
+      "end": 10.480541
+    },
+    {
+      "text": "arise",
+      "start": 10.494458,
+      "end": 11.174999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2083330,
+      "text": "When"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3694580,
+      "duration": 2500000,
+      "text": "one"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6333330,
+      "duration": 4722080,
+      "text": "loses"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11194580,
+      "duration": 5000000,
+      "text": "everything"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16333330,
+      "duration": 1388750,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17861250,
+      "duration": 1527910,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19527910,
+      "duration": 3194580,
+      "text": "once"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22861250,
+      "duration": 6111250,
+      "text": "familiar"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31888750,
+      "duration": 2222080,
+      "text": "such"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34250000,
+      "duration": 1111250,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35500000,
+      "duration": 7361250,
+      "text": "understanding"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43000000,
+      "duration": 416659,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43555410,
+      "duration": 8611250,
+      "text": "transportation"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52305410,
+      "duration": 5000000,
+      "text": "system"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60638750,
+      "duration": 2916660,
+      "text": "knowing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63694580,
+      "duration": 1388750,
+      "text": "how"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 65222080,
+      "duration": 1388750,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66750000,
+      "duration": 2083330,
+      "text": "make"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68972080,
+      "duration": 5416660,
+      "text": "friends"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 77722080,
+      "duration": 7083330,
+      "text": "difficulties"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 84944580,
+      "duration": 1250000,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 86333330,
+      "duration": 4722080,
+      "text": "coping"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 91194580,
+      "duration": 1388750,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 92722080,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 93833330,
+      "duration": 1944580,
+      "text": "new"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 95916660,
+      "duration": 6944580,
+      "text": "society"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 103000000,
+      "duration": 1805410,
+      "text": "may"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 104944580,
+      "duration": 6805410,
+      "text": "arise"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:43:08.295784+00:00"
+}

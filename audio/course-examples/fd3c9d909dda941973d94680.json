@@ -1,0 +1,171 @@
+{
+  "speechText": "The major role of these mobile apps is to help people buy favorite goods.",
+  "audio": "audio/course-examples/fd3c9d909dda941973d94680.mp3",
+  "sha256": "a79c1cbf2dcd61629972aaae649d5ff1f597df6364db0ce902452f27fe6dc2c5",
+  "duration": 4.992,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.133333,
+      "end": 0.244458
+    },
+    {
+      "text": "major",
+      "start": 0.258333,
+      "end": 0.674999
+    },
+    {
+      "text": "role",
+      "start": 0.688875,
+      "end": 1.022208
+    },
+    {
+      "text": "of",
+      "start": 1.036125,
+      "end": 1.133333
+    },
+    {
+      "text": "these",
+      "start": 1.147208,
+      "end": 1.355541
+    },
+    {
+      "text": "mobile",
+      "start": 1.369458,
+      "end": 1.841666
+    },
+    {
+      "text": "apps",
+      "start": 1.855541,
+      "end": 2.244416
+    },
+    {
+      "text": "is",
+      "start": 2.258333,
+      "end": 2.424999
+    },
+    {
+      "text": "to",
+      "start": 2.438875,
+      "end": 2.563875
+    },
+    {
+      "text": "help",
+      "start": 2.577791,
+      "end": 2.869457
+    },
+    {
+      "text": "people",
+      "start": 2.883333,
+      "end": 3.299999
+    },
+    {
+      "text": "buy",
+      "start": 3.313875,
+      "end": 3.480541
+    },
+    {
+      "text": "favorite",
+      "start": 3.494458,
+      "end": 4.008333
+    },
+    {
+      "text": "goods",
+      "start": 4.022208,
+      "end": 4.577749
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1111250,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2583330,
+      "duration": 4166660,
+      "text": "major"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6888750,
+      "duration": 3333330,
+      "text": "role"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10361250,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11472080,
+      "duration": 2083330,
+      "text": "these"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13694580,
+      "duration": 4722080,
+      "text": "mobile"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18555410,
+      "duration": 3888750,
+      "text": "apps"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22583330,
+      "duration": 1666660,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24388750,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25777910,
+      "duration": 2916660,
+      "text": "help"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28833330,
+      "duration": 4166660,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33138750,
+      "duration": 1666660,
+      "text": "buy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34944580,
+      "duration": 5138750,
+      "text": "favorite"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40222080,
+      "duration": 5555410,
+      "text": "goods"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:43:59.773642+00:00"
+}

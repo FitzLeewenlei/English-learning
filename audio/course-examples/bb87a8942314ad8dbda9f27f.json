@@ -1,0 +1,226 @@
+{
+  "speechText": "To reduce the negative effect of this problem, we should think carefully about how to recycle our old phones.",
+  "audio": "audio/course-examples/bb87a8942314ad8dbda9f27f.mp3",
+  "sha256": "47f678b31ae1c7ed1b0e5646a1987bb675c2475d0dd2ea7a8ebe65b2fc4fca7f",
+  "duration": 7.224,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "To",
+      "start": 0.101375,
+      "end": 0.268041
+    },
+    {
+      "text": "reduce",
+      "start": 0.281958,
+      "end": 0.795833
+    },
+    {
+      "text": "the",
+      "start": 0.809708,
+      "end": 0.920833
+    },
+    {
+      "text": "negative",
+      "start": 0.934708,
+      "end": 1.420833
+    },
+    {
+      "text": "effect",
+      "start": 1.434708,
+      "end": 1.851374
+    },
+    {
+      "text": "of",
+      "start": 1.865291,
+      "end": 1.962499
+    },
+    {
+      "text": "this",
+      "start": 1.976375,
+      "end": 2.170833
+    },
+    {
+      "text": "problem",
+      "start": 2.184708,
+      "end": 2.698583
+    },
+    {
+      "text": "we",
+      "start": 3.018041,
+      "end": 3.143041
+    },
+    {
+      "text": "should",
+      "start": 3.156958,
+      "end": 3.351416
+    },
+    {
+      "text": "think",
+      "start": 3.365291,
+      "end": 3.656957
+    },
+    {
+      "text": "carefully",
+      "start": 3.670833,
+      "end": 4.309708
+    },
+    {
+      "text": "about",
+      "start": 4.323625,
+      "end": 4.643083
+    },
+    {
+      "text": "how",
+      "start": 4.656958,
+      "end": 4.837499
+    },
+    {
+      "text": "to",
+      "start": 4.851375,
+      "end": 5.004166
+    },
+    {
+      "text": "recycle",
+      "start": 5.018041,
+      "end": 5.712499
+    },
+    {
+      "text": "our",
+      "start": 5.726375,
+      "end": 5.879166
+    },
+    {
+      "text": "old",
+      "start": 5.893041,
+      "end": 6.143041
+    },
+    {
+      "text": "phones",
+      "start": 6.156958,
+      "end": 6.795833
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 1666660,
+      "text": "To"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2819580,
+      "duration": 5138750,
+      "text": "reduce"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8097080,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9347080,
+      "duration": 4861250,
+      "text": "negative"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14347080,
+      "duration": 4166660,
+      "text": "effect"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18652910,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19763750,
+      "duration": 1944580,
+      "text": "this"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21847080,
+      "duration": 5138750,
+      "text": "problem"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30180410,
+      "duration": 1250000,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31569580,
+      "duration": 1944580,
+      "text": "should"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33652910,
+      "duration": 2916660,
+      "text": "think"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36708330,
+      "duration": 6388750,
+      "text": "carefully"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43236250,
+      "duration": 3194580,
+      "text": "about"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46569580,
+      "duration": 1805410,
+      "text": "how"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48513750,
+      "duration": 1527910,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50180410,
+      "duration": 6944580,
+      "text": "recycle"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57263750,
+      "duration": 1527910,
+      "text": "our"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58930410,
+      "duration": 2500000,
+      "text": "old"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61569580,
+      "duration": 6388750,
+      "text": "phones"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:50:56.005273+00:00"
+}

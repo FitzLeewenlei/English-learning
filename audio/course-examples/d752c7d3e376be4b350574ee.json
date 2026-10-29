@@ -1,0 +1,193 @@
+{
+  "speechText": "The poverty line is the lowest income that people need for an acceptable standard of living.",
+  "audio": "audio/course-examples/d752c7d3e376be4b350574ee.mp3",
+  "sha256": "51f6a7d36aedb6149ebc7093283e2d3d582ed5efe71edc1680081d77bec34df0",
+  "duration": 5.928,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "poverty",
+      "start": 0.3,
+      "end": 0.758333
+    },
+    {
+      "text": "line",
+      "start": 0.772208,
+      "end": 1.188874
+    },
+    {
+      "text": "is",
+      "start": 1.202791,
+      "end": 1.383332
+    },
+    {
+      "text": "the",
+      "start": 1.397208,
+      "end": 1.508333
+    },
+    {
+      "text": "lowest",
+      "start": 1.522208,
+      "end": 1.980541
+    },
+    {
+      "text": "income",
+      "start": 1.994458,
+      "end": 2.494458
+    },
+    {
+      "text": "that",
+      "start": 2.508333,
+      "end": 2.688874
+    },
+    {
+      "text": "people",
+      "start": 2.702791,
+      "end": 3.077791
+    },
+    {
+      "text": "need",
+      "start": 3.091666,
+      "end": 3.452791
+    },
+    {
+      "text": "for",
+      "start": 3.466666,
+      "end": 3.619457
+    },
+    {
+      "text": "an",
+      "start": 3.633333,
+      "end": 3.730541
+    },
+    {
+      "text": "acceptable",
+      "start": 3.744458,
+      "end": 4.424999
+    },
+    {
+      "text": "standard",
+      "start": 4.438875,
+      "end": 4.897208
+    },
+    {
+      "text": "of",
+      "start": 4.911125,
+      "end": 5.008333
+    },
+    {
+      "text": "living",
+      "start": 5.022208,
+      "end": 5.522208
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 4583330,
+      "text": "poverty"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7722080,
+      "duration": 4166660,
+      "text": "line"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12027910,
+      "duration": 1805410,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15222080,
+      "duration": 4583330,
+      "text": "lowest"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19944580,
+      "duration": 5000000,
+      "text": "income"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25083330,
+      "duration": 1805410,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27027910,
+      "duration": 3750000,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30916660,
+      "duration": 3611250,
+      "text": "need"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34666660,
+      "duration": 1527910,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36333330,
+      "duration": 972080,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37444580,
+      "duration": 6805410,
+      "text": "acceptable"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44388750,
+      "duration": 4583330,
+      "text": "standard"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49111250,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50222080,
+      "duration": 5000000,
+      "text": "living"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:52:59.359715+00:00"
+}

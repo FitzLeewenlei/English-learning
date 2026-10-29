@@ -1,0 +1,193 @@
+{
+  "speechText": "This is the shadow-land of hope, and anyone with a dream must learn to live there.",
+  "audio": "audio/course-examples/34c06135d7f5e26a46fb0cad.mp3",
+  "sha256": "2e1b9560c27c4913701070ad1c4e667e245b625fac9a9e9d55f8b06371e94413",
+  "duration": 5.424,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "This",
+      "start": 0.147208,
+      "end": 0.411083
+    },
+    {
+      "text": "is",
+      "start": 0.425,
+      "end": 0.55
+    },
+    {
+      "text": "the",
+      "start": 0.563875,
+      "end": 0.688875
+    },
+    {
+      "text": "shadow-land",
+      "start": 0.702791,
+      "end": 1.383332
+    },
+    {
+      "text": "of",
+      "start": 1.397208,
+      "end": 1.494416
+    },
+    {
+      "text": "hope",
+      "start": 1.508333,
+      "end": 1.952791
+    },
+    {
+      "text": "and",
+      "start": 2.258333,
+      "end": 2.424999
+    },
+    {
+      "text": "anyone",
+      "start": 2.438875,
+      "end": 2.883333
+    },
+    {
+      "text": "with",
+      "start": 2.897208,
+      "end": 3.063874
+    },
+    {
+      "text": "a",
+      "start": 3.077791,
+      "end": 3.133332
+    },
+    {
+      "text": "dream",
+      "start": 3.147208,
+      "end": 3.591666
+    },
+    {
+      "text": "must",
+      "start": 3.605541,
+      "end": 3.952749
+    },
+    {
+      "text": "learn",
+      "start": 3.966666,
+      "end": 4.272207
+    },
+    {
+      "text": "to",
+      "start": 4.286125,
+      "end": 4.411125
+    },
+    {
+      "text": "live",
+      "start": 4.425,
+      "end": 4.661125
+    },
+    {
+      "text": "there",
+      "start": 4.675,
+      "end": 5.008333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2638750,
+      "text": "This"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4250000,
+      "duration": 1250000,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5638750,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7027910,
+      "duration": 6805410,
+      "text": "shadow-land"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15083330,
+      "duration": 4444580,
+      "text": "hope"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22583330,
+      "duration": 1666660,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24388750,
+      "duration": 4444580,
+      "text": "anyone"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28972080,
+      "duration": 1666660,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30777910,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31472080,
+      "duration": 4444580,
+      "text": "dream"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36055410,
+      "duration": 3472080,
+      "text": "must"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39666660,
+      "duration": 3055410,
+      "text": "learn"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42861250,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44250000,
+      "duration": 2361250,
+      "text": "live"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46750000,
+      "duration": 3333330,
+      "text": "there"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:51:06.284497+00:00"
+}

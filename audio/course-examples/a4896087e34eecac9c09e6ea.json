@@ -1,0 +1,369 @@
+{
+  "speechText": "Although the poem contains such pessimistic overtones and pathetic acceptance of fate, there is hope to be found in the last two lines which seem to be set apart from the rest.",
+  "audio": "audio/course-examples/a4896087e34eecac9c09e6ea.mp3",
+  "sha256": "58322def31d736bea7fe2f379b80bccbcceb273fc98be1aef51eb73f6c7374d3",
+  "duration": 11.16,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Although",
+      "start": 0.101375,
+      "end": 0.545833
+    },
+    {
+      "text": "the",
+      "start": 0.559708,
+      "end": 0.698583
+    },
+    {
+      "text": "poem",
+      "start": 0.7125,
+      "end": 1.101375
+    },
+    {
+      "text": "contains",
+      "start": 1.115291,
+      "end": 1.726416
+    },
+    {
+      "text": "such",
+      "start": 1.740291,
+      "end": 2.031957
+    },
+    {
+      "text": "pessimistic",
+      "start": 2.045833,
+      "end": 2.740291
+    },
+    {
+      "text": "overtones",
+      "start": 2.754166,
+      "end": 3.504166
+    },
+    {
+      "text": "and",
+      "start": 3.518041,
+      "end": 3.684707
+    },
+    {
+      "text": "pathetic",
+      "start": 3.698625,
+      "end": 4.2125
+    },
+    {
+      "text": "acceptance",
+      "start": 4.226375,
+      "end": 4.879166
+    },
+    {
+      "text": "of",
+      "start": 4.893041,
+      "end": 5.004166
+    },
+    {
+      "text": "fate",
+      "start": 5.018041,
+      "end": 5.462499
+    },
+    {
+      "text": "there",
+      "start": 5.809708,
+      "end": 5.934708
+    },
+    {
+      "text": "is",
+      "start": 5.948625,
+      "end": 6.101416
+    },
+    {
+      "text": "hope",
+      "start": 6.115291,
+      "end": 6.393082
+    },
+    {
+      "text": "to",
+      "start": 6.406958,
+      "end": 6.504166
+    },
+    {
+      "text": "be",
+      "start": 6.518041,
+      "end": 6.656916
+    },
+    {
+      "text": "found",
+      "start": 6.670833,
+      "end": 7.087499
+    },
+    {
+      "text": "in",
+      "start": 7.101375,
+      "end": 7.184708
+    },
+    {
+      "text": "the",
+      "start": 7.198625,
+      "end": 7.295833
+    },
+    {
+      "text": "last",
+      "start": 7.309708,
+      "end": 7.740249
+    },
+    {
+      "text": "two",
+      "start": 7.754166,
+      "end": 7.948624
+    },
+    {
+      "text": "lines",
+      "start": 7.9625,
+      "end": 8.476375
+    },
+    {
+      "text": "which",
+      "start": 8.490291,
+      "end": 8.726416
+    },
+    {
+      "text": "seem",
+      "start": 8.740291,
+      "end": 8.962499
+    },
+    {
+      "text": "to",
+      "start": 8.976375,
+      "end": 9.073583
+    },
+    {
+      "text": "be",
+      "start": 9.0875,
+      "end": 9.2125
+    },
+    {
+      "text": "set",
+      "start": 9.226375,
+      "end": 9.49025
+    },
+    {
+      "text": "apart",
+      "start": 9.504166,
+      "end": 9.893041
+    },
+    {
+      "text": "from",
+      "start": 9.906958,
+      "end": 10.073624
+    },
+    {
+      "text": "the",
+      "start": 10.0875,
+      "end": 10.184708
+    },
+    {
+      "text": "rest",
+      "start": 10.198625,
+      "end": 10.754166
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 4444580,
+      "text": "Although"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5597080,
+      "duration": 1388750,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7125000,
+      "duration": 3888750,
+      "text": "poem"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11152910,
+      "duration": 6111250,
+      "text": "contains"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17402910,
+      "duration": 2916660,
+      "text": "such"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20458330,
+      "duration": 6944580,
+      "text": "pessimistic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27541660,
+      "duration": 7500000,
+      "text": "overtones"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35180410,
+      "duration": 1666660,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36986250,
+      "duration": 5138750,
+      "text": "pathetic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42263750,
+      "duration": 6527910,
+      "text": "acceptance"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48930410,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50180410,
+      "duration": 4444580,
+      "text": "fate"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58097080,
+      "duration": 1250000,
+      "text": "there"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59486250,
+      "duration": 1527910,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61152910,
+      "duration": 2777910,
+      "text": "hope"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64069580,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 65180410,
+      "duration": 1388750,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66708330,
+      "duration": 4166660,
+      "text": "found"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71013750,
+      "duration": 833330,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71986250,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73097080,
+      "duration": 4305410,
+      "text": "last"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 77541660,
+      "duration": 1944580,
+      "text": "two"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79625000,
+      "duration": 5138750,
+      "text": "lines"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 84902910,
+      "duration": 2361250,
+      "text": "which"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 87402910,
+      "duration": 2222080,
+      "text": "seem"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 89763750,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 90875000,
+      "duration": 1250000,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 92263750,
+      "duration": 2638750,
+      "text": "set"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 95041660,
+      "duration": 3888750,
+      "text": "apart"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 99069580,
+      "duration": 1666660,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 100875000,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 101986250,
+      "duration": 5555410,
+      "text": "rest"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:36:49.364107+00:00"
+}

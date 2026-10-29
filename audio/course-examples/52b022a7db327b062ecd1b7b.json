@@ -1,0 +1,94 @@
+{
+  "speechText": "A cough is a common cold symptom.",
+  "audio": "audio/course-examples/52b022a7db327b062ecd1b7b.mp3",
+  "sha256": "276ebe2c66a6a08233d5cfebf86dbf7ec806ba6c5814850ba3d80aacfd769948",
+  "duration": 2.832,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "A",
+      "start": 0.147208,
+      "end": 0.244416
+    },
+    {
+      "text": "cough",
+      "start": 0.258333,
+      "end": 0.674999
+    },
+    {
+      "text": "is",
+      "start": 0.688875,
+      "end": 0.841666
+    },
+    {
+      "text": "a",
+      "start": 0.855541,
+      "end": 0.938874
+    },
+    {
+      "text": "common",
+      "start": 0.952791,
+      "end": 1.369457
+    },
+    {
+      "text": "cold",
+      "start": 1.383333,
+      "end": 1.758333
+    },
+    {
+      "text": "symptom",
+      "start": 1.772208,
+      "end": 2.424999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 972080,
+      "text": "A"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2583330,
+      "duration": 4166660,
+      "text": "cough"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6888750,
+      "duration": 1527910,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8555410,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9527910,
+      "duration": 4166660,
+      "text": "common"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13833330,
+      "duration": 3750000,
+      "text": "cold"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17722080,
+      "duration": 6527910,
+      "text": "symptom"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:39:24.278584+00:00"
+}

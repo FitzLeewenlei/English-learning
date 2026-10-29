@@ -1,0 +1,138 @@
+{
+  "speechText": "Children may not be stashing coins in piggy banksfor much longer.",
+  "audio": "audio/course-examples/8a8964c5c0c374d21f70992d.mp3",
+  "sha256": "37276e2fb4a47501c622bd3eb0d2bd0b67ba69751f6c8635e37aa271011d1c3a",
+  "duration": 4.8,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Children",
+      "start": 0.102791,
+      "end": 0.644457
+    },
+    {
+      "text": "may",
+      "start": 0.658333,
+      "end": 0.824999
+    },
+    {
+      "text": "not",
+      "start": 0.838875,
+      "end": 1.10275
+    },
+    {
+      "text": "be",
+      "start": 1.116666,
+      "end": 1.255541
+    },
+    {
+      "text": "stashing",
+      "start": 1.269458,
+      "end": 1.769458
+    },
+    {
+      "text": "coins",
+      "start": 1.783333,
+      "end": 2.324999
+    },
+    {
+      "text": "in",
+      "start": 2.338875,
+      "end": 2.533333
+    },
+    {
+      "text": "piggy",
+      "start": 2.547208,
+      "end": 2.908333
+    },
+    {
+      "text": "banksfor",
+      "start": 2.922208,
+      "end": 3.505541
+    },
+    {
+      "text": "much",
+      "start": 3.519458,
+      "end": 3.824999
+    },
+    {
+      "text": "longer",
+      "start": 3.838875,
+      "end": 4.394416
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1027910,
+      "duration": 5416660,
+      "text": "Children"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6583330,
+      "duration": 1666660,
+      "text": "may"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8388750,
+      "duration": 2638750,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11166660,
+      "duration": 1388750,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12694580,
+      "duration": 5000000,
+      "text": "stashing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17833330,
+      "duration": 5416660,
+      "text": "coins"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23388750,
+      "duration": 1944580,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25472080,
+      "duration": 3611250,
+      "text": "piggy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29222080,
+      "duration": 5833330,
+      "text": "banksfor"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35194580,
+      "duration": 3055410,
+      "text": "much"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38388750,
+      "duration": 5555410,
+      "text": "longer"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:44:56.511167+00:00"
+}

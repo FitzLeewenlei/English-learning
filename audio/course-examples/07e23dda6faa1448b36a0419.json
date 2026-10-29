@@ -1,0 +1,193 @@
+{
+  "speechText": "He then started playing regularly again while also continuing to stay involved in bowling and swimming.",
+  "audio": "audio/course-examples/07e23dda6faa1448b36a0419.mp3",
+  "sha256": "bb7c16832f971a7c1acb0e7bf91e14d53fb195f424abe4dc8064ac667c9bc7bd",
+  "duration": 6.624,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "He",
+      "start": 0.133333,
+      "end": 0.272208
+    },
+    {
+      "text": "then",
+      "start": 0.286125,
+      "end": 0.52225
+    },
+    {
+      "text": "started",
+      "start": 0.536125,
+      "end": 1.05
+    },
+    {
+      "text": "playing",
+      "start": 1.063875,
+      "end": 1.480541
+    },
+    {
+      "text": "regularly",
+      "start": 1.494458,
+      "end": 2.022249
+    },
+    {
+      "text": "again",
+      "start": 2.036125,
+      "end": 2.52225
+    },
+    {
+      "text": "while",
+      "start": 2.536125,
+      "end": 2.841666
+    },
+    {
+      "text": "also",
+      "start": 2.855541,
+      "end": 3.244416
+    },
+    {
+      "text": "continuing",
+      "start": 3.258333,
+      "end": 3.897208
+    },
+    {
+      "text": "to",
+      "start": 3.911125,
+      "end": 4.02225
+    },
+    {
+      "text": "stay",
+      "start": 4.036125,
+      "end": 4.327791
+    },
+    {
+      "text": "involved",
+      "start": 4.341666,
+      "end": 4.841666
+    },
+    {
+      "text": "in",
+      "start": 4.855541,
+      "end": 4.994416
+    },
+    {
+      "text": "bowling",
+      "start": 5.008333,
+      "end": 5.508333
+    },
+    {
+      "text": "and",
+      "start": 5.522208,
+      "end": 5.633333
+    },
+    {
+      "text": "swimming",
+      "start": 5.647208,
+      "end": 6.216666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1388750,
+      "text": "He"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 2361250,
+      "text": "then"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5361250,
+      "duration": 5138750,
+      "text": "started"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10638750,
+      "duration": 4166660,
+      "text": "playing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14944580,
+      "duration": 5277910,
+      "text": "regularly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20361250,
+      "duration": 4861250,
+      "text": "again"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25361250,
+      "duration": 3055410,
+      "text": "while"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28555410,
+      "duration": 3888750,
+      "text": "also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32583330,
+      "duration": 6388750,
+      "text": "continuing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39111250,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40361250,
+      "duration": 2916660,
+      "text": "stay"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43416660,
+      "duration": 5000000,
+      "text": "involved"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48555410,
+      "duration": 1388750,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50083330,
+      "duration": 5000000,
+      "text": "bowling"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55222080,
+      "duration": 1111250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56472080,
+      "duration": 5694580,
+      "text": "swimming"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:55:42.376723+00:00"
+}

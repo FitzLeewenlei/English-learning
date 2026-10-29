@@ -1,0 +1,105 @@
+{
+  "speechText": "Unfortunately, not all of these stories are true.",
+  "audio": "audio/course-examples/d3743f8071c035229490d5f4.mp3",
+  "sha256": "7d88f3f01adf304e3e1f43c7e0fc4f212a6a97b9300987ee9bcd0ff18d98a597",
+  "duration": 3.768,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Unfortunately",
+      "start": 0.102791,
+      "end": 1.172249
+    },
+    {
+      "text": "not",
+      "start": 1.45,
+      "end": 1.7
+    },
+    {
+      "text": "all",
+      "start": 1.713875,
+      "end": 1.866666
+    },
+    {
+      "text": "of",
+      "start": 1.880541,
+      "end": 1.991666
+    },
+    {
+      "text": "these",
+      "start": 2.005541,
+      "end": 2.213874
+    },
+    {
+      "text": "stories",
+      "start": 2.227791,
+      "end": 2.727791
+    },
+    {
+      "text": "are",
+      "start": 2.741666,
+      "end": 2.7833319
+    },
+    {
+      "text": "true",
+      "start": 2.797208,
+      "end": 3.352749
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1027910,
+      "duration": 10694580,
+      "text": "Unfortunately"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14500000,
+      "duration": 2500000,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17138750,
+      "duration": 1527910,
+      "text": "all"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18805410,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20055410,
+      "duration": 2083330,
+      "text": "these"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22277910,
+      "duration": 5000000,
+      "text": "stories"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27416660,
+      "duration": 416659,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27972080,
+      "duration": 5555410,
+      "text": "true"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:53:50.126682+00:00"
+}

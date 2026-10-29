@@ -1,0 +1,94 @@
+{
+  "speechText": "What can be concluded from the passage?",
+  "audio": "audio/course-examples/d84c508d8dc892a3b5c30124.mp3",
+  "sha256": "427b035868fb38686807c2a2a74769e849c8899910f2ffbfb12156c7b1d0eef7",
+  "duration": 3.12,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "What",
+      "start": 0.147208,
+      "end": 0.424999
+    },
+    {
+      "text": "can",
+      "start": 0.438875,
+      "end": 0.633333
+    },
+    {
+      "text": "be",
+      "start": 0.647208,
+      "end": 0.799999
+    },
+    {
+      "text": "concluded",
+      "start": 0.813875,
+      "end": 1.55
+    },
+    {
+      "text": "from",
+      "start": 1.563875,
+      "end": 1.786083
+    },
+    {
+      "text": "the",
+      "start": 1.8,
+      "end": 1.911125
+    },
+    {
+      "text": "passage",
+      "start": 1.925,
+      "end": 2.716666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2777910,
+      "text": "What"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 1944580,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6472080,
+      "duration": 1527910,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8138750,
+      "duration": 7361250,
+      "text": "concluded"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 2222080,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18000000,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 7916660,
+      "text": "passage"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:31:59.315673+00:00"
+}

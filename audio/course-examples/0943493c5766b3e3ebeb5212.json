@@ -1,0 +1,72 @@
+{
+  "speechText": "Stock up on necessary supplies.",
+  "audio": "audio/course-examples/0943493c5766b3e3ebeb5212.mp3",
+  "sha256": "ff7e3866b55c4ccfcf19c25769e3a25dc9cc6eadc86af54fdb3b002c1261e904",
+  "duration": 3.0,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Stock",
+      "start": 0.101375,
+      "end": 0.5875
+    },
+    {
+      "text": "up",
+      "start": 0.601375,
+      "end": 0.8375
+    },
+    {
+      "text": "on",
+      "start": 0.851375,
+      "end": 1.045833
+    },
+    {
+      "text": "necessary",
+      "start": 1.059708,
+      "end": 1.726374
+    },
+    {
+      "text": "supplies",
+      "start": 1.740291,
+      "end": 2.573624
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 4861250,
+      "text": "Stock"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6013750,
+      "duration": 2361250,
+      "text": "up"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8513750,
+      "duration": 1944580,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10597080,
+      "duration": 6666660,
+      "text": "necessary"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17402910,
+      "duration": 8333330,
+      "text": "supplies"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:32:48.715314+00:00"
+}

@@ -1,0 +1,94 @@
+{
+  "speechText": "There are so many opportunities for volunteering.",
+  "audio": "audio/course-examples/a8727ebcf1354d84b46514ce.mp3",
+  "sha256": "e80611b0a05c3adbde218cee14ef22f68a9ccd6aa05884a505fba18e83ce5208",
+  "duration": 3.456,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "There",
+      "start": 0.133333,
+      "end": 0.286124
+    },
+    {
+      "text": "are",
+      "start": 0.3,
+      "end": 0.411125
+    },
+    {
+      "text": "so",
+      "start": 0.425,
+      "end": 0.730541
+    },
+    {
+      "text": "many",
+      "start": 0.744458,
+      "end": 1.008333
+    },
+    {
+      "text": "opportunities",
+      "start": 1.022208,
+      "end": 1.897208
+    },
+    {
+      "text": "for",
+      "start": 1.911125,
+      "end": 2.036125
+    },
+    {
+      "text": "volunteering",
+      "start": 2.05,
+      "end": 3.036125
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1527910,
+      "text": "There"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1111250,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4250000,
+      "duration": 3055410,
+      "text": "so"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7444580,
+      "duration": 2638750,
+      "text": "many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10222080,
+      "duration": 8750000,
+      "text": "opportunities"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19111250,
+      "duration": 1250000,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20500000,
+      "duration": 9861250,
+      "text": "volunteering"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:39:41.914648+00:00"
+}

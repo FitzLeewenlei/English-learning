@@ -80,3 +80,7 @@ body.sentence-focus-open{overflow:hidden}
 .sentence-play:disabled{opacity:.4;cursor:default}
 .word-name{min-width:0;overflow-wrap:anywhere;line-height:1.35}
 .word-sound{flex-shrink:0}
+.word-card .word-sense{display:block}
+.word-card .word-sense-pos,.word-card .word-sense-meaning{display:inline}
+.word-card .word-sense-meaning{margin-left:6px}
+@media(max-width:350px){.word-name{font-size:16px}}

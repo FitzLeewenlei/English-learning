@@ -1,0 +1,116 @@
+{
+  "speechText": "The first one he used weighed over 1 kilogram.",
+  "audio": "audio/course-examples/468d46541463ff986365b2a5.mp3",
+  "sha256": "2989de443aefca82eb1c32c3e4461ec0118dd614626ff4a488eb7b1bc8d1082b",
+  "duration": 3.648,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.258333
+    },
+    {
+      "text": "first",
+      "start": 0.272208,
+      "end": 0.688874
+    },
+    {
+      "text": "one",
+      "start": 0.702791,
+      "end": 0.966666
+    },
+    {
+      "text": "he",
+      "start": 0.980541,
+      "end": 1.161082
+    },
+    {
+      "text": "used",
+      "start": 1.175,
+      "end": 1.508333
+    },
+    {
+      "text": "weighed",
+      "start": 1.522208,
+      "end": 1.897208
+    },
+    {
+      "text": "over",
+      "start": 1.911125,
+      "end": 2.14725
+    },
+    {
+      "text": "1",
+      "start": 2.161125,
+      "end": 2.480583
+    },
+    {
+      "text": "kilogram",
+      "start": 2.494458,
+      "end": 3.230583
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1111250,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2722080,
+      "duration": 4166660,
+      "text": "first"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7027910,
+      "duration": 2638750,
+      "text": "one"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9805410,
+      "duration": 1805410,
+      "text": "he"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11750000,
+      "duration": 3333330,
+      "text": "used"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15222080,
+      "duration": 3750000,
+      "text": "weighed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19111250,
+      "duration": 2361250,
+      "text": "over"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21611250,
+      "duration": 3194580,
+      "text": "1"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24944580,
+      "duration": 7361250,
+      "text": "kilogram"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:31:20.104490+00:00"
+}

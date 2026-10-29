@@ -1,0 +1,105 @@
+{
+  "speechText": "Many people love to collect things, but why?",
+  "audio": "audio/course-examples/921380ee9324f906f3f2e3d0.mp3",
+  "sha256": "41cf2439c9d3c8f801b7bde6a7d8bcdc2c3411b69e23f1fada8ab6c7d6e34221",
+  "duration": 3.744,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Many",
+      "start": 0.133333,
+      "end": 0.452791
+    },
+    {
+      "text": "people",
+      "start": 0.466666,
+      "end": 0.855541
+    },
+    {
+      "text": "love",
+      "start": 0.869458,
+      "end": 1.147249
+    },
+    {
+      "text": "to",
+      "start": 1.161125,
+      "end": 1.27225
+    },
+    {
+      "text": "collect",
+      "start": 1.286125,
+      "end": 1.730583
+    },
+    {
+      "text": "things",
+      "start": 1.744458,
+      "end": 2.299999
+    },
+    {
+      "text": "but",
+      "start": 2.605541,
+      "end": 2.799999
+    },
+    {
+      "text": "why",
+      "start": 2.813875,
+      "end": 3.341666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 3194580,
+      "text": "Many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4666660,
+      "duration": 3888750,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8694580,
+      "duration": 2777910,
+      "text": "love"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11611250,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12861250,
+      "duration": 4444580,
+      "text": "collect"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17444580,
+      "duration": 5555410,
+      "text": "things"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26055410,
+      "duration": 1944580,
+      "text": "but"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28138750,
+      "duration": 5277910,
+      "text": "why"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:35:30.605466+00:00"
+}

@@ -1,0 +1,83 @@
+{
+  "speechText": "Add together all of your expenses.",
+  "audio": "audio/course-examples/0b74791235465b3cfd5205b2.mp3",
+  "sha256": "20969df445d6ec372be310ae2f6a83b05cfbc0f098c1ca4473fbebace73ac234",
+  "duration": 2.856,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Add",
+      "start": 0.119458,
+      "end": 0.383333
+    },
+    {
+      "text": "together",
+      "start": 0.397208,
+      "end": 0.966666
+    },
+    {
+      "text": "all",
+      "start": 0.980541,
+      "end": 1.202749
+    },
+    {
+      "text": "of",
+      "start": 1.216666,
+      "end": 1.313874
+    },
+    {
+      "text": "your",
+      "start": 1.327791,
+      "end": 1.452791
+    },
+    {
+      "text": "expenses",
+      "start": 1.466666,
+      "end": 2.452791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 2638750,
+      "text": "Add"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3972080,
+      "duration": 5694580,
+      "text": "together"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9805410,
+      "duration": 2222080,
+      "text": "all"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12166660,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13277910,
+      "duration": 1250000,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14666660,
+      "duration": 9861250,
+      "text": "expenses"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:51:19.309431+00:00"
+}

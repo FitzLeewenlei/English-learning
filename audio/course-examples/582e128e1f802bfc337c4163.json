@@ -1,0 +1,83 @@
+{
+  "speechText": "It will be on TV tonight.",
+  "audio": "audio/course-examples/582e128e1f802bfc337c4163.mp3",
+  "sha256": "9e76bb25b3c339b9fd4b681bb982a27f4f4128b8baad8ce337aef169fc2f1d35",
+  "duration": 2.4,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "It",
+      "start": 0.119458,
+      "end": 0.286124
+    },
+    {
+      "text": "will",
+      "start": 0.3,
+      "end": 0.466666
+    },
+    {
+      "text": "be",
+      "start": 0.480541,
+      "end": 0.619416
+    },
+    {
+      "text": "on",
+      "start": 0.633333,
+      "end": 0.827791
+    },
+    {
+      "text": "TV",
+      "start": 0.841666,
+      "end": 1.299999
+    },
+    {
+      "text": "tonight",
+      "start": 1.313875,
+      "end": 1.994416
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 1666660,
+      "text": "It"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1666660,
+      "text": "will"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4805410,
+      "duration": 1388750,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6333330,
+      "duration": 1944580,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8416660,
+      "duration": 4583330,
+      "text": "TV"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13138750,
+      "duration": 6805410,
+      "text": "tonight"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:39:02.665244+00:00"
+}

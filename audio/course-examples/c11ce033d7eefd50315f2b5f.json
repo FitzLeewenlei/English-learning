@@ -1,0 +1,171 @@
+{
+  "speechText": "These factors give coastal deserts unique features that are not found in other deserts.",
+  "audio": "audio/course-examples/c11ce033d7eefd50315f2b5f.mp3",
+  "sha256": "8804ec1b28dbdb0704d4cb6f1159e6b71a517d44dc596cef8e15679425294e67",
+  "duration": 5.976,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "These",
+      "start": 0.133333,
+      "end": 0.480541
+    },
+    {
+      "text": "factors",
+      "start": 0.494458,
+      "end": 1.119458
+    },
+    {
+      "text": "give",
+      "start": 1.133333,
+      "end": 1.383333
+    },
+    {
+      "text": "coastal",
+      "start": 1.397208,
+      "end": 1.883333
+    },
+    {
+      "text": "deserts",
+      "start": 1.897208,
+      "end": 2.424999
+    },
+    {
+      "text": "unique",
+      "start": 2.438875,
+      "end": 2.841666
+    },
+    {
+      "text": "features",
+      "start": 2.855541,
+      "end": 3.480541
+    },
+    {
+      "text": "that",
+      "start": 3.494458,
+      "end": 3.688916
+    },
+    {
+      "text": "are",
+      "start": 3.702791,
+      "end": 3.730582
+    },
+    {
+      "text": "not",
+      "start": 3.744458,
+      "end": 4.049999
+    },
+    {
+      "text": "found",
+      "start": 4.063875,
+      "end": 4.480541
+    },
+    {
+      "text": "in",
+      "start": 4.494458,
+      "end": 4.619458
+    },
+    {
+      "text": "other",
+      "start": 4.633333,
+      "end": 4.841666
+    },
+    {
+      "text": "deserts",
+      "start": 4.855541,
+      "end": 5.549999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 3472080,
+      "text": "These"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 6250000,
+      "text": "factors"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11333330,
+      "duration": 2500000,
+      "text": "give"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 4861250,
+      "text": "coastal"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18972080,
+      "duration": 5277910,
+      "text": "deserts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24388750,
+      "duration": 4027910,
+      "text": "unique"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28555410,
+      "duration": 6250000,
+      "text": "features"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34944580,
+      "duration": 1944580,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37027910,
+      "duration": 277910,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37444580,
+      "duration": 3055410,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40638750,
+      "duration": 4166660,
+      "text": "found"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44944580,
+      "duration": 1250000,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46333330,
+      "duration": 2083330,
+      "text": "other"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48555410,
+      "duration": 6944580,
+      "text": "deserts"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:31:31.045803+00:00"
+}

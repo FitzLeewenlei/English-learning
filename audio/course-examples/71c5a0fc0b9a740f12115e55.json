@@ -1,0 +1,149 @@
+{
+  "speechText": "Let someone else lead the group when you’re collaborating on a project.",
+  "audio": "audio/course-examples/71c5a0fc0b9a740f12115e55.mp3",
+  "sha256": "f557e940b0c5950ee1479762443dd49d4eb20f15dc376831e7c93b1e2f266d55",
+  "duration": 4.608,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Let",
+      "start": 0.119458,
+      "end": 0.397249
+    },
+    {
+      "text": "someone",
+      "start": 0.411125,
+      "end": 0.8
+    },
+    {
+      "text": "else",
+      "start": 0.813875,
+      "end": 1.147208
+    },
+    {
+      "text": "lead",
+      "start": 1.161125,
+      "end": 1.438916
+    },
+    {
+      "text": "the",
+      "start": 1.452791,
+      "end": 1.563916
+    },
+    {
+      "text": "group",
+      "start": 1.577791,
+      "end": 2.036124
+    },
+    {
+      "text": "when",
+      "start": 2.05,
+      "end": 2.244458
+    },
+    {
+      "text": "you’re",
+      "start": 2.258333,
+      "end": 2.411124
+    },
+    {
+      "text": "collaborating",
+      "start": 2.425,
+      "end": 3.202791
+    },
+    {
+      "text": "on",
+      "start": 3.216666,
+      "end": 3.313874
+    },
+    {
+      "text": "a",
+      "start": 3.327791,
+      "end": 3.397249
+    },
+    {
+      "text": "project",
+      "start": 3.411125,
+      "end": 4.188916
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 2777910,
+      "text": "Let"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4111250,
+      "duration": 3888750,
+      "text": "someone"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8138750,
+      "duration": 3333330,
+      "text": "else"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11611250,
+      "duration": 2777910,
+      "text": "lead"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14527910,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15777910,
+      "duration": 4583330,
+      "text": "group"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20500000,
+      "duration": 1944580,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22583330,
+      "duration": 1527910,
+      "text": "you’re"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24250000,
+      "duration": 7777910,
+      "text": "collaborating"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32166660,
+      "duration": 972080,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33277910,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34111250,
+      "duration": 7777910,
+      "text": "project"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:49:42.242899+00:00"
+}

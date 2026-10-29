@@ -1,0 +1,93 @@
+{
+  "speechText": "Stop drinking liquids 1 hour before bedtime.",
+  "audio": "audio/course-examples/8918a7a40e36486b0d93330b.mp3",
+  "sha256": "1b3779181f9e9c9e1213f090e5804f0bc06b34175be2036468587e89f9d82b74",
+  "duration": 3.744,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [
+    "1",
+    "hour"
+  ],
+  "words": [
+    {
+      "text": "Stop",
+      "start": 0.133333,
+      "end": 0.549999
+    },
+    {
+      "text": "drinking",
+      "start": 0.563875,
+      "end": 1.036083
+    },
+    {
+      "text": "liquids",
+      "start": 1.05,
+      "end": 1.605541
+    },
+    {
+      "text": "1",
+      "start": 1.619458,
+      "end": 1.7388996,
+      "estimatedSplit": true
+    },
+    {
+      "text": "hour",
+      "start": 1.7388996,
+      "end": 2.2166659,
+      "estimatedSplit": true
+    },
+    {
+      "text": "before",
+      "start": 2.230541,
+      "end": 2.591666
+    },
+    {
+      "text": "bedtime",
+      "start": 2.605541,
+      "end": 3.341666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 4166660,
+      "text": "Stop"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5638750,
+      "duration": 4722080,
+      "text": "drinking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10500000,
+      "duration": 5555410,
+      "text": "liquids"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16194580,
+      "duration": 5972079,
+      "text": "1 hour"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22305410,
+      "duration": 3611250,
+      "text": "before"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26055410,
+      "duration": 7361250,
+      "text": "bedtime"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:33:06.310266+00:00"
+}

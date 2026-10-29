@@ -1,0 +1,379 @@
+{
+  "speechText": "In 2000 the General Social Survey revealed that people who personally feel \"completely free\" or \"very free\" were twice as likely as those who don't to say they're very happy about their lives.",
+  "audio": "audio/course-examples/5c18da594b88f65dbb6665f7.mp3",
+  "sha256": "64b798137b94bb27bc0f48fd5935f726f421253f7b8ff46205ac5d100ba69561",
+  "duration": 11.256,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [
+    "In",
+    "2000"
+  ],
+  "words": [
+    {
+      "text": "In",
+      "start": 0.119458,
+      "end": 0.4481523,
+      "estimatedSplit": true
+    },
+    {
+      "text": "2000",
+      "start": 0.4481523,
+      "end": 1.105541,
+      "estimatedSplit": true
+    },
+    {
+      "text": "the",
+      "start": 1.119458,
+      "end": 1.216666
+    },
+    {
+      "text": "General",
+      "start": 1.230541,
+      "end": 1.605541
+    },
+    {
+      "text": "Social",
+      "start": 1.619458,
+      "end": 2.036124
+    },
+    {
+      "text": "Survey",
+      "start": 2.05,
+      "end": 2.536125
+    },
+    {
+      "text": "revealed",
+      "start": 2.55,
+      "end": 3.008333
+    },
+    {
+      "text": "that",
+      "start": 3.022208,
+      "end": 3.202749
+    },
+    {
+      "text": "people",
+      "start": 3.216666,
+      "end": 3.577791
+    },
+    {
+      "text": "who",
+      "start": 3.591666,
+      "end": 3.716666
+    },
+    {
+      "text": "personally",
+      "start": 3.730541,
+      "end": 4.299999
+    },
+    {
+      "text": "feel",
+      "start": 4.313875,
+      "end": 4.633333
+    },
+    {
+      "text": "completely",
+      "start": 4.647208,
+      "end": 5.244416
+    },
+    {
+      "text": "free",
+      "start": 5.258333,
+      "end": 5.688874
+    },
+    {
+      "text": "or",
+      "start": 5.702791,
+      "end": 5.841666
+    },
+    {
+      "text": "very",
+      "start": 5.855541,
+      "end": 6.161082
+    },
+    {
+      "text": "free",
+      "start": 6.175,
+      "end": 6.605541
+    },
+    {
+      "text": "were",
+      "start": 6.619458,
+      "end": 6.772249
+    },
+    {
+      "text": "twice",
+      "start": 6.786125,
+      "end": 7.175
+    },
+    {
+      "text": "as",
+      "start": 7.188875,
+      "end": 7.3
+    },
+    {
+      "text": "likely",
+      "start": 7.313875,
+      "end": 7.758333
+    },
+    {
+      "text": "as",
+      "start": 7.772208,
+      "end": 7.897208
+    },
+    {
+      "text": "those",
+      "start": 7.911125,
+      "end": 8.188916
+    },
+    {
+      "text": "who",
+      "start": 8.202791,
+      "end": 8.299999
+    },
+    {
+      "text": "don't",
+      "start": 8.313875,
+      "end": 8.536083
+    },
+    {
+      "text": "to",
+      "start": 8.55,
+      "end": 8.619458
+    },
+    {
+      "text": "say",
+      "start": 8.633333,
+      "end": 8.897208
+    },
+    {
+      "text": "they're",
+      "start": 8.911125,
+      "end": 9.077791
+    },
+    {
+      "text": "very",
+      "start": 9.091666,
+      "end": 9.369457
+    },
+    {
+      "text": "happy",
+      "start": 9.383333,
+      "end": 9.758333
+    },
+    {
+      "text": "about",
+      "start": 9.772208,
+      "end": 10.049999
+    },
+    {
+      "text": "their",
+      "start": 10.063875,
+      "end": 10.188875
+    },
+    {
+      "text": "lives",
+      "start": 10.202791,
+      "end": 10.841666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 9860830,
+      "text": "In 2000"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11194580,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12305410,
+      "duration": 3750000,
+      "text": "General"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16194580,
+      "duration": 4166660,
+      "text": "Social"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20500000,
+      "duration": 4861250,
+      "text": "Survey"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25500000,
+      "duration": 4583330,
+      "text": "revealed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30222080,
+      "duration": 1805410,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32166660,
+      "duration": 3611250,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35916660,
+      "duration": 1250000,
+      "text": "who"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37305410,
+      "duration": 5694580,
+      "text": "personally"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43138750,
+      "duration": 3194580,
+      "text": "feel"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46472080,
+      "duration": 5972080,
+      "text": "completely"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52583330,
+      "duration": 4305410,
+      "text": "free"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57027910,
+      "duration": 1388750,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58555410,
+      "duration": 3055410,
+      "text": "very"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61750000,
+      "duration": 4305410,
+      "text": "free"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66194580,
+      "duration": 1527910,
+      "text": "were"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67861250,
+      "duration": 3888750,
+      "text": "twice"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71888750,
+      "duration": 1111250,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73138750,
+      "duration": 4444580,
+      "text": "likely"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 77722080,
+      "duration": 1250000,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79111250,
+      "duration": 2777910,
+      "text": "those"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82027910,
+      "duration": 972080,
+      "text": "who"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 83138750,
+      "duration": 2222080,
+      "text": "don't"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 85500000,
+      "duration": 694580,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 86333330,
+      "duration": 2638750,
+      "text": "say"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 89111250,
+      "duration": 1666660,
+      "text": "they're"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 90916660,
+      "duration": 2777910,
+      "text": "very"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 93833330,
+      "duration": 3750000,
+      "text": "happy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 97722080,
+      "duration": 2777910,
+      "text": "about"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 100638750,
+      "duration": 1250000,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 102027910,
+      "duration": 6388750,
+      "text": "lives"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:37:52.641010+00:00"
+}

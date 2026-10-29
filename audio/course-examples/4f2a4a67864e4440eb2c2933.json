@@ -1,0 +1,182 @@
+{
+  "speechText": "If you do get sick, know you can take steps to protect those around you.",
+  "audio": "audio/course-examples/4f2a4a67864e4440eb2c2933.mp3",
+  "sha256": "cc440e19f76394470f99f431a683798f22d53eb147ef8d75935511c30bad29b0",
+  "duration": 4.968,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "If",
+      "start": 0.147208,
+      "end": 0.313874
+    },
+    {
+      "text": "you",
+      "start": 0.327791,
+      "end": 0.466666
+    },
+    {
+      "text": "do",
+      "start": 0.480541,
+      "end": 0.702749
+    },
+    {
+      "text": "get",
+      "start": 0.716666,
+      "end": 0.966666
+    },
+    {
+      "text": "sick",
+      "start": 0.980541,
+      "end": 1.438874
+    },
+    {
+      "text": "know",
+      "start": 1.758333,
+      "end": 1.966666
+    },
+    {
+      "text": "you",
+      "start": 1.980541,
+      "end": 2.147207
+    },
+    {
+      "text": "can",
+      "start": 2.161125,
+      "end": 2.313916
+    },
+    {
+      "text": "take",
+      "start": 2.327791,
+      "end": 2.577791
+    },
+    {
+      "text": "steps",
+      "start": 2.591666,
+      "end": 2.980541
+    },
+    {
+      "text": "to",
+      "start": 2.994458,
+      "end": 3.091666
+    },
+    {
+      "text": "protect",
+      "start": 3.105541,
+      "end": 3.591666
+    },
+    {
+      "text": "those",
+      "start": 3.605541,
+      "end": 3.841666
+    },
+    {
+      "text": "around",
+      "start": 3.855541,
+      "end": 4.244416
+    },
+    {
+      "text": "you",
+      "start": 4.258333,
+      "end": 4.563874
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1666660,
+      "text": "If"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3277910,
+      "duration": 1388750,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4805410,
+      "duration": 2222080,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7166660,
+      "duration": 2500000,
+      "text": "get"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9805410,
+      "duration": 4583330,
+      "text": "sick"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17583330,
+      "duration": 2083330,
+      "text": "know"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19805410,
+      "duration": 1666660,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21611250,
+      "duration": 1527910,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23277910,
+      "duration": 2500000,
+      "text": "take"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 3888750,
+      "text": "steps"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29944580,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31055410,
+      "duration": 4861250,
+      "text": "protect"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36055410,
+      "duration": 2361250,
+      "text": "those"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38555410,
+      "duration": 3888750,
+      "text": "around"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42583330,
+      "duration": 3055410,
+      "text": "you"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:53:15.014760+00:00"
+}

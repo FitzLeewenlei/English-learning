@@ -1,0 +1,182 @@
+{
+  "speechText": "Teamwork is very necessary because colleagues can communicate with each other in an open way.",
+  "audio": "audio/course-examples/a5c01a2fe9071a7f634be59c.mp3",
+  "sha256": "2d65097278a614b45c10fd998865bb7ef61b0b3533206827ef639607b3bcb005",
+  "duration": 6.288,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Teamwork",
+      "start": 0.101375,
+      "end": 0.809708
+    },
+    {
+      "text": "is",
+      "start": 0.823625,
+      "end": 0.990291
+    },
+    {
+      "text": "very",
+      "start": 1.004166,
+      "end": 1.295832
+    },
+    {
+      "text": "necessary",
+      "start": 1.309708,
+      "end": 2.101374
+    },
+    {
+      "text": "because",
+      "start": 2.115291,
+      "end": 2.504166
+    },
+    {
+      "text": "colleagues",
+      "start": 2.518041,
+      "end": 3.087499
+    },
+    {
+      "text": "can",
+      "start": 3.101375,
+      "end": 3.281916
+    },
+    {
+      "text": "communicate",
+      "start": 3.295833,
+      "end": 3.990291
+    },
+    {
+      "text": "with",
+      "start": 4.004166,
+      "end": 4.156957
+    },
+    {
+      "text": "each",
+      "start": 4.170833,
+      "end": 4.379166
+    },
+    {
+      "text": "other",
+      "start": 4.393041,
+      "end": 4.726374
+    },
+    {
+      "text": "in",
+      "start": 4.740291,
+      "end": 4.906957
+    },
+    {
+      "text": "an",
+      "start": 4.920833,
+      "end": 5.045833
+    },
+    {
+      "text": "open",
+      "start": 5.059708,
+      "end": 5.393041
+    },
+    {
+      "text": "way",
+      "start": 5.406958,
+      "end": 5.879166
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 7083330,
+      "text": "Teamwork"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8236250,
+      "duration": 1666660,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10041660,
+      "duration": 2916660,
+      "text": "very"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13097080,
+      "duration": 7916660,
+      "text": "necessary"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21152910,
+      "duration": 3888750,
+      "text": "because"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25180410,
+      "duration": 5694580,
+      "text": "colleagues"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31013750,
+      "duration": 1805410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32958330,
+      "duration": 6944580,
+      "text": "communicate"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40041660,
+      "duration": 1527910,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41708330,
+      "duration": 2083330,
+      "text": "each"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43930410,
+      "duration": 3333330,
+      "text": "other"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47402910,
+      "duration": 1666660,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49208330,
+      "duration": 1250000,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50597080,
+      "duration": 3333330,
+      "text": "open"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54069580,
+      "duration": 4722080,
+      "text": "way"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:51:08.844750+00:00"
+}

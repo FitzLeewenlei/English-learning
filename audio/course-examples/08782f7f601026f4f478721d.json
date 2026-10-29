@@ -1,0 +1,171 @@
+{
+  "speechText": "When we taste traditional food, we can also learn about the stories behind it.",
+  "audio": "audio/course-examples/08782f7f601026f4f478721d.mp3",
+  "sha256": "1f2fbb138cfedf037eb0b60fa4d57c3d7df63216a6244a6b4a3467f969efcc7d",
+  "duration": 5.616,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "When",
+      "start": 0.119458,
+      "end": 0.355583
+    },
+    {
+      "text": "we",
+      "start": 0.369458,
+      "end": 0.508333
+    },
+    {
+      "text": "taste",
+      "start": 0.522208,
+      "end": 0.897208
+    },
+    {
+      "text": "traditional",
+      "start": 0.911125,
+      "end": 1.52225
+    },
+    {
+      "text": "food",
+      "start": 1.536125,
+      "end": 2.008333
+    },
+    {
+      "text": "we",
+      "start": 2.341666,
+      "end": 2.480541
+    },
+    {
+      "text": "can",
+      "start": 2.494458,
+      "end": 2.674999
+    },
+    {
+      "text": "also",
+      "start": 2.688875,
+      "end": 3.008333
+    },
+    {
+      "text": "learn",
+      "start": 3.022208,
+      "end": 3.397208
+    },
+    {
+      "text": "about",
+      "start": 3.411125,
+      "end": 3.702791
+    },
+    {
+      "text": "the",
+      "start": 3.716666,
+      "end": 3.813874
+    },
+    {
+      "text": "stories",
+      "start": 3.827791,
+      "end": 4.355582
+    },
+    {
+      "text": "behind",
+      "start": 4.369458,
+      "end": 4.813916
+    },
+    {
+      "text": "it",
+      "start": 4.827791,
+      "end": 5.202791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 2361250,
+      "text": "When"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3694580,
+      "duration": 1388750,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5222080,
+      "duration": 3750000,
+      "text": "taste"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9111250,
+      "duration": 6111250,
+      "text": "traditional"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 4722080,
+      "text": "food"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23416660,
+      "duration": 1388750,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24944580,
+      "duration": 1805410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26888750,
+      "duration": 3194580,
+      "text": "also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30222080,
+      "duration": 3750000,
+      "text": "learn"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34111250,
+      "duration": 2916660,
+      "text": "about"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37166660,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38277910,
+      "duration": 5277910,
+      "text": "stories"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43694580,
+      "duration": 4444580,
+      "text": "behind"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48277910,
+      "duration": 3750000,
+      "text": "it"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:35:52.983920+00:00"
+}

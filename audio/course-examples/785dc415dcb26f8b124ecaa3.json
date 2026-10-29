@@ -1,0 +1,237 @@
+{
+  "speechText": "The evidence is clear that gifts to charitable organizations and other worthy causes bring substantial life satisfaction to the givers.",
+  "audio": "audio/course-examples/785dc415dcb26f8b124ecaa3.mp3",
+  "sha256": "8de83d2fb8fc01f96db1b5ad4fffe991b2ee5aeccf17affca636c4bd5d8a429a",
+  "duration": 8.88,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.327749
+    },
+    {
+      "text": "evidence",
+      "start": 0.341666,
+      "end": 0.841666
+    },
+    {
+      "text": "is",
+      "start": 0.855541,
+      "end": 0.994416
+    },
+    {
+      "text": "clear",
+      "start": 1.008333,
+      "end": 1.424999
+    },
+    {
+      "text": "that",
+      "start": 1.438875,
+      "end": 1.647208
+    },
+    {
+      "text": "gifts",
+      "start": 1.661125,
+      "end": 2.05
+    },
+    {
+      "text": "to",
+      "start": 2.063875,
+      "end": 2.20275
+    },
+    {
+      "text": "charitable",
+      "start": 2.216666,
+      "end": 2.827791
+    },
+    {
+      "text": "organizations",
+      "start": 2.841666,
+      "end": 3.897207
+    },
+    {
+      "text": "and",
+      "start": 3.911125,
+      "end": 4.14725
+    },
+    {
+      "text": "other",
+      "start": 4.161125,
+      "end": 4.39725
+    },
+    {
+      "text": "worthy",
+      "start": 4.411125,
+      "end": 4.77225
+    },
+    {
+      "text": "causes",
+      "start": 4.786125,
+      "end": 5.383333
+    },
+    {
+      "text": "bring",
+      "start": 5.397208,
+      "end": 5.647208
+    },
+    {
+      "text": "substantial",
+      "start": 5.661125,
+      "end": 6.411125
+    },
+    {
+      "text": "life",
+      "start": 6.425,
+      "end": 6.702791
+    },
+    {
+      "text": "satisfaction",
+      "start": 6.716666,
+      "end": 7.591666
+    },
+    {
+      "text": "to",
+      "start": 7.605541,
+      "end": 7.730541
+    },
+    {
+      "text": "the",
+      "start": 7.744458,
+      "end": 7.855583
+    },
+    {
+      "text": "givers",
+      "start": 7.869458,
+      "end": 8.466666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1805410,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 5000000,
+      "text": "evidence"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8555410,
+      "duration": 1388750,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10083330,
+      "duration": 4166660,
+      "text": "clear"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14388750,
+      "duration": 2083330,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16611250,
+      "duration": 3888750,
+      "text": "gifts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20638750,
+      "duration": 1388750,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22166660,
+      "duration": 6111250,
+      "text": "charitable"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28416660,
+      "duration": 10555410,
+      "text": "organizations"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39111250,
+      "duration": 2361250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41611250,
+      "duration": 2361250,
+      "text": "other"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44111250,
+      "duration": 3611250,
+      "text": "worthy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47861250,
+      "duration": 5972080,
+      "text": "causes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53972080,
+      "duration": 2500000,
+      "text": "bring"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56611250,
+      "duration": 7500000,
+      "text": "substantial"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64250000,
+      "duration": 2777910,
+      "text": "life"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67166660,
+      "duration": 8750000,
+      "text": "satisfaction"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 76055410,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 77444580,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 78694580,
+      "duration": 5972080,
+      "text": "givers"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:38:27.313796+00:00"
+}

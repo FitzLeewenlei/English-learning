@@ -1,0 +1,237 @@
+{
+  "speechText": "If you don’t feel thankful for the good things in your life, that usually means you take them for granted.",
+  "audio": "audio/course-examples/bc3174211632b08b5e8586a7.mp3",
+  "sha256": "779ea87a29a0f70bd62e9261cd974ef0d425f13074b0b177fc1ac57a619577ca",
+  "duration": 6.432,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "If",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "you",
+      "start": 0.3,
+      "end": 0.411125
+    },
+    {
+      "text": "don’t",
+      "start": 0.425,
+      "end": 0.716666
+    },
+    {
+      "text": "feel",
+      "start": 0.730541,
+      "end": 0.980541
+    },
+    {
+      "text": "thankful",
+      "start": 0.994458,
+      "end": 1.591666
+    },
+    {
+      "text": "for",
+      "start": 1.605541,
+      "end": 1.730541
+    },
+    {
+      "text": "the",
+      "start": 1.744458,
+      "end": 1.855583
+    },
+    {
+      "text": "good",
+      "start": 1.869458,
+      "end": 2.063916
+    },
+    {
+      "text": "things",
+      "start": 2.077791,
+      "end": 2.397249
+    },
+    {
+      "text": "in",
+      "start": 2.411125,
+      "end": 2.508333
+    },
+    {
+      "text": "your",
+      "start": 2.522208,
+      "end": 2.619416
+    },
+    {
+      "text": "life",
+      "start": 2.633333,
+      "end": 3.161124
+    },
+    {
+      "text": "that",
+      "start": 3.494458,
+      "end": 3.716666
+    },
+    {
+      "text": "usually",
+      "start": 3.730541,
+      "end": 4.188874
+    },
+    {
+      "text": "means",
+      "start": 4.202791,
+      "end": 4.536124
+    },
+    {
+      "text": "you",
+      "start": 4.55,
+      "end": 4.661125
+    },
+    {
+      "text": "take",
+      "start": 4.675,
+      "end": 4.966666
+    },
+    {
+      "text": "them",
+      "start": 4.980541,
+      "end": 5.161082
+    },
+    {
+      "text": "for",
+      "start": 5.175,
+      "end": 5.3
+    },
+    {
+      "text": "granted",
+      "start": 5.313875,
+      "end": 6.022208
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "If"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1111250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4250000,
+      "duration": 2916660,
+      "text": "don’t"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7305410,
+      "duration": 2500000,
+      "text": "feel"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9944580,
+      "duration": 5972080,
+      "text": "thankful"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16055410,
+      "duration": 1250000,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17444580,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18694580,
+      "duration": 1944580,
+      "text": "good"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20777910,
+      "duration": 3194580,
+      "text": "things"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24111250,
+      "duration": 972080,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 972080,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26333330,
+      "duration": 5277910,
+      "text": "life"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34944580,
+      "duration": 2222080,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37305410,
+      "duration": 4583330,
+      "text": "usually"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42027910,
+      "duration": 3333330,
+      "text": "means"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45500000,
+      "duration": 1111250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46750000,
+      "duration": 2916660,
+      "text": "take"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49805410,
+      "duration": 1805410,
+      "text": "them"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51750000,
+      "duration": 1250000,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53138750,
+      "duration": 7083330,
+      "text": "granted"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:46:54.254298+00:00"
+}

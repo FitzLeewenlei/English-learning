@@ -1,0 +1,138 @@
+{
+  "speechText": "As civilizations grew, more different pollutants were dumped into the seas.",
+  "audio": "audio/course-examples/ec5aba6adc426bc2f48e8df3.mp3",
+  "sha256": "019f8b864edf356b5198e93b1a60ece0bdfc92a2b8d73a7902d07c440d426213",
+  "duration": 5.4,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "As",
+      "start": 0.147208,
+      "end": 0.327749
+    },
+    {
+      "text": "civilizations",
+      "start": 0.341666,
+      "end": 1.355541
+    },
+    {
+      "text": "grew",
+      "start": 1.369458,
+      "end": 1.772249
+    },
+    {
+      "text": "more",
+      "start": 2.105541,
+      "end": 2.286082
+    },
+    {
+      "text": "different",
+      "start": 2.3,
+      "end": 2.758333
+    },
+    {
+      "text": "pollutants",
+      "start": 2.772208,
+      "end": 3.438874
+    },
+    {
+      "text": "were",
+      "start": 3.452791,
+      "end": 3.577791
+    },
+    {
+      "text": "dumped",
+      "start": 3.591666,
+      "end": 3.980541
+    },
+    {
+      "text": "into",
+      "start": 3.994458,
+      "end": 4.230583
+    },
+    {
+      "text": "the",
+      "start": 4.244458,
+      "end": 4.355583
+    },
+    {
+      "text": "seas",
+      "start": 4.369458,
+      "end": 4.980583
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1805410,
+      "text": "As"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 10138750,
+      "text": "civilizations"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13694580,
+      "duration": 4027910,
+      "text": "grew"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21055410,
+      "duration": 1805410,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23000000,
+      "duration": 4583330,
+      "text": "different"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27722080,
+      "duration": 6666660,
+      "text": "pollutants"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34527910,
+      "duration": 1250000,
+      "text": "were"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35916660,
+      "duration": 3888750,
+      "text": "dumped"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39944580,
+      "duration": 2361250,
+      "text": "into"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42444580,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43694580,
+      "duration": 6111250,
+      "text": "seas"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:44:41.459633+00:00"
+}

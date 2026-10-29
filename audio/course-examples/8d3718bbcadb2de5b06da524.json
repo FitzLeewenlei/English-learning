@@ -1,0 +1,347 @@
+{
+  "speechText": "Maybe you’re sleepy in the evening but feel you must stay up late anyway, and counteract your cycle to some extent by habitually staying up later than you want to.",
+  "audio": "audio/course-examples/8d3718bbcadb2de5b06da524.mp3",
+  "sha256": "ddf2f0bed263625be71256ca12519f6f8957f2f970a97f97a1cfeb2549839067",
+  "duration": 9.744,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Maybe",
+      "start": 0.147208,
+      "end": 0.480541
+    },
+    {
+      "text": "you’re",
+      "start": 0.494458,
+      "end": 0.661124
+    },
+    {
+      "text": "sleepy",
+      "start": 0.675,
+      "end": 1.119458
+    },
+    {
+      "text": "in",
+      "start": 1.133333,
+      "end": 1.230541
+    },
+    {
+      "text": "the",
+      "start": 1.244458,
+      "end": 1.327791
+    },
+    {
+      "text": "evening",
+      "start": 1.341666,
+      "end": 1.911124
+    },
+    {
+      "text": "but",
+      "start": 1.925,
+      "end": 2.105541
+    },
+    {
+      "text": "feel",
+      "start": 2.119458,
+      "end": 2.397249
+    },
+    {
+      "text": "you",
+      "start": 2.411125,
+      "end": 2.52225
+    },
+    {
+      "text": "must",
+      "start": 2.536125,
+      "end": 2.786125
+    },
+    {
+      "text": "stay",
+      "start": 2.8,
+      "end": 3.036125
+    },
+    {
+      "text": "up",
+      "start": 3.05,
+      "end": 3.216666
+    },
+    {
+      "text": "late",
+      "start": 3.230541,
+      "end": 3.494416
+    },
+    {
+      "text": "anyway",
+      "start": 3.508333,
+      "end": 3.980541
+    },
+    {
+      "text": "and",
+      "start": 4.313875,
+      "end": 4.480541
+    },
+    {
+      "text": "counteract",
+      "start": 4.494458,
+      "end": 5.133333
+    },
+    {
+      "text": "your",
+      "start": 5.147208,
+      "end": 5.272208
+    },
+    {
+      "text": "cycle",
+      "start": 5.286125,
+      "end": 5.77225
+    },
+    {
+      "text": "to",
+      "start": 5.786125,
+      "end": 5.89725
+    },
+    {
+      "text": "some",
+      "start": 5.911125,
+      "end": 6.119458
+    },
+    {
+      "text": "extent",
+      "start": 6.133333,
+      "end": 6.758333
+    },
+    {
+      "text": "by",
+      "start": 6.772208,
+      "end": 6.897208
+    },
+    {
+      "text": "habitually",
+      "start": 6.911125,
+      "end": 7.536125
+    },
+    {
+      "text": "staying",
+      "start": 7.55,
+      "end": 7.911125
+    },
+    {
+      "text": "up",
+      "start": 7.925,
+      "end": 8.063875
+    },
+    {
+      "text": "later",
+      "start": 8.077791,
+      "end": 8.424999
+    },
+    {
+      "text": "than",
+      "start": 8.438875,
+      "end": 8.591666
+    },
+    {
+      "text": "you",
+      "start": 8.605541,
+      "end": 8.716666
+    },
+    {
+      "text": "want",
+      "start": 8.730541,
+      "end": 9.008332
+    },
+    {
+      "text": "to",
+      "start": 9.022208,
+      "end": 9.341666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 3333330,
+      "text": "Maybe"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 1666660,
+      "text": "you’re"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6750000,
+      "duration": 4444580,
+      "text": "sleepy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11333330,
+      "duration": 972080,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12444580,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13416660,
+      "duration": 5694580,
+      "text": "evening"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 1805410,
+      "text": "but"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21194580,
+      "duration": 2777910,
+      "text": "feel"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24111250,
+      "duration": 1111250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25361250,
+      "duration": 2500000,
+      "text": "must"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28000000,
+      "duration": 2361250,
+      "text": "stay"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30500000,
+      "duration": 1666660,
+      "text": "up"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32305410,
+      "duration": 2638750,
+      "text": "late"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35083330,
+      "duration": 4722080,
+      "text": "anyway"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43138750,
+      "duration": 1666660,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44944580,
+      "duration": 6388750,
+      "text": "counteract"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51472080,
+      "duration": 1250000,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52861250,
+      "duration": 4861250,
+      "text": "cycle"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57861250,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59111250,
+      "duration": 2083330,
+      "text": "some"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61333330,
+      "duration": 6250000,
+      "text": "extent"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67722080,
+      "duration": 1250000,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69111250,
+      "duration": 6250000,
+      "text": "habitually"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 75500000,
+      "duration": 3611250,
+      "text": "staying"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79250000,
+      "duration": 1388750,
+      "text": "up"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 80777910,
+      "duration": 3472080,
+      "text": "later"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 84388750,
+      "duration": 1527910,
+      "text": "than"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 86055410,
+      "duration": 1111250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 87305410,
+      "duration": 2777910,
+      "text": "want"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 90222080,
+      "duration": 3194580,
+      "text": "to"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:49:52.671358+00:00"
+}

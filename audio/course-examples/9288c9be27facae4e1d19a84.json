@@ -1,0 +1,380 @@
+{
+  "speechText": "We hurt their feelings by saying exactly what they don't want to hear; we stay away when they need us; or if we do get in touch, we avoid the sensitive subject altogether.",
+  "audio": "audio/course-examples/9288c9be27facae4e1d19a84.mp3",
+  "sha256": "5dca4f4b037c698386ec7a2746bbcf2879efe09f6d1a667a8b61b136fbc4362d",
+  "duration": 10.776,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "We",
+      "start": 0.101375,
+      "end": 0.323583
+    },
+    {
+      "text": "hurt",
+      "start": 0.3375,
+      "end": 0.698625
+    },
+    {
+      "text": "their",
+      "start": 0.7125,
+      "end": 0.879166
+    },
+    {
+      "text": "feelings",
+      "start": 0.893041,
+      "end": 1.504166
+    },
+    {
+      "text": "by",
+      "start": 1.518041,
+      "end": 1.684707
+    },
+    {
+      "text": "saying",
+      "start": 1.698625,
+      "end": 2.045833
+    },
+    {
+      "text": "exactly",
+      "start": 2.059708,
+      "end": 2.587499
+    },
+    {
+      "text": "what",
+      "start": 2.601375,
+      "end": 2.768041
+    },
+    {
+      "text": "they",
+      "start": 2.781958,
+      "end": 2.906958
+    },
+    {
+      "text": "don't",
+      "start": 2.920833,
+      "end": 3.170833
+    },
+    {
+      "text": "want",
+      "start": 3.184708,
+      "end": 3.379166
+    },
+    {
+      "text": "to",
+      "start": 3.393041,
+      "end": 3.476374
+    },
+    {
+      "text": "hear",
+      "start": 3.490291,
+      "end": 3.837499
+    },
+    {
+      "text": "we",
+      "start": 4.198625,
+      "end": 4.30975
+    },
+    {
+      "text": "stay",
+      "start": 4.323625,
+      "end": 4.601416
+    },
+    {
+      "text": "away",
+      "start": 4.615291,
+      "end": 4.920832
+    },
+    {
+      "text": "when",
+      "start": 4.934708,
+      "end": 5.087499
+    },
+    {
+      "text": "they",
+      "start": 5.101375,
+      "end": 5.24025
+    },
+    {
+      "text": "need",
+      "start": 5.254166,
+      "end": 5.518041
+    },
+    {
+      "text": "us",
+      "start": 5.531958,
+      "end": 5.851416
+    },
+    {
+      "text": "or",
+      "start": 6.129166,
+      "end": 6.254166
+    },
+    {
+      "text": "if",
+      "start": 6.268041,
+      "end": 6.393041
+    },
+    {
+      "text": "we",
+      "start": 6.406958,
+      "end": 6.518083
+    },
+    {
+      "text": "do",
+      "start": 6.531958,
+      "end": 6.712499
+    },
+    {
+      "text": "get",
+      "start": 6.726375,
+      "end": 6.934708
+    },
+    {
+      "text": "in",
+      "start": 6.948625,
+      "end": 7.073625
+    },
+    {
+      "text": "touch",
+      "start": 7.0875,
+      "end": 7.545833
+    },
+    {
+      "text": "we",
+      "start": 7.809708,
+      "end": 7.962499
+    },
+    {
+      "text": "avoid",
+      "start": 7.976375,
+      "end": 8.420833
+    },
+    {
+      "text": "the",
+      "start": 8.434708,
+      "end": 8.545833
+    },
+    {
+      "text": "sensitive",
+      "start": 8.559708,
+      "end": 9.115249
+    },
+    {
+      "text": "subject",
+      "start": 9.129166,
+      "end": 9.643041
+    },
+    {
+      "text": "altogether",
+      "start": 9.656958,
+      "end": 10.351416
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 2222080,
+      "text": "We"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3375000,
+      "duration": 3611250,
+      "text": "hurt"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7125000,
+      "duration": 1666660,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8930410,
+      "duration": 6111250,
+      "text": "feelings"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15180410,
+      "duration": 1666660,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16986250,
+      "duration": 3472080,
+      "text": "saying"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20597080,
+      "duration": 5277910,
+      "text": "exactly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26013750,
+      "duration": 1666660,
+      "text": "what"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27819580,
+      "duration": 1250000,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29208330,
+      "duration": 2500000,
+      "text": "don't"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31847080,
+      "duration": 1944580,
+      "text": "want"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33930410,
+      "duration": 833330,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34902910,
+      "duration": 3472080,
+      "text": "hear"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41986250,
+      "duration": 1111250,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43236250,
+      "duration": 2777910,
+      "text": "stay"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46152910,
+      "duration": 3055410,
+      "text": "away"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49347080,
+      "duration": 1527910,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51013750,
+      "duration": 1388750,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52541660,
+      "duration": 2638750,
+      "text": "need"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55319580,
+      "duration": 3194580,
+      "text": "us"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61291660,
+      "duration": 1250000,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62680410,
+      "duration": 1250000,
+      "text": "if"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64069580,
+      "duration": 1111250,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 65319580,
+      "duration": 1805410,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67263750,
+      "duration": 2083330,
+      "text": "get"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69486250,
+      "duration": 1250000,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70875000,
+      "duration": 4583330,
+      "text": "touch"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 78097080,
+      "duration": 1527910,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79763750,
+      "duration": 4444580,
+      "text": "avoid"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 84347080,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 85597080,
+      "duration": 5555410,
+      "text": "sensitive"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 91291660,
+      "duration": 5138750,
+      "text": "subject"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 96569580,
+      "duration": 6944580,
+      "text": "altogether"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:39:17.427259+00:00"
+}

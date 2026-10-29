@@ -1,0 +1,149 @@
+{
+  "speechText": "The research suggests the seas are still noisy with humpback whale sounds.",
+  "audio": "audio/course-examples/d8d907fdeec25db0352bcf26.mp3",
+  "sha256": "da5137b5fb96973b1f0e16f1d7efa060768761f2a96c617ff46667714fe513b0",
+  "duration": 5.328,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.272208
+    },
+    {
+      "text": "research",
+      "start": 0.286125,
+      "end": 0.925
+    },
+    {
+      "text": "suggests",
+      "start": 0.938875,
+      "end": 1.522208
+    },
+    {
+      "text": "the",
+      "start": 1.536125,
+      "end": 1.661125
+    },
+    {
+      "text": "seas",
+      "start": 1.675,
+      "end": 2.161125
+    },
+    {
+      "text": "are",
+      "start": 2.175,
+      "end": 2.286125
+    },
+    {
+      "text": "still",
+      "start": 2.3,
+      "end": 2.647208
+    },
+    {
+      "text": "noisy",
+      "start": 2.661125,
+      "end": 3.14725
+    },
+    {
+      "text": "with",
+      "start": 3.161125,
+      "end": 3.327791
+    },
+    {
+      "text": "humpback",
+      "start": 3.341666,
+      "end": 3.897207
+    },
+    {
+      "text": "whale",
+      "start": 3.911125,
+      "end": 4.230583
+    },
+    {
+      "text": "sounds",
+      "start": 4.244458,
+      "end": 4.911124
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1250000,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 6388750,
+      "text": "research"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9388750,
+      "duration": 5833330,
+      "text": "suggests"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16750000,
+      "duration": 4861250,
+      "text": "seas"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21750000,
+      "duration": 1111250,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23000000,
+      "duration": 3472080,
+      "text": "still"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26611250,
+      "duration": 4861250,
+      "text": "noisy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31611250,
+      "duration": 1666660,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33416660,
+      "duration": 5555410,
+      "text": "humpback"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39111250,
+      "duration": 3194580,
+      "text": "whale"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42444580,
+      "duration": 6666660,
+      "text": "sounds"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:34:57.447094+00:00"
+}

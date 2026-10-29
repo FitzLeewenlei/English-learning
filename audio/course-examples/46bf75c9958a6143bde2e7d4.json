@@ -1,0 +1,166 @@
+{
+  "speechText": "Dickinson was born on December 10, 1830, in a small Massachusetts town called Amherst.",
+  "audio": "audio/course-examples/46bf75c9958a6143bde2e7d4.mp3",
+  "sha256": "72b43351c578aa8f5eb934215059139d8951e42669d962d4da2d5aa446c36a85",
+  "duration": 7.416,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [
+    "December",
+    "10",
+    "1830"
+  ],
+  "words": [
+    {
+      "text": "Dickinson",
+      "start": 0.101375,
+      "end": 0.8375
+    },
+    {
+      "text": "was",
+      "start": 0.851375,
+      "end": 1.031916
+    },
+    {
+      "text": "born",
+      "start": 1.045833,
+      "end": 1.379166
+    },
+    {
+      "text": "on",
+      "start": 1.393041,
+      "end": 1.518041
+    },
+    {
+      "text": "December",
+      "start": 1.531958,
+      "end": 2.7938626,
+      "estimatedSplit": true
+    },
+    {
+      "text": "10",
+      "start": 2.7938626,
+      "end": 3.1093387,
+      "estimatedSplit": true
+    },
+    {
+      "text": "1830",
+      "start": 3.1093387,
+      "end": 3.740291,
+      "estimatedSplit": true
+    },
+    {
+      "text": "in",
+      "start": 4.059708,
+      "end": 4.184708
+    },
+    {
+      "text": "a",
+      "start": 4.198625,
+      "end": 4.254166
+    },
+    {
+      "text": "small",
+      "start": 4.268041,
+      "end": 4.615249
+    },
+    {
+      "text": "Massachusetts",
+      "start": 4.629166,
+      "end": 5.462499
+    },
+    {
+      "text": "town",
+      "start": 5.476375,
+      "end": 5.893041
+    },
+    {
+      "text": "called",
+      "start": 5.906958,
+      "end": 6.212499
+    },
+    {
+      "text": "Amherst",
+      "start": 6.226375,
+      "end": 7.004166
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 7361250,
+      "text": "Dickinson"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8513750,
+      "duration": 1805410,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10458330,
+      "duration": 3333330,
+      "text": "born"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13930410,
+      "duration": 1250000,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15319580,
+      "duration": 22083330,
+      "text": "December 10, 1830"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40597080,
+      "duration": 1250000,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41986250,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42680410,
+      "duration": 3472080,
+      "text": "small"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46291660,
+      "duration": 8333330,
+      "text": "Massachusetts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54763750,
+      "duration": 4166660,
+      "text": "town"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59069580,
+      "duration": 3055410,
+      "text": "called"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62263750,
+      "duration": 7777910,
+      "text": "Amherst"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:46:30.534171+00:00"
+}

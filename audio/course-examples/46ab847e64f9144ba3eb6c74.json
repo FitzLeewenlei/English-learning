@@ -1,0 +1,182 @@
+{
+  "speechText": "Not until recently did they encourage the development of tourist-related activities in the rural areas.",
+  "audio": "audio/course-examples/46ab847e64f9144ba3eb6c74.mp3",
+  "sha256": "64ff44a87684de628f5fdf5f08a6fc0d8416b03ad7d135dcc4f363b1977686d1",
+  "duration": 7.128,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Not",
+      "start": 0.119458,
+      "end": 0.438916
+    },
+    {
+      "text": "until",
+      "start": 0.452791,
+      "end": 0.869457
+    },
+    {
+      "text": "recently",
+      "start": 0.883333,
+      "end": 1.549999
+    },
+    {
+      "text": "did",
+      "start": 1.563875,
+      "end": 1.758333
+    },
+    {
+      "text": "they",
+      "start": 1.772208,
+      "end": 1.911083
+    },
+    {
+      "text": "encourage",
+      "start": 1.925,
+      "end": 2.522208
+    },
+    {
+      "text": "the",
+      "start": 2.536125,
+      "end": 2.661125
+    },
+    {
+      "text": "development",
+      "start": 2.675,
+      "end": 3.383333
+    },
+    {
+      "text": "of",
+      "start": 3.397208,
+      "end": 3.563874
+    },
+    {
+      "text": "tourist-related",
+      "start": 3.577791,
+      "end": 4.508332
+    },
+    {
+      "text": "activities",
+      "start": 4.522208,
+      "end": 5.341666
+    },
+    {
+      "text": "in",
+      "start": 5.355541,
+      "end": 5.508332
+    },
+    {
+      "text": "the",
+      "start": 5.522208,
+      "end": 5.633333
+    },
+    {
+      "text": "rural",
+      "start": 5.647208,
+      "end": 6.049999
+    },
+    {
+      "text": "areas",
+      "start": 6.063875,
+      "end": 6.70275
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 3194580,
+      "text": "Not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4527910,
+      "duration": 4166660,
+      "text": "until"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8833330,
+      "duration": 6666660,
+      "text": "recently"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 1944580,
+      "text": "did"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17722080,
+      "duration": 1388750,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 5972080,
+      "text": "encourage"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25361250,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26750000,
+      "duration": 7083330,
+      "text": "development"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33972080,
+      "duration": 1666660,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35777910,
+      "duration": 9305410,
+      "text": "tourist-related"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45222080,
+      "duration": 8194580,
+      "text": "activities"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53555410,
+      "duration": 1527910,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55222080,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56472080,
+      "duration": 4027910,
+      "text": "rural"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60638750,
+      "duration": 6388750,
+      "text": "areas"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:43:46.644152+00:00"
+}

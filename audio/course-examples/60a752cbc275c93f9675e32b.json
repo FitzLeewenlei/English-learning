@@ -1,0 +1,226 @@
+{
+  "speechText": "Some reports show that you can burn as many as 500 calories in only 30 minutes of the activity.",
+  "audio": "audio/course-examples/60a752cbc275c93f9675e32b.mp3",
+  "sha256": "462218d924c5cc0285923b6c0c231d83279e0521353b303f5811e853a76bd3af",
+  "duration": 7.08,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Some",
+      "start": 0.133333,
+      "end": 0.438874
+    },
+    {
+      "text": "reports",
+      "start": 0.452791,
+      "end": 1.022249
+    },
+    {
+      "text": "show",
+      "start": 1.036125,
+      "end": 1.341666
+    },
+    {
+      "text": "that",
+      "start": 1.355541,
+      "end": 1.549999
+    },
+    {
+      "text": "you",
+      "start": 1.563875,
+      "end": 1.675
+    },
+    {
+      "text": "can",
+      "start": 1.688875,
+      "end": 1.897208
+    },
+    {
+      "text": "burn",
+      "start": 1.911125,
+      "end": 2.286125
+    },
+    {
+      "text": "as",
+      "start": 2.3,
+      "end": 2.452791
+    },
+    {
+      "text": "many",
+      "start": 2.466666,
+      "end": 2.813874
+    },
+    {
+      "text": "as",
+      "start": 2.827791,
+      "end": 2.994457
+    },
+    {
+      "text": "500",
+      "start": 3.008333,
+      "end": 3.661124
+    },
+    {
+      "text": "calories",
+      "start": 3.675,
+      "end": 4.327791
+    },
+    {
+      "text": "in",
+      "start": 4.341666,
+      "end": 4.536124
+    },
+    {
+      "text": "only",
+      "start": 4.55,
+      "end": 4.827791
+    },
+    {
+      "text": "30",
+      "start": 4.841666,
+      "end": 5.272207
+    },
+    {
+      "text": "minutes",
+      "start": 5.286125,
+      "end": 5.661125
+    },
+    {
+      "text": "of",
+      "start": 5.675,
+      "end": 5.772208
+    },
+    {
+      "text": "the",
+      "start": 5.786125,
+      "end": 5.89725
+    },
+    {
+      "text": "activity",
+      "start": 5.911125,
+      "end": 6.661125
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 3055410,
+      "text": "Some"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4527910,
+      "duration": 5694580,
+      "text": "reports"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10361250,
+      "duration": 3055410,
+      "text": "show"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13555410,
+      "duration": 1944580,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 1111250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16888750,
+      "duration": 2083330,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19111250,
+      "duration": 3750000,
+      "text": "burn"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23000000,
+      "duration": 1527910,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24666660,
+      "duration": 3472080,
+      "text": "many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28277910,
+      "duration": 1666660,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30083330,
+      "duration": 6527910,
+      "text": "500"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36750000,
+      "duration": 6527910,
+      "text": "calories"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43416660,
+      "duration": 1944580,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45500000,
+      "duration": 2777910,
+      "text": "only"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48416660,
+      "duration": 4305410,
+      "text": "30"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52861250,
+      "duration": 3750000,
+      "text": "minutes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56750000,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57861250,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59111250,
+      "duration": 7500000,
+      "text": "activity"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:35:20.706418+00:00"
+}

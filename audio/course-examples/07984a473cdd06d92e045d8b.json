@@ -1,0 +1,72 @@
+{
+  "speechText": "Its importance is widely recognized.",
+  "audio": "audio/course-examples/07984a473cdd06d92e045d8b.mp3",
+  "sha256": "07a128289965684ebf5d757521cc016a209f90d91729d09056b473b794df30ec",
+  "duration": 3.336,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Its",
+      "start": 0.119458,
+      "end": 0.327791
+    },
+    {
+      "text": "importance",
+      "start": 0.341666,
+      "end": 1.202791
+    },
+    {
+      "text": "is",
+      "start": 1.216666,
+      "end": 1.411124
+    },
+    {
+      "text": "widely",
+      "start": 1.425,
+      "end": 1.897208
+    },
+    {
+      "text": "recognized",
+      "start": 1.911125,
+      "end": 2.925
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 2083330,
+      "text": "Its"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 8611250,
+      "text": "importance"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12166660,
+      "duration": 1944580,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14250000,
+      "duration": 4722080,
+      "text": "widely"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19111250,
+      "duration": 10138750,
+      "text": "recognized"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:46:35.708488+00:00"
+}

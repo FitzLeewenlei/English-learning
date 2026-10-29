@@ -1,0 +1,182 @@
+{
+  "speechText": "The most famous one, Esperanto ，was the idea of Ludwig Zamenhof, a doctor in Warsaw.",
+  "audio": "audio/course-examples/3bc594ce20f4fe23e8217cc5.mp3",
+  "sha256": "06524b0a8eb0171b243402a0d5e264f8bb8d3c8446d772334ba93dd554ee0a82",
+  "duration": 6.912,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.244416
+    },
+    {
+      "text": "most",
+      "start": 0.258333,
+      "end": 0.591666
+    },
+    {
+      "text": "famous",
+      "start": 0.605541,
+      "end": 1.036082
+    },
+    {
+      "text": "one",
+      "start": 1.05,
+      "end": 1.452791
+    },
+    {
+      "text": "Esperanto",
+      "start": 1.702791,
+      "end": 2.508332
+    },
+    {
+      "text": "was",
+      "start": 2.522208,
+      "end": 2.702749
+    },
+    {
+      "text": "the",
+      "start": 2.716666,
+      "end": 2.855541
+    },
+    {
+      "text": "idea",
+      "start": 2.869458,
+      "end": 3.466666
+    },
+    {
+      "text": "of",
+      "start": 3.480541,
+      "end": 3.633332
+    },
+    {
+      "text": "Ludwig",
+      "start": 3.647208,
+      "end": 4.105541
+    },
+    {
+      "text": "Zamenhof",
+      "start": 4.119458,
+      "end": 4.841666
+    },
+    {
+      "text": "a",
+      "start": 5.133333,
+      "end": 5.188874
+    },
+    {
+      "text": "doctor",
+      "start": 5.202791,
+      "end": 5.661124
+    },
+    {
+      "text": "in",
+      "start": 5.675,
+      "end": 5.841666
+    },
+    {
+      "text": "Warsaw",
+      "start": 5.855541,
+      "end": 6.508332
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 972080,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2583330,
+      "duration": 3333330,
+      "text": "most"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6055410,
+      "duration": 4305410,
+      "text": "famous"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10500000,
+      "duration": 4027910,
+      "text": "one"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17027910,
+      "duration": 8055410,
+      "text": "Esperanto"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 1805410,
+      "text": "，was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27166660,
+      "duration": 1388750,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28694580,
+      "duration": 5972080,
+      "text": "idea"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34805410,
+      "duration": 1527910,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36472080,
+      "duration": 4583330,
+      "text": "Ludwig"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41194580,
+      "duration": 7222080,
+      "text": "Zamenhof"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51333330,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52027910,
+      "duration": 4583330,
+      "text": "doctor"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56750000,
+      "duration": 1666660,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58555410,
+      "duration": 6527910,
+      "text": "Warsaw"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:47:21.832847+00:00"
+}

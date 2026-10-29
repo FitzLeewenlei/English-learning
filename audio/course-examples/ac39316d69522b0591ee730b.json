@@ -1,0 +1,248 @@
+{
+  "speechText": "Children would then have the right context and foundation to get the most out of both the apps and their money.",
+  "audio": "audio/course-examples/ac39316d69522b0591ee730b.mp3",
+  "sha256": "45033e15baf3747d61bbfca48f777c0c1c058f21aa57550c172863f6a5adf218",
+  "duration": 6.552,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Children",
+      "start": 0.102791,
+      "end": 0.658332
+    },
+    {
+      "text": "would",
+      "start": 0.672208,
+      "end": 0.852749
+    },
+    {
+      "text": "then",
+      "start": 0.866666,
+      "end": 1.074999
+    },
+    {
+      "text": "have",
+      "start": 1.088875,
+      "end": 1.311083
+    },
+    {
+      "text": "the",
+      "start": 1.325,
+      "end": 1.436125
+    },
+    {
+      "text": "right",
+      "start": 1.45,
+      "end": 1.783333
+    },
+    {
+      "text": "context",
+      "start": 1.797208,
+      "end": 2.449999
+    },
+    {
+      "text": "and",
+      "start": 2.463875,
+      "end": 2.561083
+    },
+    {
+      "text": "foundation",
+      "start": 2.575,
+      "end": 3.408333
+    },
+    {
+      "text": "to",
+      "start": 3.422208,
+      "end": 3.547208
+    },
+    {
+      "text": "get",
+      "start": 3.561125,
+      "end": 3.769458
+    },
+    {
+      "text": "the",
+      "start": 3.783333,
+      "end": 3.866666
+    },
+    {
+      "text": "most",
+      "start": 3.880541,
+      "end": 4.227749
+    },
+    {
+      "text": "out",
+      "start": 4.241666,
+      "end": 4.477791
+    },
+    {
+      "text": "of",
+      "start": 4.491666,
+      "end": 4.630541
+    },
+    {
+      "text": "both",
+      "start": 4.644458,
+      "end": 4.922249
+    },
+    {
+      "text": "the",
+      "start": 4.936125,
+      "end": 5.075
+    },
+    {
+      "text": "apps",
+      "start": 5.088875,
+      "end": 5.45
+    },
+    {
+      "text": "and",
+      "start": 5.463875,
+      "end": 5.561083
+    },
+    {
+      "text": "their",
+      "start": 5.575,
+      "end": 5.686125
+    },
+    {
+      "text": "money",
+      "start": 5.7,
+      "end": 6.144458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1027910,
+      "duration": 5555410,
+      "text": "Children"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6722080,
+      "duration": 1805410,
+      "text": "would"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8666660,
+      "duration": 2083330,
+      "text": "then"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10888750,
+      "duration": 2222080,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13250000,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14500000,
+      "duration": 3333330,
+      "text": "right"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17972080,
+      "duration": 6527910,
+      "text": "context"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24638750,
+      "duration": 972080,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25750000,
+      "duration": 8333330,
+      "text": "foundation"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34222080,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35611250,
+      "duration": 2083330,
+      "text": "get"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37833330,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38805410,
+      "duration": 3472080,
+      "text": "most"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42416660,
+      "duration": 2361250,
+      "text": "out"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44916660,
+      "duration": 1388750,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46444580,
+      "duration": 2777910,
+      "text": "both"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49361250,
+      "duration": 1388750,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50888750,
+      "duration": 3611250,
+      "text": "apps"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54638750,
+      "duration": 972080,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55750000,
+      "duration": 1111250,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57000000,
+      "duration": 4444580,
+      "text": "money"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:39:09.669141+00:00"
+}

@@ -1,0 +1,182 @@
+{
+  "speechText": "When we got a call saying she was shortlisted, we thought it was a joke.",
+  "audio": "audio/course-examples/dc5f69ed0be88c67d1606353.mp3",
+  "sha256": "3c693734af42022108c54910ce2a7889693cc535e8cc9e67aa2325a7d3109f55",
+  "duration": 4.944,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "When",
+      "start": 0.147208,
+      "end": 0.341666
+    },
+    {
+      "text": "we",
+      "start": 0.355541,
+      "end": 0.466666
+    },
+    {
+      "text": "got",
+      "start": 0.480541,
+      "end": 0.702749
+    },
+    {
+      "text": "a",
+      "start": 0.716666,
+      "end": 0.786124
+    },
+    {
+      "text": "call",
+      "start": 0.8,
+      "end": 1.202791
+    },
+    {
+      "text": "saying",
+      "start": 1.216666,
+      "end": 1.605541
+    },
+    {
+      "text": "she",
+      "start": 1.619458,
+      "end": 1.786124
+    },
+    {
+      "text": "was",
+      "start": 1.8,
+      "end": 1.966666
+    },
+    {
+      "text": "shortlisted",
+      "start": 1.980541,
+      "end": 2.799999
+    },
+    {
+      "text": "we",
+      "start": 3.119458,
+      "end": 3.258333
+    },
+    {
+      "text": "thought",
+      "start": 3.272208,
+      "end": 3.577749
+    },
+    {
+      "text": "it",
+      "start": 3.591666,
+      "end": 3.688874
+    },
+    {
+      "text": "was",
+      "start": 3.702791,
+      "end": 3.855582
+    },
+    {
+      "text": "a",
+      "start": 3.869458,
+      "end": 3.938916
+    },
+    {
+      "text": "joke",
+      "start": 3.952791,
+      "end": 4.522249
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1944580,
+      "text": "When"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 1111250,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4805410,
+      "duration": 2222080,
+      "text": "got"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7166660,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8000000,
+      "duration": 4027910,
+      "text": "call"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12166660,
+      "duration": 3888750,
+      "text": "saying"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16194580,
+      "duration": 1666660,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18000000,
+      "duration": 1666660,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19805410,
+      "duration": 8194580,
+      "text": "shortlisted"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31194580,
+      "duration": 1388750,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32722080,
+      "duration": 3055410,
+      "text": "thought"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35916660,
+      "duration": 972080,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37027910,
+      "duration": 1527910,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38694580,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39527910,
+      "duration": 5694580,
+      "text": "joke"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:47:47.887680+00:00"
+}

@@ -1,0 +1,127 @@
+{
+  "speechText": "She said that she would be here at seven o'clock.",
+  "audio": "audio/course-examples/8db1f424144277844586e3a2.mp3",
+  "sha256": "5f7f731392ae110a67e6211eb0425052eb491025999cbb19994381cf8c2ce8f0",
+  "duration": 3.6,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "She",
+      "start": 0.133333,
+      "end": 0.355541
+    },
+    {
+      "text": "said",
+      "start": 0.369458,
+      "end": 0.702791
+    },
+    {
+      "text": "that",
+      "start": 0.716666,
+      "end": 0.897207
+    },
+    {
+      "text": "she",
+      "start": 0.911125,
+      "end": 1.077791
+    },
+    {
+      "text": "would",
+      "start": 1.091666,
+      "end": 1.286124
+    },
+    {
+      "text": "be",
+      "start": 1.3,
+      "end": 1.466666
+    },
+    {
+      "text": "here",
+      "start": 1.480541,
+      "end": 1.911082
+    },
+    {
+      "text": "at",
+      "start": 1.925,
+      "end": 2.133333
+    },
+    {
+      "text": "seven",
+      "start": 2.147208,
+      "end": 2.508333
+    },
+    {
+      "text": "o'clock",
+      "start": 2.522208,
+      "end": 3.174999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2222080,
+      "text": "She"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3694580,
+      "duration": 3333330,
+      "text": "said"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7166660,
+      "duration": 1805410,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9111250,
+      "duration": 1666660,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10916660,
+      "duration": 1944580,
+      "text": "would"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13000000,
+      "duration": 1666660,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14805410,
+      "duration": 4305410,
+      "text": "here"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 2083330,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21472080,
+      "duration": 3611250,
+      "text": "seven"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 6527910,
+      "text": "o'clock"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:37:35.097251+00:00"
+}

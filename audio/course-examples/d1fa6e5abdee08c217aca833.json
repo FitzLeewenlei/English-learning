@@ -1,0 +1,83 @@
+{
+  "speechText": "Things have changed greatly since then.",
+  "audio": "audio/course-examples/d1fa6e5abdee08c217aca833.mp3",
+  "sha256": "c174c70096531f92c2e175c7c36f23758a61d3f18805ea1642377aaee3f19357",
+  "duration": 3.096,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Things",
+      "start": 0.101375,
+      "end": 0.518041
+    },
+    {
+      "text": "have",
+      "start": 0.531958,
+      "end": 0.698624
+    },
+    {
+      "text": "changed",
+      "start": 0.7125,
+      "end": 1.3375
+    },
+    {
+      "text": "greatly",
+      "start": 1.351375,
+      "end": 1.823583
+    },
+    {
+      "text": "since",
+      "start": 1.8375,
+      "end": 2.226375
+    },
+    {
+      "text": "then",
+      "start": 2.240291,
+      "end": 2.670832
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 4166660,
+      "text": "Things"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5319580,
+      "duration": 1666660,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7125000,
+      "duration": 6250000,
+      "text": "changed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13513750,
+      "duration": 4722080,
+      "text": "greatly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18375000,
+      "duration": 3888750,
+      "text": "since"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22402910,
+      "duration": 4305410,
+      "text": "then"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:38:38.877700+00:00"
+}

@@ -1,0 +1,193 @@
+{
+  "speechText": "Nowadays, more and more students seem reluctant to help their classmates who have difficulties in studies.",
+  "audio": "audio/course-examples/6078a278529875649b3c4717.mp3",
+  "sha256": "e4dc89eb17a361b8cab0050aed2f85ecd71c724e48f766b3c9e099ea8a10642b",
+  "duration": 7.248,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Nowadays",
+      "start": 0.133333,
+      "end": 0.980541
+    },
+    {
+      "text": "more",
+      "start": 1.272208,
+      "end": 1.716666
+    },
+    {
+      "text": "and",
+      "start": 1.813875,
+      "end": 1.938875
+    },
+    {
+      "text": "more",
+      "start": 1.952791,
+      "end": 2.161124
+    },
+    {
+      "text": "students",
+      "start": 2.175,
+      "end": 2.730541
+    },
+    {
+      "text": "seem",
+      "start": 2.744458,
+      "end": 2.980583
+    },
+    {
+      "text": "reluctant",
+      "start": 2.994458,
+      "end": 3.716666
+    },
+    {
+      "text": "to",
+      "start": 3.730541,
+      "end": 3.827749
+    },
+    {
+      "text": "help",
+      "start": 3.841666,
+      "end": 4.119457
+    },
+    {
+      "text": "their",
+      "start": 4.133333,
+      "end": 4.258333
+    },
+    {
+      "text": "classmates",
+      "start": 4.272208,
+      "end": 5.022208
+    },
+    {
+      "text": "who",
+      "start": 5.036125,
+      "end": 5.133333
+    },
+    {
+      "text": "have",
+      "start": 5.147208,
+      "end": 5.313874
+    },
+    {
+      "text": "difficulties",
+      "start": 5.327791,
+      "end": 6.008332
+    },
+    {
+      "text": "in",
+      "start": 6.022208,
+      "end": 6.147208
+    },
+    {
+      "text": "studies",
+      "start": 6.161125,
+      "end": 6.827791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 8472080,
+      "text": "Nowadays"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 4444580,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18138750,
+      "duration": 1250000,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19527910,
+      "duration": 2083330,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21750000,
+      "duration": 5555410,
+      "text": "students"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27444580,
+      "duration": 2361250,
+      "text": "seem"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29944580,
+      "duration": 7222080,
+      "text": "reluctant"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37305410,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38416660,
+      "duration": 2777910,
+      "text": "help"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41333330,
+      "duration": 1250000,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42722080,
+      "duration": 7500000,
+      "text": "classmates"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50361250,
+      "duration": 972080,
+      "text": "who"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51472080,
+      "duration": 1666660,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53277910,
+      "duration": 6805410,
+      "text": "difficulties"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60222080,
+      "duration": 1250000,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61611250,
+      "duration": 6666660,
+      "text": "studies"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:46:48.153877+00:00"
+}

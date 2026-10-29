@@ -1,0 +1,149 @@
+{
+  "speechText": "Parents are advised to learn about the Internet along with their children.",
+  "audio": "audio/course-examples/8333da4a677307a7cf7b28da.mp3",
+  "sha256": "afa4c5828e5ab03b748b6119a49773f5498969e95d9c5e7d1e85e7fe6c3712dd",
+  "duration": 4.848,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Parents",
+      "start": 0.119458,
+      "end": 0.702791
+    },
+    {
+      "text": "are",
+      "start": 0.716666,
+      "end": 0.841666
+    },
+    {
+      "text": "advised",
+      "start": 0.855541,
+      "end": 1.508332
+    },
+    {
+      "text": "to",
+      "start": 1.522208,
+      "end": 1.619416
+    },
+    {
+      "text": "learn",
+      "start": 1.633333,
+      "end": 2.022208
+    },
+    {
+      "text": "about",
+      "start": 2.036125,
+      "end": 2.341666
+    },
+    {
+      "text": "the",
+      "start": 2.355541,
+      "end": 2.452749
+    },
+    {
+      "text": "Internet",
+      "start": 2.466666,
+      "end": 3.105541
+    },
+    {
+      "text": "along",
+      "start": 3.119458,
+      "end": 3.452791
+    },
+    {
+      "text": "with",
+      "start": 3.466666,
+      "end": 3.619457
+    },
+    {
+      "text": "their",
+      "start": 3.633333,
+      "end": 3.786124
+    },
+    {
+      "text": "children",
+      "start": 3.8,
+      "end": 4.438875
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 5833330,
+      "text": "Parents"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7166660,
+      "duration": 1250000,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8555410,
+      "duration": 6527910,
+      "text": "advised"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15222080,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16333330,
+      "duration": 3888750,
+      "text": "learn"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20361250,
+      "duration": 3055410,
+      "text": "about"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23555410,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24666660,
+      "duration": 6388750,
+      "text": "Internet"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31194580,
+      "duration": 3333330,
+      "text": "along"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34666660,
+      "duration": 1527910,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36333330,
+      "duration": 1527910,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38000000,
+      "duration": 6388750,
+      "text": "children"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:55:23.947850+00:00"
+}

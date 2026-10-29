@@ -1,0 +1,248 @@
+{
+  "speechText": "In particular, these are the new trends in the hiring process to be prepared for when you have a job interview.",
+  "audio": "audio/course-examples/fd6f3f29e7d3441ffb84a6b5.mp3",
+  "sha256": "2959584c056d7604abd79b970a67e688732fa29d9bcbcfe0d1b7979e0370cd32",
+  "duration": 6.696,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "In",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "particular",
+      "start": 0.3,
+      "end": 1.036125
+    },
+    {
+      "text": "these",
+      "start": 1.341666,
+      "end": 1.591666
+    },
+    {
+      "text": "are",
+      "start": 1.605541,
+      "end": 1.674999
+    },
+    {
+      "text": "the",
+      "start": 1.688875,
+      "end": 1.8
+    },
+    {
+      "text": "new",
+      "start": 1.813875,
+      "end": 2.063875
+    },
+    {
+      "text": "trends",
+      "start": 2.077791,
+      "end": 2.563916
+    },
+    {
+      "text": "in",
+      "start": 2.577791,
+      "end": 2.674999
+    },
+    {
+      "text": "the",
+      "start": 2.688875,
+      "end": 2.758333
+    },
+    {
+      "text": "hiring",
+      "start": 2.772208,
+      "end": 3.244416
+    },
+    {
+      "text": "process",
+      "start": 3.258333,
+      "end": 3.827791
+    },
+    {
+      "text": "to",
+      "start": 3.841666,
+      "end": 3.952791
+    },
+    {
+      "text": "be",
+      "start": 3.966666,
+      "end": 4.105541
+    },
+    {
+      "text": "prepared",
+      "start": 4.119458,
+      "end": 4.688916
+    },
+    {
+      "text": "for",
+      "start": 4.702791,
+      "end": 4.855582
+    },
+    {
+      "text": "when",
+      "start": 4.869458,
+      "end": 5.063916
+    },
+    {
+      "text": "you",
+      "start": 5.077791,
+      "end": 5.174999
+    },
+    {
+      "text": "have",
+      "start": 5.188875,
+      "end": 5.355541
+    },
+    {
+      "text": "a",
+      "start": 5.369458,
+      "end": 5.424999
+    },
+    {
+      "text": "job",
+      "start": 5.438875,
+      "end": 5.661083
+    },
+    {
+      "text": "interview",
+      "start": 5.675,
+      "end": 6.286125
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "In"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 7361250,
+      "text": "particular"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13416660,
+      "duration": 2500000,
+      "text": "these"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16055410,
+      "duration": 694580,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16888750,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18138750,
+      "duration": 2500000,
+      "text": "new"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20777910,
+      "duration": 4861250,
+      "text": "trends"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25777910,
+      "duration": 972080,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26888750,
+      "duration": 694580,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27722080,
+      "duration": 4722080,
+      "text": "hiring"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32583330,
+      "duration": 5694580,
+      "text": "process"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38416660,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39666660,
+      "duration": 1388750,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41194580,
+      "duration": 5694580,
+      "text": "prepared"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47027910,
+      "duration": 1527910,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48694580,
+      "duration": 1944580,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50777910,
+      "duration": 972080,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51888750,
+      "duration": 1666660,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53694580,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54388750,
+      "duration": 2222080,
+      "text": "job"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56750000,
+      "duration": 6111250,
+      "text": "interview"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:34:52.408585+00:00"
+}

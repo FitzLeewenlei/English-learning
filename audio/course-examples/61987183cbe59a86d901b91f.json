@@ -1,0 +1,138 @@
+{
+  "speechText": "Some economists are looking for better solutions to the poverty problem.",
+  "audio": "audio/course-examples/61987183cbe59a86d901b91f.mp3",
+  "sha256": "3bc81ed1c6b231d3681f40d37fbef5f99dd5552f45036d52928ccc522d3a14b1",
+  "duration": 4.944,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Some",
+      "start": 0.133333,
+      "end": 0.424999
+    },
+    {
+      "text": "economists",
+      "start": 0.438875,
+      "end": 1.258333
+    },
+    {
+      "text": "are",
+      "start": 1.272208,
+      "end": 1.397208
+    },
+    {
+      "text": "looking",
+      "start": 1.411125,
+      "end": 1.869458
+    },
+    {
+      "text": "for",
+      "start": 1.883333,
+      "end": 2.077791
+    },
+    {
+      "text": "better",
+      "start": 2.091666,
+      "end": 2.438874
+    },
+    {
+      "text": "solutions",
+      "start": 2.452791,
+      "end": 3.244457
+    },
+    {
+      "text": "to",
+      "start": 3.258333,
+      "end": 3.369458
+    },
+    {
+      "text": "the",
+      "start": 3.383333,
+      "end": 3.494458
+    },
+    {
+      "text": "poverty",
+      "start": 3.508333,
+      "end": 3.952791
+    },
+    {
+      "text": "problem",
+      "start": 3.966666,
+      "end": 4.536124
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2916660,
+      "text": "Some"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 8194580,
+      "text": "economists"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 1250000,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14111250,
+      "duration": 4583330,
+      "text": "looking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18833330,
+      "duration": 1944580,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20916660,
+      "duration": 3472080,
+      "text": "better"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24527910,
+      "duration": 7916660,
+      "text": "solutions"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32583330,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33833330,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35083330,
+      "duration": 4444580,
+      "text": "poverty"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39666660,
+      "duration": 5694580,
+      "text": "problem"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:36:22.802207+00:00"
+}

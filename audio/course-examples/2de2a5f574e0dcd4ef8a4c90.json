@@ -1,0 +1,182 @@
+{
+  "speechText": "About ten percent of the people in the United States are below the poverty line.",
+  "audio": "audio/course-examples/2de2a5f574e0dcd4ef8a4c90.mp3",
+  "sha256": "3f905e585b260d6be72768ea353f6f6850089128e39a4a7ba6140336e824c71a",
+  "duration": 5.376,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "About",
+      "start": 0.147208,
+      "end": 0.591666
+    },
+    {
+      "text": "ten",
+      "start": 0.605541,
+      "end": 0.855541
+    },
+    {
+      "text": "percent",
+      "start": 0.869458,
+      "end": 1.313916
+    },
+    {
+      "text": "of",
+      "start": 1.327791,
+      "end": 1.424999
+    },
+    {
+      "text": "the",
+      "start": 1.438875,
+      "end": 1.55
+    },
+    {
+      "text": "people",
+      "start": 1.563875,
+      "end": 2.008333
+    },
+    {
+      "text": "in",
+      "start": 2.022208,
+      "end": 2.119416
+    },
+    {
+      "text": "the",
+      "start": 2.133333,
+      "end": 2.202791
+    },
+    {
+      "text": "United",
+      "start": 2.216666,
+      "end": 2.744457
+    },
+    {
+      "text": "States",
+      "start": 2.758333,
+      "end": 3.327791
+    },
+    {
+      "text": "are",
+      "start": 3.341666,
+      "end": 3.480541
+    },
+    {
+      "text": "below",
+      "start": 3.494458,
+      "end": 3.883333
+    },
+    {
+      "text": "the",
+      "start": 3.897208,
+      "end": 4.022208
+    },
+    {
+      "text": "poverty",
+      "start": 4.036125,
+      "end": 4.466666
+    },
+    {
+      "text": "line",
+      "start": 4.480541,
+      "end": 4.952749
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 4444580,
+      "text": "About"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6055410,
+      "duration": 2500000,
+      "text": "ten"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8694580,
+      "duration": 4444580,
+      "text": "percent"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13277910,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14388750,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 4444580,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20222080,
+      "duration": 972080,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21333330,
+      "duration": 694580,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22166660,
+      "duration": 5277910,
+      "text": "United"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27583330,
+      "duration": 5694580,
+      "text": "States"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33416660,
+      "duration": 1388750,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34944580,
+      "duration": 3888750,
+      "text": "below"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38972080,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40361250,
+      "duration": 4305410,
+      "text": "poverty"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44805410,
+      "duration": 4722080,
+      "text": "line"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:33:28.025847+00:00"
+}

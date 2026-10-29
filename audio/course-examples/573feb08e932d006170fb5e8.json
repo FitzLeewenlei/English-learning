@@ -1,0 +1,171 @@
+{
+  "speechText": "This means you can save your money, rather than trying to borrow from others.",
+  "audio": "audio/course-examples/573feb08e932d006170fb5e8.mp3",
+  "sha256": "80b19f09c9c5e70fb725076aae68f2eed79d5d9e6602a267854b7bc4f12e4947",
+  "duration": 5.016,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "This",
+      "start": 0.147208,
+      "end": 0.424999
+    },
+    {
+      "text": "means",
+      "start": 0.438875,
+      "end": 0.813875
+    },
+    {
+      "text": "you",
+      "start": 0.827791,
+      "end": 0.938916
+    },
+    {
+      "text": "can",
+      "start": 0.952791,
+      "end": 1.133332
+    },
+    {
+      "text": "save",
+      "start": 1.147208,
+      "end": 1.452749
+    },
+    {
+      "text": "your",
+      "start": 1.466666,
+      "end": 1.605541
+    },
+    {
+      "text": "money",
+      "start": 1.619458,
+      "end": 2.063916
+    },
+    {
+      "text": "rather",
+      "start": 2.425,
+      "end": 2.716666
+    },
+    {
+      "text": "than",
+      "start": 2.730541,
+      "end": 2.883332
+    },
+    {
+      "text": "trying",
+      "start": 2.897208,
+      "end": 3.244416
+    },
+    {
+      "text": "to",
+      "start": 3.258333,
+      "end": 3.369458
+    },
+    {
+      "text": "borrow",
+      "start": 3.383333,
+      "end": 3.758333
+    },
+    {
+      "text": "from",
+      "start": 3.772208,
+      "end": 4.008333
+    },
+    {
+      "text": "others",
+      "start": 4.022208,
+      "end": 4.591666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2777910,
+      "text": "This"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 3750000,
+      "text": "means"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8277910,
+      "duration": 1111250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9527910,
+      "duration": 1805410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11472080,
+      "duration": 3055410,
+      "text": "save"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14666660,
+      "duration": 1388750,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16194580,
+      "duration": 4444580,
+      "text": "money"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24250000,
+      "duration": 2916660,
+      "text": "rather"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27305410,
+      "duration": 1527910,
+      "text": "than"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28972080,
+      "duration": 3472080,
+      "text": "trying"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32583330,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33833330,
+      "duration": 3750000,
+      "text": "borrow"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37722080,
+      "duration": 2361250,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40222080,
+      "duration": 5694580,
+      "text": "others"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:42:52.192880+00:00"
+}

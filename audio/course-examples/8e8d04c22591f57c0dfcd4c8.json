@@ -1,0 +1,248 @@
+{
+  "speechText": "Cooper said the idea for the mobile phone came from a communication device used by the comic book character Dick Tracy.",
+  "audio": "audio/course-examples/8e8d04c22591f57c0dfcd4c8.mp3",
+  "sha256": "21c1940305644216e58d777300653936e75b4e30eff3fa743a67c127222b0083",
+  "duration": 7.776,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Cooper",
+      "start": 0.101375,
+      "end": 0.573583
+    },
+    {
+      "text": "said",
+      "start": 0.5875,
+      "end": 0.906958
+    },
+    {
+      "text": "the",
+      "start": 0.920833,
+      "end": 1.059708
+    },
+    {
+      "text": "idea",
+      "start": 1.073625,
+      "end": 1.601416
+    },
+    {
+      "text": "for",
+      "start": 1.615291,
+      "end": 1.740291
+    },
+    {
+      "text": "the",
+      "start": 1.754166,
+      "end": 1.851374
+    },
+    {
+      "text": "mobile",
+      "start": 1.865291,
+      "end": 2.351416
+    },
+    {
+      "text": "phone",
+      "start": 2.365291,
+      "end": 2.837499
+    },
+    {
+      "text": "came",
+      "start": 2.851375,
+      "end": 3.170833
+    },
+    {
+      "text": "from",
+      "start": 3.184708,
+      "end": 3.351374
+    },
+    {
+      "text": "a",
+      "start": 3.365291,
+      "end": 3.420832
+    },
+    {
+      "text": "communication",
+      "start": 3.434708,
+      "end": 4.212499
+    },
+    {
+      "text": "device",
+      "start": 4.226375,
+      "end": 4.726375
+    },
+    {
+      "text": "used",
+      "start": 4.740291,
+      "end": 5.087499
+    },
+    {
+      "text": "by",
+      "start": 5.101375,
+      "end": 5.24025
+    },
+    {
+      "text": "the",
+      "start": 5.254166,
+      "end": 5.365291
+    },
+    {
+      "text": "comic",
+      "start": 5.379166,
+      "end": 5.768041
+    },
+    {
+      "text": "book",
+      "start": 5.781958,
+      "end": 5.990291
+    },
+    {
+      "text": "character",
+      "start": 6.004166,
+      "end": 6.531957
+    },
+    {
+      "text": "Dick",
+      "start": 6.545833,
+      "end": 6.768041
+    },
+    {
+      "text": "Tracy",
+      "start": 6.781958,
+      "end": 7.365291
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 4722080,
+      "text": "Cooper"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5875000,
+      "duration": 3194580,
+      "text": "said"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9208330,
+      "duration": 1388750,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10736250,
+      "duration": 5277910,
+      "text": "idea"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16152910,
+      "duration": 1250000,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17541660,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18652910,
+      "duration": 4861250,
+      "text": "mobile"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23652910,
+      "duration": 4722080,
+      "text": "phone"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28513750,
+      "duration": 3194580,
+      "text": "came"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31847080,
+      "duration": 1666660,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33652910,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34347080,
+      "duration": 7777910,
+      "text": "communication"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42263750,
+      "duration": 5000000,
+      "text": "device"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47402910,
+      "duration": 3472080,
+      "text": "used"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51013750,
+      "duration": 1388750,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52541660,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53791660,
+      "duration": 3888750,
+      "text": "comic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57819580,
+      "duration": 2083330,
+      "text": "book"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60041660,
+      "duration": 5277910,
+      "text": "character"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 65458330,
+      "duration": 2222080,
+      "text": "Dick"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67819580,
+      "duration": 5833330,
+      "text": "Tracy"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:49:25.901152+00:00"
+}

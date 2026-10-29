@@ -1,0 +1,237 @@
+{
+  "speechText": "They offer great potential in areas including health-care and other public services, and may soon result in very sophisticated robots.",
+  "audio": "audio/course-examples/81b4eccfcbcde30490c93a56.mp3",
+  "sha256": "334673f549ebbcb5c001444b51d8318dcca6bf16c4e3b6d5eaf79f1a8b21a85c",
+  "duration": 9.264,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "They",
+      "start": 0.147208,
+      "end": 0.327749
+    },
+    {
+      "text": "offer",
+      "start": 0.341666,
+      "end": 0.688874
+    },
+    {
+      "text": "great",
+      "start": 0.702791,
+      "end": 1.049999
+    },
+    {
+      "text": "potential",
+      "start": 1.063875,
+      "end": 1.688875
+    },
+    {
+      "text": "in",
+      "start": 1.702791,
+      "end": 1.827791
+    },
+    {
+      "text": "areas",
+      "start": 1.841666,
+      "end": 2.355541
+    },
+    {
+      "text": "including",
+      "start": 2.369458,
+      "end": 2.952791
+    },
+    {
+      "text": "health-care",
+      "start": 2.966666,
+      "end": 3.591666
+    },
+    {
+      "text": "and",
+      "start": 3.605541,
+      "end": 3.869416
+    },
+    {
+      "text": "other",
+      "start": 3.883333,
+      "end": 4.105541
+    },
+    {
+      "text": "public",
+      "start": 4.119458,
+      "end": 4.452791
+    },
+    {
+      "text": "services",
+      "start": 4.466666,
+      "end": 5.188874
+    },
+    {
+      "text": "and",
+      "start": 5.536125,
+      "end": 5.675
+    },
+    {
+      "text": "may",
+      "start": 5.688875,
+      "end": 5.883333
+    },
+    {
+      "text": "soon",
+      "start": 5.897208,
+      "end": 6.188874
+    },
+    {
+      "text": "result",
+      "start": 6.202791,
+      "end": 6.674999
+    },
+    {
+      "text": "in",
+      "start": 6.688875,
+      "end": 6.855541
+    },
+    {
+      "text": "very",
+      "start": 6.869458,
+      "end": 7.188916
+    },
+    {
+      "text": "sophisticated",
+      "start": 7.202791,
+      "end": 8.036124
+    },
+    {
+      "text": "robots",
+      "start": 8.05,
+      "end": 8.841666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1805410,
+      "text": "They"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 3472080,
+      "text": "offer"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7027910,
+      "duration": 3472080,
+      "text": "great"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10638750,
+      "duration": 6250000,
+      "text": "potential"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17027910,
+      "duration": 1250000,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18416660,
+      "duration": 5138750,
+      "text": "areas"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23694580,
+      "duration": 5833330,
+      "text": "including"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29666660,
+      "duration": 6250000,
+      "text": "health-care"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36055410,
+      "duration": 2638750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38833330,
+      "duration": 2222080,
+      "text": "other"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41194580,
+      "duration": 3333330,
+      "text": "public"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44666660,
+      "duration": 7222080,
+      "text": "services"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55361250,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56888750,
+      "duration": 1944580,
+      "text": "may"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58972080,
+      "duration": 2916660,
+      "text": "soon"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62027910,
+      "duration": 4722080,
+      "text": "result"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66888750,
+      "duration": 1666660,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68694580,
+      "duration": 3194580,
+      "text": "very"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 72027910,
+      "duration": 8333330,
+      "text": "sophisticated"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 80500000,
+      "duration": 7916660,
+      "text": "robots"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:41:02.809214+00:00"
+}

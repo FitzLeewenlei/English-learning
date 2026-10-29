@@ -8,25 +8,53 @@ const {chromium} = require('playwright');
 
 const root = path.resolve(__dirname, '..');
 const baseURL = process.env.TEST_BASE_URL || 'http://127.0.0.1:8003/';
-const course = JSON.parse(fs.readFileSync(path.join(root, 'data/course-units1-32.json'), 'utf8'));
+const course = JSON.parse(fs.readFileSync(path.join(root, 'data/course-units1-120.json'), 'utf8'));
+const original32 = JSON.parse(fs.readFileSync(path.join(root, 'data/course-units1-32.json'), 'utf8'));
+const baseline = JSON.parse(fs.readFileSync(path.join(root, 'data/preserved-units1-32.json'), 'utf8'));
 const media = JSON.parse(fs.readFileSync(path.join(root, 'audio/course-examples/manifest.json'), 'utf8'));
 const tokens = /[A-Za-z]+(?:[’'-][A-Za-z]+)*|\d+(?:,\d{3})*/g;
 const normalize = word => word.toLowerCase().replace(/’/g, "'");
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
 const screenshots = fs.mkdtempSync(path.join(os.tmpdir(), 'english-course-'));
+const unitNumbers = Array.from({length: 120}, (_, i) => i + 1);
+const originalNumbers = Array.from({length: 32}, (_, i) => i + 1);
+const stable = value => Array.isArray(value) ? value.map(stable) : value && typeof value === 'object'
+  ? Object.fromEntries(Object.entries(value).sort(([a], [b]) => a < b ? -1 : a > b ? 1 : 0).map(([key, child]) => [key, stable(child)])) : value;
+const fingerprint = value => sha256(JSON.stringify(stable(value)));
+
+// Trusted pre-extension fingerprints remain usable in a later shallow checkout,
+// without querying Git history or making a network request during the tests.
+assert.equal(baseline.keepThrough, 32);
+assert.equal(sha256(fs.readFileSync(path.join(root, baseline.canonicalSource))), baseline.canonicalSourceSha256,
+  'The original Unit 1–32 canonical source file must stay byte-for-byte unchanged');
 
 // The canonical extraction retains source paragraphs and exact document fields.
-assert.equal(course.counts.units, 32);
-assert.equal(course.counts.vocabulary, 480);
-assert.equal(course.counts.examples, 480);
-assert.match(course.source.sha256, /^[0-9a-f]{64}$/);
-assert.deepEqual(Object.keys(course.units).map(Number), Array.from({length: 32}, (_, i) => i + 1));
+assert.equal(course.counts.units, 120);
+assert.equal(course.counts.vocabulary, 1800);
+assert.equal(course.counts.examples, 1800);
+assert.deepEqual(Object.keys(course.units).map(Number), unitNumbers);
+assert.equal(course.source.documents.length, 2);
+for (const document of course.source.documents) assert.match(document.sha256, /^[0-9a-f]{64}$/);
+const documents = new Map(course.source.documents.map(document => [document.id, document]));
+for (const number of unitNumbers) {
+  const document = documents.get(course.source.unitDocuments[number]);
+  assert.ok(document, `Unit ${number}: source document`);
+  assert.ok(number >= document.unitRange[0] && number <= document.unitRange[1], `Unit ${number}: source range`);
+}
+for (const number of originalNumbers) {
+  assert.deepEqual(course.units[number], original32.units[number], `Unit ${number}: original canonical data must stay unchanged`);
+  assert.equal(documents.get(course.source.unitDocuments[number]).sha256, original32.source.sha256);
+}
+const originalMedia = Object.fromEntries(originalNumbers.map(number => [number, media.units[number]]));
+assert.equal(fingerprint(originalMedia), baseline.mediaUnitsSha256, 'Existing Unit 1–32 audio paths, hashes and word timings must stay unchanged');
 const sandbox = {window: {}};
 vm.createContext(sandbox);
 vm.runInContext(fs.readFileSync(path.join(root, 'content.js'), 'utf8'), sandbox);
 const saved = JSON.parse(JSON.stringify(sandbox.window.COURSE));
 assert.equal(saved.totalLists, 120);
-assert.deepEqual(Object.keys(saved.lists).map(Number), Array.from({length: 32}, (_, i) => i + 1));
+assert.deepEqual(Object.keys(saved.lists).map(Number), unitNumbers);
+assert.equal(fingerprint(Object.fromEntries(originalNumbers.map(number => [number, saved.lists[number]]))), baseline.runtimeUnitsSha256,
+  'Existing Unit 1–32 runtime vocabulary, examples and media bindings must stay unchanged');
 let verifiedWords = 0, verifiedExamples = 0;
 for (const [number, expected] of Object.entries(course.units)) {
   const unit = saved.lists[number];
@@ -56,9 +84,11 @@ for (const [number, expected] of Object.entries(course.units)) {
     verifiedExamples++;
   }
 }
-assert.equal(verifiedWords, 480);
-assert.equal(verifiedExamples, 480);
-console.log('Data parity: all32 units, 480 document words and 480 example/translation/citation pairs; all480 audio checksums and timing bindings passed.');
+assert.equal(verifiedWords, 1800);
+assert.equal(verifiedExamples, 1800);
+const uniqueVocabulary = new Set(Object.values(course.units).flatMap(unit => unit.vocabulary.map(entry => entry.word)));
+assert.equal(verifiedWords - uniqueVocabulary.size, 18, 'Repeated document vocabulary occurrences must not be deduplicated');
+console.log('Data parity: all120 units, 1800 document words and 1800 example/translation/citation pairs; all1800 audio checksums and timing bindings passed. Original32 units and media fingerprints remain unchanged;18 repeated word occurrences retained.');
 
 (async () => {
   const browser = await chromium.launch({
@@ -85,8 +115,8 @@ console.log('Data parity: all32 units, 480 document words and 480 example/transl
     assert.equal(options.length, 120);
     for (const [i, option] of options.entries()) {
       assert.equal(option.value, String(i + 1));
-      assert.equal(option.text, `Unit ${i + 1}${i >= 32 ? ' · 待添加' : ''}`);
-      assert.equal(option.disabled, i >= 32);
+      assert.equal(option.text, `Unit ${i + 1}`);
+      assert.equal(option.disabled, false);
     }
     let renderedWords = 0, renderedExamples = 0;
     for (const [number, expected] of Object.entries(course.units)) {
@@ -110,9 +140,9 @@ console.log('Data parity: all32 units, 480 document words and 480 example/transl
       renderedWords += rendered.vocabulary.length;
       renderedExamples += rendered.examples.length;
     }
-    assert.equal(renderedWords, 480);
-    assert.equal(renderedExamples, 480);
-    console.log('Browser parity: all120 options and every displayed word/example in Unit1–32 matched the document extraction.');
+    assert.equal(renderedWords, 1800);
+    assert.equal(renderedExamples, 1800);
+    console.log('Browser parity: all120 enabled options and every displayed word/example in Unit1–120 matched the document extraction.');
 
     const dictionary = await page.evaluate(() => window.WORD_DICTIONARY);
     const playing = () => page.waitForFunction(() => window.__audio.currentTime > 0 && !window.__audio.paused);
@@ -153,27 +183,34 @@ console.log('Data parity: all32 units, 480 document words and 480 example/transl
     }
     await checkWordSource(1, 'best');
     await checkWordSource(32, 'rubber');
+    await checkWordSource(33, 'with');
+    await checkWordSource(120, 'evidence');
 
     // Sentence playback uses the document's cleaned English, with teaching notes
     // and exam references left visible on the normal page rather than spoken.
-    await page.selectOption('#list-select', '1');
-    await page.locator('.sentence-play').first().click();
-    await playing();
-    assert.equal(await page.locator('#focus-sentence').textContent(), course.units['1'].examples[0].speechText);
-    await page.keyboard.press('Escape');
+    for (const [number, index] of [[1,0], [32,13], [33,0], [120,0]]) {
+      await page.selectOption('#list-select', String(number));
+      await page.locator('.sentence-play').nth(index).click();
+      await playing();
+      assert.equal(await page.locator('#focus-sentence').textContent(), course.units[number].examples[index].speechText);
+      assert.equal(await page.locator('.focus-word').count(), media.units[number][index].words.length);
+      assert.equal(await page.evaluate(() => window.__audio.currentSrc), new URL(media.units[number][index].audio, baseURL).href);
+      await page.keyboard.press('Escape');
+    }
+    await page.selectOption('#list-select', '33');
     await page.locator('#play-examples').click();
     await playing();
     assert.equal(await page.locator('#focus-count').textContent(), '01 / 15');
     await page.evaluate(() => {window.__audio.currentTime = window.__audio.duration - 0.15;});
     await page.waitForFunction(() => document.getElementById('focus-count').textContent === '02 / 15', null, {timeout: 12000});
-    assert.equal(await page.locator('#focus-sentence').textContent(), course.units['1'].examples[1].speechText);
+    assert.equal(await page.locator('#focus-sentence').textContent(), course.units['33'].examples[1].speechText);
     await page.keyboard.press('Escape');
 
-    await page.selectOption('#list-select', '32');
-    await page.locator('.sentence-play').nth(13).click();
+    await page.selectOption('#list-select', '120');
+    await page.locator('.sentence-play').nth(1).click();
     await playing();
-    const sample = course.units['32'].examples[13];
-    const clip = media.units['32'][13];
+    const sample = course.units['120'].examples[1];
+    const clip = media.units['120'][1];
     assert.equal(await page.locator('#focus-sentence').textContent(), sample.speechText);
     assert.equal(await page.locator('.focus-word').count(), clip.words.length);
     await page.locator('#focus-toggle').click();
@@ -188,7 +225,7 @@ console.log('Data parity: all32 units, 480 document words and 480 example/transl
     const frozenTime = await page.evaluate(() => window.__audio.currentTime);
     await page.waitForTimeout(250);
     assert.ok(Math.abs(await page.evaluate(() => window.__audio.currentTime) - frozenTime) < 0.03);
-    assert.ok(clip.duration > 5.5, 'The fixed Unit32 control sample must leave room for a five-second seek');
+    assert.ok(clip.duration > 5.5, 'The fixed Unit120 control sample must leave room for a five-second seek');
     await page.evaluate(() => {window.__audio.currentTime = 0;});
     await page.waitForFunction(() => !window.__audio.seeking && window.__audio.currentTime === 0);
     const forwardTarget = 5;
@@ -229,15 +266,16 @@ console.log('Data parity: all32 units, 480 document words and 480 example/transl
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
       await page.screenshot({path: path.join(screenshots, `long-words-${width}.png`)});
     }
-    await page.selectOption('#list-select', '32');
+    await page.selectOption('#list-select', '120');
     await page.setViewportSize({width: 320, height: 844});
-    await page.screenshot({path: path.join(screenshots, 'unit32-mobile.png')});
+    await page.screenshot({path: path.join(screenshots, 'unit120-mobile.png')});
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
     await page.reload({waitUntil: 'networkidle'});
-    assert.equal(await page.locator('#list-select').inputValue(), '32');
+    assert.equal(await page.locator('#list-select').inputValue(), '120');
     assert.equal(await page.locator('#speed').inputValue(), '0.5');
     assert.deepEqual(errors, []);
-    console.log(JSON.stringify({units: 32, menuOptions: 120, documentWords: renderedWords, documentExamples: renderedExamples,
+    console.log(JSON.stringify({units: 120, enabledMenuOptions: 120, preservedOriginalUnits: 32, repeatedVocabularyOccurrences: 18,
+      documentWords: renderedWords, documentExamples: renderedExamples, playbackSampleUnits: [1,32,33,120],
       topVocabulary: 'document text + Youdao pronunciation', examplePopovers: 'Youdao fields, up to two meanings per POS',
       pronunciationLabels: 'no 英 label', actualAudio: 'passed', sequentialExamples: 'passed', halfSpeedPauseSeek: 'passed',
       mobileWidths: [390,320], browserErrors: errors, screenshots}));

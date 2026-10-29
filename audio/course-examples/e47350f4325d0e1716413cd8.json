@@ -1,0 +1,347 @@
+{
+  "speechText": "This allows the employer to get a sense of how the candidate interacts with other people and whether the candidate is truly curious and interested in how the company runs.",
+  "audio": "audio/course-examples/e47350f4325d0e1716413cd8.mp3",
+  "sha256": "9a1079f8f261d7472dfb17ef5cacd99a2eacb0e44a2ea795a21e588da4062398",
+  "duration": 10.008,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "This",
+      "start": 0.147208,
+      "end": 0.383333
+    },
+    {
+      "text": "allows",
+      "start": 0.397208,
+      "end": 0.772208
+    },
+    {
+      "text": "the",
+      "start": 0.786125,
+      "end": 0.911125
+    },
+    {
+      "text": "employer",
+      "start": 0.925,
+      "end": 1.494458
+    },
+    {
+      "text": "to",
+      "start": 1.508333,
+      "end": 1.619458
+    },
+    {
+      "text": "get",
+      "start": 1.633333,
+      "end": 1.827791
+    },
+    {
+      "text": "a",
+      "start": 1.841666,
+      "end": 1.911124
+    },
+    {
+      "text": "sense",
+      "start": 1.925,
+      "end": 2.341666
+    },
+    {
+      "text": "of",
+      "start": 2.355541,
+      "end": 2.466666
+    },
+    {
+      "text": "how",
+      "start": 2.480541,
+      "end": 2.674999
+    },
+    {
+      "text": "the",
+      "start": 2.688875,
+      "end": 2.813875
+    },
+    {
+      "text": "candidate",
+      "start": 2.827791,
+      "end": 3.383332
+    },
+    {
+      "text": "interacts",
+      "start": 3.397208,
+      "end": 3.980541
+    },
+    {
+      "text": "with",
+      "start": 3.994458,
+      "end": 4.147249
+    },
+    {
+      "text": "other",
+      "start": 4.161125,
+      "end": 4.383333
+    },
+    {
+      "text": "people",
+      "start": 4.397208,
+      "end": 4.966666
+    },
+    {
+      "text": "and",
+      "start": 4.980541,
+      "end": 5.119416
+    },
+    {
+      "text": "whether",
+      "start": 5.133333,
+      "end": 5.397208
+    },
+    {
+      "text": "the",
+      "start": 5.411125,
+      "end": 5.52225
+    },
+    {
+      "text": "candidate",
+      "start": 5.536125,
+      "end": 6.133333
+    },
+    {
+      "text": "is",
+      "start": 6.147208,
+      "end": 6.286083
+    },
+    {
+      "text": "truly",
+      "start": 6.3,
+      "end": 6.702791
+    },
+    {
+      "text": "curious",
+      "start": 6.716666,
+      "end": 7.313874
+    },
+    {
+      "text": "and",
+      "start": 7.327791,
+      "end": 7.452791
+    },
+    {
+      "text": "interested",
+      "start": 7.466666,
+      "end": 8.049999
+    },
+    {
+      "text": "in",
+      "start": 8.063875,
+      "end": 8.188875
+    },
+    {
+      "text": "how",
+      "start": 8.202791,
+      "end": 8.397249
+    },
+    {
+      "text": "the",
+      "start": 8.411125,
+      "end": 8.52225
+    },
+    {
+      "text": "company",
+      "start": 8.536125,
+      "end": 8.966666
+    },
+    {
+      "text": "runs",
+      "start": 8.980541,
+      "end": 9.591666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2361250,
+      "text": "This"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3972080,
+      "duration": 3750000,
+      "text": "allows"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7861250,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9250000,
+      "duration": 5694580,
+      "text": "employer"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15083330,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16333330,
+      "duration": 1944580,
+      "text": "get"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18416660,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 4166660,
+      "text": "sense"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23555410,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24805410,
+      "duration": 1944580,
+      "text": "how"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26888750,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28277910,
+      "duration": 5555410,
+      "text": "candidate"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33972080,
+      "duration": 5833330,
+      "text": "interacts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39944580,
+      "duration": 1527910,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41611250,
+      "duration": 2222080,
+      "text": "other"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43972080,
+      "duration": 5694580,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49805410,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51333330,
+      "duration": 2638750,
+      "text": "whether"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54111250,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55361250,
+      "duration": 5972080,
+      "text": "candidate"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61472080,
+      "duration": 1388750,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63000000,
+      "duration": 4027910,
+      "text": "truly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67166660,
+      "duration": 5972080,
+      "text": "curious"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73277910,
+      "duration": 1250000,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 74666660,
+      "duration": 5833330,
+      "text": "interested"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 80638750,
+      "duration": 1250000,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82027910,
+      "duration": 1944580,
+      "text": "how"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 84111250,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 85361250,
+      "duration": 4305410,
+      "text": "company"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 89805410,
+      "duration": 6111250,
+      "text": "runs"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:40:04.246064+00:00"
+}

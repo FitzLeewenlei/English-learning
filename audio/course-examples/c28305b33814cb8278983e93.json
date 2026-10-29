@@ -1,0 +1,138 @@
+{
+  "speechText": "The results of the experiment were not interesting enough to publish.",
+  "audio": "audio/course-examples/c28305b33814cb8278983e93.mp3",
+  "sha256": "960ca308901450021b1dc50ae70def5db2789ff6fc97e65d357ca9994a45247f",
+  "duration": 4.536,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.258333
+    },
+    {
+      "text": "results",
+      "start": 0.272208,
+      "end": 0.786083
+    },
+    {
+      "text": "of",
+      "start": 0.8,
+      "end": 0.911125
+    },
+    {
+      "text": "the",
+      "start": 0.925,
+      "end": 1.036125
+    },
+    {
+      "text": "experiment",
+      "start": 1.05,
+      "end": 1.911125
+    },
+    {
+      "text": "were",
+      "start": 1.925,
+      "end": 2.077791
+    },
+    {
+      "text": "not",
+      "start": 2.091666,
+      "end": 2.369457
+    },
+    {
+      "text": "interesting",
+      "start": 2.383333,
+      "end": 2.952791
+    },
+    {
+      "text": "enough",
+      "start": 2.966666,
+      "end": 3.299999
+    },
+    {
+      "text": "to",
+      "start": 3.313875,
+      "end": 3.438875
+    },
+    {
+      "text": "publish",
+      "start": 3.452791,
+      "end": 4.133332
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1111250,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2722080,
+      "duration": 5138750,
+      "text": "results"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8000000,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9250000,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10500000,
+      "duration": 8611250,
+      "text": "experiment"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 1527910,
+      "text": "were"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20916660,
+      "duration": 2777910,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23833330,
+      "duration": 5694580,
+      "text": "interesting"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29666660,
+      "duration": 3333330,
+      "text": "enough"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33138750,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34527910,
+      "duration": 6805410,
+      "text": "publish"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:44:35.436429+00:00"
+}

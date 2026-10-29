@@ -1,0 +1,204 @@
+{
+  "speechText": "Household appliances like the vacuum cleaner and the washing machine have taken the drudgery out of housework.",
+  "audio": "audio/course-examples/40dfcf8f9940e136b114ace1.mp3",
+  "sha256": "fe9eea52cf2f08059a0307b7141851e5c548517c710d1b178e0d62f2d3d4f724",
+  "duration": 7.224,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Household",
+      "start": 0.147208,
+      "end": 0.702749
+    },
+    {
+      "text": "appliances",
+      "start": 0.716666,
+      "end": 1.577791
+    },
+    {
+      "text": "like",
+      "start": 1.591666,
+      "end": 1.827791
+    },
+    {
+      "text": "the",
+      "start": 1.841666,
+      "end": 1.938874
+    },
+    {
+      "text": "vacuum",
+      "start": 1.952791,
+      "end": 2.424999
+    },
+    {
+      "text": "cleaner",
+      "start": 2.438875,
+      "end": 2.966666
+    },
+    {
+      "text": "and",
+      "start": 2.980541,
+      "end": 3.161082
+    },
+    {
+      "text": "the",
+      "start": 3.175,
+      "end": 3.272208
+    },
+    {
+      "text": "washing",
+      "start": 3.286125,
+      "end": 3.688916
+    },
+    {
+      "text": "machine",
+      "start": 3.702791,
+      "end": 4.202791
+    },
+    {
+      "text": "have",
+      "start": 4.216666,
+      "end": 4.536124
+    },
+    {
+      "text": "taken",
+      "start": 4.55,
+      "end": 4.911125
+    },
+    {
+      "text": "the",
+      "start": 4.925,
+      "end": 5.036125
+    },
+    {
+      "text": "drudgery",
+      "start": 5.05,
+      "end": 5.633333
+    },
+    {
+      "text": "out",
+      "start": 5.647208,
+      "end": 5.883333
+    },
+    {
+      "text": "of",
+      "start": 5.897208,
+      "end": 5.980541
+    },
+    {
+      "text": "housework",
+      "start": 5.994458,
+      "end": 6.813916
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 5555410,
+      "text": "Household"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7166660,
+      "duration": 8611250,
+      "text": "appliances"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15916660,
+      "duration": 2361250,
+      "text": "like"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18416660,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19527910,
+      "duration": 4722080,
+      "text": "vacuum"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24388750,
+      "duration": 5277910,
+      "text": "cleaner"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29805410,
+      "duration": 1805410,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31750000,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32861250,
+      "duration": 4027910,
+      "text": "washing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37027910,
+      "duration": 5000000,
+      "text": "machine"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42166660,
+      "duration": 3194580,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45500000,
+      "duration": 3611250,
+      "text": "taken"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49250000,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50500000,
+      "duration": 5833330,
+      "text": "drudgery"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56472080,
+      "duration": 2361250,
+      "text": "out"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58972080,
+      "duration": 833330,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59944580,
+      "duration": 8194580,
+      "text": "housework"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:37:28.106775+00:00"
+}

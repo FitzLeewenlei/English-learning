@@ -1,0 +1,259 @@
+{
+  "speechText": "A healthy self-relationship can help you create a positive self-image, which is vital for you to become the best version of yourself.",
+  "audio": "audio/course-examples/30fffe5ea1cf272163017f81.mp3",
+  "sha256": "8372b025d510f446db7768021725d49fb1ab24efa55bcaea3d03447126a2ac46",
+  "duration": 8.592,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "A",
+      "start": 0.101375,
+      "end": 0.24025
+    },
+    {
+      "text": "healthy",
+      "start": 0.254166,
+      "end": 0.698624
+    },
+    {
+      "text": "self-relationship",
+      "start": 0.7125,
+      "end": 1.906958
+    },
+    {
+      "text": "can",
+      "start": 1.920833,
+      "end": 2.087499
+    },
+    {
+      "text": "help",
+      "start": 2.101375,
+      "end": 2.379166
+    },
+    {
+      "text": "you",
+      "start": 2.393041,
+      "end": 2.518041
+    },
+    {
+      "text": "create",
+      "start": 2.531958,
+      "end": 2.962499
+    },
+    {
+      "text": "a",
+      "start": 2.976375,
+      "end": 3.059708
+    },
+    {
+      "text": "positive",
+      "start": 3.073625,
+      "end": 3.601416
+    },
+    {
+      "text": "self-image",
+      "start": 3.615291,
+      "end": 4.365291
+    },
+    {
+      "text": "which",
+      "start": 4.684708,
+      "end": 4.879166
+    },
+    {
+      "text": "is",
+      "start": 4.893041,
+      "end": 5.018041
+    },
+    {
+      "text": "vital",
+      "start": 5.031958,
+      "end": 5.490291
+    },
+    {
+      "text": "for",
+      "start": 5.504166,
+      "end": 5.629166
+    },
+    {
+      "text": "you",
+      "start": 5.643041,
+      "end": 5.934707
+    },
+    {
+      "text": "to",
+      "start": 5.948625,
+      "end": 6.05975
+    },
+    {
+      "text": "become",
+      "start": 6.073625,
+      "end": 6.448625
+    },
+    {
+      "text": "the",
+      "start": 6.4625,
+      "end": 6.573625
+    },
+    {
+      "text": "best",
+      "start": 6.5875,
+      "end": 6.920833
+    },
+    {
+      "text": "version",
+      "start": 6.934708,
+      "end": 7.323583
+    },
+    {
+      "text": "of",
+      "start": 7.3375,
+      "end": 7.434708
+    },
+    {
+      "text": "yourself",
+      "start": 7.448625,
+      "end": 8.18475
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 1388750,
+      "text": "A"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2541660,
+      "duration": 4444580,
+      "text": "healthy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7125000,
+      "duration": 11944580,
+      "text": "self-relationship"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19208330,
+      "duration": 1666660,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21013750,
+      "duration": 2777910,
+      "text": "help"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23930410,
+      "duration": 1250000,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25319580,
+      "duration": 4305410,
+      "text": "create"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29763750,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30736250,
+      "duration": 5277910,
+      "text": "positive"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36152910,
+      "duration": 7500000,
+      "text": "self-image"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46847080,
+      "duration": 1944580,
+      "text": "which"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48930410,
+      "duration": 1250000,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50319580,
+      "duration": 4583330,
+      "text": "vital"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55041660,
+      "duration": 1250000,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56430410,
+      "duration": 2916660,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59486250,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60736250,
+      "duration": 3750000,
+      "text": "become"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64625000,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 65875000,
+      "duration": 3333330,
+      "text": "best"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69347080,
+      "duration": 3888750,
+      "text": "version"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73375000,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 74486250,
+      "duration": 7361250,
+      "text": "yourself"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:45:46.855928+00:00"
+}

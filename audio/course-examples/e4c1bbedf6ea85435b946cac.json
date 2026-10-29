@@ -1,0 +1,182 @@
+{
+  "speechText": "Don’t use a friend’s tragedy as an excuse to drag out similar experiences you’ve had.",
+  "audio": "audio/course-examples/e4c1bbedf6ea85435b946cac.mp3",
+  "sha256": "a76d87ebef760b870614a8afbc88d3371ee6a090b78f8670b6f004fc895467f7",
+  "duration": 6.072,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Don’t",
+      "start": 0.102791,
+      "end": 0.449999
+    },
+    {
+      "text": "use",
+      "start": 0.463875,
+      "end": 0.7
+    },
+    {
+      "text": "a",
+      "start": 0.713875,
+      "end": 0.783333
+    },
+    {
+      "text": "friend’s",
+      "start": 0.797208,
+      "end": 1.213874
+    },
+    {
+      "text": "tragedy",
+      "start": 1.227791,
+      "end": 1.894457
+    },
+    {
+      "text": "as",
+      "start": 1.908333,
+      "end": 2.088874
+    },
+    {
+      "text": "an",
+      "start": 2.102791,
+      "end": 2.199999
+    },
+    {
+      "text": "excuse",
+      "start": 2.213875,
+      "end": 2.825
+    },
+    {
+      "text": "to",
+      "start": 2.838875,
+      "end": 2.963875
+    },
+    {
+      "text": "drag",
+      "start": 2.977791,
+      "end": 3.352791
+    },
+    {
+      "text": "out",
+      "start": 3.366666,
+      "end": 3.616666
+    },
+    {
+      "text": "similar",
+      "start": 3.630541,
+      "end": 4.061082
+    },
+    {
+      "text": "experiences",
+      "start": 4.075,
+      "end": 4.963875
+    },
+    {
+      "text": "you’ve",
+      "start": 4.977791,
+      "end": 5.158332
+    },
+    {
+      "text": "had",
+      "start": 5.172208,
+      "end": 5.644416
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1027910,
+      "duration": 3472080,
+      "text": "Don’t"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4638750,
+      "duration": 2361250,
+      "text": "use"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7138750,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7972080,
+      "duration": 4166660,
+      "text": "friend’s"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12277910,
+      "duration": 6666660,
+      "text": "tragedy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19083330,
+      "duration": 1805410,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21027910,
+      "duration": 972080,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22138750,
+      "duration": 6111250,
+      "text": "excuse"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28388750,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29777910,
+      "duration": 3750000,
+      "text": "drag"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33666660,
+      "duration": 2500000,
+      "text": "out"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36305410,
+      "duration": 4305410,
+      "text": "similar"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40750000,
+      "duration": 8888750,
+      "text": "experiences"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49777910,
+      "duration": 1805410,
+      "text": "you’ve"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51722080,
+      "duration": 4722080,
+      "text": "had"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:45:05.997079+00:00"
+}

@@ -1,0 +1,293 @@
+{
+  "speechText": "Now Irene Astbury works from 9 a.m. to 5 p.m. daily at the pet shop in Macclesfield which she opened with her late husband Les.",
+  "audio": "audio/course-examples/5798c2b1b4cae34639b91a28.mp3",
+  "sha256": "c80fa32288e3bb3a82502043235584485424940ec3ab92da5068f76fab656fc1",
+  "duration": 9.024,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [
+    "9",
+    "a",
+    "m",
+    "to",
+    "5",
+    "p",
+    "m"
+  ],
+  "words": [
+    {
+      "text": "Now",
+      "start": 0.133333,
+      "end": 0.480541
+    },
+    {
+      "text": "Irene",
+      "start": 0.494458,
+      "end": 0.952791
+    },
+    {
+      "text": "Astbury",
+      "start": 0.966666,
+      "end": 1.605541
+    },
+    {
+      "text": "works",
+      "start": 1.619458,
+      "end": 2.036124
+    },
+    {
+      "text": "from",
+      "start": 2.05,
+      "end": 2.272208
+    },
+    {
+      "text": "9",
+      "start": 2.286125,
+      "end": 2.485776,
+      "estimatedSplit": true
+    },
+    {
+      "text": "a",
+      "start": 2.485776,
+      "end": 2.685427,
+      "estimatedSplit": true
+    },
+    {
+      "text": "m",
+      "start": 2.685427,
+      "end": 2.885078,
+      "estimatedSplit": true
+    },
+    {
+      "text": "to",
+      "start": 2.885078,
+      "end": 3.28438,
+      "estimatedSplit": true
+    },
+    {
+      "text": "5",
+      "start": 3.28438,
+      "end": 3.484031,
+      "estimatedSplit": true
+    },
+    {
+      "text": "p",
+      "start": 3.484031,
+      "end": 3.683682,
+      "estimatedSplit": true
+    },
+    {
+      "text": "m",
+      "start": 3.683682,
+      "end": 3.883333,
+      "estimatedSplit": true
+    },
+    {
+      "text": "daily",
+      "start": 3.897208,
+      "end": 4.383333
+    },
+    {
+      "text": "at",
+      "start": 4.397208,
+      "end": 4.563874
+    },
+    {
+      "text": "the",
+      "start": 4.577791,
+      "end": 4.688916
+    },
+    {
+      "text": "pet",
+      "start": 4.702791,
+      "end": 4.952791
+    },
+    {
+      "text": "shop",
+      "start": 4.966666,
+      "end": 5.230541
+    },
+    {
+      "text": "in",
+      "start": 5.244458,
+      "end": 5.341666
+    },
+    {
+      "text": "Macclesfield",
+      "start": 5.355541,
+      "end": 6.174999
+    },
+    {
+      "text": "which",
+      "start": 6.188875,
+      "end": 6.411083
+    },
+    {
+      "text": "she",
+      "start": 6.425,
+      "end": 6.605541
+    },
+    {
+      "text": "opened",
+      "start": 6.619458,
+      "end": 7.049999
+    },
+    {
+      "text": "with",
+      "start": 7.063875,
+      "end": 7.216666
+    },
+    {
+      "text": "her",
+      "start": 7.230541,
+      "end": 7.355541
+    },
+    {
+      "text": "late",
+      "start": 7.369458,
+      "end": 7.633333
+    },
+    {
+      "text": "husband",
+      "start": 7.647208,
+      "end": 8.105541
+    },
+    {
+      "text": "Les",
+      "start": 8.119458,
+      "end": 8.619458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 3472080,
+      "text": "Now"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 4583330,
+      "text": "Irene"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9666660,
+      "duration": 6388750,
+      "text": "Astbury"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16194580,
+      "duration": 4166660,
+      "text": "works"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20500000,
+      "duration": 2222080,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22861250,
+      "duration": 15972080,
+      "text": "9 a.m. to 5 p.m."
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38972080,
+      "duration": 4861250,
+      "text": "daily"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43972080,
+      "duration": 1666660,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45777910,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47027910,
+      "duration": 2500000,
+      "text": "pet"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49666660,
+      "duration": 2638750,
+      "text": "shop"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52444580,
+      "duration": 972080,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53555410,
+      "duration": 8194580,
+      "text": "Macclesfield"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61888750,
+      "duration": 2222080,
+      "text": "which"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64250000,
+      "duration": 1805410,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66194580,
+      "duration": 4305410,
+      "text": "opened"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70638750,
+      "duration": 1527910,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 72305410,
+      "duration": 1250000,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73694580,
+      "duration": 2638750,
+      "text": "late"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 76472080,
+      "duration": 4583330,
+      "text": "husband"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 81194580,
+      "duration": 5000000,
+      "text": "Les"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:53:18.183821+00:00"
+}

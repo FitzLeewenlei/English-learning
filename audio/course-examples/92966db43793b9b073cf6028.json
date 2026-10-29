@@ -1,0 +1,237 @@
+{
+  "speechText": "You can organize meetings on a regular basis, receive feedback from your employees and never speak in anger to them.",
+  "audio": "audio/course-examples/92966db43793b9b073cf6028.mp3",
+  "sha256": "9ab6ac9a5500a4a1064bb10094f21e036d3f7733a50b4bd5f0a7bf00a041f6c8",
+  "duration": 7.656,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "You",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "can",
+      "start": 0.3,
+      "end": 0.494458
+    },
+    {
+      "text": "organize",
+      "start": 0.508333,
+      "end": 1.049999
+    },
+    {
+      "text": "meetings",
+      "start": 1.063875,
+      "end": 1.633333
+    },
+    {
+      "text": "on",
+      "start": 1.647208,
+      "end": 1.772208
+    },
+    {
+      "text": "a",
+      "start": 1.786125,
+      "end": 1.841666
+    },
+    {
+      "text": "regular",
+      "start": 1.855541,
+      "end": 2.286082
+    },
+    {
+      "text": "basis",
+      "start": 2.3,
+      "end": 2.938875
+    },
+    {
+      "text": "receive",
+      "start": 3.258333,
+      "end": 3.674999
+    },
+    {
+      "text": "feedback",
+      "start": 3.688875,
+      "end": 4.272208
+    },
+    {
+      "text": "from",
+      "start": 4.286125,
+      "end": 4.466666
+    },
+    {
+      "text": "your",
+      "start": 4.480541,
+      "end": 4.605541
+    },
+    {
+      "text": "employees",
+      "start": 4.619458,
+      "end": 5.424999
+    },
+    {
+      "text": "and",
+      "start": 5.438875,
+      "end": 5.633333
+    },
+    {
+      "text": "never",
+      "start": 5.647208,
+      "end": 5.924999
+    },
+    {
+      "text": "speak",
+      "start": 5.938875,
+      "end": 6.286083
+    },
+    {
+      "text": "in",
+      "start": 6.3,
+      "end": 6.411125
+    },
+    {
+      "text": "anger",
+      "start": 6.425,
+      "end": 6.744458
+    },
+    {
+      "text": "to",
+      "start": 6.758333,
+      "end": 6.911124
+    },
+    {
+      "text": "them",
+      "start": 6.925,
+      "end": 7.244458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "You"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1944580,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5083330,
+      "duration": 5416660,
+      "text": "organize"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10638750,
+      "duration": 5694580,
+      "text": "meetings"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16472080,
+      "duration": 1250000,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17861250,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18555410,
+      "duration": 4305410,
+      "text": "regular"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23000000,
+      "duration": 6388750,
+      "text": "basis"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32583330,
+      "duration": 4166660,
+      "text": "receive"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36888750,
+      "duration": 5833330,
+      "text": "feedback"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42861250,
+      "duration": 1805410,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44805410,
+      "duration": 1250000,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46194580,
+      "duration": 8055410,
+      "text": "employees"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54388750,
+      "duration": 1944580,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56472080,
+      "duration": 2777910,
+      "text": "never"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59388750,
+      "duration": 3472080,
+      "text": "speak"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63000000,
+      "duration": 1111250,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64250000,
+      "duration": 3194580,
+      "text": "anger"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67583330,
+      "duration": 1527910,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69250000,
+      "duration": 3194580,
+      "text": "them"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:37:34.221161+00:00"
+}

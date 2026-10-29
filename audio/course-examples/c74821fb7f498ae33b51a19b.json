@@ -1,0 +1,380 @@
+{
+  "speechText": "Experts suggest that Americans stop worrying about getting a perfect eight hours of sleep, and warn that stressing about the magic number may actually result in a drop in sleep quality and duration.",
+  "audio": "audio/course-examples/c74821fb7f498ae33b51a19b.mp3",
+  "sha256": "a5daf087701f50a28fc3671468df9f55e5c9410f03a4f961eeec3827c7d1146f",
+  "duration": 12.0,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Experts",
+      "start": 0.101375,
+      "end": 0.809708
+    },
+    {
+      "text": "suggest",
+      "start": 0.823625,
+      "end": 1.393083
+    },
+    {
+      "text": "that",
+      "start": 1.406958,
+      "end": 1.545833
+    },
+    {
+      "text": "Americans",
+      "start": 1.559708,
+      "end": 2.170833
+    },
+    {
+      "text": "stop",
+      "start": 2.184708,
+      "end": 2.504166
+    },
+    {
+      "text": "worrying",
+      "start": 2.518041,
+      "end": 2.934707
+    },
+    {
+      "text": "about",
+      "start": 2.948625,
+      "end": 3.240291
+    },
+    {
+      "text": "getting",
+      "start": 3.254166,
+      "end": 3.587499
+    },
+    {
+      "text": "a",
+      "start": 3.601375,
+      "end": 3.670833
+    },
+    {
+      "text": "perfect",
+      "start": 3.684708,
+      "end": 4.240249
+    },
+    {
+      "text": "eight",
+      "start": 4.254166,
+      "end": 4.476374
+    },
+    {
+      "text": "hours",
+      "start": 4.490291,
+      "end": 4.754166
+    },
+    {
+      "text": "of",
+      "start": 4.768041,
+      "end": 4.865249
+    },
+    {
+      "text": "sleep",
+      "start": 4.879166,
+      "end": 5.351374
+    },
+    {
+      "text": "and",
+      "start": 5.698625,
+      "end": 5.80975
+    },
+    {
+      "text": "warn",
+      "start": 5.823625,
+      "end": 6.115291
+    },
+    {
+      "text": "that",
+      "start": 6.129166,
+      "end": 6.309707
+    },
+    {
+      "text": "stressing",
+      "start": 6.323625,
+      "end": 6.80975
+    },
+    {
+      "text": "about",
+      "start": 6.823625,
+      "end": 7.073625
+    },
+    {
+      "text": "the",
+      "start": 7.0875,
+      "end": 7.170833
+    },
+    {
+      "text": "magic",
+      "start": 7.184708,
+      "end": 7.601374
+    },
+    {
+      "text": "number",
+      "start": 7.615291,
+      "end": 8.004166
+    },
+    {
+      "text": "may",
+      "start": 8.018041,
+      "end": 8.254166
+    },
+    {
+      "text": "actually",
+      "start": 8.268041,
+      "end": 8.684707
+    },
+    {
+      "text": "result",
+      "start": 8.698625,
+      "end": 9.198625
+    },
+    {
+      "text": "in",
+      "start": 9.2125,
+      "end": 9.309708
+    },
+    {
+      "text": "a",
+      "start": 9.323625,
+      "end": 9.379166
+    },
+    {
+      "text": "drop",
+      "start": 9.393041,
+      "end": 9.712499
+    },
+    {
+      "text": "in",
+      "start": 9.726375,
+      "end": 9.86525
+    },
+    {
+      "text": "sleep",
+      "start": 9.879166,
+      "end": 10.212499
+    },
+    {
+      "text": "quality",
+      "start": 10.226375,
+      "end": 10.7125
+    },
+    {
+      "text": "and",
+      "start": 10.726375,
+      "end": 10.823583
+    },
+    {
+      "text": "duration",
+      "start": 10.8375,
+      "end": 11.5875
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 7083330,
+      "text": "Experts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8236250,
+      "duration": 5694580,
+      "text": "suggest"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14069580,
+      "duration": 1388750,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15597080,
+      "duration": 6111250,
+      "text": "Americans"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21847080,
+      "duration": 3194580,
+      "text": "stop"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25180410,
+      "duration": 4166660,
+      "text": "worrying"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29486250,
+      "duration": 2916660,
+      "text": "about"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32541660,
+      "duration": 3333330,
+      "text": "getting"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36013750,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36847080,
+      "duration": 5555410,
+      "text": "perfect"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42541660,
+      "duration": 2222080,
+      "text": "eight"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44902910,
+      "duration": 2638750,
+      "text": "hours"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47680410,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48791660,
+      "duration": 4722080,
+      "text": "sleep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56986250,
+      "duration": 1111250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58236250,
+      "duration": 2916660,
+      "text": "warn"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61291660,
+      "duration": 1805410,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63236250,
+      "duration": 4861250,
+      "text": "stressing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68236250,
+      "duration": 2500000,
+      "text": "about"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70875000,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71847080,
+      "duration": 4166660,
+      "text": "magic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 76152910,
+      "duration": 3888750,
+      "text": "number"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 80180410,
+      "duration": 2361250,
+      "text": "may"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82680410,
+      "duration": 4166660,
+      "text": "actually"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 86986250,
+      "duration": 5000000,
+      "text": "result"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 92125000,
+      "duration": 972080,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 93236250,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 93930410,
+      "duration": 3194580,
+      "text": "drop"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 97263750,
+      "duration": 1388750,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 98791660,
+      "duration": 3333330,
+      "text": "sleep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 102263750,
+      "duration": 4861250,
+      "text": "quality"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 107263750,
+      "duration": 972080,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 108375000,
+      "duration": 7500000,
+      "text": "duration"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:33:13.899083+00:00"
+}

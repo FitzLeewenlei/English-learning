@@ -1,0 +1,259 @@
+{
+  "speechText": "Such kind of clothes can make us comfortable without sweating heavily, which can actually make us feel colder when it is damp.",
+  "audio": "audio/course-examples/5b4e04e8bb15b5018f1e97b5.mp3",
+  "sha256": "d5c3ea643e8b890a13b98b9e516ac36fe506a6c6b80018d362636cbd6e5dbe14",
+  "duration": 7.896,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Such",
+      "start": 0.101375,
+      "end": 0.518041
+    },
+    {
+      "text": "kind",
+      "start": 0.531958,
+      "end": 0.809749
+    },
+    {
+      "text": "of",
+      "start": 0.823625,
+      "end": 0.948625
+    },
+    {
+      "text": "clothes",
+      "start": 0.9625,
+      "end": 1.504166
+    },
+    {
+      "text": "can",
+      "start": 1.518041,
+      "end": 1.698582
+    },
+    {
+      "text": "make",
+      "start": 1.7125,
+      "end": 1.9625
+    },
+    {
+      "text": "us",
+      "start": 1.976375,
+      "end": 2.11525
+    },
+    {
+      "text": "comfortable",
+      "start": 2.129166,
+      "end": 2.809707
+    },
+    {
+      "text": "without",
+      "start": 2.823625,
+      "end": 3.198625
+    },
+    {
+      "text": "sweating",
+      "start": 3.2125,
+      "end": 3.656958
+    },
+    {
+      "text": "heavily",
+      "start": 3.670833,
+      "end": 4.156958
+    },
+    {
+      "text": "which",
+      "start": 4.518041,
+      "end": 4.698582
+    },
+    {
+      "text": "can",
+      "start": 4.7125,
+      "end": 4.851375
+    },
+    {
+      "text": "actually",
+      "start": 4.865291,
+      "end": 5.240291
+    },
+    {
+      "text": "make",
+      "start": 5.254166,
+      "end": 5.504166
+    },
+    {
+      "text": "us",
+      "start": 5.518041,
+      "end": 5.684707
+    },
+    {
+      "text": "feel",
+      "start": 5.698625,
+      "end": 5.948625
+    },
+    {
+      "text": "colder",
+      "start": 5.9625,
+      "end": 6.448625
+    },
+    {
+      "text": "when",
+      "start": 6.4625,
+      "end": 6.629166
+    },
+    {
+      "text": "it",
+      "start": 6.643041,
+      "end": 6.754166
+    },
+    {
+      "text": "is",
+      "start": 6.768041,
+      "end": 6.906916
+    },
+    {
+      "text": "damp",
+      "start": 6.920833,
+      "end": 7.476374
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 4166660,
+      "text": "Such"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5319580,
+      "duration": 2777910,
+      "text": "kind"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8236250,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9625000,
+      "duration": 5416660,
+      "text": "clothes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15180410,
+      "duration": 1805410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17125000,
+      "duration": 2500000,
+      "text": "make"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19763750,
+      "duration": 1388750,
+      "text": "us"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21291660,
+      "duration": 6805410,
+      "text": "comfortable"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28236250,
+      "duration": 3750000,
+      "text": "without"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32125000,
+      "duration": 4444580,
+      "text": "sweating"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36708330,
+      "duration": 4861250,
+      "text": "heavily"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45180410,
+      "duration": 1805410,
+      "text": "which"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47125000,
+      "duration": 1388750,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48652910,
+      "duration": 3750000,
+      "text": "actually"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52541660,
+      "duration": 2500000,
+      "text": "make"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55180410,
+      "duration": 1666660,
+      "text": "us"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56986250,
+      "duration": 2500000,
+      "text": "feel"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59625000,
+      "duration": 4861250,
+      "text": "colder"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64625000,
+      "duration": 1666660,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66430410,
+      "duration": 1111250,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67680410,
+      "duration": 1388750,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69208330,
+      "duration": 5555410,
+      "text": "damp"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:37:12.886914+00:00"
+}

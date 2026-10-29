@@ -1,0 +1,138 @@
+{
+  "speechText": "The Swedish app Gimi can guide children to do their homework.",
+  "audio": "audio/course-examples/7562bb7f34006711d8b32171.mp3",
+  "sha256": "e12b0aeb84c402163c6da44d102fbe19720c0ff4025687270f03d288fcf1ce00",
+  "duration": 4.344,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.272208
+    },
+    {
+      "text": "Swedish",
+      "start": 0.286125,
+      "end": 0.813916
+    },
+    {
+      "text": "app",
+      "start": 0.827791,
+      "end": 1.063916
+    },
+    {
+      "text": "Gimi",
+      "start": 1.077791,
+      "end": 1.522249
+    },
+    {
+      "text": "can",
+      "start": 1.536125,
+      "end": 1.744458
+    },
+    {
+      "text": "guide",
+      "start": 1.758333,
+      "end": 2.091666
+    },
+    {
+      "text": "children",
+      "start": 2.105541,
+      "end": 2.647207
+    },
+    {
+      "text": "to",
+      "start": 2.661125,
+      "end": 2.786125
+    },
+    {
+      "text": "do",
+      "start": 2.8,
+      "end": 2.980541
+    },
+    {
+      "text": "their",
+      "start": 2.994458,
+      "end": 3.147249
+    },
+    {
+      "text": "homework",
+      "start": 3.161125,
+      "end": 3.925
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1250000,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 5277910,
+      "text": "Swedish"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8277910,
+      "duration": 2361250,
+      "text": "app"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10777910,
+      "duration": 4444580,
+      "text": "Gimi"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 2083330,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17583330,
+      "duration": 3333330,
+      "text": "guide"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21055410,
+      "duration": 5416660,
+      "text": "children"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26611250,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28000000,
+      "duration": 1805410,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29944580,
+      "duration": 1527910,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31611250,
+      "duration": 7638750,
+      "text": "homework"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:47:27.811242+00:00"
+}

@@ -1,0 +1,94 @@
+{
+  "speechText": "She is a school headmaster in Richmond.",
+  "audio": "audio/course-examples/abb8c03e51059cdc9f1620a9.mp3",
+  "sha256": "524bf503f7b0742a2222380d11256c60cb5e2a7c41368a668a637c4e62443f8e",
+  "duration": 3.168,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "She",
+      "start": 0.119458,
+      "end": 0.369458
+    },
+    {
+      "text": "is",
+      "start": 0.383333,
+      "end": 0.522208
+    },
+    {
+      "text": "a",
+      "start": 0.536125,
+      "end": 0.619458
+    },
+    {
+      "text": "school",
+      "start": 0.633333,
+      "end": 1.036124
+    },
+    {
+      "text": "headmaster",
+      "start": 1.05,
+      "end": 1.813875
+    },
+    {
+      "text": "in",
+      "start": 1.827791,
+      "end": 2.022249
+    },
+    {
+      "text": "Richmond",
+      "start": 2.036125,
+      "end": 2.758333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 2500000,
+      "text": "She"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3833330,
+      "duration": 1388750,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5361250,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6333330,
+      "duration": 4027910,
+      "text": "school"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10500000,
+      "duration": 7638750,
+      "text": "headmaster"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18277910,
+      "duration": 1944580,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20361250,
+      "duration": 7222080,
+      "text": "Richmond"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:44:24.761216+00:00"
+}

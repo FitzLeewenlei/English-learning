@@ -1,0 +1,215 @@
+{
+  "speechText": "The earlier you start the quitting process, the more smoke-free years you can invest in your happiness account.",
+  "audio": "audio/course-examples/7561ecc6f06f51a8178a4833.mp3",
+  "sha256": "f6ddc85f38b0861ae586537ce15704157477fd29d087fb03716a52d5ee33c23b",
+  "duration": 6.864,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.341666
+    },
+    {
+      "text": "earlier",
+      "start": 0.355541,
+      "end": 0.772207
+    },
+    {
+      "text": "you",
+      "start": 0.786125,
+      "end": 0.952791
+    },
+    {
+      "text": "start",
+      "start": 0.966666,
+      "end": 1.341666
+    },
+    {
+      "text": "the",
+      "start": 1.355541,
+      "end": 1.438874
+    },
+    {
+      "text": "quitting",
+      "start": 1.452791,
+      "end": 1.827791
+    },
+    {
+      "text": "process",
+      "start": 1.841666,
+      "end": 2.508332
+    },
+    {
+      "text": "the",
+      "start": 2.827791,
+      "end": 2.924999
+    },
+    {
+      "text": "more",
+      "start": 2.938875,
+      "end": 3.161083
+    },
+    {
+      "text": "smoke-free",
+      "start": 3.175,
+      "end": 3.827791
+    },
+    {
+      "text": "years",
+      "start": 3.841666,
+      "end": 4.244457
+    },
+    {
+      "text": "you",
+      "start": 4.258333,
+      "end": 4.369458
+    },
+    {
+      "text": "can",
+      "start": 4.383333,
+      "end": 4.536124
+    },
+    {
+      "text": "invest",
+      "start": 4.55,
+      "end": 5.063875
+    },
+    {
+      "text": "in",
+      "start": 5.077791,
+      "end": 5.161124
+    },
+    {
+      "text": "your",
+      "start": 5.175,
+      "end": 5.272208
+    },
+    {
+      "text": "happiness",
+      "start": 5.286125,
+      "end": 5.813916
+    },
+    {
+      "text": "account",
+      "start": 5.827791,
+      "end": 6.452791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1944580,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 4166660,
+      "text": "earlier"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7861250,
+      "duration": 1666660,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9666660,
+      "duration": 3750000,
+      "text": "start"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13555410,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14527910,
+      "duration": 3750000,
+      "text": "quitting"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18416660,
+      "duration": 6666660,
+      "text": "process"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28277910,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29388750,
+      "duration": 2222080,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31750000,
+      "duration": 6527910,
+      "text": "smoke-free"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38416660,
+      "duration": 4027910,
+      "text": "years"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42583330,
+      "duration": 1111250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43833330,
+      "duration": 1527910,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45500000,
+      "duration": 5138750,
+      "text": "invest"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50777910,
+      "duration": 833330,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51750000,
+      "duration": 972080,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52861250,
+      "duration": 5277910,
+      "text": "happiness"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58277910,
+      "duration": 6250000,
+      "text": "account"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:45:01.874980+00:00"
+}

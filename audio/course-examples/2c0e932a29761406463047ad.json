@@ -1,0 +1,270 @@
+{
+  "speechText": "Police departments in many places have scaled down their traffic enforcement, Adkins says, and speeding and careless driving seem to be getting worse.",
+  "audio": "audio/course-examples/2c0e932a29761406463047ad.mp3",
+  "sha256": "9a480591749d82d799e586cebaff761e8fcb59962ba7dff6239c363da9104541",
+  "duration": 9.864,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Police",
+      "start": 0.102791,
+      "end": 0.533332
+    },
+    {
+      "text": "departments",
+      "start": 0.547208,
+      "end": 1.283333
+    },
+    {
+      "text": "in",
+      "start": 1.297208,
+      "end": 1.408333
+    },
+    {
+      "text": "many",
+      "start": 1.422208,
+      "end": 1.686083
+    },
+    {
+      "text": "places",
+      "start": 1.7,
+      "end": 2.283333
+    },
+    {
+      "text": "have",
+      "start": 2.297208,
+      "end": 2.449999
+    },
+    {
+      "text": "scaled",
+      "start": 2.463875,
+      "end": 2.922208
+    },
+    {
+      "text": "down",
+      "start": 2.936125,
+      "end": 3.186125
+    },
+    {
+      "text": "their",
+      "start": 3.2,
+      "end": 3.325
+    },
+    {
+      "text": "traffic",
+      "start": 3.338875,
+      "end": 3.755541
+    },
+    {
+      "text": "enforcement",
+      "start": 3.769458,
+      "end": 4.519458
+    },
+    {
+      "text": "Adkins",
+      "start": 4.825,
+      "end": 5.311125
+    },
+    {
+      "text": "says",
+      "start": 5.325,
+      "end": 5.755541
+    },
+    {
+      "text": "and",
+      "start": 6.075,
+      "end": 6.227791
+    },
+    {
+      "text": "speeding",
+      "start": 6.241666,
+      "end": 6.811124
+    },
+    {
+      "text": "and",
+      "start": 6.825,
+      "end": 6.963875
+    },
+    {
+      "text": "careless",
+      "start": 6.977791,
+      "end": 7.477791
+    },
+    {
+      "text": "driving",
+      "start": 7.491666,
+      "end": 7.963874
+    },
+    {
+      "text": "seem",
+      "start": 7.977791,
+      "end": 8.283332
+    },
+    {
+      "text": "to",
+      "start": 8.297208,
+      "end": 8.394416
+    },
+    {
+      "text": "be",
+      "start": 8.408333,
+      "end": 8.519458
+    },
+    {
+      "text": "getting",
+      "start": 8.533333,
+      "end": 8.866666
+    },
+    {
+      "text": "worse",
+      "start": 8.880541,
+      "end": 9.449999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1027910,
+      "duration": 4305410,
+      "text": "Police"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5472080,
+      "duration": 7361250,
+      "text": "departments"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12972080,
+      "duration": 1111250,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14222080,
+      "duration": 2638750,
+      "text": "many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17000000,
+      "duration": 5833330,
+      "text": "places"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22972080,
+      "duration": 1527910,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24638750,
+      "duration": 4583330,
+      "text": "scaled"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29361250,
+      "duration": 2500000,
+      "text": "down"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32000000,
+      "duration": 1250000,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33388750,
+      "duration": 4166660,
+      "text": "traffic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37694580,
+      "duration": 7500000,
+      "text": "enforcement"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48250000,
+      "duration": 4861250,
+      "text": "Adkins"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53250000,
+      "duration": 4305410,
+      "text": "says"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60750000,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62416660,
+      "duration": 5694580,
+      "text": "speeding"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68250000,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69777910,
+      "duration": 5000000,
+      "text": "careless"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 74916660,
+      "duration": 4722080,
+      "text": "driving"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79777910,
+      "duration": 3055410,
+      "text": "seem"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82972080,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 84083330,
+      "duration": 1111250,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 85333330,
+      "duration": 3333330,
+      "text": "getting"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 88805410,
+      "duration": 5694580,
+      "text": "worse"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:41:47.917563+00:00"
+}

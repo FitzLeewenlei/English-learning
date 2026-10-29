@@ -1,0 +1,149 @@
+{
+  "speechText": "Werner Berger, an art collector, agrees that collecting is linked to childhood.",
+  "audio": "audio/course-examples/b8ca847016d62c272e16cfbb.mp3",
+  "sha256": "43092ffee71c85e3e4fe6c99861ab6a068a72ef6780ff23932cae052a55ae7a1",
+  "duration": 5.784,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Werner",
+      "start": 0.147208,
+      "end": 0.577749
+    },
+    {
+      "text": "Berger",
+      "start": 0.591666,
+      "end": 1.188874
+    },
+    {
+      "text": "an",
+      "start": 1.397208,
+      "end": 1.508333
+    },
+    {
+      "text": "art",
+      "start": 1.522208,
+      "end": 1.786083
+    },
+    {
+      "text": "collector",
+      "start": 1.8,
+      "end": 2.425
+    },
+    {
+      "text": "agrees",
+      "start": 2.758333,
+      "end": 3.174999
+    },
+    {
+      "text": "that",
+      "start": 3.188875,
+      "end": 3.369416
+    },
+    {
+      "text": "collecting",
+      "start": 3.383333,
+      "end": 3.966666
+    },
+    {
+      "text": "is",
+      "start": 3.980541,
+      "end": 4.105541
+    },
+    {
+      "text": "linked",
+      "start": 4.119458,
+      "end": 4.452791
+    },
+    {
+      "text": "to",
+      "start": 4.466666,
+      "end": 4.577791
+    },
+    {
+      "text": "childhood",
+      "start": 4.591666,
+      "end": 5.369457
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 4305410,
+      "text": "Werner"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5916660,
+      "duration": 5972080,
+      "text": "Berger"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 1111250,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15222080,
+      "duration": 2638750,
+      "text": "art"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18000000,
+      "duration": 6250000,
+      "text": "collector"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27583330,
+      "duration": 4166660,
+      "text": "agrees"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31888750,
+      "duration": 1805410,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33833330,
+      "duration": 5833330,
+      "text": "collecting"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39805410,
+      "duration": 1250000,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41194580,
+      "duration": 3333330,
+      "text": "linked"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44666660,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45916660,
+      "duration": 7777910,
+      "text": "childhood"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:49:36.070534+00:00"
+}

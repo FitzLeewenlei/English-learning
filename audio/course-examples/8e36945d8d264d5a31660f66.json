@@ -1,0 +1,116 @@
+{
+  "speechText": "The virtual presence of colleagues can also be important.",
+  "audio": "audio/course-examples/8e36945d8d264d5a31660f66.mp3",
+  "sha256": "7d7b3b7ef08595a98169d79f5b187397e7a478a609b9c320f293c8765c53d321",
+  "duration": 4.272,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.101375,
+      "end": 0.309708
+    },
+    {
+      "text": "virtual",
+      "start": 0.323625,
+      "end": 0.865291
+    },
+    {
+      "text": "presence",
+      "start": 0.879166,
+      "end": 1.351374
+    },
+    {
+      "text": "of",
+      "start": 1.365291,
+      "end": 1.490291
+    },
+    {
+      "text": "colleagues",
+      "start": 1.504166,
+      "end": 2.129166
+    },
+    {
+      "text": "can",
+      "start": 2.143041,
+      "end": 2.365249
+    },
+    {
+      "text": "also",
+      "start": 2.379166,
+      "end": 2.754166
+    },
+    {
+      "text": "be",
+      "start": 2.768041,
+      "end": 2.920832
+    },
+    {
+      "text": "important",
+      "start": 2.934708,
+      "end": 3.851374
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 2083330,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3236250,
+      "duration": 5416660,
+      "text": "virtual"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8791660,
+      "duration": 4722080,
+      "text": "presence"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13652910,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15041660,
+      "duration": 6250000,
+      "text": "colleagues"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21430410,
+      "duration": 2222080,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23791660,
+      "duration": 3750000,
+      "text": "also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27680410,
+      "duration": 1527910,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29347080,
+      "duration": 9166660,
+      "text": "important"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:47:09.123978+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "speechText": "The choice was yours.",
+  "audio": "audio/course-examples/b6981cb262da2d8a78ec9cd0.mp3",
+  "sha256": "97ef9e99f15efded3f391577e8c0ce9687d38a71de92d265306e486a1723267c",
+  "duration": 1.992,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.133333,
+      "end": 0.272208
+    },
+    {
+      "text": "choice",
+      "start": 0.286125,
+      "end": 0.730583
+    },
+    {
+      "text": "was",
+      "start": 0.744458,
+      "end": 0.938916
+    },
+    {
+      "text": "yours",
+      "start": 0.952791,
+      "end": 1.577791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1388750,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 4444580,
+      "text": "choice"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7444580,
+      "duration": 1944580,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9527910,
+      "duration": 6250000,
+      "text": "yours"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:35:20.303497+00:00"
+}

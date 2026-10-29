@@ -1,0 +1,248 @@
+{
+  "speechText": "If the weather is warm, you can buy food in supermarkets or at roadside stands and have a picnic for lunch.",
+  "audio": "audio/course-examples/1056e37aa1db25a7eb94f959.mp3",
+  "sha256": "8ca22b953d78b35fc533ab388d17277066d7bf80ac1174715d93fb9aa104053e",
+  "duration": 7.248,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "If",
+      "start": 0.147208,
+      "end": 0.313874
+    },
+    {
+      "text": "the",
+      "start": 0.327791,
+      "end": 0.424999
+    },
+    {
+      "text": "weather",
+      "start": 0.438875,
+      "end": 0.744416
+    },
+    {
+      "text": "is",
+      "start": 0.758333,
+      "end": 0.897208
+    },
+    {
+      "text": "warm",
+      "start": 0.911125,
+      "end": 1.369458
+    },
+    {
+      "text": "you",
+      "start": 1.702791,
+      "end": 1.786124
+    },
+    {
+      "text": "can",
+      "start": 1.8,
+      "end": 1.980541
+    },
+    {
+      "text": "buy",
+      "start": 1.994458,
+      "end": 2.174999
+    },
+    {
+      "text": "food",
+      "start": 2.188875,
+      "end": 2.55
+    },
+    {
+      "text": "in",
+      "start": 2.563875,
+      "end": 2.70275
+    },
+    {
+      "text": "supermarkets",
+      "start": 2.716666,
+      "end": 3.716666
+    },
+    {
+      "text": "or",
+      "start": 3.730541,
+      "end": 3.897207
+    },
+    {
+      "text": "at",
+      "start": 3.911125,
+      "end": 4.077791
+    },
+    {
+      "text": "roadside",
+      "start": 4.091666,
+      "end": 4.661124
+    },
+    {
+      "text": "stands",
+      "start": 4.675,
+      "end": 5.216666
+    },
+    {
+      "text": "and",
+      "start": 5.230541,
+      "end": 5.383332
+    },
+    {
+      "text": "have",
+      "start": 5.397208,
+      "end": 5.577749
+    },
+    {
+      "text": "a",
+      "start": 5.591666,
+      "end": 5.674999
+    },
+    {
+      "text": "picnic",
+      "start": 5.688875,
+      "end": 6.133333
+    },
+    {
+      "text": "for",
+      "start": 6.147208,
+      "end": 6.258333
+    },
+    {
+      "text": "lunch",
+      "start": 6.272208,
+      "end": 6.827749
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1666660,
+      "text": "If"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3277910,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 3055410,
+      "text": "weather"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7583330,
+      "duration": 1388750,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9111250,
+      "duration": 4583330,
+      "text": "warm"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17027910,
+      "duration": 833330,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18000000,
+      "duration": 1805410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19944580,
+      "duration": 1805410,
+      "text": "buy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21888750,
+      "duration": 3611250,
+      "text": "food"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25638750,
+      "duration": 1388750,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27166660,
+      "duration": 10000000,
+      "text": "supermarkets"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37305410,
+      "duration": 1666660,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39111250,
+      "duration": 1666660,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40916660,
+      "duration": 5694580,
+      "text": "roadside"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46750000,
+      "duration": 5416660,
+      "text": "stands"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52305410,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53972080,
+      "duration": 1805410,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55916660,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56888750,
+      "duration": 4444580,
+      "text": "picnic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61472080,
+      "duration": 1111250,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62722080,
+      "duration": 5555410,
+      "text": "lunch"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:33:44.372148+00:00"
+}

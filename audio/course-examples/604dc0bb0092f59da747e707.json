@@ -1,0 +1,182 @@
+{
+  "speechText": "Fewer insects mean less food for birds and fewer flowers and vegetables for the gardener.",
+  "audio": "audio/course-examples/604dc0bb0092f59da747e707.mp3",
+  "sha256": "c33d6adfc6ff3eab45d9fc6f501f38f1b5cc657c7087b130dcd6a29833b5bfb8",
+  "duration": 6.12,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Fewer",
+      "start": 0.133333,
+      "end": 0.536124
+    },
+    {
+      "text": "insects",
+      "start": 0.55,
+      "end": 1.216666
+    },
+    {
+      "text": "mean",
+      "start": 1.230541,
+      "end": 1.494416
+    },
+    {
+      "text": "less",
+      "start": 1.508333,
+      "end": 1.827791
+    },
+    {
+      "text": "food",
+      "start": 1.841666,
+      "end": 2.161124
+    },
+    {
+      "text": "for",
+      "start": 2.175,
+      "end": 2.327791
+    },
+    {
+      "text": "birds",
+      "start": 2.341666,
+      "end": 2.855541
+    },
+    {
+      "text": "and",
+      "start": 2.869458,
+      "end": 3.049999
+    },
+    {
+      "text": "fewer",
+      "start": 3.063875,
+      "end": 3.383333
+    },
+    {
+      "text": "flowers",
+      "start": 3.397208,
+      "end": 3.966666
+    },
+    {
+      "text": "and",
+      "start": 3.980541,
+      "end": 4.147207
+    },
+    {
+      "text": "vegetables",
+      "start": 4.161125,
+      "end": 4.841666
+    },
+    {
+      "text": "for",
+      "start": 4.855541,
+      "end": 4.952749
+    },
+    {
+      "text": "the",
+      "start": 4.966666,
+      "end": 5.063874
+    },
+    {
+      "text": "gardener",
+      "start": 5.077791,
+      "end": 5.716666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 4027910,
+      "text": "Fewer"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5500000,
+      "duration": 6666660,
+      "text": "insects"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12305410,
+      "duration": 2638750,
+      "text": "mean"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15083330,
+      "duration": 3194580,
+      "text": "less"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18416660,
+      "duration": 3194580,
+      "text": "food"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21750000,
+      "duration": 1527910,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23416660,
+      "duration": 5138750,
+      "text": "birds"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28694580,
+      "duration": 1805410,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30638750,
+      "duration": 3194580,
+      "text": "fewer"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33972080,
+      "duration": 5694580,
+      "text": "flowers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39805410,
+      "duration": 1666660,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41611250,
+      "duration": 6805410,
+      "text": "vegetables"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48555410,
+      "duration": 972080,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49666660,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50777910,
+      "duration": 6388750,
+      "text": "gardener"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:52:05.271704+00:00"
+}

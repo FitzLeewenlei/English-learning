@@ -1,0 +1,83 @@
+{
+  "speechText": "The rules could not be simpler.",
+  "audio": "audio/course-examples/785e6416db9c73509b6f28bd.mp3",
+  "sha256": "22b59233b873502838e470eafc232c35711e61e869ec4f308efd117a6e3b1d60",
+  "duration": 2.52,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.272208
+    },
+    {
+      "text": "rules",
+      "start": 0.286125,
+      "end": 0.77225
+    },
+    {
+      "text": "could",
+      "start": 0.786125,
+      "end": 0.994458
+    },
+    {
+      "text": "not",
+      "start": 1.008333,
+      "end": 1.272208
+    },
+    {
+      "text": "be",
+      "start": 1.286125,
+      "end": 1.425
+    },
+    {
+      "text": "simpler",
+      "start": 1.438875,
+      "end": 2.105541
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1250000,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 4861250,
+      "text": "rules"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7861250,
+      "duration": 2083330,
+      "text": "could"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10083330,
+      "duration": 2638750,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12861250,
+      "duration": 1388750,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14388750,
+      "duration": 6666660,
+      "text": "simpler"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:54:05.027720+00:00"
+}

@@ -1,0 +1,248 @@
+{
+  "speechText": "Experts emphasize that refilling programs are not a perfect method, but when they replace single-use packaging, they can help reduce waste.",
+  "audio": "audio/course-examples/e83791efd47371d4658d1a39.mp3",
+  "sha256": "a640cc813e8b3d59a8891d9ea9b383591a3c69cfa2bac34379e3fe16175e29ed",
+  "duration": 9.528,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Experts",
+      "start": 0.119458,
+      "end": 0.758333
+    },
+    {
+      "text": "emphasize",
+      "start": 0.772208,
+      "end": 1.522208
+    },
+    {
+      "text": "that",
+      "start": 1.536125,
+      "end": 1.758333
+    },
+    {
+      "text": "refilling",
+      "start": 1.772208,
+      "end": 2.313874
+    },
+    {
+      "text": "programs",
+      "start": 2.327791,
+      "end": 3.008332
+    },
+    {
+      "text": "are",
+      "start": 3.022208,
+      "end": 3.119416
+    },
+    {
+      "text": "not",
+      "start": 3.133333,
+      "end": 3.397208
+    },
+    {
+      "text": "a",
+      "start": 3.411125,
+      "end": 3.494458
+    },
+    {
+      "text": "perfect",
+      "start": 3.508333,
+      "end": 3.994458
+    },
+    {
+      "text": "method",
+      "start": 4.008333,
+      "end": 4.466666
+    },
+    {
+      "text": "but",
+      "start": 4.813875,
+      "end": 4.994416
+    },
+    {
+      "text": "when",
+      "start": 5.008333,
+      "end": 5.202791
+    },
+    {
+      "text": "they",
+      "start": 5.216666,
+      "end": 5.327791
+    },
+    {
+      "text": "replace",
+      "start": 5.341666,
+      "end": 5.869457
+    },
+    {
+      "text": "single-use",
+      "start": 5.883333,
+      "end": 6.466666
+    },
+    {
+      "text": "packaging",
+      "start": 6.480541,
+      "end": 7.105541
+    },
+    {
+      "text": "they",
+      "start": 7.383333,
+      "end": 7.494458
+    },
+    {
+      "text": "can",
+      "start": 7.508333,
+      "end": 7.702791
+    },
+    {
+      "text": "help",
+      "start": 7.716666,
+      "end": 8.022207
+    },
+    {
+      "text": "reduce",
+      "start": 8.036125,
+      "end": 8.480583
+    },
+    {
+      "text": "waste",
+      "start": 8.494458,
+      "end": 9.119458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 6388750,
+      "text": "Experts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7722080,
+      "duration": 7500000,
+      "text": "emphasize"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 2222080,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17722080,
+      "duration": 5416660,
+      "text": "refilling"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23277910,
+      "duration": 6805410,
+      "text": "programs"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30222080,
+      "duration": 972080,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31333330,
+      "duration": 2638750,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34111250,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35083330,
+      "duration": 4861250,
+      "text": "perfect"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40083330,
+      "duration": 4583330,
+      "text": "method"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48138750,
+      "duration": 1805410,
+      "text": "but"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50083330,
+      "duration": 1944580,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52166660,
+      "duration": 1111250,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53416660,
+      "duration": 5277910,
+      "text": "replace"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58833330,
+      "duration": 5833330,
+      "text": "single-use"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64805410,
+      "duration": 6250000,
+      "text": "packaging"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73833330,
+      "duration": 1111250,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 75083330,
+      "duration": 1944580,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 77166660,
+      "duration": 3055410,
+      "text": "help"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 80361250,
+      "duration": 4444580,
+      "text": "reduce"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 84944580,
+      "duration": 6250000,
+      "text": "waste"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:54:53.416801+00:00"
+}

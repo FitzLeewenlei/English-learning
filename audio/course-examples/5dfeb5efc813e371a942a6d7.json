@@ -1,0 +1,105 @@
+{
+  "speechText": "Just keeping away can help traffic flow smoothly.",
+  "audio": "audio/course-examples/5dfeb5efc813e371a942a6d7.mp3",
+  "sha256": "1e10c728627774de74e5d15298d311b13fb52922eb3397bfaeb3b8207d53f38a",
+  "duration": 3.72,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Just",
+      "start": 0.101375,
+      "end": 0.4625
+    },
+    {
+      "text": "keeping",
+      "start": 0.476375,
+      "end": 0.86525
+    },
+    {
+      "text": "away",
+      "start": 0.879166,
+      "end": 1.268041
+    },
+    {
+      "text": "can",
+      "start": 1.281958,
+      "end": 1.490291
+    },
+    {
+      "text": "help",
+      "start": 1.504166,
+      "end": 1.795832
+    },
+    {
+      "text": "traffic",
+      "start": 1.809708,
+      "end": 2.268041
+    },
+    {
+      "text": "flow",
+      "start": 2.281958,
+      "end": 2.573624
+    },
+    {
+      "text": "smoothly",
+      "start": 2.5875,
+      "end": 3.295833
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 3611250,
+      "text": "Just"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4763750,
+      "duration": 3888750,
+      "text": "keeping"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8791660,
+      "duration": 3888750,
+      "text": "away"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12819580,
+      "duration": 2083330,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15041660,
+      "duration": 2916660,
+      "text": "help"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18097080,
+      "duration": 4583330,
+      "text": "traffic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22819580,
+      "duration": 2916660,
+      "text": "flow"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25875000,
+      "duration": 7083330,
+      "text": "smoothly"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:38:47.858502+00:00"
+}

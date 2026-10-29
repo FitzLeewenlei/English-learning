@@ -1,0 +1,72 @@
+{
+  "speechText": "Later, something unexpected comes up.",
+  "audio": "audio/course-examples/377518eb909e382648a2d5a5.mp3",
+  "sha256": "cf442020341ddc0b16238ee397aac3d3c3377e7d858c827074ba4a9177ee1be1",
+  "duration": 3.504,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Later",
+      "start": 0.119458,
+      "end": 0.702791
+    },
+    {
+      "text": "something",
+      "start": 1.036125,
+      "end": 1.480583
+    },
+    {
+      "text": "unexpected",
+      "start": 1.494458,
+      "end": 2.327791
+    },
+    {
+      "text": "comes",
+      "start": 2.341666,
+      "end": 2.674999
+    },
+    {
+      "text": "up",
+      "start": 2.688875,
+      "end": 3.091666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 5833330,
+      "text": "Later"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10361250,
+      "duration": 4444580,
+      "text": "something"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14944580,
+      "duration": 8333330,
+      "text": "unexpected"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23416660,
+      "duration": 3333330,
+      "text": "comes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26888750,
+      "duration": 4027910,
+      "text": "up"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:30:09.809346+00:00"
+}

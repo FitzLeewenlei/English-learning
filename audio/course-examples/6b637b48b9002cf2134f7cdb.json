@@ -1,0 +1,259 @@
+{
+  "speechText": "It seems that your chances of winning and losing are about the same, but the outcome of the game is not random.",
+  "audio": "audio/course-examples/6b637b48b9002cf2134f7cdb.mp3",
+  "sha256": "5b428769080e3df6d2a7b17015cac635fd8a9f17c4241172ebb51c647f531c86",
+  "duration": 6.912,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "It",
+      "start": 0.147208,
+      "end": 0.299999
+    },
+    {
+      "text": "seems",
+      "start": 0.313875,
+      "end": 0.70275
+    },
+    {
+      "text": "that",
+      "start": 0.716666,
+      "end": 0.883332
+    },
+    {
+      "text": "your",
+      "start": 0.897208,
+      "end": 1.036083
+    },
+    {
+      "text": "chances",
+      "start": 1.05,
+      "end": 1.577791
+    },
+    {
+      "text": "of",
+      "start": 1.591666,
+      "end": 1.702791
+    },
+    {
+      "text": "winning",
+      "start": 1.716666,
+      "end": 2.133332
+    },
+    {
+      "text": "and",
+      "start": 2.147208,
+      "end": 2.258333
+    },
+    {
+      "text": "losing",
+      "start": 2.272208,
+      "end": 2.716666
+    },
+    {
+      "text": "are",
+      "start": 2.730541,
+      "end": 2.883332
+    },
+    {
+      "text": "about",
+      "start": 2.897208,
+      "end": 3.202749
+    },
+    {
+      "text": "the",
+      "start": 3.216666,
+      "end": 3.313874
+    },
+    {
+      "text": "same",
+      "start": 3.327791,
+      "end": 3.786124
+    },
+    {
+      "text": "but",
+      "start": 4.133333,
+      "end": 4.299999
+    },
+    {
+      "text": "the",
+      "start": 4.313875,
+      "end": 4.45275
+    },
+    {
+      "text": "outcome",
+      "start": 4.466666,
+      "end": 4.911124
+    },
+    {
+      "text": "of",
+      "start": 4.925,
+      "end": 5.022208
+    },
+    {
+      "text": "the",
+      "start": 5.036125,
+      "end": 5.133333
+    },
+    {
+      "text": "game",
+      "start": 5.147208,
+      "end": 5.508333
+    },
+    {
+      "text": "is",
+      "start": 5.522208,
+      "end": 5.661083
+    },
+    {
+      "text": "not",
+      "start": 5.675,
+      "end": 5.925
+    },
+    {
+      "text": "random",
+      "start": 5.938875,
+      "end": 6.494416
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1527910,
+      "text": "It"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3138750,
+      "duration": 3888750,
+      "text": "seems"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7166660,
+      "duration": 1666660,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 1388750,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10500000,
+      "duration": 5277910,
+      "text": "chances"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15916660,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17166660,
+      "duration": 4166660,
+      "text": "winning"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21472080,
+      "duration": 1111250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22722080,
+      "duration": 4444580,
+      "text": "losing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27305410,
+      "duration": 1527910,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28972080,
+      "duration": 3055410,
+      "text": "about"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32166660,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33277910,
+      "duration": 4583330,
+      "text": "same"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41333330,
+      "duration": 1666660,
+      "text": "but"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43138750,
+      "duration": 1388750,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44666660,
+      "duration": 4444580,
+      "text": "outcome"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49250000,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50361250,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51472080,
+      "duration": 3611250,
+      "text": "game"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55222080,
+      "duration": 1388750,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56750000,
+      "duration": 2500000,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59388750,
+      "duration": 5555410,
+      "text": "random"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:42:42.663539+00:00"
+}

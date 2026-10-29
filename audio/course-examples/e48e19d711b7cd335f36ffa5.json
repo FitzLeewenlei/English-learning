@@ -1,0 +1,226 @@
+{
+  "speechText": "In the past, a lack of sleep was a sign to bosses that a person was productive and successful.",
+  "audio": "audio/course-examples/e48e19d711b7cd335f36ffa5.mp3",
+  "sha256": "4304914599fa23d9d157d33196dd04d35502c36d2f785a2215c36dac017bf134",
+  "duration": 6.576,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "In",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "the",
+      "start": 0.3,
+      "end": 0.411125
+    },
+    {
+      "text": "past",
+      "start": 0.425,
+      "end": 1.008333
+    },
+    {
+      "text": "a",
+      "start": 1.286125,
+      "end": 1.313916
+    },
+    {
+      "text": "lack",
+      "start": 1.327791,
+      "end": 1.591666
+    },
+    {
+      "text": "of",
+      "start": 1.605541,
+      "end": 1.730541
+    },
+    {
+      "text": "sleep",
+      "start": 1.744458,
+      "end": 2.174999
+    },
+    {
+      "text": "was",
+      "start": 2.188875,
+      "end": 2.341666
+    },
+    {
+      "text": "a",
+      "start": 2.355541,
+      "end": 2.438874
+    },
+    {
+      "text": "sign",
+      "start": 2.452791,
+      "end": 2.897249
+    },
+    {
+      "text": "to",
+      "start": 2.911125,
+      "end": 3.036125
+    },
+    {
+      "text": "bosses",
+      "start": 3.05,
+      "end": 3.591666
+    },
+    {
+      "text": "that",
+      "start": 3.605541,
+      "end": 3.758332
+    },
+    {
+      "text": "a",
+      "start": 3.772208,
+      "end": 3.855541
+    },
+    {
+      "text": "person",
+      "start": 3.869458,
+      "end": 4.341666
+    },
+    {
+      "text": "was",
+      "start": 4.355541,
+      "end": 4.508332
+    },
+    {
+      "text": "productive",
+      "start": 4.522208,
+      "end": 5.174999
+    },
+    {
+      "text": "and",
+      "start": 5.188875,
+      "end": 5.313875
+    },
+    {
+      "text": "successful",
+      "start": 5.327791,
+      "end": 6.161124
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "In"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4250000,
+      "duration": 5833330,
+      "text": "past"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12861250,
+      "duration": 277910,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13277910,
+      "duration": 2638750,
+      "text": "lack"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16055410,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17444580,
+      "duration": 4305410,
+      "text": "sleep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21888750,
+      "duration": 1527910,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23555410,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24527910,
+      "duration": 4444580,
+      "text": "sign"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29111250,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30500000,
+      "duration": 5416660,
+      "text": "bosses"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36055410,
+      "duration": 1527910,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37722080,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38694580,
+      "duration": 4722080,
+      "text": "person"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43555410,
+      "duration": 1527910,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45222080,
+      "duration": 6527910,
+      "text": "productive"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51888750,
+      "duration": 1250000,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53277910,
+      "duration": 8333330,
+      "text": "successful"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:31:12.956038+00:00"
+}

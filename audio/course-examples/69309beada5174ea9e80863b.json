@@ -1,0 +1,182 @@
+{
+  "speechText": "To make a good impression, you should wear professional clothes and look neat and clean.",
+  "audio": "audio/course-examples/69309beada5174ea9e80863b.mp3",
+  "sha256": "d80737118427021e1c65db37b8a35b19eb5c5f3f379d4211a92006134441dc46",
+  "duration": 5.496,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "To",
+      "start": 0.119458,
+      "end": 0.244458
+    },
+    {
+      "text": "make",
+      "start": 0.258333,
+      "end": 0.522208
+    },
+    {
+      "text": "a",
+      "start": 0.536125,
+      "end": 0.605583
+    },
+    {
+      "text": "good",
+      "start": 0.619458,
+      "end": 0.799999
+    },
+    {
+      "text": "impression",
+      "start": 0.813875,
+      "end": 1.522208
+    },
+    {
+      "text": "you",
+      "start": 1.869458,
+      "end": 1.952791
+    },
+    {
+      "text": "should",
+      "start": 1.966666,
+      "end": 2.202791
+    },
+    {
+      "text": "wear",
+      "start": 2.216666,
+      "end": 2.397207
+    },
+    {
+      "text": "professional",
+      "start": 2.411125,
+      "end": 3.091666
+    },
+    {
+      "text": "clothes",
+      "start": 3.105541,
+      "end": 3.674999
+    },
+    {
+      "text": "and",
+      "start": 3.688875,
+      "end": 3.841666
+    },
+    {
+      "text": "look",
+      "start": 3.855541,
+      "end": 4.077749
+    },
+    {
+      "text": "neat",
+      "start": 4.091666,
+      "end": 4.411124
+    },
+    {
+      "text": "and",
+      "start": 4.425,
+      "end": 4.55
+    },
+    {
+      "text": "clean",
+      "start": 4.563875,
+      "end": 5.07775
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 1250000,
+      "text": "To"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2583330,
+      "duration": 2638750,
+      "text": "make"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5361250,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6194580,
+      "duration": 1805410,
+      "text": "good"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8138750,
+      "duration": 7083330,
+      "text": "impression"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18694580,
+      "duration": 833330,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19666660,
+      "duration": 2361250,
+      "text": "should"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22166660,
+      "duration": 1805410,
+      "text": "wear"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24111250,
+      "duration": 6805410,
+      "text": "professional"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31055410,
+      "duration": 5694580,
+      "text": "clothes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36888750,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38555410,
+      "duration": 2222080,
+      "text": "look"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40916660,
+      "duration": 3194580,
+      "text": "neat"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44250000,
+      "duration": 1250000,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45638750,
+      "duration": 5138750,
+      "text": "clean"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:43:56.888950+00:00"
+}

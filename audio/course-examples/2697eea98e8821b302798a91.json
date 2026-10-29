@@ -1,0 +1,171 @@
+{
+  "speechText": "If rats have adequate living space, they eat well, sleep well, and reproduce well.",
+  "audio": "audio/course-examples/2697eea98e8821b302798a91.mp3",
+  "sha256": "15d24f8066c865c84ce250946332c29f347e96dd67dd95a44688206269f64c39",
+  "duration": 6.456,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "If",
+      "start": 0.147208,
+      "end": 0.341666
+    },
+    {
+      "text": "rats",
+      "start": 0.355541,
+      "end": 0.716666
+    },
+    {
+      "text": "have",
+      "start": 0.730541,
+      "end": 0.924999
+    },
+    {
+      "text": "adequate",
+      "start": 0.938875,
+      "end": 1.45275
+    },
+    {
+      "text": "living",
+      "start": 1.466666,
+      "end": 1.786124
+    },
+    {
+      "text": "space",
+      "start": 1.8,
+      "end": 2.383333
+    },
+    {
+      "text": "they",
+      "start": 2.675,
+      "end": 2.827791
+    },
+    {
+      "text": "eat",
+      "start": 2.841666,
+      "end": 3.147207
+    },
+    {
+      "text": "well",
+      "start": 3.161125,
+      "end": 3.591666
+    },
+    {
+      "text": "sleep",
+      "start": 3.855541,
+      "end": 4.216666
+    },
+    {
+      "text": "well",
+      "start": 4.230541,
+      "end": 4.563874
+    },
+    {
+      "text": "and",
+      "start": 4.786125,
+      "end": 4.89725
+    },
+    {
+      "text": "reproduce",
+      "start": 4.911125,
+      "end": 5.563916
+    },
+    {
+      "text": "well",
+      "start": 5.577791,
+      "end": 6.036124
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1944580,
+      "text": "If"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 3611250,
+      "text": "rats"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7305410,
+      "duration": 1944580,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9388750,
+      "duration": 5138750,
+      "text": "adequate"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14666660,
+      "duration": 3194580,
+      "text": "living"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18000000,
+      "duration": 5833330,
+      "text": "space"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26750000,
+      "duration": 1527910,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28416660,
+      "duration": 3055410,
+      "text": "eat"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31611250,
+      "duration": 4305410,
+      "text": "well"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38555410,
+      "duration": 3611250,
+      "text": "sleep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42305410,
+      "duration": 3333330,
+      "text": "well"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47861250,
+      "duration": 1111250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49111250,
+      "duration": 6527910,
+      "text": "reproduce"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55777910,
+      "duration": 4583330,
+      "text": "well"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:48:11.354628+00:00"
+}

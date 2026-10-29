@@ -1,0 +1,105 @@
+{
+  "speechText": "Still, refilling does not mean lower environmental impact.",
+  "audio": "audio/course-examples/077f5cc9f52116b6fbf2f6e4.mp3",
+  "sha256": "0be6f30b7cbb0f74ef42c22423ca47e4d18df7e70197371b9c0041d6d263e40e",
+  "duration": 4.92,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Still",
+      "start": 0.147208,
+      "end": 0.730541
+    },
+    {
+      "text": "refilling",
+      "start": 1.063875,
+      "end": 1.730541
+    },
+    {
+      "text": "does",
+      "start": 1.744458,
+      "end": 1.938916
+    },
+    {
+      "text": "not",
+      "start": 1.952791,
+      "end": 2.244457
+    },
+    {
+      "text": "mean",
+      "start": 2.258333,
+      "end": 2.522208
+    },
+    {
+      "text": "lower",
+      "start": 2.536125,
+      "end": 2.938916
+    },
+    {
+      "text": "environmental",
+      "start": 2.952791,
+      "end": 3.758332
+    },
+    {
+      "text": "impact",
+      "start": 3.772208,
+      "end": 4.508333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 5833330,
+      "text": "Still"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10638750,
+      "duration": 6666660,
+      "text": "refilling"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17444580,
+      "duration": 1944580,
+      "text": "does"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19527910,
+      "duration": 2916660,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22583330,
+      "duration": 2638750,
+      "text": "mean"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25361250,
+      "duration": 4027910,
+      "text": "lower"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29527910,
+      "duration": 8055410,
+      "text": "environmental"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37722080,
+      "duration": 7361250,
+      "text": "impact"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:37:18.452887+00:00"
+}

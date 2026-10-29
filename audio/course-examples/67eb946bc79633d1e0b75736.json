@@ -1,0 +1,83 @@
+{
+  "speechText": "Make sure that we exercise regularly.",
+  "audio": "audio/course-examples/67eb946bc79633d1e0b75736.mp3",
+  "sha256": "5821a8fa27547c6c5273d3819883c225654f30315c66f637639f2aa0f7b122db",
+  "duration": 3.144,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Make",
+      "start": 0.105541,
+      "end": 0.424999
+    },
+    {
+      "text": "sure",
+      "start": 0.438875,
+      "end": 0.8
+    },
+    {
+      "text": "that",
+      "start": 0.813875,
+      "end": 1.008333
+    },
+    {
+      "text": "we",
+      "start": 1.022208,
+      "end": 1.188874
+    },
+    {
+      "text": "exercise",
+      "start": 1.202791,
+      "end": 1.952791
+    },
+    {
+      "text": "regularly",
+      "start": 1.966666,
+      "end": 2.730541
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1055410,
+      "duration": 3194580,
+      "text": "Make"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 3611250,
+      "text": "sure"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8138750,
+      "duration": 1944580,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10222080,
+      "duration": 1666660,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12027910,
+      "duration": 7500000,
+      "text": "exercise"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19666660,
+      "duration": 7638750,
+      "text": "regularly"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:35:39.895740+00:00"
+}

@@ -1,0 +1,122 @@
+{
+  "speechText": "Many companies do not hire people over 65 years old.",
+  "audio": "audio/course-examples/57c9ab71af23d8f387c4b7bb.mp3",
+  "sha256": "453a079284b08b2f667b28763f86e1921ab80ce6032315f10a9336c076ca2ef3",
+  "duration": 4.68,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [
+    "65",
+    "years",
+    "old"
+  ],
+  "words": [
+    {
+      "text": "Many",
+      "start": 0.119458,
+      "end": 0.452791
+    },
+    {
+      "text": "companies",
+      "start": 0.466666,
+      "end": 1.119457
+    },
+    {
+      "text": "do",
+      "start": 1.133333,
+      "end": 1.272208
+    },
+    {
+      "text": "not",
+      "start": 1.286125,
+      "end": 1.52225
+    },
+    {
+      "text": "hire",
+      "start": 1.536125,
+      "end": 1.89725
+    },
+    {
+      "text": "people",
+      "start": 1.911125,
+      "end": 2.438916
+    },
+    {
+      "text": "over",
+      "start": 2.452791,
+      "end": 2.716666
+    },
+    {
+      "text": "65",
+      "start": 2.730541,
+      "end": 3.0360994,
+      "estimatedSplit": true
+    },
+    {
+      "text": "years",
+      "start": 3.0360994,
+      "end": 3.7999954,
+      "estimatedSplit": true
+    },
+    {
+      "text": "old",
+      "start": 3.7999954,
+      "end": 4.258333,
+      "estimatedSplit": true
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 3333330,
+      "text": "Many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4666660,
+      "duration": 6527910,
+      "text": "companies"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11333330,
+      "duration": 1388750,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12861250,
+      "duration": 2361250,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 3611250,
+      "text": "hire"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19111250,
+      "duration": 5277910,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24527910,
+      "duration": 2638750,
+      "text": "over"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27305410,
+      "duration": 15277920,
+      "text": "65 years old"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:42:20.344380+00:00"
+}

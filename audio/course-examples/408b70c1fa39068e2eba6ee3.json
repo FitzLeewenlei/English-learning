@@ -1,0 +1,149 @@
+{
+  "speechText": "Even donating blood, an especially personal kind of giving, improves our attitude.",
+  "audio": "audio/course-examples/408b70c1fa39068e2eba6ee3.mp3",
+  "sha256": "ba2b41e5d1916d3f3047c75083472680b11e79580e0015e06283a79969a688a6",
+  "duration": 6.264,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Even",
+      "start": 0.119458,
+      "end": 0.452791
+    },
+    {
+      "text": "donating",
+      "start": 0.466666,
+      "end": 1.063874
+    },
+    {
+      "text": "blood",
+      "start": 1.077791,
+      "end": 1.494457
+    },
+    {
+      "text": "an",
+      "start": 1.786125,
+      "end": 1.869458
+    },
+    {
+      "text": "especially",
+      "start": 1.883333,
+      "end": 2.549999
+    },
+    {
+      "text": "personal",
+      "start": 2.563875,
+      "end": 3.091666
+    },
+    {
+      "text": "kind",
+      "start": 3.105541,
+      "end": 3.411082
+    },
+    {
+      "text": "of",
+      "start": 3.425,
+      "end": 3.536125
+    },
+    {
+      "text": "giving",
+      "start": 3.55,
+      "end": 4.008333
+    },
+    {
+      "text": "improves",
+      "start": 4.272208,
+      "end": 4.897208
+    },
+    {
+      "text": "our",
+      "start": 4.911125,
+      "end": 5.063916
+    },
+    {
+      "text": "attitude",
+      "start": 5.077791,
+      "end": 5.855582
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 3333330,
+      "text": "Even"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4666660,
+      "duration": 5972080,
+      "text": "donating"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10777910,
+      "duration": 4166660,
+      "text": "blood"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17861250,
+      "duration": 833330,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18833330,
+      "duration": 6666660,
+      "text": "especially"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25638750,
+      "duration": 5277910,
+      "text": "personal"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31055410,
+      "duration": 3055410,
+      "text": "kind"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34250000,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35500000,
+      "duration": 4583330,
+      "text": "giving"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42722080,
+      "duration": 6250000,
+      "text": "improves"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49111250,
+      "duration": 1527910,
+      "text": "our"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50777910,
+      "duration": 7777910,
+      "text": "attitude"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:45:17.525853+00:00"
+}

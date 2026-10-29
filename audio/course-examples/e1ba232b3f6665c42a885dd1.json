@@ -1,0 +1,94 @@
+{
+  "speechText": "Do your part to prevent spreading bacteria.",
+  "audio": "audio/course-examples/e1ba232b3f6665c42a885dd1.mp3",
+  "sha256": "c180ff1a9da31eca2f3e878ea31e0bf065693bc98591b41d6ce7908c2d0091d1",
+  "duration": 3.432,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Do",
+      "start": 0.102791,
+      "end": 0.269457
+    },
+    {
+      "text": "your",
+      "start": 0.283333,
+      "end": 0.477791
+    },
+    {
+      "text": "part",
+      "start": 0.491666,
+      "end": 0.991666
+    },
+    {
+      "text": "to",
+      "start": 1.005541,
+      "end": 1.102749
+    },
+    {
+      "text": "prevent",
+      "start": 1.116666,
+      "end": 1.616666
+    },
+    {
+      "text": "spreading",
+      "start": 1.630541,
+      "end": 2.102749
+    },
+    {
+      "text": "bacteria",
+      "start": 2.116666,
+      "end": 3.019457
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1027910,
+      "duration": 1666660,
+      "text": "Do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2833330,
+      "duration": 1944580,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4916660,
+      "duration": 5000000,
+      "text": "part"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10055410,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11166660,
+      "duration": 5000000,
+      "text": "prevent"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16305410,
+      "duration": 4722080,
+      "text": "spreading"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21166660,
+      "duration": 9027910,
+      "text": "bacteria"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:48:20.888604+00:00"
+}

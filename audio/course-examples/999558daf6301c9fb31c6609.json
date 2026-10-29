@@ -1,0 +1,94 @@
+{
+  "speechText": "She has new cameras to catch speeders.",
+  "audio": "audio/course-examples/999558daf6301c9fb31c6609.mp3",
+  "sha256": "6c977f955dbc9bbed42144f9a78dd0de30d22cde0beeeac7c6379ecee0dc0cdf",
+  "duration": 3.096,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "She",
+      "start": 0.119458,
+      "end": 0.341666
+    },
+    {
+      "text": "has",
+      "start": 0.355541,
+      "end": 0.563874
+    },
+    {
+      "text": "new",
+      "start": 0.577791,
+      "end": 0.799999
+    },
+    {
+      "text": "cameras",
+      "start": 0.813875,
+      "end": 1.411083
+    },
+    {
+      "text": "to",
+      "start": 1.425,
+      "end": 1.55
+    },
+    {
+      "text": "catch",
+      "start": 1.563875,
+      "end": 1.925
+    },
+    {
+      "text": "speeders",
+      "start": 1.938875,
+      "end": 2.688875
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 2222080,
+      "text": "She"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 2083330,
+      "text": "has"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5777910,
+      "duration": 2222080,
+      "text": "new"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8138750,
+      "duration": 5972080,
+      "text": "cameras"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14250000,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 3611250,
+      "text": "catch"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19388750,
+      "duration": 7500000,
+      "text": "speeders"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:42:33.122833+00:00"
+}

@@ -1,0 +1,160 @@
+{
+  "speechText": "They’re good for blocking the unusual light coming from lamps and the devices.",
+  "audio": "audio/course-examples/cdf7e2e324819e87e77c681d.mp3",
+  "sha256": "351c142fb5b8247a5f0e6ca91e78919f12df59e2291f3bcd6e9566455c7d0093",
+  "duration": 5.304,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "They’re",
+      "start": 0.147208,
+      "end": 0.383333
+    },
+    {
+      "text": "good",
+      "start": 0.397208,
+      "end": 0.647208
+    },
+    {
+      "text": "for",
+      "start": 0.661125,
+      "end": 0.841666
+    },
+    {
+      "text": "blocking",
+      "start": 0.855541,
+      "end": 1.355541
+    },
+    {
+      "text": "the",
+      "start": 1.369458,
+      "end": 1.522249
+    },
+    {
+      "text": "unusual",
+      "start": 1.536125,
+      "end": 2.161125
+    },
+    {
+      "text": "light",
+      "start": 2.175,
+      "end": 2.619458
+    },
+    {
+      "text": "coming",
+      "start": 2.633333,
+      "end": 2.980541
+    },
+    {
+      "text": "from",
+      "start": 2.994458,
+      "end": 3.230583
+    },
+    {
+      "text": "lamps",
+      "start": 3.244458,
+      "end": 3.744458
+    },
+    {
+      "text": "and",
+      "start": 3.758333,
+      "end": 3.911124
+    },
+    {
+      "text": "the",
+      "start": 3.925,
+      "end": 4.022208
+    },
+    {
+      "text": "devices",
+      "start": 4.036125,
+      "end": 4.89725
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2361250,
+      "text": "They’re"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3972080,
+      "duration": 2500000,
+      "text": "good"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6611250,
+      "duration": 1805410,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8555410,
+      "duration": 5000000,
+      "text": "blocking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13694580,
+      "duration": 1527910,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 6250000,
+      "text": "unusual"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21750000,
+      "duration": 4444580,
+      "text": "light"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26333330,
+      "duration": 3472080,
+      "text": "coming"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29944580,
+      "duration": 2361250,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32444580,
+      "duration": 5000000,
+      "text": "lamps"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37583330,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39250000,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40361250,
+      "duration": 8611250,
+      "text": "devices"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:51:36.765311+00:00"
+}

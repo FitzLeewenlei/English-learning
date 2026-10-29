@@ -1,0 +1,182 @@
+{
+  "speechText": "Long training has enabled Russian ballet dancers to perform leaps and lifts seldom seen elsewhere.",
+  "audio": "audio/course-examples/a26cdca2c3c69fc7506d84e9.mp3",
+  "sha256": "8c24e968329bc099c05c1888f2cbd95b1488455dd4523f5390148b76a79166f6",
+  "duration": 6.792,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Long",
+      "start": 0.133333,
+      "end": 0.466666
+    },
+    {
+      "text": "training",
+      "start": 0.480541,
+      "end": 1.022207
+    },
+    {
+      "text": "has",
+      "start": 1.036125,
+      "end": 1.230583
+    },
+    {
+      "text": "enabled",
+      "start": 1.244458,
+      "end": 1.702791
+    },
+    {
+      "text": "Russian",
+      "start": 1.716666,
+      "end": 2.147207
+    },
+    {
+      "text": "ballet",
+      "start": 2.161125,
+      "end": 2.52225
+    },
+    {
+      "text": "dancers",
+      "start": 2.536125,
+      "end": 3.14725
+    },
+    {
+      "text": "to",
+      "start": 3.161125,
+      "end": 3.27225
+    },
+    {
+      "text": "perform",
+      "start": 3.286125,
+      "end": 3.786125
+    },
+    {
+      "text": "leaps",
+      "start": 3.8,
+      "end": 4.258333
+    },
+    {
+      "text": "and",
+      "start": 4.272208,
+      "end": 4.438874
+    },
+    {
+      "text": "lifts",
+      "start": 4.452791,
+      "end": 4.869457
+    },
+    {
+      "text": "seldom",
+      "start": 4.883333,
+      "end": 5.313874
+    },
+    {
+      "text": "seen",
+      "start": 5.327791,
+      "end": 5.674999
+    },
+    {
+      "text": "elsewhere",
+      "start": 5.688875,
+      "end": 6.369416
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 3333330,
+      "text": "Long"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4805410,
+      "duration": 5416660,
+      "text": "training"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10361250,
+      "duration": 1944580,
+      "text": "has"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12444580,
+      "duration": 4583330,
+      "text": "enabled"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17166660,
+      "duration": 4305410,
+      "text": "Russian"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21611250,
+      "duration": 3611250,
+      "text": "ballet"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25361250,
+      "duration": 6111250,
+      "text": "dancers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31611250,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32861250,
+      "duration": 5000000,
+      "text": "perform"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38000000,
+      "duration": 4583330,
+      "text": "leaps"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42722080,
+      "duration": 1666660,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44527910,
+      "duration": 4166660,
+      "text": "lifts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48833330,
+      "duration": 4305410,
+      "text": "seldom"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53277910,
+      "duration": 3472080,
+      "text": "seen"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56888750,
+      "duration": 6805410,
+      "text": "elsewhere"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:51:05.004609+00:00"
+}

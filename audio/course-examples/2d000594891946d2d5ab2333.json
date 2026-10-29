@@ -1,0 +1,127 @@
+{
+  "speechText": "We enjoy them while they are shut up in prison.",
+  "audio": "audio/course-examples/2d000594891946d2d5ab2333.mp3",
+  "sha256": "39b1d15e564c8cfc6e98d9e21d10031a3561d2ff8d8950cabf7e3448a51253d8",
+  "duration": 3.288,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "We",
+      "start": 0.147208,
+      "end": 0.313874
+    },
+    {
+      "text": "enjoy",
+      "start": 0.327791,
+      "end": 0.772249
+    },
+    {
+      "text": "them",
+      "start": 0.786125,
+      "end": 1.077791
+    },
+    {
+      "text": "while",
+      "start": 1.091666,
+      "end": 1.355541
+    },
+    {
+      "text": "they",
+      "start": 1.369458,
+      "end": 1.522249
+    },
+    {
+      "text": "are",
+      "start": 1.536125,
+      "end": 1.605583
+    },
+    {
+      "text": "shut",
+      "start": 1.619458,
+      "end": 1.952791
+    },
+    {
+      "text": "up",
+      "start": 1.966666,
+      "end": 2.133332
+    },
+    {
+      "text": "in",
+      "start": 2.147208,
+      "end": 2.286083
+    },
+    {
+      "text": "prison",
+      "start": 2.3,
+      "end": 2.869458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1666660,
+      "text": "We"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3277910,
+      "duration": 4444580,
+      "text": "enjoy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7861250,
+      "duration": 2916660,
+      "text": "them"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10916660,
+      "duration": 2638750,
+      "text": "while"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13694580,
+      "duration": 1527910,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 694580,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16194580,
+      "duration": 3333330,
+      "text": "shut"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19666660,
+      "duration": 1666660,
+      "text": "up"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21472080,
+      "duration": 1388750,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23000000,
+      "duration": 5694580,
+      "text": "prison"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:42:00.513223+00:00"
+}

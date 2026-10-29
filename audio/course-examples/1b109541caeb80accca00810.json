@@ -1,0 +1,489 @@
+{
+  "speechText": "For instance, the Swedish app Gimi - with 1.2 million users globally-has virtual savings jars where children can deposit money; parents can pay children interest as they save and there is a chores feature, where parents can pay children for completing household tasks.",
+  "audio": "audio/course-examples/1b109541caeb80accca00810.mp3",
+  "sha256": "38590f517014e868a9ae4dd6a991ca99b444426f164648e3583d625482564c52",
+  "duration": 16.872,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [
+    "1",
+    "2"
+  ],
+  "words": [
+    {
+      "text": "For",
+      "start": 0.119458,
+      "end": 0.355583
+    },
+    {
+      "text": "instance",
+      "start": 0.369458,
+      "end": 1.049999
+    },
+    {
+      "text": "the",
+      "start": 1.272208,
+      "end": 1.369416
+    },
+    {
+      "text": "Swedish",
+      "start": 1.383333,
+      "end": 1.869458
+    },
+    {
+      "text": "app",
+      "start": 1.883333,
+      "end": 2.105541
+    },
+    {
+      "text": "Gimi",
+      "start": 2.119458,
+      "end": 2.549999
+    },
+    {
+      "text": "with",
+      "start": 2.661125,
+      "end": 2.813916
+    },
+    {
+      "text": "1",
+      "start": 2.827791,
+      "end": 3.2236244,
+      "estimatedSplit": true
+    },
+    {
+      "text": "2",
+      "start": 3.2236244,
+      "end": 3.6194579,
+      "estimatedSplit": true
+    },
+    {
+      "text": "million",
+      "start": 3.633333,
+      "end": 4.049999
+    },
+    {
+      "text": "users",
+      "start": 4.063875,
+      "end": 4.480541
+    },
+    {
+      "text": "globally-has",
+      "start": 4.494458,
+      "end": 5.202791
+    },
+    {
+      "text": "virtual",
+      "start": 5.216666,
+      "end": 5.702791
+    },
+    {
+      "text": "savings",
+      "start": 5.716666,
+      "end": 6.244457
+    },
+    {
+      "text": "jars",
+      "start": 6.258333,
+      "end": 6.647208
+    },
+    {
+      "text": "where",
+      "start": 6.661125,
+      "end": 6.8
+    },
+    {
+      "text": "children",
+      "start": 6.813875,
+      "end": 7.258333
+    },
+    {
+      "text": "can",
+      "start": 7.272208,
+      "end": 7.411083
+    },
+    {
+      "text": "deposit",
+      "start": 7.425,
+      "end": 7.897208
+    },
+    {
+      "text": "money",
+      "start": 7.911125,
+      "end": 8.258333
+    },
+    {
+      "text": "parents",
+      "start": 8.688875,
+      "end": 9.091666
+    },
+    {
+      "text": "can",
+      "start": 9.105541,
+      "end": 9.272207
+    },
+    {
+      "text": "pay",
+      "start": 9.286125,
+      "end": 9.508333
+    },
+    {
+      "text": "children",
+      "start": 9.522208,
+      "end": 9.952749
+    },
+    {
+      "text": "interest",
+      "start": 9.966666,
+      "end": 10.494457
+    },
+    {
+      "text": "as",
+      "start": 10.508333,
+      "end": 10.605541
+    },
+    {
+      "text": "they",
+      "start": 10.619458,
+      "end": 10.758333
+    },
+    {
+      "text": "save",
+      "start": 10.772208,
+      "end": 11.258333
+    },
+    {
+      "text": "and",
+      "start": 11.272208,
+      "end": 11.424999
+    },
+    {
+      "text": "there",
+      "start": 11.438875,
+      "end": 11.536083
+    },
+    {
+      "text": "is",
+      "start": 11.55,
+      "end": 11.688875
+    },
+    {
+      "text": "a",
+      "start": 11.702791,
+      "end": 11.772249
+    },
+    {
+      "text": "chores",
+      "start": 11.786125,
+      "end": 12.175
+    },
+    {
+      "text": "feature",
+      "start": 12.188875,
+      "end": 12.647208
+    },
+    {
+      "text": "where",
+      "start": 12.952791,
+      "end": 13.077791
+    },
+    {
+      "text": "parents",
+      "start": 13.091666,
+      "end": 13.577791
+    },
+    {
+      "text": "can",
+      "start": 13.591666,
+      "end": 13.758332
+    },
+    {
+      "text": "pay",
+      "start": 13.772208,
+      "end": 14.022208
+    },
+    {
+      "text": "children",
+      "start": 14.036125,
+      "end": 14.55
+    },
+    {
+      "text": "for",
+      "start": 14.563875,
+      "end": 14.675
+    },
+    {
+      "text": "completing",
+      "start": 14.688875,
+      "end": 15.286083
+    },
+    {
+      "text": "household",
+      "start": 15.3,
+      "end": 15.772208
+    },
+    {
+      "text": "tasks",
+      "start": 15.786125,
+      "end": 16.466666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 2361250,
+      "text": "For"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3694580,
+      "duration": 6805410,
+      "text": "instance"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13833330,
+      "duration": 4861250,
+      "text": "Swedish"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18833330,
+      "duration": 2222080,
+      "text": "app"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21194580,
+      "duration": 4305410,
+      "text": "Gimi"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26611250,
+      "duration": 1527910,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28277910,
+      "duration": 7916669,
+      "text": "1.2"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36333330,
+      "duration": 4166660,
+      "text": "million"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40638750,
+      "duration": 4166660,
+      "text": "users"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44944580,
+      "duration": 7083330,
+      "text": "globally-has"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52166660,
+      "duration": 4861250,
+      "text": "virtual"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57166660,
+      "duration": 5277910,
+      "text": "savings"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62583330,
+      "duration": 3888750,
+      "text": "jars"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66611250,
+      "duration": 1388750,
+      "text": "where"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68138750,
+      "duration": 4444580,
+      "text": "children"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 72722080,
+      "duration": 1388750,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 74250000,
+      "duration": 4722080,
+      "text": "deposit"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79111250,
+      "duration": 3472080,
+      "text": "money"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 86888750,
+      "duration": 4027910,
+      "text": "parents"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 91055410,
+      "duration": 1666660,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 92861250,
+      "duration": 2222080,
+      "text": "pay"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 95222080,
+      "duration": 4305410,
+      "text": "children"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 99666660,
+      "duration": 5277910,
+      "text": "interest"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 105083330,
+      "duration": 972080,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 106194580,
+      "duration": 1388750,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 107722080,
+      "duration": 4861250,
+      "text": "save"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 112722080,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 114388750,
+      "duration": 972080,
+      "text": "there"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 115500000,
+      "duration": 1388750,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 117027910,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 117861250,
+      "duration": 3888750,
+      "text": "chores"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 121888750,
+      "duration": 4583330,
+      "text": "feature"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 129527910,
+      "duration": 1250000,
+      "text": "where"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 130916660,
+      "duration": 4861250,
+      "text": "parents"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 135916660,
+      "duration": 1666660,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 137722080,
+      "duration": 2500000,
+      "text": "pay"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 140361250,
+      "duration": 5138750,
+      "text": "children"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 145638750,
+      "duration": 1111250,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 146888750,
+      "duration": 5972080,
+      "text": "completing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 153000000,
+      "duration": 4722080,
+      "text": "household"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 157861250,
+      "duration": 6805410,
+      "text": "tasks"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:53:58.616237+00:00"
+}

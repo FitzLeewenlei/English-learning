@@ -1,0 +1,160 @@
+{
+  "speechText": "We have to get the road repaired no matter how much it costs.",
+  "audio": "audio/course-examples/fbeeb3cc2c7d473672608818.mp3",
+  "sha256": "2be2ef3b1ce40f3d3c9eaf073748c7b4df8290c8757161bce95684e009e35013",
+  "duration": 4.344,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "We",
+      "start": 0.133333,
+      "end": 0.258333
+    },
+    {
+      "text": "have",
+      "start": 0.272208,
+      "end": 0.549999
+    },
+    {
+      "text": "to",
+      "start": 0.563875,
+      "end": 0.675
+    },
+    {
+      "text": "get",
+      "start": 0.688875,
+      "end": 0.925
+    },
+    {
+      "text": "the",
+      "start": 0.938875,
+      "end": 1.05
+    },
+    {
+      "text": "road",
+      "start": 1.063875,
+      "end": 1.425
+    },
+    {
+      "text": "repaired",
+      "start": 1.438875,
+      "end": 2.008333
+    },
+    {
+      "text": "no",
+      "start": 2.022208,
+      "end": 2.216666
+    },
+    {
+      "text": "matter",
+      "start": 2.230541,
+      "end": 2.605541
+    },
+    {
+      "text": "how",
+      "start": 2.619458,
+      "end": 2.799999
+    },
+    {
+      "text": "much",
+      "start": 2.813875,
+      "end": 3.063875
+    },
+    {
+      "text": "it",
+      "start": 3.077791,
+      "end": 3.202791
+    },
+    {
+      "text": "costs",
+      "start": 3.216666,
+      "end": 3.924999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1250000,
+      "text": "We"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2722080,
+      "duration": 2777910,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5638750,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6888750,
+      "duration": 2361250,
+      "text": "get"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9388750,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10638750,
+      "duration": 3611250,
+      "text": "road"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14388750,
+      "duration": 5694580,
+      "text": "repaired"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20222080,
+      "duration": 1944580,
+      "text": "no"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22305410,
+      "duration": 3750000,
+      "text": "matter"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26194580,
+      "duration": 1805410,
+      "text": "how"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28138750,
+      "duration": 2500000,
+      "text": "much"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30777910,
+      "duration": 1250000,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32166660,
+      "duration": 7083330,
+      "text": "costs"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:51:25.263906+00:00"
+}

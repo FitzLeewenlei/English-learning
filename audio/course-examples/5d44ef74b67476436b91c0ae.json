@@ -1,0 +1,160 @@
+{
+  "speechText": "She found that backward walking increases leg flexibility and improves balance and stability.",
+  "audio": "audio/course-examples/5d44ef74b67476436b91c0ae.mp3",
+  "sha256": "df4b683c4c5f961134c3c5e6c300e2823d17b5266576353ee248dac3680c6302",
+  "duration": 6.72,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "She",
+      "start": 0.133333,
+      "end": 0.341666
+    },
+    {
+      "text": "found",
+      "start": 0.355541,
+      "end": 0.813874
+    },
+    {
+      "text": "that",
+      "start": 0.827791,
+      "end": 1.049999
+    },
+    {
+      "text": "backward",
+      "start": 1.063875,
+      "end": 1.55
+    },
+    {
+      "text": "walking",
+      "start": 1.563875,
+      "end": 2.008333
+    },
+    {
+      "text": "increases",
+      "start": 2.022208,
+      "end": 2.772208
+    },
+    {
+      "text": "leg",
+      "start": 2.786125,
+      "end": 3.05
+    },
+    {
+      "text": "flexibility",
+      "start": 3.063875,
+      "end": 4.036083
+    },
+    {
+      "text": "and",
+      "start": 4.05,
+      "end": 4.244458
+    },
+    {
+      "text": "improves",
+      "start": 4.258333,
+      "end": 4.799999
+    },
+    {
+      "text": "balance",
+      "start": 4.813875,
+      "end": 5.355541
+    },
+    {
+      "text": "and",
+      "start": 5.369458,
+      "end": 5.522249
+    },
+    {
+      "text": "stability",
+      "start": 5.536125,
+      "end": 6.313916
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2083330,
+      "text": "She"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 4583330,
+      "text": "found"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8277910,
+      "duration": 2222080,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10638750,
+      "duration": 4861250,
+      "text": "backward"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 4444580,
+      "text": "walking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20222080,
+      "duration": 7500000,
+      "text": "increases"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27861250,
+      "duration": 2638750,
+      "text": "leg"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30638750,
+      "duration": 9722080,
+      "text": "flexibility"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40500000,
+      "duration": 1944580,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42583330,
+      "duration": 5416660,
+      "text": "improves"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48138750,
+      "duration": 5416660,
+      "text": "balance"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53694580,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55361250,
+      "duration": 7777910,
+      "text": "stability"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:43:50.378654+00:00"
+}

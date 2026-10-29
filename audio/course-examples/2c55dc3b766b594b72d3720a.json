@@ -1,0 +1,83 @@
+{
+  "speechText": "Knowing this can reduce social stress.",
+  "audio": "audio/course-examples/2c55dc3b766b594b72d3720a.mp3",
+  "sha256": "8d470e576cc92ec26788ebb0c1bb68f2e3e799b6fe13dce7b35f6399faf6fbae",
+  "duration": 3.096,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Knowing",
+      "start": 0.133333,
+      "end": 0.563874
+    },
+    {
+      "text": "this",
+      "start": 0.577791,
+      "end": 0.786124
+    },
+    {
+      "text": "can",
+      "start": 0.8,
+      "end": 0.994458
+    },
+    {
+      "text": "reduce",
+      "start": 1.008333,
+      "end": 1.522208
+    },
+    {
+      "text": "social",
+      "start": 1.536125,
+      "end": 2.008333
+    },
+    {
+      "text": "stress",
+      "start": 2.022208,
+      "end": 2.674999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 4305410,
+      "text": "Knowing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5777910,
+      "duration": 2083330,
+      "text": "this"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8000000,
+      "duration": 1944580,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10083330,
+      "duration": 5138750,
+      "text": "reduce"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 4722080,
+      "text": "social"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20222080,
+      "duration": 6527910,
+      "text": "stress"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:38:54.183173+00:00"
+}

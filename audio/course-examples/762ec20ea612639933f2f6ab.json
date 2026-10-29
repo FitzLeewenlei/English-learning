@@ -1,0 +1,226 @@
+{
+  "speechText": "From Nina's inappropriate dress and aggressive behavior toward me, I'd decided she was pushy, stupid and had poor judgment.",
+  "audio": "audio/course-examples/762ec20ea612639933f2f6ab.mp3",
+  "sha256": "c472f6d327234d7fad1cff017f8344909a2b07d93e201db32bb10ff8e975de74",
+  "duration": 8.808,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "From",
+      "start": 0.133333,
+      "end": 0.397208
+    },
+    {
+      "text": "Nina's",
+      "start": 0.411125,
+      "end": 0.869458
+    },
+    {
+      "text": "inappropriate",
+      "start": 0.883333,
+      "end": 1.688874
+    },
+    {
+      "text": "dress",
+      "start": 1.702791,
+      "end": 2.147249
+    },
+    {
+      "text": "and",
+      "start": 2.161125,
+      "end": 2.313916
+    },
+    {
+      "text": "aggressive",
+      "start": 2.327791,
+      "end": 2.813916
+    },
+    {
+      "text": "behavior",
+      "start": 2.827791,
+      "end": 3.355582
+    },
+    {
+      "text": "toward",
+      "start": 3.369458,
+      "end": 3.799999
+    },
+    {
+      "text": "me",
+      "start": 3.813875,
+      "end": 4.05
+    },
+    {
+      "text": "I'd",
+      "start": 4.411125,
+      "end": 4.591666
+    },
+    {
+      "text": "decided",
+      "start": 4.605541,
+      "end": 5.161082
+    },
+    {
+      "text": "she",
+      "start": 5.175,
+      "end": 5.313875
+    },
+    {
+      "text": "was",
+      "start": 5.327791,
+      "end": 5.508332
+    },
+    {
+      "text": "pushy",
+      "start": 5.522208,
+      "end": 6.022208
+    },
+    {
+      "text": "stupid",
+      "start": 6.286125,
+      "end": 6.869458
+    },
+    {
+      "text": "and",
+      "start": 6.980541,
+      "end": 7.119416
+    },
+    {
+      "text": "had",
+      "start": 7.133333,
+      "end": 7.383333
+    },
+    {
+      "text": "poor",
+      "start": 7.397208,
+      "end": 7.619416
+    },
+    {
+      "text": "judgment",
+      "start": 7.633333,
+      "end": 8.397208
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2638750,
+      "text": "From"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4111250,
+      "duration": 4583330,
+      "text": "Nina's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8833330,
+      "duration": 8055410,
+      "text": "inappropriate"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17027910,
+      "duration": 4444580,
+      "text": "dress"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21611250,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23277910,
+      "duration": 4861250,
+      "text": "aggressive"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28277910,
+      "duration": 5277910,
+      "text": "behavior"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33694580,
+      "duration": 4305410,
+      "text": "toward"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38138750,
+      "duration": 2361250,
+      "text": "me"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44111250,
+      "duration": 1805410,
+      "text": "I'd"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46055410,
+      "duration": 5555410,
+      "text": "decided"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51750000,
+      "duration": 1388750,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53277910,
+      "duration": 1805410,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55222080,
+      "duration": 5000000,
+      "text": "pushy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62861250,
+      "duration": 5833330,
+      "text": "stupid"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69805410,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71333330,
+      "duration": 2500000,
+      "text": "had"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73972080,
+      "duration": 2222080,
+      "text": "poor"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 76333330,
+      "duration": 7638750,
+      "text": "judgment"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:53:42.056646+00:00"
+}

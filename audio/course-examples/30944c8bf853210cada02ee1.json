@@ -1,0 +1,226 @@
+{
+  "speechText": "On my journey by car across the European Continent, I enjoyed looking at the scenery of the various countries.",
+  "audio": "audio/course-examples/30944c8bf853210cada02ee1.mp3",
+  "sha256": "ba0639b50087b985062147716eaa4ad1b81773c7cfded0e069f7d68073252163",
+  "duration": 7.296,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "On",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "my",
+      "start": 0.3,
+      "end": 0.480541
+    },
+    {
+      "text": "journey",
+      "start": 0.494458,
+      "end": 0.897249
+    },
+    {
+      "text": "by",
+      "start": 0.911125,
+      "end": 1.105583
+    },
+    {
+      "text": "car",
+      "start": 1.119458,
+      "end": 1.549999
+    },
+    {
+      "text": "across",
+      "start": 1.563875,
+      "end": 1.966666
+    },
+    {
+      "text": "the",
+      "start": 1.980541,
+      "end": 2.077749
+    },
+    {
+      "text": "European",
+      "start": 2.091666,
+      "end": 2.633332
+    },
+    {
+      "text": "Continent",
+      "start": 2.647208,
+      "end": 3.313874
+    },
+    {
+      "text": "I",
+      "start": 3.675,
+      "end": 3.772208
+    },
+    {
+      "text": "enjoyed",
+      "start": 3.786125,
+      "end": 4.244458
+    },
+    {
+      "text": "looking",
+      "start": 4.258333,
+      "end": 4.605541
+    },
+    {
+      "text": "at",
+      "start": 4.619458,
+      "end": 4.716666
+    },
+    {
+      "text": "the",
+      "start": 4.730541,
+      "end": 4.827749
+    },
+    {
+      "text": "scenery",
+      "start": 4.841666,
+      "end": 5.397207
+    },
+    {
+      "text": "of",
+      "start": 5.411125,
+      "end": 5.55
+    },
+    {
+      "text": "the",
+      "start": 5.563875,
+      "end": 5.661083
+    },
+    {
+      "text": "various",
+      "start": 5.675,
+      "end": 6.133333
+    },
+    {
+      "text": "countries",
+      "start": 6.147208,
+      "end": 6.883333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "On"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1805410,
+      "text": "my"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 4027910,
+      "text": "journey"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9111250,
+      "duration": 1944580,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11194580,
+      "duration": 4305410,
+      "text": "car"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 4027910,
+      "text": "across"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19805410,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20916660,
+      "duration": 5416660,
+      "text": "European"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26472080,
+      "duration": 6666660,
+      "text": "Continent"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36750000,
+      "duration": 972080,
+      "text": "I"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37861250,
+      "duration": 4583330,
+      "text": "enjoyed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42583330,
+      "duration": 3472080,
+      "text": "looking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46194580,
+      "duration": 972080,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47305410,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48416660,
+      "duration": 5555410,
+      "text": "scenery"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54111250,
+      "duration": 1388750,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55638750,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56750000,
+      "duration": 4583330,
+      "text": "various"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61472080,
+      "duration": 7361250,
+      "text": "countries"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:40:25.964722+00:00"
+}

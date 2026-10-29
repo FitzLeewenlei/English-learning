@@ -1,0 +1,314 @@
+{
+  "speechText": "He took her hand and felt the scar on her thumb, a legacy of an accident with a kitchen knife in the early days of their marriage.",
+  "audio": "audio/course-examples/0dab8057c1cec3ba3a9f77c0.mp3",
+  "sha256": "c298a73d67ccc513b215374d5e2ad0623d2394b53b1a9e281dfe6f2e0c61f565",
+  "duration": 8.184,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "He",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "took",
+      "start": 0.3,
+      "end": 0.55
+    },
+    {
+      "text": "her",
+      "start": 0.563875,
+      "end": 0.675
+    },
+    {
+      "text": "hand",
+      "start": 0.688875,
+      "end": 1.161083
+    },
+    {
+      "text": "and",
+      "start": 1.175,
+      "end": 1.355541
+    },
+    {
+      "text": "felt",
+      "start": 1.369458,
+      "end": 1.674999
+    },
+    {
+      "text": "the",
+      "start": 1.688875,
+      "end": 1.8
+    },
+    {
+      "text": "scar",
+      "start": 1.813875,
+      "end": 2.175
+    },
+    {
+      "text": "on",
+      "start": 2.188875,
+      "end": 2.341666
+    },
+    {
+      "text": "her",
+      "start": 2.355541,
+      "end": 2.494416
+    },
+    {
+      "text": "thumb",
+      "start": 2.508333,
+      "end": 2.952791
+    },
+    {
+      "text": "a",
+      "start": 3.397208,
+      "end": 3.424999
+    },
+    {
+      "text": "legacy",
+      "start": 3.438875,
+      "end": 3.980541
+    },
+    {
+      "text": "of",
+      "start": 3.994458,
+      "end": 4.105583
+    },
+    {
+      "text": "an",
+      "start": 4.119458,
+      "end": 4.230583
+    },
+    {
+      "text": "accident",
+      "start": 4.244458,
+      "end": 4.869458
+    },
+    {
+      "text": "with",
+      "start": 4.883333,
+      "end": 5.022208
+    },
+    {
+      "text": "a",
+      "start": 5.036125,
+      "end": 5.091666
+    },
+    {
+      "text": "kitchen",
+      "start": 5.105541,
+      "end": 5.522207
+    },
+    {
+      "text": "knife",
+      "start": 5.536125,
+      "end": 5.925
+    },
+    {
+      "text": "in",
+      "start": 5.938875,
+      "end": 6.05
+    },
+    {
+      "text": "the",
+      "start": 6.063875,
+      "end": 6.216666
+    },
+    {
+      "text": "early",
+      "start": 6.230541,
+      "end": 6.536082
+    },
+    {
+      "text": "days",
+      "start": 6.55,
+      "end": 6.869458
+    },
+    {
+      "text": "of",
+      "start": 6.883333,
+      "end": 6.980541
+    },
+    {
+      "text": "their",
+      "start": 6.994458,
+      "end": 7.119458
+    },
+    {
+      "text": "marriage",
+      "start": 7.133333,
+      "end": 7.772208
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "He"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 2500000,
+      "text": "took"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5638750,
+      "duration": 1111250,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6888750,
+      "duration": 4722080,
+      "text": "hand"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11750000,
+      "duration": 1805410,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13694580,
+      "duration": 3055410,
+      "text": "felt"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16888750,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18138750,
+      "duration": 3611250,
+      "text": "scar"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21888750,
+      "duration": 1527910,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23555410,
+      "duration": 1388750,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25083330,
+      "duration": 4444580,
+      "text": "thumb"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33972080,
+      "duration": 277910,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34388750,
+      "duration": 5416660,
+      "text": "legacy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39944580,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41194580,
+      "duration": 1111250,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42444580,
+      "duration": 6250000,
+      "text": "accident"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48833330,
+      "duration": 1388750,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50361250,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51055410,
+      "duration": 4166660,
+      "text": "kitchen"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55361250,
+      "duration": 3888750,
+      "text": "knife"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59388750,
+      "duration": 1111250,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60638750,
+      "duration": 1527910,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62305410,
+      "duration": 3055410,
+      "text": "early"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 65500000,
+      "duration": 3194580,
+      "text": "days"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68833330,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69944580,
+      "duration": 1250000,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71333330,
+      "duration": 6388750,
+      "text": "marriage"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:49:26.409051+00:00"
+}

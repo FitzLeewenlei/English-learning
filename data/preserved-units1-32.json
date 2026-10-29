@@ -1,0 +1,10 @@
+{
+  "sourceCommit": "4176792c5a4f112685017daad8a80e9e97747acd",
+  "keepThrough": 32,
+  "canonicalSource": "data/course-units1-32.json",
+  "canonicalSourceSha256": "4caec1e4ea77d72c6bf074fbb28a2f7ee5430bdfadc91dbf3c37daf7f7e33a8d",
+  "runtimeUnitsSha256": "bd8684e1a6f627fae27010dad738ac269f1862b743377a8fae5b9ccab5f6ac52",
+  "mediaUnitsSha256": "a811923b50b4246167196ab2d1998b4041958204b3623274ddd68c29460fa037",
+  "dictionaryRowsSha256": "251d45708d3296a9c7c07b02b759bb794bec97362fe822e1a5f80a2debe0fb0e",
+  "dictionaryScopeCount": 2182
+}

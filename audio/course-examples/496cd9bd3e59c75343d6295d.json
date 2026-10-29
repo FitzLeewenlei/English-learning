@@ -1,0 +1,270 @@
+{
+  "speechText": "It is wise of you to be active, eat well, remain connected to others and take care of yourself both physically and mentally.",
+  "audio": "audio/course-examples/496cd9bd3e59c75343d6295d.mp3",
+  "sha256": "d7b70d29d27fb5a6d7eb4485ccd421ca7413498e5e2efe6a1e9d1b8621ee931e",
+  "duration": 8.112,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "It",
+      "start": 0.147208,
+      "end": 0.272208
+    },
+    {
+      "text": "is",
+      "start": 0.286125,
+      "end": 0.425
+    },
+    {
+      "text": "wise",
+      "start": 0.438875,
+      "end": 0.786083
+    },
+    {
+      "text": "of",
+      "start": 0.8,
+      "end": 0.911125
+    },
+    {
+      "text": "you",
+      "start": 0.925,
+      "end": 1.133333
+    },
+    {
+      "text": "to",
+      "start": 1.147208,
+      "end": 1.258333
+    },
+    {
+      "text": "be",
+      "start": 1.272208,
+      "end": 1.424999
+    },
+    {
+      "text": "active",
+      "start": 1.438875,
+      "end": 2.05
+    },
+    {
+      "text": "eat",
+      "start": 2.286125,
+      "end": 2.494458
+    },
+    {
+      "text": "well",
+      "start": 2.508333,
+      "end": 2.924999
+    },
+    {
+      "text": "remain",
+      "start": 3.272208,
+      "end": 3.647208
+    },
+    {
+      "text": "connected",
+      "start": 3.661125,
+      "end": 4.161125
+    },
+    {
+      "text": "to",
+      "start": 4.175,
+      "end": 4.286125
+    },
+    {
+      "text": "others",
+      "start": 4.3,
+      "end": 4.772208
+    },
+    {
+      "text": "and",
+      "start": 4.786125,
+      "end": 4.952791
+    },
+    {
+      "text": "take",
+      "start": 4.966666,
+      "end": 5.216666
+    },
+    {
+      "text": "care",
+      "start": 5.230541,
+      "end": 5.424999
+    },
+    {
+      "text": "of",
+      "start": 5.438875,
+      "end": 5.57775
+    },
+    {
+      "text": "yourself",
+      "start": 5.591666,
+      "end": 6.091666
+    },
+    {
+      "text": "both",
+      "start": 6.105541,
+      "end": 6.369416
+    },
+    {
+      "text": "physically",
+      "start": 6.383333,
+      "end": 6.938874
+    },
+    {
+      "text": "and",
+      "start": 6.952791,
+      "end": 7.091666
+    },
+    {
+      "text": "mentally",
+      "start": 7.105541,
+      "end": 7.702749
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1250000,
+      "text": "It"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 1388750,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 3472080,
+      "text": "wise"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8000000,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9250000,
+      "duration": 2083330,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11472080,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 1527910,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14388750,
+      "duration": 6111250,
+      "text": "active"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22861250,
+      "duration": 2083330,
+      "text": "eat"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25083330,
+      "duration": 4166660,
+      "text": "well"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32722080,
+      "duration": 3750000,
+      "text": "remain"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36611250,
+      "duration": 5000000,
+      "text": "connected"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41750000,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43000000,
+      "duration": 4722080,
+      "text": "others"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47861250,
+      "duration": 1666660,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49666660,
+      "duration": 2500000,
+      "text": "take"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52305410,
+      "duration": 1944580,
+      "text": "care"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54388750,
+      "duration": 1388750,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55916660,
+      "duration": 5000000,
+      "text": "yourself"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61055410,
+      "duration": 2638750,
+      "text": "both"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63833330,
+      "duration": 5555410,
+      "text": "physically"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69527910,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71055410,
+      "duration": 5972080,
+      "text": "mentally"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:39:10.927303+00:00"
+}

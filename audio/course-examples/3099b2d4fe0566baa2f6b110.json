@@ -1,0 +1,204 @@
+{
+  "speechText": "Many employers believe how you prepare for an interview indicates how you will do on the job.",
+  "audio": "audio/course-examples/3099b2d4fe0566baa2f6b110.mp3",
+  "sha256": "ce20eba584c8355ec16cec401a050c6467d16db0825096fc30fc9d5f1a2ecfb7",
+  "duration": 6.096,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Many",
+      "start": 0.133333,
+      "end": 0.480541
+    },
+    {
+      "text": "employers",
+      "start": 0.494458,
+      "end": 1.119458
+    },
+    {
+      "text": "believe",
+      "start": 1.133333,
+      "end": 1.633333
+    },
+    {
+      "text": "how",
+      "start": 1.647208,
+      "end": 1.855541
+    },
+    {
+      "text": "you",
+      "start": 1.869458,
+      "end": 2.036124
+    },
+    {
+      "text": "prepare",
+      "start": 2.05,
+      "end": 2.591666
+    },
+    {
+      "text": "for",
+      "start": 2.605541,
+      "end": 2.772207
+    },
+    {
+      "text": "an",
+      "start": 2.786125,
+      "end": 2.911125
+    },
+    {
+      "text": "interview",
+      "start": 2.925,
+      "end": 3.438875
+    },
+    {
+      "text": "indicates",
+      "start": 3.452791,
+      "end": 4.174999
+    },
+    {
+      "text": "how",
+      "start": 4.188875,
+      "end": 4.397208
+    },
+    {
+      "text": "you",
+      "start": 4.411125,
+      "end": 4.563916
+    },
+    {
+      "text": "will",
+      "start": 4.577791,
+      "end": 4.730582
+    },
+    {
+      "text": "do",
+      "start": 4.744458,
+      "end": 4.952791
+    },
+    {
+      "text": "on",
+      "start": 4.966666,
+      "end": 5.105541
+    },
+    {
+      "text": "the",
+      "start": 5.119458,
+      "end": 5.230583
+    },
+    {
+      "text": "job",
+      "start": 5.244458,
+      "end": 5.688916
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 3472080,
+      "text": "Many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 6250000,
+      "text": "employers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11333330,
+      "duration": 5000000,
+      "text": "believe"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16472080,
+      "duration": 2083330,
+      "text": "how"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18694580,
+      "duration": 1666660,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20500000,
+      "duration": 5416660,
+      "text": "prepare"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26055410,
+      "duration": 1666660,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27861250,
+      "duration": 1250000,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29250000,
+      "duration": 5138750,
+      "text": "interview"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34527910,
+      "duration": 7222080,
+      "text": "indicates"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41888750,
+      "duration": 2083330,
+      "text": "how"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44111250,
+      "duration": 1527910,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45777910,
+      "duration": 1527910,
+      "text": "will"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47444580,
+      "duration": 2083330,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49666660,
+      "duration": 1388750,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51194580,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52444580,
+      "duration": 4444580,
+      "text": "job"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:49:38.528541+00:00"
+}

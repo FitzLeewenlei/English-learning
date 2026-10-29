@@ -1,0 +1,182 @@
+{
+  "speechText": "What I was trying to do is to persuade my brother to give up smoking.",
+  "audio": "audio/course-examples/5e3b9f60b6baf66d932d853c.mp3",
+  "sha256": "2e9747aeab1657893b2bab061e33f50469a925bddbbeeedd3fdfbfb94fad2c24",
+  "duration": 4.776,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "What",
+      "start": 0.147208,
+      "end": 0.369416
+    },
+    {
+      "text": "I",
+      "start": 0.383333,
+      "end": 0.494458
+    },
+    {
+      "text": "was",
+      "start": 0.508333,
+      "end": 0.674999
+    },
+    {
+      "text": "trying",
+      "start": 0.688875,
+      "end": 1.036083
+    },
+    {
+      "text": "to",
+      "start": 1.05,
+      "end": 1.161125
+    },
+    {
+      "text": "do",
+      "start": 1.175,
+      "end": 1.563875
+    },
+    {
+      "text": "is",
+      "start": 1.577791,
+      "end": 1.772249
+    },
+    {
+      "text": "to",
+      "start": 1.786125,
+      "end": 1.911125
+    },
+    {
+      "text": "persuade",
+      "start": 1.925,
+      "end": 2.480541
+    },
+    {
+      "text": "my",
+      "start": 2.494458,
+      "end": 2.647249
+    },
+    {
+      "text": "brother",
+      "start": 2.661125,
+      "end": 3.133333
+    },
+    {
+      "text": "to",
+      "start": 3.147208,
+      "end": 3.272208
+    },
+    {
+      "text": "give",
+      "start": 3.286125,
+      "end": 3.480583
+    },
+    {
+      "text": "up",
+      "start": 3.494458,
+      "end": 3.647249
+    },
+    {
+      "text": "smoking",
+      "start": 3.661125,
+      "end": 4.355583
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2222080,
+      "text": "What"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3833330,
+      "duration": 1111250,
+      "text": "I"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5083330,
+      "duration": 1666660,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6888750,
+      "duration": 3472080,
+      "text": "trying"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10500000,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11750000,
+      "duration": 3888750,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15777910,
+      "duration": 1944580,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17861250,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 5555410,
+      "text": "persuade"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24944580,
+      "duration": 1527910,
+      "text": "my"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26611250,
+      "duration": 4722080,
+      "text": "brother"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31472080,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32861250,
+      "duration": 1944580,
+      "text": "give"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34944580,
+      "duration": 1527910,
+      "text": "up"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36611250,
+      "duration": 6944580,
+      "text": "smoking"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:41:45.394300+00:00"
+}

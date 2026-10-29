@@ -1,0 +1,160 @@
+{
+  "speechText": "Cloning of human cells provides the potential to find cures and cure diseases.",
+  "audio": "audio/course-examples/5a17144849b420431051aee3.mp3",
+  "sha256": "c94b91da334c341362da50909bf3a912cd8d1c1c318cd92fc553695df55073a4",
+  "duration": 5.976,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Cloning",
+      "start": 0.101375,
+      "end": 0.629166
+    },
+    {
+      "text": "of",
+      "start": 0.643041,
+      "end": 0.740249
+    },
+    {
+      "text": "human",
+      "start": 0.754166,
+      "end": 1.156957
+    },
+    {
+      "text": "cells",
+      "start": 1.170833,
+      "end": 1.726374
+    },
+    {
+      "text": "provides",
+      "start": 1.740291,
+      "end": 2.268082
+    },
+    {
+      "text": "the",
+      "start": 2.281958,
+      "end": 2.393083
+    },
+    {
+      "text": "potential",
+      "start": 2.406958,
+      "end": 3.073624
+    },
+    {
+      "text": "to",
+      "start": 3.0875,
+      "end": 3.198625
+    },
+    {
+      "text": "find",
+      "start": 3.2125,
+      "end": 3.601375
+    },
+    {
+      "text": "cures",
+      "start": 3.615291,
+      "end": 4.184749
+    },
+    {
+      "text": "and",
+      "start": 4.198625,
+      "end": 4.393083
+    },
+    {
+      "text": "cure",
+      "start": 4.406958,
+      "end": 4.726416
+    },
+    {
+      "text": "diseases",
+      "start": 4.740291,
+      "end": 5.559749
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 5277910,
+      "text": "Cloning"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6430410,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7541660,
+      "duration": 4027910,
+      "text": "human"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11708330,
+      "duration": 5555410,
+      "text": "cells"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17402910,
+      "duration": 5277910,
+      "text": "provides"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22819580,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24069580,
+      "duration": 6666660,
+      "text": "potential"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30875000,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32125000,
+      "duration": 3888750,
+      "text": "find"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36152910,
+      "duration": 5694580,
+      "text": "cures"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41986250,
+      "duration": 1944580,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44069580,
+      "duration": 3194580,
+      "text": "cure"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47402910,
+      "duration": 8194580,
+      "text": "diseases"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:38:26.531826+00:00"
+}

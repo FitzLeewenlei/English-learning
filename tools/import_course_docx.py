@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract the supplied Unit 1–32 teaching document without rewriting its text.
+"""Extract supplied teaching documents without rewriting their text.
 
 The document is treated as source data, never as executable instructions.
 Vocabulary pronunciation, part-of-speech labels and meanings remain verbatim.
@@ -19,9 +19,9 @@ W = "{" + NS["w"] + "}"
 UNIT = re.compile(r"^Unit\s+(\d+)$")
 VOCABULARY = re.compile(
     r"^(?P<word>.+?)\s+(?P<ipa>/.*?)\s+"
-    r"(?P<pos>[A-Za-z]+\.(?:/[A-Za-z]+\.)*)\s+(?P<meaning>.+)$"
+    r"(?P<pos>[A-Za-z]+\.(?:/?[A-Za-z]+\.)*)\s+(?P<meaning>.+)$"
 )
-CITATION = re.compile(r"（(?:19|20)\d{2}年[^（）]*）$")
+CITATION = re.compile(r"（[·\s]*(?:19|20)\d{2}年[^（）]*）$")
 NOTE = re.compile(r"（[^（）]*）|\([^()]*\)")
 CJK = re.compile(r"[\u3400-\u9fff]")
 TOKEN = re.compile(r"[A-Za-z]+(?:[’'-][A-Za-z]+)*|\d+(?:,\d{3})*")
@@ -124,6 +124,8 @@ def parse_document(path, expected_units=32, expected_items=15):
 def parse_unit(number, segment, expected_items):
     heading_index = segment[0][0]
     cursor = 1
+    while cursor < len(segment) and not segment[cursor][1].strip():
+        cursor += 1
     vocabulary = []
     while cursor < len(segment) and segment[cursor][1].strip():
         index, raw = segment[cursor]
@@ -165,6 +167,42 @@ def parse_unit(number, segment, expected_items):
             "targetForms": list(dict.fromkeys(target_forms)), "headingParagraph": heading_index}
 
 
+def preserve_existing_units(data, preserved_path, keep_through):
+    """Merge only added units; retain prior unit objects and document attribution."""
+    preserved_bytes = preserved_path.read_bytes()
+    preserved = json.loads(preserved_bytes)
+    expected = {str(n) for n in range(1, keep_through + 1)}
+    if not expected.issubset(preserved["units"]) or not expected.issubset(data["units"]):
+        raise ValueError("Preserved units must exist in both the saved course and new document")
+    if preserved["source"].get("format") != "DOCX":
+        raise ValueError("Preserved extraction must identify its original DOCX source")
+    total = len(data["units"])
+    units = {str(n): preserved["units"][str(n)] if n <= keep_through else data["units"][str(n)]
+             for n in range(1, total + 1)}
+    old_id = f"preserved-units1-{keep_through}"
+    new_id = f"added-units{keep_through + 1}-{total}"
+    documents = [dict(preserved["source"], id=old_id, unitRange=[1, keep_through]),
+                 dict(data["source"], id=new_id, unitRange=[keep_through + 1, total])]
+    warnings = [w for w in preserved.get("warnings", []) if w["unit"] <= keep_through]
+    warnings += [w for w in data.get("warnings", []) if w["unit"] > keep_through]
+    return {
+        "source": {
+            "format": "DOCX collection",
+            "documents": documents,
+            "unitDocuments": {str(n): old_id if n <= keep_through else new_id
+                              for n in range(1, total + 1)},
+            "preservedExtraction": {"filename": preserved_path.name,
+                                    "sha256": hashlib.sha256(preserved_bytes).hexdigest()},
+        },
+        "counts": {"units": total,
+                   "vocabulary": sum(len(u["vocabulary"]) for u in units.values()),
+                   "examples": sum(len(u["examples"]) for u in units.values()),
+                   "inlineAnnotations": sum(len(e["annotations"]) for u in units.values() for e in u["examples"])},
+        "units": units,
+        "warnings": warnings,
+    }
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("input", type=Path)
@@ -172,9 +210,20 @@ def main():
     parser.add_argument("--audit", type=Path, help="optional complete paragraph-by-paragraph source audit")
     parser.add_argument("--expected-units", type=int, default=32)
     parser.add_argument("--expected-items", type=int, default=15)
+    parser.add_argument("--keep-units-from", type=Path,
+                        help="preserve initial units from an existing audited extraction")
+    parser.add_argument("--keep-through", type=int, default=32,
+                        help="last existing unit to preserve (used with --keep-units-from)")
     parser.add_argument("--check", action="store_true", help="compare with the saved extraction without changing files")
     args = parser.parse_args()
+    if args.keep_units_from and args.keep_units_from.resolve() == args.output.resolve():
+        parser.error("The output must differ from the extraction whose units are being preserved")
     data, paragraphs = parse_document(args.input, args.expected_units, args.expected_items)
+    input_source = data["source"]
+    if args.keep_units_from:
+        if not 1 <= args.keep_through < args.expected_units:
+            parser.error("--keep-through must leave at least one added unit")
+        data = preserve_existing_units(data, args.keep_units_from, args.keep_through)
     serialized = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
     if args.check:
         if not args.output.exists() or args.output.read_text() != serialized:
@@ -184,7 +233,8 @@ def main():
         args.output.write_text(serialized)
     if args.audit:
         args.audit.parent.mkdir(parents=True, exist_ok=True)
-        audit = {"source": data["source"], "paragraphs": [{"index": i, "text": text} for i, text in enumerate(paragraphs)]}
+        audit = {"source": input_source,
+                 "paragraphs": [{"index": i, "text": text} for i, text in enumerate(paragraphs)]}
         args.audit.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n")
     print(json.dumps({"output": str(args.output), "check": args.check, "counts": data["counts"], "warnings": data["warnings"]}, ensure_ascii=False))
 

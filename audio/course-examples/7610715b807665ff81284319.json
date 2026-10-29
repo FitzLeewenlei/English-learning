@@ -1,0 +1,303 @@
+{
+  "speechText": "The degree and the stages you have to pass through to achieve it give you motivation, even though it may become weak from time to time.",
+  "audio": "audio/course-examples/7610715b807665ff81284319.mp3",
+  "sha256": "55c9bb26cec1c29cab2d04800089a86bab113327e565319f5ec6c206a005564b",
+  "duration": 8.376,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.272208
+    },
+    {
+      "text": "degree",
+      "start": 0.286125,
+      "end": 0.89725
+    },
+    {
+      "text": "and",
+      "start": 0.911125,
+      "end": 1.05
+    },
+    {
+      "text": "the",
+      "start": 1.063875,
+      "end": 1.175
+    },
+    {
+      "text": "stages",
+      "start": 1.188875,
+      "end": 1.744416
+    },
+    {
+      "text": "you",
+      "start": 1.758333,
+      "end": 1.869458
+    },
+    {
+      "text": "have",
+      "start": 1.883333,
+      "end": 2.091666
+    },
+    {
+      "text": "to",
+      "start": 2.105541,
+      "end": 2.216666
+    },
+    {
+      "text": "pass",
+      "start": 2.230541,
+      "end": 2.619416
+    },
+    {
+      "text": "through",
+      "start": 2.633333,
+      "end": 2.911124
+    },
+    {
+      "text": "to",
+      "start": 2.925,
+      "end": 3.063875
+    },
+    {
+      "text": "achieve",
+      "start": 3.077791,
+      "end": 3.522249
+    },
+    {
+      "text": "it",
+      "start": 3.536125,
+      "end": 3.744458
+    },
+    {
+      "text": "give",
+      "start": 3.758333,
+      "end": 3.966666
+    },
+    {
+      "text": "you",
+      "start": 3.980541,
+      "end": 4.091666
+    },
+    {
+      "text": "motivation",
+      "start": 4.105541,
+      "end": 4.938874
+    },
+    {
+      "text": "even",
+      "start": 5.327791,
+      "end": 5.591666
+    },
+    {
+      "text": "though",
+      "start": 5.605541,
+      "end": 5.772207
+    },
+    {
+      "text": "it",
+      "start": 5.786125,
+      "end": 5.925
+    },
+    {
+      "text": "may",
+      "start": 5.938875,
+      "end": 6.105541
+    },
+    {
+      "text": "become",
+      "start": 6.119458,
+      "end": 6.480583
+    },
+    {
+      "text": "weak",
+      "start": 6.494458,
+      "end": 6.786124
+    },
+    {
+      "text": "from",
+      "start": 6.8,
+      "end": 7.008333
+    },
+    {
+      "text": "time",
+      "start": 7.022208,
+      "end": 7.313874
+    },
+    {
+      "text": "to",
+      "start": 7.327791,
+      "end": 7.438916
+    },
+    {
+      "text": "time",
+      "start": 7.452791,
+      "end": 7.952791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1250000,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 6111250,
+      "text": "degree"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9111250,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10638750,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11888750,
+      "duration": 5555410,
+      "text": "stages"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17583330,
+      "duration": 1111250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18833330,
+      "duration": 2083330,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21055410,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22305410,
+      "duration": 3888750,
+      "text": "pass"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26333330,
+      "duration": 2777910,
+      "text": "through"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29250000,
+      "duration": 1388750,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30777910,
+      "duration": 4444580,
+      "text": "achieve"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35361250,
+      "duration": 2083330,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37583330,
+      "duration": 2083330,
+      "text": "give"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39805410,
+      "duration": 1111250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41055410,
+      "duration": 8333330,
+      "text": "motivation"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53277910,
+      "duration": 2638750,
+      "text": "even"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56055410,
+      "duration": 1666660,
+      "text": "though"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57861250,
+      "duration": 1388750,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59388750,
+      "duration": 1666660,
+      "text": "may"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61194580,
+      "duration": 3611250,
+      "text": "become"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64944580,
+      "duration": 2916660,
+      "text": "weak"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68000000,
+      "duration": 2083330,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70222080,
+      "duration": 2916660,
+      "text": "time"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73277910,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 74527910,
+      "duration": 5000000,
+      "text": "time"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:42:55.372439+00:00"
+}

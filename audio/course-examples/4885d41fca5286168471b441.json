@@ -1,0 +1,303 @@
+{
+  "speechText": "For instance, someone who has recently retired or who is coping with the death of a relative or a friend may feel sad, lonely or worried.",
+  "audio": "audio/course-examples/4885d41fca5286168471b441.mp3",
+  "sha256": "3c70feea57629cded0f00a31aaeb2825aaa24359fc237e0bb66ca817968a07e9",
+  "duration": 9.408,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "For",
+      "start": 0.133333,
+      "end": 0.327791
+    },
+    {
+      "text": "instance",
+      "start": 0.341666,
+      "end": 1.008332
+    },
+    {
+      "text": "someone",
+      "start": 1.313875,
+      "end": 1.661083
+    },
+    {
+      "text": "who",
+      "start": 1.675,
+      "end": 1.813875
+    },
+    {
+      "text": "has",
+      "start": 1.827791,
+      "end": 1.994457
+    },
+    {
+      "text": "recently",
+      "start": 2.008333,
+      "end": 2.508333
+    },
+    {
+      "text": "retired",
+      "start": 2.522208,
+      "end": 3.244416
+    },
+    {
+      "text": "or",
+      "start": 3.258333,
+      "end": 3.397208
+    },
+    {
+      "text": "who",
+      "start": 3.411125,
+      "end": 3.577791
+    },
+    {
+      "text": "is",
+      "start": 3.591666,
+      "end": 3.730541
+    },
+    {
+      "text": "coping",
+      "start": 3.744458,
+      "end": 4.161124
+    },
+    {
+      "text": "with",
+      "start": 4.175,
+      "end": 4.3
+    },
+    {
+      "text": "the",
+      "start": 4.313875,
+      "end": 4.425
+    },
+    {
+      "text": "death",
+      "start": 4.438875,
+      "end": 4.70275
+    },
+    {
+      "text": "of",
+      "start": 4.716666,
+      "end": 4.813874
+    },
+    {
+      "text": "a",
+      "start": 4.827791,
+      "end": 4.883332
+    },
+    {
+      "text": "relative",
+      "start": 4.897208,
+      "end": 5.536083
+    },
+    {
+      "text": "or",
+      "start": 5.55,
+      "end": 5.688875
+    },
+    {
+      "text": "a",
+      "start": 5.702791,
+      "end": 5.758332
+    },
+    {
+      "text": "friend",
+      "start": 5.772208,
+      "end": 6.216666
+    },
+    {
+      "text": "may",
+      "start": 6.230541,
+      "end": 6.411082
+    },
+    {
+      "text": "feel",
+      "start": 6.425,
+      "end": 6.730541
+    },
+    {
+      "text": "sad",
+      "start": 6.744458,
+      "end": 7.188916
+    },
+    {
+      "text": "lonely",
+      "start": 7.536125,
+      "end": 8.105583
+    },
+    {
+      "text": "or",
+      "start": 8.216666,
+      "end": 8.327791
+    },
+    {
+      "text": "worried",
+      "start": 8.341666,
+      "end": 8.994457
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1944580,
+      "text": "For"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 6666660,
+      "text": "instance"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13138750,
+      "duration": 3472080,
+      "text": "someone"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16750000,
+      "duration": 1388750,
+      "text": "who"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18277910,
+      "duration": 1666660,
+      "text": "has"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20083330,
+      "duration": 5000000,
+      "text": "recently"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 7222080,
+      "text": "retired"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32583330,
+      "duration": 1388750,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34111250,
+      "duration": 1666660,
+      "text": "who"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35916660,
+      "duration": 1388750,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37444580,
+      "duration": 4166660,
+      "text": "coping"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41750000,
+      "duration": 1250000,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43138750,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44388750,
+      "duration": 2638750,
+      "text": "death"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47166660,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48277910,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48972080,
+      "duration": 6388750,
+      "text": "relative"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55500000,
+      "duration": 1388750,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57027910,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57722080,
+      "duration": 4444580,
+      "text": "friend"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62305410,
+      "duration": 1805410,
+      "text": "may"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64250000,
+      "duration": 3055410,
+      "text": "feel"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67444580,
+      "duration": 4444580,
+      "text": "sad"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 75361250,
+      "duration": 5694580,
+      "text": "lonely"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82166660,
+      "duration": 1111250,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 83416660,
+      "duration": 6527910,
+      "text": "worried"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:50:02.785513+00:00"
+}

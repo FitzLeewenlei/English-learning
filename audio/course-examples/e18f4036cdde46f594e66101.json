@@ -1,0 +1,83 @@
+{
+  "speechText": "But the benefits go beyond flexibility.",
+  "audio": "audio/course-examples/e18f4036cdde46f594e66101.mp3",
+  "sha256": "29e1c1d786e423135e9f4b075085c755919e27cd06c9d43159677eba6e5c7c29",
+  "duration": 3.312,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "But",
+      "start": 0.101375,
+      "end": 0.3375
+    },
+    {
+      "text": "the",
+      "start": 0.351375,
+      "end": 0.4625
+    },
+    {
+      "text": "benefits",
+      "start": 0.476375,
+      "end": 1.184708
+    },
+    {
+      "text": "go",
+      "start": 1.198625,
+      "end": 1.406958
+    },
+    {
+      "text": "beyond",
+      "start": 1.420833,
+      "end": 1.851374
+    },
+    {
+      "text": "flexibility",
+      "start": 1.865291,
+      "end": 2.893082
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 2361250,
+      "text": "But"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3513750,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4763750,
+      "duration": 7083330,
+      "text": "benefits"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11986250,
+      "duration": 2083330,
+      "text": "go"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14208330,
+      "duration": 4305410,
+      "text": "beyond"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18652910,
+      "duration": 10277910,
+      "text": "flexibility"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:37:59.224472+00:00"
+}

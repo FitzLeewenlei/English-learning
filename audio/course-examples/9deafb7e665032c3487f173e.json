@@ -1,0 +1,413 @@
+{
+  "speechText": "By leaving room between their car and the one ahead of them, drivers can absorb a wave of braking in dense traffic conditions that would otherwise develop into a serious traffic jam with no obvious cause.",
+  "audio": "audio/course-examples/9deafb7e665032c3487f173e.mp3",
+  "sha256": "56b438aec648ef413efd9466fcda8fd1865908123c60932d77bb53b59aa3a609",
+  "duration": 12.192,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "By",
+      "start": 0.119458,
+      "end": 0.258333
+    },
+    {
+      "text": "leaving",
+      "start": 0.272208,
+      "end": 0.730541
+    },
+    {
+      "text": "room",
+      "start": 0.744458,
+      "end": 1.036124
+    },
+    {
+      "text": "between",
+      "start": 1.05,
+      "end": 1.438875
+    },
+    {
+      "text": "their",
+      "start": 1.452791,
+      "end": 1.605582
+    },
+    {
+      "text": "car",
+      "start": 1.619458,
+      "end": 2.049999
+    },
+    {
+      "text": "and",
+      "start": 2.063875,
+      "end": 2.216666
+    },
+    {
+      "text": "the",
+      "start": 2.230541,
+      "end": 2.299999
+    },
+    {
+      "text": "one",
+      "start": 2.313875,
+      "end": 2.494416
+    },
+    {
+      "text": "ahead",
+      "start": 2.508333,
+      "end": 2.772208
+    },
+    {
+      "text": "of",
+      "start": 2.786125,
+      "end": 2.89725
+    },
+    {
+      "text": "them",
+      "start": 2.911125,
+      "end": 3.175
+    },
+    {
+      "text": "drivers",
+      "start": 3.522208,
+      "end": 3.966666
+    },
+    {
+      "text": "can",
+      "start": 3.980541,
+      "end": 4.147207
+    },
+    {
+      "text": "absorb",
+      "start": 4.161125,
+      "end": 4.619458
+    },
+    {
+      "text": "a",
+      "start": 4.633333,
+      "end": 4.688874
+    },
+    {
+      "text": "wave",
+      "start": 4.702791,
+      "end": 5.077791
+    },
+    {
+      "text": "of",
+      "start": 5.091666,
+      "end": 5.244457
+    },
+    {
+      "text": "braking",
+      "start": 5.258333,
+      "end": 5.786124
+    },
+    {
+      "text": "in",
+      "start": 5.8,
+      "end": 5.938875
+    },
+    {
+      "text": "dense",
+      "start": 5.952791,
+      "end": 6.272249
+    },
+    {
+      "text": "traffic",
+      "start": 6.286125,
+      "end": 6.675
+    },
+    {
+      "text": "conditions",
+      "start": 6.688875,
+      "end": 7.383333
+    },
+    {
+      "text": "that",
+      "start": 7.397208,
+      "end": 7.536083
+    },
+    {
+      "text": "would",
+      "start": 7.55,
+      "end": 7.688875
+    },
+    {
+      "text": "otherwise",
+      "start": 7.702791,
+      "end": 8.202791
+    },
+    {
+      "text": "develop",
+      "start": 8.216666,
+      "end": 8.702791
+    },
+    {
+      "text": "into",
+      "start": 8.716666,
+      "end": 8.966666
+    },
+    {
+      "text": "a",
+      "start": 8.980541,
+      "end": 9.049999
+    },
+    {
+      "text": "serious",
+      "start": 9.063875,
+      "end": 9.55
+    },
+    {
+      "text": "traffic",
+      "start": 9.563875,
+      "end": 9.966666
+    },
+    {
+      "text": "jam",
+      "start": 9.980541,
+      "end": 10.272207
+    },
+    {
+      "text": "with",
+      "start": 10.286125,
+      "end": 10.480583
+    },
+    {
+      "text": "no",
+      "start": 10.494458,
+      "end": 10.716666
+    },
+    {
+      "text": "obvious",
+      "start": 10.730541,
+      "end": 11.188874
+    },
+    {
+      "text": "cause",
+      "start": 11.202791,
+      "end": 11.786124
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 1388750,
+      "text": "By"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2722080,
+      "duration": 4583330,
+      "text": "leaving"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7444580,
+      "duration": 2916660,
+      "text": "room"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10500000,
+      "duration": 3888750,
+      "text": "between"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14527910,
+      "duration": 1527910,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16194580,
+      "duration": 4305410,
+      "text": "car"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20638750,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22305410,
+      "duration": 694580,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23138750,
+      "duration": 1805410,
+      "text": "one"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25083330,
+      "duration": 2638750,
+      "text": "ahead"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27861250,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29111250,
+      "duration": 2638750,
+      "text": "them"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35222080,
+      "duration": 4444580,
+      "text": "drivers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39805410,
+      "duration": 1666660,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41611250,
+      "duration": 4583330,
+      "text": "absorb"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46333330,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47027910,
+      "duration": 3750000,
+      "text": "wave"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50916660,
+      "duration": 1527910,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52583330,
+      "duration": 5277910,
+      "text": "braking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58000000,
+      "duration": 1388750,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59527910,
+      "duration": 3194580,
+      "text": "dense"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62861250,
+      "duration": 3888750,
+      "text": "traffic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66888750,
+      "duration": 6944580,
+      "text": "conditions"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73972080,
+      "duration": 1388750,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 75500000,
+      "duration": 1388750,
+      "text": "would"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 77027910,
+      "duration": 5000000,
+      "text": "otherwise"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82166660,
+      "duration": 4861250,
+      "text": "develop"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 87166660,
+      "duration": 2500000,
+      "text": "into"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 89805410,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 90638750,
+      "duration": 4861250,
+      "text": "serious"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 95638750,
+      "duration": 4027910,
+      "text": "traffic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 99805410,
+      "duration": 2916660,
+      "text": "jam"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 102861250,
+      "duration": 1944580,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 104944580,
+      "duration": 2222080,
+      "text": "no"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 107305410,
+      "duration": 4583330,
+      "text": "obvious"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 112027910,
+      "duration": 5833330,
+      "text": "cause"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:36:55.805823+00:00"
+}

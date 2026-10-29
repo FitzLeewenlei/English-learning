@@ -1,0 +1,160 @@
+{
+  "speechText": "But they usually agree to wait until the temperatures are regularly above 10℃.",
+  "audio": "audio/course-examples/4e4537e62decf43dbeed4ef1.mp3",
+  "sha256": "498d634fcabdb674622fa8ddf18ecc1341e382e3b6d3948a0157a02f5e7b6919",
+  "duration": 6.456,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "But",
+      "start": 0.101375,
+      "end": 0.309708
+    },
+    {
+      "text": "they",
+      "start": 0.323625,
+      "end": 0.448625
+    },
+    {
+      "text": "usually",
+      "start": 0.4625,
+      "end": 1.004166
+    },
+    {
+      "text": "agree",
+      "start": 1.018041,
+      "end": 1.379166
+    },
+    {
+      "text": "to",
+      "start": 1.393041,
+      "end": 1.545832
+    },
+    {
+      "text": "wait",
+      "start": 1.559708,
+      "end": 2.031916
+    },
+    {
+      "text": "until",
+      "start": 2.045833,
+      "end": 2.365291
+    },
+    {
+      "text": "the",
+      "start": 2.379166,
+      "end": 2.476374
+    },
+    {
+      "text": "temperatures",
+      "start": 2.490291,
+      "end": 3.226416
+    },
+    {
+      "text": "are",
+      "start": 3.240291,
+      "end": 3.351416
+    },
+    {
+      "text": "regularly",
+      "start": 3.365291,
+      "end": 4.045832
+    },
+    {
+      "text": "above",
+      "start": 4.059708,
+      "end": 4.490249
+    },
+    {
+      "text": "10",
+      "start": 4.504166,
+      "end": 6.031958
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 2083330,
+      "text": "But"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3236250,
+      "duration": 1250000,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4625000,
+      "duration": 5416660,
+      "text": "usually"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10180410,
+      "duration": 3611250,
+      "text": "agree"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13930410,
+      "duration": 1527910,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15597080,
+      "duration": 4722080,
+      "text": "wait"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20458330,
+      "duration": 3194580,
+      "text": "until"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23791660,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24902910,
+      "duration": 7361250,
+      "text": "temperatures"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32402910,
+      "duration": 1111250,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33652910,
+      "duration": 6805410,
+      "text": "regularly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40597080,
+      "duration": 4305410,
+      "text": "above"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45041660,
+      "duration": 15277920,
+      "text": "10℃"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:52:17.531984+00:00"
+}

@@ -1,0 +1,138 @@
+{
+  "speechText": "Who does the underlined word \"they\" in paragraph 5 refer to?",
+  "audio": "audio/course-examples/a3425effcc0fb4bef60150c5.mp3",
+  "sha256": "c4ede93ac118568157190a6f5c6cebe9c7028849cdfc44ada058e709d14102fd",
+  "duration": 4.536,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Who",
+      "start": 0.133333,
+      "end": 0.327791
+    },
+    {
+      "text": "does",
+      "start": 0.341666,
+      "end": 0.536124
+    },
+    {
+      "text": "the",
+      "start": 0.55,
+      "end": 0.702791
+    },
+    {
+      "text": "underlined",
+      "start": 0.716666,
+      "end": 1.466666
+    },
+    {
+      "text": "word",
+      "start": 1.480541,
+      "end": 1.924999
+    },
+    {
+      "text": "they",
+      "start": 1.938875,
+      "end": 2.105541
+    },
+    {
+      "text": "in",
+      "start": 2.119458,
+      "end": 2.244458
+    },
+    {
+      "text": "paragraph",
+      "start": 2.258333,
+      "end": 2.938874
+    },
+    {
+      "text": "5",
+      "start": 2.952791,
+      "end": 3.313916
+    },
+    {
+      "text": "refer",
+      "start": 3.327791,
+      "end": 3.716666
+    },
+    {
+      "text": "to",
+      "start": 3.730541,
+      "end": 4.133332
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1944580,
+      "text": "Who"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 1944580,
+      "text": "does"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5500000,
+      "duration": 1527910,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7166660,
+      "duration": 7500000,
+      "text": "underlined"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14805410,
+      "duration": 4444580,
+      "text": "word"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19388750,
+      "duration": 1666660,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21194580,
+      "duration": 1250000,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22583330,
+      "duration": 6805410,
+      "text": "paragraph"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29527910,
+      "duration": 3611250,
+      "text": "5"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33277910,
+      "duration": 3888750,
+      "text": "refer"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37305410,
+      "duration": 4027910,
+      "text": "to"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:47:40.482077+00:00"
+}

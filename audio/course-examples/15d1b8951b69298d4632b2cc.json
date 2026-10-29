@@ -1,0 +1,149 @@
+{
+  "speechText": "Her parents were not really rich, but they were certainly not poor.",
+  "audio": "audio/course-examples/15d1b8951b69298d4632b2cc.mp3",
+  "sha256": "3eedfc2be3da93602a5a5bfbc02fc9d7ab323b6cc23efad5589e5f356d27f57f",
+  "duration": 4.584,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Her",
+      "start": 0.147208,
+      "end": 0.313874
+    },
+    {
+      "text": "parents",
+      "start": 0.327791,
+      "end": 0.883332
+    },
+    {
+      "text": "were",
+      "start": 0.897208,
+      "end": 0.994416
+    },
+    {
+      "text": "not",
+      "start": 1.008333,
+      "end": 1.299999
+    },
+    {
+      "text": "really",
+      "start": 1.313875,
+      "end": 1.591666
+    },
+    {
+      "text": "rich",
+      "start": 1.605541,
+      "end": 2.119416
+    },
+    {
+      "text": "but",
+      "start": 2.425,
+      "end": 2.563875
+    },
+    {
+      "text": "they",
+      "start": 2.577791,
+      "end": 2.702791
+    },
+    {
+      "text": "were",
+      "start": 2.716666,
+      "end": 2.827791
+    },
+    {
+      "text": "certainly",
+      "start": 2.841666,
+      "end": 3.383332
+    },
+    {
+      "text": "not",
+      "start": 3.397208,
+      "end": 3.674999
+    },
+    {
+      "text": "poor",
+      "start": 3.688875,
+      "end": 4.161083
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1666660,
+      "text": "Her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3277910,
+      "duration": 5555410,
+      "text": "parents"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 972080,
+      "text": "were"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10083330,
+      "duration": 2916660,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13138750,
+      "duration": 2777910,
+      "text": "really"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16055410,
+      "duration": 5138750,
+      "text": "rich"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24250000,
+      "duration": 1388750,
+      "text": "but"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25777910,
+      "duration": 1250000,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27166660,
+      "duration": 1111250,
+      "text": "were"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28416660,
+      "duration": 5416660,
+      "text": "certainly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33972080,
+      "duration": 2777910,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36888750,
+      "duration": 4722080,
+      "text": "poor"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:42:24.237871+00:00"
+}

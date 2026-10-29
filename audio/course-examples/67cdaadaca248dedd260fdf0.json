@@ -1,0 +1,138 @@
+{
+  "speechText": "Some agricultural companies also ask powerful influencers to market their products.",
+  "audio": "audio/course-examples/67cdaadaca248dedd260fdf0.mp3",
+  "sha256": "849facba9eb482a7efe2dc46728b74b5e81943e99f483b8b8277df6d58890bd1",
+  "duration": 6.36,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Some",
+      "start": 0.119458,
+      "end": 0.452791
+    },
+    {
+      "text": "agricultural",
+      "start": 0.466666,
+      "end": 1.286124
+    },
+    {
+      "text": "companies",
+      "start": 1.3,
+      "end": 1.994458
+    },
+    {
+      "text": "also",
+      "start": 2.008333,
+      "end": 2.536124
+    },
+    {
+      "text": "ask",
+      "start": 2.55,
+      "end": 2.938875
+    },
+    {
+      "text": "powerful",
+      "start": 2.952791,
+      "end": 3.480582
+    },
+    {
+      "text": "influencers",
+      "start": 3.494458,
+      "end": 4.327791
+    },
+    {
+      "text": "to",
+      "start": 4.341666,
+      "end": 4.480541
+    },
+    {
+      "text": "market",
+      "start": 4.494458,
+      "end": 4.980583
+    },
+    {
+      "text": "their",
+      "start": 4.994458,
+      "end": 5.119458
+    },
+    {
+      "text": "products",
+      "start": 5.133333,
+      "end": 5.938874
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 3333330,
+      "text": "Some"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4666660,
+      "duration": 8194580,
+      "text": "agricultural"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13000000,
+      "duration": 6944580,
+      "text": "companies"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20083330,
+      "duration": 5277910,
+      "text": "also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25500000,
+      "duration": 3888750,
+      "text": "ask"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29527910,
+      "duration": 5277910,
+      "text": "powerful"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34944580,
+      "duration": 8333330,
+      "text": "influencers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43416660,
+      "duration": 1388750,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44944580,
+      "duration": 4861250,
+      "text": "market"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49944580,
+      "duration": 1250000,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51333330,
+      "duration": 8055410,
+      "text": "products"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:32:09.218860+00:00"
+}

@@ -1,0 +1,138 @@
+{
+  "speechText": "The game helped him settle disagreements with his three older sisters.",
+  "audio": "audio/course-examples/6021436ee5c1dcd4c76d9c1f.mp3",
+  "sha256": "c92a3a160b3acc3106e42e28ae9972f170a01a67bf539faa4e68302c30ee1ec3",
+  "duration": 4.776,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "game",
+      "start": 0.3,
+      "end": 0.647208
+    },
+    {
+      "text": "helped",
+      "start": 0.661125,
+      "end": 0.994458
+    },
+    {
+      "text": "him",
+      "start": 1.008333,
+      "end": 1.216666
+    },
+    {
+      "text": "settle",
+      "start": 1.230541,
+      "end": 1.647207
+    },
+    {
+      "text": "disagreements",
+      "start": 1.661125,
+      "end": 2.55
+    },
+    {
+      "text": "with",
+      "start": 2.563875,
+      "end": 2.730541
+    },
+    {
+      "text": "his",
+      "start": 2.744458,
+      "end": 2.952791
+    },
+    {
+      "text": "three",
+      "start": 2.966666,
+      "end": 3.286124
+    },
+    {
+      "text": "older",
+      "start": 3.3,
+      "end": 3.605541
+    },
+    {
+      "text": "sisters",
+      "start": 3.619458,
+      "end": 4.355583
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 3472080,
+      "text": "game"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6611250,
+      "duration": 3333330,
+      "text": "helped"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10083330,
+      "duration": 2083330,
+      "text": "him"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12305410,
+      "duration": 4166660,
+      "text": "settle"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16611250,
+      "duration": 8888750,
+      "text": "disagreements"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25638750,
+      "duration": 1666660,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27444580,
+      "duration": 2083330,
+      "text": "his"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29666660,
+      "duration": 3194580,
+      "text": "three"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33000000,
+      "duration": 3055410,
+      "text": "older"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36194580,
+      "duration": 7361250,
+      "text": "sisters"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:30:33.393374+00:00"
+}

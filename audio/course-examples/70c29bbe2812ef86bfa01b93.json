@@ -1,0 +1,171 @@
+{
+  "speechText": "Maybe you’re sleepy in the evening but feel you must stay up late anyway.",
+  "audio": "audio/course-examples/70c29bbe2812ef86bfa01b93.mp3",
+  "sha256": "5dc1278ac78b01f3dfbd4ce4d0682b24ee4bb6b473d09b0d62e89a621471eb5b",
+  "duration": 4.632,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Maybe",
+      "start": 0.133333,
+      "end": 0.480541
+    },
+    {
+      "text": "you’re",
+      "start": 0.494458,
+      "end": 0.661124
+    },
+    {
+      "text": "sleepy",
+      "start": 0.675,
+      "end": 1.133333
+    },
+    {
+      "text": "in",
+      "start": 1.147208,
+      "end": 1.258333
+    },
+    {
+      "text": "the",
+      "start": 1.272208,
+      "end": 1.355541
+    },
+    {
+      "text": "evening",
+      "start": 1.369458,
+      "end": 1.966666
+    },
+    {
+      "text": "but",
+      "start": 1.980541,
+      "end": 2.202749
+    },
+    {
+      "text": "feel",
+      "start": 2.216666,
+      "end": 2.494457
+    },
+    {
+      "text": "you",
+      "start": 2.508333,
+      "end": 2.619458
+    },
+    {
+      "text": "must",
+      "start": 2.633333,
+      "end": 2.897208
+    },
+    {
+      "text": "stay",
+      "start": 2.911125,
+      "end": 3.175
+    },
+    {
+      "text": "up",
+      "start": 3.188875,
+      "end": 3.383333
+    },
+    {
+      "text": "late",
+      "start": 3.397208,
+      "end": 3.661083
+    },
+    {
+      "text": "anyway",
+      "start": 3.675,
+      "end": 4.216666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 3472080,
+      "text": "Maybe"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 1666660,
+      "text": "you’re"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6750000,
+      "duration": 4583330,
+      "text": "sleepy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11472080,
+      "duration": 1111250,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13694580,
+      "duration": 5972080,
+      "text": "evening"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19805410,
+      "duration": 2222080,
+      "text": "but"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22166660,
+      "duration": 2777910,
+      "text": "feel"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25083330,
+      "duration": 1111250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26333330,
+      "duration": 2638750,
+      "text": "must"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29111250,
+      "duration": 2638750,
+      "text": "stay"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31888750,
+      "duration": 1944580,
+      "text": "up"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33972080,
+      "duration": 2638750,
+      "text": "late"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36750000,
+      "duration": 5416660,
+      "text": "anyway"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:41:06.349495+00:00"
+}

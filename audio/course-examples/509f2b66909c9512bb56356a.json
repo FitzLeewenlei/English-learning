@@ -1,0 +1,237 @@
+{
+  "speechText": "By the second semester, she adjusted her approach to make her lecture halls feel smaller, and get her students engaged.",
+  "audio": "audio/course-examples/509f2b66909c9512bb56356a.mp3",
+  "sha256": "ebef882bf0caf5f89e6584d95a6f55afe9fd0042086605aaaefeb5c2c825d238",
+  "duration": 7.848,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "By",
+      "start": 0.101375,
+      "end": 0.323583
+    },
+    {
+      "text": "the",
+      "start": 0.3375,
+      "end": 0.4625
+    },
+    {
+      "text": "second",
+      "start": 0.476375,
+      "end": 0.893041
+    },
+    {
+      "text": "semester",
+      "start": 0.906958,
+      "end": 1.545833
+    },
+    {
+      "text": "she",
+      "start": 1.8375,
+      "end": 1.976375
+    },
+    {
+      "text": "adjusted",
+      "start": 1.990291,
+      "end": 2.518082
+    },
+    {
+      "text": "her",
+      "start": 2.531958,
+      "end": 2.712499
+    },
+    {
+      "text": "approach",
+      "start": 2.726375,
+      "end": 3.295833
+    },
+    {
+      "text": "to",
+      "start": 3.309708,
+      "end": 3.420833
+    },
+    {
+      "text": "make",
+      "start": 3.434708,
+      "end": 3.656916
+    },
+    {
+      "text": "her",
+      "start": 3.670833,
+      "end": 3.768041
+    },
+    {
+      "text": "lecture",
+      "start": 3.781958,
+      "end": 4.170833
+    },
+    {
+      "text": "halls",
+      "start": 4.184708,
+      "end": 4.545833
+    },
+    {
+      "text": "feel",
+      "start": 4.559708,
+      "end": 4.781916
+    },
+    {
+      "text": "smaller",
+      "start": 4.795833,
+      "end": 5.393041
+    },
+    {
+      "text": "and",
+      "start": 5.670833,
+      "end": 5.809708
+    },
+    {
+      "text": "get",
+      "start": 5.823625,
+      "end": 6.031958
+    },
+    {
+      "text": "her",
+      "start": 6.045833,
+      "end": 6.170833
+    },
+    {
+      "text": "students",
+      "start": 6.184708,
+      "end": 6.670833
+    },
+    {
+      "text": "engaged",
+      "start": 6.684708,
+      "end": 7.434708
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 2222080,
+      "text": "By"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3375000,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4763750,
+      "duration": 4166660,
+      "text": "second"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9069580,
+      "duration": 6388750,
+      "text": "semester"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18375000,
+      "duration": 1388750,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19902910,
+      "duration": 5277910,
+      "text": "adjusted"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25319580,
+      "duration": 1805410,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27263750,
+      "duration": 5694580,
+      "text": "approach"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33097080,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34347080,
+      "duration": 2222080,
+      "text": "make"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36708330,
+      "duration": 972080,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37819580,
+      "duration": 3888750,
+      "text": "lecture"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41847080,
+      "duration": 3611250,
+      "text": "halls"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45597080,
+      "duration": 2222080,
+      "text": "feel"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47958330,
+      "duration": 5972080,
+      "text": "smaller"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56708330,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58236250,
+      "duration": 2083330,
+      "text": "get"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60458330,
+      "duration": 1250000,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61847080,
+      "duration": 4861250,
+      "text": "students"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66847080,
+      "duration": 7500000,
+      "text": "engaged"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:35:02.894517+00:00"
+}

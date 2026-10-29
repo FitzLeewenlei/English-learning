@@ -1,0 +1,314 @@
+{
+  "speechText": "If you’re having a hard time being happy for a friend who just got an awesome promotion, it’s probably because you made the situation about you somehow.",
+  "audio": "audio/course-examples/8b7ce92b6238b25ff0123835.mp3",
+  "sha256": "60a7e90e8e3f4d38f870718e60bf43428e0325152988ae2b651ef4573b4a743a",
+  "duration": 8.952,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "If",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "you’re",
+      "start": 0.3,
+      "end": 0.411125
+    },
+    {
+      "text": "having",
+      "start": 0.425,
+      "end": 0.786125
+    },
+    {
+      "text": "a",
+      "start": 0.8,
+      "end": 0.8416659
+    },
+    {
+      "text": "hard",
+      "start": 0.855541,
+      "end": 1.202749
+    },
+    {
+      "text": "time",
+      "start": 1.216666,
+      "end": 1.563874
+    },
+    {
+      "text": "being",
+      "start": 1.577791,
+      "end": 1.855582
+    },
+    {
+      "text": "happy",
+      "start": 1.869458,
+      "end": 2.258333
+    },
+    {
+      "text": "for",
+      "start": 2.272208,
+      "end": 2.424999
+    },
+    {
+      "text": "a",
+      "start": 2.438875,
+      "end": 2.508333
+    },
+    {
+      "text": "friend",
+      "start": 2.522208,
+      "end": 2.966666
+    },
+    {
+      "text": "who",
+      "start": 2.980541,
+      "end": 3.119416
+    },
+    {
+      "text": "just",
+      "start": 3.133333,
+      "end": 3.369458
+    },
+    {
+      "text": "got",
+      "start": 3.383333,
+      "end": 3.563874
+    },
+    {
+      "text": "an",
+      "start": 3.577791,
+      "end": 3.702791
+    },
+    {
+      "text": "awesome",
+      "start": 3.716666,
+      "end": 4.063874
+    },
+    {
+      "text": "promotion",
+      "start": 4.077791,
+      "end": 4.772249
+    },
+    {
+      "text": "it’s",
+      "start": 5.133333,
+      "end": 5.286124
+    },
+    {
+      "text": "probably",
+      "start": 5.3,
+      "end": 5.869458
+    },
+    {
+      "text": "because",
+      "start": 5.883333,
+      "end": 6.216666
+    },
+    {
+      "text": "you",
+      "start": 6.230541,
+      "end": 6.341666
+    },
+    {
+      "text": "made",
+      "start": 6.355541,
+      "end": 6.619416
+    },
+    {
+      "text": "the",
+      "start": 6.633333,
+      "end": 6.716666
+    },
+    {
+      "text": "situation",
+      "start": 6.730541,
+      "end": 7.438874
+    },
+    {
+      "text": "about",
+      "start": 7.452791,
+      "end": 7.772249
+    },
+    {
+      "text": "you",
+      "start": 7.786125,
+      "end": 7.89725
+    },
+    {
+      "text": "somehow",
+      "start": 7.911125,
+      "end": 8.55
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "If"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1111250,
+      "text": "you’re"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4250000,
+      "duration": 3611250,
+      "text": "having"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8000000,
+      "duration": 416659,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8555410,
+      "duration": 3472080,
+      "text": "hard"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12166660,
+      "duration": 3472080,
+      "text": "time"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15777910,
+      "duration": 2777910,
+      "text": "being"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18694580,
+      "duration": 3888750,
+      "text": "happy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22722080,
+      "duration": 1527910,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24388750,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 4444580,
+      "text": "friend"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29805410,
+      "duration": 1388750,
+      "text": "who"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31333330,
+      "duration": 2361250,
+      "text": "just"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33833330,
+      "duration": 1805410,
+      "text": "got"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35777910,
+      "duration": 1250000,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37166660,
+      "duration": 3472080,
+      "text": "awesome"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40777910,
+      "duration": 6944580,
+      "text": "promotion"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51333330,
+      "duration": 1527910,
+      "text": "it’s"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53000000,
+      "duration": 5694580,
+      "text": "probably"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58833330,
+      "duration": 3333330,
+      "text": "because"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62305410,
+      "duration": 1111250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63555410,
+      "duration": 2638750,
+      "text": "made"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66333330,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67305410,
+      "duration": 7083330,
+      "text": "situation"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 74527910,
+      "duration": 3194580,
+      "text": "about"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 77861250,
+      "duration": 1111250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79111250,
+      "duration": 6388750,
+      "text": "somehow"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:43:41.565216+00:00"
+}

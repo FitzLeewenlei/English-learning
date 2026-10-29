@@ -1,0 +1,105 @@
+{
+  "speechText": "They were fond of hearing from their grandparents.",
+  "audio": "audio/course-examples/a0a04f27abec6e8465a50ce1.mp3",
+  "sha256": "6bdcb59a3a0e91955ea91ccdab894cefe543c763684d9bb0bfa9019f955c14e6",
+  "duration": 3.36,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "They",
+      "start": 0.147208,
+      "end": 0.299999
+    },
+    {
+      "text": "were",
+      "start": 0.313875,
+      "end": 0.45275
+    },
+    {
+      "text": "fond",
+      "start": 0.466666,
+      "end": 0.813874
+    },
+    {
+      "text": "of",
+      "start": 0.827791,
+      "end": 0.924999
+    },
+    {
+      "text": "hearing",
+      "start": 0.938875,
+      "end": 1.438875
+    },
+    {
+      "text": "from",
+      "start": 1.452791,
+      "end": 1.661124
+    },
+    {
+      "text": "their",
+      "start": 1.675,
+      "end": 1.813875
+    },
+    {
+      "text": "grandparents",
+      "start": 1.827791,
+      "end": 2.952791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1527910,
+      "text": "They"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3138750,
+      "duration": 1388750,
+      "text": "were"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4666660,
+      "duration": 3472080,
+      "text": "fond"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8277910,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9388750,
+      "duration": 5000000,
+      "text": "hearing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14527910,
+      "duration": 2083330,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16750000,
+      "duration": 1388750,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18277910,
+      "duration": 11250000,
+      "text": "grandparents"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:34:31.510789+00:00"
+}

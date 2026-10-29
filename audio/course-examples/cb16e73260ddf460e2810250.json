@@ -1,0 +1,182 @@
+{
+  "speechText": "In his new home, Ben adjusted very fast and showed his high confidence right away!",
+  "audio": "audio/course-examples/cb16e73260ddf460e2810250.mp3",
+  "sha256": "cb9443bca3ba54b18197345c9f7962736b2fcc682f00df46d4d4b46c5b53f440",
+  "duration": 5.904,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "In",
+      "start": 0.147208,
+      "end": 0.272208
+    },
+    {
+      "text": "his",
+      "start": 0.286125,
+      "end": 0.494458
+    },
+    {
+      "text": "new",
+      "start": 0.508333,
+      "end": 0.758333
+    },
+    {
+      "text": "home",
+      "start": 0.772208,
+      "end": 1.230541
+    },
+    {
+      "text": "Ben",
+      "start": 1.55,
+      "end": 1.758333
+    },
+    {
+      "text": "adjusted",
+      "start": 1.772208,
+      "end": 2.327749
+    },
+    {
+      "text": "very",
+      "start": 2.341666,
+      "end": 2.633332
+    },
+    {
+      "text": "fast",
+      "start": 2.647208,
+      "end": 3.258333
+    },
+    {
+      "text": "and",
+      "start": 3.272208,
+      "end": 3.411083
+    },
+    {
+      "text": "showed",
+      "start": 3.425,
+      "end": 3.744458
+    },
+    {
+      "text": "his",
+      "start": 3.758333,
+      "end": 3.897208
+    },
+    {
+      "text": "high",
+      "start": 3.911125,
+      "end": 4.14725
+    },
+    {
+      "text": "confidence",
+      "start": 4.161125,
+      "end": 4.855583
+    },
+    {
+      "text": "right",
+      "start": 4.869458,
+      "end": 5.119458
+    },
+    {
+      "text": "away",
+      "start": 5.133333,
+      "end": 5.549999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1250000,
+      "text": "In"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 2083330,
+      "text": "his"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5083330,
+      "duration": 2500000,
+      "text": "new"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7722080,
+      "duration": 4583330,
+      "text": "home"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15500000,
+      "duration": 2083330,
+      "text": "Ben"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17722080,
+      "duration": 5555410,
+      "text": "adjusted"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23416660,
+      "duration": 2916660,
+      "text": "very"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26472080,
+      "duration": 6111250,
+      "text": "fast"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32722080,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34250000,
+      "duration": 3194580,
+      "text": "showed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37583330,
+      "duration": 1388750,
+      "text": "his"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39111250,
+      "duration": 2361250,
+      "text": "high"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41611250,
+      "duration": 6944580,
+      "text": "confidence"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48694580,
+      "duration": 2500000,
+      "text": "right"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51333330,
+      "duration": 4166660,
+      "text": "away"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:43:17.450068+00:00"
+}

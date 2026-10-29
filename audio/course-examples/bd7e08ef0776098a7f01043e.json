@@ -1,0 +1,336 @@
+{
+  "speechText": "Its message: this person was not to be trusted; her behavior would be unpredictable; she was motivated by a peculiar agenda of her own that I would never understand.",
+  "audio": "audio/course-examples/bd7e08ef0776098a7f01043e.mp3",
+  "sha256": "34026e5e89a98e318a39bedd18b758afeed35bc7549afe0f867104b5d0ea13a4",
+  "duration": 11.28,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Its",
+      "start": 0.147208,
+      "end": 0.355541
+    },
+    {
+      "text": "message",
+      "start": 0.369458,
+      "end": 0.994458
+    },
+    {
+      "text": "this",
+      "start": 1.3,
+      "end": 1.536125
+    },
+    {
+      "text": "person",
+      "start": 1.55,
+      "end": 2.022208
+    },
+    {
+      "text": "was",
+      "start": 2.036125,
+      "end": 2.188916
+    },
+    {
+      "text": "not",
+      "start": 2.202791,
+      "end": 2.424999
+    },
+    {
+      "text": "to",
+      "start": 2.438875,
+      "end": 2.522208
+    },
+    {
+      "text": "be",
+      "start": 2.536125,
+      "end": 2.661125
+    },
+    {
+      "text": "trusted",
+      "start": 2.675,
+      "end": 3.272208
+    },
+    {
+      "text": "her",
+      "start": 3.633333,
+      "end": 3.730541
+    },
+    {
+      "text": "behavior",
+      "start": 3.744458,
+      "end": 4.299999
+    },
+    {
+      "text": "would",
+      "start": 4.313875,
+      "end": 4.480541
+    },
+    {
+      "text": "be",
+      "start": 4.494458,
+      "end": 4.619458
+    },
+    {
+      "text": "unpredictable",
+      "start": 4.633333,
+      "end": 5.536124
+    },
+    {
+      "text": "she",
+      "start": 5.883333,
+      "end": 6.022208
+    },
+    {
+      "text": "was",
+      "start": 6.036125,
+      "end": 6.188916
+    },
+    {
+      "text": "motivated",
+      "start": 6.202791,
+      "end": 6.966666
+    },
+    {
+      "text": "by",
+      "start": 6.980541,
+      "end": 7.133332
+    },
+    {
+      "text": "a",
+      "start": 7.147208,
+      "end": 7.230541
+    },
+    {
+      "text": "peculiar",
+      "start": 7.244458,
+      "end": 7.924999
+    },
+    {
+      "text": "agenda",
+      "start": 7.938875,
+      "end": 8.494416
+    },
+    {
+      "text": "of",
+      "start": 8.508333,
+      "end": 8.619458
+    },
+    {
+      "text": "her",
+      "start": 8.633333,
+      "end": 8.841666
+    },
+    {
+      "text": "own",
+      "start": 8.855541,
+      "end": 9.174999
+    },
+    {
+      "text": "that",
+      "start": 9.188875,
+      "end": 9.369416
+    },
+    {
+      "text": "I",
+      "start": 9.383333,
+      "end": 9.466666
+    },
+    {
+      "text": "would",
+      "start": 9.480541,
+      "end": 9.647207
+    },
+    {
+      "text": "never",
+      "start": 9.661125,
+      "end": 9.994458
+    },
+    {
+      "text": "understand",
+      "start": 10.008333,
+      "end": 10.869458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2083330,
+      "text": "Its"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3694580,
+      "duration": 6250000,
+      "text": "message"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13000000,
+      "duration": 2361250,
+      "text": "this"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15500000,
+      "duration": 4722080,
+      "text": "person"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20361250,
+      "duration": 1527910,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22027910,
+      "duration": 2222080,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24388750,
+      "duration": 833330,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25361250,
+      "duration": 1250000,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26750000,
+      "duration": 5972080,
+      "text": "trusted"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36333330,
+      "duration": 972080,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37444580,
+      "duration": 5555410,
+      "text": "behavior"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43138750,
+      "duration": 1666660,
+      "text": "would"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44944580,
+      "duration": 1250000,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46333330,
+      "duration": 9027910,
+      "text": "unpredictable"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58833330,
+      "duration": 1388750,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60361250,
+      "duration": 1527910,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62027910,
+      "duration": 7638750,
+      "text": "motivated"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69805410,
+      "duration": 1527910,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71472080,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 72444580,
+      "duration": 6805410,
+      "text": "peculiar"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79388750,
+      "duration": 5555410,
+      "text": "agenda"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 85083330,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 86333330,
+      "duration": 2083330,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 88555410,
+      "duration": 3194580,
+      "text": "own"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 91888750,
+      "duration": 1805410,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 93833330,
+      "duration": 833330,
+      "text": "I"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 94805410,
+      "duration": 1666660,
+      "text": "would"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 96611250,
+      "duration": 3333330,
+      "text": "never"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 100083330,
+      "duration": 8611250,
+      "text": "understand"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:32:58.822248+00:00"
+}

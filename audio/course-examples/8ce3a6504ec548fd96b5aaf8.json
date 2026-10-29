@@ -1,0 +1,94 @@
+{
+  "speechText": "Mary does like to surf the Internet.",
+  "audio": "audio/course-examples/8ce3a6504ec548fd96b5aaf8.mp3",
+  "sha256": "082e60dbeca052886d55c316fd8785b285c80a028c5d40aeb1d8adcc550ca055",
+  "duration": 2.928,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Mary",
+      "start": 0.133333,
+      "end": 0.633333
+    },
+    {
+      "text": "does",
+      "start": 0.647208,
+      "end": 0.883333
+    },
+    {
+      "text": "like",
+      "start": 0.897208,
+      "end": 1.133333
+    },
+    {
+      "text": "to",
+      "start": 1.147208,
+      "end": 1.258333
+    },
+    {
+      "text": "surf",
+      "start": 1.272208,
+      "end": 1.605541
+    },
+    {
+      "text": "the",
+      "start": 1.619458,
+      "end": 1.744458
+    },
+    {
+      "text": "Internet",
+      "start": 1.758333,
+      "end": 2.522208
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 5000000,
+      "text": "Mary"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6472080,
+      "duration": 2361250,
+      "text": "does"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 2361250,
+      "text": "like"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11472080,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 3333330,
+      "text": "surf"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16194580,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17583330,
+      "duration": 7638750,
+      "text": "Internet"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:55:18.450227+00:00"
+}

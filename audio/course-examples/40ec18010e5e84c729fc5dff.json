@@ -1,0 +1,193 @@
+{
+  "speechText": "To our surprise, Jack scored 400 against an average of 250 in a recent English competition.",
+  "audio": "audio/course-examples/40ec18010e5e84c729fc5dff.mp3",
+  "sha256": "02ee2b4d871e65863bd12c6ba9aea1c3defea72c0706aaf0e584981ac63032a8",
+  "duration": 7.776,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "To",
+      "start": 0.119458,
+      "end": 0.299999
+    },
+    {
+      "text": "our",
+      "start": 0.313875,
+      "end": 0.522208
+    },
+    {
+      "text": "surprise",
+      "start": 0.536125,
+      "end": 1.286125
+    },
+    {
+      "text": "Jack",
+      "start": 1.591666,
+      "end": 1.883332
+    },
+    {
+      "text": "scored",
+      "start": 1.897208,
+      "end": 2.313874
+    },
+    {
+      "text": "400",
+      "start": 2.327791,
+      "end": 3.0083319
+    },
+    {
+      "text": "against",
+      "start": 3.022208,
+      "end": 3.397208
+    },
+    {
+      "text": "an",
+      "start": 3.411125,
+      "end": 3.52225
+    },
+    {
+      "text": "average",
+      "start": 3.536125,
+      "end": 3.980583
+    },
+    {
+      "text": "of",
+      "start": 3.994458,
+      "end": 4.174999
+    },
+    {
+      "text": "250",
+      "start": 4.188875,
+      "end": 5.4249989
+    },
+    {
+      "text": "in",
+      "start": 5.438875,
+      "end": 5.619416
+    },
+    {
+      "text": "a",
+      "start": 5.633333,
+      "end": 5.702791
+    },
+    {
+      "text": "recent",
+      "start": 5.716666,
+      "end": 6.188874
+    },
+    {
+      "text": "English",
+      "start": 6.202791,
+      "end": 6.536124
+    },
+    {
+      "text": "competition",
+      "start": 6.55,
+      "end": 7.369458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 1805410,
+      "text": "To"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3138750,
+      "duration": 2083330,
+      "text": "our"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5361250,
+      "duration": 7500000,
+      "text": "surprise"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15916660,
+      "duration": 2916660,
+      "text": "Jack"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18972080,
+      "duration": 4166660,
+      "text": "scored"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23277910,
+      "duration": 6805409,
+      "text": "400"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30222080,
+      "duration": 3750000,
+      "text": "against"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34111250,
+      "duration": 1111250,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35361250,
+      "duration": 4444580,
+      "text": "average"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39944580,
+      "duration": 1805410,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41888750,
+      "duration": 12361239,
+      "text": "250"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54388750,
+      "duration": 1805410,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56333330,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57166660,
+      "duration": 4722080,
+      "text": "recent"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62027910,
+      "duration": 3333330,
+      "text": "English"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 65500000,
+      "duration": 8194580,
+      "text": "competition"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:36:43.948012+00:00"
+}

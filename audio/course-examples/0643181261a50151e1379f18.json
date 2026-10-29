@@ -1,0 +1,116 @@
+{
+  "speechText": "Canceling plans does not mean a friendship will break.",
+  "audio": "audio/course-examples/0643181261a50151e1379f18.mp3",
+  "sha256": "ee119e2448e3e15740d3729ece0b49ae620f4b2ed346ece4b9937cdc45d60bfc",
+  "duration": 4.008,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Canceling",
+      "start": 0.101375,
+      "end": 0.768041
+    },
+    {
+      "text": "plans",
+      "start": 0.781958,
+      "end": 1.337499
+    },
+    {
+      "text": "does",
+      "start": 1.351375,
+      "end": 1.545833
+    },
+    {
+      "text": "not",
+      "start": 1.559708,
+      "end": 1.851374
+    },
+    {
+      "text": "mean",
+      "start": 1.865291,
+      "end": 2.101416
+    },
+    {
+      "text": "a",
+      "start": 2.115291,
+      "end": 2.170832
+    },
+    {
+      "text": "friendship",
+      "start": 2.184708,
+      "end": 2.837499
+    },
+    {
+      "text": "will",
+      "start": 2.851375,
+      "end": 3.018041
+    },
+    {
+      "text": "break",
+      "start": 3.031958,
+      "end": 3.601416
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 6666660,
+      "text": "Canceling"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7819580,
+      "duration": 5555410,
+      "text": "plans"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13513750,
+      "duration": 1944580,
+      "text": "does"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15597080,
+      "duration": 2916660,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18652910,
+      "duration": 2361250,
+      "text": "mean"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21152910,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21847080,
+      "duration": 6527910,
+      "text": "friendship"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28513750,
+      "duration": 1666660,
+      "text": "will"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30319580,
+      "duration": 5694580,
+      "text": "break"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:44:15.819545+00:00"
+}

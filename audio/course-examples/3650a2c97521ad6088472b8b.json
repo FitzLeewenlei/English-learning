@@ -1,0 +1,105 @@
+{
+  "speechText": "What can we infer from Philip Haglund’s words?",
+  "audio": "audio/course-examples/3650a2c97521ad6088472b8b.mp3",
+  "sha256": "afc1b8dbf359a49b797a42241fdf2bcbc80f4b84e82e4d8685cf1d1a02c7688b",
+  "duration": 3.72,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "What",
+      "start": 0.147208,
+      "end": 0.397208
+    },
+    {
+      "text": "can",
+      "start": 0.411125,
+      "end": 0.591666
+    },
+    {
+      "text": "we",
+      "start": 0.605541,
+      "end": 0.730541
+    },
+    {
+      "text": "infer",
+      "start": 0.744458,
+      "end": 1.313916
+    },
+    {
+      "text": "from",
+      "start": 1.327791,
+      "end": 1.605582
+    },
+    {
+      "text": "Philip",
+      "start": 1.619458,
+      "end": 1.994458
+    },
+    {
+      "text": "Haglund’s",
+      "start": 2.008333,
+      "end": 2.591666
+    },
+    {
+      "text": "words",
+      "start": 2.605541,
+      "end": 3.299999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2500000,
+      "text": "What"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4111250,
+      "duration": 1805410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6055410,
+      "duration": 1250000,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7444580,
+      "duration": 5694580,
+      "text": "infer"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13277910,
+      "duration": 2777910,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16194580,
+      "duration": 3750000,
+      "text": "Philip"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20083330,
+      "duration": 5833330,
+      "text": "Haglund’s"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26055410,
+      "duration": 6944580,
+      "text": "words"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:49:52.183956+00:00"
+}

@@ -1,0 +1,116 @@
+{
+  "speechText": "Generally, it's safe for kids to use the Internet.",
+  "audio": "audio/course-examples/acfec454c1a5778136471742.mp3",
+  "sha256": "67e5fc74932ad3b4a0b66c9dabbbb86c36c015c0ab5b42964dea50eb27a0151a",
+  "duration": 3.792,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Generally",
+      "start": 0.102791,
+      "end": 0.811124
+    },
+    {
+      "text": "it's",
+      "start": 1.075,
+      "end": 1.283333
+    },
+    {
+      "text": "safe",
+      "start": 1.297208,
+      "end": 1.588874
+    },
+    {
+      "text": "for",
+      "start": 1.602791,
+      "end": 1.741666
+    },
+    {
+      "text": "kids",
+      "start": 1.755541,
+      "end": 2.102749
+    },
+    {
+      "text": "to",
+      "start": 2.116666,
+      "end": 2.241666
+    },
+    {
+      "text": "use",
+      "start": 2.255541,
+      "end": 2.519416
+    },
+    {
+      "text": "the",
+      "start": 2.533333,
+      "end": 2.644458
+    },
+    {
+      "text": "Internet",
+      "start": 2.658333,
+      "end": 3.380541
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1027910,
+      "duration": 7083330,
+      "text": "Generally"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10750000,
+      "duration": 2083330,
+      "text": "it's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12972080,
+      "duration": 2916660,
+      "text": "safe"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16027910,
+      "duration": 1388750,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17555410,
+      "duration": 3472080,
+      "text": "kids"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21166660,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22555410,
+      "duration": 2638750,
+      "text": "use"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25333330,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26583330,
+      "duration": 7222080,
+      "text": "Internet"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:42:16.861279+00:00"
+}

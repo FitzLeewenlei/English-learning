@@ -1,0 +1,204 @@
+{
+  "speechText": "These winds tend to drop moisture on the eastern sides of continents, leaving their western sides drier.",
+  "audio": "audio/course-examples/84f38fa2037ee05901dcb3f2.mp3",
+  "sha256": "c9850cd8313cd504753ea067f3b908d1c4cce1b258274a6f3b66db3b1d43c7a7",
+  "duration": 7.08,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "These",
+      "start": 0.147208,
+      "end": 0.466666
+    },
+    {
+      "text": "winds",
+      "start": 0.480541,
+      "end": 0.980541
+    },
+    {
+      "text": "tend",
+      "start": 0.994458,
+      "end": 1.355583
+    },
+    {
+      "text": "to",
+      "start": 1.369458,
+      "end": 1.466666
+    },
+    {
+      "text": "drop",
+      "start": 1.480541,
+      "end": 1.786082
+    },
+    {
+      "text": "moisture",
+      "start": 1.8,
+      "end": 2.397208
+    },
+    {
+      "text": "on",
+      "start": 2.411125,
+      "end": 2.577791
+    },
+    {
+      "text": "the",
+      "start": 2.591666,
+      "end": 2.674999
+    },
+    {
+      "text": "eastern",
+      "start": 2.688875,
+      "end": 3.161083
+    },
+    {
+      "text": "sides",
+      "start": 3.175,
+      "end": 3.508333
+    },
+    {
+      "text": "of",
+      "start": 3.522208,
+      "end": 3.633333
+    },
+    {
+      "text": "continents",
+      "start": 3.647208,
+      "end": 4.369416
+    },
+    {
+      "text": "leaving",
+      "start": 4.702791,
+      "end": 5.036124
+    },
+    {
+      "text": "their",
+      "start": 5.05,
+      "end": 5.175
+    },
+    {
+      "text": "western",
+      "start": 5.188875,
+      "end": 5.688875
+    },
+    {
+      "text": "sides",
+      "start": 5.702791,
+      "end": 6.091666
+    },
+    {
+      "text": "drier",
+      "start": 6.105541,
+      "end": 6.674999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 3194580,
+      "text": "These"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4805410,
+      "duration": 5000000,
+      "text": "winds"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9944580,
+      "duration": 3611250,
+      "text": "tend"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13694580,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14805410,
+      "duration": 3055410,
+      "text": "drop"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18000000,
+      "duration": 5972080,
+      "text": "moisture"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24111250,
+      "duration": 1666660,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26888750,
+      "duration": 4722080,
+      "text": "eastern"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31750000,
+      "duration": 3333330,
+      "text": "sides"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35222080,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36472080,
+      "duration": 7222080,
+      "text": "continents"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47027910,
+      "duration": 3333330,
+      "text": "leaving"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50500000,
+      "duration": 1250000,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51888750,
+      "duration": 5000000,
+      "text": "western"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57027910,
+      "duration": 3888750,
+      "text": "sides"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61055410,
+      "duration": 5694580,
+      "text": "drier"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:41:27.860337+00:00"
+}

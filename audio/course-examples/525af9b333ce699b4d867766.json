@@ -1,0 +1,171 @@
+{
+  "speechText": "With prices fluctuating so much, it's hard for the company to plan a budget.",
+  "audio": "audio/course-examples/525af9b333ce699b4d867766.mp3",
+  "sha256": "a73483a8c51c825248aa0a614a335fca80d933425434bfee1c2fcf21cdd06ef4",
+  "duration": 5.688,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "With",
+      "start": 0.147208,
+      "end": 0.369416
+    },
+    {
+      "text": "prices",
+      "start": 0.383333,
+      "end": 1.008333
+    },
+    {
+      "text": "fluctuating",
+      "start": 1.022208,
+      "end": 1.813874
+    },
+    {
+      "text": "so",
+      "start": 1.827791,
+      "end": 2.091666
+    },
+    {
+      "text": "much",
+      "start": 2.105541,
+      "end": 2.549999
+    },
+    {
+      "text": "it's",
+      "start": 2.855541,
+      "end": 2.994416
+    },
+    {
+      "text": "hard",
+      "start": 3.008333,
+      "end": 3.341666
+    },
+    {
+      "text": "for",
+      "start": 3.355541,
+      "end": 3.452749
+    },
+    {
+      "text": "the",
+      "start": 3.466666,
+      "end": 3.563874
+    },
+    {
+      "text": "company",
+      "start": 3.577791,
+      "end": 4.077791
+    },
+    {
+      "text": "to",
+      "start": 4.091666,
+      "end": 4.216666
+    },
+    {
+      "text": "plan",
+      "start": 4.230541,
+      "end": 4.536082
+    },
+    {
+      "text": "a",
+      "start": 4.55,
+      "end": 4.605541
+    },
+    {
+      "text": "budget",
+      "start": 4.619458,
+      "end": 5.272249
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2222080,
+      "text": "With"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3833330,
+      "duration": 6250000,
+      "text": "prices"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10222080,
+      "duration": 7916660,
+      "text": "fluctuating"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18277910,
+      "duration": 2638750,
+      "text": "so"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21055410,
+      "duration": 4444580,
+      "text": "much"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28555410,
+      "duration": 1388750,
+      "text": "it's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30083330,
+      "duration": 3333330,
+      "text": "hard"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33555410,
+      "duration": 972080,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34666660,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35777910,
+      "duration": 5000000,
+      "text": "company"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40916660,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42305410,
+      "duration": 3055410,
+      "text": "plan"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45500000,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46194580,
+      "duration": 6527910,
+      "text": "budget"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:32:29.264077+00:00"
+}

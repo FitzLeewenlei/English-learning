@@ -1,0 +1,116 @@
+{
+  "speechText": "Fundamentally, the more people give, the happier they get.",
+  "audio": "audio/course-examples/012c5e7a74110d6fee391c87.mp3",
+  "sha256": "85fa337a3e5394c89759a76fa1b5fdcacea13e1fe4b655f474b0429d5819583a",
+  "duration": 4.56,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Fundamentally",
+      "start": 0.133333,
+      "end": 1.161124
+    },
+    {
+      "text": "the",
+      "start": 1.425,
+      "end": 1.508333
+    },
+    {
+      "text": "more",
+      "start": 1.522208,
+      "end": 1.730541
+    },
+    {
+      "text": "people",
+      "start": 1.744458,
+      "end": 2.161124
+    },
+    {
+      "text": "give",
+      "start": 2.175,
+      "end": 2.619458
+    },
+    {
+      "text": "the",
+      "start": 2.869458,
+      "end": 2.938916
+    },
+    {
+      "text": "happier",
+      "start": 2.952791,
+      "end": 3.411124
+    },
+    {
+      "text": "they",
+      "start": 3.425,
+      "end": 3.591666
+    },
+    {
+      "text": "get",
+      "start": 3.605541,
+      "end": 4.147207
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 10277910,
+      "text": "Fundamentally"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14250000,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15222080,
+      "duration": 2083330,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17444580,
+      "duration": 4166660,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21750000,
+      "duration": 4444580,
+      "text": "give"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28694580,
+      "duration": 694580,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29527910,
+      "duration": 4583330,
+      "text": "happier"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34250000,
+      "duration": 1666660,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36055410,
+      "duration": 5416660,
+      "text": "get"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:33:02.966985+00:00"
+}

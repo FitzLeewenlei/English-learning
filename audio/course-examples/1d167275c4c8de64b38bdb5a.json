@@ -1,0 +1,94 @@
+{
+  "speechText": "But we may not have the chance.",
+  "audio": "audio/course-examples/1d167275c4c8de64b38bdb5a.mp3",
+  "sha256": "561b3f808c95db24a5f19ee98dd7eb5157310c0ef58b72ce2dc8194cb27d3627",
+  "duration": 2.52,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "But",
+      "start": 0.102791,
+      "end": 0.338916
+    },
+    {
+      "text": "we",
+      "start": 0.352791,
+      "end": 0.505582
+    },
+    {
+      "text": "may",
+      "start": 0.519458,
+      "end": 0.727791
+    },
+    {
+      "text": "not",
+      "start": 0.741666,
+      "end": 1.005541
+    },
+    {
+      "text": "have",
+      "start": 1.019458,
+      "end": 1.241666
+    },
+    {
+      "text": "the",
+      "start": 1.255541,
+      "end": 1.366666
+    },
+    {
+      "text": "chance",
+      "start": 1.380541,
+      "end": 2.102749
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1027910,
+      "duration": 2361250,
+      "text": "But"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3527910,
+      "duration": 1527910,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5194580,
+      "duration": 2083330,
+      "text": "may"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7416660,
+      "duration": 2638750,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10194580,
+      "duration": 2222080,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12555410,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13805410,
+      "duration": 7222080,
+      "text": "chance"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:55:55.014016+00:00"
+}

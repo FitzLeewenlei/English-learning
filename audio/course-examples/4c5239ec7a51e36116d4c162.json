@@ -1,0 +1,171 @@
+{
+  "speechText": "The ideal amount of sleep required each night should be revised by public authorities.",
+  "audio": "audio/course-examples/4c5239ec7a51e36116d4c162.mp3",
+  "sha256": "cf494589c28ee11309b1d9c0a7b4e2492ceaf01860cc79c6c858fed39af68e94",
+  "duration": 5.928,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.133333,
+      "end": 0.286124
+    },
+    {
+      "text": "ideal",
+      "start": 0.3,
+      "end": 0.730541
+    },
+    {
+      "text": "amount",
+      "start": 0.744458,
+      "end": 1.133333
+    },
+    {
+      "text": "of",
+      "start": 1.147208,
+      "end": 1.272208
+    },
+    {
+      "text": "sleep",
+      "start": 1.286125,
+      "end": 1.64725
+    },
+    {
+      "text": "required",
+      "start": 1.661125,
+      "end": 2.202791
+    },
+    {
+      "text": "each",
+      "start": 2.216666,
+      "end": 2.480541
+    },
+    {
+      "text": "night",
+      "start": 2.494458,
+      "end": 2.938916
+    },
+    {
+      "text": "should",
+      "start": 2.952791,
+      "end": 3.216666
+    },
+    {
+      "text": "be",
+      "start": 3.230541,
+      "end": 3.327749
+    },
+    {
+      "text": "revised",
+      "start": 3.341666,
+      "end": 4.036124
+    },
+    {
+      "text": "by",
+      "start": 4.05,
+      "end": 4.188875
+    },
+    {
+      "text": "public",
+      "start": 4.202791,
+      "end": 4.619457
+    },
+    {
+      "text": "authorities",
+      "start": 4.633333,
+      "end": 5.508333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1527910,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 4305410,
+      "text": "ideal"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7444580,
+      "duration": 3888750,
+      "text": "amount"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11472080,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12861250,
+      "duration": 3611250,
+      "text": "sleep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16611250,
+      "duration": 5416660,
+      "text": "required"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22166660,
+      "duration": 2638750,
+      "text": "each"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24944580,
+      "duration": 4444580,
+      "text": "night"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29527910,
+      "duration": 2638750,
+      "text": "should"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32305410,
+      "duration": 972080,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33416660,
+      "duration": 6944580,
+      "text": "revised"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40500000,
+      "duration": 1388750,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42027910,
+      "duration": 4166660,
+      "text": "public"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46333330,
+      "duration": 8750000,
+      "text": "authorities"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:39:14.890722+00:00"
+}

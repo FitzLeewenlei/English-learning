@@ -1,0 +1,105 @@
+{
+  "speechText": "Another change is in the relationship with teachers.",
+  "audio": "audio/course-examples/1b3de7b3e5cd84002ef60a41.mp3",
+  "sha256": "08e00f682eb0629c79e2b1caf0b87ec994bdc53355302d9fa7248ff25c0f3416",
+  "duration": 3.816,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Another",
+      "start": 0.119458,
+      "end": 0.536124
+    },
+    {
+      "text": "change",
+      "start": 0.55,
+      "end": 1.091666
+    },
+    {
+      "text": "is",
+      "start": 1.105541,
+      "end": 1.286082
+    },
+    {
+      "text": "in",
+      "start": 1.3,
+      "end": 1.425
+    },
+    {
+      "text": "the",
+      "start": 1.438875,
+      "end": 1.522208
+    },
+    {
+      "text": "relationship",
+      "start": 1.536125,
+      "end": 2.425
+    },
+    {
+      "text": "with",
+      "start": 2.438875,
+      "end": 2.619416
+    },
+    {
+      "text": "teachers",
+      "start": 2.633333,
+      "end": 3.397208
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 4166660,
+      "text": "Another"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5500000,
+      "duration": 5416660,
+      "text": "change"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11055410,
+      "duration": 1805410,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13000000,
+      "duration": 1250000,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14388750,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 8888750,
+      "text": "relationship"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24388750,
+      "duration": 1805410,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26333330,
+      "duration": 7638750,
+      "text": "teachers"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:41:36.544940+00:00"
+}

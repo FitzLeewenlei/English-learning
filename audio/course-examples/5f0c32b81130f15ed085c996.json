@@ -1,0 +1,94 @@
+{
+  "speechText": "Damiano says she usually waits seven nights.",
+  "audio": "audio/course-examples/5f0c32b81130f15ed085c996.mp3",
+  "sha256": "7fdf6e8a2cf9279bf1d041e97b525d24c59053812319e025ae8871c94d5896bc",
+  "duration": 3.72,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Damiano",
+      "start": 0.119458,
+      "end": 0.772249
+    },
+    {
+      "text": "says",
+      "start": 0.786125,
+      "end": 1.188916
+    },
+    {
+      "text": "she",
+      "start": 1.202791,
+      "end": 1.383332
+    },
+    {
+      "text": "usually",
+      "start": 1.397208,
+      "end": 1.869416
+    },
+    {
+      "text": "waits",
+      "start": 1.883333,
+      "end": 2.299999
+    },
+    {
+      "text": "seven",
+      "start": 2.313875,
+      "end": 2.647208
+    },
+    {
+      "text": "nights",
+      "start": 2.661125,
+      "end": 3.3
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 6527910,
+      "text": "Damiano"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7861250,
+      "duration": 4027910,
+      "text": "says"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12027910,
+      "duration": 1805410,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 4722080,
+      "text": "usually"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18833330,
+      "duration": 4166660,
+      "text": "waits"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23138750,
+      "duration": 3333330,
+      "text": "seven"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26611250,
+      "duration": 6388750,
+      "text": "nights"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:38:52.217744+00:00"
+}

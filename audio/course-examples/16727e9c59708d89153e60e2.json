@@ -1,0 +1,149 @@
+{
+  "speechText": "The extreme deserts refer to those far from lakes near thick forests.",
+  "audio": "audio/course-examples/16727e9c59708d89153e60e2.mp3",
+  "sha256": "a8590fb496751c2c9c44b5bf82de483b4507dec39c968396e04861498f2ca585",
+  "duration": 5.136,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "extreme",
+      "start": 0.3,
+      "end": 0.827791
+    },
+    {
+      "text": "deserts",
+      "start": 0.841666,
+      "end": 1.383332
+    },
+    {
+      "text": "refer",
+      "start": 1.397208,
+      "end": 1.855541
+    },
+    {
+      "text": "to",
+      "start": 1.869458,
+      "end": 1.994458
+    },
+    {
+      "text": "those",
+      "start": 2.008333,
+      "end": 2.313874
+    },
+    {
+      "text": "far",
+      "start": 2.327791,
+      "end": 2.688916
+    },
+    {
+      "text": "from",
+      "start": 2.702791,
+      "end": 2.952791
+    },
+    {
+      "text": "lakes",
+      "start": 2.966666,
+      "end": 3.355541
+    },
+    {
+      "text": "near",
+      "start": 3.369458,
+      "end": 3.633333
+    },
+    {
+      "text": "thick",
+      "start": 3.647208,
+      "end": 3.897208
+    },
+    {
+      "text": "forests",
+      "start": 3.911125,
+      "end": 4.730583
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 5277910,
+      "text": "extreme"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8416660,
+      "duration": 5416660,
+      "text": "deserts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 4583330,
+      "text": "refer"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18694580,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20083330,
+      "duration": 3055410,
+      "text": "those"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23277910,
+      "duration": 3611250,
+      "text": "far"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27027910,
+      "duration": 2500000,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29666660,
+      "duration": 3888750,
+      "text": "lakes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33694580,
+      "duration": 2638750,
+      "text": "near"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36472080,
+      "duration": 2500000,
+      "text": "thick"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39111250,
+      "duration": 8194580,
+      "text": "forests"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:53:25.754813+00:00"
+}

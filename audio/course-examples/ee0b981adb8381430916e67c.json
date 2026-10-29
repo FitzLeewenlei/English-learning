@@ -1,0 +1,116 @@
+{
+  "speechText": "Applying mulch makes the garden look neat and clean.",
+  "audio": "audio/course-examples/ee0b981adb8381430916e67c.mp3",
+  "sha256": "4003fd416a0b9f5ff84fb975c5d8ddf7139e8f48a73ab458f1feade3cdc4596b",
+  "duration": 3.792,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Applying",
+      "start": 0.147208,
+      "end": 0.674999
+    },
+    {
+      "text": "mulch",
+      "start": 0.688875,
+      "end": 1.133333
+    },
+    {
+      "text": "makes",
+      "start": 1.147208,
+      "end": 1.466666
+    },
+    {
+      "text": "the",
+      "start": 1.480541,
+      "end": 1.577749
+    },
+    {
+      "text": "garden",
+      "start": 1.591666,
+      "end": 2.049999
+    },
+    {
+      "text": "look",
+      "start": 2.063875,
+      "end": 2.3
+    },
+    {
+      "text": "neat",
+      "start": 2.313875,
+      "end": 2.675
+    },
+    {
+      "text": "and",
+      "start": 2.688875,
+      "end": 2.813875
+    },
+    {
+      "text": "clean",
+      "start": 2.827791,
+      "end": 3.369457
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 5277910,
+      "text": "Applying"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6888750,
+      "duration": 4444580,
+      "text": "mulch"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11472080,
+      "duration": 3194580,
+      "text": "makes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14805410,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15916660,
+      "duration": 4583330,
+      "text": "garden"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20638750,
+      "duration": 2361250,
+      "text": "look"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23138750,
+      "duration": 3611250,
+      "text": "neat"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26888750,
+      "duration": 1250000,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28277910,
+      "duration": 5416660,
+      "text": "clean"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:30:12.258231+00:00"
+}

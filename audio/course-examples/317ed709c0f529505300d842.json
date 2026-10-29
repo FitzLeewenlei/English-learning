@@ -1,0 +1,127 @@
+{
+  "speechText": "Michael very much liked the carving, which cost him $2,000.",
+  "audio": "audio/course-examples/317ed709c0f529505300d842.mp3",
+  "sha256": "1490bb5fbc92085335fd959c8f1ebd5b441a4f3c048ff508dd02a819a27cc3ce",
+  "duration": 5.064,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Michael",
+      "start": 0.147208,
+      "end": 0.591666
+    },
+    {
+      "text": "very",
+      "start": 0.605541,
+      "end": 0.911082
+    },
+    {
+      "text": "much",
+      "start": 0.925,
+      "end": 1.244458
+    },
+    {
+      "text": "liked",
+      "start": 1.258333,
+      "end": 1.563874
+    },
+    {
+      "text": "the",
+      "start": 1.577791,
+      "end": 1.661124
+    },
+    {
+      "text": "carving",
+      "start": 1.675,
+      "end": 2.244458
+    },
+    {
+      "text": "which",
+      "start": 2.55,
+      "end": 2.758333
+    },
+    {
+      "text": "cost",
+      "start": 2.772208,
+      "end": 3.091666
+    },
+    {
+      "text": "him",
+      "start": 3.105541,
+      "end": 3.313874
+    },
+    {
+      "text": "2,000",
+      "start": 3.327791,
+      "end": 4.647208
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 4444580,
+      "text": "Michael"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6055410,
+      "duration": 3055410,
+      "text": "very"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9250000,
+      "duration": 3194580,
+      "text": "much"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12583330,
+      "duration": 3055410,
+      "text": "liked"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15777910,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16750000,
+      "duration": 5694580,
+      "text": "carving"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25500000,
+      "duration": 2083330,
+      "text": "which"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27722080,
+      "duration": 3194580,
+      "text": "cost"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31055410,
+      "duration": 2083330,
+      "text": "him"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33277910,
+      "duration": 13194170,
+      "text": "$2,000"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:51:37.101424+00:00"
+}

@@ -1,0 +1,369 @@
+{
+  "speechText": "Just as financial planners advise their clients to engage in specific behaviors, we can all teach ourselves to do some specific things at any age to make our last decades much happier.",
+  "audio": "audio/course-examples/fa3d3f6b2056a08a5b7d5ebc.mp3",
+  "sha256": "7726ec734f716efe6adde284f855158820919856789c4a30bec27f523f729f24",
+  "duration": 11.76,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Just",
+      "start": 0.101375,
+      "end": 0.504166
+    },
+    {
+      "text": "as",
+      "start": 0.518041,
+      "end": 0.656916
+    },
+    {
+      "text": "financial",
+      "start": 0.670833,
+      "end": 1.254166
+    },
+    {
+      "text": "planners",
+      "start": 1.268041,
+      "end": 1.726374
+    },
+    {
+      "text": "advise",
+      "start": 1.740291,
+      "end": 2.198624
+    },
+    {
+      "text": "their",
+      "start": 2.2125,
+      "end": 2.351375
+    },
+    {
+      "text": "clients",
+      "start": 2.365291,
+      "end": 2.893082
+    },
+    {
+      "text": "to",
+      "start": 2.906958,
+      "end": 3.031958
+    },
+    {
+      "text": "engage",
+      "start": 3.045833,
+      "end": 3.504166
+    },
+    {
+      "text": "in",
+      "start": 3.518041,
+      "end": 3.643041
+    },
+    {
+      "text": "specific",
+      "start": 3.656958,
+      "end": 4.198624
+    },
+    {
+      "text": "behaviors",
+      "start": 4.2125,
+      "end": 4.906958
+    },
+    {
+      "text": "we",
+      "start": 5.254166,
+      "end": 5.393041
+    },
+    {
+      "text": "can",
+      "start": 5.406958,
+      "end": 5.559749
+    },
+    {
+      "text": "all",
+      "start": 5.573625,
+      "end": 5.726416
+    },
+    {
+      "text": "teach",
+      "start": 5.740291,
+      "end": 6.031957
+    },
+    {
+      "text": "ourselves",
+      "start": 6.045833,
+      "end": 6.559708
+    },
+    {
+      "text": "to",
+      "start": 6.573625,
+      "end": 6.68475
+    },
+    {
+      "text": "do",
+      "start": 6.698625,
+      "end": 6.879166
+    },
+    {
+      "text": "some",
+      "start": 6.893041,
+      "end": 7.101374
+    },
+    {
+      "text": "specific",
+      "start": 7.115291,
+      "end": 7.726416
+    },
+    {
+      "text": "things",
+      "start": 7.740291,
+      "end": 8.198624
+    },
+    {
+      "text": "at",
+      "start": 8.2125,
+      "end": 8.420833
+    },
+    {
+      "text": "any",
+      "start": 8.434708,
+      "end": 8.698583
+    },
+    {
+      "text": "age",
+      "start": 8.7125,
+      "end": 9.0875
+    },
+    {
+      "text": "to",
+      "start": 9.101375,
+      "end": 9.226375
+    },
+    {
+      "text": "make",
+      "start": 9.240291,
+      "end": 9.476416
+    },
+    {
+      "text": "our",
+      "start": 9.490291,
+      "end": 9.587499
+    },
+    {
+      "text": "last",
+      "start": 9.601375,
+      "end": 10.004166
+    },
+    {
+      "text": "decades",
+      "start": 10.018041,
+      "end": 10.518041
+    },
+    {
+      "text": "much",
+      "start": 10.531958,
+      "end": 10.754166
+    },
+    {
+      "text": "happier",
+      "start": 10.768041,
+      "end": 11.351374
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 4027910,
+      "text": "Just"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5180410,
+      "duration": 1388750,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6708330,
+      "duration": 5833330,
+      "text": "financial"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12680410,
+      "duration": 4583330,
+      "text": "planners"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17402910,
+      "duration": 4583330,
+      "text": "advise"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22125000,
+      "duration": 1388750,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23652910,
+      "duration": 5277910,
+      "text": "clients"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29069580,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30458330,
+      "duration": 4583330,
+      "text": "engage"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35180410,
+      "duration": 1250000,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36569580,
+      "duration": 5416660,
+      "text": "specific"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42125000,
+      "duration": 6944580,
+      "text": "behaviors"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52541660,
+      "duration": 1388750,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54069580,
+      "duration": 1527910,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55736250,
+      "duration": 1527910,
+      "text": "all"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57402910,
+      "duration": 2916660,
+      "text": "teach"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60458330,
+      "duration": 5138750,
+      "text": "ourselves"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 65736250,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66986250,
+      "duration": 1805410,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68930410,
+      "duration": 2083330,
+      "text": "some"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71152910,
+      "duration": 6111250,
+      "text": "specific"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 77402910,
+      "duration": 4583330,
+      "text": "things"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82125000,
+      "duration": 2083330,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 84347080,
+      "duration": 2638750,
+      "text": "any"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 87125000,
+      "duration": 3750000,
+      "text": "age"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 91013750,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 92402910,
+      "duration": 2361250,
+      "text": "make"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 94902910,
+      "duration": 972080,
+      "text": "our"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 96013750,
+      "duration": 4027910,
+      "text": "last"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 100180410,
+      "duration": 5000000,
+      "text": "decades"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 105319580,
+      "duration": 2222080,
+      "text": "much"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 107680410,
+      "duration": 5833330,
+      "text": "happier"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:50:17.361744+00:00"
+}

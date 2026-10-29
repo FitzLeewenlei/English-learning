@@ -1,0 +1,127 @@
+{
+  "speechText": "You can practice self-talk, build confidence, and focus on self-development.",
+  "audio": "audio/course-examples/2eae6f29288432293ecf563f.mp3",
+  "sha256": "ddf5ebdb3ac753db97a28724270e4f729a2bdf827418d44305b92a39adc5d1bf",
+  "duration": 5.904,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "You",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "can",
+      "start": 0.3,
+      "end": 0.494458
+    },
+    {
+      "text": "practice",
+      "start": 0.508333,
+      "end": 1.022208
+    },
+    {
+      "text": "self-talk",
+      "start": 1.036125,
+      "end": 1.827791
+    },
+    {
+      "text": "build",
+      "start": 2.147208,
+      "end": 2.438874
+    },
+    {
+      "text": "confidence",
+      "start": 2.452791,
+      "end": 3.244457
+    },
+    {
+      "text": "and",
+      "start": 3.508333,
+      "end": 3.647208
+    },
+    {
+      "text": "focus",
+      "start": 3.661125,
+      "end": 4.161125
+    },
+    {
+      "text": "on",
+      "start": 4.175,
+      "end": 4.327791
+    },
+    {
+      "text": "self-development",
+      "start": 4.341666,
+      "end": 5.480541
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "You"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1944580,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5083330,
+      "duration": 5138750,
+      "text": "practice"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10361250,
+      "duration": 7916660,
+      "text": "self-talk"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21472080,
+      "duration": 2916660,
+      "text": "build"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24527910,
+      "duration": 7916660,
+      "text": "confidence"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35083330,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36611250,
+      "duration": 5000000,
+      "text": "focus"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41750000,
+      "duration": 1527910,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43416660,
+      "duration": 11388750,
+      "text": "self-development"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:45:01.415730+00:00"
+}

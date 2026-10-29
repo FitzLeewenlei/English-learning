@@ -1,0 +1,193 @@
+{
+  "speechText": "More than one hundred newspapers and magazines in the language were published regularly throughout the world.",
+  "audio": "audio/course-examples/907bc652f6530c7e251a217f.mp3",
+  "sha256": "eb09109611e378b398dcd2ce298ec7716dba9f888d52a57990b7ff06b2cc72e8",
+  "duration": 6.84,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "More",
+      "start": 0.147208,
+      "end": 0.411083
+    },
+    {
+      "text": "than",
+      "start": 0.425,
+      "end": 0.647208
+    },
+    {
+      "text": "one",
+      "start": 0.661125,
+      "end": 0.883333
+    },
+    {
+      "text": "hundred",
+      "start": 0.897208,
+      "end": 1.327749
+    },
+    {
+      "text": "newspapers",
+      "start": 1.341666,
+      "end": 2.105541
+    },
+    {
+      "text": "and",
+      "start": 2.119458,
+      "end": 2.230583
+    },
+    {
+      "text": "magazines",
+      "start": 2.244458,
+      "end": 2.952791
+    },
+    {
+      "text": "in",
+      "start": 2.966666,
+      "end": 3.049999
+    },
+    {
+      "text": "the",
+      "start": 3.063875,
+      "end": 3.161083
+    },
+    {
+      "text": "language",
+      "start": 3.175,
+      "end": 3.827791
+    },
+    {
+      "text": "were",
+      "start": 3.841666,
+      "end": 4.008332
+    },
+    {
+      "text": "published",
+      "start": 4.022208,
+      "end": 4.605541
+    },
+    {
+      "text": "regularly",
+      "start": 4.619458,
+      "end": 5.272249
+    },
+    {
+      "text": "throughout",
+      "start": 5.286125,
+      "end": 5.730583
+    },
+    {
+      "text": "the",
+      "start": 5.744458,
+      "end": 5.841666
+    },
+    {
+      "text": "world",
+      "start": 5.855541,
+      "end": 6.424999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2638750,
+      "text": "More"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4250000,
+      "duration": 2222080,
+      "text": "than"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6611250,
+      "duration": 2222080,
+      "text": "one"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 4305410,
+      "text": "hundred"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13416660,
+      "duration": 7638750,
+      "text": "newspapers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21194580,
+      "duration": 1111250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22444580,
+      "duration": 7083330,
+      "text": "magazines"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29666660,
+      "duration": 833330,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30638750,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31750000,
+      "duration": 6527910,
+      "text": "language"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38416660,
+      "duration": 1666660,
+      "text": "were"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40222080,
+      "duration": 5833330,
+      "text": "published"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46194580,
+      "duration": 6527910,
+      "text": "regularly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52861250,
+      "duration": 4444580,
+      "text": "throughout"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57444580,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58555410,
+      "duration": 5694580,
+      "text": "world"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:43:50.024786+00:00"
+}

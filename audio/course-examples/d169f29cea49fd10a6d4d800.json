@@ -1,0 +1,61 @@
+{
+  "speechText": "I appreciate their effort.",
+  "audio": "audio/course-examples/d169f29cea49fd10a6d4d800.mp3",
+  "sha256": "7908878cb6339d7c01d4f6ca0487d923254456def7b35c305a7e359230e8baf7",
+  "duration": 2.376,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "I",
+      "start": 0.119458,
+      "end": 0.258333
+    },
+    {
+      "text": "appreciate",
+      "start": 0.272208,
+      "end": 1.063874
+    },
+    {
+      "text": "their",
+      "start": 1.077791,
+      "end": 1.230582
+    },
+    {
+      "text": "effort",
+      "start": 1.244458,
+      "end": 1.966666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 1388750,
+      "text": "I"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2722080,
+      "duration": 7916660,
+      "text": "appreciate"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10777910,
+      "duration": 1527910,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12444580,
+      "duration": 7222080,
+      "text": "effort"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:34:25.923423+00:00"
+}

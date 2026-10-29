@@ -1,0 +1,237 @@
+{
+  "speechText": "Nervous critics, including many scientists, worry that there is corporate, national, international, and inter-scientific rivalry in the entire biotechnological field.",
+  "audio": "audio/course-examples/632c58306d0fa1e8a99522b3.mp3",
+  "sha256": "ea0e57a630d64c8cda32131a4161130bb9d9b70c647589cfbbf97604faf70327",
+  "duration": 11.904,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Nervous",
+      "start": 0.133333,
+      "end": 0.605541
+    },
+    {
+      "text": "critics",
+      "start": 0.619458,
+      "end": 1.244458
+    },
+    {
+      "text": "including",
+      "start": 1.438875,
+      "end": 2.008333
+    },
+    {
+      "text": "many",
+      "start": 2.022208,
+      "end": 2.286083
+    },
+    {
+      "text": "scientists",
+      "start": 2.3,
+      "end": 3.147208
+    },
+    {
+      "text": "worry",
+      "start": 3.411125,
+      "end": 3.786125
+    },
+    {
+      "text": "that",
+      "start": 3.8,
+      "end": 3.966666
+    },
+    {
+      "text": "there",
+      "start": 3.980541,
+      "end": 4.105541
+    },
+    {
+      "text": "is",
+      "start": 4.119458,
+      "end": 4.286124
+    },
+    {
+      "text": "corporate",
+      "start": 4.3,
+      "end": 4.925
+    },
+    {
+      "text": "national",
+      "start": 5.202791,
+      "end": 5.827791
+    },
+    {
+      "text": "international",
+      "start": 6.077791,
+      "end": 6.883332
+    },
+    {
+      "text": "and",
+      "start": 7.119458,
+      "end": 7.216666
+    },
+    {
+      "text": "inter-scientific",
+      "start": 7.230541,
+      "end": 8.244416
+    },
+    {
+      "text": "rivalry",
+      "start": 8.258333,
+      "end": 8.924999
+    },
+    {
+      "text": "in",
+      "start": 8.938875,
+      "end": 9.105541
+    },
+    {
+      "text": "the",
+      "start": 9.119458,
+      "end": 9.216666
+    },
+    {
+      "text": "entire",
+      "start": 9.230541,
+      "end": 9.772207
+    },
+    {
+      "text": "biotechnological",
+      "start": 9.786125,
+      "end": 10.925
+    },
+    {
+      "text": "field",
+      "start": 10.938875,
+      "end": 11.494416
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 4722080,
+      "text": "Nervous"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6194580,
+      "duration": 6250000,
+      "text": "critics"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14388750,
+      "duration": 5694580,
+      "text": "including"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20222080,
+      "duration": 2638750,
+      "text": "many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23000000,
+      "duration": 8472080,
+      "text": "scientists"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34111250,
+      "duration": 3750000,
+      "text": "worry"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38000000,
+      "duration": 1666660,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39805410,
+      "duration": 1250000,
+      "text": "there"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41194580,
+      "duration": 1666660,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43000000,
+      "duration": 6250000,
+      "text": "corporate"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52027910,
+      "duration": 6250000,
+      "text": "national"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60777910,
+      "duration": 8055410,
+      "text": "international"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71194580,
+      "duration": 972080,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 72305410,
+      "duration": 10138750,
+      "text": "inter-scientific"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82583330,
+      "duration": 6666660,
+      "text": "rivalry"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 89388750,
+      "duration": 1666660,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 91194580,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 92305410,
+      "duration": 5416660,
+      "text": "entire"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 97861250,
+      "duration": 11388750,
+      "text": "biotechnological"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 109388750,
+      "duration": 5555410,
+      "text": "field"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T13:31:49.601341+00:00"
+}
