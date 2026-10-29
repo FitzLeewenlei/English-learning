@@ -225,6 +225,13 @@ async function verifyAudioFiles() {
   try {
     const page = await browser.newPage({viewport: {width: 1280, height: 900}});
     page.setDefaultTimeout(8000);
+    const waitForUnit = number => page.waitForFunction(expected =>
+      document.querySelector('#current-list').textContent === `Unit ${expected}`
+        && document.querySelector('main').getAttribute('aria-busy') !== 'true', String(number));
+    async function selectUnit(number) {
+      await page.selectOption('#list-select', String(number));
+      await waitForUnit(number);
+    }
     const errors = [];
     page.on('pageerror', error => errors.push(error.message));
     page.on('response', response => {if (response.status() >= 400) errors.push(`${response.status()} ${response.url()}`);});
@@ -261,7 +268,7 @@ async function verifyAudioFiles() {
       checkedForms.add(normalize(form.text)); popupSamples++;
     }
     for (const number of [1, 32, 33, 64, 120]) {
-      await page.selectOption('#list-select', String(number));
+      await selectUnit(String(number));
       const unit = canonical.units[number];
       for (const index of [0, 3, 7, 11, 14]) {
         const documentWord = unit.vocabulary[index];
@@ -291,7 +298,7 @@ async function verifyAudioFiles() {
     if (missing && !checkedForms.has(missing[0])) {
       const [word, record] = missing;
       for (const unitNumber of record.units) {
-        await page.selectOption('#list-select', String(unitNumber));
+        await selectUnit(String(unitNumber));
         const form = await page.locator('.word-token').evaluateAll((nodes, key) => {
           const node = nodes.find(node => node.textContent.toLowerCase().replace(/’/g, "'") === key);
           return node ? {id: node.id, text: node.textContent} : null;
@@ -303,7 +310,7 @@ async function verifyAudioFiles() {
     // text, with its play control disabled rather than silently using US/TTS.
     for (const missing of newCoreMissingAudio) {
       const number = missing.units[0];
-      await page.selectOption('#list-select', String(number));
+      await selectUnit(String(number));
       const index = canonical.units[number].vocabulary.findIndex(entry => normalize(entry.word) === missing.word);
       assert.ok(index >= 0, missing.word);
       const card = page.locator('#vocab-' + index);
@@ -311,7 +318,7 @@ async function verifyAudioFiles() {
       assert.equal(await card.locator('.word-name').textContent(), canonical.units[number].vocabulary[index].word);
       missingCoreUISamples++;
     }
-    await page.selectOption('#list-select', '120');
+    await selectUnit('120');
     const rich = await page.locator('.word-token').evaluateAll(nodes => {
       const entries = window.WORD_DICTIONARY;
       return [...nodes].sort((a, b) => (entries[b.textContent.toLowerCase().replace(/’/g, "'")]?.senses.length || 0) - (entries[a.textContent.toLowerCase().replace(/’/g, "'")]?.senses.length || 0)).map(node => ({id: node.id, text: node.textContent}))[0];

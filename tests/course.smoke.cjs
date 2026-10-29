@@ -99,6 +99,13 @@ console.log('Data parity: all120 units, 1800 document words and 1800 example/tra
   try {
     const page = await browser.newPage({viewport: {width: 1280, height: 900}});
     page.setDefaultTimeout(10000);
+    const waitForUnit = number => page.waitForFunction(expected =>
+      document.querySelector('#current-list').textContent === `Unit ${expected}`
+        && document.querySelector('main').getAttribute('aria-busy') !== 'true', String(number));
+    async function selectUnit(number) {
+      await page.selectOption('#list-select', String(number));
+      await waitForUnit(number);
+    }
     const errors = [];
     page.on('pageerror', error => errors.push(error.message));
     page.on('response', response => {if (response.status() >= 400) errors.push(`${response.status()} ${response.url()}`);});
@@ -120,7 +127,7 @@ console.log('Data parity: all120 units, 1800 document words and 1800 example/tra
     }
     let renderedWords = 0, renderedExamples = 0;
     for (const [number, expected] of Object.entries(course.units)) {
-      await page.selectOption('#list-select', number);
+      await selectUnit(number);
       assert.equal(await page.locator('#current-list').textContent(), `Unit ${number}`);
       const rendered = await page.evaluate(() => ({
         vocabulary: [...document.querySelectorAll('.word-card')].map(card => ({
@@ -154,7 +161,7 @@ console.log('Data parity: all120 units, 1800 document words and 1800 example/tra
       assert.equal(/英/.test(await page.locator('#player-kind').textContent()), false);
     };
     async function checkWordSource(number, word) {
-      await page.selectOption('#list-select', String(number));
+      await selectUnit(String(number));
       await page.selectOption('#speed', '0.5');
       const entry = dictionary[normalize(word)];
       const index = course.units[number].vocabulary.findIndex(v => normalize(v.word) === normalize(word));
@@ -189,7 +196,7 @@ console.log('Data parity: all120 units, 1800 document words and 1800 example/tra
     // Sentence playback uses the document's cleaned English, with teaching notes
     // and exam references left visible on the normal page rather than spoken.
     for (const [number, index] of [[1,0], [32,13], [33,0], [120,0]]) {
-      await page.selectOption('#list-select', String(number));
+      await selectUnit(String(number));
       await page.locator('.sentence-play').nth(index).click();
       await playing();
       assert.equal(await page.locator('#focus-sentence').textContent(), course.units[number].examples[index].speechText);
@@ -197,7 +204,7 @@ console.log('Data parity: all120 units, 1800 document words and 1800 example/tra
       assert.equal(await page.evaluate(() => window.__audio.currentSrc), new URL(media.units[number][index].audio, baseURL).href);
       await page.keyboard.press('Escape');
     }
-    await page.selectOption('#list-select', '33');
+    await selectUnit('33');
     await page.locator('#play-examples').click();
     await playing();
     assert.equal(await page.locator('#focus-count').textContent(), '01 / 15');
@@ -206,7 +213,7 @@ console.log('Data parity: all120 units, 1800 document words and 1800 example/tra
     assert.equal(await page.locator('#focus-sentence').textContent(), course.units['33'].examples[1].speechText);
     await page.keyboard.press('Escape');
 
-    await page.selectOption('#list-select', '120');
+    await selectUnit('120');
     await page.locator('.sentence-play').nth(1).click();
     await playing();
     const sample = course.units['120'].examples[1];
@@ -245,7 +252,7 @@ console.log('Data parity: all120 units, 1800 document words and 1800 example/tra
     }
     await page.keyboard.press('Escape');
     const longest = Object.entries(course.units).flatMap(([number, unit]) => unit.vocabulary.map(entry => ({number, word: entry.word}))).sort((a, b) => b.word.length - a.word.length)[0];
-    await page.selectOption('#list-select', longest.number);
+    await selectUnit(longest.number);
     for (const width of [320,390]) {
       await page.setViewportSize({width, height: 844});
       const names = await page.locator('.word-card').evaluateAll(cards => cards.map(card => {
@@ -266,11 +273,12 @@ console.log('Data parity: all120 units, 1800 document words and 1800 example/tra
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
       await page.screenshot({path: path.join(screenshots, `long-words-${width}.png`)});
     }
-    await page.selectOption('#list-select', '120');
+    await selectUnit('120');
     await page.setViewportSize({width: 320, height: 844});
     await page.screenshot({path: path.join(screenshots, 'unit120-mobile.png')});
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
     await page.reload({waitUntil: 'networkidle'});
+    await waitForUnit(120);
     assert.equal(await page.locator('#list-select').inputValue(), '120');
     assert.equal(await page.locator('#speed').inputValue(), '0.5');
     assert.deepEqual(errors, []);

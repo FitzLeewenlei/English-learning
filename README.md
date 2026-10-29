@@ -16,6 +16,8 @@
 
 `dictionary.js` 提供有道词卡资料与单词音频路径；`data/youdao-course.json` 保存查询结果、缺项、来源 URL、采集时间、原始响应 SHA-256、词条字段投影和音频校验和。音频保留有道实际返回的 MP3 或 WAV。旧版本资料与音频保留用于来源复用，页面以当前构建的词条路径为准。
 
+首页只加载 `course-index.js` 中的 Unit 1 和菜单，课程脚本从原先约 3.6 MB 缩减至约 87 KB（传输时还会压缩）。切换单元时，仅请求对应的 `data/units/unit-单元号-内容哈希.json`，其中包含该单元正文、所需有道词卡和字幕时间；本次访问内已经加载的单元直接复用。构建保留旧哈希文件，使已打开的页面在后续更新后仍可切换单元。上次选择的其他单元会在打开时恢复，等待期间显示加载状态，失败时保留当前内容并可重新选择重试。音频仍在点击播放时才请求。完整聚合脚本保留供构建和资料一致性检查，首页不再下载它们。
+
 完整课程涉及 3,905 个查询词形；1,800 次文档重点词展示对应 1,782 个不同单词，其有道发音全部齐备。有道未提供的例句词形字段会照实提示，查询及缺项统计见来源审计。返回原形的部分条目可显示有道原形释义，但不会将原形音标或录音冒充当前变形。
 
 `audio/course-examples/manifest.json` 逐单元绑定 1,800 条例句与录音、校验和及词元时间；新录音旁的 JSON 保存原始词边界和语音参数。`sentence-timings.js` 是浏览器使用的时间映射。
@@ -29,9 +31,10 @@ https://leefitz19981027-dot.github.io/English-learning/
 node tests/course.smoke.cjs
 node tests/youdao.smoke.cjs
 node tests/playback.smoke.cjs
+node tests/loading.smoke.cjs
 ```
 
-课程检查核对全部 120 个单元、1,800 个词条与 1,800 组例句的文档一致性、菜单、录音绑定及手机排版，并用可信指纹验证原 Unit 1–32 未被更改。有道检查验证来源、缺项、音频校验和及解码。播放检查验证自然结束切换、字幕进度、暂停、跳转、0.5× 和手机横屏。可通过 `TEST_BASE_URL`、`CHROMIUM_PATH` 指定服务和浏览器路径；截图写入临时目录。
+课程检查核对全部 120 个单元、1,800 个词条与 1,800 组例句的文档一致性、菜单、录音绑定及手机排版，并用可信指纹验证原 Unit 1–32 未被更改。有道检查验证来源、缺项、音频校验和及解码。播放检查验证自然结束切换、字幕进度、暂停、跳转、0.5× 和手机横屏。加载检查验证各单元包与完整资料一致、首屏没有整库或音频请求、切换缓存、快速切换时序、失败重试和单元恢复。可通过 `TEST_BASE_URL`、`CHROMIUM_PATH` 指定服务和浏览器路径；截图写入临时目录。
 
 更新当前资料的流程如下，来源文件路径须指向用户提供的实际文档：
 
@@ -48,6 +51,6 @@ python3 -B tools/import_youdao_course.py --build
 
 整句录音的可重复生成器为 `tools/generate_course_audio.py`，构建时需要隔离安装 `edge-tts==7.3.1` 和 ffmpeg／ffprobe，按脚本说明运行。它保留代理和证书验证、支持缓存续跑与有限重试。生成后用 `--check` 离线验证；运行时不需要安装语音合成包。旧版强制对齐脚本只用于历史录音。
 
-所有录音准备完成后执行 `python3 -B tools/build_course.py`，重新生成 `content.js` 和 `sentence-timings.js`。正常构建会拒绝缺少录音或词边界的课程；`--allow-pending-audio` 仅用于本地界面开发，不能作为发布检查。再运行上述检查后发布到 GitHub。
+所有录音准备完成后执行 `python3 -B tools/build_course.py`，重新生成 `content.js`、`sentence-timings.js`、`course-index.js` 和各单元数据包。正常构建会拒绝缺少录音或词边界的课程；`--allow-pending-audio` 仅用于本地界面开发，不能作为发布检查。再运行上述检查后发布到 GitHub。
 
 原有 `vocabulary.html` 为独立历史页面。

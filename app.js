@@ -9,6 +9,9 @@
   let data, currentList, wordItems = [], exampleItems = [];
   let targetWords = new Set();
   let selectedToken = null, selectedWord = null;
+  const availableUnits = course.availableUnits || Object.keys(course.lists).map(Number);
+  const pendingUnits = new Map();
+  let unitRequest = 0;
 
   function readPreference(key, fallback) {
     try { return localStorage.getItem(key) ?? fallback; } catch { return fallback; }
@@ -165,7 +168,7 @@
     return line;
   }
 
-  function renderList(number) {
+  function renderList(number, remember = true) {
     const next = course.lists[number];
     if (!next) { $('list-select').value = String(currentList); return; }
     hideWordDetails();
@@ -244,7 +247,73 @@
       $('examples-content').append(row);
     }
 
-    storePreference('english-reader-list', String(number));
+    if (remember) storePreference('english-reader-list', String(number));
+  }
+
+  async function loadUnit(number) {
+    if (course.lists[number]) return;
+    if (!pendingUnits.has(number)) {
+      const path = course.unitFiles?.[number];
+      if (!path) throw new Error('Unit is not available');
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 30000);
+      const request = fetch(path, {signal: controller.signal}).then(async (response) => {
+        if (!response.ok) throw new Error(`Unit request failed: ${response.status}`);
+        const bundle = await response.json();
+        if (bundle.number !== number || !Array.isArray(bundle.unit?.vocabulary)
+            || !Array.isArray(bundle.unit?.examples) || !bundle.dictionary || !bundle.timings) {
+          throw new Error('Invalid unit data');
+        }
+        Object.assign(window.WORD_DICTIONARY, bundle.dictionary);
+        Object.assign(window.SENTENCE_TIMINGS, bundle.timings);
+        course.lists[number] = bundle.unit;
+      }).finally(() => {
+        clearTimeout(timeout);
+        pendingUnits.delete(number);
+      });
+      pendingUnits.set(number, request);
+    }
+    await pendingUnits.get(number);
+  }
+
+  function unitLoading(loading) {
+    $('top').setAttribute('aria-busy', String(loading));
+    $('vocabulary').inert = loading;
+    $('examples').inert = loading;
+  }
+
+  async function selectUnit(number) {
+    const request = ++unitRequest;
+    hideWordDetails();
+    player.stop();
+    const status = $('unit-load-status');
+    status.classList.remove('is-error');
+    status.hidden = true;
+    if (!availableUnits.includes(number)) {
+      $('list-select').value = String(currentList);
+      unitLoading(false);
+      return;
+    }
+    if (!course.lists[number]) {
+      unitLoading(true);
+      status.textContent = `正在加载 Unit ${number}…`;
+      status.hidden = false;
+    }
+    try {
+      await loadUnit(number);
+      if (request !== unitRequest) return;
+      renderList(number);
+      status.hidden = true;
+      window.scrollTo({top: 0, behavior: 'instant'});
+    } catch {
+      if (request !== unitRequest) return;
+      $('list-select').value = String(currentList);
+      status.textContent = `Unit ${number} 暂时未能加载，请检查网络后重新选择。`;
+      status.classList.add('is-error');
+      status.hidden = false;
+    } finally {
+      if (request === unitRequest) unitLoading(false);
+    }
   }
 
   class SentenceFocus {
@@ -525,16 +594,19 @@
   for (let number = 1; number <= course.totalLists; number++) {
     const option = document.createElement('option');
     option.value = String(number);
-    option.disabled = !course.lists[number];
+    option.disabled = !availableUnits.includes(number);
     option.textContent = `Unit ${number}${option.disabled ? ' · 待添加' : ''}`;
     $('list-select').append(option);
   }
-  const available = Object.keys(course.lists).map(Number).sort((a, b) => a - b);
   const storedList = Number(readPreference('english-reader-list', '1'));
-  renderList(course.lists[storedList] ? storedList : available[0]);
+  const initialList = Object.keys(course.lists).map(Number).sort((a, b) => a - b)[0];
+  renderList(initialList, storedList === initialList || !availableUnits.includes(storedList));
+  if (availableUnits.includes(storedList) && storedList !== initialList) {
+    $('list-select').value = String(storedList);
+    selectUnit(storedList);
+  }
   $('list-select').addEventListener('change', () => {
-    renderList(Number($('list-select').value));
-    window.scrollTo({top: 0, behavior: 'instant'});
+    selectUnit(Number($('list-select').value));
   });
   for (const [mode, id, getItems] of [
     ['vocabulary', 'play-vocabulary', () => wordItems],

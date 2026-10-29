@@ -84,3 +84,6 @@ body.sentence-focus-open{overflow:hidden}
 .word-card .word-sense-pos,.word-card .word-sense-meaning{display:inline}
 .word-card .word-sense-meaning{margin-left:6px}
 @media(max-width:350px){.word-name{font-size:16px}}
+.unit-load-status{margin:-14px 0 22px;color:#718baa;font-size:13px;line-height:1.7}
+.unit-load-status.is-error{color:#b34e39}
+.page[aria-busy="true"] .learning-section{opacity:.55}
