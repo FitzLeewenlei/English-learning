@@ -1,0 +1,445 @@
+{
+  "speechText": "That rising air spreads outward and sinks between 20 and 40 degrees north and south of the equator, and stops cloud formation—which explains why there are so many deserts along the subtropical belt , such as the Sahara Desert.",
+  "audio": "audio/course-examples/08d58611685aef196c2eb321.mp3",
+  "sha256": "462c3c10d674468ca77e37977db6246296f2a7bda828b59afe8ac744162f7e3b",
+  "duration": 14.28,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [
+    "40",
+    "degrees"
+  ],
+  "words": [
+    {
+      "text": "That",
+      "start": 0.101375,
+      "end": 0.379166
+    },
+    {
+      "text": "rising",
+      "start": 0.393041,
+      "end": 0.865249
+    },
+    {
+      "text": "air",
+      "start": 0.879166,
+      "end": 1.101374
+    },
+    {
+      "text": "spreads",
+      "start": 1.115291,
+      "end": 1.545832
+    },
+    {
+      "text": "outward",
+      "start": 1.559708,
+      "end": 2.059708
+    },
+    {
+      "text": "and",
+      "start": 2.073625,
+      "end": 2.226416
+    },
+    {
+      "text": "sinks",
+      "start": 2.240291,
+      "end": 2.670832
+    },
+    {
+      "text": "between",
+      "start": 2.684708,
+      "end": 3.059708
+    },
+    {
+      "text": "20",
+      "start": 3.073625,
+      "end": 3.504166
+    },
+    {
+      "text": "and",
+      "start": 3.518041,
+      "end": 3.629166
+    },
+    {
+      "text": "40",
+      "start": 3.643041,
+      "end": 3.8313188,
+      "estimatedSplit": true
+    },
+    {
+      "text": "degrees",
+      "start": 3.8313188,
+      "end": 4.490291,
+      "estimatedSplit": true
+    },
+    {
+      "text": "north",
+      "start": 4.504166,
+      "end": 4.851374
+    },
+    {
+      "text": "and",
+      "start": 4.865291,
+      "end": 4.962499
+    },
+    {
+      "text": "south",
+      "start": 4.976375,
+      "end": 5.295833
+    },
+    {
+      "text": "of",
+      "start": 5.309708,
+      "end": 5.393041
+    },
+    {
+      "text": "the",
+      "start": 5.406958,
+      "end": 5.504166
+    },
+    {
+      "text": "equator",
+      "start": 5.518041,
+      "end": 6.101374
+    },
+    {
+      "text": "and",
+      "start": 6.448625,
+      "end": 6.601416
+    },
+    {
+      "text": "stops",
+      "start": 6.615291,
+      "end": 7.018082
+    },
+    {
+      "text": "cloud",
+      "start": 7.031958,
+      "end": 7.379166
+    },
+    {
+      "text": "formation",
+      "start": 7.393041,
+      "end": 8.115249
+    },
+    {
+      "text": "which",
+      "start": 8.254166,
+      "end": 8.434707
+    },
+    {
+      "text": "explains",
+      "start": 8.448625,
+      "end": 9.0875
+    },
+    {
+      "text": "why",
+      "start": 9.101375,
+      "end": 9.281916
+    },
+    {
+      "text": "there",
+      "start": 9.295833,
+      "end": 9.406958
+    },
+    {
+      "text": "are",
+      "start": 9.420833,
+      "end": 9.531958
+    },
+    {
+      "text": "so",
+      "start": 9.545833,
+      "end": 9.837499
+    },
+    {
+      "text": "many",
+      "start": 9.851375,
+      "end": 10.0875
+    },
+    {
+      "text": "deserts",
+      "start": 10.101375,
+      "end": 10.573583
+    },
+    {
+      "text": "along",
+      "start": 10.5875,
+      "end": 10.851375
+    },
+    {
+      "text": "the",
+      "start": 10.865291,
+      "end": 10.948624
+    },
+    {
+      "text": "subtropical",
+      "start": 10.9625,
+      "end": 11.656958
+    },
+    {
+      "text": "belt",
+      "start": 11.670833,
+      "end": 12.045833
+    },
+    {
+      "text": "such",
+      "start": 12.323625,
+      "end": 12.55975
+    },
+    {
+      "text": "as",
+      "start": 12.573625,
+      "end": 12.670833
+    },
+    {
+      "text": "the",
+      "start": 12.684708,
+      "end": 12.795833
+    },
+    {
+      "text": "Sahara",
+      "start": 12.809708,
+      "end": 13.281916
+    },
+    {
+      "text": "Desert",
+      "start": 13.295833,
+      "end": 13.865291
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 2777910,
+      "text": "That"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3930410,
+      "duration": 4722080,
+      "text": "rising"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8791660,
+      "duration": 2222080,
+      "text": "air"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11152910,
+      "duration": 4305410,
+      "text": "spreads"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15597080,
+      "duration": 5000000,
+      "text": "outward"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20736250,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22402910,
+      "duration": 4305410,
+      "text": "sinks"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26847080,
+      "duration": 3750000,
+      "text": "between"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30736250,
+      "duration": 4305410,
+      "text": "20"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35180410,
+      "duration": 1111250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36430410,
+      "duration": 8472500,
+      "text": "40 degrees"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45041660,
+      "duration": 3472080,
+      "text": "north"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48652910,
+      "duration": 972080,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49763750,
+      "duration": 3194580,
+      "text": "south"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53097080,
+      "duration": 833330,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54069580,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55180410,
+      "duration": 5833330,
+      "text": "equator"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64486250,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66152910,
+      "duration": 4027910,
+      "text": "stops"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70319580,
+      "duration": 3472080,
+      "text": "cloud"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73930410,
+      "duration": 7222080,
+      "text": "formation"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82541660,
+      "duration": 1805410,
+      "text": "which"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 84486250,
+      "duration": 6388750,
+      "text": "explains"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 91013750,
+      "duration": 1805410,
+      "text": "why"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 92958330,
+      "duration": 1111250,
+      "text": "there"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 94208330,
+      "duration": 1111250,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 95458330,
+      "duration": 2916660,
+      "text": "so"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 98513750,
+      "duration": 2361250,
+      "text": "many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 101013750,
+      "duration": 4722080,
+      "text": "deserts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 105875000,
+      "duration": 2638750,
+      "text": "along"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 108652910,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 109625000,
+      "duration": 6944580,
+      "text": "subtropical"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 116708330,
+      "duration": 3750000,
+      "text": "belt"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 123236250,
+      "duration": 2361250,
+      "text": "such"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 125736250,
+      "duration": 972080,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 126847080,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 128097080,
+      "duration": 4722080,
+      "text": "Sahara"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 132958330,
+      "duration": 5694580,
+      "text": "Desert"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:48:54.044382+00:00"
+}

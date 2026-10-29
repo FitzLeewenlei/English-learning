@@ -1,0 +1,94 @@
+{
+  "speechText": "No one likes getting a speeding ticket.",
+  "audio": "audio/course-examples/1247cf277b98fb112a0bb8e1.mp3",
+  "sha256": "9efc946a595b44ed82f7a7acfbfce64d99a041c0170fdafdfbc4ac8d3687ddce",
+  "duration": 3.0,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "No",
+      "start": 0.133333,
+      "end": 0.369458
+    },
+    {
+      "text": "one",
+      "start": 0.383333,
+      "end": 0.577791
+    },
+    {
+      "text": "likes",
+      "start": 0.591666,
+      "end": 0.952791
+    },
+    {
+      "text": "getting",
+      "start": 0.966666,
+      "end": 1.313874
+    },
+    {
+      "text": "a",
+      "start": 1.327791,
+      "end": 1.383332
+    },
+    {
+      "text": "speeding",
+      "start": 1.397208,
+      "end": 1.911083
+    },
+    {
+      "text": "ticket",
+      "start": 1.925,
+      "end": 2.577791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2361250,
+      "text": "No"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3833330,
+      "duration": 1944580,
+      "text": "one"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5916660,
+      "duration": 3611250,
+      "text": "likes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9666660,
+      "duration": 3472080,
+      "text": "getting"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13277910,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 5138750,
+      "text": "speeding"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 6527910,
+      "text": "ticket"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:41:59.717079+00:00"
+}

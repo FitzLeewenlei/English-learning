@@ -1,0 +1,94 @@
+{
+  "speechText": "You have to size up your opponent.",
+  "audio": "audio/course-examples/9a4958816973592ebe9e772b.mp3",
+  "sha256": "b56c1c765ca384eaab951a715bae59f0028f503f559caf164950bcd26bab00ff",
+  "duration": 2.76,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "You",
+      "start": 0.119458,
+      "end": 0.299999
+    },
+    {
+      "text": "have",
+      "start": 0.313875,
+      "end": 0.563875
+    },
+    {
+      "text": "to",
+      "start": 0.577791,
+      "end": 0.688916
+    },
+    {
+      "text": "size",
+      "start": 0.702791,
+      "end": 1.161124
+    },
+    {
+      "text": "up",
+      "start": 1.175,
+      "end": 1.341666
+    },
+    {
+      "text": "your",
+      "start": 1.355541,
+      "end": 1.508332
+    },
+    {
+      "text": "opponent",
+      "start": 1.522208,
+      "end": 2.341666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 1805410,
+      "text": "You"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3138750,
+      "duration": 2500000,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5777910,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7027910,
+      "duration": 4583330,
+      "text": "size"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11750000,
+      "duration": 1666660,
+      "text": "up"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13555410,
+      "duration": 1527910,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15222080,
+      "duration": 8194580,
+      "text": "opponent"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:02.573250+00:00"
+}

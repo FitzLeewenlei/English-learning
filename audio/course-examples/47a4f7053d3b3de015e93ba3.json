@@ -1,0 +1,160 @@
+{
+  "speechText": "Joy on the other hand, is described as a vivid emotion of pleasure.",
+  "audio": "audio/course-examples/47a4f7053d3b3de015e93ba3.mp3",
+  "sha256": "5499ac51a872568566b7a7c9b883b3dce97147c57c744a716c7b4c921c182f42",
+  "duration": 4.896,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Joy",
+      "start": 0.102791,
+      "end": 0.422249
+    },
+    {
+      "text": "on",
+      "start": 0.436125,
+      "end": 0.575
+    },
+    {
+      "text": "the",
+      "start": 0.588875,
+      "end": 0.713875
+    },
+    {
+      "text": "other",
+      "start": 0.727791,
+      "end": 0.949999
+    },
+    {
+      "text": "hand",
+      "start": 0.963875,
+      "end": 1.408333
+    },
+    {
+      "text": "is",
+      "start": 1.7,
+      "end": 1.811125
+    },
+    {
+      "text": "described",
+      "start": 1.825,
+      "end": 2.575
+    },
+    {
+      "text": "as",
+      "start": 2.588875,
+      "end": 2.755541
+    },
+    {
+      "text": "a",
+      "start": 2.769458,
+      "end": 2.838916
+    },
+    {
+      "text": "vivid",
+      "start": 2.852791,
+      "end": 3.255582
+    },
+    {
+      "text": "emotion",
+      "start": 3.269458,
+      "end": 3.755583
+    },
+    {
+      "text": "of",
+      "start": 3.769458,
+      "end": 3.894458
+    },
+    {
+      "text": "pleasure",
+      "start": 3.908333,
+      "end": 4.477791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1027910,
+      "duration": 3194580,
+      "text": "Joy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4361250,
+      "duration": 1388750,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5888750,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7277910,
+      "duration": 2222080,
+      "text": "other"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9638750,
+      "duration": 4444580,
+      "text": "hand"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17000000,
+      "duration": 1111250,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18250000,
+      "duration": 7500000,
+      "text": "described"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25888750,
+      "duration": 1666660,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27694580,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28527910,
+      "duration": 4027910,
+      "text": "vivid"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32694580,
+      "duration": 4861250,
+      "text": "emotion"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37694580,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39083330,
+      "duration": 5694580,
+      "text": "pleasure"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:45:25.055469+00:00"
+}

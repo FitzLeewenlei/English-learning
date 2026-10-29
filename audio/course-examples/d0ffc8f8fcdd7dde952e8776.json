@@ -1,0 +1,138 @@
+{
+  "speechText": "Then, there is the horizontal movement of air across the planet.",
+  "audio": "audio/course-examples/d0ffc8f8fcdd7dde952e8776.mp3",
+  "sha256": "5932aa60bfe4db9da4a623ef56e314c94f6900d9e93e001cfa795bd792867344",
+  "duration": 4.704,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Then",
+      "start": 0.133333,
+      "end": 0.591666
+    },
+    {
+      "text": "there",
+      "start": 0.897208,
+      "end": 1.022208
+    },
+    {
+      "text": "is",
+      "start": 1.036125,
+      "end": 1.202791
+    },
+    {
+      "text": "the",
+      "start": 1.216666,
+      "end": 1.313874
+    },
+    {
+      "text": "horizontal",
+      "start": 1.327791,
+      "end": 2.105582
+    },
+    {
+      "text": "movement",
+      "start": 2.119458,
+      "end": 2.633333
+    },
+    {
+      "text": "of",
+      "start": 2.647208,
+      "end": 2.786083
+    },
+    {
+      "text": "air",
+      "start": 2.8,
+      "end": 3.022208
+    },
+    {
+      "text": "across",
+      "start": 3.036125,
+      "end": 3.508333
+    },
+    {
+      "text": "the",
+      "start": 3.522208,
+      "end": 3.633333
+    },
+    {
+      "text": "planet",
+      "start": 3.647208,
+      "end": 4.299999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 4583330,
+      "text": "Then"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 1250000,
+      "text": "there"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10361250,
+      "duration": 1666660,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12166660,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13277910,
+      "duration": 7777910,
+      "text": "horizontal"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21194580,
+      "duration": 5138750,
+      "text": "movement"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26472080,
+      "duration": 1388750,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28000000,
+      "duration": 2222080,
+      "text": "air"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30361250,
+      "duration": 4722080,
+      "text": "across"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35222080,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36472080,
+      "duration": 6527910,
+      "text": "planet"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:45:05.268337+00:00"
+}

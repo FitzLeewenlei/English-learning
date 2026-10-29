@@ -1,0 +1,314 @@
+{
+  "speechText": "Many radio stations provide the same sort of service — they announce who’s driving where, when, how many riders they will take and what the expenses will be.",
+  "audio": "audio/course-examples/2f57f9d97b8ba965dc135fdc.mp3",
+  "sha256": "cd2d771e0a2b2a644db86ee967d78bb5caca6e000a47ea81b16037732548b3b8",
+  "duration": 9.72,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Many",
+      "start": 0.133333,
+      "end": 0.424999
+    },
+    {
+      "text": "radio",
+      "start": 0.438875,
+      "end": 0.897208
+    },
+    {
+      "text": "stations",
+      "start": 0.911125,
+      "end": 1.563916
+    },
+    {
+      "text": "provide",
+      "start": 1.577791,
+      "end": 1.994457
+    },
+    {
+      "text": "the",
+      "start": 2.008333,
+      "end": 2.105541
+    },
+    {
+      "text": "same",
+      "start": 2.119458,
+      "end": 2.424999
+    },
+    {
+      "text": "sort",
+      "start": 2.438875,
+      "end": 2.716666
+    },
+    {
+      "text": "of",
+      "start": 2.730541,
+      "end": 2.827749
+    },
+    {
+      "text": "service",
+      "start": 2.841666,
+      "end": 3.466666
+    },
+    {
+      "text": "they",
+      "start": 3.605541,
+      "end": 3.744416
+    },
+    {
+      "text": "announce",
+      "start": 3.758333,
+      "end": 4.188874
+    },
+    {
+      "text": "who’s",
+      "start": 4.202791,
+      "end": 4.383332
+    },
+    {
+      "text": "driving",
+      "start": 4.397208,
+      "end": 4.883333
+    },
+    {
+      "text": "where",
+      "start": 4.897208,
+      "end": 5.216666
+    },
+    {
+      "text": "when",
+      "start": 5.55,
+      "end": 5.925
+    },
+    {
+      "text": "how",
+      "start": 6.216666,
+      "end": 6.327791
+    },
+    {
+      "text": "many",
+      "start": 6.341666,
+      "end": 6.563874
+    },
+    {
+      "text": "riders",
+      "start": 6.577791,
+      "end": 7.022249
+    },
+    {
+      "text": "they",
+      "start": 7.036125,
+      "end": 7.161125
+    },
+    {
+      "text": "will",
+      "start": 7.175,
+      "end": 7.341666
+    },
+    {
+      "text": "take",
+      "start": 7.355541,
+      "end": 7.758332
+    },
+    {
+      "text": "and",
+      "start": 7.772208,
+      "end": 7.883333
+    },
+    {
+      "text": "what",
+      "start": 7.897208,
+      "end": 8.105541
+    },
+    {
+      "text": "the",
+      "start": 8.119458,
+      "end": 8.202791
+    },
+    {
+      "text": "expenses",
+      "start": 8.216666,
+      "end": 8.813874
+    },
+    {
+      "text": "will",
+      "start": 8.827791,
+      "end": 9.008332
+    },
+    {
+      "text": "be",
+      "start": 9.022208,
+      "end": 9.313874
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2916660,
+      "text": "Many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 4583330,
+      "text": "radio"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9111250,
+      "duration": 6527910,
+      "text": "stations"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15777910,
+      "duration": 4166660,
+      "text": "provide"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20083330,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21194580,
+      "duration": 3055410,
+      "text": "same"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24388750,
+      "duration": 2777910,
+      "text": "sort"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27305410,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28416660,
+      "duration": 6250000,
+      "text": "service"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36055410,
+      "duration": 1388750,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37583330,
+      "duration": 4305410,
+      "text": "announce"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42027910,
+      "duration": 1805410,
+      "text": "who’s"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43972080,
+      "duration": 4861250,
+      "text": "driving"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48972080,
+      "duration": 3194580,
+      "text": "where"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55500000,
+      "duration": 3750000,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62166660,
+      "duration": 1111250,
+      "text": "how"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63416660,
+      "duration": 2222080,
+      "text": "many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 65777910,
+      "duration": 4444580,
+      "text": "riders"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70361250,
+      "duration": 1250000,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71750000,
+      "duration": 1666660,
+      "text": "will"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73555410,
+      "duration": 4027910,
+      "text": "take"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 77722080,
+      "duration": 1111250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 78972080,
+      "duration": 2083330,
+      "text": "what"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 81194580,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82166660,
+      "duration": 5972080,
+      "text": "expenses"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 88277910,
+      "duration": 1805410,
+      "text": "will"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 90222080,
+      "duration": 2916660,
+      "text": "be"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:46:07.694932+00:00"
+}

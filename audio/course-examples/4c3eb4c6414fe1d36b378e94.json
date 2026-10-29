@@ -1,0 +1,237 @@
+{
+  "speechText": "Two players alternate in placing black and white stones on a large ruled board with the aim of surrounding territory.",
+  "audio": "audio/course-examples/4c3eb4c6414fe1d36b378e94.mp3",
+  "sha256": "8c974de3e5d63fcd94fb8eaa901cffcc967a48304f98ae267b02b646662d93b0",
+  "duration": 7.536,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Two",
+      "start": 0.101375,
+      "end": 0.406916
+    },
+    {
+      "text": "players",
+      "start": 0.420833,
+      "end": 0.906958
+    },
+    {
+      "text": "alternate",
+      "start": 0.920833,
+      "end": 1.545833
+    },
+    {
+      "text": "in",
+      "start": 1.559708,
+      "end": 1.684708
+    },
+    {
+      "text": "placing",
+      "start": 1.698625,
+      "end": 2.198625
+    },
+    {
+      "text": "black",
+      "start": 2.2125,
+      "end": 2.531958
+    },
+    {
+      "text": "and",
+      "start": 2.545833,
+      "end": 2.656958
+    },
+    {
+      "text": "white",
+      "start": 2.670833,
+      "end": 2.962499
+    },
+    {
+      "text": "stones",
+      "start": 2.976375,
+      "end": 3.573583
+    },
+    {
+      "text": "on",
+      "start": 3.5875,
+      "end": 3.754166
+    },
+    {
+      "text": "a",
+      "start": 3.768041,
+      "end": 3.8097069
+    },
+    {
+      "text": "large",
+      "start": 3.823625,
+      "end": 4.198625
+    },
+    {
+      "text": "ruled",
+      "start": 4.2125,
+      "end": 4.559708
+    },
+    {
+      "text": "board",
+      "start": 4.573625,
+      "end": 4.990291
+    },
+    {
+      "text": "with",
+      "start": 5.004166,
+      "end": 5.198624
+    },
+    {
+      "text": "the",
+      "start": 5.2125,
+      "end": 5.393041
+    },
+    {
+      "text": "aim",
+      "start": 5.406958,
+      "end": 5.698624
+    },
+    {
+      "text": "of",
+      "start": 5.7125,
+      "end": 5.823625
+    },
+    {
+      "text": "surrounding",
+      "start": 5.8375,
+      "end": 6.406958
+    },
+    {
+      "text": "territory",
+      "start": 6.420833,
+      "end": 7.115291
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 3055410,
+      "text": "Two"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4208330,
+      "duration": 4861250,
+      "text": "players"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9208330,
+      "duration": 6250000,
+      "text": "alternate"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15597080,
+      "duration": 1250000,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16986250,
+      "duration": 5000000,
+      "text": "placing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22125000,
+      "duration": 3194580,
+      "text": "black"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25458330,
+      "duration": 1111250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26708330,
+      "duration": 2916660,
+      "text": "white"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29763750,
+      "duration": 5972080,
+      "text": "stones"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35875000,
+      "duration": 1666660,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37680410,
+      "duration": 416659,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38236250,
+      "duration": 3750000,
+      "text": "large"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42125000,
+      "duration": 3472080,
+      "text": "ruled"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45736250,
+      "duration": 4166660,
+      "text": "board"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50041660,
+      "duration": 1944580,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52125000,
+      "duration": 1805410,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54069580,
+      "duration": 2916660,
+      "text": "aim"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57125000,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58375000,
+      "duration": 5694580,
+      "text": "surrounding"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64208330,
+      "duration": 6944580,
+      "text": "territory"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:59.975960+00:00"
+}

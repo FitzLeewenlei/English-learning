@@ -1,0 +1,127 @@
+{
+  "speechText": "Within a few days she was 'trying out' for me.",
+  "audio": "audio/course-examples/30fb2558ba0621eb00474b8e.mp3",
+  "sha256": "fdc69ec6ab39f8305755193acb860cfd97fa87ffa1a6e3855b15dab461cbe233",
+  "duration": 3.336,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Within",
+      "start": 0.147208,
+      "end": 0.480541
+    },
+    {
+      "text": "a",
+      "start": 0.494458,
+      "end": 0.549999
+    },
+    {
+      "text": "few",
+      "start": 0.563875,
+      "end": 0.855541
+    },
+    {
+      "text": "days",
+      "start": 0.869458,
+      "end": 1.341666
+    },
+    {
+      "text": "she",
+      "start": 1.355541,
+      "end": 1.522207
+    },
+    {
+      "text": "was",
+      "start": 1.536125,
+      "end": 1.688916
+    },
+    {
+      "text": "trying",
+      "start": 1.702791,
+      "end": 2.091666
+    },
+    {
+      "text": "out",
+      "start": 2.105541,
+      "end": 2.327749
+    },
+    {
+      "text": "for",
+      "start": 2.341666,
+      "end": 2.591666
+    },
+    {
+      "text": "me",
+      "start": 2.605541,
+      "end": 2.911082
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 3333330,
+      "text": "Within"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5638750,
+      "duration": 2916660,
+      "text": "few"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8694580,
+      "duration": 4722080,
+      "text": "days"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13555410,
+      "duration": 1666660,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 1527910,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17027910,
+      "duration": 3888750,
+      "text": "trying"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21055410,
+      "duration": 2222080,
+      "text": "out"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23416660,
+      "duration": 2500000,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26055410,
+      "duration": 3055410,
+      "text": "me"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:41:27.923726+00:00"
+}

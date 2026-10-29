@@ -1,0 +1,83 @@
+{
+  "speechText": "We are so proud of her.",
+  "audio": "audio/course-examples/d16c0baa84f9dcd0476df3cf.mp3",
+  "sha256": "6c86176f5bb315a83974f15d2c59f4d2147394dc1773ae257e35c0a6a698bdbb",
+  "duration": 2.064,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "We",
+      "start": 0.119458,
+      "end": 0.341666
+    },
+    {
+      "text": "are",
+      "start": 0.355541,
+      "end": 0.438874
+    },
+    {
+      "text": "so",
+      "start": 0.452791,
+      "end": 0.772249
+    },
+    {
+      "text": "proud",
+      "start": 0.786125,
+      "end": 1.161125
+    },
+    {
+      "text": "of",
+      "start": 1.175,
+      "end": 1.286125
+    },
+    {
+      "text": "her",
+      "start": 1.3,
+      "end": 1.661125
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 2222080,
+      "text": "We"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 833330,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4527910,
+      "duration": 3194580,
+      "text": "so"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7861250,
+      "duration": 3750000,
+      "text": "proud"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11750000,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13000000,
+      "duration": 3611250,
+      "text": "her"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:46:29.808372+00:00"
+}

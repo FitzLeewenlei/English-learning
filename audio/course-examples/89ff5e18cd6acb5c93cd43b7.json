@@ -1,0 +1,182 @@
+{
+  "speechText": "Offer to do something, finish a project or take the kids to their piano lessons.",
+  "audio": "audio/course-examples/89ff5e18cd6acb5c93cd43b7.mp3",
+  "sha256": "63a5f31ae987844898d961527110b7f3b421e00e434df331215fd67eace5a590",
+  "duration": 5.712,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Offer",
+      "start": 0.147208,
+      "end": 0.452749
+    },
+    {
+      "text": "to",
+      "start": 0.466666,
+      "end": 0.591666
+    },
+    {
+      "text": "do",
+      "start": 0.605541,
+      "end": 0.827749
+    },
+    {
+      "text": "something",
+      "start": 0.841666,
+      "end": 1.466666
+    },
+    {
+      "text": "finish",
+      "start": 1.786125,
+      "end": 2.119458
+    },
+    {
+      "text": "a",
+      "start": 2.133333,
+      "end": 2.216666
+    },
+    {
+      "text": "project",
+      "start": 2.230541,
+      "end": 2.911082
+    },
+    {
+      "text": "or",
+      "start": 2.925,
+      "end": 3.036125
+    },
+    {
+      "text": "take",
+      "start": 3.05,
+      "end": 3.341666
+    },
+    {
+      "text": "the",
+      "start": 3.355541,
+      "end": 3.466666
+    },
+    {
+      "text": "kids",
+      "start": 3.480541,
+      "end": 3.813874
+    },
+    {
+      "text": "to",
+      "start": 3.827791,
+      "end": 3.938916
+    },
+    {
+      "text": "their",
+      "start": 3.952791,
+      "end": 4.091666
+    },
+    {
+      "text": "piano",
+      "start": 4.105541,
+      "end": 4.536082
+    },
+    {
+      "text": "lessons",
+      "start": 4.55,
+      "end": 5.3
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 3055410,
+      "text": "Offer"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4666660,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6055410,
+      "duration": 2222080,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8416660,
+      "duration": 6250000,
+      "text": "something"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17861250,
+      "duration": 3333330,
+      "text": "finish"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21333330,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22305410,
+      "duration": 6805410,
+      "text": "project"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29250000,
+      "duration": 1111250,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30500000,
+      "duration": 2916660,
+      "text": "take"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33555410,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34805410,
+      "duration": 3333330,
+      "text": "kids"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38277910,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39527910,
+      "duration": 1388750,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41055410,
+      "duration": 4305410,
+      "text": "piano"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45500000,
+      "duration": 7500000,
+      "text": "lessons"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:42:48.575067+00:00"
+}

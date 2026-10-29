@@ -1,0 +1,149 @@
+{
+  "speechText": "Should we attempt to eliminate \"inferior\" people and breed a \"super race\"?",
+  "audio": "audio/course-examples/4bbbb8d47cf4b2b57bc4d597.mp3",
+  "sha256": "072f2462c2902bdd2df3a145306671f4d95eda6bfbaf97c97717ede879116ffe",
+  "duration": 5.136,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Should",
+      "start": 0.133333,
+      "end": 0.397208
+    },
+    {
+      "text": "we",
+      "start": 0.411125,
+      "end": 0.55
+    },
+    {
+      "text": "attempt",
+      "start": 0.563875,
+      "end": 1.091666
+    },
+    {
+      "text": "to",
+      "start": 1.105541,
+      "end": 1.230541
+    },
+    {
+      "text": "eliminate",
+      "start": 1.244458,
+      "end": 1.869458
+    },
+    {
+      "text": "inferior",
+      "start": 1.883333,
+      "end": 2.508333
+    },
+    {
+      "text": "people",
+      "start": 2.522208,
+      "end": 3.077749
+    },
+    {
+      "text": "and",
+      "start": 3.091666,
+      "end": 3.244457
+    },
+    {
+      "text": "breed",
+      "start": 3.258333,
+      "end": 3.605541
+    },
+    {
+      "text": "a",
+      "start": 3.619458,
+      "end": 3.674999
+    },
+    {
+      "text": "super",
+      "start": 3.688875,
+      "end": 4.105541
+    },
+    {
+      "text": "race",
+      "start": 4.119458,
+      "end": 4.716666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2638750,
+      "text": "Should"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4111250,
+      "duration": 1388750,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5638750,
+      "duration": 5277910,
+      "text": "attempt"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11055410,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12444580,
+      "duration": 6250000,
+      "text": "eliminate"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18833330,
+      "duration": 6250000,
+      "text": "inferior"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 5555410,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30916660,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32583330,
+      "duration": 3472080,
+      "text": "breed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36194580,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36888750,
+      "duration": 4166660,
+      "text": "super"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41194580,
+      "duration": 5972080,
+      "text": "race"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:47:53.639895+00:00"
+}

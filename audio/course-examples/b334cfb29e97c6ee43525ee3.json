@@ -1,0 +1,105 @@
+{
+  "speechText": "predict the coming of an earthquake with accuracy",
+  "audio": "audio/course-examples/b334cfb29e97c6ee43525ee3.mp3",
+  "sha256": "102ae62d32d99c9cb14367dc12532ddd1f2d4ee8dda7cc2b70b17cb88d9929bf",
+  "duration": 3.624,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "predict",
+      "start": 0.101375,
+      "end": 0.7125
+    },
+    {
+      "text": "the",
+      "start": 0.726375,
+      "end": 0.8375
+    },
+    {
+      "text": "coming",
+      "start": 0.851375,
+      "end": 1.281916
+    },
+    {
+      "text": "of",
+      "start": 1.295833,
+      "end": 1.406958
+    },
+    {
+      "text": "an",
+      "start": 1.420833,
+      "end": 1.559708
+    },
+    {
+      "text": "earthquake",
+      "start": 1.573625,
+      "end": 2.226416
+    },
+    {
+      "text": "with",
+      "start": 2.240291,
+      "end": 2.420832
+    },
+    {
+      "text": "accuracy",
+      "start": 2.434708,
+      "end": 3.198583
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 6111250,
+      "text": "predict"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7263750,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8513750,
+      "duration": 4305410,
+      "text": "coming"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12958330,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14208330,
+      "duration": 1388750,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15736250,
+      "duration": 6527910,
+      "text": "earthquake"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22402910,
+      "duration": 1805410,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24347080,
+      "duration": 7638750,
+      "text": "accuracy"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:48:38.052366+00:00"
+}

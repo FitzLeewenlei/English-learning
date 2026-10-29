@@ -1,0 +1,116 @@
+{
+  "speechText": "Everyone will be thankful not to face awkward silence.",
+  "audio": "audio/course-examples/19678e6e8d5d67e5c078b025.mp3",
+  "sha256": "6a6fb53ffc65662cd67fcdad4a7ec093458183e072c8c057028d15e727033e19",
+  "duration": 4.176,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Everyone",
+      "start": 0.119458,
+      "end": 0.633333
+    },
+    {
+      "text": "will",
+      "start": 0.647208,
+      "end": 0.799999
+    },
+    {
+      "text": "be",
+      "start": 0.813875,
+      "end": 0.95275
+    },
+    {
+      "text": "thankful",
+      "start": 0.966666,
+      "end": 1.605541
+    },
+    {
+      "text": "not",
+      "start": 1.619458,
+      "end": 1.897249
+    },
+    {
+      "text": "to",
+      "start": 1.911125,
+      "end": 2.008333
+    },
+    {
+      "text": "face",
+      "start": 2.022208,
+      "end": 2.438874
+    },
+    {
+      "text": "awkward",
+      "start": 2.452791,
+      "end": 2.897249
+    },
+    {
+      "text": "silence",
+      "start": 2.911125,
+      "end": 3.758333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 5138750,
+      "text": "Everyone"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6472080,
+      "duration": 1527910,
+      "text": "will"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8138750,
+      "duration": 1388750,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9666660,
+      "duration": 6388750,
+      "text": "thankful"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16194580,
+      "duration": 2777910,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19111250,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20222080,
+      "duration": 4166660,
+      "text": "face"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24527910,
+      "duration": 4444580,
+      "text": "awkward"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29111250,
+      "duration": 8472080,
+      "text": "silence"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:50:28.319672+00:00"
+}

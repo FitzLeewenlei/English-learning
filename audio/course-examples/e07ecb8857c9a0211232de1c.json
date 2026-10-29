@@ -1,0 +1,292 @@
+{
+  "speechText": "Thoughtful parents would combine supervision with communication, which is the best way to take advantage of the Internet as a resource while protecting their children.",
+  "audio": "audio/course-examples/e07ecb8857c9a0211232de1c.mp3",
+  "sha256": "67e1d8976154e91d3f6ce80e1aec99899773b9a01acfbb12fd1256beeeb34f1d",
+  "duration": 9.96,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Thoughtful",
+      "start": 0.119458,
+      "end": 0.674999
+    },
+    {
+      "text": "parents",
+      "start": 0.688875,
+      "end": 1.272208
+    },
+    {
+      "text": "would",
+      "start": 1.286125,
+      "end": 1.452791
+    },
+    {
+      "text": "combine",
+      "start": 1.466666,
+      "end": 1.966666
+    },
+    {
+      "text": "supervision",
+      "start": 1.980541,
+      "end": 2.702749
+    },
+    {
+      "text": "with",
+      "start": 2.716666,
+      "end": 2.883332
+    },
+    {
+      "text": "communication",
+      "start": 2.897208,
+      "end": 3.827749
+    },
+    {
+      "text": "which",
+      "start": 4.188875,
+      "end": 4.369416
+    },
+    {
+      "text": "is",
+      "start": 4.383333,
+      "end": 4.494458
+    },
+    {
+      "text": "the",
+      "start": 4.508333,
+      "end": 4.619458
+    },
+    {
+      "text": "best",
+      "start": 4.633333,
+      "end": 4.952791
+    },
+    {
+      "text": "way",
+      "start": 4.966666,
+      "end": 5.188874
+    },
+    {
+      "text": "to",
+      "start": 5.202791,
+      "end": 5.327791
+    },
+    {
+      "text": "take",
+      "start": 5.341666,
+      "end": 5.577791
+    },
+    {
+      "text": "advantage",
+      "start": 5.591666,
+      "end": 6.161124
+    },
+    {
+      "text": "of",
+      "start": 6.175,
+      "end": 6.272208
+    },
+    {
+      "text": "the",
+      "start": 6.286125,
+      "end": 6.383333
+    },
+    {
+      "text": "Internet",
+      "start": 6.397208,
+      "end": 7.036083
+    },
+    {
+      "text": "as",
+      "start": 7.05,
+      "end": 7.202791
+    },
+    {
+      "text": "a",
+      "start": 7.216666,
+      "end": 7.286124
+    },
+    {
+      "text": "resource",
+      "start": 7.3,
+      "end": 7.938875
+    },
+    {
+      "text": "while",
+      "start": 7.952791,
+      "end": 8.161124
+    },
+    {
+      "text": "protecting",
+      "start": 8.175,
+      "end": 8.744458
+    },
+    {
+      "text": "their",
+      "start": 8.758333,
+      "end": 8.897208
+    },
+    {
+      "text": "children",
+      "start": 8.911125,
+      "end": 9.536125
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 5555410,
+      "text": "Thoughtful"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6888750,
+      "duration": 5833330,
+      "text": "parents"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12861250,
+      "duration": 1666660,
+      "text": "would"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14666660,
+      "duration": 5000000,
+      "text": "combine"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19805410,
+      "duration": 7222080,
+      "text": "supervision"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27166660,
+      "duration": 1666660,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28972080,
+      "duration": 9305410,
+      "text": "communication"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41888750,
+      "duration": 1805410,
+      "text": "which"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43833330,
+      "duration": 1111250,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45083330,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46333330,
+      "duration": 3194580,
+      "text": "best"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49666660,
+      "duration": 2222080,
+      "text": "way"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52027910,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53416660,
+      "duration": 2361250,
+      "text": "take"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55916660,
+      "duration": 5694580,
+      "text": "advantage"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61750000,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62861250,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63972080,
+      "duration": 6388750,
+      "text": "Internet"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70500000,
+      "duration": 1527910,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 72166660,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73000000,
+      "duration": 6388750,
+      "text": "resource"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79527910,
+      "duration": 2083330,
+      "text": "while"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 81750000,
+      "duration": 5694580,
+      "text": "protecting"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 87583330,
+      "duration": 1388750,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 89111250,
+      "duration": 6250000,
+      "text": "children"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:57.824090+00:00"
+}

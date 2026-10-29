@@ -1,0 +1,138 @@
+{
+  "speechText": "Spend half of your time talking and the other half listening.",
+  "audio": "audio/course-examples/e169e7a775fdf85ff0266c88.mp3",
+  "sha256": "10eee739644c85956a3aa7e78dbbf2332906313836fd960cf6b11aa3e4a862db",
+  "duration": 4.224,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Spend",
+      "start": 0.147208,
+      "end": 0.605541
+    },
+    {
+      "text": "half",
+      "start": 0.619458,
+      "end": 0.938916
+    },
+    {
+      "text": "of",
+      "start": 0.952791,
+      "end": 1.063916
+    },
+    {
+      "text": "your",
+      "start": 1.077791,
+      "end": 1.216666
+    },
+    {
+      "text": "time",
+      "start": 1.230541,
+      "end": 1.661082
+    },
+    {
+      "text": "talking",
+      "start": 1.675,
+      "end": 2.313875
+    },
+    {
+      "text": "and",
+      "start": 2.327791,
+      "end": 2.480582
+    },
+    {
+      "text": "the",
+      "start": 2.494458,
+      "end": 2.619458
+    },
+    {
+      "text": "other",
+      "start": 2.633333,
+      "end": 2.841666
+    },
+    {
+      "text": "half",
+      "start": 2.855541,
+      "end": 3.188874
+    },
+    {
+      "text": "listening",
+      "start": 3.202791,
+      "end": 3.799999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 4583330,
+      "text": "Spend"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6194580,
+      "duration": 3194580,
+      "text": "half"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9527910,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10777910,
+      "duration": 1388750,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12305410,
+      "duration": 4305410,
+      "text": "time"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16750000,
+      "duration": 6388750,
+      "text": "talking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23277910,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24944580,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26333330,
+      "duration": 2083330,
+      "text": "other"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28555410,
+      "duration": 3333330,
+      "text": "half"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32027910,
+      "duration": 5972080,
+      "text": "listening"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:13.191480+00:00"
+}

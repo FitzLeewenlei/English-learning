@@ -1,0 +1,215 @@
+{
+  "speechText": "Each person’s style of play reflects his or her personality and can serve as a medium for self-reflection.",
+  "audio": "audio/course-examples/ec7f43c8333b3941a24e9e50.mp3",
+  "sha256": "0c92930d5a8dbe277ab524fc1049477abb9b48b4551c0cb658d8196125ecfd94",
+  "duration": 7.272,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Each",
+      "start": 0.101375,
+      "end": 0.4625
+    },
+    {
+      "text": "person’s",
+      "start": 0.476375,
+      "end": 1.018041
+    },
+    {
+      "text": "style",
+      "start": 1.031958,
+      "end": 1.420833
+    },
+    {
+      "text": "of",
+      "start": 1.434708,
+      "end": 1.573583
+    },
+    {
+      "text": "play",
+      "start": 1.5875,
+      "end": 1.948625
+    },
+    {
+      "text": "reflects",
+      "start": 1.9625,
+      "end": 2.531958
+    },
+    {
+      "text": "his",
+      "start": 2.545833,
+      "end": 2.893041
+    },
+    {
+      "text": "or",
+      "start": 2.906958,
+      "end": 2.990291
+    },
+    {
+      "text": "her",
+      "start": 3.004166,
+      "end": 3.198624
+    },
+    {
+      "text": "personality",
+      "start": 3.2125,
+      "end": 4.143041
+    },
+    {
+      "text": "and",
+      "start": 4.156958,
+      "end": 4.365291
+    },
+    {
+      "text": "can",
+      "start": 4.379166,
+      "end": 4.573624
+    },
+    {
+      "text": "serve",
+      "start": 4.5875,
+      "end": 4.906958
+    },
+    {
+      "text": "as",
+      "start": 4.920833,
+      "end": 5.031958
+    },
+    {
+      "text": "a",
+      "start": 5.045833,
+      "end": 5.101374
+    },
+    {
+      "text": "medium",
+      "start": 5.115291,
+      "end": 5.656957
+    },
+    {
+      "text": "for",
+      "start": 5.670833,
+      "end": 5.795833
+    },
+    {
+      "text": "self-reflection",
+      "start": 5.809708,
+      "end": 6.851374
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 3611250,
+      "text": "Each"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4763750,
+      "duration": 5416660,
+      "text": "person’s"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10319580,
+      "duration": 3888750,
+      "text": "style"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14347080,
+      "duration": 1388750,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15875000,
+      "duration": 3611250,
+      "text": "play"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19625000,
+      "duration": 5694580,
+      "text": "reflects"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25458330,
+      "duration": 3472080,
+      "text": "his"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29069580,
+      "duration": 833330,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30041660,
+      "duration": 1944580,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32125000,
+      "duration": 9305410,
+      "text": "personality"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41569580,
+      "duration": 2083330,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43791660,
+      "duration": 1944580,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45875000,
+      "duration": 3194580,
+      "text": "serve"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49208330,
+      "duration": 1111250,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50458330,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51152910,
+      "duration": 5416660,
+      "text": "medium"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56708330,
+      "duration": 1250000,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58097080,
+      "duration": 10416660,
+      "text": "self-reflection"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:50:02.004496+00:00"
+}

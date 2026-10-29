@@ -1,0 +1,127 @@
+{
+  "speechText": "Bob’s constant complaints and criticism made Sandy confused and irritated.",
+  "audio": "audio/course-examples/ae2e6ffd32fc424655171ba2.mp3",
+  "sha256": "9221562e52f4caa7b31fb05da37101b743f0765416da52c1894ab26b947e3345",
+  "duration": 5.808,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Bob’s",
+      "start": 0.119458,
+      "end": 0.494458
+    },
+    {
+      "text": "constant",
+      "start": 0.508333,
+      "end": 1.077791
+    },
+    {
+      "text": "complaints",
+      "start": 1.091666,
+      "end": 1.730541
+    },
+    {
+      "text": "and",
+      "start": 1.744458,
+      "end": 1.855583
+    },
+    {
+      "text": "criticism",
+      "start": 1.869458,
+      "end": 2.674999
+    },
+    {
+      "text": "made",
+      "start": 2.688875,
+      "end": 3.008333
+    },
+    {
+      "text": "Sandy",
+      "start": 3.022208,
+      "end": 3.480541
+    },
+    {
+      "text": "confused",
+      "start": 3.494458,
+      "end": 4.244458
+    },
+    {
+      "text": "and",
+      "start": 4.258333,
+      "end": 4.466666
+    },
+    {
+      "text": "irritated",
+      "start": 4.480541,
+      "end": 5.383332
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 3750000,
+      "text": "Bob’s"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5083330,
+      "duration": 5694580,
+      "text": "constant"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10916660,
+      "duration": 6388750,
+      "text": "complaints"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17444580,
+      "duration": 1111250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18694580,
+      "duration": 8055410,
+      "text": "criticism"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26888750,
+      "duration": 3194580,
+      "text": "made"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30222080,
+      "duration": 4583330,
+      "text": "Sandy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34944580,
+      "duration": 7500000,
+      "text": "confused"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42583330,
+      "duration": 2083330,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44805410,
+      "duration": 9027910,
+      "text": "irritated"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:46:09.047187+00:00"
+}

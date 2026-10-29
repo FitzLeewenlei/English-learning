@@ -1,0 +1,138 @@
+{
+  "speechText": "Only years later did I learn the truth about the matter.",
+  "audio": "audio/course-examples/bcb1c4104a60d53d80918c1d.mp3",
+  "sha256": "34c2ea370fd2c1cc3cd6f4c0c939d44784b68f3758bc610684663dffeac0d7b6",
+  "duration": 3.912,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Only",
+      "start": 0.119458,
+      "end": 0.424999
+    },
+    {
+      "text": "years",
+      "start": 0.438875,
+      "end": 0.813875
+    },
+    {
+      "text": "later",
+      "start": 0.827791,
+      "end": 1.327791
+    },
+    {
+      "text": "did",
+      "start": 1.341666,
+      "end": 1.522207
+    },
+    {
+      "text": "I",
+      "start": 1.536125,
+      "end": 1.619458
+    },
+    {
+      "text": "learn",
+      "start": 1.633333,
+      "end": 1.966666
+    },
+    {
+      "text": "the",
+      "start": 1.980541,
+      "end": 2.077749
+    },
+    {
+      "text": "truth",
+      "start": 2.091666,
+      "end": 2.508332
+    },
+    {
+      "text": "about",
+      "start": 2.522208,
+      "end": 2.827749
+    },
+    {
+      "text": "the",
+      "start": 2.841666,
+      "end": 2.924999
+    },
+    {
+      "text": "matter",
+      "start": 2.938875,
+      "end": 3.494416
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 3055410,
+      "text": "Only"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 3750000,
+      "text": "years"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8277910,
+      "duration": 5000000,
+      "text": "later"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13416660,
+      "duration": 1805410,
+      "text": "did"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 833330,
+      "text": "I"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16333330,
+      "duration": 3333330,
+      "text": "learn"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19805410,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20916660,
+      "duration": 4166660,
+      "text": "truth"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 3055410,
+      "text": "about"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28416660,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29388750,
+      "duration": 5555410,
+      "text": "matter"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:15.184550+00:00"
+}

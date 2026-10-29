@@ -1,0 +1,182 @@
+{
+  "speechText": "Early cleaning of a garden is often followed by early covering the soil with mulch.",
+  "audio": "audio/course-examples/8abce722febdb56c3391cfba.mp3",
+  "sha256": "151c27ce456febeb5c767aee91f8ed98a8ec9e047588ae3f48c14ef63c91df69",
+  "duration": 5.664,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Early",
+      "start": 0.119458,
+      "end": 0.466666
+    },
+    {
+      "text": "cleaning",
+      "start": 0.480541,
+      "end": 0.924999
+    },
+    {
+      "text": "of",
+      "start": 0.938875,
+      "end": 1.036083
+    },
+    {
+      "text": "a",
+      "start": 1.05,
+      "end": 1.119458
+    },
+    {
+      "text": "garden",
+      "start": 1.133333,
+      "end": 1.702791
+    },
+    {
+      "text": "is",
+      "start": 1.716666,
+      "end": 1.911124
+    },
+    {
+      "text": "often",
+      "start": 1.925,
+      "end": 2.272208
+    },
+    {
+      "text": "followed",
+      "start": 2.286125,
+      "end": 2.813916
+    },
+    {
+      "text": "by",
+      "start": 2.827791,
+      "end": 3.036124
+    },
+    {
+      "text": "early",
+      "start": 3.05,
+      "end": 3.383333
+    },
+    {
+      "text": "covering",
+      "start": 3.397208,
+      "end": 3.855541
+    },
+    {
+      "text": "the",
+      "start": 3.869458,
+      "end": 3.966666
+    },
+    {
+      "text": "soil",
+      "start": 3.980541,
+      "end": 4.438874
+    },
+    {
+      "text": "with",
+      "start": 4.452791,
+      "end": 4.633332
+    },
+    {
+      "text": "mulch",
+      "start": 4.647208,
+      "end": 5.258333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 3472080,
+      "text": "Early"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4805410,
+      "duration": 4444580,
+      "text": "cleaning"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9388750,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10500000,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11333330,
+      "duration": 5694580,
+      "text": "garden"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17166660,
+      "duration": 1944580,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 3472080,
+      "text": "often"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22861250,
+      "duration": 5277910,
+      "text": "followed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28277910,
+      "duration": 2083330,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30500000,
+      "duration": 3333330,
+      "text": "early"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33972080,
+      "duration": 4583330,
+      "text": "covering"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38694580,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39805410,
+      "duration": 4583330,
+      "text": "soil"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44527910,
+      "duration": 1805410,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46472080,
+      "duration": 6111250,
+      "text": "mulch"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:42:11.164332+00:00"
+}

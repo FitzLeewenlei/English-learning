@@ -1,0 +1,182 @@
+{
+  "speechText": "As all serious rock, paper, scissors players know, there’s more to the game than luck.",
+  "audio": "audio/course-examples/83166e39b544f48e4be349ac.mp3",
+  "sha256": "b975241a1a9aa595a153663b20ce6ed7e76ea6ad73dfdd2d33563a077b1f4ed0",
+  "duration": 6.192,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "As",
+      "start": 0.147208,
+      "end": 0.327749
+    },
+    {
+      "text": "all",
+      "start": 0.341666,
+      "end": 0.563874
+    },
+    {
+      "text": "serious",
+      "start": 0.577791,
+      "end": 1.133332
+    },
+    {
+      "text": "rock",
+      "start": 1.147208,
+      "end": 1.563874
+    },
+    {
+      "text": "paper",
+      "start": 1.813875,
+      "end": 2.341666
+    },
+    {
+      "text": "scissors",
+      "start": 2.591666,
+      "end": 2.980541
+    },
+    {
+      "text": "players",
+      "start": 2.994458,
+      "end": 3.411124
+    },
+    {
+      "text": "know",
+      "start": 3.425,
+      "end": 3.772208
+    },
+    {
+      "text": "there’s",
+      "start": 4.077791,
+      "end": 4.272249
+    },
+    {
+      "text": "more",
+      "start": 4.286125,
+      "end": 4.494458
+    },
+    {
+      "text": "to",
+      "start": 4.508333,
+      "end": 4.661124
+    },
+    {
+      "text": "the",
+      "start": 4.675,
+      "end": 4.786125
+    },
+    {
+      "text": "game",
+      "start": 4.8,
+      "end": 5.091666
+    },
+    {
+      "text": "than",
+      "start": 5.105541,
+      "end": 5.272207
+    },
+    {
+      "text": "luck",
+      "start": 5.286125,
+      "end": 5.77225
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1805410,
+      "text": "As"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 2222080,
+      "text": "all"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5777910,
+      "duration": 5555410,
+      "text": "serious"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11472080,
+      "duration": 4166660,
+      "text": "rock"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18138750,
+      "duration": 5277910,
+      "text": "paper"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 3888750,
+      "text": "scissors"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29944580,
+      "duration": 4166660,
+      "text": "players"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34250000,
+      "duration": 3472080,
+      "text": "know"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40777910,
+      "duration": 1944580,
+      "text": "there’s"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42861250,
+      "duration": 2083330,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45083330,
+      "duration": 1527910,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46750000,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48000000,
+      "duration": 2916660,
+      "text": "game"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51055410,
+      "duration": 1666660,
+      "text": "than"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52861250,
+      "duration": 4861250,
+      "text": "luck"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:29.266875+00:00"
+}

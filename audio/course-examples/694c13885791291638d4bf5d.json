@@ -1,0 +1,94 @@
+{
+  "speechText": "Don’t judge them only by their intonation!",
+  "audio": "audio/course-examples/694c13885791291638d4bf5d.mp3",
+  "sha256": "19a416ea23ea3ff9479015ab13bde5b45447c35cbba1c321121e24ce5bf541ec",
+  "duration": 3.168,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Don’t",
+      "start": 0.101375,
+      "end": 0.448583
+    },
+    {
+      "text": "judge",
+      "start": 0.4625,
+      "end": 0.781958
+    },
+    {
+      "text": "them",
+      "start": 0.795833,
+      "end": 1.073624
+    },
+    {
+      "text": "only",
+      "start": 1.0875,
+      "end": 1.448625
+    },
+    {
+      "text": "by",
+      "start": 1.4625,
+      "end": 1.7125
+    },
+    {
+      "text": "their",
+      "start": 1.726375,
+      "end": 1.906916
+    },
+    {
+      "text": "intonation",
+      "start": 1.920833,
+      "end": 2.865291
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 3472080,
+      "text": "Don’t"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4625000,
+      "duration": 3194580,
+      "text": "judge"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7958330,
+      "duration": 2777910,
+      "text": "them"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10875000,
+      "duration": 3611250,
+      "text": "only"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14625000,
+      "duration": 2500000,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17263750,
+      "duration": 1805410,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19208330,
+      "duration": 9444580,
+      "text": "intonation"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:44:40.638834+00:00"
+}

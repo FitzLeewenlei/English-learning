@@ -1,0 +1,215 @@
+{
+  "speechText": "Many humpbacks seek to bring in mates with a combination of singing and physical movements, the study notes.",
+  "audio": "audio/course-examples/7dbd130b83974c4c38d7f1e0.mp3",
+  "sha256": "8d1e3ddab1f0390ad3522ff3b7a7858503e362e61f4a27f4061a473c00f83b6e",
+  "duration": 7.296,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Many",
+      "start": 0.119458,
+      "end": 0.466666
+    },
+    {
+      "text": "humpbacks",
+      "start": 0.480541,
+      "end": 1.216666
+    },
+    {
+      "text": "seek",
+      "start": 1.230541,
+      "end": 1.536082
+    },
+    {
+      "text": "to",
+      "start": 1.55,
+      "end": 1.661125
+    },
+    {
+      "text": "bring",
+      "start": 1.675,
+      "end": 1.925
+    },
+    {
+      "text": "in",
+      "start": 1.938875,
+      "end": 2.05
+    },
+    {
+      "text": "mates",
+      "start": 2.063875,
+      "end": 2.480541
+    },
+    {
+      "text": "with",
+      "start": 2.494458,
+      "end": 2.633333
+    },
+    {
+      "text": "a",
+      "start": 2.647208,
+      "end": 2.6888739
+    },
+    {
+      "text": "combination",
+      "start": 2.702791,
+      "end": 3.494457
+    },
+    {
+      "text": "of",
+      "start": 3.508333,
+      "end": 3.633333
+    },
+    {
+      "text": "singing",
+      "start": 3.647208,
+      "end": 4.133333
+    },
+    {
+      "text": "and",
+      "start": 4.147208,
+      "end": 4.286083
+    },
+    {
+      "text": "physical",
+      "start": 4.3,
+      "end": 4.786125
+    },
+    {
+      "text": "movements",
+      "start": 4.8,
+      "end": 5.466666
+    },
+    {
+      "text": "the",
+      "start": 5.772208,
+      "end": 5.883333
+    },
+    {
+      "text": "study",
+      "start": 5.897208,
+      "end": 6.258333
+    },
+    {
+      "text": "notes",
+      "start": 6.272208,
+      "end": 6.869416
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 3472080,
+      "text": "Many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4805410,
+      "duration": 7361250,
+      "text": "humpbacks"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12305410,
+      "duration": 3055410,
+      "text": "seek"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15500000,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16750000,
+      "duration": 2500000,
+      "text": "bring"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19388750,
+      "duration": 1111250,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20638750,
+      "duration": 4166660,
+      "text": "mates"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24944580,
+      "duration": 1388750,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26472080,
+      "duration": 416659,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27027910,
+      "duration": 7916660,
+      "text": "combination"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35083330,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36472080,
+      "duration": 4861250,
+      "text": "singing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41472080,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43000000,
+      "duration": 4861250,
+      "text": "physical"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48000000,
+      "duration": 6666660,
+      "text": "movements"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57722080,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58972080,
+      "duration": 3611250,
+      "text": "study"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62722080,
+      "duration": 5972080,
+      "text": "notes"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:41:29.174794+00:00"
+}

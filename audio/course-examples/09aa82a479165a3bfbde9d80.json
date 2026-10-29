@@ -1,0 +1,138 @@
+{
+  "speechText": "He said perhaps the human body can even power the phones.",
+  "audio": "audio/course-examples/09aa82a479165a3bfbde9d80.mp3",
+  "sha256": "d0d787906ac23f67fb084c12241bc307aa7615ad53d28cee41d9433b4eed3b40",
+  "duration": 4.224,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "He",
+      "start": 0.147208,
+      "end": 0.313874
+    },
+    {
+      "text": "said",
+      "start": 0.327791,
+      "end": 0.647249
+    },
+    {
+      "text": "perhaps",
+      "start": 0.661125,
+      "end": 1.119458
+    },
+    {
+      "text": "the",
+      "start": 1.133333,
+      "end": 1.216666
+    },
+    {
+      "text": "human",
+      "start": 1.230541,
+      "end": 1.633332
+    },
+    {
+      "text": "body",
+      "start": 1.647208,
+      "end": 2.091666
+    },
+    {
+      "text": "can",
+      "start": 2.105541,
+      "end": 2.313874
+    },
+    {
+      "text": "even",
+      "start": 2.327791,
+      "end": 2.605582
+    },
+    {
+      "text": "power",
+      "start": 2.619458,
+      "end": 2.980583
+    },
+    {
+      "text": "the",
+      "start": 2.994458,
+      "end": 3.091666
+    },
+    {
+      "text": "phones",
+      "start": 3.105541,
+      "end": 3.813874
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1666660,
+      "text": "He"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3277910,
+      "duration": 3194580,
+      "text": "said"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6611250,
+      "duration": 4583330,
+      "text": "perhaps"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11333330,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12305410,
+      "duration": 4027910,
+      "text": "human"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16472080,
+      "duration": 4444580,
+      "text": "body"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21055410,
+      "duration": 2083330,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23277910,
+      "duration": 2777910,
+      "text": "even"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26194580,
+      "duration": 3611250,
+      "text": "power"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29944580,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31055410,
+      "duration": 7083330,
+      "text": "phones"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:08.791053+00:00"
+}

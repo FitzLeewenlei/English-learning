@@ -1,0 +1,83 @@
+{
+  "speechText": "Psychologists and collectors have different opinions.",
+  "audio": "audio/course-examples/c2cffe55e326be6e72e79551.mp3",
+  "sha256": "aab6fb317d08339fe4022ac765fd0982063b9488692c356de4ad138b38f00835",
+  "duration": 4.224,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Psychologists",
+      "start": 0.133333,
+      "end": 1.258333
+    },
+    {
+      "text": "and",
+      "start": 1.272208,
+      "end": 1.452749
+    },
+    {
+      "text": "collectors",
+      "start": 1.466666,
+      "end": 2.230541
+    },
+    {
+      "text": "have",
+      "start": 2.244458,
+      "end": 2.508333
+    },
+    {
+      "text": "different",
+      "start": 2.522208,
+      "end": 2.952749
+    },
+    {
+      "text": "opinions",
+      "start": 2.966666,
+      "end": 3.813874
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 11250000,
+      "text": "Psychologists"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 1805410,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14666660,
+      "duration": 7638750,
+      "text": "collectors"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22444580,
+      "duration": 2638750,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 4305410,
+      "text": "different"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29666660,
+      "duration": 8472080,
+      "text": "opinions"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:42:11.964941+00:00"
+}

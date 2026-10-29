@@ -1,0 +1,127 @@
+{
+  "speechText": "You should try to acknowledge a person who works hard.",
+  "audio": "audio/course-examples/658b01c34a1b0ac7d954df24.mp3",
+  "sha256": "42f01da047ad1eebafe8ba7f57aa7d23d4e41bb3be5e5f0f5deaea37e4553acf",
+  "duration": 3.744,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "You",
+      "start": 0.119458,
+      "end": 0.272249
+    },
+    {
+      "text": "should",
+      "start": 0.286125,
+      "end": 0.508333
+    },
+    {
+      "text": "try",
+      "start": 0.522208,
+      "end": 0.772208
+    },
+    {
+      "text": "to",
+      "start": 0.786125,
+      "end": 0.952791
+    },
+    {
+      "text": "acknowledge",
+      "start": 0.966666,
+      "end": 1.549999
+    },
+    {
+      "text": "a",
+      "start": 1.563875,
+      "end": 1.647208
+    },
+    {
+      "text": "person",
+      "start": 1.661125,
+      "end": 2.202791
+    },
+    {
+      "text": "who",
+      "start": 2.216666,
+      "end": 2.369457
+    },
+    {
+      "text": "works",
+      "start": 2.383333,
+      "end": 2.772208
+    },
+    {
+      "text": "hard",
+      "start": 2.786125,
+      "end": 3.327791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 1527910,
+      "text": "You"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 2222080,
+      "text": "should"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5222080,
+      "duration": 2500000,
+      "text": "try"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7861250,
+      "duration": 1666660,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9666660,
+      "duration": 5833330,
+      "text": "acknowledge"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16611250,
+      "duration": 5416660,
+      "text": "person"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22166660,
+      "duration": 1527910,
+      "text": "who"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23833330,
+      "duration": 3888750,
+      "text": "works"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27861250,
+      "duration": 5416660,
+      "text": "hard"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:46:05.168373+00:00"
+}

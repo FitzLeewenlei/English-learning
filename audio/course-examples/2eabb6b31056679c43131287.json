@@ -1,0 +1,116 @@
+{
+  "speechText": "Reusable containers require more energy and materials to produce.",
+  "audio": "audio/course-examples/2eabb6b31056679c43131287.mp3",
+  "sha256": "fbd412b851453b6a4f250a099b440aadb7a04f8487e831f80eb01e2c28a8e4b8",
+  "duration": 5.16,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Reusable",
+      "start": 0.119458,
+      "end": 0.813916
+    },
+    {
+      "text": "containers",
+      "start": 0.827791,
+      "end": 1.577791
+    },
+    {
+      "text": "require",
+      "start": 1.591666,
+      "end": 2.077791
+    },
+    {
+      "text": "more",
+      "start": 2.091666,
+      "end": 2.383332
+    },
+    {
+      "text": "energy",
+      "start": 2.397208,
+      "end": 2.952749
+    },
+    {
+      "text": "and",
+      "start": 2.966666,
+      "end": 3.133332
+    },
+    {
+      "text": "materials",
+      "start": 3.147208,
+      "end": 3.869416
+    },
+    {
+      "text": "to",
+      "start": 3.883333,
+      "end": 3.994458
+    },
+    {
+      "text": "produce",
+      "start": 4.008333,
+      "end": 4.758333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 6944580,
+      "text": "Reusable"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8277910,
+      "duration": 7500000,
+      "text": "containers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15916660,
+      "duration": 4861250,
+      "text": "require"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20916660,
+      "duration": 2916660,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23972080,
+      "duration": 5555410,
+      "text": "energy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29666660,
+      "duration": 1666660,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31472080,
+      "duration": 7222080,
+      "text": "materials"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38833330,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40083330,
+      "duration": 7500000,
+      "text": "produce"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:45:40.624830+00:00"
+}

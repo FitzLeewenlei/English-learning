@@ -1,0 +1,237 @@
+{
+  "speechText": "According to report from China Daily, in an event targeted at helping poverty reduction, influencers attracted more than 930,000 viewers.",
+  "audio": "audio/course-examples/09b684928607748a44258989.mp3",
+  "sha256": "03726f9e25a6b36f2ba7ae1dde1cb75ca6646a7fe5a1066bd9669154ab843bcf",
+  "duration": 10.608,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "According",
+      "start": 0.147208,
+      "end": 0.647208
+    },
+    {
+      "text": "to",
+      "start": 0.661125,
+      "end": 0.77225
+    },
+    {
+      "text": "report",
+      "start": 0.786125,
+      "end": 1.313916
+    },
+    {
+      "text": "from",
+      "start": 1.327791,
+      "end": 1.549999
+    },
+    {
+      "text": "China",
+      "start": 1.563875,
+      "end": 1.95275
+    },
+    {
+      "text": "Daily",
+      "start": 1.966666,
+      "end": 2.452791
+    },
+    {
+      "text": "in",
+      "start": 2.716666,
+      "end": 2.841666
+    },
+    {
+      "text": "an",
+      "start": 2.855541,
+      "end": 2.952749
+    },
+    {
+      "text": "event",
+      "start": 2.966666,
+      "end": 3.424999
+    },
+    {
+      "text": "targeted",
+      "start": 3.438875,
+      "end": 4.022208
+    },
+    {
+      "text": "at",
+      "start": 4.036125,
+      "end": 4.14725
+    },
+    {
+      "text": "helping",
+      "start": 4.161125,
+      "end": 4.563916
+    },
+    {
+      "text": "poverty",
+      "start": 4.577791,
+      "end": 5.008332
+    },
+    {
+      "text": "reduction",
+      "start": 5.022208,
+      "end": 5.716666
+    },
+    {
+      "text": "influencers",
+      "start": 6.105541,
+      "end": 6.799999
+    },
+    {
+      "text": "attracted",
+      "start": 6.813875,
+      "end": 7.45275
+    },
+    {
+      "text": "more",
+      "start": 7.466666,
+      "end": 7.674999
+    },
+    {
+      "text": "than",
+      "start": 7.688875,
+      "end": 7.897208
+    },
+    {
+      "text": "930,000",
+      "start": 7.911125,
+      "end": 9.5499989
+    },
+    {
+      "text": "viewers",
+      "start": 9.563875,
+      "end": 10.188875
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 5000000,
+      "text": "According"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6611250,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7861250,
+      "duration": 5277910,
+      "text": "report"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13277910,
+      "duration": 2222080,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 3888750,
+      "text": "China"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19666660,
+      "duration": 4861250,
+      "text": "Daily"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27166660,
+      "duration": 1250000,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28555410,
+      "duration": 972080,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29666660,
+      "duration": 4583330,
+      "text": "event"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34388750,
+      "duration": 5833330,
+      "text": "targeted"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40361250,
+      "duration": 1111250,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41611250,
+      "duration": 4027910,
+      "text": "helping"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45777910,
+      "duration": 4305410,
+      "text": "poverty"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50222080,
+      "duration": 6944580,
+      "text": "reduction"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61055410,
+      "duration": 6944580,
+      "text": "influencers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68138750,
+      "duration": 6388750,
+      "text": "attracted"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 74666660,
+      "duration": 2083330,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 76888750,
+      "duration": 2083330,
+      "text": "than"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79111250,
+      "duration": 16388739,
+      "text": "930,000"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 95638750,
+      "duration": 6250000,
+      "text": "viewers"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:49:18.374912+00:00"
+}

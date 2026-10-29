@@ -1,0 +1,138 @@
+{
+  "speechText": "These are usually signs of mild forgetfulness, not serious memory problems.",
+  "audio": "audio/course-examples/7518d84750d0fc74d7714cd0.mp3",
+  "sha256": "a8a562a9434d3249a4f69d6b85e582d8ef52cc6863d54baf60e913383c78b3c3",
+  "duration": 5.64,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "These",
+      "start": 0.133333,
+      "end": 0.438874
+    },
+    {
+      "text": "are",
+      "start": 0.452791,
+      "end": 0.508332
+    },
+    {
+      "text": "usually",
+      "start": 0.522208,
+      "end": 1.077749
+    },
+    {
+      "text": "signs",
+      "start": 1.091666,
+      "end": 1.591666
+    },
+    {
+      "text": "of",
+      "start": 1.605541,
+      "end": 1.730541
+    },
+    {
+      "text": "mild",
+      "start": 1.744458,
+      "end": 2.119458
+    },
+    {
+      "text": "forgetfulness",
+      "start": 2.133333,
+      "end": 3.036124
+    },
+    {
+      "text": "not",
+      "start": 3.327791,
+      "end": 3.619457
+    },
+    {
+      "text": "serious",
+      "start": 3.633333,
+      "end": 4.119458
+    },
+    {
+      "text": "memory",
+      "start": 4.133333,
+      "end": 4.494458
+    },
+    {
+      "text": "problems",
+      "start": 4.508333,
+      "end": 5.216666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 3055410,
+      "text": "These"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4527910,
+      "duration": 555410,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5222080,
+      "duration": 5555410,
+      "text": "usually"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10916660,
+      "duration": 5000000,
+      "text": "signs"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16055410,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17444580,
+      "duration": 3750000,
+      "text": "mild"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21333330,
+      "duration": 9027910,
+      "text": "forgetfulness"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33277910,
+      "duration": 2916660,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36333330,
+      "duration": 4861250,
+      "text": "serious"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41333330,
+      "duration": 3611250,
+      "text": "memory"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45083330,
+      "duration": 7083330,
+      "text": "problems"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:46:12.616151+00:00"
+}

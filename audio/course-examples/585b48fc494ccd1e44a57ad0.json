@@ -1,0 +1,193 @@
+{
+  "speechText": "She would rather see the whole street redesigned to discourage speeding and protect walkers and bicyclists.",
+  "audio": "audio/course-examples/585b48fc494ccd1e44a57ad0.mp3",
+  "sha256": "21621fcc8272a27ef34b4c2595b7d84905301b7b4071da0453eda4e0be3deecf",
+  "duration": 7.224,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "She",
+      "start": 0.133333,
+      "end": 0.327791
+    },
+    {
+      "text": "would",
+      "start": 0.341666,
+      "end": 0.494457
+    },
+    {
+      "text": "rather",
+      "start": 0.508333,
+      "end": 0.883333
+    },
+    {
+      "text": "see",
+      "start": 0.897208,
+      "end": 1.174999
+    },
+    {
+      "text": "the",
+      "start": 1.188875,
+      "end": 1.3
+    },
+    {
+      "text": "whole",
+      "start": 1.313875,
+      "end": 1.619416
+    },
+    {
+      "text": "street",
+      "start": 1.633333,
+      "end": 2.036124
+    },
+    {
+      "text": "redesigned",
+      "start": 2.05,
+      "end": 2.883333
+    },
+    {
+      "text": "to",
+      "start": 2.897208,
+      "end": 2.994416
+    },
+    {
+      "text": "discourage",
+      "start": 3.008333,
+      "end": 3.647208
+    },
+    {
+      "text": "speeding",
+      "start": 3.661125,
+      "end": 4.3
+    },
+    {
+      "text": "and",
+      "start": 4.313875,
+      "end": 4.466666
+    },
+    {
+      "text": "protect",
+      "start": 4.480541,
+      "end": 4.980541
+    },
+    {
+      "text": "walkers",
+      "start": 4.994458,
+      "end": 5.563916
+    },
+    {
+      "text": "and",
+      "start": 5.577791,
+      "end": 5.772249
+    },
+    {
+      "text": "bicyclists",
+      "start": 5.786125,
+      "end": 6.813916
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1944580,
+      "text": "She"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 1527910,
+      "text": "would"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5083330,
+      "duration": 3750000,
+      "text": "rather"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 2777910,
+      "text": "see"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11888750,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13138750,
+      "duration": 3055410,
+      "text": "whole"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16333330,
+      "duration": 4027910,
+      "text": "street"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20500000,
+      "duration": 8333330,
+      "text": "redesigned"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28972080,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30083330,
+      "duration": 6388750,
+      "text": "discourage"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36611250,
+      "duration": 6388750,
+      "text": "speeding"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43138750,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44805410,
+      "duration": 5000000,
+      "text": "protect"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49944580,
+      "duration": 5694580,
+      "text": "walkers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55777910,
+      "duration": 1944580,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57861250,
+      "duration": 10277910,
+      "text": "bicyclists"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:49:03.568834+00:00"
+}

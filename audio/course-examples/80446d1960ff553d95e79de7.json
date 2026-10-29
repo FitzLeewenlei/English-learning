@@ -1,0 +1,127 @@
+{
+  "speechText": "The Babylonians decided that it should be every seventh day.",
+  "audio": "audio/course-examples/80446d1960ff553d95e79de7.mp3",
+  "sha256": "79b09569348dd905702fe456a57da07a3c8687a1b5b1d2df0c3a964576b68160",
+  "duration": 4.608,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.272208
+    },
+    {
+      "text": "Babylonians",
+      "start": 0.286125,
+      "end": 1.230583
+    },
+    {
+      "text": "decided",
+      "start": 1.244458,
+      "end": 1.966666
+    },
+    {
+      "text": "that",
+      "start": 1.980541,
+      "end": 2.174999
+    },
+    {
+      "text": "it",
+      "start": 2.188875,
+      "end": 2.313875
+    },
+    {
+      "text": "should",
+      "start": 2.327791,
+      "end": 2.577791
+    },
+    {
+      "text": "be",
+      "start": 2.591666,
+      "end": 2.855541
+    },
+    {
+      "text": "every",
+      "start": 2.869458,
+      "end": 3.216666
+    },
+    {
+      "text": "seventh",
+      "start": 3.230541,
+      "end": 3.730541
+    },
+    {
+      "text": "day",
+      "start": 3.744458,
+      "end": 4.188916
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1250000,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 9444580,
+      "text": "Babylonians"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12444580,
+      "duration": 7222080,
+      "text": "decided"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19805410,
+      "duration": 1944580,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21888750,
+      "duration": 1250000,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23277910,
+      "duration": 2500000,
+      "text": "should"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 2638750,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28694580,
+      "duration": 3472080,
+      "text": "every"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32305410,
+      "duration": 5000000,
+      "text": "seventh"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37444580,
+      "duration": 4444580,
+      "text": "day"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:44:54.261312+00:00"
+}

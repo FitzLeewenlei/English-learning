@@ -1,0 +1,94 @@
+{
+  "speechText": "That is when sleeping insects “wake up”.",
+  "audio": "audio/course-examples/f9f30b719b708ae8b3204d60.mp3",
+  "sha256": "5ab9cf12bd43f39a55c31d6f29ea23fa2a749fc197f7dc71d055fab16064f3f0",
+  "duration": 3.168,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "That",
+      "start": 0.147208,
+      "end": 0.369416
+    },
+    {
+      "text": "is",
+      "start": 0.383333,
+      "end": 0.536124
+    },
+    {
+      "text": "when",
+      "start": 0.55,
+      "end": 0.8
+    },
+    {
+      "text": "sleeping",
+      "start": 0.813875,
+      "end": 1.355541
+    },
+    {
+      "text": "insects",
+      "start": 1.369458,
+      "end": 1.980583
+    },
+    {
+      "text": "wake",
+      "start": 1.994458,
+      "end": 2.313916
+    },
+    {
+      "text": "up",
+      "start": 2.327791,
+      "end": 2.758332
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2222080,
+      "text": "That"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3833330,
+      "duration": 1527910,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5500000,
+      "duration": 2500000,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8138750,
+      "duration": 5416660,
+      "text": "sleeping"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13694580,
+      "duration": 6111250,
+      "text": "insects"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19944580,
+      "duration": 3194580,
+      "text": "wake"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23277910,
+      "duration": 4305410,
+      "text": "up"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:46.125309+00:00"
+}

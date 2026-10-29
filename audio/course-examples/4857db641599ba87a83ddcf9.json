@@ -1,0 +1,248 @@
+{
+  "speechText": "The study, which is funded by the British Heart Foundation, is led by Dr Graham Burdge, a Professor of Cardiovascular Science.",
+  "audio": "audio/course-examples/4857db641599ba87a83ddcf9.mp3",
+  "sha256": "dfe47bdb2192043d7f193040abb7bbdbb66fe2bc1ba01f2abc380e7750d4bba4",
+  "duration": 9.096,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "study",
+      "start": 0.3,
+      "end": 0.855541
+    },
+    {
+      "text": "which",
+      "start": 1.05,
+      "end": 1.230541
+    },
+    {
+      "text": "is",
+      "start": 1.244458,
+      "end": 1.397249
+    },
+    {
+      "text": "funded",
+      "start": 1.411125,
+      "end": 1.841666
+    },
+    {
+      "text": "by",
+      "start": 1.855541,
+      "end": 2.008332
+    },
+    {
+      "text": "the",
+      "start": 2.022208,
+      "end": 2.147208
+    },
+    {
+      "text": "British",
+      "start": 2.161125,
+      "end": 2.508333
+    },
+    {
+      "text": "Heart",
+      "start": 2.522208,
+      "end": 2.799999
+    },
+    {
+      "text": "Foundation",
+      "start": 2.813875,
+      "end": 3.57775
+    },
+    {
+      "text": "is",
+      "start": 3.897208,
+      "end": 4.063874
+    },
+    {
+      "text": "led",
+      "start": 4.077791,
+      "end": 4.355582
+    },
+    {
+      "text": "by",
+      "start": 4.369458,
+      "end": 4.508333
+    },
+    {
+      "text": "Dr",
+      "start": 4.522208,
+      "end": 4.980541
+    },
+    {
+      "text": "Graham",
+      "start": 4.994458,
+      "end": 5.355583
+    },
+    {
+      "text": "Burdge",
+      "start": 5.369458,
+      "end": 5.827791
+    },
+    {
+      "text": "a",
+      "start": 6.105541,
+      "end": 6.1472069
+    },
+    {
+      "text": "Professor",
+      "start": 6.161125,
+      "end": 6.813916
+    },
+    {
+      "text": "of",
+      "start": 6.827791,
+      "end": 6.980582
+    },
+    {
+      "text": "Cardiovascular",
+      "start": 6.994458,
+      "end": 7.924999
+    },
+    {
+      "text": "Science",
+      "start": 7.938875,
+      "end": 8.688875
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 5555410,
+      "text": "study"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10500000,
+      "duration": 1805410,
+      "text": "which"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12444580,
+      "duration": 1527910,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14111250,
+      "duration": 4305410,
+      "text": "funded"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18555410,
+      "duration": 1527910,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20222080,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21611250,
+      "duration": 3472080,
+      "text": "British"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 2777910,
+      "text": "Heart"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28138750,
+      "duration": 7638750,
+      "text": "Foundation"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38972080,
+      "duration": 1666660,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40777910,
+      "duration": 2777910,
+      "text": "led"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43694580,
+      "duration": 1388750,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45222080,
+      "duration": 4583330,
+      "text": "Dr"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49944580,
+      "duration": 3611250,
+      "text": "Graham"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53694580,
+      "duration": 4583330,
+      "text": "Burdge"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61055410,
+      "duration": 416659,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61611250,
+      "duration": 6527910,
+      "text": "Professor"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68277910,
+      "duration": 1527910,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69944580,
+      "duration": 9305410,
+      "text": "Cardiovascular"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79388750,
+      "duration": 7500000,
+      "text": "Science"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:46:36.970474+00:00"
+}

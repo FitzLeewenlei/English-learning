@@ -1,0 +1,105 @@
+{
+  "speechText": "Choose your medium and write an interesting bio.",
+  "audio": "audio/course-examples/c3c23967196d712054140084.mp3",
+  "sha256": "d61dcabd2e96bb8d4c2d59d6b8e9fc85ef8fa3935cc7e9a044b57085dadc2a9f",
+  "duration": 3.6,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Choose",
+      "start": 0.101375,
+      "end": 0.476375
+    },
+    {
+      "text": "your",
+      "start": 0.490291,
+      "end": 0.643082
+    },
+    {
+      "text": "medium",
+      "start": 0.656958,
+      "end": 1.281958
+    },
+    {
+      "text": "and",
+      "start": 1.295833,
+      "end": 1.476374
+    },
+    {
+      "text": "write",
+      "start": 1.490291,
+      "end": 1.781957
+    },
+    {
+      "text": "an",
+      "start": 1.795833,
+      "end": 1.906958
+    },
+    {
+      "text": "interesting",
+      "start": 1.920833,
+      "end": 2.545833
+    },
+    {
+      "text": "bio",
+      "start": 2.559708,
+      "end": 3.184708
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 3750000,
+      "text": "Choose"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4902910,
+      "duration": 1527910,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6569580,
+      "duration": 6250000,
+      "text": "medium"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12958330,
+      "duration": 1805410,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14902910,
+      "duration": 2916660,
+      "text": "write"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17958330,
+      "duration": 1111250,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19208330,
+      "duration": 6250000,
+      "text": "interesting"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25597080,
+      "duration": 6250000,
+      "text": "bio"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:47:56.098624+00:00"
+}

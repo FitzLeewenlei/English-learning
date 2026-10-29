@@ -1,0 +1,171 @@
+{
+  "speechText": "The Romans counted it as from midnight, and most modern nations use this method.",
+  "audio": "audio/course-examples/84fa6acf5800e2eabc38486f.mp3",
+  "sha256": "27055ab970dfb83619a5b86a97f7db09db544cfb45cb8656e0d3e7a4a4597cb8",
+  "duration": 5.76,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.258333
+    },
+    {
+      "text": "Romans",
+      "start": 0.272208,
+      "end": 0.813874
+    },
+    {
+      "text": "counted",
+      "start": 0.827791,
+      "end": 1.286124
+    },
+    {
+      "text": "it",
+      "start": 1.3,
+      "end": 1.522208
+    },
+    {
+      "text": "as",
+      "start": 1.536125,
+      "end": 1.702791
+    },
+    {
+      "text": "from",
+      "start": 1.716666,
+      "end": 1.924999
+    },
+    {
+      "text": "midnight",
+      "start": 1.938875,
+      "end": 2.563875
+    },
+    {
+      "text": "and",
+      "start": 2.883333,
+      "end": 2.980541
+    },
+    {
+      "text": "most",
+      "start": 2.994458,
+      "end": 3.341666
+    },
+    {
+      "text": "modern",
+      "start": 3.355541,
+      "end": 3.688874
+    },
+    {
+      "text": "nations",
+      "start": 3.702791,
+      "end": 4.272249
+    },
+    {
+      "text": "use",
+      "start": 4.286125,
+      "end": 4.536125
+    },
+    {
+      "text": "this",
+      "start": 4.55,
+      "end": 4.772208
+    },
+    {
+      "text": "method",
+      "start": 4.786125,
+      "end": 5.355583
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1111250,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2722080,
+      "duration": 5416660,
+      "text": "Romans"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8277910,
+      "duration": 4583330,
+      "text": "counted"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13000000,
+      "duration": 2222080,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 1666660,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17166660,
+      "duration": 2083330,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19388750,
+      "duration": 6250000,
+      "text": "midnight"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28833330,
+      "duration": 972080,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29944580,
+      "duration": 3472080,
+      "text": "most"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33555410,
+      "duration": 3333330,
+      "text": "modern"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37027910,
+      "duration": 5694580,
+      "text": "nations"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42861250,
+      "duration": 2500000,
+      "text": "use"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45500000,
+      "duration": 2222080,
+      "text": "this"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47861250,
+      "duration": 5694580,
+      "text": "method"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:48:48.644124+00:00"
+}

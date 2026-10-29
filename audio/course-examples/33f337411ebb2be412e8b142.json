@@ -1,0 +1,116 @@
+{
+  "speechText": "More education means more active mind in old age.",
+  "audio": "audio/course-examples/33f337411ebb2be412e8b142.mp3",
+  "sha256": "33e695f28e52d4e59c5d2716f5b6fe34b7ca040ef944ed1aee6e88a30ecf66a0",
+  "duration": 4.2,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "More",
+      "start": 0.119458,
+      "end": 0.411124
+    },
+    {
+      "text": "education",
+      "start": 0.425,
+      "end": 1.202791
+    },
+    {
+      "text": "means",
+      "start": 1.216666,
+      "end": 1.563874
+    },
+    {
+      "text": "more",
+      "start": 1.577791,
+      "end": 1.841666
+    },
+    {
+      "text": "active",
+      "start": 1.855541,
+      "end": 2.313874
+    },
+    {
+      "text": "mind",
+      "start": 2.327791,
+      "end": 2.772249
+    },
+    {
+      "text": "in",
+      "start": 2.786125,
+      "end": 2.980583
+    },
+    {
+      "text": "old",
+      "start": 2.994458,
+      "end": 3.244458
+    },
+    {
+      "text": "age",
+      "start": 3.258333,
+      "end": 3.786124
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 2916660,
+      "text": "More"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4250000,
+      "duration": 7777910,
+      "text": "education"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12166660,
+      "duration": 3472080,
+      "text": "means"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15777910,
+      "duration": 2638750,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18555410,
+      "duration": 4583330,
+      "text": "active"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23277910,
+      "duration": 4444580,
+      "text": "mind"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27861250,
+      "duration": 1944580,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29944580,
+      "duration": 2500000,
+      "text": "old"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32583330,
+      "duration": 5277910,
+      "text": "age"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:44.358005+00:00"
+}

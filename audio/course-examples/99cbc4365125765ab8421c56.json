@@ -1,0 +1,237 @@
+{
+  "speechText": "However, though it likes wet conditions, it will eventually rot if the roots stay constantly below the surface of water.",
+  "audio": "audio/course-examples/99cbc4365125765ab8421c56.mp3",
+  "sha256": "401f24f4814e5104ae6f76176ce4473e87ae32e6b62e9afd2bd611b2b7668e93",
+  "duration": 7.896,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "However",
+      "start": 0.147208,
+      "end": 0.744416
+    },
+    {
+      "text": "though",
+      "start": 0.994458,
+      "end": 1.161124
+    },
+    {
+      "text": "it",
+      "start": 1.175,
+      "end": 1.3
+    },
+    {
+      "text": "likes",
+      "start": 1.313875,
+      "end": 1.619416
+    },
+    {
+      "text": "wet",
+      "start": 1.633333,
+      "end": 1.883333
+    },
+    {
+      "text": "conditions",
+      "start": 1.897208,
+      "end": 2.647208
+    },
+    {
+      "text": "it",
+      "start": 2.952791,
+      "end": 3.049999
+    },
+    {
+      "text": "will",
+      "start": 3.063875,
+      "end": 3.216666
+    },
+    {
+      "text": "eventually",
+      "start": 3.230541,
+      "end": 3.799999
+    },
+    {
+      "text": "rot",
+      "start": 3.813875,
+      "end": 4.188875
+    },
+    {
+      "text": "if",
+      "start": 4.202791,
+      "end": 4.341666
+    },
+    {
+      "text": "the",
+      "start": 4.355541,
+      "end": 4.466666
+    },
+    {
+      "text": "roots",
+      "start": 4.480541,
+      "end": 4.841666
+    },
+    {
+      "text": "stay",
+      "start": 4.855541,
+      "end": 5.147207
+    },
+    {
+      "text": "constantly",
+      "start": 5.161125,
+      "end": 5.869458
+    },
+    {
+      "text": "below",
+      "start": 5.883333,
+      "end": 6.230541
+    },
+    {
+      "text": "the",
+      "start": 6.244458,
+      "end": 6.355583
+    },
+    {
+      "text": "surface",
+      "start": 6.369458,
+      "end": 6.799999
+    },
+    {
+      "text": "of",
+      "start": 6.813875,
+      "end": 6.911083
+    },
+    {
+      "text": "water",
+      "start": 6.925,
+      "end": 7.480541
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 5972080,
+      "text": "However"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9944580,
+      "duration": 1666660,
+      "text": "though"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11750000,
+      "duration": 1250000,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13138750,
+      "duration": 3055410,
+      "text": "likes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16333330,
+      "duration": 2500000,
+      "text": "wet"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18972080,
+      "duration": 7500000,
+      "text": "conditions"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29527910,
+      "duration": 972080,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30638750,
+      "duration": 1527910,
+      "text": "will"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32305410,
+      "duration": 5694580,
+      "text": "eventually"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38138750,
+      "duration": 3750000,
+      "text": "rot"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42027910,
+      "duration": 1388750,
+      "text": "if"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43555410,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44805410,
+      "duration": 3611250,
+      "text": "roots"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48555410,
+      "duration": 2916660,
+      "text": "stay"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51611250,
+      "duration": 7083330,
+      "text": "constantly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58833330,
+      "duration": 3472080,
+      "text": "below"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62444580,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63694580,
+      "duration": 4305410,
+      "text": "surface"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68138750,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69250000,
+      "duration": 5555410,
+      "text": "water"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:48:36.161095+00:00"
+}

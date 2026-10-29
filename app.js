@@ -36,7 +36,7 @@
       const meaning = document.createElement('span');
       meaning.className = 'word-sense-meaning';
       meaning.lang = 'zh-CN';
-      meaning.textContent = sense.meanings.slice(0, 3).join('；');
+      meaning.textContent = sense.meanings.slice(0, 2).join('；');
       row.append(pos, meaning);
       container.append(row);
     }
@@ -94,14 +94,16 @@
     selectedToken = trigger;
     selectedWord = {text: word, src: entry.audio, elementId: 'word-detail-play', type: 'word'};
     $('word-detail-title').textContent = word;
-    const headword = entry.lemma || entry.source?.lemma;
+    const headword = entry.source?.definition_scope === 'returned_headword'
+      ? entry.headword || entry.source.headword
+      : entry.lemma || entry.source?.lemma;
     const headwordLabel = $('word-detail-headword');
     headwordLabel.hidden = !headword || normalize(headword) === normalize(word);
     headwordLabel.textContent = headwordLabel.hidden ? '' : `有道词头：${headword}`;
-    $('word-detail-ipa').textContent = entry.ipa ? `英 ${entry.ipa}` : '有道英式音标暂缺';
+    $('word-detail-ipa').textContent = entry.ipa || '有道音标暂缺';
     renderWordMeanings($('word-detail-definition'), entry);
     $('word-detail-play').disabled = !selectedWord.src;
-    $('word-detail-play').setAttribute('aria-label', selectedWord.src ? `播放 ${word} 的英式发音` : `${word} 的有道英式发音暂缺`);
+    $('word-detail-play').setAttribute('aria-label', selectedWord.src ? `播放 ${word} 的发音` : `${word} 的有道发音暂缺`);
     const source = $('word-detail-source');
     const url = entry.source?.url;
     source.hidden = !url || !url.startsWith('https://dict.youdao.com/');
@@ -120,30 +122,44 @@
     line.id = item.elementId;
     line.lang = 'en';
     let tokenIndex = 0;
-    for (const part of text.split(tokenPattern)) {
-      if (isToken.test(part)) {
-        const button = document.createElement('button');
-        button.type = 'button';
-        button.className = 'word-token';
-        if (targetWords.has(normalize(part))) button.classList.add('target-word');
-        button.id = `${item.elementId}-word-${tokenIndex++}`;
-        button.textContent = part;
-        button.setAttribute('aria-label', `查看单词 ${part}`);
-        button.setAttribute('aria-haspopup', 'dialog');
-        button.setAttribute('aria-controls', 'word-details');
-        button.setAttribute('aria-expanded', 'false');
-        button.addEventListener('click', () => showWordDetails(part, button));
-        line.append(button);
-      } else {
-        line.append(document.createTextNode(part));
+    function appendEnglish(fragment) {
+      for (const part of fragment.split(tokenPattern)) {
+        if (isToken.test(part)) {
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'word-token';
+          if (targetWords.has(normalize(part))) button.classList.add('target-word');
+          button.id = `${item.elementId}-word-${tokenIndex++}`;
+          button.textContent = part;
+          button.setAttribute('aria-label', `查看单词 ${part}`);
+          button.setAttribute('aria-haspopup', 'dialog');
+          button.setAttribute('aria-controls', 'word-details');
+          button.setAttribute('aria-expanded', 'false');
+          button.addEventListener('click', () => showWordDetails(part, button));
+          line.append(button);
+        } else {
+          line.append(document.createTextNode(part));
+        }
       }
     }
+    let cursor = 0;
+    for (const annotation of item.annotations || []) {
+      appendEnglish(text.slice(cursor, annotation.start));
+      const note = document.createElement('span');
+      note.className = 'sentence-note';
+      note.lang = 'zh-CN';
+      note.textContent = annotation.text;
+      line.append(note);
+      cursor = annotation.end;
+    }
+    appendEnglish(text.slice(cursor));
     const speaker = document.createElement('button');
     speaker.type = 'button';
     speaker.className = 'sentence-play';
     speaker.innerHTML = icon('volume');
-    speaker.setAttribute('aria-label', `朗读整句：${text}`);
+    speaker.setAttribute('aria-label', `朗读整句：${item.text}`);
     speaker.setAttribute('aria-pressed', 'false');
+    speaker.disabled = !item.src;
     speaker.addEventListener('click', () => player.start([item], 'sentence'));
     line.append(speaker);
     return line;
@@ -160,9 +176,9 @@
     $('current-list').textContent = `Unit ${number}`;
     $('vocabulary-grid').replaceChildren();
     $('examples-content').replaceChildren();
-    targetWords = new Set([...data.vocabulary.map((entry) => normalize(entry.word)), ...(data.targetForms || [])]);
+    targetWords = new Set([...data.vocabulary.map((entry) => normalize(entry.word)), ...(data.targetForms || []), ...data.examples.flatMap((entry) => entry.targetForms || [])]);
     wordItems = data.vocabulary.map((entry, index) => ({text: entry.word, src: wordEntry(entry.word).audio, elementId: `vocab-${index}`, type: 'word'}));
-    exampleItems = data.examples.map((entry, index) => ({text: entry.text, src: entry.audio, elementId: `example-${index}`, type: 'sentence'}));
+    exampleItems = data.examples.map((entry, index) => ({text: entry.speechText || entry.text, annotations: entry.annotations || [], src: entry.audio, elementId: `example-${index}`, type: 'sentence'}));
 
     for (const [index, entry] of data.vocabulary.entries()) {
       const details = wordEntry(entry.word);
@@ -185,10 +201,19 @@
       const ipa = document.createElement('span');
       ipa.className = 'word-ipa';
       ipa.lang = 'en';
-      ipa.textContent = details.ipa ? `英 ${details.ipa}` : '有道英式音标暂缺';
+      ipa.textContent = entry.ipa;
       const meaning = document.createElement('span');
       meaning.className = 'word-meaning';
-      renderWordMeanings(meaning, details);
+      const definition = document.createElement('span');
+      definition.className = 'word-sense';
+      const pos = document.createElement('span');
+      pos.className = 'word-sense-pos';
+      pos.textContent = entry.partsOfSpeech;
+      const gloss = document.createElement('span');
+      gloss.className = 'word-sense-meaning';
+      gloss.textContent = entry.meaning;
+      definition.append(pos, gloss);
+      meaning.append(definition);
       button.append(topline, ipa, meaning);
       button.addEventListener('click', () => player.start([wordItems[index]], 'word'));
       $('vocabulary-grid').append(button);
@@ -207,7 +232,14 @@
       translation.className = 'example-translation';
       translation.lang = 'zh-CN';
       translation.textContent = entry.translation;
-      body.append(createSentence(entry.text, exampleItems[index]), translation);
+      body.append(createSentence(entry.text, exampleItems[index]));
+      if (entry.source) {
+        const source = document.createElement('p');
+        source.className = 'example-source';
+        source.textContent = entry.source;
+        body.append(source);
+      }
+      body.append(translation);
       row.append(number, body);
       $('examples-content').append(row);
     }
@@ -266,13 +298,12 @@
       sentence.replaceChildren();
       let weight = 0;
       const spokenNumbers = {'10': 'ten', '1988': 'nineteen eighty eight', '200': 'two hundred', '25,000': 'twenty five thousand', 'mwc': 'em double u see'};
-      for (const part of item.text.split(/(\s+)/)) {
-        const tokens = part.match(tokenPattern);
-        if (tokens?.length === 1) {
+      for (const part of item.text.split(tokenPattern)) {
+        if (isToken.test(part)) {
           const element = document.createElement('span');
           element.className = 'focus-word';
           element.textContent = part;
-          const key = normalize(tokens[0]);
+          const key = normalize(part);
           const length = Math.max(2, (spokenNumbers[key] || key).length);
           this.words.push({element, key, from: weight, weight: length});
           weight += length;
@@ -412,7 +443,7 @@
         speaker?.setAttribute('aria-pressed', 'true');
       }
       $('player').hidden = item.type === 'sentence';
-      $('player-kind').textContent = item.type === 'word' ? '单词朗读 · 英式发音' : '句子朗读 · 英式发音';
+      $('player-kind').textContent = item.type === 'word' ? '单词朗读' : '句子朗读';
       $('player-text').textContent = item.text;
       $('player-count').textContent = this.items.length > 1 ? `${String(this.index + 1).padStart(2, '0')} / ${this.items.length}` : '';
       $('screen-reader-status').textContent = `正在朗读：${item.text}`;
@@ -501,7 +532,10 @@
   const available = Object.keys(course.lists).map(Number).sort((a, b) => a - b);
   const storedList = Number(readPreference('english-reader-list', '1'));
   renderList(course.lists[storedList] ? storedList : available[0]);
-  $('list-select').addEventListener('change', () => renderList(Number($('list-select').value)));
+  $('list-select').addEventListener('change', () => {
+    renderList(Number($('list-select').value));
+    window.scrollTo({top: 0, behavior: 'instant'});
+  });
   for (const [mode, id, getItems] of [
     ['vocabulary', 'play-vocabulary', () => wordItems],
     ['examples', 'play-examples', () => exampleItems]

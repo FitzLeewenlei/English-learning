@@ -1,0 +1,160 @@
+{
+  "speechText": "That fall, Yulia and her daughter were planning to adopt their first cat.",
+  "audio": "audio/course-examples/9788f28cad095cded792106d.mp3",
+  "sha256": "5cb7183b34452fa73c59bc0436877bc8a80f15935323b62629d6c6efc4d27362",
+  "duration": 5.424,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "That",
+      "start": 0.147208,
+      "end": 0.424999
+    },
+    {
+      "text": "fall",
+      "start": 0.438875,
+      "end": 0.938875
+    },
+    {
+      "text": "Yulia",
+      "start": 1.230541,
+      "end": 1.799999
+    },
+    {
+      "text": "and",
+      "start": 1.897208,
+      "end": 2.036083
+    },
+    {
+      "text": "her",
+      "start": 2.05,
+      "end": 2.216666
+    },
+    {
+      "text": "daughter",
+      "start": 2.230541,
+      "end": 2.674999
+    },
+    {
+      "text": "were",
+      "start": 2.688875,
+      "end": 2.841666
+    },
+    {
+      "text": "planning",
+      "start": 2.855541,
+      "end": 3.272207
+    },
+    {
+      "text": "to",
+      "start": 3.286125,
+      "end": 3.438916
+    },
+    {
+      "text": "adopt",
+      "start": 3.452791,
+      "end": 3.883332
+    },
+    {
+      "text": "their",
+      "start": 3.897208,
+      "end": 4.036083
+    },
+    {
+      "text": "first",
+      "start": 4.05,
+      "end": 4.466666
+    },
+    {
+      "text": "cat",
+      "start": 4.480541,
+      "end": 5.008332
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2777910,
+      "text": "That"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 5000000,
+      "text": "fall"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12305410,
+      "duration": 5694580,
+      "text": "Yulia"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18972080,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20500000,
+      "duration": 1666660,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22305410,
+      "duration": 4444580,
+      "text": "daughter"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26888750,
+      "duration": 1527910,
+      "text": "were"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28555410,
+      "duration": 4166660,
+      "text": "planning"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32861250,
+      "duration": 1527910,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34527910,
+      "duration": 4305410,
+      "text": "adopt"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38972080,
+      "duration": 1388750,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40500000,
+      "duration": 4166660,
+      "text": "first"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44805410,
+      "duration": 5277910,
+      "text": "cat"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:41:52.479355+00:00"
+}

@@ -1,0 +1,347 @@
+{
+  "speechText": "Should we breed people with cow-like stomachs so they can digest grass and hay, thereby relieving the food problem by modifying us to eat lower down on the food chain?",
+  "audio": "audio/course-examples/f146fbc787ba5ac31610fa36.mp3",
+  "sha256": "8a3c6ad9588b3544c29996b0de78aefe244f9f532285d74252e51cc558b7e83e",
+  "duration": 10.344,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Should",
+      "start": 0.133333,
+      "end": 0.397208
+    },
+    {
+      "text": "we",
+      "start": 0.411125,
+      "end": 0.563916
+    },
+    {
+      "text": "breed",
+      "start": 0.577791,
+      "end": 0.911124
+    },
+    {
+      "text": "people",
+      "start": 0.925,
+      "end": 1.355541
+    },
+    {
+      "text": "with",
+      "start": 1.369458,
+      "end": 1.549999
+    },
+    {
+      "text": "cow-like",
+      "start": 1.563875,
+      "end": 2.105541
+    },
+    {
+      "text": "stomachs",
+      "start": 2.119458,
+      "end": 2.702791
+    },
+    {
+      "text": "so",
+      "start": 2.716666,
+      "end": 2.841666
+    },
+    {
+      "text": "they",
+      "start": 2.855541,
+      "end": 2.966666
+    },
+    {
+      "text": "can",
+      "start": 2.980541,
+      "end": 3.161082
+    },
+    {
+      "text": "digest",
+      "start": 3.175,
+      "end": 3.730541
+    },
+    {
+      "text": "grass",
+      "start": 3.744458,
+      "end": 4.147249
+    },
+    {
+      "text": "and",
+      "start": 4.161125,
+      "end": 4.258333
+    },
+    {
+      "text": "hay",
+      "start": 4.272208,
+      "end": 4.674999
+    },
+    {
+      "text": "thereby",
+      "start": 5.05,
+      "end": 5.466666
+    },
+    {
+      "text": "relieving",
+      "start": 5.480541,
+      "end": 5.966666
+    },
+    {
+      "text": "the",
+      "start": 5.980541,
+      "end": 6.077749
+    },
+    {
+      "text": "food",
+      "start": 6.091666,
+      "end": 6.411124
+    },
+    {
+      "text": "problem",
+      "start": 6.425,
+      "end": 6.855541
+    },
+    {
+      "text": "by",
+      "start": 6.869458,
+      "end": 7.022249
+    },
+    {
+      "text": "modifying",
+      "start": 7.036125,
+      "end": 7.730583
+    },
+    {
+      "text": "us",
+      "start": 7.744458,
+      "end": 7.911124
+    },
+    {
+      "text": "to",
+      "start": 7.925,
+      "end": 8.05
+    },
+    {
+      "text": "eat",
+      "start": 8.063875,
+      "end": 8.32775
+    },
+    {
+      "text": "lower",
+      "start": 8.341666,
+      "end": 8.633332
+    },
+    {
+      "text": "down",
+      "start": 8.647208,
+      "end": 8.924999
+    },
+    {
+      "text": "on",
+      "start": 8.938875,
+      "end": 9.05
+    },
+    {
+      "text": "the",
+      "start": 9.063875,
+      "end": 9.147208
+    },
+    {
+      "text": "food",
+      "start": 9.161125,
+      "end": 9.452791
+    },
+    {
+      "text": "chain",
+      "start": 9.466666,
+      "end": 9.924999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2638750,
+      "text": "Should"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4111250,
+      "duration": 1527910,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5777910,
+      "duration": 3333330,
+      "text": "breed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9250000,
+      "duration": 4305410,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13694580,
+      "duration": 1805410,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 5416660,
+      "text": "cow-like"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21194580,
+      "duration": 5833330,
+      "text": "stomachs"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27166660,
+      "duration": 1250000,
+      "text": "so"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28555410,
+      "duration": 1111250,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29805410,
+      "duration": 1805410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31750000,
+      "duration": 5555410,
+      "text": "digest"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37444580,
+      "duration": 4027910,
+      "text": "grass"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41611250,
+      "duration": 972080,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42722080,
+      "duration": 4027910,
+      "text": "hay"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50500000,
+      "duration": 4166660,
+      "text": "thereby"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54805410,
+      "duration": 4861250,
+      "text": "relieving"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59805410,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60916660,
+      "duration": 3194580,
+      "text": "food"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64250000,
+      "duration": 4305410,
+      "text": "problem"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68694580,
+      "duration": 1527910,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70361250,
+      "duration": 6944580,
+      "text": "modifying"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 77444580,
+      "duration": 1666660,
+      "text": "us"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79250000,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 80638750,
+      "duration": 2638750,
+      "text": "eat"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 83416660,
+      "duration": 2916660,
+      "text": "lower"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 86472080,
+      "duration": 2777910,
+      "text": "down"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 89388750,
+      "duration": 1111250,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 90638750,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 91611250,
+      "duration": 2916660,
+      "text": "food"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 94666660,
+      "duration": 4583330,
+      "text": "chain"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:48:13.027278+00:00"
+}

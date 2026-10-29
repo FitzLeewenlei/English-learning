@@ -1,0 +1,347 @@
+{
+  "speechText": "College professors these days face an ever-higher bar to grab the attention of their students, forced to compete with the pulling power of smartphones and laptops in large lecture halls.",
+  "audio": "audio/course-examples/ea232264ace4b552f0220c74.mp3",
+  "sha256": "f42deb8a2e03406cb08bb9e36b2b30f1898369e351e32edb13a10b03c84c349c",
+  "duration": 11.16,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "College",
+      "start": 0.101375,
+      "end": 0.5875
+    },
+    {
+      "text": "professors",
+      "start": 0.601375,
+      "end": 1.198583
+    },
+    {
+      "text": "these",
+      "start": 1.2125,
+      "end": 1.4625
+    },
+    {
+      "text": "days",
+      "start": 1.476375,
+      "end": 1.879166
+    },
+    {
+      "text": "face",
+      "start": 1.893041,
+      "end": 2.170832
+    },
+    {
+      "text": "an",
+      "start": 2.184708,
+      "end": 2.309708
+    },
+    {
+      "text": "ever-higher",
+      "start": 2.323625,
+      "end": 2.893083
+    },
+    {
+      "text": "bar",
+      "start": 2.906958,
+      "end": 3.198624
+    },
+    {
+      "text": "to",
+      "start": 3.2125,
+      "end": 3.379166
+    },
+    {
+      "text": "grab",
+      "start": 3.393041,
+      "end": 3.698582
+    },
+    {
+      "text": "the",
+      "start": 3.7125,
+      "end": 3.823625
+    },
+    {
+      "text": "attention",
+      "start": 3.8375,
+      "end": 4.3375
+    },
+    {
+      "text": "of",
+      "start": 4.351375,
+      "end": 4.448583
+    },
+    {
+      "text": "their",
+      "start": 4.4625,
+      "end": 4.601375
+    },
+    {
+      "text": "students",
+      "start": 4.615291,
+      "end": 5.254166
+    },
+    {
+      "text": "forced",
+      "start": 5.601375,
+      "end": 5.920833
+    },
+    {
+      "text": "to",
+      "start": 5.934708,
+      "end": 6.018041
+    },
+    {
+      "text": "compete",
+      "start": 6.031958,
+      "end": 6.545833
+    },
+    {
+      "text": "with",
+      "start": 6.559708,
+      "end": 6.684708
+    },
+    {
+      "text": "the",
+      "start": 6.698625,
+      "end": 6.80975
+    },
+    {
+      "text": "pulling",
+      "start": 6.823625,
+      "end": 7.18475
+    },
+    {
+      "text": "power",
+      "start": 7.198625,
+      "end": 7.670833
+    },
+    {
+      "text": "of",
+      "start": 7.684708,
+      "end": 7.809708
+    },
+    {
+      "text": "smartphones",
+      "start": 7.823625,
+      "end": 8.531958
+    },
+    {
+      "text": "and",
+      "start": 8.545833,
+      "end": 8.643041
+    },
+    {
+      "text": "laptops",
+      "start": 8.656958,
+      "end": 9.309749
+    },
+    {
+      "text": "in",
+      "start": 9.323625,
+      "end": 9.490291
+    },
+    {
+      "text": "large",
+      "start": 9.504166,
+      "end": 9.823624
+    },
+    {
+      "text": "lecture",
+      "start": 9.8375,
+      "end": 10.170833
+    },
+    {
+      "text": "halls",
+      "start": 10.184708,
+      "end": 10.740249
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 4861250,
+      "text": "College"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6013750,
+      "duration": 5972080,
+      "text": "professors"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12125000,
+      "duration": 2500000,
+      "text": "these"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14763750,
+      "duration": 4027910,
+      "text": "days"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18930410,
+      "duration": 2777910,
+      "text": "face"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21847080,
+      "duration": 1250000,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23236250,
+      "duration": 5694580,
+      "text": "ever-higher"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29069580,
+      "duration": 2916660,
+      "text": "bar"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32125000,
+      "duration": 1666660,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33930410,
+      "duration": 3055410,
+      "text": "grab"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37125000,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38375000,
+      "duration": 5000000,
+      "text": "attention"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43513750,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44625000,
+      "duration": 1388750,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46152910,
+      "duration": 6388750,
+      "text": "students"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56013750,
+      "duration": 3194580,
+      "text": "forced"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59347080,
+      "duration": 833330,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60319580,
+      "duration": 5138750,
+      "text": "compete"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 65597080,
+      "duration": 1250000,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66986250,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68236250,
+      "duration": 3611250,
+      "text": "pulling"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71986250,
+      "duration": 4722080,
+      "text": "power"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 76847080,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 78236250,
+      "duration": 7083330,
+      "text": "smartphones"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 85458330,
+      "duration": 972080,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 86569580,
+      "duration": 6527910,
+      "text": "laptops"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 93236250,
+      "duration": 1666660,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 95041660,
+      "duration": 3194580,
+      "text": "large"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 98375000,
+      "duration": 3333330,
+      "text": "lecture"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 101847080,
+      "duration": 5555410,
+      "text": "halls"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:45:22.194913+00:00"
+}

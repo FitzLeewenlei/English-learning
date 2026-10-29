@@ -1,0 +1,105 @@
+{
+  "speechText": "If symptoms persist, contact your health care professional.",
+  "audio": "audio/course-examples/ca3bfe402acad9e975731e99.mp3",
+  "sha256": "65584e32b87eb87dd153564b0542482b011980bb1efe02fa0f12f2a92d8d09cf",
+  "duration": 4.488,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "If",
+      "start": 0.147208,
+      "end": 0.313874
+    },
+    {
+      "text": "symptoms",
+      "start": 0.327791,
+      "end": 0.897249
+    },
+    {
+      "text": "persist",
+      "start": 0.911125,
+      "end": 1.605583
+    },
+    {
+      "text": "contact",
+      "start": 1.925,
+      "end": 2.536125
+    },
+    {
+      "text": "your",
+      "start": 2.55,
+      "end": 2.661125
+    },
+    {
+      "text": "health",
+      "start": 2.675,
+      "end": 3.008333
+    },
+    {
+      "text": "care",
+      "start": 3.022208,
+      "end": 3.230541
+    },
+    {
+      "text": "professional",
+      "start": 3.244458,
+      "end": 4.077791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1666660,
+      "text": "If"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3277910,
+      "duration": 5694580,
+      "text": "symptoms"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9111250,
+      "duration": 6944580,
+      "text": "persist"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 6111250,
+      "text": "contact"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25500000,
+      "duration": 1111250,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26750000,
+      "duration": 3333330,
+      "text": "health"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30222080,
+      "duration": 2083330,
+      "text": "care"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32444580,
+      "duration": 8333330,
+      "text": "professional"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:41:14.198887+00:00"
+}

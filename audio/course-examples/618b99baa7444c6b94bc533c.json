@@ -1,0 +1,138 @@
+{
+  "speechText": "The reason was quite simple: Men had not invented the week.",
+  "audio": "audio/course-examples/618b99baa7444c6b94bc533c.mp3",
+  "sha256": "0cd6701e5fe532f6454969b21ca40042eccb5d6561e89731903c06aba698725c",
+  "duration": 4.56,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.272208
+    },
+    {
+      "text": "reason",
+      "start": 0.286125,
+      "end": 0.730583
+    },
+    {
+      "text": "was",
+      "start": 0.744458,
+      "end": 0.911124
+    },
+    {
+      "text": "quite",
+      "start": 0.925,
+      "end": 1.258333
+    },
+    {
+      "text": "simple",
+      "start": 1.272208,
+      "end": 1.841666
+    },
+    {
+      "text": "Men",
+      "start": 2.216666,
+      "end": 2.466666
+    },
+    {
+      "text": "had",
+      "start": 2.480541,
+      "end": 2.674999
+    },
+    {
+      "text": "not",
+      "start": 2.688875,
+      "end": 2.938875
+    },
+    {
+      "text": "invented",
+      "start": 2.952791,
+      "end": 3.508332
+    },
+    {
+      "text": "the",
+      "start": 3.522208,
+      "end": 3.619416
+    },
+    {
+      "text": "week",
+      "start": 3.633333,
+      "end": 4.147208
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1250000,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 4444580,
+      "text": "reason"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7444580,
+      "duration": 1666660,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9250000,
+      "duration": 3333330,
+      "text": "quite"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 5694580,
+      "text": "simple"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22166660,
+      "duration": 2500000,
+      "text": "Men"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24805410,
+      "duration": 1944580,
+      "text": "had"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26888750,
+      "duration": 2500000,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29527910,
+      "duration": 5555410,
+      "text": "invented"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35222080,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36333330,
+      "duration": 5138750,
+      "text": "week"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:42:09.090134+00:00"
+}

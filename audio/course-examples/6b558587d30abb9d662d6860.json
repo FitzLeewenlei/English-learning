@@ -1,0 +1,160 @@
+{
+  "speechText": "She was educated at the local Amherst Academy and Mount Holyoke Women’s Seminary.",
+  "audio": "audio/course-examples/6b558587d30abb9d662d6860.mp3",
+  "sha256": "af3193810a792b3bf67b04557369e3c210c59f1f755b712bca2dbd1884639ae7",
+  "duration": 5.808,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "She",
+      "start": 0.147208,
+      "end": 0.327749
+    },
+    {
+      "text": "was",
+      "start": 0.341666,
+      "end": 0.522207
+    },
+    {
+      "text": "educated",
+      "start": 0.536125,
+      "end": 1.3
+    },
+    {
+      "text": "at",
+      "start": 1.313875,
+      "end": 1.45275
+    },
+    {
+      "text": "the",
+      "start": 1.466666,
+      "end": 1.563874
+    },
+    {
+      "text": "local",
+      "start": 1.577791,
+      "end": 2.049999
+    },
+    {
+      "text": "Amherst",
+      "start": 2.063875,
+      "end": 2.57775
+    },
+    {
+      "text": "Academy",
+      "start": 2.591666,
+      "end": 3.258332
+    },
+    {
+      "text": "and",
+      "start": 3.272208,
+      "end": 3.466666
+    },
+    {
+      "text": "Mount",
+      "start": 3.480541,
+      "end": 3.827749
+    },
+    {
+      "text": "Holyoke",
+      "start": 3.841666,
+      "end": 4.355541
+    },
+    {
+      "text": "Women’s",
+      "start": 4.369458,
+      "end": 4.758333
+    },
+    {
+      "text": "Seminary",
+      "start": 4.772208,
+      "end": 5.397208
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1805410,
+      "text": "She"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 1805410,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5361250,
+      "duration": 7638750,
+      "text": "educated"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13138750,
+      "duration": 1388750,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14666660,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15777910,
+      "duration": 4722080,
+      "text": "local"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20638750,
+      "duration": 5138750,
+      "text": "Amherst"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 6666660,
+      "text": "Academy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32722080,
+      "duration": 1944580,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34805410,
+      "duration": 3472080,
+      "text": "Mount"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38416660,
+      "duration": 5138750,
+      "text": "Holyoke"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43694580,
+      "duration": 3888750,
+      "text": "Women’s"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47722080,
+      "duration": 6250000,
+      "text": "Seminary"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:40:45.995930+00:00"
+}

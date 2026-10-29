@@ -1,0 +1,248 @@
+{
+  "speechText": "When the ground shakes and the building tips forward, the computer would force the building to shift in the opposite direction.",
+  "audio": "audio/course-examples/53690679d4f20bc8c0df0590.mp3",
+  "sha256": "92522c3a28dbf25eeca7f90d5508b1dd9845cdd28813821cf70de2c6c264eca4",
+  "duration": 7.536,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "When",
+      "start": 0.147208,
+      "end": 0.341666
+    },
+    {
+      "text": "the",
+      "start": 0.355541,
+      "end": 0.452749
+    },
+    {
+      "text": "ground",
+      "start": 0.466666,
+      "end": 0.869457
+    },
+    {
+      "text": "shakes",
+      "start": 0.883333,
+      "end": 1.452791
+    },
+    {
+      "text": "and",
+      "start": 1.466666,
+      "end": 1.591666
+    },
+    {
+      "text": "the",
+      "start": 1.605541,
+      "end": 1.716666
+    },
+    {
+      "text": "building",
+      "start": 1.730541,
+      "end": 2.174999
+    },
+    {
+      "text": "tips",
+      "start": 2.188875,
+      "end": 2.522208
+    },
+    {
+      "text": "forward",
+      "start": 2.536125,
+      "end": 3.036125
+    },
+    {
+      "text": "the",
+      "start": 3.383333,
+      "end": 3.480541
+    },
+    {
+      "text": "computer",
+      "start": 3.494458,
+      "end": 4.091666
+    },
+    {
+      "text": "would",
+      "start": 4.105541,
+      "end": 4.286082
+    },
+    {
+      "text": "force",
+      "start": 4.3,
+      "end": 4.647208
+    },
+    {
+      "text": "the",
+      "start": 4.661125,
+      "end": 4.77225
+    },
+    {
+      "text": "building",
+      "start": 4.786125,
+      "end": 5.188916
+    },
+    {
+      "text": "to",
+      "start": 5.202791,
+      "end": 5.313916
+    },
+    {
+      "text": "shift",
+      "start": 5.327791,
+      "end": 5.730582
+    },
+    {
+      "text": "in",
+      "start": 5.744458,
+      "end": 5.827791
+    },
+    {
+      "text": "the",
+      "start": 5.841666,
+      "end": 5.924999
+    },
+    {
+      "text": "opposite",
+      "start": 5.938875,
+      "end": 6.355541
+    },
+    {
+      "text": "direction",
+      "start": 6.369458,
+      "end": 7.119458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1944580,
+      "text": "When"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4666660,
+      "duration": 4027910,
+      "text": "ground"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8833330,
+      "duration": 5694580,
+      "text": "shakes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14666660,
+      "duration": 1250000,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16055410,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17305410,
+      "duration": 4444580,
+      "text": "building"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21888750,
+      "duration": 3333330,
+      "text": "tips"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25361250,
+      "duration": 5000000,
+      "text": "forward"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33833330,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34944580,
+      "duration": 5972080,
+      "text": "computer"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41055410,
+      "duration": 1805410,
+      "text": "would"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43000000,
+      "duration": 3472080,
+      "text": "force"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46611250,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47861250,
+      "duration": 4027910,
+      "text": "building"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52027910,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53277910,
+      "duration": 4027910,
+      "text": "shift"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57444580,
+      "duration": 833330,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58416660,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59388750,
+      "duration": 4166660,
+      "text": "opposite"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63694580,
+      "duration": 7500000,
+      "text": "direction"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:48:35.946786+00:00"
+}

@@ -1,0 +1,358 @@
+{
+  "speechText": "Unlike her grandmother's generation, Chloe's age group is spending so much time on their phones at home that they are missing out on spending time with their friends in real life.",
+  "audio": "audio/course-examples/34e0938b16ef509a6dc8e47b.mp3",
+  "sha256": "32edfa435ee7a7ea82d84f05bc2f09412d7cbd14b2dcf9500140e1c6d8cf00a1",
+  "duration": 10.296,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Unlike",
+      "start": 0.119458,
+      "end": 0.633333
+    },
+    {
+      "text": "her",
+      "start": 0.647208,
+      "end": 0.799999
+    },
+    {
+      "text": "grandmother's",
+      "start": 0.813875,
+      "end": 1.383333
+    },
+    {
+      "text": "generation",
+      "start": 1.397208,
+      "end": 2.188874
+    },
+    {
+      "text": "Chloe's",
+      "start": 2.508333,
+      "end": 2.924999
+    },
+    {
+      "text": "age",
+      "start": 2.938875,
+      "end": 3.20275
+    },
+    {
+      "text": "group",
+      "start": 3.216666,
+      "end": 3.536124
+    },
+    {
+      "text": "is",
+      "start": 3.55,
+      "end": 3.661125
+    },
+    {
+      "text": "spending",
+      "start": 3.675,
+      "end": 4.105541
+    },
+    {
+      "text": "so",
+      "start": 4.119458,
+      "end": 4.369458
+    },
+    {
+      "text": "much",
+      "start": 4.383333,
+      "end": 4.633333
+    },
+    {
+      "text": "time",
+      "start": 4.647208,
+      "end": 4.966666
+    },
+    {
+      "text": "on",
+      "start": 4.980541,
+      "end": 5.091666
+    },
+    {
+      "text": "their",
+      "start": 5.105541,
+      "end": 5.230541
+    },
+    {
+      "text": "phones",
+      "start": 5.244458,
+      "end": 5.702791
+    },
+    {
+      "text": "at",
+      "start": 5.716666,
+      "end": 5.827791
+    },
+    {
+      "text": "home",
+      "start": 5.841666,
+      "end": 6.230541
+    },
+    {
+      "text": "that",
+      "start": 6.244458,
+      "end": 6.383333
+    },
+    {
+      "text": "they",
+      "start": 6.397208,
+      "end": 6.536083
+    },
+    {
+      "text": "are",
+      "start": 6.55,
+      "end": 6.605541
+    },
+    {
+      "text": "missing",
+      "start": 6.619458,
+      "end": 7.022249
+    },
+    {
+      "text": "out",
+      "start": 7.036125,
+      "end": 7.258333
+    },
+    {
+      "text": "on",
+      "start": 7.272208,
+      "end": 7.397208
+    },
+    {
+      "text": "spending",
+      "start": 7.411125,
+      "end": 7.883333
+    },
+    {
+      "text": "time",
+      "start": 7.897208,
+      "end": 8.244416
+    },
+    {
+      "text": "with",
+      "start": 8.258333,
+      "end": 8.369458
+    },
+    {
+      "text": "their",
+      "start": 8.383333,
+      "end": 8.522208
+    },
+    {
+      "text": "friends",
+      "start": 8.536125,
+      "end": 8.966666
+    },
+    {
+      "text": "in",
+      "start": 8.980541,
+      "end": 9.105541
+    },
+    {
+      "text": "real",
+      "start": 9.119458,
+      "end": 9.341666
+    },
+    {
+      "text": "life",
+      "start": 9.355541,
+      "end": 9.883332
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 5138750,
+      "text": "Unlike"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6472080,
+      "duration": 1527910,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8138750,
+      "duration": 5694580,
+      "text": "grandmother's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 7916660,
+      "text": "generation"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25083330,
+      "duration": 4166660,
+      "text": "Chloe's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29388750,
+      "duration": 2638750,
+      "text": "age"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32166660,
+      "duration": 3194580,
+      "text": "group"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35500000,
+      "duration": 1111250,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36750000,
+      "duration": 4305410,
+      "text": "spending"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41194580,
+      "duration": 2500000,
+      "text": "so"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43833330,
+      "duration": 2500000,
+      "text": "much"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46472080,
+      "duration": 3194580,
+      "text": "time"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49805410,
+      "duration": 1111250,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51055410,
+      "duration": 1250000,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52444580,
+      "duration": 4583330,
+      "text": "phones"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57166660,
+      "duration": 1111250,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58416660,
+      "duration": 3888750,
+      "text": "home"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62444580,
+      "duration": 1388750,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63972080,
+      "duration": 1388750,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 65500000,
+      "duration": 555410,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66194580,
+      "duration": 4027910,
+      "text": "missing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70361250,
+      "duration": 2222080,
+      "text": "out"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 72722080,
+      "duration": 1250000,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 74111250,
+      "duration": 4722080,
+      "text": "spending"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 78972080,
+      "duration": 3472080,
+      "text": "time"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82583330,
+      "duration": 1111250,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 83833330,
+      "duration": 1388750,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 85361250,
+      "duration": 4305410,
+      "text": "friends"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 89805410,
+      "duration": 1250000,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 91194580,
+      "duration": 2222080,
+      "text": "real"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 93555410,
+      "duration": 5277910,
+      "text": "life"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:40:08.086845+00:00"
+}

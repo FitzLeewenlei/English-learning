@@ -1,0 +1,270 @@
+{
+  "speechText": "They speak of what the New York Times calls \"metal-hungry microbes that might be used to mine valuable trace metals from ocean water\".",
+  "audio": "audio/course-examples/85e5e945dd77bce895caba29.mp3",
+  "sha256": "4836775e4bff5fd86d35f1ee13b3f6e46572eb8e5bceaf81124100f5fdda3767",
+  "duration": 8.352,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "They",
+      "start": 0.147208,
+      "end": 0.313874
+    },
+    {
+      "text": "speak",
+      "start": 0.327791,
+      "end": 0.730582
+    },
+    {
+      "text": "of",
+      "start": 0.744458,
+      "end": 0.883333
+    },
+    {
+      "text": "what",
+      "start": 0.897208,
+      "end": 1.091666
+    },
+    {
+      "text": "the",
+      "start": 1.105541,
+      "end": 1.188874
+    },
+    {
+      "text": "New",
+      "start": 1.202791,
+      "end": 1.369457
+    },
+    {
+      "text": "York",
+      "start": 1.383333,
+      "end": 1.688874
+    },
+    {
+      "text": "Times",
+      "start": 1.702791,
+      "end": 2.161124
+    },
+    {
+      "text": "calls",
+      "start": 2.175,
+      "end": 2.494458
+    },
+    {
+      "text": "metal-hungry",
+      "start": 2.508333,
+      "end": 3.216666
+    },
+    {
+      "text": "microbes",
+      "start": 3.230541,
+      "end": 3.966666
+    },
+    {
+      "text": "that",
+      "start": 3.980541,
+      "end": 4.174999
+    },
+    {
+      "text": "might",
+      "start": 4.188875,
+      "end": 4.45275
+    },
+    {
+      "text": "be",
+      "start": 4.466666,
+      "end": 4.563874
+    },
+    {
+      "text": "used",
+      "start": 4.577791,
+      "end": 4.952791
+    },
+    {
+      "text": "to",
+      "start": 4.966666,
+      "end": 5.063874
+    },
+    {
+      "text": "mine",
+      "start": 5.077791,
+      "end": 5.424999
+    },
+    {
+      "text": "valuable",
+      "start": 5.438875,
+      "end": 5.925
+    },
+    {
+      "text": "trace",
+      "start": 5.938875,
+      "end": 6.286083
+    },
+    {
+      "text": "metals",
+      "start": 6.3,
+      "end": 6.786125
+    },
+    {
+      "text": "from",
+      "start": 6.8,
+      "end": 7.008333
+    },
+    {
+      "text": "ocean",
+      "start": 7.022208,
+      "end": 7.369416
+    },
+    {
+      "text": "water",
+      "start": 7.383333,
+      "end": 7.938874
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1666660,
+      "text": "They"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3277910,
+      "duration": 4027910,
+      "text": "speak"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7444580,
+      "duration": 1388750,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 1944580,
+      "text": "what"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11055410,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12027910,
+      "duration": 1666660,
+      "text": "New"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13833330,
+      "duration": 3055410,
+      "text": "York"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17027910,
+      "duration": 4583330,
+      "text": "Times"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21750000,
+      "duration": 3194580,
+      "text": "calls"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25083330,
+      "duration": 7083330,
+      "text": "metal-hungry"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32305410,
+      "duration": 7361250,
+      "text": "microbes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39805410,
+      "duration": 1944580,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41888750,
+      "duration": 2638750,
+      "text": "might"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44666660,
+      "duration": 972080,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45777910,
+      "duration": 3750000,
+      "text": "used"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49666660,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50777910,
+      "duration": 3472080,
+      "text": "mine"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54388750,
+      "duration": 4861250,
+      "text": "valuable"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59388750,
+      "duration": 3472080,
+      "text": "trace"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63000000,
+      "duration": 4861250,
+      "text": "metals"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68000000,
+      "duration": 2083330,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70222080,
+      "duration": 3472080,
+      "text": "ocean"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73833330,
+      "duration": 5555410,
+      "text": "water"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:42:29.977699+00:00"
+}

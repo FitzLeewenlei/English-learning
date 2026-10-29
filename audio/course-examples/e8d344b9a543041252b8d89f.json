@@ -1,0 +1,72 @@
+{
+  "speechText": "Suppose you are Li Hua.",
+  "audio": "audio/course-examples/e8d344b9a543041252b8d89f.mp3",
+  "sha256": "5f906ee735db78e20125309d9545a7cfa8f45ce77d20c7092fb6b90f580b8d94",
+  "duration": 2.304,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Suppose",
+      "start": 0.133333,
+      "end": 0.772208
+    },
+    {
+      "text": "you",
+      "start": 0.786125,
+      "end": 0.938916
+    },
+    {
+      "text": "are",
+      "start": 0.952791,
+      "end": 1.063916
+    },
+    {
+      "text": "Li",
+      "start": 1.077791,
+      "end": 1.355582
+    },
+    {
+      "text": "Hua",
+      "start": 1.369458,
+      "end": 1.883333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 6388750,
+      "text": "Suppose"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7861250,
+      "duration": 1527910,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9527910,
+      "duration": 1111250,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10777910,
+      "duration": 2777910,
+      "text": "Li"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13694580,
+      "duration": 5138750,
+      "text": "Hua"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:46:38.087465+00:00"
+}

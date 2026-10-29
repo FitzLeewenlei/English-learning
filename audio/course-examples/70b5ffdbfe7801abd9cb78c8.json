@@ -1,0 +1,160 @@
+{
+  "speechText": "Released from these household chores, many wives have found jobs outside the home.",
+  "audio": "audio/course-examples/70b5ffdbfe7801abd9cb78c8.mp3",
+  "sha256": "f3575e50f2199f6d69be46df8d0ffc4412db222307f2127d9bb8243e99356973",
+  "duration": 5.784,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Released",
+      "start": 0.133333,
+      "end": 0.661124
+    },
+    {
+      "text": "from",
+      "start": 0.675,
+      "end": 0.869458
+    },
+    {
+      "text": "these",
+      "start": 0.883333,
+      "end": 1.091666
+    },
+    {
+      "text": "household",
+      "start": 1.105541,
+      "end": 1.674999
+    },
+    {
+      "text": "chores",
+      "start": 1.688875,
+      "end": 2.244416
+    },
+    {
+      "text": "many",
+      "start": 2.55,
+      "end": 2.841666
+    },
+    {
+      "text": "wives",
+      "start": 2.855541,
+      "end": 3.341666
+    },
+    {
+      "text": "have",
+      "start": 3.355541,
+      "end": 3.494416
+    },
+    {
+      "text": "found",
+      "start": 3.508333,
+      "end": 3.883333
+    },
+    {
+      "text": "jobs",
+      "start": 3.897208,
+      "end": 4.299999
+    },
+    {
+      "text": "outside",
+      "start": 4.313875,
+      "end": 4.786083
+    },
+    {
+      "text": "the",
+      "start": 4.8,
+      "end": 4.883333
+    },
+    {
+      "text": "home",
+      "start": 4.897208,
+      "end": 5.369416
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 5277910,
+      "text": "Released"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6750000,
+      "duration": 1944580,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8833330,
+      "duration": 2083330,
+      "text": "these"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11055410,
+      "duration": 5694580,
+      "text": "household"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16888750,
+      "duration": 5555410,
+      "text": "chores"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25500000,
+      "duration": 2916660,
+      "text": "many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28555410,
+      "duration": 4861250,
+      "text": "wives"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33555410,
+      "duration": 1388750,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35083330,
+      "duration": 3750000,
+      "text": "found"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38972080,
+      "duration": 4027910,
+      "text": "jobs"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43138750,
+      "duration": 4722080,
+      "text": "outside"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48000000,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48972080,
+      "duration": 4722080,
+      "text": "home"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:39:20.803477+00:00"
+}

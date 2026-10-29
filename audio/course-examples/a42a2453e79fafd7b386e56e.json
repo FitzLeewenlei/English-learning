@@ -1,0 +1,248 @@
+{
+  "speechText": "People who like to garden may be ready to get their hands dirty and start clearing the ground for new plantings.",
+  "audio": "audio/course-examples/a42a2453e79fafd7b386e56e.mp3",
+  "sha256": "c55436057a5da167afd7beb4aedfaa0a0dcb57ef949edcef83e9d6ac0d0106ef",
+  "duration": 7.056,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "People",
+      "start": 0.101375,
+      "end": 0.531916
+    },
+    {
+      "text": "who",
+      "start": 0.545833,
+      "end": 0.656958
+    },
+    {
+      "text": "like",
+      "start": 0.670833,
+      "end": 0.962499
+    },
+    {
+      "text": "to",
+      "start": 0.976375,
+      "end": 1.0875
+    },
+    {
+      "text": "garden",
+      "start": 1.101375,
+      "end": 1.643041
+    },
+    {
+      "text": "may",
+      "start": 1.656958,
+      "end": 1.865291
+    },
+    {
+      "text": "be",
+      "start": 1.879166,
+      "end": 2.004166
+    },
+    {
+      "text": "ready",
+      "start": 2.018041,
+      "end": 2.337499
+    },
+    {
+      "text": "to",
+      "start": 2.351375,
+      "end": 2.476375
+    },
+    {
+      "text": "get",
+      "start": 2.490291,
+      "end": 2.698624
+    },
+    {
+      "text": "their",
+      "start": 2.7125,
+      "end": 2.851375
+    },
+    {
+      "text": "hands",
+      "start": 2.865291,
+      "end": 3.240291
+    },
+    {
+      "text": "dirty",
+      "start": 3.254166,
+      "end": 3.809707
+    },
+    {
+      "text": "and",
+      "start": 3.823625,
+      "end": 4.018083
+    },
+    {
+      "text": "start",
+      "start": 4.031958,
+      "end": 4.448624
+    },
+    {
+      "text": "clearing",
+      "start": 4.4625,
+      "end": 4.851375
+    },
+    {
+      "text": "the",
+      "start": 4.865291,
+      "end": 4.962499
+    },
+    {
+      "text": "ground",
+      "start": 4.976375,
+      "end": 5.420833
+    },
+    {
+      "text": "for",
+      "start": 5.434708,
+      "end": 5.559708
+    },
+    {
+      "text": "new",
+      "start": 5.573625,
+      "end": 5.754166
+    },
+    {
+      "text": "plantings",
+      "start": 5.768041,
+      "end": 6.643041
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 4305410,
+      "text": "People"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5458330,
+      "duration": 1111250,
+      "text": "who"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6708330,
+      "duration": 2916660,
+      "text": "like"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9763750,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11013750,
+      "duration": 5416660,
+      "text": "garden"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16569580,
+      "duration": 2083330,
+      "text": "may"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18791660,
+      "duration": 1250000,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20180410,
+      "duration": 3194580,
+      "text": "ready"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23513750,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24902910,
+      "duration": 2083330,
+      "text": "get"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27125000,
+      "duration": 1388750,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28652910,
+      "duration": 3750000,
+      "text": "hands"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32541660,
+      "duration": 5555410,
+      "text": "dirty"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38236250,
+      "duration": 1944580,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40319580,
+      "duration": 4166660,
+      "text": "start"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44625000,
+      "duration": 3888750,
+      "text": "clearing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48652910,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49763750,
+      "duration": 4444580,
+      "text": "ground"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54347080,
+      "duration": 1250000,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55736250,
+      "duration": 1805410,
+      "text": "new"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57680410,
+      "duration": 8750000,
+      "text": "plantings"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:46:19.591874+00:00"
+}

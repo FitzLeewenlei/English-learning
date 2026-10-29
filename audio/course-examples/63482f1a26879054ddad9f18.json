@@ -1,0 +1,237 @@
+{
+  "speechText": "Many children collect things, but few have enough money to buy the things they really want, and they lose interest.",
+  "audio": "audio/course-examples/63482f1a26879054ddad9f18.mp3",
+  "sha256": "f92023a638d133a744cb86d0aabcbe0e77e1cab72565398fa1731eb5aaa23d14",
+  "duration": 7.44,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Many",
+      "start": 0.133333,
+      "end": 0.466666
+    },
+    {
+      "text": "children",
+      "start": 0.480541,
+      "end": 0.994416
+    },
+    {
+      "text": "collect",
+      "start": 1.008333,
+      "end": 1.452791
+    },
+    {
+      "text": "things",
+      "start": 1.466666,
+      "end": 2.022207
+    },
+    {
+      "text": "but",
+      "start": 2.341666,
+      "end": 2.536124
+    },
+    {
+      "text": "few",
+      "start": 2.55,
+      "end": 2.827791
+    },
+    {
+      "text": "have",
+      "start": 2.841666,
+      "end": 3.036124
+    },
+    {
+      "text": "enough",
+      "start": 3.05,
+      "end": 3.327791
+    },
+    {
+      "text": "money",
+      "start": 3.341666,
+      "end": 3.716666
+    },
+    {
+      "text": "to",
+      "start": 3.730541,
+      "end": 3.869416
+    },
+    {
+      "text": "buy",
+      "start": 3.883333,
+      "end": 4.077791
+    },
+    {
+      "text": "the",
+      "start": 4.091666,
+      "end": 4.202791
+    },
+    {
+      "text": "things",
+      "start": 4.216666,
+      "end": 4.536124
+    },
+    {
+      "text": "they",
+      "start": 4.55,
+      "end": 4.661125
+    },
+    {
+      "text": "really",
+      "start": 4.675,
+      "end": 4.980541
+    },
+    {
+      "text": "want",
+      "start": 4.994458,
+      "end": 5.438916
+    },
+    {
+      "text": "and",
+      "start": 5.716666,
+      "end": 5.813874
+    },
+    {
+      "text": "they",
+      "start": 5.827791,
+      "end": 5.952791
+    },
+    {
+      "text": "lose",
+      "start": 5.966666,
+      "end": 6.286124
+    },
+    {
+      "text": "interest",
+      "start": 6.3,
+      "end": 7.036125
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 3333330,
+      "text": "Many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4805410,
+      "duration": 5138750,
+      "text": "children"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10083330,
+      "duration": 4444580,
+      "text": "collect"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14666660,
+      "duration": 5555410,
+      "text": "things"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23416660,
+      "duration": 1944580,
+      "text": "but"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25500000,
+      "duration": 2777910,
+      "text": "few"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28416660,
+      "duration": 1944580,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30500000,
+      "duration": 2777910,
+      "text": "enough"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33416660,
+      "duration": 3750000,
+      "text": "money"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37305410,
+      "duration": 1388750,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38833330,
+      "duration": 1944580,
+      "text": "buy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40916660,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42166660,
+      "duration": 3194580,
+      "text": "things"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45500000,
+      "duration": 1111250,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46750000,
+      "duration": 3055410,
+      "text": "really"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49944580,
+      "duration": 4444580,
+      "text": "want"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57166660,
+      "duration": 972080,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58277910,
+      "duration": 1250000,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59666660,
+      "duration": 3194580,
+      "text": "lose"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63000000,
+      "duration": 7361250,
+      "text": "interest"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:44:13.166141+00:00"
+}

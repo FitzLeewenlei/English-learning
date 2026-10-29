@@ -1,0 +1,127 @@
+{
+  "speechText": "The moment we think about canceling a plan, guilt follows.",
+  "audio": "audio/course-examples/f14e061591f384e79b41a21d.mp3",
+  "sha256": "a2aaf7ccb486404d140a8427a62be9a4b70449eaa7daf09c2662534ed0b8bd66",
+  "duration": 4.392,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.244416
+    },
+    {
+      "text": "moment",
+      "start": 0.258333,
+      "end": 0.702791
+    },
+    {
+      "text": "we",
+      "start": 0.716666,
+      "end": 0.841666
+    },
+    {
+      "text": "think",
+      "start": 0.855541,
+      "end": 1.147207
+    },
+    {
+      "text": "about",
+      "start": 1.161125,
+      "end": 1.494458
+    },
+    {
+      "text": "canceling",
+      "start": 1.508333,
+      "end": 2.091666
+    },
+    {
+      "text": "a",
+      "start": 2.105541,
+      "end": 2.174999
+    },
+    {
+      "text": "plan",
+      "start": 2.188875,
+      "end": 2.688875
+    },
+    {
+      "text": "guilt",
+      "start": 2.980541,
+      "end": 3.258332
+    },
+    {
+      "text": "follows",
+      "start": 3.272208,
+      "end": 3.980541
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 972080,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2583330,
+      "duration": 4444580,
+      "text": "moment"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7166660,
+      "duration": 1250000,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8555410,
+      "duration": 2916660,
+      "text": "think"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11611250,
+      "duration": 3333330,
+      "text": "about"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15083330,
+      "duration": 5833330,
+      "text": "canceling"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21055410,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21888750,
+      "duration": 5000000,
+      "text": "plan"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29805410,
+      "duration": 2777910,
+      "text": "guilt"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32722080,
+      "duration": 7083330,
+      "text": "follows"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:41:23.855565+00:00"
+}

@@ -1,0 +1,138 @@
+{
+  "speechText": "In all outward respects, her life appeared to be rather boring.",
+  "audio": "audio/course-examples/c35e11b2d63ac1eadcb8aa67.mp3",
+  "sha256": "3b8ce4d20f9e50c0ee1a25f2714eb83144867bc0c150d8bcd8d4eaa0fba2d378",
+  "duration": 4.536,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "In",
+      "start": 0.147208,
+      "end": 0.313874
+    },
+    {
+      "text": "all",
+      "start": 0.327791,
+      "end": 0.591666
+    },
+    {
+      "text": "outward",
+      "start": 0.605541,
+      "end": 1.008332
+    },
+    {
+      "text": "respects",
+      "start": 1.022208,
+      "end": 1.772208
+    },
+    {
+      "text": "her",
+      "start": 2.063875,
+      "end": 2.147208
+    },
+    {
+      "text": "life",
+      "start": 2.161125,
+      "end": 2.466666
+    },
+    {
+      "text": "appeared",
+      "start": 2.480541,
+      "end": 2.911082
+    },
+    {
+      "text": "to",
+      "start": 2.925,
+      "end": 3.008333
+    },
+    {
+      "text": "be",
+      "start": 3.022208,
+      "end": 3.161083
+    },
+    {
+      "text": "rather",
+      "start": 3.175,
+      "end": 3.536125
+    },
+    {
+      "text": "boring",
+      "start": 3.55,
+      "end": 4.133333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1666660,
+      "text": "In"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3277910,
+      "duration": 2638750,
+      "text": "all"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6055410,
+      "duration": 4027910,
+      "text": "outward"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10222080,
+      "duration": 7500000,
+      "text": "respects"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20638750,
+      "duration": 833330,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21611250,
+      "duration": 3055410,
+      "text": "life"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24805410,
+      "duration": 4305410,
+      "text": "appeared"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29250000,
+      "duration": 833330,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30222080,
+      "duration": 1388750,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31750000,
+      "duration": 3611250,
+      "text": "rather"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35500000,
+      "duration": 5833330,
+      "text": "boring"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:44.111648+00:00"
+}

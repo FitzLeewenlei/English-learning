@@ -1,0 +1,149 @@
+{
+  "speechText": "Gratitude is a simple but powerful emotion that can change our life.",
+  "audio": "audio/course-examples/93d1243c3ff4dc73dc2a0f09.mp3",
+  "sha256": "1a866c15003ee4c12c4d6167580807ae3db78dc1b7cfa6f7066098be527d331c",
+  "duration": 5.088,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Gratitude",
+      "start": 0.101375,
+      "end": 0.948583
+    },
+    {
+      "text": "is",
+      "start": 0.9625,
+      "end": 1.143041
+    },
+    {
+      "text": "a",
+      "start": 1.156958,
+      "end": 1.240291
+    },
+    {
+      "text": "simple",
+      "start": 1.254166,
+      "end": 1.754166
+    },
+    {
+      "text": "but",
+      "start": 1.768041,
+      "end": 1.990249
+    },
+    {
+      "text": "powerful",
+      "start": 2.004166,
+      "end": 2.545832
+    },
+    {
+      "text": "emotion",
+      "start": 2.559708,
+      "end": 3.143041
+    },
+    {
+      "text": "that",
+      "start": 3.156958,
+      "end": 3.323624
+    },
+    {
+      "text": "can",
+      "start": 3.3375,
+      "end": 3.504166
+    },
+    {
+      "text": "change",
+      "start": 3.518041,
+      "end": 3.948582
+    },
+    {
+      "text": "our",
+      "start": 3.9625,
+      "end": 4.101375
+    },
+    {
+      "text": "life",
+      "start": 4.115291,
+      "end": 4.670832
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 8472080,
+      "text": "Gratitude"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9625000,
+      "duration": 1805410,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11569580,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12541660,
+      "duration": 5000000,
+      "text": "simple"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17680410,
+      "duration": 2222080,
+      "text": "but"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20041660,
+      "duration": 5416660,
+      "text": "powerful"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25597080,
+      "duration": 5833330,
+      "text": "emotion"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31569580,
+      "duration": 1666660,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33375000,
+      "duration": 1666660,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35180410,
+      "duration": 4305410,
+      "text": "change"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39625000,
+      "duration": 1388750,
+      "text": "our"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41152910,
+      "duration": 5555410,
+      "text": "life"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:41:00.636186+00:00"
+}

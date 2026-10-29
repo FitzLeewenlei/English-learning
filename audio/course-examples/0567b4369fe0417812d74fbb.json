@@ -1,0 +1,193 @@
+{
+  "speechText": "Recent research suggests that backward walking does more than strengthen muscles—it also sharpens cognitive function.",
+  "audio": "audio/course-examples/0567b4369fe0417812d74fbb.mp3",
+  "sha256": "f254d4abc1623c217c8d6d5de3aa93bda1ad3c30287e094ac1dfd66cd9fa484e",
+  "duration": 7.824,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Recent",
+      "start": 0.133333,
+      "end": 0.633333
+    },
+    {
+      "text": "research",
+      "start": 0.647208,
+      "end": 1.286083
+    },
+    {
+      "text": "suggests",
+      "start": 1.3,
+      "end": 1.952791
+    },
+    {
+      "text": "that",
+      "start": 1.966666,
+      "end": 2.188874
+    },
+    {
+      "text": "backward",
+      "start": 2.202791,
+      "end": 2.633332
+    },
+    {
+      "text": "walking",
+      "start": 2.647208,
+      "end": 3.161083
+    },
+    {
+      "text": "does",
+      "start": 3.175,
+      "end": 3.383333
+    },
+    {
+      "text": "more",
+      "start": 3.397208,
+      "end": 3.605541
+    },
+    {
+      "text": "than",
+      "start": 3.619458,
+      "end": 3.799999
+    },
+    {
+      "text": "strengthen",
+      "start": 3.813875,
+      "end": 4.313875
+    },
+    {
+      "text": "muscles",
+      "start": 4.327791,
+      "end": 4.952791
+    },
+    {
+      "text": "it",
+      "start": 5.077791,
+      "end": 5.202791
+    },
+    {
+      "text": "also",
+      "start": 5.216666,
+      "end": 5.577791
+    },
+    {
+      "text": "sharpens",
+      "start": 5.591666,
+      "end": 6.216666
+    },
+    {
+      "text": "cognitive",
+      "start": 6.230541,
+      "end": 6.772207
+    },
+    {
+      "text": "function",
+      "start": 6.786125,
+      "end": 7.411125
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 5000000,
+      "text": "Recent"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6472080,
+      "duration": 6388750,
+      "text": "research"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13000000,
+      "duration": 6527910,
+      "text": "suggests"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19666660,
+      "duration": 2222080,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22027910,
+      "duration": 4305410,
+      "text": "backward"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26472080,
+      "duration": 5138750,
+      "text": "walking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31750000,
+      "duration": 2083330,
+      "text": "does"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33972080,
+      "duration": 2083330,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36194580,
+      "duration": 1805410,
+      "text": "than"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38138750,
+      "duration": 5000000,
+      "text": "strengthen"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43277910,
+      "duration": 6250000,
+      "text": "muscles"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50777910,
+      "duration": 1250000,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52166660,
+      "duration": 3611250,
+      "text": "also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55916660,
+      "duration": 6250000,
+      "text": "sharpens"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62305410,
+      "duration": 5416660,
+      "text": "cognitive"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67861250,
+      "duration": 6250000,
+      "text": "function"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:41:03.683742+00:00"
+}

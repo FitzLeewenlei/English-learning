@@ -3,121 +3,266 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 const {createHash} = require('node:crypto');
-const {execFileSync} = require('node:child_process');
+const {execFile} = require('node:child_process');
+const {promisify} = require('node:util');
 const {chromium} = require('playwright');
+
 const root = path.resolve(__dirname, '..');
+const baseURL = process.env.TEST_BASE_URL || 'http://127.0.0.1:8003/';
+const normalize = word => word.toLowerCase().replace(/’/g, "'");
+const tokenPattern = /[A-Za-z]+(?:[’'-][A-Za-z]+)*|\d+(?:,\d{3})*/g;
+const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
+const readJSON = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
+const canonical = readJSON('data/course-units1-32.json');
+const audit = readJSON('data/youdao-course.json');
 const sandbox = {window: {}};
 vm.createContext(sandbox);
 for (const file of ['content.js', 'dictionary.js']) vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), sandbox);
 const dictionary = JSON.parse(JSON.stringify(sandbox.window.WORD_DICTIONARY));
-const unit = JSON.parse(JSON.stringify(sandbox.window.COURSE.lists[1]));
-const audit = JSON.parse(fs.readFileSync(path.join(root, 'data/youdao-unit1.json'), 'utf8'));
-const normalize = word => word.toLowerCase().replace(/’/g, "'");
-const tokens = /[A-Za-z]+(?:[’'-][A-Za-z]+)*|\d+(?:,\d{3})*/g;
-const scope = new Set([...unit.vocabulary.map(e => normalize(e.word)), ...unit.examples.flatMap(e => e.text.match(tokens).map(normalize))]);
+const course = JSON.parse(JSON.stringify(sandbox.window.COURSE));
+const scope = new Map();
+const coreWords = new Set();
+for (const [unitNumber, unit] of Object.entries(canonical.units)) {
+  const add = (form, core = false) => {
+    const word = normalize(form);
+    if (!scope.has(word)) scope.set(word, {units: new Set(), vocabularyUnits: new Set(), forms: new Set()});
+    const row = scope.get(word);
+    row.units.add(Number(unitNumber)); row.forms.add(form);
+    if (core) {row.vocabularyUnits.add(Number(unitNumber)); coreWords.add(word);}
+  };
+  for (const word of unit.vocabulary) add(word.word, true);
+  for (const sentence of unit.examples) for (const form of sentence.speechText.match(tokenPattern) || []) add(form);
+}
+assert.equal(coreWords.size, 480);
+assert.equal(scope.size, 2182);
+assert.deepEqual(Object.keys(dictionary).sort(), [...scope.keys()].sort(), 'The runtime dictionary must cover precisely the current document scope');
+assert.deepEqual(Object.keys(audit.entries).sort(), [...scope.keys()].sort(), 'Every runtime record needs a source-audit record');
+assert.equal(audit.scope_count, scope.size);
+assert.equal(audit.course_source.sha256, sha256(fs.readFileSync(path.join(root, 'data/course-units1-32.json'))));
+assert.equal(audit.counts.vocabulary_total, 480);
+assert.equal(audit.counts.vocabulary_audio, 480);
+assert.equal(audit.counts.audio, Object.keys(audit.audio_files).length);
+const officialURL = (value, label) => {
+  const url = new URL(value);
+  assert.equal(url.protocol, 'https:', label);
+  assert.equal(url.hostname, 'dict.youdao.com', label);
+  return url;
+};
 const sourceStrings = value => typeof value === 'string' ? [value] : value && typeof value === 'object' ? Object.values(value).flatMap(sourceStrings) : [];
-let audioCount = 0;
-for (const word of scope) {
+const stringCache = new Map();
+const proofDocument = (digest, label) => {
+  assert.match(digest, /^[0-9a-f]{64}$/, label);
+  const document = audit.source_documents[digest];
+  assert.ok(document, `Missing source response projection: ${label}`);
+  assert.equal(document.raw_response_sha256, digest, label);
+  officialURL(document.url, label);
+  assert.ok(Number.isFinite(Date.parse(document.fetched_at_utc)), label);
+  return document;
+};
+const stringsFor = (digest, label) => {
+  if (!stringCache.has(digest)) stringCache.set(digest, sourceStrings(proofDocument(digest, label).fields));
+  return stringCache.get(digest);
+};
+const sourceWord = document => (document.fields.ec || document.fields.simple)?.word?.[0];
+const normalizeIPA = value => '/' + value.trim().replace(/^\/+|\/+$/g, '') + '/';
+function officialSpeechURL(speech, label) {
+  assert.equal(typeof speech, 'string', `${label}: UK recording reference`);
+  assert.ok(speech, `${label}: UK recording reference`);
+  const url = speech.startsWith('https:') ? officialURL(speech, label) : new URL('https://dict.youdao.com/dictvoice?' + (speech.startsWith('audio=') ? speech : 'audio=' + speech));
+  assert.equal(url.pathname, '/dictvoice', label);
+  assert.equal(url.searchParams.get('type') || '1', '1', `${label}: UK type=1`);
+  return url;
+}
+let completeCount = 0, audioRecords = 0;
+for (const [word, expected] of scope) {
   const entry = dictionary[word];
-  assert.ok(entry, `Missing dictionary entry: ${word}`);
-  assert.equal(entry.source.name, '有道词典');
-  assert.equal(new URL(entry.source.url).hostname, 'dict.youdao.com');
-  const document = audit.source_documents[entry.source.raw_response_sha256];
-  assert.ok(document, `Missing source proof: ${word}`);
-  assert.equal(document.raw_response_sha256, entry.source.raw_response_sha256);
-  assert.deepEqual(entry.senses, audit.entries[word].source_senses);
+  const record = audit.entries[word];
+  assert.equal(entry.source.name, '有道词典', word);
+  const sourceURL = officialURL(entry.source.url, word);
+  assert.equal(normalize(sourceURL.searchParams.get('word')), normalize(record.lookup_query), word);
+  assert.equal(entry.source.query, word);
+  assert.equal(entry.source.lookup_query, record.lookup_query);
+  assert.deepEqual([...record.units].sort((a, b) => a - b), [...expected.units].sort((a, b) => a - b), word);
+  assert.deepEqual([...record.vocabulary_units].sort((a, b) => a - b), [...expected.vocabularyUnits].sort((a, b) => a - b), word);
+  assert.deepEqual([...record.forms].sort(), [...expected.forms].sort(), word);
+  const document = proofDocument(record.source_document_sha256, word);
+  const source = sourceWord(document);
+  assert.equal(entry.ipa, record.ipa, word);
+  assert.deepEqual(entry.senses, record.source_senses, word);
+  const missing = ['ipa', 'senses', 'audio'].filter(field => field === 'senses' ? !entry.senses.length : !entry[field]);
+  assert.deepEqual(entry.missing, missing, word);
+  assert.deepEqual(record.missing, missing, word);
+  assert.equal(entry.status, missing.length ? 'unavailable' : 'complete', word);
+  assert.equal(record.status, entry.status, word);
+  if (!missing.length) completeCount++;
+  const posLabels = new Set();
   for (const sense of entry.senses) {
-    assert.ok(sense.meanings.length >= 1 && sense.meanings.length <= 3, word);
-    const additional = (entry.definition_sources || []).filter(d => d.pos === sense.pos);
-    const docs = additional.length ? additional.map(d => audit.source_documents[d.raw_response_sha256]) : [document];
-    const strings = docs.flatMap(d => sourceStrings(d.fields));
-    for (const meaning of sense.meanings) assert.ok(strings.some(s => s.includes(meaning)), `${word}: unsourced meaning ${meaning}`);
+    assert.ok(sense.pos && !posLabels.has(sense.pos), `${word}: duplicate/empty POS`);
+    posLabels.add(sense.pos);
+    assert.ok(sense.meanings.length >= 1 && sense.meanings.length <= 2, `${word}: at most two glosses per POS`);
+    assert.equal(new Set(sense.meanings).size, sense.meanings.length, word);
+    const definitions = (record.definition_sources || []).filter(proof => proof.pos === sense.pos);
+    const documents = definitions.length ? definitions.map(proof => proof.raw_response_sha256) : [record.source_document_sha256];
+    const strings = documents.flatMap(digest => stringsFor(digest, word));
+    for (const meaning of sense.meanings) {
+      assert.match(meaning, /\p{Script=Han}/u, `${word}: Chinese gloss`);
+      assert.ok(strings.some(text => text.includes(meaning)), `${word}: unsourced gloss ${meaning}`);
+    }
+    assert.ok(strings.some(text => text.includes(sense.pos)), `${word}: unsourced POS ${sense.pos}`);
+  }
+  for (const proof of record.definition_sources || []) {
+    proofDocument(proof.raw_response_sha256, word);
+    const form = proofDocument(proof.prototype_proof.raw_response_sha256, word);
+    assert.equal(proof.prototype_proof.field, 'ec.word[0].prototype', word);
+    assert.equal(form.fields.ec.word[0].prototype, proof.prototype_proof.value, word);
+    assert.equal(normalize(proof.prototype_proof.value), normalize(proof.query), word);
   }
   if (entry.ipa) {
-    const ukPhones = [...(document.fields.ec?.word || []), ...(document.fields.simple?.word || [])].map(w => w.ukphone).filter(Boolean);
-    assert.ok(ukPhones.some(p => `/${p.trim().replace(/^\/+|\/+$/g, '')}/` === entry.ipa), `${word}: not source UK IPA`);
+    assert.ok(source?.ukphone, `${word}: no source UK IPA`);
+    assert.equal(entry.ipa, normalizeIPA(source.ukphone), `${word}: exact source UK IPA, never US/base-form substitution`);
   }
   if (entry.audio) {
-    audioCount++;
-    const provenance = audit.audio_files[entry.audio];
-    assert.ok(provenance, word);
-    const source = new URL(provenance.url);
-    assert.equal(source.hostname, 'dict.youdao.com');
-    assert.equal(source.searchParams.get('type'), '1');
-    assert.equal(entry.source.audio.accent, 'British');
-    assert.equal(entry.source.audio.source_field, 'ukspeech');
-    assert.ok(entry.audio.startsWith('audio/youdao-unit1/'));
-    const audio = fs.readFileSync(path.join(root, entry.audio));
-    assert.equal(createHash('sha256').update(audio).digest('hex'), provenance.sha256);
-    const probe = JSON.parse(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'stream=codec_name:format=duration', '-of', 'json', path.join(root, entry.audio)], {encoding: 'utf8'}));
-    assert.ok(Number(probe.format.duration) > 0, word);
-    assert.ok(probe.streams.some(s => s.codec_name === provenance.codec), word);
-  } else assert.ok(entry.missing.includes('audio'), word);
+    audioRecords++;
+    assert.match(entry.audio, /^audio\/youdao-(?:unit1|course)\/[a-zA-Z0-9._-]+\.(?:mp3|wav)$/);
+    assert.equal(record.audio, entry.audio, word);
+    const provenance = record.audio_source;
+    assert.ok(provenance, `${word}: missing per-query audio proof`);
+    assert.equal(provenance.type, 1, word);
+    assert.equal(provenance.source_field, 'ukspeech', word);
+    const url = officialURL(provenance.url, word);
+    const reference = officialSpeechURL(source?.ukspeech, word);
+    assert.equal(url.pathname, '/dictvoice', word);
+    assert.equal(url.searchParams.get('type'), '1', word);
+    assert.equal(url.searchParams.get('audio'), reference.searchParams.get('audio'), word);
+    assert.equal(normalize(reference.searchParams.get('audio')), normalize(record.lookup_query), word);
+    const file = audit.audio_files[entry.audio];
+    assert.ok(file, `${word}: missing audio-file proof`);
+    assert.equal(provenance.sha256, file.sha256, word);
+    assert.equal(provenance.codec, file.codec, word);
+  } else {
+    assert.ok(entry.missing.includes('audio'), word);
+    assert.equal(record.audio, null, word);
+  }
+  if (coreWords.has(word)) assert.ok(entry.audio, `${word}: all480 document vocabulary words require Youdao UK audio`);
 }
-assert.equal(scope.size, 200);
-assert.equal(audioCount, 188);
-for (const entry of unit.vocabulary) assert.equal(dictionary[normalize(entry.word)].status, 'complete', entry.word);
-assert.ok(dictionary.tie.senses.some(s => s.meanings.some(m => m.includes('平局'))));
-assert.ok(dictionary.striking.definition_sources.some(s => s.query === 'strike' && s.prototype_proof.value === 'strike'));
-console.log('Source audit: 200 entries, 188 British recordings, all15 core words; exact source glosses/UKIPA, hashes and decodes passed.');
+assert.equal(audit.counts.complete, completeCount);
+console.log(`Source audit: ${scope.size} entries, ${completeCount} complete; exact UK phonetics, source glosses/POS (maximum2), missing states and all480 core-word audio bindings passed.`);
+
+async function verifyAudioFiles() {
+  const files = Object.entries(audit.audio_files);
+  let next = 0, done = 0;
+  const run = promisify(execFile);
+  await Promise.all(Array.from({length: Math.min(4, files.length)}, async () => {
+    while (next < files.length) {
+      const [file, provenance] = files[next++];
+      officialURL(provenance.url, file);
+      assert.equal(new URL(provenance.url).searchParams.get('type'), '1', file);
+      const target = path.join(root, file);
+      assert.equal(sha256(fs.readFileSync(target)), provenance.sha256, `${file}: actual audio checksum`);
+      const {stdout} = await run('ffprobe', ['-v', 'error', '-show_entries', 'stream=codec_name:format=duration', '-of', 'json', target], {maxBuffer: 1024 * 1024});
+      const probe = JSON.parse(stdout);
+      assert.ok(probe.streams.some(stream => stream.codec_name === provenance.codec), `${file}: source codec`);
+      const duration = Number(probe.format.duration);
+      assert.ok(duration > 0 && Math.abs(duration - provenance.duration_seconds) < 0.05, `${file}: source duration`);
+      if (++done % 250 === 0) console.log(`Audio integrity: ${done}/${files.length} hashes and codecs verified.`);
+    }
+  }));
+  console.log(`Audio integrity: all${files.length} Youdao UK assets hashed and decoded; ${audioRecords} dictionary records bind these files.`);
+}
+
 (async () => {
+  await verifyAudioFiles();
   const browser = await chromium.launch({executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium', headless: true, args: ['--no-sandbox']});
   try {
     const page = await browser.newPage({viewport: {width: 1280, height: 900}});
-    page.setDefaultTimeout(6000);
+    page.setDefaultTimeout(8000);
     const errors = [];
-    page.on('pageerror', e => errors.push(e.message));
-    page.on('response', r => {if (r.status() >= 400) errors.push(`${r.status()} ${r.url()}`);});
+    page.on('pageerror', error => errors.push(error.message));
+    page.on('response', response => {if (response.status() >= 400) errors.push(`${response.status()} ${response.url()}`);});
     await page.addInitScript(() => {
       const NativeAudio = window.Audio;
       window.Audio = function(...args) {const audio = new NativeAudio(...args); window.__audio = audio; return audio;};
     });
-    await page.goto(process.env.TEST_BASE_URL || 'http://127.0.0.1:8003/', {waitUntil: 'networkidle'});
-    for (const [i, word] of unit.vocabulary.entries()) {
-      const entry = dictionary[normalize(word.word)];
-      const card = page.locator('#vocab-' + i);
-      assert.equal(await card.locator('.word-ipa').textContent(), `英 ${entry.ipa}`);
-      assert.deepEqual(await card.locator('.word-sense-meaning').allTextContents(), entry.senses.map(s => s.meanings.join('；')));
-    }
-    const forms = await page.locator('.word-token').evaluateAll(nodes => [...new Map(nodes.map(n => [n.textContent.toLowerCase().replace(/’/g, "'"), {id: n.id, text: n.textContent}])).values()]);
-    for (const form of forms) {
-      const entry = dictionary[normalize(form.text)];
-      await page.locator('#' + form.id).click();
-      assert.equal(await page.locator('#word-details').evaluate(n => n.matches(':popover-open')), true, form.text);
-      assert.equal(await page.locator('#word-detail-title').textContent(), form.text);
-      assert.deepEqual(await page.locator('#word-detail-definition .word-sense-meaning').allTextContents(), entry.senses.map(s => s.meanings.join('；')));
-      assert.equal(await page.locator('#word-detail-ipa').textContent(), entry.ipa ? `英 ${entry.ipa}` : '有道英式音标暂缺');
-      assert.equal(await page.locator('#word-detail-play').isEnabled(), Boolean(entry.audio));
-      assert.equal(await page.locator('#word-detail-source').getAttribute('href'), entry.source.url);
-      await page.locator('#word-detail-close').click();
-    }
-    console.log('UI audit: all195 sentence forms and all15 vocabulary cards render the source fields and missing states.');
+    await page.goto(baseURL, {waitUntil: 'networkidle'});
     await page.selectOption('#speed', '0.5');
-    for (const word of ['victim', 'comparison', 'striking', '10']) {
-      const form = forms.find(f => normalize(f.text) === word) || {id: 'vocab-0'};
-      if (word === 'victim') await page.locator('#vocab-0').click();
-      else {await page.locator('#' + form.id).click(); await page.locator('#word-detail-play').click();}
+    let coreSamples = 0, popupSamples = 0;
+    const checkedForms = new Set();
+    const playback = async entry => {
       await page.waitForFunction(() => window.__audio.currentTime > 0 && !window.__audio.paused);
+      assert.equal(await page.evaluate(() => window.__audio.currentSrc), new URL(entry.audio, baseURL).href);
       assert.equal(await page.evaluate(() => window.__audio.playbackRate), 0.5);
-      assert.ok(await page.evaluate(() => window.__audio.currentSrc.includes('/audio/youdao-unit1/')));
       assert.equal(await page.locator('#notice').isVisible(), false);
-      await page.keyboard.press('Escape');
+      assert.equal((await page.locator('#player-kind').textContent()).includes('英'), false);
+    };
+    async function checkPopup(form, play = false) {
+      const entry = dictionary[normalize(form.text)];
+      assert.ok(entry, form.text);
+      await page.locator('#' + form.id).click();
+      assert.equal(await page.locator('#word-details').evaluate(node => node.matches(':popover-open')), true, form.text);
+      assert.equal(await page.locator('#word-detail-title').textContent(), form.text);
+      assert.equal(await page.locator('#word-detail-ipa').textContent(), entry.ipa || '有道音标暂缺');
+      assert.deepEqual(await page.locator('#word-detail-definition .word-sense-meaning').allTextContents(), entry.senses.map(sense => sense.meanings.join('；')));
+      assert.deepEqual(await page.locator('#word-detail-definition .word-sense-pos').allTextContents(), entry.senses.map(sense => sense.pos));
+      if (!entry.senses.length) assert.equal(await page.locator('#word-detail-definition .word-unavailable').textContent(), '有道暂未提供该词形的释义');
+      assert.equal(await page.locator('#word-detail-play').isEnabled(), Boolean(entry.audio));
+      assert.equal((await page.locator('#word-detail-play').getAttribute('aria-label')).includes('英'), false);
+      assert.equal(await page.locator('#word-detail-source').getAttribute('href'), entry.source.url);
+      if (play && entry.audio) {await page.locator('#word-detail-play').click(); await playback(entry);}
+      await page.locator('#word-detail-close').click();
+      checkedForms.add(normalize(form.text)); popupSamples++;
     }
-    await page.locator('#play-vocabulary').click();
-    await page.waitForFunction(() => document.getElementById('player-count').textContent === '02 / 15');
-    assert.ok(await page.evaluate(() => window.__audio.currentSrc.includes('/audio/youdao-unit1/')));
-    await page.keyboard.press('Escape');
-    const richForm = [...forms].sort((a, b) => dictionary[normalize(b.text)].senses.length - dictionary[normalize(a.text)].senses.length)[0];
-    for (const [width, height] of [[390,844],[320,568]]) {
+    for (const number of [1, 16, 32]) {
+      await page.selectOption('#list-select', String(number));
+      const unit = canonical.units[number];
+      for (const index of [0, 3, 7, 11, 14]) {
+        const documentWord = unit.vocabulary[index];
+        const entry = dictionary[normalize(documentWord.word)];
+        const card = page.locator('#vocab-' + index);
+        assert.equal(await card.locator('.word-ipa').textContent(), documentWord.ipa, 'Section01 IPA must remain document-owned');
+        assert.deepEqual(await card.locator('.word-sense-pos').allTextContents(), [documentWord.partsOfSpeech]);
+        assert.deepEqual(await card.locator('.word-sense-meaning').allTextContents(), [documentWord.meaning]);
+        await card.click(); await playback(entry); await page.keyboard.press('Escape'); coreSamples++;
+      }
+      const forms = await page.locator('.word-token').evaluateAll(nodes => [...new Map(nodes.map(node => [node.textContent.toLowerCase().replace(/’/g, "'"), {id: node.id, text: node.textContent}])).values()]);
+      const chosen = new Map();
+      for (let i = 0; i < 10; i++) {
+        const form = forms[Math.floor(i * (forms.length - 1) / 9)]; chosen.set(form.id, form);
+      }
+      for (const form of [...chosen.values()]) await checkPopup(form, true);
+      for (const form of forms.filter(form => dictionary[normalize(form.text)].status === 'unavailable').slice(0, 2)) {
+        if (!checkedForms.has(normalize(form.text))) await checkPopup(form);
+      }
+    }
+    // Exercise a genuinely missing source field even if the spread samples have
+    // only complete records. The fallback must remain explicit and unsourced.
+    const missing = Object.entries(audit.entries).find(([word, entry]) => dictionary[word].status === 'unavailable' && scope.get(word).units.size);
+    if (missing && !checkedForms.has(missing[0])) {
+      const [word, record] = missing;
+      for (const unitNumber of record.units) {
+        await page.selectOption('#list-select', String(unitNumber));
+        const form = await page.locator('.word-token').evaluateAll((nodes, key) => {
+          const node = nodes.find(node => node.textContent.toLowerCase().replace(/’/g, "'") === key);
+          return node ? {id: node.id, text: node.textContent} : null;
+        }, word);
+        if (form) {await checkPopup(form); break;}
+      }
+    }
+    await page.selectOption('#list-select', '32');
+    const rich = await page.locator('.word-token').evaluateAll(nodes => {
+      const entries = window.WORD_DICTIONARY;
+      return [...nodes].sort((a, b) => (entries[b.textContent.toLowerCase().replace(/’/g, "'")]?.senses.length || 0) - (entries[a.textContent.toLowerCase().replace(/’/g, "'")]?.senses.length || 0)).map(node => ({id: node.id, text: node.textContent}))[0];
+    });
+    for (const [width, height] of [[390, 844], [320, 568]]) {
       await page.setViewportSize({width, height});
-      await page.locator('#' + richForm.id).click();
+      await page.locator('#' + rich.id).click();
       const box = await page.locator('#word-details').boundingBox();
       assert.ok(box.x >= 0 && box.y >= 0 && box.x + box.width <= width && box.y + box.height <= height, JSON.stringify(box));
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
-      await page.screenshot({path: `/tmp/youdao-card-${width}.png`});
       await page.keyboard.press('Escape');
     }
+    await page.reload({waitUntil: 'networkidle'});
+    assert.equal(await page.locator('#speed').inputValue(), '0.5');
     assert.deepEqual(errors, []);
-    console.log(JSON.stringify({vocabulary:15,exampleForms:forms.length,source:'Youdao',UKRecordings:audioCount,missingUK:200-audioCount,MP3AndWAVPlayback:'passed',halfSpeed:'passed',sequentialWords:'passed',mobile:'passed',browserErrors:errors}));
+    console.log(JSON.stringify({scope: scope.size, coreYoudaoAudio: 480, uniqueAudioAssets: Object.keys(audit.audio_files).length, documentOwnedVocabularySamples: coreSamples, youdaoPopupSamples: popupSamples, actualHalfSpeedAudio: 'passed', missingStates: 'passed', mobileWidths: [390, 320], browserErrors: errors}));
   } finally {await browser.close();}
-})().catch(e => {console.error(e); process.exit(1);});
+})().catch(error => {console.error(error); process.exit(1);});

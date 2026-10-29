@@ -1,0 +1,160 @@
+{
+  "speechText": "The study shows that most people do not react as strongly as expected.",
+  "audio": "audio/course-examples/92d3440497077cd5cc2da11d.mp3",
+  "sha256": "66a58de3e11e14c705506aded83a09f7febdb91168d06afc1dd3880cdcefe984",
+  "duration": 5.208,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "study",
+      "start": 0.3,
+      "end": 0.716666
+    },
+    {
+      "text": "shows",
+      "start": 0.730541,
+      "end": 1.230541
+    },
+    {
+      "text": "that",
+      "start": 1.244458,
+      "end": 1.466666
+    },
+    {
+      "text": "most",
+      "start": 1.480541,
+      "end": 1.841666
+    },
+    {
+      "text": "people",
+      "start": 1.855541,
+      "end": 2.230541
+    },
+    {
+      "text": "do",
+      "start": 2.244458,
+      "end": 2.383333
+    },
+    {
+      "text": "not",
+      "start": 2.397208,
+      "end": 2.661083
+    },
+    {
+      "text": "react",
+      "start": 2.675,
+      "end": 3.175
+    },
+    {
+      "text": "as",
+      "start": 3.188875,
+      "end": 3.3
+    },
+    {
+      "text": "strongly",
+      "start": 3.313875,
+      "end": 3.82775
+    },
+    {
+      "text": "as",
+      "start": 3.841666,
+      "end": 3.952791
+    },
+    {
+      "text": "expected",
+      "start": 3.966666,
+      "end": 4.786124
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 4166660,
+      "text": "study"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7305410,
+      "duration": 5000000,
+      "text": "shows"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12444580,
+      "duration": 2222080,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14805410,
+      "duration": 3611250,
+      "text": "most"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18555410,
+      "duration": 3750000,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22444580,
+      "duration": 1388750,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23972080,
+      "duration": 2638750,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26750000,
+      "duration": 5000000,
+      "text": "react"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31888750,
+      "duration": 1111250,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33138750,
+      "duration": 5138750,
+      "text": "strongly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38416660,
+      "duration": 1111250,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39666660,
+      "duration": 8194580,
+      "text": "expected"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:40:11.537197+00:00"
+}

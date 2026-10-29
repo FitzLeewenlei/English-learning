@@ -1,0 +1,171 @@
+{
+  "speechText": "Therefore, the structure of products should be adjusted accordingly to adapt to social development.",
+  "audio": "audio/course-examples/e0253ead22dbcf00fabbfa8e.mp3",
+  "sha256": "f49e71b858d206b766af9f1ff5511f6948b79ff5400ea09c8a1dd1dfe5b06334",
+  "duration": 6.768,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Therefore",
+      "start": 0.147208,
+      "end": 0.841666
+    },
+    {
+      "text": "the",
+      "start": 1.147208,
+      "end": 1.258333
+    },
+    {
+      "text": "structure",
+      "start": 1.272208,
+      "end": 1.772208
+    },
+    {
+      "text": "of",
+      "start": 1.786125,
+      "end": 1.911125
+    },
+    {
+      "text": "products",
+      "start": 1.925,
+      "end": 2.508333
+    },
+    {
+      "text": "should",
+      "start": 2.522208,
+      "end": 2.772208
+    },
+    {
+      "text": "be",
+      "start": 2.786125,
+      "end": 2.911125
+    },
+    {
+      "text": "adjusted",
+      "start": 2.925,
+      "end": 3.508333
+    },
+    {
+      "text": "accordingly",
+      "start": 3.522208,
+      "end": 4.230541
+    },
+    {
+      "text": "to",
+      "start": 4.244458,
+      "end": 4.411124
+    },
+    {
+      "text": "adapt",
+      "start": 4.425,
+      "end": 4.938875
+    },
+    {
+      "text": "to",
+      "start": 4.952791,
+      "end": 5.049999
+    },
+    {
+      "text": "social",
+      "start": 5.063875,
+      "end": 5.494416
+    },
+    {
+      "text": "development",
+      "start": 5.508333,
+      "end": 6.355541
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 6944580,
+      "text": "Therefore"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11472080,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 5000000,
+      "text": "structure"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17861250,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 5833330,
+      "text": "products"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 2500000,
+      "text": "should"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27861250,
+      "duration": 1250000,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29250000,
+      "duration": 5833330,
+      "text": "adjusted"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35222080,
+      "duration": 7083330,
+      "text": "accordingly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42444580,
+      "duration": 1666660,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44250000,
+      "duration": 5138750,
+      "text": "adapt"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49527910,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50638750,
+      "duration": 4305410,
+      "text": "social"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55083330,
+      "duration": 8472080,
+      "text": "development"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:49:03.028633+00:00"
+}

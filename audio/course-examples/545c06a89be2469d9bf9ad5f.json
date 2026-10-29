@@ -1,0 +1,72 @@
+{
+  "speechText": "Imagine walking through someone's apartment.",
+  "audio": "audio/course-examples/545c06a89be2469d9bf9ad5f.mp3",
+  "sha256": "26ebce1eecc2c76b424578cae304c02489b39f69869b152cf0da626b5ee28145",
+  "duration": 3.336,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Imagine",
+      "start": 0.119458,
+      "end": 0.730583
+    },
+    {
+      "text": "walking",
+      "start": 0.744458,
+      "end": 1.258333
+    },
+    {
+      "text": "through",
+      "start": 1.272208,
+      "end": 1.536083
+    },
+    {
+      "text": "someone's",
+      "start": 1.55,
+      "end": 2.036125
+    },
+    {
+      "text": "apartment",
+      "start": 2.05,
+      "end": 2.925
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 6111250,
+      "text": "Imagine"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7444580,
+      "duration": 5138750,
+      "text": "walking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 2638750,
+      "text": "through"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15500000,
+      "duration": 4861250,
+      "text": "someone's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20500000,
+      "duration": 8750000,
+      "text": "apartment"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:39:30.680532+00:00"
+}

@@ -1,0 +1,259 @@
+{
+  "speechText": "Despite his age, every evening includes playtime with Ben's collection of toys, and then an exciting game of fetch around the apartment.",
+  "audio": "audio/course-examples/f12b1814bed37db74b8d1020.mp3",
+  "sha256": "53ef0afb92411fbffa04f6dddc25414513c6e2e43af73428ed9622e6dbdc16f8",
+  "duration": 8.904,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Despite",
+      "start": 0.101375,
+      "end": 0.656916
+    },
+    {
+      "text": "his",
+      "start": 0.670833,
+      "end": 0.851374
+    },
+    {
+      "text": "age",
+      "start": 0.865291,
+      "end": 1.281957
+    },
+    {
+      "text": "every",
+      "start": 1.518041,
+      "end": 1.768041
+    },
+    {
+      "text": "evening",
+      "start": 1.781958,
+      "end": 2.240291
+    },
+    {
+      "text": "includes",
+      "start": 2.254166,
+      "end": 2.740291
+    },
+    {
+      "text": "playtime",
+      "start": 2.754166,
+      "end": 3.393041
+    },
+    {
+      "text": "with",
+      "start": 3.406958,
+      "end": 3.587499
+    },
+    {
+      "text": "Ben's",
+      "start": 3.601375,
+      "end": 3.906916
+    },
+    {
+      "text": "collection",
+      "start": 3.920833,
+      "end": 4.393041
+    },
+    {
+      "text": "of",
+      "start": 4.406958,
+      "end": 4.531958
+    },
+    {
+      "text": "toys",
+      "start": 4.545833,
+      "end": 5.059708
+    },
+    {
+      "text": "and",
+      "start": 5.393041,
+      "end": 5.518041
+    },
+    {
+      "text": "then",
+      "start": 5.531958,
+      "end": 5.712499
+    },
+    {
+      "text": "an",
+      "start": 5.726375,
+      "end": 5.823583
+    },
+    {
+      "text": "exciting",
+      "start": 5.8375,
+      "end": 6.4625
+    },
+    {
+      "text": "game",
+      "start": 6.476375,
+      "end": 6.74025
+    },
+    {
+      "text": "of",
+      "start": 6.754166,
+      "end": 6.865291
+    },
+    {
+      "text": "fetch",
+      "start": 6.879166,
+      "end": 7.226374
+    },
+    {
+      "text": "around",
+      "start": 7.240291,
+      "end": 7.559749
+    },
+    {
+      "text": "the",
+      "start": 7.573625,
+      "end": 7.656958
+    },
+    {
+      "text": "apartment",
+      "start": 7.670833,
+      "end": 8.490291
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 5555410,
+      "text": "Despite"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6708330,
+      "duration": 1805410,
+      "text": "his"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8652910,
+      "duration": 4166660,
+      "text": "age"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15180410,
+      "duration": 2500000,
+      "text": "every"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17819580,
+      "duration": 4583330,
+      "text": "evening"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22541660,
+      "duration": 4861250,
+      "text": "includes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27541660,
+      "duration": 6388750,
+      "text": "playtime"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34069580,
+      "duration": 1805410,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36013750,
+      "duration": 3055410,
+      "text": "Ben's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39208330,
+      "duration": 4722080,
+      "text": "collection"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44069580,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45458330,
+      "duration": 5138750,
+      "text": "toys"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53930410,
+      "duration": 1250000,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55319580,
+      "duration": 1805410,
+      "text": "then"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57263750,
+      "duration": 972080,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58375000,
+      "duration": 6250000,
+      "text": "exciting"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64763750,
+      "duration": 2638750,
+      "text": "game"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67541660,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68791660,
+      "duration": 3472080,
+      "text": "fetch"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 72402910,
+      "duration": 3194580,
+      "text": "around"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 75736250,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 76708330,
+      "duration": 8194580,
+      "text": "apartment"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:49:35.295910+00:00"
+}

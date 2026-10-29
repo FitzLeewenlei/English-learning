@@ -1,0 +1,116 @@
+{
+  "speechText": "Convenience foods from the supermarket simplify shopping and cooking.",
+  "audio": "audio/course-examples/aea20befe427385288175099.mp3",
+  "sha256": "028e35a669a09156671c944fa97171bc572a96ccfab242c8ab8dc816bc5531d3",
+  "duration": 5.112,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Convenience",
+      "start": 0.101375,
+      "end": 0.9625
+    },
+    {
+      "text": "foods",
+      "start": 0.976375,
+      "end": 1.434708
+    },
+    {
+      "text": "from",
+      "start": 1.448625,
+      "end": 1.643083
+    },
+    {
+      "text": "the",
+      "start": 1.656958,
+      "end": 1.754166
+    },
+    {
+      "text": "supermarket",
+      "start": 1.768041,
+      "end": 2.698582
+    },
+    {
+      "text": "simplify",
+      "start": 2.7125,
+      "end": 3.351375
+    },
+    {
+      "text": "shopping",
+      "start": 3.365291,
+      "end": 3.934749
+    },
+    {
+      "text": "and",
+      "start": 3.948625,
+      "end": 4.101416
+    },
+    {
+      "text": "cooking",
+      "start": 4.115291,
+      "end": 4.698624
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 8611250,
+      "text": "Convenience"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9763750,
+      "duration": 4583330,
+      "text": "foods"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14486250,
+      "duration": 1944580,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16569580,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17680410,
+      "duration": 9305410,
+      "text": "supermarket"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27125000,
+      "duration": 6388750,
+      "text": "simplify"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33652910,
+      "duration": 5694580,
+      "text": "shopping"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39486250,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41152910,
+      "duration": 5833330,
+      "text": "cooking"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:37.467342+00:00"
+}

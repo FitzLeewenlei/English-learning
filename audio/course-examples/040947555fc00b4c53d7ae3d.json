@@ -1,0 +1,278 @@
+{
+  "speechText": "When I left a 20-year career in the U.S. Coast Guard to become a freelance writer, I had no prospects at all.",
+  "audio": "audio/course-examples/040947555fc00b4c53d7ae3d.mp3",
+  "sha256": "530fa4b58330a20638acfe599b302bc8b30f96bfdcfc66dde83a8904d63f6c8b",
+  "duration": 7.56,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [
+    "20",
+    "year",
+    "U",
+    "S"
+  ],
+  "words": [
+    {
+      "text": "When",
+      "start": 0.147208,
+      "end": 0.341666
+    },
+    {
+      "text": "I",
+      "start": 0.355541,
+      "end": 0.424999
+    },
+    {
+      "text": "left",
+      "start": 0.438875,
+      "end": 0.8
+    },
+    {
+      "text": "a",
+      "start": 0.813875,
+      "end": 0.883333
+    },
+    {
+      "text": "20",
+      "start": 0.897208,
+      "end": 1.114805,
+      "estimatedSplit": true
+    },
+    {
+      "text": "year",
+      "start": 1.114805,
+      "end": 1.5499989,
+      "estimatedSplit": true
+    },
+    {
+      "text": "career",
+      "start": 1.563875,
+      "end": 2.105541
+    },
+    {
+      "text": "in",
+      "start": 2.119458,
+      "end": 2.258333
+    },
+    {
+      "text": "the",
+      "start": 2.272208,
+      "end": 2.355541
+    },
+    {
+      "text": "U",
+      "start": 2.369458,
+      "end": 2.5708535,
+      "estimatedSplit": true
+    },
+    {
+      "text": "S",
+      "start": 2.5708535,
+      "end": 2.772249,
+      "estimatedSplit": true
+    },
+    {
+      "text": "Coast",
+      "start": 2.786125,
+      "end": 3.161125
+    },
+    {
+      "text": "Guard",
+      "start": 3.175,
+      "end": 3.494458
+    },
+    {
+      "text": "to",
+      "start": 3.508333,
+      "end": 3.591666
+    },
+    {
+      "text": "become",
+      "start": 3.605541,
+      "end": 3.911082
+    },
+    {
+      "text": "a",
+      "start": 3.925,
+      "end": 3.980541
+    },
+    {
+      "text": "freelance",
+      "start": 3.994458,
+      "end": 4.563916
+    },
+    {
+      "text": "writer",
+      "start": 4.577791,
+      "end": 5.049999
+    },
+    {
+      "text": "I",
+      "start": 5.411125,
+      "end": 5.508333
+    },
+    {
+      "text": "had",
+      "start": 5.522208,
+      "end": 5.758333
+    },
+    {
+      "text": "no",
+      "start": 5.772208,
+      "end": 5.966666
+    },
+    {
+      "text": "prospects",
+      "start": 5.980541,
+      "end": 6.619416
+    },
+    {
+      "text": "at",
+      "start": 6.633333,
+      "end": 6.786124
+    },
+    {
+      "text": "all",
+      "start": 6.8,
+      "end": 7.147208
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1944580,
+      "text": "When"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 694580,
+      "text": "I"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 3611250,
+      "text": "left"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8138750,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 6527909,
+      "text": "20-year"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 5416660,
+      "text": "career"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21194580,
+      "duration": 1388750,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22722080,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23694580,
+      "duration": 4027910,
+      "text": "U.S."
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27861250,
+      "duration": 3750000,
+      "text": "Coast"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31750000,
+      "duration": 3194580,
+      "text": "Guard"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35083330,
+      "duration": 833330,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36055410,
+      "duration": 3055410,
+      "text": "become"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39250000,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39944580,
+      "duration": 5694580,
+      "text": "freelance"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45777910,
+      "duration": 4722080,
+      "text": "writer"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54111250,
+      "duration": 972080,
+      "text": "I"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55222080,
+      "duration": 2361250,
+      "text": "had"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57722080,
+      "duration": 1944580,
+      "text": "no"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59805410,
+      "duration": 6388750,
+      "text": "prospects"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66333330,
+      "duration": 1527910,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68000000,
+      "duration": 3472080,
+      "text": "all"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:50:17.723865+00:00"
+}

@@ -1,0 +1,155 @@
+{
+  "speechText": "By law, children less than 16 years old cannot work in many industries.",
+  "audio": "audio/course-examples/ba1915c44f5bf190074179a0.mp3",
+  "sha256": "bec996a8c3dccf933528ec6435dec9a439aad36c6eb9618b0b93dd1af3c46309",
+  "duration": 5.688,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [
+    "16",
+    "years",
+    "old"
+  ],
+  "words": [
+    {
+      "text": "By",
+      "start": 0.119458,
+      "end": 0.272249
+    },
+    {
+      "text": "law",
+      "start": 0.286125,
+      "end": 0.758333
+    },
+    {
+      "text": "children",
+      "start": 1.091666,
+      "end": 1.508332
+    },
+    {
+      "text": "less",
+      "start": 1.522208,
+      "end": 1.799999
+    },
+    {
+      "text": "than",
+      "start": 1.813875,
+      "end": 2.008333
+    },
+    {
+      "text": "16",
+      "start": 2.022208,
+      "end": 2.266658,
+      "estimatedSplit": true
+    },
+    {
+      "text": "years",
+      "start": 2.266658,
+      "end": 2.877783,
+      "estimatedSplit": true
+    },
+    {
+      "text": "old",
+      "start": 2.877783,
+      "end": 3.244458,
+      "estimatedSplit": true
+    },
+    {
+      "text": "cannot",
+      "start": 3.258333,
+      "end": 3.688874
+    },
+    {
+      "text": "work",
+      "start": 3.702791,
+      "end": 4.036124
+    },
+    {
+      "text": "in",
+      "start": 4.05,
+      "end": 4.161125
+    },
+    {
+      "text": "many",
+      "start": 4.175,
+      "end": 4.452791
+    },
+    {
+      "text": "industries",
+      "start": 4.466666,
+      "end": 5.272207
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 1527910,
+      "text": "By"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 4722080,
+      "text": "law"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10916660,
+      "duration": 4166660,
+      "text": "children"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15222080,
+      "duration": 2777910,
+      "text": "less"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18138750,
+      "duration": 1944580,
+      "text": "than"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20222080,
+      "duration": 12222500,
+      "text": "16 years old"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32583330,
+      "duration": 4305410,
+      "text": "cannot"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37027910,
+      "duration": 3333330,
+      "text": "work"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40500000,
+      "duration": 1111250,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41750000,
+      "duration": 2777910,
+      "text": "many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44666660,
+      "duration": 8055410,
+      "text": "industries"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:45:55.479982+00:00"
+}

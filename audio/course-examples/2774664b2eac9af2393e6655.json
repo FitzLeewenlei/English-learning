@@ -1,0 +1,127 @@
+{
+  "speechText": "You can also take a walk or listen to music.",
+  "audio": "audio/course-examples/2774664b2eac9af2393e6655.mp3",
+  "sha256": "97f9dc7a0a4f29111b0783e5dbce044ba245624b966c57ed60e5a328891470c8",
+  "duration": 3.6,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "You",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "can",
+      "start": 0.3,
+      "end": 0.480541
+    },
+    {
+      "text": "also",
+      "start": 0.494458,
+      "end": 0.869458
+    },
+    {
+      "text": "take",
+      "start": 0.883333,
+      "end": 1.174999
+    },
+    {
+      "text": "a",
+      "start": 1.188875,
+      "end": 1.244416
+    },
+    {
+      "text": "walk",
+      "start": 1.258333,
+      "end": 1.786124
+    },
+    {
+      "text": "or",
+      "start": 1.8,
+      "end": 1.883333
+    },
+    {
+      "text": "listen",
+      "start": 1.897208,
+      "end": 2.327749
+    },
+    {
+      "text": "to",
+      "start": 2.341666,
+      "end": 2.466666
+    },
+    {
+      "text": "music",
+      "start": 2.480541,
+      "end": 3.188874
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "You"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1805410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 3750000,
+      "text": "also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8833330,
+      "duration": 2916660,
+      "text": "take"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11888750,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12583330,
+      "duration": 5277910,
+      "text": "walk"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18000000,
+      "duration": 833330,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18972080,
+      "duration": 4305410,
+      "text": "listen"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23416660,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24805410,
+      "duration": 7083330,
+      "text": "music"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:39:59.061367+00:00"
+}

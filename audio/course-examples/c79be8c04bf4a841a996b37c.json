@@ -1,0 +1,171 @@
+{
+  "speechText": "Write a letter to apply for membership of the International Cultural Tourism Innovation Team.",
+  "audio": "audio/course-examples/c79be8c04bf4a841a996b37c.mp3",
+  "sha256": "d3cdf0bb9a9b1d83a36ad4eccef9a46bc93db9389bf758dacd8dcbd395eb5020",
+  "duration": 6.504,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Write",
+      "start": 0.133333,
+      "end": 0.480541
+    },
+    {
+      "text": "a",
+      "start": 0.494458,
+      "end": 0.549999
+    },
+    {
+      "text": "letter",
+      "start": 0.563875,
+      "end": 1.05
+    },
+    {
+      "text": "to",
+      "start": 1.063875,
+      "end": 1.230541
+    },
+    {
+      "text": "apply",
+      "start": 1.244458,
+      "end": 1.661124
+    },
+    {
+      "text": "for",
+      "start": 1.675,
+      "end": 1.827791
+    },
+    {
+      "text": "membership",
+      "start": 1.841666,
+      "end": 2.549999
+    },
+    {
+      "text": "of",
+      "start": 2.563875,
+      "end": 2.730541
+    },
+    {
+      "text": "the",
+      "start": 2.744458,
+      "end": 2.883333
+    },
+    {
+      "text": "International",
+      "start": 2.897208,
+      "end": 3.730541
+    },
+    {
+      "text": "Cultural",
+      "start": 3.744458,
+      "end": 4.313916
+    },
+    {
+      "text": "Tourism",
+      "start": 4.327791,
+      "end": 4.938916
+    },
+    {
+      "text": "Innovation",
+      "start": 4.952791,
+      "end": 5.605582
+    },
+    {
+      "text": "Team",
+      "start": 5.619458,
+      "end": 6.077791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 3472080,
+      "text": "Write"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5638750,
+      "duration": 4861250,
+      "text": "letter"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10638750,
+      "duration": 1666660,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12444580,
+      "duration": 4166660,
+      "text": "apply"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16750000,
+      "duration": 1527910,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18416660,
+      "duration": 7083330,
+      "text": "membership"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25638750,
+      "duration": 1666660,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27444580,
+      "duration": 1388750,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28972080,
+      "duration": 8333330,
+      "text": "International"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37444580,
+      "duration": 5694580,
+      "text": "Cultural"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43277910,
+      "duration": 6111250,
+      "text": "Tourism"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49527910,
+      "duration": 6527910,
+      "text": "Innovation"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56194580,
+      "duration": 4583330,
+      "text": "Team"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:42:37.064966+00:00"
+}

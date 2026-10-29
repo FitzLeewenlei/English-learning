@@ -1,0 +1,347 @@
+{
+  "speechText": "In the case of the Namib Desert, for example, when it does rain, that rain does not fall in the desert itself but rather in the mountains to the east.",
+  "audio": "audio/course-examples/4f8f8ce2042c51de8d79737f.mp3",
+  "sha256": "393ef0d789ea67633925cb0187d22754b00447ec0c16f913970483c95f4fd5a3",
+  "duration": 9.48,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "In",
+      "start": 0.119458,
+      "end": 0.258333
+    },
+    {
+      "text": "the",
+      "start": 0.272208,
+      "end": 0.369416
+    },
+    {
+      "text": "case",
+      "start": 0.383333,
+      "end": 0.702791
+    },
+    {
+      "text": "of",
+      "start": 0.716666,
+      "end": 0.813874
+    },
+    {
+      "text": "the",
+      "start": 0.827791,
+      "end": 0.924999
+    },
+    {
+      "text": "Namib",
+      "start": 0.938875,
+      "end": 1.313875
+    },
+    {
+      "text": "Desert",
+      "start": 1.327791,
+      "end": 1.841666
+    },
+    {
+      "text": "for",
+      "start": 2.063875,
+      "end": 2.161083
+    },
+    {
+      "text": "example",
+      "start": 2.175,
+      "end": 2.883333
+    },
+    {
+      "text": "when",
+      "start": 3.119458,
+      "end": 3.258333
+    },
+    {
+      "text": "it",
+      "start": 3.272208,
+      "end": 3.397208
+    },
+    {
+      "text": "does",
+      "start": 3.411125,
+      "end": 3.675
+    },
+    {
+      "text": "rain",
+      "start": 3.688875,
+      "end": 4.119416
+    },
+    {
+      "text": "that",
+      "start": 4.466666,
+      "end": 4.702791
+    },
+    {
+      "text": "rain",
+      "start": 4.716666,
+      "end": 4.994457
+    },
+    {
+      "text": "does",
+      "start": 5.008333,
+      "end": 5.174999
+    },
+    {
+      "text": "not",
+      "start": 5.188875,
+      "end": 5.411083
+    },
+    {
+      "text": "fall",
+      "start": 5.425,
+      "end": 5.675
+    },
+    {
+      "text": "in",
+      "start": 5.688875,
+      "end": 5.772208
+    },
+    {
+      "text": "the",
+      "start": 5.786125,
+      "end": 5.883333
+    },
+    {
+      "text": "desert",
+      "start": 5.897208,
+      "end": 6.258333
+    },
+    {
+      "text": "itself",
+      "start": 6.272208,
+      "end": 6.813874
+    },
+    {
+      "text": "but",
+      "start": 6.827791,
+      "end": 7.036124
+    },
+    {
+      "text": "rather",
+      "start": 7.05,
+      "end": 7.383333
+    },
+    {
+      "text": "in",
+      "start": 7.397208,
+      "end": 7.494416
+    },
+    {
+      "text": "the",
+      "start": 7.508333,
+      "end": 7.591666
+    },
+    {
+      "text": "mountains",
+      "start": 7.605541,
+      "end": 8.188874
+    },
+    {
+      "text": "to",
+      "start": 8.202791,
+      "end": 8.327791
+    },
+    {
+      "text": "the",
+      "start": 8.341666,
+      "end": 8.452791
+    },
+    {
+      "text": "east",
+      "start": 8.466666,
+      "end": 9.077791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 1388750,
+      "text": "In"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2722080,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3833330,
+      "duration": 3194580,
+      "text": "case"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7166660,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8277910,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9388750,
+      "duration": 3750000,
+      "text": "Namib"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13277910,
+      "duration": 5138750,
+      "text": "Desert"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20638750,
+      "duration": 972080,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21750000,
+      "duration": 7083330,
+      "text": "example"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31194580,
+      "duration": 1388750,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32722080,
+      "duration": 1250000,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34111250,
+      "duration": 2638750,
+      "text": "does"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36888750,
+      "duration": 4305410,
+      "text": "rain"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44666660,
+      "duration": 2361250,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47166660,
+      "duration": 2777910,
+      "text": "rain"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50083330,
+      "duration": 1666660,
+      "text": "does"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51888750,
+      "duration": 2222080,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54250000,
+      "duration": 2500000,
+      "text": "fall"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56888750,
+      "duration": 833330,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57861250,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58972080,
+      "duration": 3611250,
+      "text": "desert"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62722080,
+      "duration": 5416660,
+      "text": "itself"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68277910,
+      "duration": 2083330,
+      "text": "but"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70500000,
+      "duration": 3333330,
+      "text": "rather"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 73972080,
+      "duration": 972080,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 75083330,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 76055410,
+      "duration": 5833330,
+      "text": "mountains"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82027910,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 83416660,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 84666660,
+      "duration": 6111250,
+      "text": "east"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:45:34.394687+00:00"
+}

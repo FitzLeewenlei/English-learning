@@ -1,0 +1,204 @@
+{
+  "speechText": "When humpbacks live in denser populations, males looking for mates also have to deal with competing whales.",
+  "audio": "audio/course-examples/fd1754fc4523737c8da37080.mp3",
+  "sha256": "77c0801ae2d52bbb4ccbd96e055d4859b5495e9a4e810d052c6dee85c6f3cdb2",
+  "duration": 7.368,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "When",
+      "start": 0.147208,
+      "end": 0.369416
+    },
+    {
+      "text": "humpbacks",
+      "start": 0.383333,
+      "end": 1.077791
+    },
+    {
+      "text": "live",
+      "start": 1.091666,
+      "end": 1.299999
+    },
+    {
+      "text": "in",
+      "start": 1.313875,
+      "end": 1.45275
+    },
+    {
+      "text": "denser",
+      "start": 1.466666,
+      "end": 1.855541
+    },
+    {
+      "text": "populations",
+      "start": 1.869458,
+      "end": 2.855583
+    },
+    {
+      "text": "males",
+      "start": 3.216666,
+      "end": 3.591666
+    },
+    {
+      "text": "looking",
+      "start": 3.605541,
+      "end": 3.911082
+    },
+    {
+      "text": "for",
+      "start": 3.925,
+      "end": 4.063875
+    },
+    {
+      "text": "mates",
+      "start": 4.077791,
+      "end": 4.452791
+    },
+    {
+      "text": "also",
+      "start": 4.466666,
+      "end": 4.855541
+    },
+    {
+      "text": "have",
+      "start": 4.869458,
+      "end": 5.077791
+    },
+    {
+      "text": "to",
+      "start": 5.091666,
+      "end": 5.202791
+    },
+    {
+      "text": "deal",
+      "start": 5.216666,
+      "end": 5.522207
+    },
+    {
+      "text": "with",
+      "start": 5.536125,
+      "end": 5.675
+    },
+    {
+      "text": "competing",
+      "start": 5.688875,
+      "end": 6.313875
+    },
+    {
+      "text": "whales",
+      "start": 6.327791,
+      "end": 6.966666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2222080,
+      "text": "When"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3833330,
+      "duration": 6944580,
+      "text": "humpbacks"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10916660,
+      "duration": 2083330,
+      "text": "live"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13138750,
+      "duration": 1388750,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14666660,
+      "duration": 3888750,
+      "text": "denser"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18694580,
+      "duration": 9861250,
+      "text": "populations"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32166660,
+      "duration": 3750000,
+      "text": "males"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36055410,
+      "duration": 3055410,
+      "text": "looking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39250000,
+      "duration": 1388750,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40777910,
+      "duration": 3750000,
+      "text": "mates"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44666660,
+      "duration": 3888750,
+      "text": "also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48694580,
+      "duration": 2083330,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50916660,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52166660,
+      "duration": 3055410,
+      "text": "deal"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55361250,
+      "duration": 1388750,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56888750,
+      "duration": 6250000,
+      "text": "competing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63277910,
+      "duration": 6388750,
+      "text": "whales"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:44:19.116086+00:00"
+}

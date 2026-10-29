@@ -1,0 +1,116 @@
+{
+  "speechText": "Let's go on a picnic this weekend, shall we?",
+  "audio": "audio/course-examples/d940426b3d7d79099ad0ec94.mp3",
+  "sha256": "58317b50090992c2e2cd7f8b27d0363bc09af96c9c9c89c1020ee07451f048ff",
+  "duration": 3.576,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Let's",
+      "start": 0.119458,
+      "end": 0.424999
+    },
+    {
+      "text": "go",
+      "start": 0.438875,
+      "end": 0.57775
+    },
+    {
+      "text": "on",
+      "start": 0.591666,
+      "end": 0.744457
+    },
+    {
+      "text": "a",
+      "start": 0.758333,
+      "end": 0.841666
+    },
+    {
+      "text": "picnic",
+      "start": 0.855541,
+      "end": 1.355541
+    },
+    {
+      "text": "this",
+      "start": 1.369458,
+      "end": 1.577791
+    },
+    {
+      "text": "weekend",
+      "start": 1.591666,
+      "end": 2.188874
+    },
+    {
+      "text": "shall",
+      "start": 2.522208,
+      "end": 2.827749
+    },
+    {
+      "text": "we",
+      "start": 2.841666,
+      "end": 3.161124
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 3055410,
+      "text": "Let's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 1388750,
+      "text": "go"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5916660,
+      "duration": 1527910,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7583330,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8555410,
+      "duration": 5000000,
+      "text": "picnic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13694580,
+      "duration": 2083330,
+      "text": "this"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15916660,
+      "duration": 5972080,
+      "text": "weekend"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 3055410,
+      "text": "shall"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28416660,
+      "duration": 3194580,
+      "text": "we"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:47.029012+00:00"
+}

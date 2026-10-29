@@ -1,0 +1,193 @@
+{
+  "speechText": "Sit on the edge of the bed a minute before putting your feet on the floor.",
+  "audio": "audio/course-examples/d7d4de1157f3477bf4ebb8c1.mp3",
+  "sha256": "1aaead738d13b68ca04b722ef6c3b605b80c22175bb9d27b686f6bef88acc7b0",
+  "duration": 4.512,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Sit",
+      "start": 0.133333,
+      "end": 0.480541
+    },
+    {
+      "text": "on",
+      "start": 0.494458,
+      "end": 0.633333
+    },
+    {
+      "text": "the",
+      "start": 0.647208,
+      "end": 0.799999
+    },
+    {
+      "text": "edge",
+      "start": 0.813875,
+      "end": 1.036083
+    },
+    {
+      "text": "of",
+      "start": 1.05,
+      "end": 1.161125
+    },
+    {
+      "text": "the",
+      "start": 1.175,
+      "end": 1.286125
+    },
+    {
+      "text": "bed",
+      "start": 1.3,
+      "end": 1.522208
+    },
+    {
+      "text": "a",
+      "start": 1.536125,
+      "end": 1.591666
+    },
+    {
+      "text": "minute",
+      "start": 1.605541,
+      "end": 2.147207
+    },
+    {
+      "text": "before",
+      "start": 2.161125,
+      "end": 2.52225
+    },
+    {
+      "text": "putting",
+      "start": 2.536125,
+      "end": 2.869458
+    },
+    {
+      "text": "your",
+      "start": 2.883333,
+      "end": 3.008333
+    },
+    {
+      "text": "feet",
+      "start": 3.022208,
+      "end": 3.369416
+    },
+    {
+      "text": "on",
+      "start": 3.383333,
+      "end": 3.494458
+    },
+    {
+      "text": "the",
+      "start": 3.508333,
+      "end": 3.605541
+    },
+    {
+      "text": "floor",
+      "start": 3.619458,
+      "end": 4.105583
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 3472080,
+      "text": "Sit"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 1388750,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6472080,
+      "duration": 1527910,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8138750,
+      "duration": 2222080,
+      "text": "edge"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10500000,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11750000,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13000000,
+      "duration": 2222080,
+      "text": "bed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16055410,
+      "duration": 5416660,
+      "text": "minute"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21611250,
+      "duration": 3611250,
+      "text": "before"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25361250,
+      "duration": 3333330,
+      "text": "putting"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28833330,
+      "duration": 1250000,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30222080,
+      "duration": 3472080,
+      "text": "feet"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33833330,
+      "duration": 1111250,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35083330,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36194580,
+      "duration": 4861250,
+      "text": "floor"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:44:09.084581+00:00"
+}

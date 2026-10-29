@@ -1,0 +1,138 @@
+{
+  "speechText": "So it's really about changing the culture and slowing traffic down.",
+  "audio": "audio/course-examples/466609599739f88277f0f948.mp3",
+  "sha256": "adcc4c1957f9eb0399553b4c3ab1a392322d6e432c99115903c03435ca259fae",
+  "duration": 4.512,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "So",
+      "start": 0.119458,
+      "end": 0.355583
+    },
+    {
+      "text": "it's",
+      "start": 0.369458,
+      "end": 0.563916
+    },
+    {
+      "text": "really",
+      "start": 0.577791,
+      "end": 0.911124
+    },
+    {
+      "text": "about",
+      "start": 0.925,
+      "end": 1.3
+    },
+    {
+      "text": "changing",
+      "start": 1.313875,
+      "end": 1.786083
+    },
+    {
+      "text": "the",
+      "start": 1.8,
+      "end": 1.897208
+    },
+    {
+      "text": "culture",
+      "start": 1.911125,
+      "end": 2.508333
+    },
+    {
+      "text": "and",
+      "start": 2.522208,
+      "end": 2.716666
+    },
+    {
+      "text": "slowing",
+      "start": 2.730541,
+      "end": 3.161082
+    },
+    {
+      "text": "traffic",
+      "start": 3.175,
+      "end": 3.605541
+    },
+    {
+      "text": "down",
+      "start": 3.619458,
+      "end": 4.105583
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 2361250,
+      "text": "So"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3694580,
+      "duration": 1944580,
+      "text": "it's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5777910,
+      "duration": 3333330,
+      "text": "really"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9250000,
+      "duration": 3750000,
+      "text": "about"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13138750,
+      "duration": 4722080,
+      "text": "changing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18000000,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19111250,
+      "duration": 5972080,
+      "text": "culture"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 1944580,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27305410,
+      "duration": 4305410,
+      "text": "slowing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31750000,
+      "duration": 4305410,
+      "text": "traffic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36194580,
+      "duration": 4861250,
+      "text": "down"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:45:38.766704+00:00"
+}

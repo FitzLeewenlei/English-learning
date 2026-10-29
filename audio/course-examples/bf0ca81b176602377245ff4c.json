@@ -1,0 +1,325 @@
+{
+  "speechText": "At Lufka Refillable Zero Waste store in Tampa, customers bring in reusable containers to fill with soap, shampoo and cleaning supplies instead of buying products in single-use packaging.",
+  "audio": "audio/course-examples/bf0ca81b176602377245ff4c.mp3",
+  "sha256": "7f6d464920fd58339cb76b04bdba58e45cf81ceae6c3db2171f2091b89236ee3",
+  "duration": 12.552,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "At",
+      "start": 0.147208,
+      "end": 0.341666
+    },
+    {
+      "text": "Lufka",
+      "start": 0.355541,
+      "end": 0.841666
+    },
+    {
+      "text": "Refillable",
+      "start": 0.855541,
+      "end": 1.452749
+    },
+    {
+      "text": "Zero",
+      "start": 1.466666,
+      "end": 1.799999
+    },
+    {
+      "text": "Waste",
+      "start": 1.813875,
+      "end": 2.161083
+    },
+    {
+      "text": "store",
+      "start": 2.175,
+      "end": 2.452791
+    },
+    {
+      "text": "in",
+      "start": 2.466666,
+      "end": 2.605541
+    },
+    {
+      "text": "Tampa",
+      "start": 2.619458,
+      "end": 3.188916
+    },
+    {
+      "text": "customers",
+      "start": 3.522208,
+      "end": 4.105541
+    },
+    {
+      "text": "bring",
+      "start": 4.119458,
+      "end": 4.369458
+    },
+    {
+      "text": "in",
+      "start": 4.383333,
+      "end": 4.494458
+    },
+    {
+      "text": "reusable",
+      "start": 4.508333,
+      "end": 5.091666
+    },
+    {
+      "text": "containers",
+      "start": 5.105541,
+      "end": 5.744416
+    },
+    {
+      "text": "to",
+      "start": 5.758333,
+      "end": 5.883333
+    },
+    {
+      "text": "fill",
+      "start": 5.897208,
+      "end": 6.174999
+    },
+    {
+      "text": "with",
+      "start": 6.188875,
+      "end": 6.383333
+    },
+    {
+      "text": "soap",
+      "start": 6.397208,
+      "end": 6.855541
+    },
+    {
+      "text": "shampoo",
+      "start": 7.147208,
+      "end": 7.855541
+    },
+    {
+      "text": "and",
+      "start": 7.952791,
+      "end": 8.105582
+    },
+    {
+      "text": "cleaning",
+      "start": 8.119458,
+      "end": 8.522249
+    },
+    {
+      "text": "supplies",
+      "start": 8.536125,
+      "end": 9.14725
+    },
+    {
+      "text": "instead",
+      "start": 9.161125,
+      "end": 9.591666
+    },
+    {
+      "text": "of",
+      "start": 9.605541,
+      "end": 9.730541
+    },
+    {
+      "text": "buying",
+      "start": 9.744458,
+      "end": 10.077791
+    },
+    {
+      "text": "products",
+      "start": 10.091666,
+      "end": 10.605541
+    },
+    {
+      "text": "in",
+      "start": 10.619458,
+      "end": 10.799999
+    },
+    {
+      "text": "single-use",
+      "start": 10.813875,
+      "end": 11.438875
+    },
+    {
+      "text": "packaging",
+      "start": 11.452791,
+      "end": 12.133332
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1944580,
+      "text": "At"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 4861250,
+      "text": "Lufka"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8555410,
+      "duration": 5972080,
+      "text": "Refillable"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14666660,
+      "duration": 3333330,
+      "text": "Zero"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18138750,
+      "duration": 3472080,
+      "text": "Waste"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21750000,
+      "duration": 2777910,
+      "text": "store"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24666660,
+      "duration": 1388750,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26194580,
+      "duration": 5694580,
+      "text": "Tampa"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35222080,
+      "duration": 5833330,
+      "text": "customers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41194580,
+      "duration": 2500000,
+      "text": "bring"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43833330,
+      "duration": 1111250,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45083330,
+      "duration": 5833330,
+      "text": "reusable"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51055410,
+      "duration": 6388750,
+      "text": "containers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57583330,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58972080,
+      "duration": 2777910,
+      "text": "fill"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61888750,
+      "duration": 1944580,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63972080,
+      "duration": 4583330,
+      "text": "soap"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71472080,
+      "duration": 7083330,
+      "text": "shampoo"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79527910,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 81194580,
+      "duration": 4027910,
+      "text": "cleaning"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 85361250,
+      "duration": 6111250,
+      "text": "supplies"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 91611250,
+      "duration": 4305410,
+      "text": "instead"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 96055410,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 97444580,
+      "duration": 3333330,
+      "text": "buying"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 100916660,
+      "duration": 5138750,
+      "text": "products"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 106194580,
+      "duration": 1805410,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 108138750,
+      "duration": 6250000,
+      "text": "single-use"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 114527910,
+      "duration": 6805410,
+      "text": "packaging"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:41:44.054242+00:00"
+}

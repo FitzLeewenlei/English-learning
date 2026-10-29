@@ -1,0 +1,127 @@
+{
+  "speechText": "The new smart structures could be very expensive to build.",
+  "audio": "audio/course-examples/cd5899c128e6c69929bab179.mp3",
+  "sha256": "67667e572597d23426bc41d37d0ea302ae96c145ef1b19a86336c7ededbaa2b8",
+  "duration": 4.248,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.258333
+    },
+    {
+      "text": "new",
+      "start": 0.272208,
+      "end": 0.536083
+    },
+    {
+      "text": "smart",
+      "start": 0.55,
+      "end": 0.994458
+    },
+    {
+      "text": "structures",
+      "start": 1.008333,
+      "end": 1.702791
+    },
+    {
+      "text": "could",
+      "start": 1.716666,
+      "end": 1.938874
+    },
+    {
+      "text": "be",
+      "start": 1.952791,
+      "end": 2.105582
+    },
+    {
+      "text": "very",
+      "start": 2.119458,
+      "end": 2.438916
+    },
+    {
+      "text": "expensive",
+      "start": 2.452791,
+      "end": 3.161124
+    },
+    {
+      "text": "to",
+      "start": 3.175,
+      "end": 3.286125
+    },
+    {
+      "text": "build",
+      "start": 3.3,
+      "end": 3.841666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1111250,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2722080,
+      "duration": 2638750,
+      "text": "new"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5500000,
+      "duration": 4444580,
+      "text": "smart"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10083330,
+      "duration": 6944580,
+      "text": "structures"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17166660,
+      "duration": 2222080,
+      "text": "could"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19527910,
+      "duration": 1527910,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21194580,
+      "duration": 3194580,
+      "text": "very"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24527910,
+      "duration": 7083330,
+      "text": "expensive"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31750000,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33000000,
+      "duration": 5416660,
+      "text": "build"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:45:37.667228+00:00"
+}

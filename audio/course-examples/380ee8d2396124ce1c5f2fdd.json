@@ -1,0 +1,116 @@
+{
+  "speechText": "Thousands of years ago, humans collected nuts and fruits.",
+  "audio": "audio/course-examples/380ee8d2396124ce1c5f2fdd.mp3",
+  "sha256": "673f3252fc6ff5706a7c90460a56b67e3ae84cb12e0a50be6035b039eeab2a1b",
+  "duration": 4.608,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Thousands",
+      "start": 0.133333,
+      "end": 0.702791
+    },
+    {
+      "text": "of",
+      "start": 0.716666,
+      "end": 0.827791
+    },
+    {
+      "text": "years",
+      "start": 0.841666,
+      "end": 1.147207
+    },
+    {
+      "text": "ago",
+      "start": 1.161125,
+      "end": 1.55
+    },
+    {
+      "text": "humans",
+      "start": 1.883333,
+      "end": 2.299999
+    },
+    {
+      "text": "collected",
+      "start": 2.313875,
+      "end": 2.938875
+    },
+    {
+      "text": "nuts",
+      "start": 2.952791,
+      "end": 3.341666
+    },
+    {
+      "text": "and",
+      "start": 3.355541,
+      "end": 3.480541
+    },
+    {
+      "text": "fruits",
+      "start": 3.494458,
+      "end": 4.188916
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 5694580,
+      "text": "Thousands"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7166660,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8416660,
+      "duration": 3055410,
+      "text": "years"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11611250,
+      "duration": 3888750,
+      "text": "ago"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18833330,
+      "duration": 4166660,
+      "text": "humans"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23138750,
+      "duration": 6250000,
+      "text": "collected"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29527910,
+      "duration": 3888750,
+      "text": "nuts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33555410,
+      "duration": 1250000,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34944580,
+      "duration": 6944580,
+      "text": "fruits"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:41:16.433634+00:00"
+}

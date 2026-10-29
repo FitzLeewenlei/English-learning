@@ -1,0 +1,160 @@
+{
+  "speechText": "Consumers can refuse the use of unnecessary single-use items when they order takeout.",
+  "audio": "audio/course-examples/1d30b04fed7d485428f41136.mp3",
+  "sha256": "4f035d9f9795a5a16e1d323bd3f8884d1049bbd5923c712c8e96c342a40c368c",
+  "duration": 6.408,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Consumers",
+      "start": 0.101375,
+      "end": 0.920833
+    },
+    {
+      "text": "can",
+      "start": 0.934708,
+      "end": 1.115249
+    },
+    {
+      "text": "refuse",
+      "start": 1.129166,
+      "end": 1.656957
+    },
+    {
+      "text": "the",
+      "start": 1.670833,
+      "end": 1.781958
+    },
+    {
+      "text": "use",
+      "start": 1.795833,
+      "end": 2.184708
+    },
+    {
+      "text": "of",
+      "start": 2.198625,
+      "end": 2.351416
+    },
+    {
+      "text": "unnecessary",
+      "start": 2.365291,
+      "end": 3.212499
+    },
+    {
+      "text": "single-use",
+      "start": 3.226375,
+      "end": 3.906916
+    },
+    {
+      "text": "items",
+      "start": 3.920833,
+      "end": 4.531958
+    },
+    {
+      "text": "when",
+      "start": 4.545833,
+      "end": 4.740291
+    },
+    {
+      "text": "they",
+      "start": 4.754166,
+      "end": 4.893041
+    },
+    {
+      "text": "order",
+      "start": 4.906958,
+      "end": 5.184749
+    },
+    {
+      "text": "takeout",
+      "start": 5.198625,
+      "end": 5.990291
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 8194580,
+      "text": "Consumers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9347080,
+      "duration": 1805410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11291660,
+      "duration": 5277910,
+      "text": "refuse"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16708330,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17958330,
+      "duration": 3888750,
+      "text": "use"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21986250,
+      "duration": 1527910,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23652910,
+      "duration": 8472080,
+      "text": "unnecessary"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32263750,
+      "duration": 6805410,
+      "text": "single-use"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39208330,
+      "duration": 6111250,
+      "text": "items"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45458330,
+      "duration": 1944580,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47541660,
+      "duration": 1388750,
+      "text": "they"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49069580,
+      "duration": 2777910,
+      "text": "order"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51986250,
+      "duration": 7916660,
+      "text": "takeout"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:58.289549+00:00"
+}

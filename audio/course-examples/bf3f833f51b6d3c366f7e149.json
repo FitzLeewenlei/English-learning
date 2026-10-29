@@ -1,0 +1,193 @@
+{
+  "speechText": "Indeed, the health benefits of jumping rope are many and affect multiple systems throughout the body.",
+  "audio": "audio/course-examples/bf3f833f51b6d3c366f7e149.mp3",
+  "sha256": "7e2e9bfd604970a4bc2b4d391438c4d863a0dad1f030e2563f3b9795eaf4a103",
+  "duration": 6.768,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Indeed",
+      "start": 0.147208,
+      "end": 0.744416
+    },
+    {
+      "text": "the",
+      "start": 1.05,
+      "end": 1.133333
+    },
+    {
+      "text": "health",
+      "start": 1.147208,
+      "end": 1.466666
+    },
+    {
+      "text": "benefits",
+      "start": 1.480541,
+      "end": 1.994416
+    },
+    {
+      "text": "of",
+      "start": 2.008333,
+      "end": 2.133333
+    },
+    {
+      "text": "jumping",
+      "start": 2.147208,
+      "end": 2.577749
+    },
+    {
+      "text": "rope",
+      "start": 2.591666,
+      "end": 2.938874
+    },
+    {
+      "text": "are",
+      "start": 2.952791,
+      "end": 3.063916
+    },
+    {
+      "text": "many",
+      "start": 3.077791,
+      "end": 3.577791
+    },
+    {
+      "text": "and",
+      "start": 3.591666,
+      "end": 3.758332
+    },
+    {
+      "text": "affect",
+      "start": 3.772208,
+      "end": 4.244416
+    },
+    {
+      "text": "multiple",
+      "start": 4.258333,
+      "end": 4.772208
+    },
+    {
+      "text": "systems",
+      "start": 4.786125,
+      "end": 5.369458
+    },
+    {
+      "text": "throughout",
+      "start": 5.383333,
+      "end": 5.786124
+    },
+    {
+      "text": "the",
+      "start": 5.8,
+      "end": 5.897208
+    },
+    {
+      "text": "body",
+      "start": 5.911125,
+      "end": 6.355583
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 5972080,
+      "text": "Indeed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10500000,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11472080,
+      "duration": 3194580,
+      "text": "health"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14805410,
+      "duration": 5138750,
+      "text": "benefits"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20083330,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21472080,
+      "duration": 4305410,
+      "text": "jumping"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 3472080,
+      "text": "rope"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29527910,
+      "duration": 1111250,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30777910,
+      "duration": 5000000,
+      "text": "many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35916660,
+      "duration": 1666660,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37722080,
+      "duration": 4722080,
+      "text": "affect"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42583330,
+      "duration": 5138750,
+      "text": "multiple"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47861250,
+      "duration": 5833330,
+      "text": "systems"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53833330,
+      "duration": 4027910,
+      "text": "throughout"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58000000,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59111250,
+      "duration": 4444580,
+      "text": "body"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:44:21.126203+00:00"
+}

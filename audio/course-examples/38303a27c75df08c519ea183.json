@@ -1,0 +1,171 @@
+{
+  "speechText": "Reading non-fiction and fiction improves your understanding of people and the world around you.",
+  "audio": "audio/course-examples/38303a27c75df08c519ea183.mp3",
+  "sha256": "43ba27b1bebff861f0a2290191bc77f2204038d2046acdb0d09b5413446890dc",
+  "duration": 6.12,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Reading",
+      "start": 0.133333,
+      "end": 0.577791
+    },
+    {
+      "text": "non-fiction",
+      "start": 0.591666,
+      "end": 1.299999
+    },
+    {
+      "text": "and",
+      "start": 1.313875,
+      "end": 1.45275
+    },
+    {
+      "text": "fiction",
+      "start": 1.466666,
+      "end": 2.077791
+    },
+    {
+      "text": "improves",
+      "start": 2.091666,
+      "end": 2.688874
+    },
+    {
+      "text": "your",
+      "start": 2.702791,
+      "end": 2.855582
+    },
+    {
+      "text": "understanding",
+      "start": 2.869458,
+      "end": 3.633333
+    },
+    {
+      "text": "of",
+      "start": 3.647208,
+      "end": 3.772208
+    },
+    {
+      "text": "people",
+      "start": 3.786125,
+      "end": 4.341666
+    },
+    {
+      "text": "and",
+      "start": 4.355541,
+      "end": 4.494416
+    },
+    {
+      "text": "the",
+      "start": 4.508333,
+      "end": 4.605541
+    },
+    {
+      "text": "world",
+      "start": 4.619458,
+      "end": 4.980583
+    },
+    {
+      "text": "around",
+      "start": 4.994458,
+      "end": 5.397249
+    },
+    {
+      "text": "you",
+      "start": 5.411125,
+      "end": 5.716666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 4444580,
+      "text": "Reading"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5916660,
+      "duration": 7083330,
+      "text": "non-fiction"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13138750,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14666660,
+      "duration": 6111250,
+      "text": "fiction"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20916660,
+      "duration": 5972080,
+      "text": "improves"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27027910,
+      "duration": 1527910,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28694580,
+      "duration": 7638750,
+      "text": "understanding"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36472080,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37861250,
+      "duration": 5555410,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43555410,
+      "duration": 1388750,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45083330,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46194580,
+      "duration": 3611250,
+      "text": "world"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49944580,
+      "duration": 4027910,
+      "text": "around"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54111250,
+      "duration": 3055410,
+      "text": "you"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:44:39.069074+00:00"
+}

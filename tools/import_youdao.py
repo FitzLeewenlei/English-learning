@@ -137,8 +137,12 @@ def explicit_alias(payload):
 
 def select_source_senses(query, groups):
     senses = []
+    name_only_record = bool(groups) and all(
+        pos == "【名】" or all(re.search(r"人名|姓氏|（姓）", text) for text in phrases)
+        for pos, phrases in groups.items()
+    )
     for pos, phrases in groups.items():
-        if normalize(query) not in PROPER_NAMES:
+        if normalize(query) not in PROPER_NAMES and not name_only_record:
             if pos == "【名】":
                 continue
             phrases = [text for text in phrases if not re.search(r"人名|姓氏|（姓）", text)]
@@ -194,6 +198,7 @@ def parse_record(payload, query):
     if speech and (parameters.get("type", ["1"])[0] != "1" or normalize(audio_query) != normalize(query)):
         raise Unresolved("UK recording reference does not match the queried form/type=1")
     groups = OrderedDict()
+    unparsed_senses = []
     trs = word.get("trs", [])
     if not isinstance(trs, list):
         raise Unresolved("Unrecognized dictionary sense list (trs)")
@@ -211,7 +216,10 @@ def parse_record(payload, query):
                     for line in text.splitlines():
                         match = POS.match(line.strip()) or NAMED_POS.match(line.strip())
                         if not match:
-                            raise Unresolved("Legacy sense lacks an explicit source POS label")
+                            # Preserve independently labelled senses; never infer a
+                            # POS for a separate unlabelled source line.
+                            unparsed_senses.append(line.strip())
+                            continue
                         pairs.append(match.groups())
         else:
             raise Unresolved("Unrecognized sense schema; expected pos/tran or tr/l/i")
@@ -230,7 +238,8 @@ def parse_record(payload, query):
     return {"query": query, "headword": returned, "lemma": word.get("prototype", returned),
             "ipa": "/" + ipa.strip().strip("/") + "/" if ipa else "",
             "senses": senses,
-            "audio_query": audio_query, "missing": missing}
+            "audio_query": audio_query, "missing": missing,
+            "unparsed_senses": unparsed_senses}
 
 
 class Downloader:

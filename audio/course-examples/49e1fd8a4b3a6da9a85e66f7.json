@@ -1,0 +1,303 @@
+{
+  "speechText": "A class is said rather vaguely to consist of a group of persons sharing similar occupations and incomes, and as a consequence similar life-styles and beliefs.",
+  "audio": "audio/course-examples/49e1fd8a4b3a6da9a85e66f7.mp3",
+  "sha256": "8c8ab5f56ad567e56a143953ba72d791c8da3e2e35f50941d67c3472e9c12b7f",
+  "duration": 10.368,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "A",
+      "start": 0.147208,
+      "end": 0.230541
+    },
+    {
+      "text": "class",
+      "start": 0.244458,
+      "end": 0.661124
+    },
+    {
+      "text": "is",
+      "start": 0.675,
+      "end": 0.8
+    },
+    {
+      "text": "said",
+      "start": 0.813875,
+      "end": 1.119416
+    },
+    {
+      "text": "rather",
+      "start": 1.133333,
+      "end": 1.466666
+    },
+    {
+      "text": "vaguely",
+      "start": 1.480541,
+      "end": 1.938874
+    },
+    {
+      "text": "to",
+      "start": 1.952791,
+      "end": 2.063916
+    },
+    {
+      "text": "consist",
+      "start": 2.077791,
+      "end": 2.633332
+    },
+    {
+      "text": "of",
+      "start": 2.647208,
+      "end": 2.744416
+    },
+    {
+      "text": "a",
+      "start": 2.758333,
+      "end": 2.827791
+    },
+    {
+      "text": "group",
+      "start": 2.841666,
+      "end": 3.119457
+    },
+    {
+      "text": "of",
+      "start": 3.133333,
+      "end": 3.272208
+    },
+    {
+      "text": "persons",
+      "start": 3.286125,
+      "end": 3.938916
+    },
+    {
+      "text": "sharing",
+      "start": 3.952791,
+      "end": 4.341666
+    },
+    {
+      "text": "similar",
+      "start": 4.355541,
+      "end": 4.772207
+    },
+    {
+      "text": "occupations",
+      "start": 4.786125,
+      "end": 5.633333
+    },
+    {
+      "text": "and",
+      "start": 5.647208,
+      "end": 5.772208
+    },
+    {
+      "text": "incomes",
+      "start": 5.786125,
+      "end": 6.438916
+    },
+    {
+      "text": "and",
+      "start": 6.772208,
+      "end": 6.938874
+    },
+    {
+      "text": "as",
+      "start": 6.952791,
+      "end": 7.063916
+    },
+    {
+      "text": "a",
+      "start": 7.077791,
+      "end": 7.147249
+    },
+    {
+      "text": "consequence",
+      "start": 7.161125,
+      "end": 7.869458
+    },
+    {
+      "text": "similar",
+      "start": 7.883333,
+      "end": 8.272208
+    },
+    {
+      "text": "life-styles",
+      "start": 8.286125,
+      "end": 9.05
+    },
+    {
+      "text": "and",
+      "start": 9.063875,
+      "end": 9.230541
+    },
+    {
+      "text": "beliefs",
+      "start": 9.244458,
+      "end": 9.952791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 833330,
+      "text": "A"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2444580,
+      "duration": 4166660,
+      "text": "class"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6750000,
+      "duration": 1250000,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8138750,
+      "duration": 3055410,
+      "text": "said"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11333330,
+      "duration": 3333330,
+      "text": "rather"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14805410,
+      "duration": 4583330,
+      "text": "vaguely"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19527910,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20777910,
+      "duration": 5555410,
+      "text": "consist"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26472080,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27583330,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28416660,
+      "duration": 2777910,
+      "text": "group"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31333330,
+      "duration": 1388750,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32861250,
+      "duration": 6527910,
+      "text": "persons"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39527910,
+      "duration": 3888750,
+      "text": "sharing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43555410,
+      "duration": 4166660,
+      "text": "similar"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47861250,
+      "duration": 8472080,
+      "text": "occupations"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56472080,
+      "duration": 1250000,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57861250,
+      "duration": 6527910,
+      "text": "incomes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67722080,
+      "duration": 1666660,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 69527910,
+      "duration": 1111250,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70777910,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71611250,
+      "duration": 7083330,
+      "text": "consequence"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 78833330,
+      "duration": 3888750,
+      "text": "similar"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82861250,
+      "duration": 7638750,
+      "text": "life-styles"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 90638750,
+      "duration": 1666660,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 92444580,
+      "duration": 7083330,
+      "text": "beliefs"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:42:34.628245+00:00"
+}

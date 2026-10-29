@@ -1,0 +1,204 @@
+{
+  "speechText": "Or use a search tool to see if the same image has been used in other contexts.",
+  "audio": "audio/course-examples/5862866dbf232f878fb75705.mp3",
+  "sha256": "8b3eb75318bc45d4fd2c547661679be2c86aaa8879e0f45de67e960a9f51cfc4",
+  "duration": 5.496,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Or",
+      "start": 0.119458,
+      "end": 0.258333
+    },
+    {
+      "text": "use",
+      "start": 0.272208,
+      "end": 0.591666
+    },
+    {
+      "text": "a",
+      "start": 0.605541,
+      "end": 0.688874
+    },
+    {
+      "text": "search",
+      "start": 0.702791,
+      "end": 1.105582
+    },
+    {
+      "text": "tool",
+      "start": 1.119458,
+      "end": 1.494458
+    },
+    {
+      "text": "to",
+      "start": 1.508333,
+      "end": 1.619458
+    },
+    {
+      "text": "see",
+      "start": 1.633333,
+      "end": 2.008333
+    },
+    {
+      "text": "if",
+      "start": 2.022208,
+      "end": 2.188874
+    },
+    {
+      "text": "the",
+      "start": 2.202791,
+      "end": 2.313916
+    },
+    {
+      "text": "same",
+      "start": 2.327791,
+      "end": 2.661124
+    },
+    {
+      "text": "image",
+      "start": 2.675,
+      "end": 3.008333
+    },
+    {
+      "text": "has",
+      "start": 3.022208,
+      "end": 3.174999
+    },
+    {
+      "text": "been",
+      "start": 3.188875,
+      "end": 3.383333
+    },
+    {
+      "text": "used",
+      "start": 3.397208,
+      "end": 3.813874
+    },
+    {
+      "text": "in",
+      "start": 3.827791,
+      "end": 3.938916
+    },
+    {
+      "text": "other",
+      "start": 3.952791,
+      "end": 4.147249
+    },
+    {
+      "text": "contexts",
+      "start": 4.161125,
+      "end": 5.091666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 1388750,
+      "text": "Or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2722080,
+      "duration": 3194580,
+      "text": "use"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6055410,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7027910,
+      "duration": 4027910,
+      "text": "search"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11194580,
+      "duration": 3750000,
+      "text": "tool"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15083330,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16333330,
+      "duration": 3750000,
+      "text": "see"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20222080,
+      "duration": 1666660,
+      "text": "if"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22027910,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23277910,
+      "duration": 3333330,
+      "text": "same"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26750000,
+      "duration": 3333330,
+      "text": "image"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30222080,
+      "duration": 1527910,
+      "text": "has"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31888750,
+      "duration": 1944580,
+      "text": "been"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33972080,
+      "duration": 4166660,
+      "text": "used"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38277910,
+      "duration": 1111250,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39527910,
+      "duration": 1944580,
+      "text": "other"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41611250,
+      "duration": 9305410,
+      "text": "contexts"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:50:07.174262+00:00"
+}

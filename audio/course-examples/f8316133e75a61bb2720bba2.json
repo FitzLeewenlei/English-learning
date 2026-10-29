@@ -1,0 +1,237 @@
+{
+  "speechText": "My most negative opinion is that we don't have any privacy anymore because everything about us is now recorded someplace.",
+  "audio": "audio/course-examples/f8316133e75a61bb2720bba2.mp3",
+  "sha256": "d5d8f2cd7b0a4a7ccf614cc173964516571f262ba6aa4b40fea18c8a693362a9",
+  "duration": 7.896,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "My",
+      "start": 0.119458,
+      "end": 0.313916
+    },
+    {
+      "text": "most",
+      "start": 0.327791,
+      "end": 0.688916
+    },
+    {
+      "text": "negative",
+      "start": 0.702791,
+      "end": 1.188916
+    },
+    {
+      "text": "opinion",
+      "start": 1.202791,
+      "end": 1.799999
+    },
+    {
+      "text": "is",
+      "start": 1.813875,
+      "end": 2.022208
+    },
+    {
+      "text": "that",
+      "start": 2.036125,
+      "end": 2.216666
+    },
+    {
+      "text": "we",
+      "start": 2.230541,
+      "end": 2.341666
+    },
+    {
+      "text": "don't",
+      "start": 2.355541,
+      "end": 2.605541
+    },
+    {
+      "text": "have",
+      "start": 2.619458,
+      "end": 2.813916
+    },
+    {
+      "text": "any",
+      "start": 2.827791,
+      "end": 3.036124
+    },
+    {
+      "text": "privacy",
+      "start": 3.05,
+      "end": 3.605541
+    },
+    {
+      "text": "anymore",
+      "start": 3.619458,
+      "end": 4.147249
+    },
+    {
+      "text": "because",
+      "start": 4.161125,
+      "end": 4.577791
+    },
+    {
+      "text": "everything",
+      "start": 4.591666,
+      "end": 5.036124
+    },
+    {
+      "text": "about",
+      "start": 5.05,
+      "end": 5.411125
+    },
+    {
+      "text": "us",
+      "start": 5.425,
+      "end": 5.661125
+    },
+    {
+      "text": "is",
+      "start": 5.675,
+      "end": 5.813875
+    },
+    {
+      "text": "now",
+      "start": 5.827791,
+      "end": 6.119457
+    },
+    {
+      "text": "recorded",
+      "start": 6.133333,
+      "end": 6.661124
+    },
+    {
+      "text": "someplace",
+      "start": 6.675,
+      "end": 7.480541
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 1944580,
+      "text": "My"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3277910,
+      "duration": 3611250,
+      "text": "most"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7027910,
+      "duration": 4861250,
+      "text": "negative"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12027910,
+      "duration": 5972080,
+      "text": "opinion"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18138750,
+      "duration": 2083330,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20361250,
+      "duration": 1805410,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22305410,
+      "duration": 1111250,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23555410,
+      "duration": 2500000,
+      "text": "don't"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26194580,
+      "duration": 1944580,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28277910,
+      "duration": 2083330,
+      "text": "any"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30500000,
+      "duration": 5555410,
+      "text": "privacy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36194580,
+      "duration": 5277910,
+      "text": "anymore"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41611250,
+      "duration": 4166660,
+      "text": "because"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45916660,
+      "duration": 4444580,
+      "text": "everything"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50500000,
+      "duration": 3611250,
+      "text": "about"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54250000,
+      "duration": 2361250,
+      "text": "us"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56750000,
+      "duration": 1388750,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58277910,
+      "duration": 2916660,
+      "text": "now"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61333330,
+      "duration": 5277910,
+      "text": "recorded"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66750000,
+      "duration": 8055410,
+      "text": "someplace"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:40:42.126601+00:00"
+}

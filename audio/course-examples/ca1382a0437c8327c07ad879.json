@@ -1,0 +1,182 @@
+{
+  "speechText": "You’ll be fined unless you return the books to the school library by this weekend.",
+  "audio": "audio/course-examples/ca1382a0437c8327c07ad879.mp3",
+  "sha256": "ecc4049b6648d927790363c6fc050829193ce30d4aed2654c720a8677d539f8a",
+  "duration": 5.376,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "You’ll",
+      "start": 0.147208,
+      "end": 0.369416
+    },
+    {
+      "text": "be",
+      "start": 0.383333,
+      "end": 0.522208
+    },
+    {
+      "text": "fined",
+      "start": 0.536125,
+      "end": 1.063916
+    },
+    {
+      "text": "unless",
+      "start": 1.077791,
+      "end": 1.494457
+    },
+    {
+      "text": "you",
+      "start": 1.508333,
+      "end": 1.619458
+    },
+    {
+      "text": "return",
+      "start": 1.633333,
+      "end": 2.063874
+    },
+    {
+      "text": "the",
+      "start": 2.077791,
+      "end": 2.188916
+    },
+    {
+      "text": "books",
+      "start": 2.202791,
+      "end": 2.591666
+    },
+    {
+      "text": "to",
+      "start": 2.605541,
+      "end": 2.716666
+    },
+    {
+      "text": "the",
+      "start": 2.730541,
+      "end": 2.841666
+    },
+    {
+      "text": "school",
+      "start": 2.855541,
+      "end": 3.202749
+    },
+    {
+      "text": "library",
+      "start": 3.216666,
+      "end": 3.772207
+    },
+    {
+      "text": "by",
+      "start": 3.786125,
+      "end": 3.980583
+    },
+    {
+      "text": "this",
+      "start": 3.994458,
+      "end": 4.244458
+    },
+    {
+      "text": "weekend",
+      "start": 4.258333,
+      "end": 4.966666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2222080,
+      "text": "You’ll"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3833330,
+      "duration": 1388750,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5361250,
+      "duration": 5277910,
+      "text": "fined"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10777910,
+      "duration": 4166660,
+      "text": "unless"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15083330,
+      "duration": 1111250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16333330,
+      "duration": 4305410,
+      "text": "return"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20777910,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22027910,
+      "duration": 3888750,
+      "text": "books"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26055410,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27305410,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28555410,
+      "duration": 3472080,
+      "text": "school"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32166660,
+      "duration": 5555410,
+      "text": "library"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37861250,
+      "duration": 1944580,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39944580,
+      "duration": 2500000,
+      "text": "this"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42583330,
+      "duration": 7083330,
+      "text": "weekend"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:42:13.231158+00:00"
+}

@@ -1,0 +1,270 @@
+{
+  "speechText": "She was wearing skintight pedal pushers, a flashy, floppy top, and sneakers with no socks bizarrely inappropriate even at our very informal company.",
+  "audio": "audio/course-examples/82794322d7ee45f7c3eeacc1.mp3",
+  "sha256": "277af11958f4401ddf1293d63f4f715693cd3ed3edc1de53fccfbba96a4f1d69",
+  "duration": 10.392,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "She",
+      "start": 0.133333,
+      "end": 0.313874
+    },
+    {
+      "text": "was",
+      "start": 0.327791,
+      "end": 0.494457
+    },
+    {
+      "text": "wearing",
+      "start": 0.508333,
+      "end": 0.938874
+    },
+    {
+      "text": "skintight",
+      "start": 0.952791,
+      "end": 1.633332
+    },
+    {
+      "text": "pedal",
+      "start": 1.647208,
+      "end": 1.952749
+    },
+    {
+      "text": "pushers",
+      "start": 1.966666,
+      "end": 2.536124
+    },
+    {
+      "text": "a",
+      "start": 2.813875,
+      "end": 2.8555409
+    },
+    {
+      "text": "flashy",
+      "start": 2.869458,
+      "end": 3.494458
+    },
+    {
+      "text": "floppy",
+      "start": 3.772208,
+      "end": 4.133333
+    },
+    {
+      "text": "top",
+      "start": 4.147208,
+      "end": 4.563874
+    },
+    {
+      "text": "and",
+      "start": 4.883333,
+      "end": 4.994458
+    },
+    {
+      "text": "sneakers",
+      "start": 5.008333,
+      "end": 5.605541
+    },
+    {
+      "text": "with",
+      "start": 5.619458,
+      "end": 5.786124
+    },
+    {
+      "text": "no",
+      "start": 5.8,
+      "end": 6.008333
+    },
+    {
+      "text": "socks",
+      "start": 6.022208,
+      "end": 6.480541
+    },
+    {
+      "text": "bizarrely",
+      "start": 6.494458,
+      "end": 7.008333
+    },
+    {
+      "text": "inappropriate",
+      "start": 7.022208,
+      "end": 7.911083
+    },
+    {
+      "text": "even",
+      "start": 7.925,
+      "end": 8.188875
+    },
+    {
+      "text": "at",
+      "start": 8.202791,
+      "end": 8.369457
+    },
+    {
+      "text": "our",
+      "start": 8.383333,
+      "end": 8.508333
+    },
+    {
+      "text": "very",
+      "start": 8.522208,
+      "end": 8.827749
+    },
+    {
+      "text": "informal",
+      "start": 8.841666,
+      "end": 9.383332
+    },
+    {
+      "text": "company",
+      "start": 9.397208,
+      "end": 9.966666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1805410,
+      "text": "She"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3277910,
+      "duration": 1666660,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5083330,
+      "duration": 4305410,
+      "text": "wearing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9527910,
+      "duration": 6805410,
+      "text": "skintight"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16472080,
+      "duration": 3055410,
+      "text": "pedal"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19666660,
+      "duration": 5694580,
+      "text": "pushers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28138750,
+      "duration": 416659,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28694580,
+      "duration": 6250000,
+      "text": "flashy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37722080,
+      "duration": 3611250,
+      "text": "floppy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41472080,
+      "duration": 4166660,
+      "text": "top"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48833330,
+      "duration": 1111250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50083330,
+      "duration": 5972080,
+      "text": "sneakers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56194580,
+      "duration": 1666660,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58000000,
+      "duration": 2083330,
+      "text": "no"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60222080,
+      "duration": 4583330,
+      "text": "socks"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64944580,
+      "duration": 5138750,
+      "text": "bizarrely"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70222080,
+      "duration": 8888750,
+      "text": "inappropriate"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79250000,
+      "duration": 2638750,
+      "text": "even"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 82027910,
+      "duration": 1666660,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 83833330,
+      "duration": 1250000,
+      "text": "our"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 85222080,
+      "duration": 3055410,
+      "text": "very"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 88416660,
+      "duration": 5416660,
+      "text": "informal"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 93972080,
+      "duration": 5694580,
+      "text": "company"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:25.739262+00:00"
+}

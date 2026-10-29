@@ -1,0 +1,105 @@
+{
+  "speechText": "Should we produce soldiers to do our fighting?",
+  "audio": "audio/course-examples/8ba26d5593ad2be496ed8d97.mp3",
+  "sha256": "b53d4c7c5e38ec1d65c30a91381ed08fc2d1a3ac68a420ec40899541276d544a",
+  "duration": 3.336,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Should",
+      "start": 0.119458,
+      "end": 0.397249
+    },
+    {
+      "text": "we",
+      "start": 0.411125,
+      "end": 0.563916
+    },
+    {
+      "text": "produce",
+      "start": 0.577791,
+      "end": 1.077791
+    },
+    {
+      "text": "soldiers",
+      "start": 1.091666,
+      "end": 1.702791
+    },
+    {
+      "text": "to",
+      "start": 1.716666,
+      "end": 1.841666
+    },
+    {
+      "text": "do",
+      "start": 1.855541,
+      "end": 2.049999
+    },
+    {
+      "text": "our",
+      "start": 2.063875,
+      "end": 2.20275
+    },
+    {
+      "text": "fighting",
+      "start": 2.216666,
+      "end": 2.924999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 2777910,
+      "text": "Should"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4111250,
+      "duration": 1527910,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5777910,
+      "duration": 5000000,
+      "text": "produce"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10916660,
+      "duration": 6111250,
+      "text": "soldiers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17166660,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18555410,
+      "duration": 1944580,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20638750,
+      "duration": 1388750,
+      "text": "our"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22166660,
+      "duration": 7083330,
+      "text": "fighting"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:40:55.378422+00:00"
+}

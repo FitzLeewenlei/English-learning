@@ -1,0 +1,193 @@
+{
+  "speechText": "Although quitting drinking can be difficult, you will never be sorry if you make this decision.",
+  "audio": "audio/course-examples/e8174a3aba6f38104147c37b.mp3",
+  "sha256": "6a156870484207f0429a068ccfbc9e1af0cefc8f12bdf38c52dec5b72e3c08fc",
+  "duration": 6.0,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Although",
+      "start": 0.119458,
+      "end": 0.563916
+    },
+    {
+      "text": "quitting",
+      "start": 0.577791,
+      "end": 1.008332
+    },
+    {
+      "text": "drinking",
+      "start": 1.022208,
+      "end": 1.522208
+    },
+    {
+      "text": "can",
+      "start": 1.536125,
+      "end": 1.730583
+    },
+    {
+      "text": "be",
+      "start": 1.744458,
+      "end": 1.869458
+    },
+    {
+      "text": "difficult",
+      "start": 1.883333,
+      "end": 2.577791
+    },
+    {
+      "text": "you",
+      "start": 2.925,
+      "end": 3.022208
+    },
+    {
+      "text": "will",
+      "start": 3.036125,
+      "end": 3.175
+    },
+    {
+      "text": "never",
+      "start": 3.188875,
+      "end": 3.494416
+    },
+    {
+      "text": "be",
+      "start": 3.508333,
+      "end": 3.647208
+    },
+    {
+      "text": "sorry",
+      "start": 3.661125,
+      "end": 4.133333
+    },
+    {
+      "text": "if",
+      "start": 4.147208,
+      "end": 4.327749
+    },
+    {
+      "text": "you",
+      "start": 4.341666,
+      "end": 4.438874
+    },
+    {
+      "text": "make",
+      "start": 4.452791,
+      "end": 4.716666
+    },
+    {
+      "text": "this",
+      "start": 4.730541,
+      "end": 4.911082
+    },
+    {
+      "text": "decision",
+      "start": 4.925,
+      "end": 5.577791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 4444580,
+      "text": "Although"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5777910,
+      "duration": 4305410,
+      "text": "quitting"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10222080,
+      "duration": 5000000,
+      "text": "drinking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 1944580,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17444580,
+      "duration": 1250000,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18833330,
+      "duration": 6944580,
+      "text": "difficult"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29250000,
+      "duration": 972080,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30361250,
+      "duration": 1388750,
+      "text": "will"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31888750,
+      "duration": 3055410,
+      "text": "never"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35083330,
+      "duration": 1388750,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36611250,
+      "duration": 4722080,
+      "text": "sorry"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41472080,
+      "duration": 1805410,
+      "text": "if"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43416660,
+      "duration": 972080,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44527910,
+      "duration": 2638750,
+      "text": "make"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47305410,
+      "duration": 1805410,
+      "text": "this"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49250000,
+      "duration": 6527910,
+      "text": "decision"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:32.157657+00:00"
+}

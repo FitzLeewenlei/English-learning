@@ -1,0 +1,226 @@
+{
+  "speechText": "Because of such benefits, many want to participate in the activity, though some do not know where to begin.",
+  "audio": "audio/course-examples/97c46a3a8d31451389454cf3.mp3",
+  "sha256": "57ce42c2012cff60ead67e7a6b7ff5d2e666b85d984d837bfcee6b73a350b664",
+  "duration": 7.152,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Because",
+      "start": 0.101375,
+      "end": 0.531916
+    },
+    {
+      "text": "of",
+      "start": 0.545833,
+      "end": 0.656958
+    },
+    {
+      "text": "such",
+      "start": 0.670833,
+      "end": 0.976374
+    },
+    {
+      "text": "benefits",
+      "start": 0.990291,
+      "end": 1.726416
+    },
+    {
+      "text": "many",
+      "start": 1.9625,
+      "end": 2.240291
+    },
+    {
+      "text": "want",
+      "start": 2.254166,
+      "end": 2.518041
+    },
+    {
+      "text": "to",
+      "start": 2.531958,
+      "end": 2.615291
+    },
+    {
+      "text": "participate",
+      "start": 2.629166,
+      "end": 3.420832
+    },
+    {
+      "text": "in",
+      "start": 3.434708,
+      "end": 3.518041
+    },
+    {
+      "text": "the",
+      "start": 3.531958,
+      "end": 3.629166
+    },
+    {
+      "text": "activity",
+      "start": 3.643041,
+      "end": 4.393041
+    },
+    {
+      "text": "though",
+      "start": 4.754166,
+      "end": 4.920832
+    },
+    {
+      "text": "some",
+      "start": 4.934708,
+      "end": 5.212499
+    },
+    {
+      "text": "do",
+      "start": 5.226375,
+      "end": 5.36525
+    },
+    {
+      "text": "not",
+      "start": 5.379166,
+      "end": 5.643041
+    },
+    {
+      "text": "know",
+      "start": 5.656958,
+      "end": 5.837499
+    },
+    {
+      "text": "where",
+      "start": 5.851375,
+      "end": 6.045833
+    },
+    {
+      "text": "to",
+      "start": 6.059708,
+      "end": 6.198583
+    },
+    {
+      "text": "begin",
+      "start": 6.2125,
+      "end": 6.740291
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 4305410,
+      "text": "Because"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5458330,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6708330,
+      "duration": 3055410,
+      "text": "such"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9902910,
+      "duration": 7361250,
+      "text": "benefits"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19625000,
+      "duration": 2777910,
+      "text": "many"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22541660,
+      "duration": 2638750,
+      "text": "want"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25319580,
+      "duration": 833330,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26291660,
+      "duration": 7916660,
+      "text": "participate"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34347080,
+      "duration": 833330,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35319580,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36430410,
+      "duration": 7500000,
+      "text": "activity"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47541660,
+      "duration": 1666660,
+      "text": "though"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49347080,
+      "duration": 2777910,
+      "text": "some"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52263750,
+      "duration": 1388750,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53791660,
+      "duration": 2638750,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56569580,
+      "duration": 1805410,
+      "text": "know"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58513750,
+      "duration": 1944580,
+      "text": "where"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60597080,
+      "duration": 1388750,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62125000,
+      "duration": 5277910,
+      "text": "begin"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:39:47.789892+00:00"
+}

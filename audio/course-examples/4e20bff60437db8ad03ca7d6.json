@@ -1,0 +1,171 @@
+{
+  "speechText": "An actor named Steve Roach thinks that people collect things to remember their childhood.",
+  "audio": "audio/course-examples/4e20bff60437db8ad03ca7d6.mp3",
+  "sha256": "985e6713d3aeae183eb6cf5b2bd46fb2201286e7df9cf3a9834af713a0cb685a",
+  "duration": 5.688,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "An",
+      "start": 0.119458,
+      "end": 0.272249
+    },
+    {
+      "text": "actor",
+      "start": 0.286125,
+      "end": 0.688916
+    },
+    {
+      "text": "named",
+      "start": 0.702791,
+      "end": 1.022249
+    },
+    {
+      "text": "Steve",
+      "start": 1.036125,
+      "end": 1.425
+    },
+    {
+      "text": "Roach",
+      "start": 1.438875,
+      "end": 1.869416
+    },
+    {
+      "text": "thinks",
+      "start": 1.883333,
+      "end": 2.272208
+    },
+    {
+      "text": "that",
+      "start": 2.286125,
+      "end": 2.480583
+    },
+    {
+      "text": "people",
+      "start": 2.494458,
+      "end": 2.855583
+    },
+    {
+      "text": "collect",
+      "start": 2.869458,
+      "end": 3.286124
+    },
+    {
+      "text": "things",
+      "start": 3.3,
+      "end": 3.688875
+    },
+    {
+      "text": "to",
+      "start": 3.702791,
+      "end": 3.827791
+    },
+    {
+      "text": "remember",
+      "start": 3.841666,
+      "end": 4.299999
+    },
+    {
+      "text": "their",
+      "start": 4.313875,
+      "end": 4.466666
+    },
+    {
+      "text": "childhood",
+      "start": 4.480541,
+      "end": 5.272207
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 1527910,
+      "text": "An"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 4027910,
+      "text": "actor"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7027910,
+      "duration": 3194580,
+      "text": "named"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10361250,
+      "duration": 3888750,
+      "text": "Steve"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14388750,
+      "duration": 4305410,
+      "text": "Roach"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18833330,
+      "duration": 3888750,
+      "text": "thinks"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22861250,
+      "duration": 1944580,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24944580,
+      "duration": 3611250,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28694580,
+      "duration": 4166660,
+      "text": "collect"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33000000,
+      "duration": 3888750,
+      "text": "things"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37027910,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38416660,
+      "duration": 4583330,
+      "text": "remember"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43138750,
+      "duration": 1527910,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44805410,
+      "duration": 7916660,
+      "text": "childhood"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:39:28.066420+00:00"
+}

@@ -1,0 +1,116 @@
+{
+  "speechText": "However, the cost of studying is on the rise.",
+  "audio": "audio/course-examples/18649039aceebe8d8f4af230.mp3",
+  "sha256": "2db762085b561b563cad4a686cbb6ec195ae9122246e769c4d59813e078b662f",
+  "duration": 3.816,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "However",
+      "start": 0.147208,
+      "end": 0.758333
+    },
+    {
+      "text": "the",
+      "start": 1.05,
+      "end": 1.147208
+    },
+    {
+      "text": "cost",
+      "start": 1.161125,
+      "end": 1.52225
+    },
+    {
+      "text": "of",
+      "start": 1.536125,
+      "end": 1.64725
+    },
+    {
+      "text": "studying",
+      "start": 1.661125,
+      "end": 2.313916
+    },
+    {
+      "text": "is",
+      "start": 2.327791,
+      "end": 2.480582
+    },
+    {
+      "text": "on",
+      "start": 2.494458,
+      "end": 2.647249
+    },
+    {
+      "text": "the",
+      "start": 2.661125,
+      "end": 2.758333
+    },
+    {
+      "text": "rise",
+      "start": 2.772208,
+      "end": 3.397208
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 6111250,
+      "text": "However"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10500000,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11611250,
+      "duration": 3611250,
+      "text": "cost"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16611250,
+      "duration": 6527910,
+      "text": "studying"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23277910,
+      "duration": 1527910,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24944580,
+      "duration": 1527910,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26611250,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27722080,
+      "duration": 6250000,
+      "text": "rise"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:49:52.631753+00:00"
+}

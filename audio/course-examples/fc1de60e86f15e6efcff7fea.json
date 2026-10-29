@@ -1,0 +1,127 @@
+{
+  "speechText": "Kids are also learning how to have proper phone conversations.",
+  "audio": "audio/course-examples/fc1de60e86f15e6efcff7fea.mp3",
+  "sha256": "60efb7becbe77bbbf5128a42ae376a46ca4b42dce170d2b42273f46240310a7b",
+  "duration": 4.488,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Kids",
+      "start": 0.101375,
+      "end": 0.476375
+    },
+    {
+      "text": "are",
+      "start": 0.490291,
+      "end": 0.601416
+    },
+    {
+      "text": "also",
+      "start": 0.615291,
+      "end": 1.031957
+    },
+    {
+      "text": "learning",
+      "start": 1.045833,
+      "end": 1.601374
+    },
+    {
+      "text": "how",
+      "start": 1.615291,
+      "end": 1.795832
+    },
+    {
+      "text": "to",
+      "start": 1.809708,
+      "end": 1.962499
+    },
+    {
+      "text": "have",
+      "start": 1.976375,
+      "end": 2.226375
+    },
+    {
+      "text": "proper",
+      "start": 2.240291,
+      "end": 2.601416
+    },
+    {
+      "text": "phone",
+      "start": 2.615291,
+      "end": 2.920832
+    },
+    {
+      "text": "conversations",
+      "start": 2.934708,
+      "end": 4.059708
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 3750000,
+      "text": "Kids"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4902910,
+      "duration": 1111250,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6152910,
+      "duration": 4166660,
+      "text": "also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10458330,
+      "duration": 5555410,
+      "text": "learning"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16152910,
+      "duration": 1805410,
+      "text": "how"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18097080,
+      "duration": 1527910,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19763750,
+      "duration": 2500000,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22402910,
+      "duration": 3611250,
+      "text": "proper"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26152910,
+      "duration": 3055410,
+      "text": "phone"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29347080,
+      "duration": 11250000,
+      "text": "conversations"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:40:08.704247+00:00"
+}

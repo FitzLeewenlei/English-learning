@@ -1,0 +1,127 @@
+{
+  "speechText": "As the density of whales increased, their singing behaviors changed.",
+  "audio": "audio/course-examples/ca09aa7e18600b309cfa7b5f.mp3",
+  "sha256": "1c30a75f084c327099433665ad6e79c5eb439b57afd1424b05866269926f0017",
+  "duration": 5.016,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "As",
+      "start": 0.147208,
+      "end": 0.327749
+    },
+    {
+      "text": "the",
+      "start": 0.341666,
+      "end": 0.480541
+    },
+    {
+      "text": "density",
+      "start": 0.494458,
+      "end": 1.077791
+    },
+    {
+      "text": "of",
+      "start": 1.091666,
+      "end": 1.216666
+    },
+    {
+      "text": "whales",
+      "start": 1.230541,
+      "end": 1.661082
+    },
+    {
+      "text": "increased",
+      "start": 1.675,
+      "end": 2.355541
+    },
+    {
+      "text": "their",
+      "start": 2.647208,
+      "end": 2.799999
+    },
+    {
+      "text": "singing",
+      "start": 2.813875,
+      "end": 3.216666
+    },
+    {
+      "text": "behaviors",
+      "start": 3.230541,
+      "end": 3.883332
+    },
+    {
+      "text": "changed",
+      "start": 3.897208,
+      "end": 4.605541
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1805410,
+      "text": "As"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 1388750,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 5833330,
+      "text": "density"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10916660,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12305410,
+      "duration": 4305410,
+      "text": "whales"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16750000,
+      "duration": 6805410,
+      "text": "increased"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26472080,
+      "duration": 1527910,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28138750,
+      "duration": 4027910,
+      "text": "singing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32305410,
+      "duration": 6527910,
+      "text": "behaviors"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38972080,
+      "duration": 7083330,
+      "text": "changed"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:40:16.099396+00:00"
+}

@@ -1,0 +1,237 @@
+{
+  "speechText": "Researchers have found that people who go to concerts, shows and museums can live longer than those who do not.",
+  "audio": "audio/course-examples/c110931840a06eaf864bb6d5.mp3",
+  "sha256": "e4d99dfd513dc89a2c4205ac0bab82350475ad4b4c513c52b1bff23fd6b42c26",
+  "duration": 7.68,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Researchers",
+      "start": 0.119458,
+      "end": 0.924999
+    },
+    {
+      "text": "have",
+      "start": 0.938875,
+      "end": 1.091666
+    },
+    {
+      "text": "found",
+      "start": 1.105541,
+      "end": 1.536082
+    },
+    {
+      "text": "that",
+      "start": 1.55,
+      "end": 1.730541
+    },
+    {
+      "text": "people",
+      "start": 1.744458,
+      "end": 2.119458
+    },
+    {
+      "text": "who",
+      "start": 2.133333,
+      "end": 2.244458
+    },
+    {
+      "text": "go",
+      "start": 2.258333,
+      "end": 2.438874
+    },
+    {
+      "text": "to",
+      "start": 2.452791,
+      "end": 2.577791
+    },
+    {
+      "text": "concerts",
+      "start": 2.591666,
+      "end": 3.341666
+    },
+    {
+      "text": "shows",
+      "start": 3.647208,
+      "end": 4.202749
+    },
+    {
+      "text": "and",
+      "start": 4.3,
+      "end": 4.452791
+    },
+    {
+      "text": "museums",
+      "start": 4.466666,
+      "end": 5.188874
+    },
+    {
+      "text": "can",
+      "start": 5.202791,
+      "end": 5.383332
+    },
+    {
+      "text": "live",
+      "start": 5.397208,
+      "end": 5.591666
+    },
+    {
+      "text": "longer",
+      "start": 5.605541,
+      "end": 6.036082
+    },
+    {
+      "text": "than",
+      "start": 6.05,
+      "end": 6.216666
+    },
+    {
+      "text": "those",
+      "start": 6.230541,
+      "end": 6.494416
+    },
+    {
+      "text": "who",
+      "start": 6.508333,
+      "end": 6.605541
+    },
+    {
+      "text": "do",
+      "start": 6.619458,
+      "end": 6.758333
+    },
+    {
+      "text": "not",
+      "start": 6.772208,
+      "end": 7.272208
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 8055410,
+      "text": "Researchers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9388750,
+      "duration": 1527910,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11055410,
+      "duration": 4305410,
+      "text": "found"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15500000,
+      "duration": 1805410,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17444580,
+      "duration": 3750000,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21333330,
+      "duration": 1111250,
+      "text": "who"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22583330,
+      "duration": 1805410,
+      "text": "go"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24527910,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 7500000,
+      "text": "concerts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36472080,
+      "duration": 5555410,
+      "text": "shows"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43000000,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44666660,
+      "duration": 7222080,
+      "text": "museums"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52027910,
+      "duration": 1805410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53972080,
+      "duration": 1944580,
+      "text": "live"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56055410,
+      "duration": 4305410,
+      "text": "longer"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60500000,
+      "duration": 1666660,
+      "text": "than"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62305410,
+      "duration": 2638750,
+      "text": "those"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 65083330,
+      "duration": 972080,
+      "text": "who"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66194580,
+      "duration": 1388750,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67722080,
+      "duration": 5000000,
+      "text": "not"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:40:00.805083+00:00"
+}

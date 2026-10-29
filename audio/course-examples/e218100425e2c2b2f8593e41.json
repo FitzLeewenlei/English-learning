@@ -1,0 +1,138 @@
+{
+  "speechText": "The emotional problems can be eased by supportive friends and family.",
+  "audio": "audio/course-examples/e218100425e2c2b2f8593e41.mp3",
+  "sha256": "4424dc86ce7aa198918b1d00b28250fe0f0f6a46c7d772166f5b59105a59c80f",
+  "duration": 4.92,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.258333
+    },
+    {
+      "text": "emotional",
+      "start": 0.272208,
+      "end": 0.869416
+    },
+    {
+      "text": "problems",
+      "start": 0.883333,
+      "end": 1.466666
+    },
+    {
+      "text": "can",
+      "start": 1.480541,
+      "end": 1.674999
+    },
+    {
+      "text": "be",
+      "start": 1.688875,
+      "end": 1.82775
+    },
+    {
+      "text": "eased",
+      "start": 1.841666,
+      "end": 2.355541
+    },
+    {
+      "text": "by",
+      "start": 2.369458,
+      "end": 2.536124
+    },
+    {
+      "text": "supportive",
+      "start": 2.55,
+      "end": 3.188875
+    },
+    {
+      "text": "friends",
+      "start": 3.202791,
+      "end": 3.702791
+    },
+    {
+      "text": "and",
+      "start": 3.716666,
+      "end": 3.911124
+    },
+    {
+      "text": "family",
+      "start": 3.925,
+      "end": 4.508333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1111250,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2722080,
+      "duration": 5972080,
+      "text": "emotional"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8833330,
+      "duration": 5833330,
+      "text": "problems"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14805410,
+      "duration": 1944580,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16888750,
+      "duration": 1388750,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18416660,
+      "duration": 5138750,
+      "text": "eased"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23694580,
+      "duration": 1666660,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25500000,
+      "duration": 6388750,
+      "text": "supportive"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32027910,
+      "duration": 5000000,
+      "text": "friends"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37166660,
+      "duration": 1944580,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39250000,
+      "duration": 5833330,
+      "text": "family"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:46:12.624150+00:00"
+}

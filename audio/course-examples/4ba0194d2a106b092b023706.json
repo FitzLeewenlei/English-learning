@@ -1,0 +1,127 @@
+{
+  "speechText": "Although she was sometimes described as pretty, she never married.",
+  "audio": "audio/course-examples/4ba0194d2a106b092b023706.mp3",
+  "sha256": "a0bace07ba98ba94aac02f7fa050a523bfcb428d193dcfdbea2e12005a89fbca",
+  "duration": 4.752,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Although",
+      "start": 0.119458,
+      "end": 0.508333
+    },
+    {
+      "text": "she",
+      "start": 0.522208,
+      "end": 0.702749
+    },
+    {
+      "text": "was",
+      "start": 0.716666,
+      "end": 0.883332
+    },
+    {
+      "text": "sometimes",
+      "start": 0.897208,
+      "end": 1.549999
+    },
+    {
+      "text": "described",
+      "start": 1.563875,
+      "end": 2.216666
+    },
+    {
+      "text": "as",
+      "start": 2.230541,
+      "end": 2.369416
+    },
+    {
+      "text": "pretty",
+      "start": 2.383333,
+      "end": 2.897208
+    },
+    {
+      "text": "she",
+      "start": 3.216666,
+      "end": 3.369457
+    },
+    {
+      "text": "never",
+      "start": 3.383333,
+      "end": 3.702791
+    },
+    {
+      "text": "married",
+      "start": 3.716666,
+      "end": 4.341666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 3888750,
+      "text": "Although"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5222080,
+      "duration": 1805410,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7166660,
+      "duration": 1666660,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 6527910,
+      "text": "sometimes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15638750,
+      "duration": 6527910,
+      "text": "described"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22305410,
+      "duration": 1388750,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23833330,
+      "duration": 5138750,
+      "text": "pretty"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32166660,
+      "duration": 1527910,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33833330,
+      "duration": 3194580,
+      "text": "never"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37166660,
+      "duration": 6250000,
+      "text": "married"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:39:27.190304+00:00"
+}

@@ -1,0 +1,281 @@
+{
+  "speechText": "Should we grow reserve organs for ourselves, each of us having, as it were, a \"savings bank\" full of spare kidneys, livers, or hands?",
+  "audio": "audio/course-examples/e89c98b0dcc409fcfc0eadab.mp3",
+  "sha256": "f1af60ae2414ee9b929e0c812204ce0d2586a67f2acbd28967f5af2fc800e5d7",
+  "duration": 9.696,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Should",
+      "start": 0.133333,
+      "end": 0.397208
+    },
+    {
+      "text": "we",
+      "start": 0.411125,
+      "end": 0.563916
+    },
+    {
+      "text": "grow",
+      "start": 0.577791,
+      "end": 0.883332
+    },
+    {
+      "text": "reserve",
+      "start": 0.897208,
+      "end": 1.383333
+    },
+    {
+      "text": "organs",
+      "start": 1.397208,
+      "end": 1.841666
+    },
+    {
+      "text": "for",
+      "start": 1.855541,
+      "end": 2.008332
+    },
+    {
+      "text": "ourselves",
+      "start": 2.022208,
+      "end": 2.758333
+    },
+    {
+      "text": "each",
+      "start": 3.063875,
+      "end": 3.258333
+    },
+    {
+      "text": "of",
+      "start": 3.272208,
+      "end": 3.383333
+    },
+    {
+      "text": "us",
+      "start": 3.397208,
+      "end": 3.549999
+    },
+    {
+      "text": "having",
+      "start": 3.563875,
+      "end": 4.036083
+    },
+    {
+      "text": "as",
+      "start": 4.216666,
+      "end": 4.369457
+    },
+    {
+      "text": "it",
+      "start": 4.383333,
+      "end": 4.522208
+    },
+    {
+      "text": "were",
+      "start": 4.536125,
+      "end": 4.911125
+    },
+    {
+      "text": "a",
+      "start": 5.244458,
+      "end": 5.2861239
+    },
+    {
+      "text": "savings",
+      "start": 5.3,
+      "end": 5.855541
+    },
+    {
+      "text": "bank",
+      "start": 5.869458,
+      "end": 6.161124
+    },
+    {
+      "text": "full",
+      "start": 6.175,
+      "end": 6.369458
+    },
+    {
+      "text": "of",
+      "start": 6.383333,
+      "end": 6.466666
+    },
+    {
+      "text": "spare",
+      "start": 6.480541,
+      "end": 6.799999
+    },
+    {
+      "text": "kidneys",
+      "start": 6.813875,
+      "end": 7.45275
+    },
+    {
+      "text": "livers",
+      "start": 7.730541,
+      "end": 8.258332
+    },
+    {
+      "text": "or",
+      "start": 8.438875,
+      "end": 8.522208
+    },
+    {
+      "text": "hands",
+      "start": 8.536125,
+      "end": 9.27225
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2638750,
+      "text": "Should"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4111250,
+      "duration": 1527910,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5777910,
+      "duration": 3055410,
+      "text": "grow"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 4861250,
+      "text": "reserve"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13972080,
+      "duration": 4444580,
+      "text": "organs"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18555410,
+      "duration": 1527910,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20222080,
+      "duration": 7361250,
+      "text": "ourselves"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30638750,
+      "duration": 1944580,
+      "text": "each"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32722080,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33972080,
+      "duration": 1527910,
+      "text": "us"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35638750,
+      "duration": 4722080,
+      "text": "having"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42166660,
+      "duration": 1527910,
+      "text": "as"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43833330,
+      "duration": 1388750,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45361250,
+      "duration": 3750000,
+      "text": "were"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52444580,
+      "duration": 416659,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53000000,
+      "duration": 5555410,
+      "text": "savings"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58694580,
+      "duration": 2916660,
+      "text": "bank"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61750000,
+      "duration": 1944580,
+      "text": "full"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63833330,
+      "duration": 833330,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64805410,
+      "duration": 3194580,
+      "text": "spare"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 68138750,
+      "duration": 6388750,
+      "text": "kidneys"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 77305410,
+      "duration": 5277910,
+      "text": "livers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 84388750,
+      "duration": 833330,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 85361250,
+      "duration": 7361250,
+      "text": "hands"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:41:36.852166+00:00"
+}

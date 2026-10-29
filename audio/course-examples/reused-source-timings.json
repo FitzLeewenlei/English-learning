@@ -1,0 +1,1422 @@
+{
+  "audio/20261016-list1/examples/01.mp3": {
+    "sha256": "3067ec12529abed9ccbdb7e14851721a9af03ce573712bc710c0f56f745ea3e3",
+    "words": [
+      {
+        "text": "By",
+        "start": 0.0,
+        "end": 0.18
+      },
+      {
+        "text": "comparison",
+        "start": 0.18,
+        "end": 1.26
+      },
+      {
+        "text": "an",
+        "start": 1.54,
+        "end": 1.77
+      },
+      {
+        "text": "earthquake",
+        "start": 1.77,
+        "end": 2.35
+      },
+      {
+        "text": "of",
+        "start": 2.35,
+        "end": 2.46
+      },
+      {
+        "text": "similar",
+        "start": 2.46,
+        "end": 3.17
+      },
+      {
+        "text": "intensity",
+        "start": 3.17,
+        "end": 4.05
+      },
+      {
+        "text": "that",
+        "start": 4.05,
+        "end": 4.23
+      },
+      {
+        "text": "shook",
+        "start": 4.23,
+        "end": 4.56
+      },
+      {
+        "text": "America",
+        "start": 4.56,
+        "end": 5.23
+      },
+      {
+        "text": "in",
+        "start": 5.23,
+        "end": 5.42
+      },
+      {
+        "text": "1988",
+        "start": 5.42,
+        "end": 7.33
+      },
+      {
+        "text": "claimed",
+        "start": 7.33,
+        "end": 7.89
+      },
+      {
+        "text": "25,000",
+        "start": 7.89,
+        "end": 9.94
+      },
+      {
+        "text": "victims",
+        "start": 9.94,
+        "end": 10.82
+      }
+    ]
+  },
+  "audio/20261016-list1/examples/02.mp3": {
+    "sha256": "c86d2c2002bbfb639223ea17d42e89d9260c6557da56abc2c20a37f8ceebca3f",
+    "words": [
+      {
+        "text": "Thus",
+        "start": 0.0,
+        "end": 0.54
+      },
+      {
+        "text": "for",
+        "start": 0.54,
+        "end": 0.83
+      },
+      {
+        "text": "rats",
+        "start": 0.83,
+        "end": 1.58
+      },
+      {
+        "text": "population",
+        "start": 1.85,
+        "end": 2.88
+      },
+      {
+        "text": "and",
+        "start": 2.88,
+        "end": 3.05
+      },
+      {
+        "text": "violence",
+        "start": 3.05,
+        "end": 3.95
+      },
+      {
+        "text": "are",
+        "start": 3.95,
+        "end": 4.14
+      },
+      {
+        "text": "directly",
+        "start": 4.14,
+        "end": 5.08
+      },
+      {
+        "text": "related",
+        "start": 5.08,
+        "end": 5.87
+      }
+    ]
+  },
+  "audio/20261016-list1/examples/03.mp3": {
+    "sha256": "b25e0b1b6d30c091389ab1e7f20dc4dc0ad40b1a297e1d9bd771ad807f3de9db",
+    "words": [
+      {
+        "text": "The",
+        "start": 0.16,
+        "end": 0.28
+      },
+      {
+        "text": "saying",
+        "start": 0.28,
+        "end": 0.99
+      },
+      {
+        "text": "Shared",
+        "start": 1.23,
+        "end": 1.78
+      },
+      {
+        "text": "sorrow",
+        "start": 1.78,
+        "end": 2.31
+      },
+      {
+        "text": "is",
+        "start": 2.31,
+        "end": 2.73
+      },
+      {
+        "text": "half",
+        "start": 2.73,
+        "end": 3.19
+      },
+      {
+        "text": "a",
+        "start": 3.19,
+        "end": 3.26
+      },
+      {
+        "text": "sorrow",
+        "start": 3.26,
+        "end": 3.73
+      },
+      {
+        "text": "shared",
+        "start": 4.32,
+        "end": 4.74
+      },
+      {
+        "text": "joy",
+        "start": 4.74,
+        "end": 5.3
+      },
+      {
+        "text": "is",
+        "start": 5.3,
+        "end": 5.68
+      },
+      {
+        "text": "double",
+        "start": 5.68,
+        "end": 6.18
+      },
+      {
+        "text": "joy",
+        "start": 6.18,
+        "end": 6.61
+      },
+      {
+        "text": "points",
+        "start": 7.31,
+        "end": 7.64
+      },
+      {
+        "text": "out",
+        "start": 7.64,
+        "end": 7.86
+      },
+      {
+        "text": "the",
+        "start": 7.86,
+        "end": 8.02
+      },
+      {
+        "text": "importance",
+        "start": 8.02,
+        "end": 8.88
+      },
+      {
+        "text": "of",
+        "start": 8.88,
+        "end": 9.07
+      },
+      {
+        "text": "emotional",
+        "start": 9.07,
+        "end": 9.87
+      },
+      {
+        "text": "help",
+        "start": 9.87,
+        "end": 10.43
+      }
+    ]
+  },
+  "audio/20261016-list1/examples/04.mp3": {
+    "sha256": "4bfc729d941161a4530c615243a671d2c26f7477e49758ff1ea48b24f18949e1",
+    "words": [
+      {
+        "text": "Whether",
+        "start": 0.17,
+        "end": 0.43
+      },
+      {
+        "text": "you",
+        "start": 0.43,
+        "end": 0.67
+      },
+      {
+        "text": "volunteer",
+        "start": 0.67,
+        "end": 1.49
+      },
+      {
+        "text": "at",
+        "start": 1.49,
+        "end": 1.62
+      },
+      {
+        "text": "your",
+        "start": 1.62,
+        "end": 1.77
+      },
+      {
+        "text": "local",
+        "start": 1.77,
+        "end": 2.28
+      },
+      {
+        "text": "youth",
+        "start": 2.28,
+        "end": 2.69
+      },
+      {
+        "text": "group",
+        "start": 2.69,
+        "end": 3.25
+      },
+      {
+        "text": "or",
+        "start": 3.25,
+        "end": 3.66
+      },
+      {
+        "text": "take",
+        "start": 3.66,
+        "end": 3.95
+      },
+      {
+        "text": "dogs",
+        "start": 3.95,
+        "end": 4.56
+      },
+      {
+        "text": "from",
+        "start": 4.56,
+        "end": 4.74
+      },
+      {
+        "text": "shelters",
+        "start": 4.74,
+        "end": 5.46
+      },
+      {
+        "text": "for",
+        "start": 5.46,
+        "end": 5.68
+      },
+      {
+        "text": "a",
+        "start": 5.68,
+        "end": 5.72
+      },
+      {
+        "text": "walk",
+        "start": 5.72,
+        "end": 6.33
+      },
+      {
+        "text": "the",
+        "start": 6.82,
+        "end": 6.9
+      },
+      {
+        "text": "simple",
+        "start": 6.9,
+        "end": 7.54
+      },
+      {
+        "text": "fact",
+        "start": 7.54,
+        "end": 8.15
+      },
+      {
+        "text": "that",
+        "start": 8.15,
+        "end": 8.28
+      },
+      {
+        "text": "you",
+        "start": 8.28,
+        "end": 8.53
+      },
+      {
+        "text": "are",
+        "start": 8.53,
+        "end": 8.68
+      },
+      {
+        "text": "giving",
+        "start": 8.68,
+        "end": 9.1
+      },
+      {
+        "text": "up",
+        "start": 9.1,
+        "end": 9.25
+      },
+      {
+        "text": "your",
+        "start": 9.25,
+        "end": 9.54
+      },
+      {
+        "text": "time",
+        "start": 9.54,
+        "end": 10.14
+      },
+      {
+        "text": "to",
+        "start": 10.14,
+        "end": 10.25
+      },
+      {
+        "text": "help",
+        "start": 10.25,
+        "end": 10.62
+      },
+      {
+        "text": "someone",
+        "start": 10.62,
+        "end": 11.21
+      },
+      {
+        "text": "else",
+        "start": 11.21,
+        "end": 11.66
+      },
+      {
+        "text": "is",
+        "start": 11.89,
+        "end": 12.07
+      },
+      {
+        "text": "incredible",
+        "start": 12.07,
+        "end": 13.32
+      }
+    ]
+  },
+  "audio/20261016-list1/examples/05.mp3": {
+    "sha256": "f82a61bff478e74f107b72795b68309764ebe3bd577b20c6c6f89d166f0adcb8",
+    "words": [
+      {
+        "text": "Her",
+        "start": 0.11,
+        "end": 0.28
+      },
+      {
+        "text": "technique",
+        "start": 0.28,
+        "end": 0.92
+      },
+      {
+        "text": "for",
+        "start": 0.92,
+        "end": 1.07
+      },
+      {
+        "text": "making",
+        "start": 1.07,
+        "end": 1.52
+      },
+      {
+        "text": "space",
+        "start": 1.52,
+        "end": 2.32
+      },
+      {
+        "text": "is",
+        "start": 2.32,
+        "end": 2.6
+      },
+      {
+        "text": "to",
+        "start": 2.6,
+        "end": 2.71
+      },
+      {
+        "text": "go",
+        "start": 2.71,
+        "end": 3.04
+      },
+      {
+        "text": "through",
+        "start": 3.04,
+        "end": 3.33
+      },
+      {
+        "text": "things",
+        "start": 3.33,
+        "end": 3.8
+      },
+      {
+        "text": "by",
+        "start": 3.8,
+        "end": 3.98
+      },
+      {
+        "text": "category",
+        "start": 3.98,
+        "end": 4.94
+      },
+      {
+        "text": "starting",
+        "start": 5.33,
+        "end": 5.92
+      },
+      {
+        "text": "with",
+        "start": 5.92,
+        "end": 6.07
+      },
+      {
+        "text": "clothing",
+        "start": 6.07,
+        "end": 6.82
+      },
+      {
+        "text": "then",
+        "start": 7.14,
+        "end": 7.45
+      },
+      {
+        "text": "books",
+        "start": 7.45,
+        "end": 8.24
+      },
+      {
+        "text": "papers",
+        "start": 8.41,
+        "end": 9.15
+      },
+      {
+        "text": "tiny",
+        "start": 9.5,
+        "end": 9.95
+      },
+      {
+        "text": "objects",
+        "start": 9.95,
+        "end": 10.7
+      },
+      {
+        "text": "and",
+        "start": 10.92,
+        "end": 11.05
+      },
+      {
+        "text": "finally",
+        "start": 11.05,
+        "end": 11.9
+      },
+      {
+        "text": "memorable",
+        "start": 12.11,
+        "end": 12.86
+      },
+      {
+        "text": "items",
+        "start": 12.86,
+        "end": 13.56
+      }
+    ]
+  },
+  "audio/20261016-list1/examples/06.mp3": {
+    "sha256": "65102677a9f5fe2e2beb610bd331aba341d2bb02f172aa79ceab85d8fc064d43",
+    "words": [
+      {
+        "text": "We",
+        "start": 0.11,
+        "end": 0.25
+      },
+      {
+        "text": "can",
+        "start": 0.25,
+        "end": 0.48
+      },
+      {
+        "text": "find",
+        "start": 0.48,
+        "end": 0.94
+      },
+      {
+        "text": "many",
+        "start": 0.94,
+        "end": 1.43
+      },
+      {
+        "text": "sports",
+        "start": 1.43,
+        "end": 1.99
+      },
+      {
+        "text": "facilities",
+        "start": 1.99,
+        "end": 2.88
+      },
+      {
+        "text": "on",
+        "start": 2.88,
+        "end": 3.04
+      },
+      {
+        "text": "the",
+        "start": 3.04,
+        "end": 3.13
+      },
+      {
+        "text": "playground",
+        "start": 3.13,
+        "end": 3.94
+      },
+      {
+        "text": "of",
+        "start": 3.94,
+        "end": 4.03
+      },
+      {
+        "text": "this",
+        "start": 4.03,
+        "end": 4.29
+      },
+      {
+        "text": "primary",
+        "start": 4.29,
+        "end": 4.88
+      },
+      {
+        "text": "school",
+        "start": 4.88,
+        "end": 5.47
+      }
+    ]
+  },
+  "audio/20261016-list1/examples/07.mp3": {
+    "sha256": "c7b0ec126b17e1fb59ac652ebf9b12ad12d319e4d4a90d201e67a5705f0dc6c9",
+    "words": [
+      {
+        "text": "Hers",
+        "start": 0.1,
+        "end": 0.6
+      },
+      {
+        "text": "was",
+        "start": 0.6,
+        "end": 0.81
+      },
+      {
+        "text": "an",
+        "start": 0.81,
+        "end": 0.95
+      },
+      {
+        "text": "old",
+        "start": 0.95,
+        "end": 1.4
+      },
+      {
+        "text": "family",
+        "start": 1.4,
+        "end": 2.11
+      },
+      {
+        "text": "her",
+        "start": 2.67,
+        "end": 2.74
+      },
+      {
+        "text": "ancestors",
+        "start": 2.74,
+        "end": 3.77
+      },
+      {
+        "text": "had",
+        "start": 3.77,
+        "end": 3.93
+      },
+      {
+        "text": "come",
+        "start": 3.93,
+        "end": 4.29
+      },
+      {
+        "text": "to",
+        "start": 4.29,
+        "end": 4.42
+      },
+      {
+        "text": "the",
+        "start": 4.42,
+        "end": 4.58
+      },
+      {
+        "text": "United",
+        "start": 4.58,
+        "end": 5.11
+      },
+      {
+        "text": "States",
+        "start": 5.11,
+        "end": 5.76
+      },
+      {
+        "text": "200",
+        "start": 5.76,
+        "end": 6.73
+      },
+      {
+        "text": "years",
+        "start": 6.73,
+        "end": 7.15
+      },
+      {
+        "text": "before",
+        "start": 7.15,
+        "end": 7.84
+      }
+    ]
+  },
+  "audio/20261016-list1/examples/08.mp3": {
+    "sha256": "bbde3b8467454158a86eb5fb7a6d3375c9dbfea6886d4d01269f3a49bead13e5",
+    "words": [
+      {
+        "text": "Compared",
+        "start": 0.0,
+        "end": 0.68
+      },
+      {
+        "text": "with",
+        "start": 0.68,
+        "end": 0.88
+      },
+      {
+        "text": "last",
+        "start": 0.88,
+        "end": 1.44
+      },
+      {
+        "text": "year",
+        "start": 1.44,
+        "end": 1.82
+      },
+      {
+        "text": "our",
+        "start": 2.19,
+        "end": 2.37
+      },
+      {
+        "text": "summer",
+        "start": 2.37,
+        "end": 2.81
+      },
+      {
+        "text": "crops",
+        "start": 2.81,
+        "end": 3.26
+      },
+      {
+        "text": "output",
+        "start": 3.26,
+        "end": 3.89
+      },
+      {
+        "text": "has",
+        "start": 3.89,
+        "end": 4.1
+      },
+      {
+        "text": "increased",
+        "start": 4.1,
+        "end": 4.83
+      },
+      {
+        "text": "by",
+        "start": 4.83,
+        "end": 5.05
+      },
+      {
+        "text": "10",
+        "start": 5.19,
+        "end": 5.59
+      },
+      {
+        "text": "percent",
+        "start": 5.59,
+        "end": 6.37
+      }
+    ]
+  },
+  "audio/20261016-list1/examples/09.mp3": {
+    "sha256": "58f26eb65e47048a8b0941a4c53247cf5ed00115b01efb1eab59ec56704e4432",
+    "words": [
+      {
+        "text": "Later",
+        "start": 0.11,
+        "end": 0.61
+      },
+      {
+        "text": "people",
+        "start": 1.06,
+        "end": 1.43
+      },
+      {
+        "text": "tried",
+        "start": 1.43,
+        "end": 1.8
+      },
+      {
+        "text": "to",
+        "start": 1.8,
+        "end": 1.96
+      },
+      {
+        "text": "lift",
+        "start": 1.96,
+        "end": 2.43
+      },
+      {
+        "text": "a",
+        "start": 2.43,
+        "end": 2.49
+      },
+      {
+        "text": "building",
+        "start": 2.49,
+        "end": 3.13
+      },
+      {
+        "text": "off",
+        "start": 3.13,
+        "end": 3.36
+      },
+      {
+        "text": "its",
+        "start": 3.36,
+        "end": 3.56
+      },
+      {
+        "text": "foundation",
+        "start": 3.56,
+        "end": 4.52
+      },
+      {
+        "text": "and",
+        "start": 4.95,
+        "end": 5.08
+      },
+      {
+        "text": "insert",
+        "start": 5.08,
+        "end": 5.57
+      },
+      {
+        "text": "rubber",
+        "start": 5.57,
+        "end": 6.07
+      },
+      {
+        "text": "and",
+        "start": 6.07,
+        "end": 6.33
+      },
+      {
+        "text": "steel",
+        "start": 6.33,
+        "end": 7.01
+      },
+      {
+        "text": "between",
+        "start": 7.01,
+        "end": 7.62
+      },
+      {
+        "text": "the",
+        "start": 7.62,
+        "end": 7.73
+      },
+      {
+        "text": "building",
+        "start": 7.73,
+        "end": 8.37
+      },
+      {
+        "text": "and",
+        "start": 8.37,
+        "end": 8.55
+      },
+      {
+        "text": "its",
+        "start": 8.55,
+        "end": 8.71
+      },
+      {
+        "text": "foundation",
+        "start": 8.71,
+        "end": 9.65
+      },
+      {
+        "text": "to",
+        "start": 9.98,
+        "end": 10.15
+      },
+      {
+        "text": "reduce",
+        "start": 10.15,
+        "end": 10.69
+      },
+      {
+        "text": "the",
+        "start": 10.69,
+        "end": 10.91
+      },
+      {
+        "text": "impact",
+        "start": 10.91,
+        "end": 11.54
+      },
+      {
+        "text": "of",
+        "start": 11.54,
+        "end": 11.67
+      },
+      {
+        "text": "ground",
+        "start": 11.67,
+        "end": 12.14
+      },
+      {
+        "text": "vibrations",
+        "start": 12.14,
+        "end": 13.23
+      }
+    ]
+  },
+  "audio/20261016-list1/examples/10.mp3": {
+    "sha256": "f4fc094c1e4741ad72eaa3ce8e392b3983666184bbf0e13aadd2977f292660a1",
+    "words": [
+      {
+        "text": "In",
+        "start": 0.13,
+        "end": 0.3
+      },
+      {
+        "text": "the",
+        "start": 0.3,
+        "end": 0.4
+      },
+      {
+        "text": "past",
+        "start": 0.7,
+        "end": 1.16
+      },
+      {
+        "text": "making",
+        "start": 1.35,
+        "end": 1.9
+      },
+      {
+        "text": "structures",
+        "start": 1.9,
+        "end": 2.61
+      },
+      {
+        "text": "quake-resistant",
+        "start": 2.61,
+        "end": 3.97
+      },
+      {
+        "text": "meant",
+        "start": 3.97,
+        "end": 4.35
+      },
+      {
+        "text": "firm",
+        "start": 4.35,
+        "end": 5.04
+      },
+      {
+        "text": "yet",
+        "start": 5.25,
+        "end": 5.53
+      },
+      {
+        "text": "flexible",
+        "start": 5.53,
+        "end": 6.34
+      },
+      {
+        "text": "materials",
+        "start": 6.34,
+        "end": 7.19
+      },
+      {
+        "text": "such",
+        "start": 7.53,
+        "end": 7.86
+      },
+      {
+        "text": "as",
+        "start": 7.86,
+        "end": 7.95
+      },
+      {
+        "text": "steel",
+        "start": 7.95,
+        "end": 8.68
+      },
+      {
+        "text": "and",
+        "start": 8.68,
+        "end": 8.9
+      },
+      {
+        "text": "wood",
+        "start": 8.9,
+        "end": 9.4
+      },
+      {
+        "text": "that",
+        "start": 9.62,
+        "end": 9.9
+      },
+      {
+        "text": "bent",
+        "start": 9.9,
+        "end": 10.47
+      },
+      {
+        "text": "without",
+        "start": 10.47,
+        "end": 10.88
+      },
+      {
+        "text": "breaking",
+        "start": 10.88,
+        "end": 11.63
+      }
+    ]
+  },
+  "audio/20261016-list1/examples/11.mp3": {
+    "sha256": "92f65dad99461d40a6fa76c27cd8d074aacfb9056907a3db4a70de4b3f72a13e",
+    "words": [
+      {
+        "text": "Cooper",
+        "start": 0.13,
+        "end": 0.57
+      },
+      {
+        "text": "spoke",
+        "start": 0.57,
+        "end": 1.06
+      },
+      {
+        "text": "with",
+        "start": 1.06,
+        "end": 1.23
+      },
+      {
+        "text": "the",
+        "start": 1.23,
+        "end": 1.38
+      },
+      {
+        "text": "Associated",
+        "start": 1.38,
+        "end": 2.19
+      },
+      {
+        "text": "Press",
+        "start": 2.19,
+        "end": 2.68
+      },
+      {
+        "text": "from",
+        "start": 2.68,
+        "end": 3.0
+      },
+      {
+        "text": "Barcelona",
+        "start": 3.0,
+        "end": 3.83
+      },
+      {
+        "text": "Spain",
+        "start": 3.83,
+        "end": 4.56
+      },
+      {
+        "text": "where",
+        "start": 4.99,
+        "end": 5.13
+      },
+      {
+        "text": "he",
+        "start": 5.13,
+        "end": 5.33
+      },
+      {
+        "text": "attended",
+        "start": 5.33,
+        "end": 5.9
+      },
+      {
+        "text": "the",
+        "start": 5.9,
+        "end": 6.0
+      },
+      {
+        "text": "Mobile",
+        "start": 6.0,
+        "end": 6.67
+      },
+      {
+        "text": "World",
+        "start": 6.67,
+        "end": 7.16
+      },
+      {
+        "text": "Congress",
+        "start": 7.16,
+        "end": 8.04
+      },
+      {
+        "text": "MWC",
+        "start": 8.24,
+        "end": 9.41
+      },
+      {
+        "text": "the",
+        "start": 9.85,
+        "end": 9.96
+      },
+      {
+        "text": "biggest",
+        "start": 9.96,
+        "end": 10.7
+      },
+      {
+        "text": "telecom",
+        "start": 10.7,
+        "end": 11.33
+      },
+      {
+        "text": "industry",
+        "start": 11.33,
+        "end": 11.96
+      },
+      {
+        "text": "trade",
+        "start": 11.96,
+        "end": 12.36
+      },
+      {
+        "text": "show",
+        "start": 12.36,
+        "end": 12.6
+      }
+    ]
+  },
+  "audio/20261016-list1/examples/12.mp3": {
+    "sha256": "575252ff938aa6e163e888c1239ee1b43c093417cdb47fb1c0a73f24aa669d69",
+    "words": [
+      {
+        "text": "Nishinari’s",
+        "start": 0.14,
+        "end": 0.91
+      },
+      {
+        "text": "previous",
+        "start": 0.91,
+        "end": 1.66
+      },
+      {
+        "text": "research",
+        "start": 1.66,
+        "end": 2.35
+      },
+      {
+        "text": "showed",
+        "start": 2.35,
+        "end": 2.92
+      },
+      {
+        "text": "that",
+        "start": 2.92,
+        "end": 3.2
+      },
+      {
+        "text": "ants",
+        "start": 3.2,
+        "end": 3.68
+      },
+      {
+        "text": "can",
+        "start": 3.68,
+        "end": 3.93
+      },
+      {
+        "text": "maintain",
+        "start": 3.93,
+        "end": 4.65
+      },
+      {
+        "text": "their",
+        "start": 4.65,
+        "end": 4.82
+      },
+      {
+        "text": "flow",
+        "start": 4.82,
+        "end": 5.31
+      },
+      {
+        "text": "even",
+        "start": 5.5,
+        "end": 5.95
+      },
+      {
+        "text": "at",
+        "start": 5.95,
+        "end": 6.04
+      },
+      {
+        "text": "high",
+        "start": 6.04,
+        "end": 6.63
+      },
+      {
+        "text": "densities",
+        "start": 6.63,
+        "end": 7.61
+      }
+    ]
+  },
+  "audio/20261016-list1/examples/13.mp3": {
+    "sha256": "6838ff04ba040314fc7ca3a504ebee135d098462c96c785e933dd62a75dfe930",
+    "words": [
+      {
+        "text": "Focusing",
+        "start": 0.06,
+        "end": 0.8
+      },
+      {
+        "text": "on",
+        "start": 0.8,
+        "end": 0.95
+      },
+      {
+        "text": "our",
+        "start": 0.95,
+        "end": 1.1
+      },
+      {
+        "text": "health",
+        "start": 1.1,
+        "end": 1.88
+      },
+      {
+        "text": "is",
+        "start": 1.88,
+        "end": 2.16
+      },
+      {
+        "text": "particularly",
+        "start": 2.16,
+        "end": 3.3
+      },
+      {
+        "text": "crucial",
+        "start": 3.3,
+        "end": 4.09
+      }
+    ]
+  },
+  "audio/20261016-list1/examples/14.mp3": {
+    "sha256": "1882bf1443e1d5151c1aceab8dc83df123efdbade88262c2e2272f852ab988e5",
+    "words": [
+      {
+        "text": "Kondo",
+        "start": 0.0,
+        "end": 0.52
+      },
+      {
+        "text": "stresses",
+        "start": 0.52,
+        "end": 1.4
+      },
+      {
+        "text": "that",
+        "start": 1.4,
+        "end": 1.72
+      },
+      {
+        "text": "it",
+        "start": 1.72,
+        "end": 1.87
+      },
+      {
+        "text": "is",
+        "start": 1.87,
+        "end": 2.07
+      },
+      {
+        "text": "not",
+        "start": 2.07,
+        "end": 2.39
+      },
+      {
+        "text": "about",
+        "start": 2.39,
+        "end": 2.77
+      },
+      {
+        "text": "throwing",
+        "start": 2.77,
+        "end": 3.43
+      },
+      {
+        "text": "things",
+        "start": 3.43,
+        "end": 3.82
+      },
+      {
+        "text": "away",
+        "start": 3.82,
+        "end": 4.49
+      },
+      {
+        "text": "but",
+        "start": 4.88,
+        "end": 5.03
+      },
+      {
+        "text": "about",
+        "start": 5.03,
+        "end": 5.35
+      },
+      {
+        "text": "finding",
+        "start": 5.35,
+        "end": 6.06
+      },
+      {
+        "text": "the",
+        "start": 6.06,
+        "end": 6.17
+      },
+      {
+        "text": "things",
+        "start": 6.17,
+        "end": 6.67
+      },
+      {
+        "text": "you",
+        "start": 6.67,
+        "end": 6.82
+      },
+      {
+        "text": "want",
+        "start": 6.82,
+        "end": 7.08
+      },
+      {
+        "text": "to",
+        "start": 7.08,
+        "end": 7.22
+      },
+      {
+        "text": "remain",
+        "start": 7.22,
+        "end": 7.83
+      },
+      {
+        "text": "with",
+        "start": 7.83,
+        "end": 8.02
+      },
+      {
+        "text": "you",
+        "start": 8.02,
+        "end": 8.53
+      },
+      {
+        "text": "and",
+        "start": 8.53,
+        "end": 8.69
+      },
+      {
+        "text": "striking",
+        "start": 8.69,
+        "end": 9.43
+      },
+      {
+        "text": "a",
+        "start": 9.43,
+        "end": 9.47
+      },
+      {
+        "text": "balance",
+        "start": 9.47,
+        "end": 10.24
+      },
+      {
+        "text": "between",
+        "start": 10.24,
+        "end": 10.74
+      },
+      {
+        "text": "personal",
+        "start": 10.74,
+        "end": 11.41
+      },
+      {
+        "text": "joy",
+        "start": 11.41,
+        "end": 11.94
+      },
+      {
+        "text": "and",
+        "start": 12.05,
+        "end": 12.25
+      },
+      {
+        "text": "possessions",
+        "start": 12.25,
+        "end": 13.27
+      }
+    ]
+  },
+  "audio/20261016-list1/examples/15.mp3": {
+    "sha256": "1b35021214772ee2008184a2868f0d26587f98ac49d96c390719e802240931b1",
+    "words": [
+      {
+        "text": "You",
+        "start": 0.06,
+        "end": 0.37
+      },
+      {
+        "text": "win",
+        "start": 0.37,
+        "end": 0.94
+      },
+      {
+        "text": "lose",
+        "start": 1.34,
+        "end": 2.2
+      },
+      {
+        "text": "or",
+        "start": 2.2,
+        "end": 2.47
+      },
+      {
+        "text": "tie",
+        "start": 2.47,
+        "end": 3.25
+      }
+    ]
+  }
+}

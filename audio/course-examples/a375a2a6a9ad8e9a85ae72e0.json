@@ -1,0 +1,149 @@
+{
+  "speechText": "But then we got an official letter and we were blown away.",
+  "audio": "audio/course-examples/a375a2a6a9ad8e9a85ae72e0.mp3",
+  "sha256": "7a43111ec82c25befb2a5e654769ff6c932ff2e7782954dd2181b18670a1425c",
+  "duration": 3.984,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "But",
+      "start": 0.101375,
+      "end": 0.323583
+    },
+    {
+      "text": "then",
+      "start": 0.3375,
+      "end": 0.559708
+    },
+    {
+      "text": "we",
+      "start": 0.573625,
+      "end": 0.68475
+    },
+    {
+      "text": "got",
+      "start": 0.698625,
+      "end": 0.948625
+    },
+    {
+      "text": "an",
+      "start": 0.9625,
+      "end": 1.059708
+    },
+    {
+      "text": "official",
+      "start": 1.073625,
+      "end": 1.573625
+    },
+    {
+      "text": "letter",
+      "start": 1.5875,
+      "end": 2.073625
+    },
+    {
+      "text": "and",
+      "start": 2.0875,
+      "end": 2.323625
+    },
+    {
+      "text": "we",
+      "start": 2.3375,
+      "end": 2.490291
+    },
+    {
+      "text": "were",
+      "start": 2.504166,
+      "end": 2.643041
+    },
+    {
+      "text": "blown",
+      "start": 2.656958,
+      "end": 3.018083
+    },
+    {
+      "text": "away",
+      "start": 3.031958,
+      "end": 3.559749
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 2222080,
+      "text": "But"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3375000,
+      "duration": 2222080,
+      "text": "then"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5736250,
+      "duration": 1111250,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6986250,
+      "duration": 2500000,
+      "text": "got"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9625000,
+      "duration": 972080,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10736250,
+      "duration": 5000000,
+      "text": "official"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15875000,
+      "duration": 4861250,
+      "text": "letter"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20875000,
+      "duration": 2361250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23375000,
+      "duration": 1527910,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25041660,
+      "duration": 1388750,
+      "text": "were"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26569580,
+      "duration": 3611250,
+      "text": "blown"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30319580,
+      "duration": 5277910,
+      "text": "away"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:48:21.162458+00:00"
+}

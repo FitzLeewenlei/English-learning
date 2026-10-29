@@ -1,0 +1,160 @@
+{
+  "speechText": "He or she can diagnose the problem or refer you to a specialist.",
+  "audio": "audio/course-examples/7cb296be51725268aa3002a9.mp3",
+  "sha256": "b151c4d8e5930e4c7b92d891d8710d78d5832dfb9834429b7af6b2d1fb6a3b52",
+  "duration": 4.704,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "He",
+      "start": 0.147208,
+      "end": 0.411083
+    },
+    {
+      "text": "or",
+      "start": 0.425,
+      "end": 0.536125
+    },
+    {
+      "text": "she",
+      "start": 0.55,
+      "end": 0.758333
+    },
+    {
+      "text": "can",
+      "start": 0.772208,
+      "end": 0.952749
+    },
+    {
+      "text": "diagnose",
+      "start": 0.966666,
+      "end": 1.563874
+    },
+    {
+      "text": "the",
+      "start": 1.577791,
+      "end": 1.688916
+    },
+    {
+      "text": "problem",
+      "start": 1.702791,
+      "end": 2.286124
+    },
+    {
+      "text": "or",
+      "start": 2.3,
+      "end": 2.397208
+    },
+    {
+      "text": "refer",
+      "start": 2.411125,
+      "end": 2.89725
+    },
+    {
+      "text": "you",
+      "start": 2.911125,
+      "end": 3.14725
+    },
+    {
+      "text": "to",
+      "start": 3.161125,
+      "end": 3.3
+    },
+    {
+      "text": "a",
+      "start": 3.313875,
+      "end": 3.369416
+    },
+    {
+      "text": "specialist",
+      "start": 3.383333,
+      "end": 4.299999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2638750,
+      "text": "He"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4250000,
+      "duration": 1111250,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5500000,
+      "duration": 2083330,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7722080,
+      "duration": 1805410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9666660,
+      "duration": 5972080,
+      "text": "diagnose"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15777910,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17027910,
+      "duration": 5833330,
+      "text": "problem"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23000000,
+      "duration": 972080,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24111250,
+      "duration": 4861250,
+      "text": "refer"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29111250,
+      "duration": 2361250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31611250,
+      "duration": 1388750,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33138750,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33833330,
+      "duration": 9166660,
+      "text": "specialist"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:48:56.653811+00:00"
+}

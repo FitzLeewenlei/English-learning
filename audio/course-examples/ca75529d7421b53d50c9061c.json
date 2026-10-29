@@ -1,0 +1,226 @@
+{
+  "speechText": "A person with a flat, dull voice which neither rises nor falls sounds like a flat and dull person!",
+  "audio": "audio/course-examples/ca75529d7421b53d50c9061c.mp3",
+  "sha256": "287453ab7d963c54261e953c2cef704272565d1a223938f7e2a075f1a3d8fe6e",
+  "duration": 6.84,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "A",
+      "start": 0.119458,
+      "end": 0.216666
+    },
+    {
+      "text": "person",
+      "start": 0.230541,
+      "end": 0.716666
+    },
+    {
+      "text": "with",
+      "start": 0.730541,
+      "end": 0.897207
+    },
+    {
+      "text": "a",
+      "start": 0.911125,
+      "end": 0.966666
+    },
+    {
+      "text": "flat",
+      "start": 0.980541,
+      "end": 1.522207
+    },
+    {
+      "text": "dull",
+      "start": 1.786125,
+      "end": 2.05
+    },
+    {
+      "text": "voice",
+      "start": 2.063875,
+      "end": 2.536083
+    },
+    {
+      "text": "which",
+      "start": 2.55,
+      "end": 2.786125
+    },
+    {
+      "text": "neither",
+      "start": 2.8,
+      "end": 3.147208
+    },
+    {
+      "text": "rises",
+      "start": 3.161125,
+      "end": 3.661125
+    },
+    {
+      "text": "nor",
+      "start": 3.675,
+      "end": 3.883333
+    },
+    {
+      "text": "falls",
+      "start": 3.897208,
+      "end": 4.383333
+    },
+    {
+      "text": "sounds",
+      "start": 4.397208,
+      "end": 4.744416
+    },
+    {
+      "text": "like",
+      "start": 4.758333,
+      "end": 4.924999
+    },
+    {
+      "text": "a",
+      "start": 4.938875,
+      "end": 4.994416
+    },
+    {
+      "text": "flat",
+      "start": 5.008333,
+      "end": 5.452791
+    },
+    {
+      "text": "and",
+      "start": 5.466666,
+      "end": 5.591666
+    },
+    {
+      "text": "dull",
+      "start": 5.605541,
+      "end": 5.869416
+    },
+    {
+      "text": "person",
+      "start": 5.883333,
+      "end": 6.466666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 972080,
+      "text": "A"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2305410,
+      "duration": 4861250,
+      "text": "person"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7305410,
+      "duration": 1666660,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9111250,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9805410,
+      "duration": 5416660,
+      "text": "flat"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17861250,
+      "duration": 2638750,
+      "text": "dull"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20638750,
+      "duration": 4722080,
+      "text": "voice"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25500000,
+      "duration": 2361250,
+      "text": "which"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28000000,
+      "duration": 3472080,
+      "text": "neither"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31611250,
+      "duration": 5000000,
+      "text": "rises"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36750000,
+      "duration": 2083330,
+      "text": "nor"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38972080,
+      "duration": 4861250,
+      "text": "falls"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43972080,
+      "duration": 3472080,
+      "text": "sounds"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47583330,
+      "duration": 1666660,
+      "text": "like"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49388750,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50083330,
+      "duration": 4444580,
+      "text": "flat"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54666660,
+      "duration": 1250000,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56055410,
+      "duration": 2638750,
+      "text": "dull"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58833330,
+      "duration": 5833330,
+      "text": "person"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:49.825626+00:00"
+}

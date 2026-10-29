@@ -1,0 +1,182 @@
+{
+  "speechText": "According to Simon Ingram, humpback whales rely on their songs for their survival and recovery.",
+  "audio": "audio/course-examples/548f3eb9f2b6543409628bd9.mp3",
+  "sha256": "7d4d6b60f5d7c23aedfd64f5ad4d04a31aad31c7d62a44418c5db530ec5d2c5a",
+  "duration": 6.504,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "According",
+      "start": 0.147208,
+      "end": 0.688874
+    },
+    {
+      "text": "to",
+      "start": 0.702791,
+      "end": 0.813916
+    },
+    {
+      "text": "Simon",
+      "start": 0.827791,
+      "end": 1.258332
+    },
+    {
+      "text": "Ingram",
+      "start": 1.272208,
+      "end": 1.730541
+    },
+    {
+      "text": "humpback",
+      "start": 2.063875,
+      "end": 2.55
+    },
+    {
+      "text": "whales",
+      "start": 2.563875,
+      "end": 3.036083
+    },
+    {
+      "text": "rely",
+      "start": 3.05,
+      "end": 3.438875
+    },
+    {
+      "text": "on",
+      "start": 3.452791,
+      "end": 3.577791
+    },
+    {
+      "text": "their",
+      "start": 3.591666,
+      "end": 3.730541
+    },
+    {
+      "text": "songs",
+      "start": 3.744458,
+      "end": 4.286124
+    },
+    {
+      "text": "for",
+      "start": 4.3,
+      "end": 4.411125
+    },
+    {
+      "text": "their",
+      "start": 4.425,
+      "end": 4.577791
+    },
+    {
+      "text": "survival",
+      "start": 4.591666,
+      "end": 5.286124
+    },
+    {
+      "text": "and",
+      "start": 5.3,
+      "end": 5.411125
+    },
+    {
+      "text": "recovery",
+      "start": 5.425,
+      "end": 6.091666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 5416660,
+      "text": "According"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7027910,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8277910,
+      "duration": 4305410,
+      "text": "Simon"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 4583330,
+      "text": "Ingram"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20638750,
+      "duration": 4861250,
+      "text": "humpback"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25638750,
+      "duration": 4722080,
+      "text": "whales"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30500000,
+      "duration": 3888750,
+      "text": "rely"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34527910,
+      "duration": 1250000,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35916660,
+      "duration": 1388750,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37444580,
+      "duration": 5416660,
+      "text": "songs"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43000000,
+      "duration": 1111250,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44250000,
+      "duration": 1527910,
+      "text": "their"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45916660,
+      "duration": 6944580,
+      "text": "survival"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53000000,
+      "duration": 1111250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54250000,
+      "duration": 6666660,
+      "text": "recovery"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:42:27.923171+00:00"
+}

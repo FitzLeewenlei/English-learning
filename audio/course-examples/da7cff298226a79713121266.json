@@ -1,0 +1,94 @@
+{
+  "speechText": "It was the space between market days.",
+  "audio": "audio/course-examples/da7cff298226a79713121266.mp3",
+  "sha256": "55c867bb5be05898d9d303f5dead1fbe2ba9568d3a30b9e924f592b29dc5eede",
+  "duration": 3.0,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "It",
+      "start": 0.119458,
+      "end": 0.286124
+    },
+    {
+      "text": "was",
+      "start": 0.3,
+      "end": 0.480541
+    },
+    {
+      "text": "the",
+      "start": 0.494458,
+      "end": 0.633333
+    },
+    {
+      "text": "space",
+      "start": 0.647208,
+      "end": 1.119416
+    },
+    {
+      "text": "between",
+      "start": 1.133333,
+      "end": 1.522208
+    },
+    {
+      "text": "market",
+      "start": 1.536125,
+      "end": 2.008333
+    },
+    {
+      "text": "days",
+      "start": 2.022208,
+      "end": 2.577749
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 1666660,
+      "text": "It"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1805410,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 1388750,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6472080,
+      "duration": 4722080,
+      "text": "space"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11333330,
+      "duration": 3888750,
+      "text": "between"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 4722080,
+      "text": "market"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20222080,
+      "duration": 5555410,
+      "text": "days"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:44:47.888354+00:00"
+}

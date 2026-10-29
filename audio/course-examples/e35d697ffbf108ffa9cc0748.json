@@ -1,0 +1,116 @@
+{
+  "speechText": "He would greet me every morning with head rubs.",
+  "audio": "audio/course-examples/e35d697ffbf108ffa9cc0748.mp3",
+  "sha256": "1c2d5c7392e75f147f778487f577b5ffd17029d9bf87aa7cf511d9b7870da1ab",
+  "duration": 3.504,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "He",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "would",
+      "start": 0.3,
+      "end": 0.480541
+    },
+    {
+      "text": "greet",
+      "start": 0.494458,
+      "end": 0.869458
+    },
+    {
+      "text": "me",
+      "start": 0.883333,
+      "end": 1.161124
+    },
+    {
+      "text": "every",
+      "start": 1.175,
+      "end": 1.494458
+    },
+    {
+      "text": "morning",
+      "start": 1.508333,
+      "end": 2.022208
+    },
+    {
+      "text": "with",
+      "start": 2.036125,
+      "end": 2.188916
+    },
+    {
+      "text": "head",
+      "start": 2.202791,
+      "end": 2.466666
+    },
+    {
+      "text": "rubs",
+      "start": 2.480541,
+      "end": 3.091666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "He"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 1805410,
+      "text": "would"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4944580,
+      "duration": 3750000,
+      "text": "greet"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8833330,
+      "duration": 2777910,
+      "text": "me"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11750000,
+      "duration": 3194580,
+      "text": "every"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15083330,
+      "duration": 5138750,
+      "text": "morning"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20361250,
+      "duration": 1527910,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22027910,
+      "duration": 2638750,
+      "text": "head"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24805410,
+      "duration": 6111250,
+      "text": "rubs"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:42:21.391649+00:00"
+}

@@ -1,0 +1,138 @@
+{
+  "speechText": "He was charged by the police with having murdered his wife.",
+  "audio": "audio/course-examples/75e04eb723a8dc60e6a60828.mp3",
+  "sha256": "fce7ab4ff33fffae285c1a545169a2ac6613e62c6c3a33284abca344e5c957f1",
+  "duration": 4.128,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "He",
+      "start": 0.147208,
+      "end": 0.286083
+    },
+    {
+      "text": "was",
+      "start": 0.3,
+      "end": 0.508333
+    },
+    {
+      "text": "charged",
+      "start": 0.522208,
+      "end": 1.133333
+    },
+    {
+      "text": "by",
+      "start": 1.147208,
+      "end": 1.299999
+    },
+    {
+      "text": "the",
+      "start": 1.313875,
+      "end": 1.438875
+    },
+    {
+      "text": "police",
+      "start": 1.452791,
+      "end": 1.994457
+    },
+    {
+      "text": "with",
+      "start": 2.008333,
+      "end": 2.133333
+    },
+    {
+      "text": "having",
+      "start": 2.147208,
+      "end": 2.508333
+    },
+    {
+      "text": "murdered",
+      "start": 2.522208,
+      "end": 2.911083
+    },
+    {
+      "text": "his",
+      "start": 2.925,
+      "end": 3.119458
+    },
+    {
+      "text": "wife",
+      "start": 3.133333,
+      "end": 3.716666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1388750,
+      "text": "He"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 2083330,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5222080,
+      "duration": 6111250,
+      "text": "charged"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11472080,
+      "duration": 1527910,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13138750,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14527910,
+      "duration": 5416660,
+      "text": "police"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20083330,
+      "duration": 1250000,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21472080,
+      "duration": 3611250,
+      "text": "having"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 3888750,
+      "text": "murdered"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29250000,
+      "duration": 1944580,
+      "text": "his"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31333330,
+      "duration": 5833330,
+      "text": "wife"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:41:46.594674+00:00"
+}

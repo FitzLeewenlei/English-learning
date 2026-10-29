@@ -1,0 +1,215 @@
+{
+  "speechText": "For one thing, more than half of the people in the United States are not qualified to work.",
+  "audio": "audio/course-examples/9a6ecc12461d29083000f936.mp3",
+  "sha256": "0bb9b91a6877c6a5ab34d0754ce71db47929f4d46a3120139fff28001a775a42",
+  "duration": 6.12,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "For",
+      "start": 0.133333,
+      "end": 0.286124
+    },
+    {
+      "text": "one",
+      "start": 0.3,
+      "end": 0.591666
+    },
+    {
+      "text": "thing",
+      "start": 0.605541,
+      "end": 1.008332
+    },
+    {
+      "text": "more",
+      "start": 1.327791,
+      "end": 1.508332
+    },
+    {
+      "text": "than",
+      "start": 1.522208,
+      "end": 1.688874
+    },
+    {
+      "text": "half",
+      "start": 1.702791,
+      "end": 2.036124
+    },
+    {
+      "text": "of",
+      "start": 2.05,
+      "end": 2.147208
+    },
+    {
+      "text": "the",
+      "start": 2.161125,
+      "end": 2.27225
+    },
+    {
+      "text": "people",
+      "start": 2.286125,
+      "end": 2.675
+    },
+    {
+      "text": "in",
+      "start": 2.688875,
+      "end": 2.772208
+    },
+    {
+      "text": "the",
+      "start": 2.786125,
+      "end": 2.855583
+    },
+    {
+      "text": "United",
+      "start": 2.869458,
+      "end": 3.397249
+    },
+    {
+      "text": "States",
+      "start": 3.411125,
+      "end": 3.925
+    },
+    {
+      "text": "are",
+      "start": 3.938875,
+      "end": 4.05
+    },
+    {
+      "text": "not",
+      "start": 4.063875,
+      "end": 4.383333
+    },
+    {
+      "text": "qualified",
+      "start": 4.397208,
+      "end": 5.008333
+    },
+    {
+      "text": "to",
+      "start": 5.022208,
+      "end": 5.133333
+    },
+    {
+      "text": "work",
+      "start": 5.147208,
+      "end": 5.702749
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 1527910,
+      "text": "For"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3000000,
+      "duration": 2916660,
+      "text": "one"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6055410,
+      "duration": 4027910,
+      "text": "thing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13277910,
+      "duration": 1805410,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15222080,
+      "duration": 1666660,
+      "text": "than"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17027910,
+      "duration": 3333330,
+      "text": "half"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20500000,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21611250,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22861250,
+      "duration": 3888750,
+      "text": "people"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26888750,
+      "duration": 833330,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27861250,
+      "duration": 694580,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28694580,
+      "duration": 5277910,
+      "text": "United"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34111250,
+      "duration": 5138750,
+      "text": "States"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39388750,
+      "duration": 1111250,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40638750,
+      "duration": 3194580,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43972080,
+      "duration": 6111250,
+      "text": "qualified"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50222080,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 51472080,
+      "duration": 5555410,
+      "text": "work"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:11.368137+00:00"
+}

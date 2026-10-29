@@ -1,0 +1,182 @@
+{
+  "speechText": "The oxygen in the air we breathe mixes with our blood and gives us life.",
+  "audio": "audio/course-examples/6e7620b14e1e8dbfb86e9668.mp3",
+  "sha256": "b7b27c3a350381cf0ca5e8c299fc5921c991c78ab63bb16021fc5de7271dc041",
+  "duration": 5.112,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.299999
+    },
+    {
+      "text": "oxygen",
+      "start": 0.313875,
+      "end": 0.883333
+    },
+    {
+      "text": "in",
+      "start": 0.897208,
+      "end": 1.008333
+    },
+    {
+      "text": "the",
+      "start": 1.022208,
+      "end": 1.188874
+    },
+    {
+      "text": "air",
+      "start": 1.202791,
+      "end": 1.494457
+    },
+    {
+      "text": "we",
+      "start": 1.508333,
+      "end": 1.716666
+    },
+    {
+      "text": "breathe",
+      "start": 1.730541,
+      "end": 2.077749
+    },
+    {
+      "text": "mixes",
+      "start": 2.091666,
+      "end": 2.647207
+    },
+    {
+      "text": "with",
+      "start": 2.661125,
+      "end": 2.827791
+    },
+    {
+      "text": "our",
+      "start": 2.841666,
+      "end": 3.008332
+    },
+    {
+      "text": "blood",
+      "start": 3.022208,
+      "end": 3.438874
+    },
+    {
+      "text": "and",
+      "start": 3.452791,
+      "end": 3.633332
+    },
+    {
+      "text": "gives",
+      "start": 3.647208,
+      "end": 3.938874
+    },
+    {
+      "text": "us",
+      "start": 3.952791,
+      "end": 4.133332
+    },
+    {
+      "text": "life",
+      "start": 4.147208,
+      "end": 4.702749
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1527910,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3138750,
+      "duration": 5694580,
+      "text": "oxygen"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 1111250,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10222080,
+      "duration": 1666660,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12027910,
+      "duration": 2916660,
+      "text": "air"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15083330,
+      "duration": 2083330,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17305410,
+      "duration": 3472080,
+      "text": "breathe"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20916660,
+      "duration": 5555410,
+      "text": "mixes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26611250,
+      "duration": 1666660,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28416660,
+      "duration": 1666660,
+      "text": "our"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30222080,
+      "duration": 4166660,
+      "text": "blood"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34527910,
+      "duration": 1805410,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36472080,
+      "duration": 2916660,
+      "text": "gives"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39527910,
+      "duration": 1805410,
+      "text": "us"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41472080,
+      "duration": 5555410,
+      "text": "life"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:50:25.458777+00:00"
+}

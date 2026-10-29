@@ -1,0 +1,127 @@
+{
+  "speechText": "From a plane, cars on the highway look like ants.",
+  "audio": "audio/course-examples/1db156fbd01852c76cc257c3.mp3",
+  "sha256": "d65706194b2be77bc6cd2ef6a4b054e3b50110de45ad394297c5455ba03f47fb",
+  "duration": 3.912,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "From",
+      "start": 0.133333,
+      "end": 0.369458
+    },
+    {
+      "text": "a",
+      "start": 0.383333,
+      "end": 0.466666
+    },
+    {
+      "text": "plane",
+      "start": 0.480541,
+      "end": 1.008332
+    },
+    {
+      "text": "cars",
+      "start": 1.341666,
+      "end": 1.674999
+    },
+    {
+      "text": "on",
+      "start": 1.688875,
+      "end": 1.8
+    },
+    {
+      "text": "the",
+      "start": 1.813875,
+      "end": 1.883333
+    },
+    {
+      "text": "highway",
+      "start": 1.897208,
+      "end": 2.397208
+    },
+    {
+      "text": "look",
+      "start": 2.411125,
+      "end": 2.64725
+    },
+    {
+      "text": "like",
+      "start": 2.661125,
+      "end": 2.911125
+    },
+    {
+      "text": "ants",
+      "start": 2.925,
+      "end": 3.508333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2361250,
+      "text": "From"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3833330,
+      "duration": 833330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4805410,
+      "duration": 5277910,
+      "text": "plane"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13416660,
+      "duration": 3333330,
+      "text": "cars"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16888750,
+      "duration": 1111250,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18138750,
+      "duration": 694580,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18972080,
+      "duration": 5000000,
+      "text": "highway"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24111250,
+      "duration": 2361250,
+      "text": "look"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26611250,
+      "duration": 2500000,
+      "text": "like"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29250000,
+      "duration": 5833330,
+      "text": "ants"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:42:38.361995+00:00"
+}

@@ -1,0 +1,127 @@
+{
+  "speechText": "Some activities, like discussing and reading, are basic to studying.",
+  "audio": "audio/course-examples/a4b22e07250c3cc18fd62928.mp3",
+  "sha256": "18fbb44b14d53aa8f5dc4870fb27ccad020e6416911dd3d1a94b5205d3875811",
+  "duration": 5.352,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Some",
+      "start": 0.133333,
+      "end": 0.411124
+    },
+    {
+      "text": "activities",
+      "start": 0.425,
+      "end": 1.341666
+    },
+    {
+      "text": "like",
+      "start": 1.619458,
+      "end": 1.869458
+    },
+    {
+      "text": "discussing",
+      "start": 1.883333,
+      "end": 2.549999
+    },
+    {
+      "text": "and",
+      "start": 2.563875,
+      "end": 2.688875
+    },
+    {
+      "text": "reading",
+      "start": 2.702791,
+      "end": 3.216666
+    },
+    {
+      "text": "are",
+      "start": 3.452791,
+      "end": 3.536124
+    },
+    {
+      "text": "basic",
+      "start": 3.55,
+      "end": 4.147208
+    },
+    {
+      "text": "to",
+      "start": 4.161125,
+      "end": 4.27225
+    },
+    {
+      "text": "studying",
+      "start": 4.286125,
+      "end": 4.938916
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2777910,
+      "text": "Some"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4250000,
+      "duration": 9166660,
+      "text": "activities"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16194580,
+      "duration": 2500000,
+      "text": "like"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18833330,
+      "duration": 6666660,
+      "text": "discussing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25638750,
+      "duration": 1250000,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27027910,
+      "duration": 5138750,
+      "text": "reading"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34527910,
+      "duration": 833330,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35500000,
+      "duration": 5972080,
+      "text": "basic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41611250,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42861250,
+      "duration": 6527910,
+      "text": "studying"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:39:28.470720+00:00"
+}

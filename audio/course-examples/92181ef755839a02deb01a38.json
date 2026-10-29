@@ -1,0 +1,325 @@
+{
+  "speechText": "According to the Centers for Disease Control and Prevention, more than a third of Americans do not achieve the recommended seven to nine hours of sleep per night.",
+  "audio": "audio/course-examples/92181ef755839a02deb01a38.mp3",
+  "sha256": "5a9bd16999ad5c03326e7adfde7857f434f5dae72a734e088533138d628b70b3",
+  "duration": 9.888,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "According",
+      "start": 0.119458,
+      "end": 0.633333
+    },
+    {
+      "text": "to",
+      "start": 0.647208,
+      "end": 0.758333
+    },
+    {
+      "text": "the",
+      "start": 0.772208,
+      "end": 0.883333
+    },
+    {
+      "text": "Centers",
+      "start": 0.897208,
+      "end": 1.480541
+    },
+    {
+      "text": "for",
+      "start": 1.494458,
+      "end": 1.633333
+    },
+    {
+      "text": "Disease",
+      "start": 1.647208,
+      "end": 2.063874
+    },
+    {
+      "text": "Control",
+      "start": 2.077791,
+      "end": 2.549999
+    },
+    {
+      "text": "and",
+      "start": 2.563875,
+      "end": 2.661083
+    },
+    {
+      "text": "Prevention",
+      "start": 2.675,
+      "end": 3.355541
+    },
+    {
+      "text": "more",
+      "start": 3.716666,
+      "end": 3.897207
+    },
+    {
+      "text": "than",
+      "start": 3.911125,
+      "end": 4.077791
+    },
+    {
+      "text": "a",
+      "start": 4.091666,
+      "end": 4.147207
+    },
+    {
+      "text": "third",
+      "start": 4.161125,
+      "end": 4.466666
+    },
+    {
+      "text": "of",
+      "start": 4.480541,
+      "end": 4.577749
+    },
+    {
+      "text": "Americans",
+      "start": 4.591666,
+      "end": 5.355541
+    },
+    {
+      "text": "do",
+      "start": 5.369458,
+      "end": 5.522249
+    },
+    {
+      "text": "not",
+      "start": 5.536125,
+      "end": 5.758333
+    },
+    {
+      "text": "achieve",
+      "start": 5.772208,
+      "end": 6.216666
+    },
+    {
+      "text": "the",
+      "start": 6.230541,
+      "end": 6.327749
+    },
+    {
+      "text": "recommended",
+      "start": 6.341666,
+      "end": 7.063874
+    },
+    {
+      "text": "seven",
+      "start": 7.077791,
+      "end": 7.466666
+    },
+    {
+      "text": "to",
+      "start": 7.480541,
+      "end": 7.619416
+    },
+    {
+      "text": "nine",
+      "start": 7.633333,
+      "end": 7.966666
+    },
+    {
+      "text": "hours",
+      "start": 7.980541,
+      "end": 8.355541
+    },
+    {
+      "text": "of",
+      "start": 8.369458,
+      "end": 8.480583
+    },
+    {
+      "text": "sleep",
+      "start": 8.494458,
+      "end": 8.827791
+    },
+    {
+      "text": "per",
+      "start": 8.841666,
+      "end": 8.952791
+    },
+    {
+      "text": "night",
+      "start": 8.966666,
+      "end": 9.480541
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 5138750,
+      "text": "According"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6472080,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7722080,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8972080,
+      "duration": 5833330,
+      "text": "Centers"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14944580,
+      "duration": 1388750,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16472080,
+      "duration": 4166660,
+      "text": "Disease"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20777910,
+      "duration": 4722080,
+      "text": "Control"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25638750,
+      "duration": 972080,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26750000,
+      "duration": 6805410,
+      "text": "Prevention"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37166660,
+      "duration": 1805410,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39111250,
+      "duration": 1666660,
+      "text": "than"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40916660,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41611250,
+      "duration": 3055410,
+      "text": "third"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44805410,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45916660,
+      "duration": 7638750,
+      "text": "Americans"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53694580,
+      "duration": 1527910,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55361250,
+      "duration": 2222080,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 57722080,
+      "duration": 4444580,
+      "text": "achieve"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 62305410,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 63416660,
+      "duration": 7222080,
+      "text": "recommended"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70777910,
+      "duration": 3888750,
+      "text": "seven"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 74805410,
+      "duration": 1388750,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 76333330,
+      "duration": 3333330,
+      "text": "nine"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79805410,
+      "duration": 3750000,
+      "text": "hours"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 83694580,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 84944580,
+      "duration": 3333330,
+      "text": "sleep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 88416660,
+      "duration": 1111250,
+      "text": "per"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 89666660,
+      "duration": 5138750,
+      "text": "night"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:09.174077+00:00"
+}

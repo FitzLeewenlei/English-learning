@@ -1,0 +1,193 @@
+{
+  "speechText": "Only when she had accomplished the task did she realize that she had made a mistake.",
+  "audio": "audio/course-examples/ebec612b86afcb0531914e5d.mp3",
+  "sha256": "97b57fc16b267632b820cbf098bb30103b09d0eee855b9dd90e915c5845f111d",
+  "duration": 5.376,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Only",
+      "start": 0.119458,
+      "end": 0.424999
+    },
+    {
+      "text": "when",
+      "start": 0.438875,
+      "end": 0.675
+    },
+    {
+      "text": "she",
+      "start": 0.688875,
+      "end": 0.841666
+    },
+    {
+      "text": "had",
+      "start": 0.855541,
+      "end": 0.980541
+    },
+    {
+      "text": "accomplished",
+      "start": 0.994458,
+      "end": 1.633333
+    },
+    {
+      "text": "the",
+      "start": 1.647208,
+      "end": 1.758333
+    },
+    {
+      "text": "task",
+      "start": 1.772208,
+      "end": 2.383333
+    },
+    {
+      "text": "did",
+      "start": 2.397208,
+      "end": 2.563874
+    },
+    {
+      "text": "she",
+      "start": 2.577791,
+      "end": 2.730582
+    },
+    {
+      "text": "realize",
+      "start": 2.744458,
+      "end": 3.383333
+    },
+    {
+      "text": "that",
+      "start": 3.397208,
+      "end": 3.577749
+    },
+    {
+      "text": "she",
+      "start": 3.591666,
+      "end": 3.758332
+    },
+    {
+      "text": "had",
+      "start": 3.772208,
+      "end": 3.911083
+    },
+    {
+      "text": "made",
+      "start": 3.925,
+      "end": 4.147208
+    },
+    {
+      "text": "a",
+      "start": 4.161125,
+      "end": 4.2027909
+    },
+    {
+      "text": "mistake",
+      "start": 4.216666,
+      "end": 4.952791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 3055410,
+      "text": "Only"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 2361250,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6888750,
+      "duration": 1527910,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8555410,
+      "duration": 1250000,
+      "text": "had"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9944580,
+      "duration": 6388750,
+      "text": "accomplished"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16472080,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17722080,
+      "duration": 6111250,
+      "text": "task"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23972080,
+      "duration": 1666660,
+      "text": "did"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25777910,
+      "duration": 1527910,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27444580,
+      "duration": 6388750,
+      "text": "realize"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33972080,
+      "duration": 1805410,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35916660,
+      "duration": 1666660,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37722080,
+      "duration": 1388750,
+      "text": "had"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39250000,
+      "duration": 2222080,
+      "text": "made"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41611250,
+      "duration": 416659,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42166660,
+      "duration": 7361250,
+      "text": "mistake"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:44:02.396796+00:00"
+}

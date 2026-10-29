@@ -1,0 +1,127 @@
+{
+  "speechText": "We all experience some kind of anger in our life.",
+  "audio": "audio/course-examples/23743399c2b4c2f40a590f2f.mp3",
+  "sha256": "0f9ec3b728cff428b530ad61fb9b65179faf8a92b6a2b6fd896c2fe9ca580fe9",
+  "duration": 3.888,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "We",
+      "start": 0.147208,
+      "end": 0.341666
+    },
+    {
+      "text": "all",
+      "start": 0.355541,
+      "end": 0.549999
+    },
+    {
+      "text": "experience",
+      "start": 0.563875,
+      "end": 1.397208
+    },
+    {
+      "text": "some",
+      "start": 1.411125,
+      "end": 1.605583
+    },
+    {
+      "text": "kind",
+      "start": 1.619458,
+      "end": 1.911124
+    },
+    {
+      "text": "of",
+      "start": 1.925,
+      "end": 2.036125
+    },
+    {
+      "text": "anger",
+      "start": 2.05,
+      "end": 2.508333
+    },
+    {
+      "text": "in",
+      "start": 2.522208,
+      "end": 2.688874
+    },
+    {
+      "text": "our",
+      "start": 2.702791,
+      "end": 2.869457
+    },
+    {
+      "text": "life",
+      "start": 2.883333,
+      "end": 3.466666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1944580,
+      "text": "We"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 1944580,
+      "text": "all"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5638750,
+      "duration": 8333330,
+      "text": "experience"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14111250,
+      "duration": 1944580,
+      "text": "some"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16194580,
+      "duration": 2916660,
+      "text": "kind"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 1111250,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20500000,
+      "duration": 4583330,
+      "text": "anger"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 1666660,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27027910,
+      "duration": 1666660,
+      "text": "our"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 28833330,
+      "duration": 5833330,
+      "text": "life"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:42:58.448255+00:00"
+}

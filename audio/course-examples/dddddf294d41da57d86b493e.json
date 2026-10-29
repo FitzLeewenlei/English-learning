@@ -1,0 +1,83 @@
+{
+  "speechText": "Don't touch that wire, it's live.",
+  "audio": "audio/course-examples/dddddf294d41da57d86b493e.mp3",
+  "sha256": "a7287614de02d57a4f6d97d5e4b3010f3913ae58830c59ada18c8f78724058fb",
+  "duration": 3.0,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Don't",
+      "start": 0.101375,
+      "end": 0.476375
+    },
+    {
+      "text": "touch",
+      "start": 0.490291,
+      "end": 0.795832
+    },
+    {
+      "text": "that",
+      "start": 0.809708,
+      "end": 1.045833
+    },
+    {
+      "text": "wire",
+      "start": 1.059708,
+      "end": 1.559708
+    },
+    {
+      "text": "it's",
+      "start": 1.795833,
+      "end": 2.004166
+    },
+    {
+      "text": "live",
+      "start": 2.018041,
+      "end": 2.587499
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 3750000,
+      "text": "Don't"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4902910,
+      "duration": 3055410,
+      "text": "touch"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8097080,
+      "duration": 2361250,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10597080,
+      "duration": 5000000,
+      "text": "wire"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17958330,
+      "duration": 2083330,
+      "text": "it's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20180410,
+      "duration": 5694580,
+      "text": "live"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:41:57.792840+00:00"
+}

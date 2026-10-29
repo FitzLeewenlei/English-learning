@@ -1,0 +1,72 @@
+{
+  "speechText": "He's been dead for ages.",
+  "audio": "audio/course-examples/29f0e223a2a5ec2b5541d357.mp3",
+  "sha256": "461c52296246b94cbfc1bd6b65ebea6e6819bef4a4cf224d57cb27c7db6ca67e",
+  "duration": 2.28,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "He's",
+      "start": 0.119458,
+      "end": 0.341666
+    },
+    {
+      "text": "been",
+      "start": 0.355541,
+      "end": 0.591666
+    },
+    {
+      "text": "dead",
+      "start": 0.605541,
+      "end": 0.911082
+    },
+    {
+      "text": "for",
+      "start": 0.925,
+      "end": 1.119458
+    },
+    {
+      "text": "ages",
+      "start": 1.133333,
+      "end": 1.869458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 2222080,
+      "text": "He's"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 2361250,
+      "text": "been"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6055410,
+      "duration": 3055410,
+      "text": "dead"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9250000,
+      "duration": 1944580,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11333330,
+      "duration": 7361250,
+      "text": "ages"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:44:03.291299+00:00"
+}

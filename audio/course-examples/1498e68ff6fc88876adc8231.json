@@ -1,0 +1,149 @@
+{
+  "speechText": "She tries her best to keep up with the changes in fashion.",
+  "audio": "audio/course-examples/1498e68ff6fc88876adc8231.mp3",
+  "sha256": "25554fc90297e0270c1bc012a64048b67f8133579c241cb3e8beabd9e2980a96",
+  "duration": 3.984,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "She",
+      "start": 0.133333,
+      "end": 0.341666
+    },
+    {
+      "text": "tries",
+      "start": 0.355541,
+      "end": 0.730541
+    },
+    {
+      "text": "her",
+      "start": 0.744458,
+      "end": 0.897249
+    },
+    {
+      "text": "best",
+      "start": 0.911125,
+      "end": 1.369458
+    },
+    {
+      "text": "to",
+      "start": 1.383333,
+      "end": 1.480541
+    },
+    {
+      "text": "keep",
+      "start": 1.494458,
+      "end": 1.772249
+    },
+    {
+      "text": "up",
+      "start": 1.786125,
+      "end": 1.980583
+    },
+    {
+      "text": "with",
+      "start": 1.994458,
+      "end": 2.119458
+    },
+    {
+      "text": "the",
+      "start": 2.133333,
+      "end": 2.244458
+    },
+    {
+      "text": "changes",
+      "start": 2.258333,
+      "end": 2.772208
+    },
+    {
+      "text": "in",
+      "start": 2.786125,
+      "end": 2.925
+    },
+    {
+      "text": "fashion",
+      "start": 2.938875,
+      "end": 3.57775
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 2083330,
+      "text": "She"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3555410,
+      "duration": 3750000,
+      "text": "tries"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7444580,
+      "duration": 1527910,
+      "text": "her"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9111250,
+      "duration": 4583330,
+      "text": "best"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13833330,
+      "duration": 972080,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14944580,
+      "duration": 2777910,
+      "text": "keep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17861250,
+      "duration": 1944580,
+      "text": "up"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19944580,
+      "duration": 1250000,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21333330,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22583330,
+      "duration": 5138750,
+      "text": "changes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27861250,
+      "duration": 1388750,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29388750,
+      "duration": 6388750,
+      "text": "fashion"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:43:32.001814+00:00"
+}

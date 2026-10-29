@@ -1,0 +1,94 @@
+{
+  "speechText": "Nowadays, we still have a collecting instinct.",
+  "audio": "audio/course-examples/6ef4757debd6135d842f403e.mp3",
+  "sha256": "fcb638a601b1e81448f57e999abf5a6b2e258c738243a94f022058ec46185b04",
+  "duration": 3.864,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Nowadays",
+      "start": 0.133333,
+      "end": 0.966666
+    },
+    {
+      "text": "we",
+      "start": 1.272208,
+      "end": 1.424999
+    },
+    {
+      "text": "still",
+      "start": 1.438875,
+      "end": 1.758333
+    },
+    {
+      "text": "have",
+      "start": 1.772208,
+      "end": 1.994416
+    },
+    {
+      "text": "a",
+      "start": 2.008333,
+      "end": 2.077791
+    },
+    {
+      "text": "collecting",
+      "start": 2.091666,
+      "end": 2.688874
+    },
+    {
+      "text": "instinct",
+      "start": 2.702791,
+      "end": 3.452791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1333330,
+      "duration": 8333330,
+      "text": "Nowadays"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12722080,
+      "duration": 1527910,
+      "text": "we"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14388750,
+      "duration": 3194580,
+      "text": "still"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17722080,
+      "duration": 2222080,
+      "text": "have"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20083330,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20916660,
+      "duration": 5972080,
+      "text": "collecting"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27027910,
+      "duration": 7500000,
+      "text": "instinct"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:40:32.211851+00:00"
+}

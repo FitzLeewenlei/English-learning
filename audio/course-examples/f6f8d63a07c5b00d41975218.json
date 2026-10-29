@@ -1,0 +1,215 @@
+{
+  "speechText": "Haglund believes the app can teach responsible spending habits, whereas schools tend to focus more on economic theories.",
+  "audio": "audio/course-examples/f6f8d63a07c5b00d41975218.mp3",
+  "sha256": "7a23b4c0680ea4d3c9de448fe8664cca18532950011536722835835493008409",
+  "duration": 8.256,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Haglund",
+      "start": 0.147208,
+      "end": 0.772208
+    },
+    {
+      "text": "believes",
+      "start": 0.786125,
+      "end": 1.230583
+    },
+    {
+      "text": "the",
+      "start": 1.244458,
+      "end": 1.397249
+    },
+    {
+      "text": "app",
+      "start": 1.411125,
+      "end": 1.702791
+    },
+    {
+      "text": "can",
+      "start": 1.716666,
+      "end": 1.911124
+    },
+    {
+      "text": "teach",
+      "start": 1.925,
+      "end": 2.258333
+    },
+    {
+      "text": "responsible",
+      "start": 2.272208,
+      "end": 2.966666
+    },
+    {
+      "text": "spending",
+      "start": 2.980541,
+      "end": 3.438874
+    },
+    {
+      "text": "habits",
+      "start": 3.452791,
+      "end": 4.008332
+    },
+    {
+      "text": "whereas",
+      "start": 4.341666,
+      "end": 4.702791
+    },
+    {
+      "text": "schools",
+      "start": 4.716666,
+      "end": 5.230541
+    },
+    {
+      "text": "tend",
+      "start": 5.244458,
+      "end": 5.536124
+    },
+    {
+      "text": "to",
+      "start": 5.55,
+      "end": 5.633333
+    },
+    {
+      "text": "focus",
+      "start": 5.647208,
+      "end": 6.091666
+    },
+    {
+      "text": "more",
+      "start": 6.105541,
+      "end": 6.424999
+    },
+    {
+      "text": "on",
+      "start": 6.438875,
+      "end": 6.591666
+    },
+    {
+      "text": "economic",
+      "start": 6.605541,
+      "end": 7.133332
+    },
+    {
+      "text": "theories",
+      "start": 7.147208,
+      "end": 7.841666
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 6250000,
+      "text": "Haglund"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7861250,
+      "duration": 4444580,
+      "text": "believes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12444580,
+      "duration": 1527910,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14111250,
+      "duration": 2916660,
+      "text": "app"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17166660,
+      "duration": 1944580,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19250000,
+      "duration": 3333330,
+      "text": "teach"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22722080,
+      "duration": 6944580,
+      "text": "responsible"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29805410,
+      "duration": 4583330,
+      "text": "spending"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34527910,
+      "duration": 5555410,
+      "text": "habits"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43416660,
+      "duration": 3611250,
+      "text": "whereas"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47166660,
+      "duration": 5138750,
+      "text": "schools"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 52444580,
+      "duration": 2916660,
+      "text": "tend"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55500000,
+      "duration": 833330,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 56472080,
+      "duration": 4444580,
+      "text": "focus"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61055410,
+      "duration": 3194580,
+      "text": "more"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64388750,
+      "duration": 1527910,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66055410,
+      "duration": 5277910,
+      "text": "economic"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 71472080,
+      "duration": 6944580,
+      "text": "theories"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:40:52.576210+00:00"
+}

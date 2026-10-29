@@ -1,0 +1,160 @@
+{
+  "speechText": "By junior year, students majoring in physics are committed to learning, she says.",
+  "audio": "audio/course-examples/021b1f533b7ff67ab011c604.mp3",
+  "sha256": "7583bab76519bbd7758344829b24a041f3ae0eb963635f119736de81816da71d",
+  "duration": 6.0,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "By",
+      "start": 0.101375,
+      "end": 0.351375
+    },
+    {
+      "text": "junior",
+      "start": 0.365291,
+      "end": 0.823624
+    },
+    {
+      "text": "year",
+      "start": 0.8375,
+      "end": 1.268041
+    },
+    {
+      "text": "students",
+      "start": 1.573625,
+      "end": 2.101416
+    },
+    {
+      "text": "majoring",
+      "start": 2.115291,
+      "end": 2.601416
+    },
+    {
+      "text": "in",
+      "start": 2.615291,
+      "end": 2.754166
+    },
+    {
+      "text": "physics",
+      "start": 2.768041,
+      "end": 3.337499
+    },
+    {
+      "text": "are",
+      "start": 3.351375,
+      "end": 3.4625
+    },
+    {
+      "text": "committed",
+      "start": 3.476375,
+      "end": 3.99025
+    },
+    {
+      "text": "to",
+      "start": 4.004166,
+      "end": 4.115291
+    },
+    {
+      "text": "learning",
+      "start": 4.129166,
+      "end": 4.656957
+    },
+    {
+      "text": "she",
+      "start": 4.893041,
+      "end": 5.073582
+    },
+    {
+      "text": "says",
+      "start": 5.0875,
+      "end": 5.5875
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 2500000,
+      "text": "By"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3652910,
+      "duration": 4583330,
+      "text": "junior"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8375000,
+      "duration": 4305410,
+      "text": "year"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15736250,
+      "duration": 5277910,
+      "text": "students"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 21152910,
+      "duration": 4861250,
+      "text": "majoring"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26152910,
+      "duration": 1388750,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27680410,
+      "duration": 5694580,
+      "text": "physics"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33513750,
+      "duration": 1111250,
+      "text": "are"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34763750,
+      "duration": 5138750,
+      "text": "committed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40041660,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41291660,
+      "duration": 5277910,
+      "text": "learning"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 48930410,
+      "duration": 1805410,
+      "text": "she"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50875000,
+      "duration": 5000000,
+      "text": "says"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:45:40.280552+00:00"
+}

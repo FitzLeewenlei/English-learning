@@ -1,0 +1,94 @@
+{
+  "speechText": "I don't just watch them on television.",
+  "audio": "audio/course-examples/6411912219feb1b72ea3a593.mp3",
+  "sha256": "abafaef71f4e6f67acd4ab161cd42b22741e97a64669668ebf789567e03fd190",
+  "duration": 2.784,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "I",
+      "start": 0.147208,
+      "end": 0.244416
+    },
+    {
+      "text": "don't",
+      "start": 0.258333,
+      "end": 0.563874
+    },
+    {
+      "text": "just",
+      "start": 0.577791,
+      "end": 0.855582
+    },
+    {
+      "text": "watch",
+      "start": 0.869458,
+      "end": 1.174999
+    },
+    {
+      "text": "them",
+      "start": 1.188875,
+      "end": 1.341666
+    },
+    {
+      "text": "on",
+      "start": 1.355541,
+      "end": 1.522207
+    },
+    {
+      "text": "television",
+      "start": 1.536125,
+      "end": 2.369458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 972080,
+      "text": "I"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2583330,
+      "duration": 3055410,
+      "text": "don't"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5777910,
+      "duration": 2777910,
+      "text": "just"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8694580,
+      "duration": 3055410,
+      "text": "watch"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11888750,
+      "duration": 1527910,
+      "text": "them"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13555410,
+      "duration": 1666660,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15361250,
+      "duration": 8333330,
+      "text": "television"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:49:40.153563+00:00"
+}

@@ -1,0 +1,193 @@
+{
+  "speechText": "The police were given an order that the stolen documents must be recovered at all costs.",
+  "audio": "audio/course-examples/7e8ff9d8ccfd9c6ca87769b3.mp3",
+  "sha256": "33da1738c920c230e654b919db78ed7ace47468e63e9d9851479f6507e09beb3",
+  "duration": 5.904,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.147208,
+      "end": 0.272208
+    },
+    {
+      "text": "police",
+      "start": 0.286125,
+      "end": 0.716666
+    },
+    {
+      "text": "were",
+      "start": 0.730541,
+      "end": 0.841666
+    },
+    {
+      "text": "given",
+      "start": 0.855541,
+      "end": 1.161082
+    },
+    {
+      "text": "an",
+      "start": 1.175,
+      "end": 1.313875
+    },
+    {
+      "text": "order",
+      "start": 1.327791,
+      "end": 1.730582
+    },
+    {
+      "text": "that",
+      "start": 1.744458,
+      "end": 1.952791
+    },
+    {
+      "text": "the",
+      "start": 1.966666,
+      "end": 2.077791
+    },
+    {
+      "text": "stolen",
+      "start": 2.091666,
+      "end": 2.577791
+    },
+    {
+      "text": "documents",
+      "start": 2.591666,
+      "end": 3.286124
+    },
+    {
+      "text": "must",
+      "start": 3.3,
+      "end": 3.619458
+    },
+    {
+      "text": "be",
+      "start": 3.633333,
+      "end": 3.744458
+    },
+    {
+      "text": "recovered",
+      "start": 3.758333,
+      "end": 4.355541
+    },
+    {
+      "text": "at",
+      "start": 4.369458,
+      "end": 4.577791
+    },
+    {
+      "text": "all",
+      "start": 4.591666,
+      "end": 4.772207
+    },
+    {
+      "text": "costs",
+      "start": 4.786125,
+      "end": 5.494458
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 1250000,
+      "text": "The"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2861250,
+      "duration": 4305410,
+      "text": "police"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7305410,
+      "duration": 1111250,
+      "text": "were"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8555410,
+      "duration": 3055410,
+      "text": "given"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11750000,
+      "duration": 1388750,
+      "text": "an"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13277910,
+      "duration": 4027910,
+      "text": "order"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17444580,
+      "duration": 2083330,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19666660,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20916660,
+      "duration": 4861250,
+      "text": "stolen"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 6944580,
+      "text": "documents"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33000000,
+      "duration": 3194580,
+      "text": "must"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 36333330,
+      "duration": 1111250,
+      "text": "be"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37583330,
+      "duration": 5972080,
+      "text": "recovered"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 43694580,
+      "duration": 2083330,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45916660,
+      "duration": 1805410,
+      "text": "all"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47861250,
+      "duration": 7083330,
+      "text": "costs"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:50:24.167533+00:00"
+}

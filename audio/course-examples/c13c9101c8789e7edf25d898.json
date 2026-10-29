@@ -1,0 +1,204 @@
+{
+  "speechText": "Another technique takes embryo cells and develops them into a wide variety of cell types and tissues.",
+  "audio": "audio/course-examples/c13c9101c8789e7edf25d898.mp3",
+  "sha256": "a23565c787590223c475e62f13b90c64d400169330d420d31404af1ad91b9c9f",
+  "duration": 7.056,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Another",
+      "start": 0.119458,
+      "end": 0.522249
+    },
+    {
+      "text": "technique",
+      "start": 0.536125,
+      "end": 1.175
+    },
+    {
+      "text": "takes",
+      "start": 1.188875,
+      "end": 1.508333
+    },
+    {
+      "text": "embryo",
+      "start": 1.522208,
+      "end": 1.952749
+    },
+    {
+      "text": "cells",
+      "start": 1.966666,
+      "end": 2.508332
+    },
+    {
+      "text": "and",
+      "start": 2.522208,
+      "end": 2.674999
+    },
+    {
+      "text": "develops",
+      "start": 2.688875,
+      "end": 3.230541
+    },
+    {
+      "text": "them",
+      "start": 3.244458,
+      "end": 3.452791
+    },
+    {
+      "text": "into",
+      "start": 3.466666,
+      "end": 3.772207
+    },
+    {
+      "text": "a",
+      "start": 3.786125,
+      "end": 3.841666
+    },
+    {
+      "text": "wide",
+      "start": 3.855541,
+      "end": 4.216666
+    },
+    {
+      "text": "variety",
+      "start": 4.230541,
+      "end": 4.897207
+    },
+    {
+      "text": "of",
+      "start": 4.911125,
+      "end": 5.036125
+    },
+    {
+      "text": "cell",
+      "start": 5.05,
+      "end": 5.355541
+    },
+    {
+      "text": "types",
+      "start": 5.369458,
+      "end": 5.786124
+    },
+    {
+      "text": "and",
+      "start": 5.8,
+      "end": 5.897208
+    },
+    {
+      "text": "tissues",
+      "start": 5.911125,
+      "end": 6.633333
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 4027910,
+      "text": "Another"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5361250,
+      "duration": 6388750,
+      "text": "technique"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11888750,
+      "duration": 3194580,
+      "text": "takes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15222080,
+      "duration": 4305410,
+      "text": "embryo"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19666660,
+      "duration": 5416660,
+      "text": "cells"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25222080,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26888750,
+      "duration": 5416660,
+      "text": "develops"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32444580,
+      "duration": 2083330,
+      "text": "them"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34666660,
+      "duration": 3055410,
+      "text": "into"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 37861250,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38555410,
+      "duration": 3611250,
+      "text": "wide"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 42305410,
+      "duration": 6666660,
+      "text": "variety"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49111250,
+      "duration": 1250000,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 50500000,
+      "duration": 3055410,
+      "text": "cell"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 53694580,
+      "duration": 4166660,
+      "text": "types"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58000000,
+      "duration": 972080,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 59111250,
+      "duration": 7222080,
+      "text": "tissues"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:41:52.706299+00:00"
+}

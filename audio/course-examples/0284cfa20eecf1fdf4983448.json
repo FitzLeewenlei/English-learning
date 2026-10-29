@@ -1,0 +1,358 @@
+{
+  "speechText": "One paper looking into the ideal amount of sleep found that “Sleep duration recommendations issued by public health authorities help to inform the population of interventions, policies, and healthy sleep behaviors.”",
+  "audio": "audio/course-examples/0284cfa20eecf1fdf4983448.mp3",
+  "sha256": "f4b1d48870d8523528fb59127da48cc3e2c47a2e7442913d4fb151d57b18f907",
+  "duration": 13.704,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "One",
+      "start": 0.147208,
+      "end": 0.424999
+    },
+    {
+      "text": "paper",
+      "start": 0.438875,
+      "end": 0.841666
+    },
+    {
+      "text": "looking",
+      "start": 0.855541,
+      "end": 1.202749
+    },
+    {
+      "text": "into",
+      "start": 1.216666,
+      "end": 1.466666
+    },
+    {
+      "text": "the",
+      "start": 1.480541,
+      "end": 1.605541
+    },
+    {
+      "text": "ideal",
+      "start": 1.619458,
+      "end": 2.049999
+    },
+    {
+      "text": "amount",
+      "start": 2.063875,
+      "end": 2.411083
+    },
+    {
+      "text": "of",
+      "start": 2.425,
+      "end": 2.522208
+    },
+    {
+      "text": "sleep",
+      "start": 2.536125,
+      "end": 2.89725
+    },
+    {
+      "text": "found",
+      "start": 2.911125,
+      "end": 3.327791
+    },
+    {
+      "text": "that",
+      "start": 3.341666,
+      "end": 3.536124
+    },
+    {
+      "text": "Sleep",
+      "start": 3.55,
+      "end": 3.938875
+    },
+    {
+      "text": "duration",
+      "start": 3.952791,
+      "end": 4.466666
+    },
+    {
+      "text": "recommendations",
+      "start": 4.480541,
+      "end": 5.480541
+    },
+    {
+      "text": "issued",
+      "start": 5.494458,
+      "end": 5.883333
+    },
+    {
+      "text": "by",
+      "start": 5.897208,
+      "end": 6.049999
+    },
+    {
+      "text": "public",
+      "start": 6.063875,
+      "end": 6.480541
+    },
+    {
+      "text": "health",
+      "start": 6.494458,
+      "end": 6.758333
+    },
+    {
+      "text": "authorities",
+      "start": 6.772208,
+      "end": 7.549999
+    },
+    {
+      "text": "help",
+      "start": 7.563875,
+      "end": 7.897208
+    },
+    {
+      "text": "to",
+      "start": 7.911125,
+      "end": 8.036125
+    },
+    {
+      "text": "inform",
+      "start": 8.05,
+      "end": 8.508333
+    },
+    {
+      "text": "the",
+      "start": 8.522208,
+      "end": 8.605541
+    },
+    {
+      "text": "population",
+      "start": 8.619458,
+      "end": 9.313916
+    },
+    {
+      "text": "of",
+      "start": 9.327791,
+      "end": 9.424999
+    },
+    {
+      "text": "interventions",
+      "start": 9.438875,
+      "end": 10.341666
+    },
+    {
+      "text": "policies",
+      "start": 10.647208,
+      "end": 11.327749
+    },
+    {
+      "text": "and",
+      "start": 11.55,
+      "end": 11.702791
+    },
+    {
+      "text": "healthy",
+      "start": 11.716666,
+      "end": 12.161124
+    },
+    {
+      "text": "sleep",
+      "start": 12.175,
+      "end": 12.494458
+    },
+    {
+      "text": "behaviors",
+      "start": 12.508333,
+      "end": 13.299999
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1472080,
+      "duration": 2777910,
+      "text": "One"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 4027910,
+      "text": "paper"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8555410,
+      "duration": 3472080,
+      "text": "looking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 12166660,
+      "duration": 2500000,
+      "text": "into"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14805410,
+      "duration": 1250000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 16194580,
+      "duration": 4305410,
+      "text": "ideal"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20638750,
+      "duration": 3472080,
+      "text": "amount"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24250000,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25361250,
+      "duration": 3611250,
+      "text": "sleep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29111250,
+      "duration": 4166660,
+      "text": "found"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33416660,
+      "duration": 1944580,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35500000,
+      "duration": 3888750,
+      "text": "Sleep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39527910,
+      "duration": 5138750,
+      "text": "duration"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44805410,
+      "duration": 10000000,
+      "text": "recommendations"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 54944580,
+      "duration": 3888750,
+      "text": "issued"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58972080,
+      "duration": 1527910,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 60638750,
+      "duration": 4166660,
+      "text": "public"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64944580,
+      "duration": 2638750,
+      "text": "health"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67722080,
+      "duration": 7777910,
+      "text": "authorities"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 75638750,
+      "duration": 3333330,
+      "text": "help"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 79111250,
+      "duration": 1250000,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 80500000,
+      "duration": 4583330,
+      "text": "inform"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 85222080,
+      "duration": 833330,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 86194580,
+      "duration": 6944580,
+      "text": "population"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 93277910,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 94388750,
+      "duration": 9027910,
+      "text": "interventions"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 106472080,
+      "duration": 6805410,
+      "text": "policies"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 115500000,
+      "duration": 1527910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 117166660,
+      "duration": 4444580,
+      "text": "healthy"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 121750000,
+      "duration": 3194580,
+      "text": "sleep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 125083330,
+      "duration": 7916660,
+      "text": "behaviors"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:40:19.134820+00:00"
+}

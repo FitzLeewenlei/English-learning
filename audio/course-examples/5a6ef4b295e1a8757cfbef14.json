@@ -1,0 +1,149 @@
+{
+  "speechText": "Just jumping to the landline is missing the whole point, Griffith said.",
+  "audio": "audio/course-examples/5a6ef4b295e1a8757cfbef14.mp3",
+  "sha256": "d0b8c24ba82097755b6e1eb8df03da54fb8a2cc7e283cfa0f1af5a6bd2ce9c39",
+  "duration": 4.824,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Just",
+      "start": 0.119458,
+      "end": 0.424999
+    },
+    {
+      "text": "jumping",
+      "start": 0.438875,
+      "end": 0.869416
+    },
+    {
+      "text": "to",
+      "start": 0.883333,
+      "end": 0.994458
+    },
+    {
+      "text": "the",
+      "start": 1.008333,
+      "end": 1.105541
+    },
+    {
+      "text": "landline",
+      "start": 1.119458,
+      "end": 1.772249
+    },
+    {
+      "text": "is",
+      "start": 1.786125,
+      "end": 1.980583
+    },
+    {
+      "text": "missing",
+      "start": 1.994458,
+      "end": 2.383333
+    },
+    {
+      "text": "the",
+      "start": 2.397208,
+      "end": 2.466666
+    },
+    {
+      "text": "whole",
+      "start": 2.480541,
+      "end": 2.758332
+    },
+    {
+      "text": "point",
+      "start": 2.772208,
+      "end": 3.299999
+    },
+    {
+      "text": "Griffith",
+      "start": 3.563875,
+      "end": 3.966666
+    },
+    {
+      "text": "said",
+      "start": 3.980541,
+      "end": 4.411082
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 3055410,
+      "text": "Just"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 4388750,
+      "duration": 4305410,
+      "text": "jumping"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 8833330,
+      "duration": 1111250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10083330,
+      "duration": 972080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11194580,
+      "duration": 6527910,
+      "text": "landline"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17861250,
+      "duration": 1944580,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19944580,
+      "duration": 3888750,
+      "text": "missing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23972080,
+      "duration": 694580,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24805410,
+      "duration": 2777910,
+      "text": "whole"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 27722080,
+      "duration": 5277910,
+      "text": "point"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35638750,
+      "duration": 4027910,
+      "text": "Griffith"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 39805410,
+      "duration": 4305410,
+      "text": "said"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:49:42.842643+00:00"
+}

@@ -1,0 +1,204 @@
+{
+  "speechText": "It’s also important to keep a distance from others to help prevent the spread of your illness.",
+  "audio": "audio/course-examples/4b93c57028ca712485d1761f.mp3",
+  "sha256": "d24b8ae016aa7892d23f462958d367e08529fabfb953c2aab7ba780426626a34",
+  "duration": 5.856,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "It’s",
+      "start": 0.119458,
+      "end": 0.327791
+    },
+    {
+      "text": "also",
+      "start": 0.341666,
+      "end": 0.702791
+    },
+    {
+      "text": "important",
+      "start": 0.716666,
+      "end": 1.397207
+    },
+    {
+      "text": "to",
+      "start": 1.411125,
+      "end": 1.494458
+    },
+    {
+      "text": "keep",
+      "start": 1.508333,
+      "end": 1.744458
+    },
+    {
+      "text": "a",
+      "start": 1.758333,
+      "end": 1.827791
+    },
+    {
+      "text": "distance",
+      "start": 1.841666,
+      "end": 2.355541
+    },
+    {
+      "text": "from",
+      "start": 2.369458,
+      "end": 2.577791
+    },
+    {
+      "text": "others",
+      "start": 2.591666,
+      "end": 3.063874
+    },
+    {
+      "text": "to",
+      "start": 3.077791,
+      "end": 3.216666
+    },
+    {
+      "text": "help",
+      "start": 3.230541,
+      "end": 3.508332
+    },
+    {
+      "text": "prevent",
+      "start": 3.522208,
+      "end": 4.008333
+    },
+    {
+      "text": "the",
+      "start": 4.022208,
+      "end": 4.133333
+    },
+    {
+      "text": "spread",
+      "start": 4.147208,
+      "end": 4.466666
+    },
+    {
+      "text": "of",
+      "start": 4.480541,
+      "end": 4.577749
+    },
+    {
+      "text": "your",
+      "start": 4.591666,
+      "end": 4.772207
+    },
+    {
+      "text": "illness",
+      "start": 4.786125,
+      "end": 5.452791
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1194580,
+      "duration": 2083330,
+      "text": "It’s"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3416660,
+      "duration": 3611250,
+      "text": "also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7166660,
+      "duration": 6805410,
+      "text": "important"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14111250,
+      "duration": 833330,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15083330,
+      "duration": 2361250,
+      "text": "keep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17583330,
+      "duration": 694580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 18416660,
+      "duration": 5138750,
+      "text": "distance"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23694580,
+      "duration": 2083330,
+      "text": "from"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 25916660,
+      "duration": 4722080,
+      "text": "others"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30777910,
+      "duration": 1388750,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32305410,
+      "duration": 2777910,
+      "text": "help"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 35222080,
+      "duration": 4861250,
+      "text": "prevent"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40222080,
+      "duration": 1111250,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41472080,
+      "duration": 3194580,
+      "text": "spread"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44805410,
+      "duration": 972080,
+      "text": "of"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 45916660,
+      "duration": 1805410,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47861250,
+      "duration": 6666660,
+      "text": "illness"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:42:39.983775+00:00"
+}

@@ -1,0 +1,138 @@
+{
+  "speechText": "Also ensure that you keep posting and following a specific topic.",
+  "audio": "audio/course-examples/1f22ac0292ad32bc9d0ecb2e.mp3",
+  "sha256": "b547d6ed4447be85f2f58b1dfeb311b51da7fc141b47545f4cedf931388940d2",
+  "duration": 4.872,
+  "provider": "Microsoft Edge ReadAloud",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "-10%",
+  "timingMethod": "source-word-boundaries",
+  "estimatedSplitTokens": [],
+  "words": [
+    {
+      "text": "Also",
+      "start": 0.101375,
+      "end": 0.559708
+    },
+    {
+      "text": "ensure",
+      "start": 0.573625,
+      "end": 1.0875
+    },
+    {
+      "text": "that",
+      "start": 1.101375,
+      "end": 1.295833
+    },
+    {
+      "text": "you",
+      "start": 1.309708,
+      "end": 1.434708
+    },
+    {
+      "text": "keep",
+      "start": 1.448625,
+      "end": 1.726416
+    },
+    {
+      "text": "posting",
+      "start": 1.740291,
+      "end": 2.406957
+    },
+    {
+      "text": "and",
+      "start": 2.420833,
+      "end": 2.601374
+    },
+    {
+      "text": "following",
+      "start": 2.615291,
+      "end": 3.143082
+    },
+    {
+      "text": "a",
+      "start": 3.156958,
+      "end": 3.212499
+    },
+    {
+      "text": "specific",
+      "start": 3.226375,
+      "end": 3.823583
+    },
+    {
+      "text": "topic",
+      "start": 3.8375,
+      "end": 4.4625
+    }
+  ],
+  "sourceWordBoundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 1013750,
+      "duration": 4583330,
+      "text": "Also"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5736250,
+      "duration": 5138750,
+      "text": "ensure"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 11013750,
+      "duration": 1944580,
+      "text": "that"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 13097080,
+      "duration": 1250000,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14486250,
+      "duration": 2777910,
+      "text": "keep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 17402910,
+      "duration": 6666660,
+      "text": "posting"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24208330,
+      "duration": 1805410,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 26152910,
+      "duration": 5277910,
+      "text": "following"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 31569580,
+      "duration": 555410,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32263750,
+      "duration": 5972080,
+      "text": "specific"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 38375000,
+      "duration": 6250000,
+      "text": "topic"
+    }
+  ],
+  "generator": "edge-tts==7.3.1",
+  "generatedAt": "2026-10-29T12:48:12.480002+00:00"
+}
