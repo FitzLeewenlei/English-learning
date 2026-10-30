@@ -1,0 +1,12 @@
+<view class="page auth-page"><view class="eyebrow">WELCOME TO HAINA</view><view class="title">从这里，开始积累</view><view class="subtitle">选择身份，加入你的学习班级。</view>
+  <view class="role-switch"><view class="role-option {{role === 'student' ? 'selected' : ''}}" data-role="student" bindtap="chooseRole">我是学生</view><view class="role-option {{role === 'teacher' ? 'selected' : ''}}" data-role="teacher" bindtap="chooseRole">我是老师</view></view>
+  <view wx:if="{{!cloud}}" class="card small muted">在线班级服务尚未开通。你可以返回词书，继续使用点读和本机背词。</view>
+  <view class="card auth-form"><text class="field-label">姓名</text><input class="input" maxlength="30" value="{{name}}" placeholder="填写你的真实姓名" data-field="name" bindinput="input"/>
+    <block wx:if="{{role === 'student'}}"><text class="field-label">学号 / 班内编号</text><input class="input" maxlength="40" value="{{studentNo}}" placeholder="由老师提供，便于核对名单" data-field="studentNo" bindinput="input"/></block>
+    <text class="field-label">{{role === 'student' ? '班级码' : '教师邀请码'}}</text><input class="input" maxlength="32" value="{{code}}" placeholder="{{role === 'student' ? '输入老师提供的班级码' : '输入管理员发放的邀请码'}}" data-field="code" bindinput="input"/>
+    <view class="muted small">{{role === 'student' ? '入班后需经老师确认。姓名和学习记录仅向任课老师及管理员展示。' : '教师权限经云端验证后开通，只能查看被分配的班级。'}}</view>
+    <checkbox-group bindchange="agree"><label class="privacy-agreement"><checkbox value="agree" checked="{{agreed}}" color="#347fd0"/><text>我已阅读并同意</text><text class="link" catchtap="privacy">《隐私与数据说明》</text></label></checkbox-group>
+    <button class="primary" loading="{{busy}}" disabled="{{busy || !cloud}}" bindtap="submit">{{role === 'student' ? '申请加入班级' : '验证并进入教师端'}}</button>
+  </view>
+  <button wx:if="{{cloud}}" class="quiet account-copy" bindtap="copyAccount">复制我的账号编号</button>
+</view>

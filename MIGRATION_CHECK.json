@@ -1,0 +1,29 @@
+{
+  "scripts": 162,
+  "json": 156,
+  "routes": 19,
+  "units": 120,
+  "vocabularyEntries": 1800,
+  "examples": 1800,
+  "learningCards": 1783,
+  "dictionaryForms": 3905,
+  "annotations": 530,
+  "alignmentTokens": 24654,
+  "audioFiles": 4524,
+  "audioBytes": 134967820,
+  "mainBytes": 556540,
+  "subpackageBytes": {
+    "unitdata1": 1367755,
+    "unitdata2": 1335690,
+    "unitdata3": 1325591,
+    "unitdata4": 1356714,
+    "unitdata5": 1315748,
+    "unitdata6": 1350901,
+    "unitdata7": 1383372,
+    "unitdata8": 1193094,
+    "media1": 1355113,
+    "media2": 1284110,
+    "media3": 1279475
+  },
+  "totalPackageBytes": 15104103
+}

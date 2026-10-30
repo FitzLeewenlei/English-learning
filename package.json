@@ -1,0 +1,22 @@
+{
+  "name": "haina-english-miniprogram",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Full 120-unit native WeChat migration with teacher and student framework",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "check": "node tools/validate-project.cjs",
+    "catalog": "node tools/rebuild-catalog.cjs",
+    "audio:plan": "node tools/upload-audio.cjs",
+    "audio:upload": "node tools/upload-audio.cjs --upload"
+  },
+  "devDependencies": {
+    "miniprogram-compiler": "0.2.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "optionalDependencies": {
+    "@cloudbase/node-sdk": "3.18.7"
+  }
+}

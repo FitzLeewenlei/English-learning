@@ -1,0 +1,12 @@
+{
+  "users": {"read": false, "write": false},
+  "classes": {"read": false, "write": false},
+  "classCodes": {"read": false, "write": false},
+  "teacherInvites": {"read": false, "write": false},
+  "studentClaims": {"read": false, "write": false},
+  "progress": {"read": false, "write": false},
+  "studyEvents": {"read": false, "write": false},
+  "dailyStats": {"read": false, "write": false},
+  "notices": {"read": false, "write": false},
+  "readReceipts": {"read": false, "write": false}
+}

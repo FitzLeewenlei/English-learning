@@ -1,0 +1,11 @@
+node_modules/
+project.private.config.json
+*.log
+.DS_Store
+private.*.key
+*.pem
+
+cloud-audio-upload.local.json
+.env
+.env.*
+*.zip

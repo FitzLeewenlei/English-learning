@@ -1,0 +1,35 @@
+<view class="book-page">
+  <view class="book-header">
+    <view class="brand"><image src="/assets/logo.png" class="brand-logo" mode="aspectFit"/><text class="brand-name">海纳教育·英语点读</text></view>
+    <view class="header-actions">
+      <picker range="{{listOptions}}" range-key="title" value="{{listIndex}}" bindchange="changeList"><view class="list-picker">Unit {{listId}}<text class="chevron">⌄</text></view></picker>
+      <button class="notice-button" bindtap="openNotices" aria-label="查看通知"><text>通知</text><view wx:if="{{unread}}" class="red-dot"/></button>
+    </view>
+  </view>
+  <view class="book-content"><view wx:if="{{loadingUnit}}" class="unit-load-state">正在加载 Unit {{requestedUnit}}…</view><view wx:if="{{loadError}}" class="unit-load-state error"><text>{{loadError}}</text><button class="quiet" bindtap="retryUnit">重新加载</button></view>
+    <view class="row toolbar"><text class="list-heading">Unit {{listId}}</text><view class="row-start speed"><text>朗读速度</text><picker range="{{speedOptions}}" value="{{speedIndex}}" bindchange="changeSpeed"><view class="speed-picker">{{speedOptions[speedIndex]}} ⌄</view></picker></view></view>
+    <view class="row section-heading"><view class="row-start"><text class="section-number">01</text><text class="section-title">单词</text></view><button class="quiet read-all" bindtap="playVocabulary">{{playingMode === 'vocabulary' ? '正在朗读' : '依次朗读'}}</button></view>
+    <view class="vocabulary-grid">
+      <button wx:for="{{vocabulary}}" wx:key="id" class="word-card {{playingId === item.id ? 'is-playing' : ''}}" data-index="{{index}}" bindtap="playWord" aria-label="朗读 {{item.word}}">
+        <view class="row"><text class="word-name">{{item.word}}</text><text class="sound-icon">♪</text></view><text class="word-ipa">{{item.ipa}}</text><view class="word-meaning"><text class="word-pos">{{item.partsOfSpeech}}</text><text>{{item.meaning}}</text></view>
+      </button>
+    </view>
+    <view class="row section-heading examples-heading"><view class="row-start"><text class="section-number">02</text><text class="section-title">真题例句</text></view><button class="quiet read-all" bindtap="playExamples">依次朗读</button></view>
+    <view class="examples-paper">
+      <view wx:for="{{examples}}" wx:key="id" class="example-row" wx:for-item="example" wx:for-index="ei">
+        <text class="example-number">{{example.number}}</text>
+        <view class="example-body"><view class="sentence"><block wx:for="{{example.tokens}}" wx:key="key" wx:for-item="token"><text wx:if="{{token.note}}" class="sentence-note">{{token.text}}</text><text wx:elif="{{token.word}}" class="word-token {{token.target ? 'target-word' : ''}}" data-word="{{token.text}}" bindtap="showWord">{{token.text}}</text><text wx:else>{{token.text}}</text></block><button class="sentence-play" data-index="{{ei}}" bindtap="playExample" aria-label="朗读整句">♪</button></view><text wx:if="{{example.source}}" class="example-source">{{example.source}}</text><text class="translation">{{example.translation}}</text></view>
+      </view>
+    </view>
+    <view class="footer-note">听发音 · 看例句 · 每天积累一点</view>
+  </view>
+  <view wx:if="{{playing && !focus}}" class="mini-player"><view class="player-copy"><text class="muted small">{{loading ? '正在加载录音' : (paused ? '已暂停' : '正在朗读')}}</text><text class="mini-player-word">{{playerText}}</text></view><button bindtap="toggle">{{paused ? '继续' : '暂停'}}</button><button class="quiet" bindtap="stop">停止</button></view>
+  <view wx:if="{{detail}}" class="overlay" bindtap="closeDetail"><view class="modal word-modal" catchtap="noop"><button class="close" bindtap="closeDetail">×</button><text class="detail-word">{{detail.word}}</text><view class="row-start detail-pronunciation"><text class="word-ipa">{{detail.ipa}}</text><button bindtap="playDetail" disabled="{{!detail.audio}}">♪ 发音</button></view><text wx:if="{{detail.headword}}" class="muted small">有道词头：{{detail.headword}}</text><view class="divider"/><view wx:for="{{detail.senses}}" wx:key="index" class="row-start meaning-line"><text class="badge">{{item.pos}}</text><text>{{item.meaning}}</text></view><text wx:if="{{!detail.senses.length}}" class="muted">有道暂未提供该词形的释义</text><button wx:if="{{detail.sourceUrl}}" class="quiet source-link" bindtap="copySource">复制有道来源链接</button></view></view>
+  <view wx:if="{{focus}}" class="focus-overlay" catchtouchmove="noop">
+    <view class="focus-heading"><text>{{focusCount}}</text><button class="focus-close" bindtap="stop">×</button></view>
+    <scroll-view scroll-y class="focus-scroll"><view class="focus-sentence {{focusLong ? 'is-long' : ''}}"><view wx:for="{{focusWords}}" wx:key="id" class="focus-word {{item.spaceAfter ? 'has-gap' : ''}}"><text class="focus-base">{{item.text}}</text><view class="focus-fill" style="width:{{item.pct}}%"><text>{{item.text}}</text></view></view></view></scroll-view>
+    <view class="focus-controls"><button class="focus-skip" bindtap="rewind" aria-label="后退5秒">−5s</button><button class="focus-toggle" bindtap="toggle">{{paused ? '▶' : 'Ⅱ'}}</button><button class="focus-skip" bindtap="forward" aria-label="前进5秒">+5s</button></view>
+    <text class="focus-time">{{loading ? '加载中…' : currentTime + ' / ' + duration}}</text>
+  </view>
+  <view wx:if="{{popup}}" class="overlay"><view class="modal"><button class="close" bindtap="dismissPopup">×</button><view class="eyebrow">学习通知</view><view class="modal-title">{{popup.title}}</view><text class="muted small">{{popup.dateLabel}}</text><view class="divider"/><view class="notice-content">{{popup.body}}</view><view class="button-row"><button class="primary" bindtap="readPopup">我已阅读</button></view></view></view>
+</view>

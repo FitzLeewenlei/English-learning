@@ -1,0 +1,9 @@
+[
+  {
+    "id": "notice-20261028-001",
+    "title": "填写你的公告标题",
+    "body": "填写公告正文。此文件仅是格式示例，不会自动展示给学生。复制修改后的条目到 miniprogram/data/notices.json 并重新发布即可。",
+    "createdAt": 1793145600000,
+    "popup": true
+  }
+]

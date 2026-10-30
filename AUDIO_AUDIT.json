@@ -1,0 +1,10 @@
+{
+  "files": 4524,
+  "failed": 0,
+  "codecs": {
+    "mp3": 4190,
+    "pcm_s16le": 334
+  },
+  "totalSeconds": 11225.734,
+  "errors": []
+}

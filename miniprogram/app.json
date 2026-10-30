@@ -1,0 +1,120 @@
+{
+  "pages": [
+    "pages/book/index",
+    "pages/review/index",
+    "pages/profile/index",
+    "pages/auth/index",
+    "pages/notices/index",
+    "pages/teacher/index",
+    "pages/student/index",
+    "pages/privacy/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "海纳英语",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f5f7fb",
+    "pageOrientation": "auto"
+  },
+  "tabBar": {
+    "color": "#8793a6",
+    "selectedColor": "#2776d2",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/book/index",
+        "text": "词书点读"
+      },
+      {
+        "pagePath": "pages/review/index",
+        "text": "每日背词"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "subpackages": [
+    {
+      "name": "unitdata1",
+      "root": "unitdata1",
+      "pages": [
+        "stub/index"
+      ]
+    },
+    {
+      "name": "unitdata2",
+      "root": "unitdata2",
+      "pages": [
+        "stub/index"
+      ]
+    },
+    {
+      "name": "unitdata3",
+      "root": "unitdata3",
+      "pages": [
+        "stub/index"
+      ]
+    },
+    {
+      "name": "unitdata4",
+      "root": "unitdata4",
+      "pages": [
+        "stub/index"
+      ]
+    },
+    {
+      "name": "unitdata5",
+      "root": "unitdata5",
+      "pages": [
+        "stub/index"
+      ]
+    },
+    {
+      "name": "unitdata6",
+      "root": "unitdata6",
+      "pages": [
+        "stub/index"
+      ]
+    },
+    {
+      "name": "unitdata7",
+      "root": "unitdata7",
+      "pages": [
+        "stub/index"
+      ]
+    },
+    {
+      "name": "unitdata8",
+      "root": "unitdata8",
+      "pages": [
+        "stub/index"
+      ]
+    },
+    {
+      "name": "media1",
+      "root": "media1",
+      "pages": [
+        "stub/index"
+      ]
+    },
+    {
+      "name": "media2",
+      "root": "media2",
+      "pages": [
+        "stub/index"
+      ]
+    },
+    {
+      "name": "media3",
+      "root": "media3",
+      "pages": [
+        "stub/index"
+      ]
+    }
+  ],
+  "lazyCodeLoading": "requiredComponents",
+  "sitemapLocation": "sitemap.json"
+}

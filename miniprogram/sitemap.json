@@ -1,0 +1,1 @@
+{"desc":"学习页面允许被微信搜索索引；个人和教师页面不参与索引。","rules":[{"action":"allow","page":"pages/book/index"},{"action":"disallow","page":"*"}]}

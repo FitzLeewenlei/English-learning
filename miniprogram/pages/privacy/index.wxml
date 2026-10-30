@@ -1,0 +1,7 @@
+<view class="page"><view class="title">隐私与数据说明</view><view class="subtitle">版本 1.0 · 2026 年 10 月 28 日</view><view class="spacer"/>
+  <view class="card"><view class="section-label">本机学习</view><view class="notice-content">未绑定班级账号时，背词进度和设置保存在当前设备。清除小程序数据或更换设备可能导致本机记录丢失。</view>
+  <view class="section-label">班级账号</view><view class="notice-content">你主动加入班级后，系统使用小程序账号标识关联姓名、学号、班级与学习记录，用于同步学习计划并向本班任课老师展示学习完成情况。小程序不主动读取微信头像、昵称、手机号、通讯录或地理位置。</view>
+  <view class="section-label">学习记录</view><view class="notice-content">记录包括单词练习时间、记忆反馈、听写核对结果与复习安排。“认识”属于学习者自评，不等同于考试成绩。断网时记录暂存本机，联网后上传。</view>
+  <view class="section-label">谁可以查看</view><view class="notice-content">学生查看自己的记录；已验证教师查看被分配班级的学生记录；管理员处理账号和班级管理。普通用户不能修改自己的教师权限。</view>
+  <view class="section-label">更正与删除</view><view class="notice-content">如需更正姓名、转班、解除绑定或删除云端记录，请联系你的任课老师或校区管理员。清除本机数据不会同时删除已上传到班级的记录。正式运营者的联系渠道以校区公布的信息为准。</view></view>
+</view>

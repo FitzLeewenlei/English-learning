@@ -1,0 +1,1082 @@
+[
+  {
+    "unit": 1,
+    "sourcePath": "data/units/unit-1-909f2a8e9bfb.json",
+    "runtimePath": "unitdata1/units/unit-001.json",
+    "sha256": "909f2a8e9bfb39a6c7cb84e3bf516f369365b9bdb2b580cfd7efa22486f2b247",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 135
+  },
+  {
+    "unit": 2,
+    "sourcePath": "data/units/unit-2-39f8471d473e.json",
+    "runtimePath": "unitdata1/units/unit-002.json",
+    "sha256": "39f8471d473efee241863381cbe20119e62e6138374df6d79ddb14ede753e517",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 189
+  },
+  {
+    "unit": 3,
+    "sourcePath": "data/units/unit-3-eb1d3b551855.json",
+    "runtimePath": "unitdata1/units/unit-003.json",
+    "sha256": "eb1d3b55185596c6115069e5ad1aa7e8d57c6709babc137b75e6a7f4a87ec7b2",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 171
+  },
+  {
+    "unit": 4,
+    "sourcePath": "data/units/unit-4-6f3c5b8ed390.json",
+    "runtimePath": "unitdata1/units/unit-004.json",
+    "sha256": "6f3c5b8ed390ef41b60adcebc48728e8eaf0e22fbc63c9a191f795358269aa82",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 147
+  },
+  {
+    "unit": 5,
+    "sourcePath": "data/units/unit-5-9b644a217fae.json",
+    "runtimePath": "unitdata1/units/unit-005.json",
+    "sha256": "9b644a217fae7d7c239e4438276a4b805a3ca78674e221a1712742786f8085f3",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 193
+  },
+  {
+    "unit": 6,
+    "sourcePath": "data/units/unit-6-e46eb842b8da.json",
+    "runtimePath": "unitdata1/units/unit-006.json",
+    "sha256": "e46eb842b8da84ba961c37bdf1e0945f3bf14eb415d166a30cf290eeb8934602",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 172
+  },
+  {
+    "unit": 7,
+    "sourcePath": "data/units/unit-7-38f326f227f6.json",
+    "runtimePath": "unitdata1/units/unit-007.json",
+    "sha256": "38f326f227f610109e9be71e211a8084966abe4bd439f312490806c8359b7f0e",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 139
+  },
+  {
+    "unit": 8,
+    "sourcePath": "data/units/unit-8-aebe5b934d96.json",
+    "runtimePath": "unitdata1/units/unit-008.json",
+    "sha256": "aebe5b934d96890d080cf09ee5d3c0eb4f4fba700dac3109a79cc82bb0b5b599",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 161
+  },
+  {
+    "unit": 9,
+    "sourcePath": "data/units/unit-9-2c48045046f4.json",
+    "runtimePath": "unitdata1/units/unit-009.json",
+    "sha256": "2c48045046f4cd4ae7e81f8b367d3c48f264eb137008b10d5b6942e4383a9826",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 150
+  },
+  {
+    "unit": 10,
+    "sourcePath": "data/units/unit-10-a9f2d4e53a18.json",
+    "runtimePath": "unitdata1/units/unit-010.json",
+    "sha256": "a9f2d4e53a18f331d728f2fe28c66335371700833cc5b3a16b904ae31d56c9d6",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 171
+  },
+  {
+    "unit": 11,
+    "sourcePath": "data/units/unit-11-9bc79efb6978.json",
+    "runtimePath": "unitdata1/units/unit-011.json",
+    "sha256": "9bc79efb697888a77f4087145ddbb78cbdb001a2670b7ed641e73313bbd9ead3",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 163
+  },
+  {
+    "unit": 12,
+    "sourcePath": "data/units/unit-12-eb19be8de020.json",
+    "runtimePath": "unitdata1/units/unit-012.json",
+    "sha256": "eb19be8de0203fd4473bb39bc19969680478f0d66416af01739897e9ecdd3713",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 146
+  },
+  {
+    "unit": 13,
+    "sourcePath": "data/units/unit-13-b3d7841056e7.json",
+    "runtimePath": "unitdata1/units/unit-013.json",
+    "sha256": "b3d7841056e7b66c144f5b2a9ac482aee1aa0c310e12761ae4e5f6435edc4458",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 162
+  },
+  {
+    "unit": 14,
+    "sourcePath": "data/units/unit-14-31a7c4823d88.json",
+    "runtimePath": "unitdata1/units/unit-014.json",
+    "sha256": "31a7c4823d884c61a0ecffc247b6a25d792b7f10e32657208b93c52c9607b114",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 132
+  },
+  {
+    "unit": 15,
+    "sourcePath": "data/units/unit-15-aa2821ab718a.json",
+    "runtimePath": "unitdata1/units/unit-015.json",
+    "sha256": "aa2821ab718aa4a0c9c3e30d607cb88067734febd71caeedddc7d999789803bc",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 174
+  },
+  {
+    "unit": 16,
+    "sourcePath": "data/units/unit-16-294ad4375b22.json",
+    "runtimePath": "unitdata2/units/unit-016.json",
+    "sha256": "294ad4375b22cfe35254f4a8358333fa59be23c39c7bb11469896bb93e28672f",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 140
+  },
+  {
+    "unit": 17,
+    "sourcePath": "data/units/unit-17-206aa2793e15.json",
+    "runtimePath": "unitdata2/units/unit-017.json",
+    "sha256": "206aa2793e1530b5741f7548ae661cca101fc7edabd0cd2f5166629d309a7b19",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 149
+  },
+  {
+    "unit": 18,
+    "sourcePath": "data/units/unit-18-ec81e9181143.json",
+    "runtimePath": "unitdata2/units/unit-018.json",
+    "sha256": "ec81e91811435a424291099e90916dc44403f239c44ad36555aeebc9f4ec518d",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 155
+  },
+  {
+    "unit": 19,
+    "sourcePath": "data/units/unit-19-dd2ea78afc8e.json",
+    "runtimePath": "unitdata2/units/unit-019.json",
+    "sha256": "dd2ea78afc8e572ce60664eac88d2a554573c879b3d1d1a2f7a3668770873a84",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 143
+  },
+  {
+    "unit": 20,
+    "sourcePath": "data/units/unit-20-b5f5d6f44c9a.json",
+    "runtimePath": "unitdata2/units/unit-020.json",
+    "sha256": "b5f5d6f44c9a5ebd3eb5277409dc6f027d27f087d55b96c27db1dddba884d80e",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 187
+  },
+  {
+    "unit": 21,
+    "sourcePath": "data/units/unit-21-b1f850edcefa.json",
+    "runtimePath": "unitdata2/units/unit-021.json",
+    "sha256": "b1f850edcefa862470edd934d5239da90c5ddd51ffcc50b27b14b43107295a1b",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 169
+  },
+  {
+    "unit": 22,
+    "sourcePath": "data/units/unit-22-ceed3f6d938f.json",
+    "runtimePath": "unitdata2/units/unit-022.json",
+    "sha256": "ceed3f6d938f859048814b70ba9d196303775ddbb7084346fc9933336fd419ad",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 141
+  },
+  {
+    "unit": 23,
+    "sourcePath": "data/units/unit-23-5482d4082e09.json",
+    "runtimePath": "unitdata2/units/unit-023.json",
+    "sha256": "5482d4082e09e13ad09c8f53383c8b247c5a2dbb0e396a5027af0482db3543cb",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 181
+  },
+  {
+    "unit": 24,
+    "sourcePath": "data/units/unit-24-771912399825.json",
+    "runtimePath": "unitdata2/units/unit-024.json",
+    "sha256": "7719123998256f7733989d1ffc765d07a48282af311740dc64c804057fdd16d4",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 132
+  },
+  {
+    "unit": 25,
+    "sourcePath": "data/units/unit-25-0158b41a5e4f.json",
+    "runtimePath": "unitdata2/units/unit-025.json",
+    "sha256": "0158b41a5e4f620e915bd38b9baed5421c2fd950b69a4b1106723f6e9c40e48d",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 143
+  },
+  {
+    "unit": 26,
+    "sourcePath": "data/units/unit-26-ff9019b4dc4d.json",
+    "runtimePath": "unitdata2/units/unit-026.json",
+    "sha256": "ff9019b4dc4d57cd87532a5db2c2e08034b529884a2d337cc35b76f13fd15cee",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 159
+  },
+  {
+    "unit": 27,
+    "sourcePath": "data/units/unit-27-2e4227b8c5f4.json",
+    "runtimePath": "unitdata2/units/unit-027.json",
+    "sha256": "2e4227b8c5f47df2f8a817e0a903bf8c47e990060f2d8662afa577116af8e4c5",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 170
+  },
+  {
+    "unit": 28,
+    "sourcePath": "data/units/unit-28-5a0aaddf00bc.json",
+    "runtimePath": "unitdata2/units/unit-028.json",
+    "sha256": "5a0aaddf00bc5f8430b24738dd1b3cdb7a3b7e246c2314b03328c69b5790e46b",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 159
+  },
+  {
+    "unit": 29,
+    "sourcePath": "data/units/unit-29-ce66c08d5273.json",
+    "runtimePath": "unitdata2/units/unit-029.json",
+    "sha256": "ce66c08d5273932a85cb2627f93c571067eec9ac04625be40efb5af5fa163105",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 174
+  },
+  {
+    "unit": 30,
+    "sourcePath": "data/units/unit-30-84775fae13fe.json",
+    "runtimePath": "unitdata2/units/unit-030.json",
+    "sha256": "84775fae13fec5ba45ad8f2a3102fb3a09989a6f0917c86266ad4270fe13ef61",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 140
+  },
+  {
+    "unit": 31,
+    "sourcePath": "data/units/unit-31-90be1dceb78f.json",
+    "runtimePath": "unitdata3/units/unit-031.json",
+    "sha256": "90be1dceb78f6230798962fab89593a105ddc18f312d9236bf27282023354f80",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 143
+  },
+  {
+    "unit": 32,
+    "sourcePath": "data/units/unit-32-655128854fd1.json",
+    "runtimePath": "unitdata3/units/unit-032.json",
+    "sha256": "655128854fd1fe1784f5d111be0907ef3297d1475265eefa1626f3da18ade859",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 179
+  },
+  {
+    "unit": 33,
+    "sourcePath": "data/units/unit-33-dc444783ea80.json",
+    "runtimePath": "unitdata3/units/unit-033.json",
+    "sha256": "dc444783ea8005106bbda44271a931c49610cc5c57a07b8615ed9b3055176d6b",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 152
+  },
+  {
+    "unit": 34,
+    "sourcePath": "data/units/unit-34-b7764705fe6a.json",
+    "runtimePath": "unitdata3/units/unit-034.json",
+    "sha256": "b7764705fe6ad340f1ae7dd5066be9cb9ff3106bd2e8006b8928023349a2e1d4",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 169
+  },
+  {
+    "unit": 35,
+    "sourcePath": "data/units/unit-35-d41459cfc61a.json",
+    "runtimePath": "unitdata3/units/unit-035.json",
+    "sha256": "d41459cfc61a896d9adc45291ae9c436edabc746e3b38539896005539aba504c",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 156
+  },
+  {
+    "unit": 36,
+    "sourcePath": "data/units/unit-36-ad8be74097ed.json",
+    "runtimePath": "unitdata3/units/unit-036.json",
+    "sha256": "ad8be74097ed978afb9a78d8eef354641d6589b170e65a3be17bfee6c836eac7",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 142
+  },
+  {
+    "unit": 37,
+    "sourcePath": "data/units/unit-37-62b8d3fc9903.json",
+    "runtimePath": "unitdata3/units/unit-037.json",
+    "sha256": "62b8d3fc990348ff62f6c24707b916753ebc5857d2107a4b55f32b6744da829d",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 182
+  },
+  {
+    "unit": 38,
+    "sourcePath": "data/units/unit-38-b3d862b85160.json",
+    "runtimePath": "unitdata3/units/unit-038.json",
+    "sha256": "b3d862b8516075b598791aa3f1ec2ea1f58bd5675c1d827b6d78c19d2b0cd54f",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 124
+  },
+  {
+    "unit": 39,
+    "sourcePath": "data/units/unit-39-420c12a0ae06.json",
+    "runtimePath": "unitdata3/units/unit-039.json",
+    "sha256": "420c12a0ae06291dd4dfbe448a9c2a8d7d09a116604ae0df0c2835b2ccc5fcc0",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 142
+  },
+  {
+    "unit": 40,
+    "sourcePath": "data/units/unit-40-1214ba38c68c.json",
+    "runtimePath": "unitdata3/units/unit-040.json",
+    "sha256": "1214ba38c68c2f9aedf32f998eac4d8133fe5c250866598732583097d9e10501",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 170
+  },
+  {
+    "unit": 41,
+    "sourcePath": "data/units/unit-41-d894a727210d.json",
+    "runtimePath": "unitdata3/units/unit-041.json",
+    "sha256": "d894a727210ddfe3d0a5a7bee4f3ef395b01526f4ead71e69b8a140f94db823c",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 147
+  },
+  {
+    "unit": 42,
+    "sourcePath": "data/units/unit-42-b62a26fbf05d.json",
+    "runtimePath": "unitdata3/units/unit-042.json",
+    "sha256": "b62a26fbf05df5cdabc4c0451c9ddf018d7348a7559d92ae547ac7e222e456c4",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 164
+  },
+  {
+    "unit": 43,
+    "sourcePath": "data/units/unit-43-fe6b6f917f4e.json",
+    "runtimePath": "unitdata3/units/unit-043.json",
+    "sha256": "fe6b6f917f4ef5d4b66e8706c3856671de470ab6d7960d41905bcbbf08b4eb87",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 168
+  },
+  {
+    "unit": 44,
+    "sourcePath": "data/units/unit-44-b55f5ce96bf6.json",
+    "runtimePath": "unitdata3/units/unit-044.json",
+    "sha256": "b55f5ce96bf6cf6d99ef0d661ee9f4336e95baca1001288587fd226ec2b24bd5",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 142
+  },
+  {
+    "unit": 45,
+    "sourcePath": "data/units/unit-45-bdd120a96607.json",
+    "runtimePath": "unitdata3/units/unit-045.json",
+    "sha256": "bdd120a966076abc03662f0a28be48011ccdb2167a053aba2e71515cb49ebdfa",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 136
+  },
+  {
+    "unit": 46,
+    "sourcePath": "data/units/unit-46-eee1969ca719.json",
+    "runtimePath": "unitdata4/units/unit-046.json",
+    "sha256": "eee1969ca719bcd23c6735410831d6b03c19e97a34e3265c1dc69aaa4de5d567",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 165
+  },
+  {
+    "unit": 47,
+    "sourcePath": "data/units/unit-47-f6bb8d6334db.json",
+    "runtimePath": "unitdata4/units/unit-047.json",
+    "sha256": "f6bb8d6334dbd889fb413547857dae86beb427a8667e3c692d8f668caa8b5154",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 164
+  },
+  {
+    "unit": 48,
+    "sourcePath": "data/units/unit-48-650dc4d8e1bf.json",
+    "runtimePath": "unitdata4/units/unit-048.json",
+    "sha256": "650dc4d8e1bfe18183a7b3d70939e730c92f2d28bf2a25d51f966fa59ca8b088",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 146
+  },
+  {
+    "unit": 49,
+    "sourcePath": "data/units/unit-49-4b7011eaca97.json",
+    "runtimePath": "unitdata4/units/unit-049.json",
+    "sha256": "4b7011eaca97a5dee556e640a3e99e6f9d100de1296112419535645b91567d68",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 169
+  },
+  {
+    "unit": 50,
+    "sourcePath": "data/units/unit-50-6faade9ea865.json",
+    "runtimePath": "unitdata4/units/unit-050.json",
+    "sha256": "6faade9ea8652a8ddaf5209ec2f0e8f356b9b940fbe089e904659caafd1ea4d4",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 175
+  },
+  {
+    "unit": 51,
+    "sourcePath": "data/units/unit-51-ac2f1ef540b7.json",
+    "runtimePath": "unitdata4/units/unit-051.json",
+    "sha256": "ac2f1ef540b7950ad7a5de7230da1e2204ec14d2dc14bb0dfe2b7fb72bad393e",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 179
+  },
+  {
+    "unit": 52,
+    "sourcePath": "data/units/unit-52-1aff91a5f40e.json",
+    "runtimePath": "unitdata4/units/unit-052.json",
+    "sha256": "1aff91a5f40e179a13f34786a628c53d1cbd02fdf82d5d3bf32a7960ab617d35",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 205
+  },
+  {
+    "unit": 53,
+    "sourcePath": "data/units/unit-53-725383a5824c.json",
+    "runtimePath": "unitdata4/units/unit-053.json",
+    "sha256": "725383a5824c77b01ffbca619f5b91d09253e0de4921312287f907ed29db4775",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 153
+  },
+  {
+    "unit": 54,
+    "sourcePath": "data/units/unit-54-ca6dea729d2e.json",
+    "runtimePath": "unitdata4/units/unit-054.json",
+    "sha256": "ca6dea729d2eea18598811eb410f134664394d96f7e9a7e0ab8d6e45dedd0b72",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 159
+  },
+  {
+    "unit": 55,
+    "sourcePath": "data/units/unit-55-06db58e729e1.json",
+    "runtimePath": "unitdata4/units/unit-055.json",
+    "sha256": "06db58e729e114baacd31624d8350332425ed37b15893d8aef30e02d52ef8495",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 142
+  },
+  {
+    "unit": 56,
+    "sourcePath": "data/units/unit-56-e3c17691b397.json",
+    "runtimePath": "unitdata4/units/unit-056.json",
+    "sha256": "e3c17691b3975940f1653614a252d4c9b2c80bd147082cf5877ed7f2236f3b87",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 141
+  },
+  {
+    "unit": 57,
+    "sourcePath": "data/units/unit-57-c419859debf4.json",
+    "runtimePath": "unitdata4/units/unit-057.json",
+    "sha256": "c419859debf43d724ccdb82c6542e494f6a3fc6e22c680fe291d2b6f28a6582e",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 147
+  },
+  {
+    "unit": 58,
+    "sourcePath": "data/units/unit-58-c132c53f1a40.json",
+    "runtimePath": "unitdata4/units/unit-058.json",
+    "sha256": "c132c53f1a404ec7c218c058613beadbdcd12aa015b6cd135faa68bcdf4c356e",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 129
+  },
+  {
+    "unit": 59,
+    "sourcePath": "data/units/unit-59-722478cd62a8.json",
+    "runtimePath": "unitdata4/units/unit-059.json",
+    "sha256": "722478cd62a84fdfeb89ddfdc93402633f4996490e8ba72453760a2e57971032",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 147
+  },
+  {
+    "unit": 60,
+    "sourcePath": "data/units/unit-60-58fd2e452ce5.json",
+    "runtimePath": "unitdata4/units/unit-060.json",
+    "sha256": "58fd2e452ce5a0ad9d771d27f86f5f582804082db024f0e312b3a5e3bb7da97f",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 160
+  },
+  {
+    "unit": 61,
+    "sourcePath": "data/units/unit-61-eb5ce5f68e12.json",
+    "runtimePath": "unitdata5/units/unit-061.json",
+    "sha256": "eb5ce5f68e129c996a55140b4f2cb10edf16d11cbfb4e8ce11f086e3012b5f82",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 128
+  },
+  {
+    "unit": 62,
+    "sourcePath": "data/units/unit-62-ff0ad0ec7b5b.json",
+    "runtimePath": "unitdata5/units/unit-062.json",
+    "sha256": "ff0ad0ec7b5b6c5fb088831a47e22d35c773bca24d2e4852707047fde7aaba0b",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 142
+  },
+  {
+    "unit": 63,
+    "sourcePath": "data/units/unit-63-789b1db3a949.json",
+    "runtimePath": "unitdata5/units/unit-063.json",
+    "sha256": "789b1db3a949800dd771179acd19ce0c93048b5237042de01b0c29543e6b4469",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 174
+  },
+  {
+    "unit": 64,
+    "sourcePath": "data/units/unit-64-ba02e9fe7a82.json",
+    "runtimePath": "unitdata5/units/unit-064.json",
+    "sha256": "ba02e9fe7a8220daea5b340a211452ff3e8309069fbf9fa571859af8df201b18",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 143
+  },
+  {
+    "unit": 65,
+    "sourcePath": "data/units/unit-65-55e09982bdab.json",
+    "runtimePath": "unitdata5/units/unit-065.json",
+    "sha256": "55e09982bdabad8996f1a5373fa3980dcb6e2dce3930a5b56d59ce53126b47dd",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 154
+  },
+  {
+    "unit": 66,
+    "sourcePath": "data/units/unit-66-76fbb7f698f7.json",
+    "runtimePath": "unitdata5/units/unit-066.json",
+    "sha256": "76fbb7f698f7f24fd539b9def37d661d343ec36c25cc2e25a0cb7b0b4bbc424d",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 164
+  },
+  {
+    "unit": 67,
+    "sourcePath": "data/units/unit-67-7ac36946b36f.json",
+    "runtimePath": "unitdata5/units/unit-067.json",
+    "sha256": "7ac36946b36f51a9ffa27fad7fbf623ad2098eefa135d4ae9792abc5841716a0",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 152
+  },
+  {
+    "unit": 68,
+    "sourcePath": "data/units/unit-68-87896fac7b49.json",
+    "runtimePath": "unitdata5/units/unit-068.json",
+    "sha256": "87896fac7b49168b19a2bc36687d9ba40a089fd542917b4ed37a392e03e8fb97",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 152
+  },
+  {
+    "unit": 69,
+    "sourcePath": "data/units/unit-69-1faa09df6a37.json",
+    "runtimePath": "unitdata5/units/unit-069.json",
+    "sha256": "1faa09df6a376e08041d6241d10f72051d963b460cad1a6e2fe74137199e1f47",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 133
+  },
+  {
+    "unit": 70,
+    "sourcePath": "data/units/unit-70-466fad909d84.json",
+    "runtimePath": "unitdata5/units/unit-070.json",
+    "sha256": "466fad909d844ae972cb31a1fc7d90194ad5ac93d89e4c4c1e81f7dde932cb5c",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 154
+  },
+  {
+    "unit": 71,
+    "sourcePath": "data/units/unit-71-efc33dad2bf4.json",
+    "runtimePath": "unitdata5/units/unit-071.json",
+    "sha256": "efc33dad2bf4140aa7cd255d38db4aaf0a09ed5aceca0a6ada43689692892aeb",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 148
+  },
+  {
+    "unit": 72,
+    "sourcePath": "data/units/unit-72-98f482c7dd95.json",
+    "runtimePath": "unitdata5/units/unit-072.json",
+    "sha256": "98f482c7dd95334b9cf5407b7391cea925b4789fcc639726fb9870d766516670",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 168
+  },
+  {
+    "unit": 73,
+    "sourcePath": "data/units/unit-73-3a3c7c3abeb5.json",
+    "runtimePath": "unitdata5/units/unit-073.json",
+    "sha256": "3a3c7c3abeb5d52b4f545601767a8508faf7ba41c247b64c23ba13c02c593fc0",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 168
+  },
+  {
+    "unit": 74,
+    "sourcePath": "data/units/unit-74-c6f8f2139210.json",
+    "runtimePath": "unitdata5/units/unit-074.json",
+    "sha256": "c6f8f213921091cb15a65e752e0ffd2fe893b8754c5ff242ab78b335635547ff",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 152
+  },
+  {
+    "unit": 75,
+    "sourcePath": "data/units/unit-75-b3a3c9b3901b.json",
+    "runtimePath": "unitdata5/units/unit-075.json",
+    "sha256": "b3a3c9b3901b729c9888d5b0186d58af953b98704d1989b3fa91051244c13191",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 169
+  },
+  {
+    "unit": 76,
+    "sourcePath": "data/units/unit-76-ce41d7b12ed5.json",
+    "runtimePath": "unitdata6/units/unit-076.json",
+    "sha256": "ce41d7b12ed5b966a6c455f467974fcf98f0b329f84ab17e21979c4d9309a113",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 150
+  },
+  {
+    "unit": 77,
+    "sourcePath": "data/units/unit-77-47cf23fcc537.json",
+    "runtimePath": "unitdata6/units/unit-077.json",
+    "sha256": "47cf23fcc5378c94317625a2b38f3dcb602e0d62d2ac93301d253c4ea405f058",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 127
+  },
+  {
+    "unit": 78,
+    "sourcePath": "data/units/unit-78-6abd3c8c10cc.json",
+    "runtimePath": "unitdata6/units/unit-078.json",
+    "sha256": "6abd3c8c10cc09a54b8af0564177fd690830660fec752e392767972d3fd60d18",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 136
+  },
+  {
+    "unit": 79,
+    "sourcePath": "data/units/unit-79-c727124a3d66.json",
+    "runtimePath": "unitdata6/units/unit-079.json",
+    "sha256": "c727124a3d6601d1a8af9cbd761969417211765941f16fa6208d55cc9c3e30a8",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 163
+  },
+  {
+    "unit": 80,
+    "sourcePath": "data/units/unit-80-2c7ba98ebe35.json",
+    "runtimePath": "unitdata6/units/unit-080.json",
+    "sha256": "2c7ba98ebe354e896d45171ec09b98d2cc9c1af382676ad6c84b08c213237d38",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 168
+  },
+  {
+    "unit": 81,
+    "sourcePath": "data/units/unit-81-87dfd91e68ed.json",
+    "runtimePath": "unitdata6/units/unit-081.json",
+    "sha256": "87dfd91e68ed82d5636c7ab4cb929fc3a54be7b3daaa2b1288d44c556c99eeaf",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 139
+  },
+  {
+    "unit": 82,
+    "sourcePath": "data/units/unit-82-3815c709c73d.json",
+    "runtimePath": "unitdata6/units/unit-082.json",
+    "sha256": "3815c709c73d07828c1aa0d86ebd41ff5ef9a8dca3583e17fa006410b67e0b98",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 163
+  },
+  {
+    "unit": 83,
+    "sourcePath": "data/units/unit-83-b88822373fed.json",
+    "runtimePath": "unitdata6/units/unit-083.json",
+    "sha256": "b88822373feda23f1d19e086cd69e355d00c6f1e8c880a2eea38e8389edd355f",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 158
+  },
+  {
+    "unit": 84,
+    "sourcePath": "data/units/unit-84-e99d8679dc87.json",
+    "runtimePath": "unitdata6/units/unit-084.json",
+    "sha256": "e99d8679dc8733eec17d19c4c07224edb02996294ece1f74f20fb2dca3113bba",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 138
+  },
+  {
+    "unit": 85,
+    "sourcePath": "data/units/unit-85-e80995ac268c.json",
+    "runtimePath": "unitdata6/units/unit-085.json",
+    "sha256": "e80995ac268c6a3029762d1d760149c8d8c2691814027df06c4f6d760bf70b4c",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 131
+  },
+  {
+    "unit": 86,
+    "sourcePath": "data/units/unit-86-75124d8cd95e.json",
+    "runtimePath": "unitdata6/units/unit-086.json",
+    "sha256": "75124d8cd95e0928c776d58af9dc72ff4a79f82c29fc2a90398f87ff894e688a",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 165
+  },
+  {
+    "unit": 87,
+    "sourcePath": "data/units/unit-87-8cee645fdca9.json",
+    "runtimePath": "unitdata6/units/unit-087.json",
+    "sha256": "8cee645fdca9130027737c90ee99e6645fcf81cb3698992e65080cdd8f5ecdda",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 129
+  },
+  {
+    "unit": 88,
+    "sourcePath": "data/units/unit-88-6d2f05db7042.json",
+    "runtimePath": "unitdata6/units/unit-088.json",
+    "sha256": "6d2f05db70420142d6c88317844413c547c024abf4e9e68812b604a1ceb53d3d",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 143
+  },
+  {
+    "unit": 89,
+    "sourcePath": "data/units/unit-89-5750427f4579.json",
+    "runtimePath": "unitdata6/units/unit-089.json",
+    "sha256": "5750427f4579641726a9f26f2e540d97dc4b4b051b6ef1a2836b990633e3d233",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 153
+  },
+  {
+    "unit": 90,
+    "sourcePath": "data/units/unit-90-5ed1332a306e.json",
+    "runtimePath": "unitdata6/units/unit-090.json",
+    "sha256": "5ed1332a306ea8351d039260b912c224a49672065cae17ecbfac7885efe0379a",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 153
+  },
+  {
+    "unit": 91,
+    "sourcePath": "data/units/unit-91-aee1a504e329.json",
+    "runtimePath": "unitdata6/units/unit-091.json",
+    "sha256": "aee1a504e3299bd0966df875326f89ef2129f7782417c46703d2952d2e8c7ece",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 144
+  },
+  {
+    "unit": 92,
+    "sourcePath": "data/units/unit-92-b94edd2d1143.json",
+    "runtimePath": "unitdata7/units/unit-092.json",
+    "sha256": "b94edd2d1143758d35824dbcbcd546bc07d725c044620b56bd88ee8ffdd07d01",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 159
+  },
+  {
+    "unit": 93,
+    "sourcePath": "data/units/unit-93-669b8ef0ad77.json",
+    "runtimePath": "unitdata7/units/unit-093.json",
+    "sha256": "669b8ef0ad7743d12205b9b0357f00187ab958e6630032f59d15ba6d7a91a432",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 131
+  },
+  {
+    "unit": 94,
+    "sourcePath": "data/units/unit-94-b8d120e33bc1.json",
+    "runtimePath": "unitdata7/units/unit-094.json",
+    "sha256": "b8d120e33bc195ff325afdbc933816bb1d928931263accac10e0cf6882709245",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 173
+  },
+  {
+    "unit": 95,
+    "sourcePath": "data/units/unit-95-c0fcbb28d451.json",
+    "runtimePath": "unitdata7/units/unit-095.json",
+    "sha256": "c0fcbb28d4516501d18ce8e74de759c0df65c8a51222adba0510eba7807acdd7",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 152
+  },
+  {
+    "unit": 96,
+    "sourcePath": "data/units/unit-96-f3c2f740b7c2.json",
+    "runtimePath": "unitdata7/units/unit-096.json",
+    "sha256": "f3c2f740b7c278a8d972f78f67aeed61a50a12b33e277321f768e712dbadf02f",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 136
+  },
+  {
+    "unit": 97,
+    "sourcePath": "data/units/unit-97-fd7b8697e347.json",
+    "runtimePath": "unitdata7/units/unit-097.json",
+    "sha256": "fd7b8697e347c3adbede874338328c8bf9a553955eacf87429cfb6d7b2d05eea",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 137
+  },
+  {
+    "unit": 98,
+    "sourcePath": "data/units/unit-98-f74bcc4ba952.json",
+    "runtimePath": "unitdata7/units/unit-098.json",
+    "sha256": "f74bcc4ba952bed75c54921aaab6d13f3c2d59b30d515fd75d0e9b9ca6014fe4",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 172
+  },
+  {
+    "unit": 99,
+    "sourcePath": "data/units/unit-99-627fd34f99f3.json",
+    "runtimePath": "unitdata7/units/unit-099.json",
+    "sha256": "627fd34f99f3480a65d4d77ee72e66135d8062ee66052536437629ccc14861bb",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 195
+  },
+  {
+    "unit": 100,
+    "sourcePath": "data/units/unit-100-75e7afb865e5.json",
+    "runtimePath": "unitdata7/units/unit-100.json",
+    "sha256": "75e7afb865e516ec88900d52a98fe0480ab503012b80b05ca873a0441658f194",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 148
+  },
+  {
+    "unit": 101,
+    "sourcePath": "data/units/unit-101-6fc5d1e21023.json",
+    "runtimePath": "unitdata7/units/unit-101.json",
+    "sha256": "6fc5d1e210239e4770e9968a57f32952dd153961643599cef2858a7742c5d84d",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 136
+  },
+  {
+    "unit": 102,
+    "sourcePath": "data/units/unit-102-8858df7eb7b0.json",
+    "runtimePath": "unitdata7/units/unit-102.json",
+    "sha256": "8858df7eb7b087b514cf96ea154a670bd6bcc1122e649bab259a2a5b57a81519",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 163
+  },
+  {
+    "unit": 103,
+    "sourcePath": "data/units/unit-103-20b3b7387b6f.json",
+    "runtimePath": "unitdata7/units/unit-103.json",
+    "sha256": "20b3b7387b6f78c998792f41818cf448aca1a8517521b8792288ee6d75c5d8b7",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 119
+  },
+  {
+    "unit": 104,
+    "sourcePath": "data/units/unit-104-9a6992fa86da.json",
+    "runtimePath": "unitdata7/units/unit-104.json",
+    "sha256": "9a6992fa86da55fe345c1b76293548f6f1d6ff165aa4e5379f9450a309c680f1",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 155
+  },
+  {
+    "unit": 105,
+    "sourcePath": "data/units/unit-105-8c84b26749fd.json",
+    "runtimePath": "unitdata7/units/unit-105.json",
+    "sha256": "8c84b26749fd87a4a521e9af25ef1f475032169536acd714ab6d43ca8d790b26",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 117
+  },
+  {
+    "unit": 106,
+    "sourcePath": "data/units/unit-106-da6a3dc46dd0.json",
+    "runtimePath": "unitdata7/units/unit-106.json",
+    "sha256": "da6a3dc46dd02433f7bf12638c362fe515dde4f61326649dd54f9b0a44bea301",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 169
+  },
+  {
+    "unit": 107,
+    "sourcePath": "data/units/unit-107-bd981377570c.json",
+    "runtimePath": "unitdata7/units/unit-107.json",
+    "sha256": "bd981377570c5ef2cb65192bacd387bc8d79ab0ed501480a3ae7fef9bf3b7a07",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 175
+  },
+  {
+    "unit": 108,
+    "sourcePath": "data/units/unit-108-16f5781014d1.json",
+    "runtimePath": "unitdata8/units/unit-108.json",
+    "sha256": "16f5781014d18dd8cb6ee29f3f055a67baae0e0b7b87f056249c0d2898e5c23b",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 147
+  },
+  {
+    "unit": 109,
+    "sourcePath": "data/units/unit-109-40d42973716d.json",
+    "runtimePath": "unitdata8/units/unit-109.json",
+    "sha256": "40d42973716dd0511437abcffba9bc73475ffb52a643421bd3a87766d5858833",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 159
+  },
+  {
+    "unit": 110,
+    "sourcePath": "data/units/unit-110-c642d719f1a8.json",
+    "runtimePath": "unitdata8/units/unit-110.json",
+    "sha256": "c642d719f1a8dc90b8768d74190ae56c6ef695da90850fdc13c86aa0d02353ae",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 131
+  },
+  {
+    "unit": 111,
+    "sourcePath": "data/units/unit-111-c5a25dbf1d00.json",
+    "runtimePath": "unitdata8/units/unit-111.json",
+    "sha256": "c5a25dbf1d0013b91c42d83b580165dd670a1fac5b889b48d40b1ced2756161d",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 172
+  },
+  {
+    "unit": 112,
+    "sourcePath": "data/units/unit-112-721325d63a31.json",
+    "runtimePath": "unitdata8/units/unit-112.json",
+    "sha256": "721325d63a3113c0f9bd0f283d8fbfce4df45b34d4c835109bc947342e03d4fd",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 194
+  },
+  {
+    "unit": 113,
+    "sourcePath": "data/units/unit-113-6cd56adf5366.json",
+    "runtimePath": "unitdata8/units/unit-113.json",
+    "sha256": "6cd56adf5366872346337115b439ec9b698bea351d9d3e23d616f0fe39ceb9b0",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 154
+  },
+  {
+    "unit": 114,
+    "sourcePath": "data/units/unit-114-663a71b94347.json",
+    "runtimePath": "unitdata8/units/unit-114.json",
+    "sha256": "663a71b94347cfa015bf7f1613fe74b2afa2e2c52e3dbb2ab60d242050ed8aee",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 184
+  },
+  {
+    "unit": 115,
+    "sourcePath": "data/units/unit-115-7b57fa504184.json",
+    "runtimePath": "unitdata8/units/unit-115.json",
+    "sha256": "7b57fa50418496b8504ef00304cb1435803efe363bb399421b5cbf8fbcaf44fe",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 162
+  },
+  {
+    "unit": 116,
+    "sourcePath": "data/units/unit-116-75247ec3982e.json",
+    "runtimePath": "unitdata8/units/unit-116.json",
+    "sha256": "75247ec3982eb2131a2d80896484d459accf1814745e6443d188402c16f41ec6",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 165
+  },
+  {
+    "unit": 117,
+    "sourcePath": "data/units/unit-117-ae5192c8a1ed.json",
+    "runtimePath": "unitdata8/units/unit-117.json",
+    "sha256": "ae5192c8a1edccc8a1e68f8094610a4b6d274178748ddf0cb417d8d8dc68a5c8",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 173
+  },
+  {
+    "unit": 118,
+    "sourcePath": "data/units/unit-118-e1ce27d275ab.json",
+    "runtimePath": "unitdata8/units/unit-118.json",
+    "sha256": "e1ce27d275ab924149a1e7d60d4810503074edcff8c5116ac3697ca29e7792c2",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 122
+  },
+  {
+    "unit": 119,
+    "sourcePath": "data/units/unit-119-2759c2cad61c.json",
+    "runtimePath": "unitdata8/units/unit-119.json",
+    "sha256": "2759c2cad61c5838045b680424f6825ae5da152984644718a801c6eebb104fa2",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 162
+  },
+  {
+    "unit": 120,
+    "sourcePath": "data/units/unit-120-02c6519ee429.json",
+    "runtimePath": "unitdata8/units/unit-120.json",
+    "sha256": "02c6519ee429e0b2e5021cabc47575a516869c68467f15e238a072830ec23efc",
+    "vocabulary": 15,
+    "examples": 15,
+    "dictionaryEntries": 169
+  }
+]

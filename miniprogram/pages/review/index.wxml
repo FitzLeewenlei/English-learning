@@ -1,0 +1,26 @@
+<view class="page review-page">
+  <block wx:if="{{!session}}">
+    <view class="eyebrow">A LITTLE, EVERY DAY</view><view class="title">{{finished ? '这一轮，完成了' : '每天，记住一点'}}</view><view class="subtitle">先温习，再开始新的积累。</view>
+    <view class="card today-card"><view class="row"><text class="section-label today-title">今日学习</text><text class="pill">{{cloud ? '账号同步' : '本机记录'}}</text></view>
+      <view class="metric-grid"><view class="metric"><text class="metric-value">{{stats.newToday}}<text class="metric-small"> / {{stats.goal}}</text></text><text class="metric-label">今日新学</text></view><view class="metric"><text class="metric-value">{{stats.due}}</text><text class="metric-label">到期复习</text></view></view>
+      <button class="primary task-button" data-kind="review" bindtap="start">开始复习</button><button class="secondary task-button" data-kind="new" bindtap="start">学习新词</button>
+    </view>
+    <view class="card row practice-card" data-kind="dictation" bindtap="start"><view><view class="list-title">听音拼写</view><view class="muted small">让听到的发音，变成笔下的单词。</view></view><text class="link">开始 ›</text></view>
+    <view class="card"><view class="row"><text class="list-title">词书进度</text><text class="link" bindtap="openBook">查看词书 ›</text></view><view class="progress-track"><view style="width:{{stats.learned / stats.totalCards * 100}}%"/></view><text class="muted small">{{stats.unitCount}} 个单元 · {{stats.totalEntries}} 个词条；已学 {{stats.learned}} / {{stats.totalCards}} 张记忆卡。</text></view>
+    <view class="method-note">根据每次反馈安排下次复习。遗忘的词稍后再见，熟悉的词逐步延长间隔。</view>
+  </block>
+  <block wx:else>
+    <view class="row session-top"><button class="quiet" bindtap="finish">‹ 返回</button><text class="muted">剩余 {{remaining}} 张</text><text class="pill">已练 {{completed}} 次</text></view>
+    <view class="card flashcard">
+      <text class="eyebrow">UNIT {{card.listId}} · {{dictation ? '听音拼写' : '回想词义'}}</text>
+      <view wx:if="{{!dictation || revealed}}" class="flash-word">{{card.word}}</view><view wx:else class="hidden-word">听一听，再写下来</view>
+      <button class="audio-round" bindtap="play">♪</button>
+      <text wx:if="{{revealed}}" class="flash-ipa">{{card.ipa}}</text>
+      <block wx:if="{{dictation}}"><input class="input spelling-input" value="{{answer}}" bindinput="answerInput" bindconfirm="check" placeholder="输入英文单词" disabled="{{checked}}" cursor-spacing="90"/><button wx:if="{{!checked}}" class="secondary" bindtap="check">核对拼写</button><text wx:else class="answer-feedback {{correct ? 'right' : 'wrong'}}">{{correct ? '拼写正确' : '再听一次，记住正确拼写'}}</text></block>
+      <view wx:if="{{revealed}}" class="flash-answer"><text>{{card.partsOfSpeech}} {{card.meaning}}</text><button class="quiet" bindtap="toggleExample">{{showExample ? '收起例句' : '结合例句记忆'}}</button><view wx:if="{{showExample}}" class="example-note"><text class="example-english">{{example.text}}</text><text wx:if="{{example.source}}" class="muted small">{{example.source}}</text><text class="muted">{{example.translation}}</text><button class="quiet" bindtap="playExample">♪ 朗读例句</button></view></view>
+      <button wx:elif="{{!dictation}}" class="reveal-button" bindtap="reveal">想好了，查看释义</button>
+    </view>
+    <view wx:if="{{cardLoading}}" class="muted small card-load">正在读取例句资料…</view><view wx:if="{{cardError}}" class="card"><text class="muted">{{cardError}}</text><button bindtap="retryCard">重试</button></view><view wx:if="{{revealed && !cardLoading && !cardError}}" class="rating-buttons"><button class="again" data-rating="again" bindtap="rate">不认识<text>本轮再见</text></button><button class="hard" data-rating="hard" bindtap="rate">有点模糊<text>短期复习</text></button><button class="good" data-rating="good" bindtap="rate">认识<text>延长间隔</text></button></view>
+    <view class="footer-note">反馈按真实记忆选择，慢一点也没关系。</view>
+  </block>
+</view>

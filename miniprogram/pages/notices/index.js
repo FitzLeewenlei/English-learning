@@ -1,0 +1,2 @@
+const notices=require('../../utils/notices');const api=require('../../utils/api');
+Page({data:{items:[],selected:null,loading:true},onShow(){this.reload();},async reload(){try{this.setData({items:await notices.getAll()});}catch(err){api.error(err);}finally{this.setData({loading:false});}},open(e){this.setData({selected:this.data.items[Number(e.currentTarget.dataset.index)]});},close(){this.setData({selected:null});},async read(){if(this.data.selected)await notices.markRead(this.data.selected.id);this.close();this.reload();},noop(){}});

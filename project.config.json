@@ -1,0 +1,27 @@
+{
+  "description": "海纳教育英语学习小程序；导入项目根目录，正式发布前替换 AppID。",
+  "projectname": "haina-english",
+  "appid": "touristappid",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "libVersion": "3.7.10",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "minifyWXML": true,
+    "minifyWXSS": true,
+    "uploadWithSourceMap": true,
+    "useMultiFrameRuntime": true,
+    "useIsolateContext": true,
+    "packNpmManually": false,
+    "ignoreUploadUnusedFiles": false,
+    "ignoreDevUnusedFiles": false
+  },
+  "packOptions": {"ignore": [], "include": []},
+  "condition": {},
+  "editorSetting": {"tabIndent": "insertSpaces", "tabSize": 2}
+}
