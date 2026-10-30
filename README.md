@@ -23,7 +23,7 @@
 `audio/course-examples/manifest.json` 逐单元绑定 1,800 条例句与录音、校验和及词元时间；新录音旁的 JSON 保存原始词边界和语音参数。`sentence-timings.js` 是浏览器使用的时间映射。
 
 本地开发无需构建后端。云环境已有 Python、aiohttp、Node.js、Playwright、Chromium。在仓库根目录运行 `python3 tools/serve.py --port 8003`。此服务器支持 HTTP Range，能验证音频快进／后退；Python 自带的 `http.server` 不适合验证 MP3 跳转。线上继续使用 GitHub Pages：
-https://leefitz19981027-dot.github.io/English-learning/
+https://fitzleewenlei.github.io/English-learning/
 
 保持服务运行，在另一终端运行：
 
