@@ -4,21 +4,35 @@ const walk=d=>fs.readdirSync(d,{withFileTypes:true}).filter(e=>!['node_modules',
 let scripts=0,json=0;
 for(const file of walk(root)){if(/\.(js|cjs)$/.test(file)){new vm.Script(fs.readFileSync(file,'utf8'),{filename:file});scripts++;}if(file.endsWith('.json')){JSON.parse(fs.readFileSync(file,'utf8'));json++;}}
 const app=require(path.join(mini,'app.json')),course=require(path.join(mini,'data/course'));
+const project=require(path.join(root,'project.config.json'));
 const routes=app.pages.concat(...app.subpackages.map(p=>p.pages.map(page=>p.root+'/'+page)));
 routes.forEach(route=>['.js','.json','.wxml','.wxss'].forEach(ext=>assert(fs.existsSync(path.join(mini,route+ext)),route+ext+' missing')));
 const provenance=require(path.join(root,'course-sources/unit-provenance.json'));
 const assets=require(path.join(root,'audio-resource-manifest.json'));
 const manifest=require(path.join(mini,'data/audio-manifest'));
 const normalize=t=>String(t).toLowerCase().replace(/’/g,"'");
-let entries=0,examples=0,annotations=0,alignmentTokens=0;
+let entries=0,examples=0,annotations=0,alignmentTokens=0,namedAudioFiles=0;
 const dictionaries=new Set(),usedAudio=new Set(),cards=new Set();
 for(const record of provenance){
+  assert.equal(path.extname(record.runtimePath),'.txt','Course data must be a raw resource, not compiler JSON');
+  assert.equal(course.unitFiles[record.unit].path,record.runtimePath);
+  assert(project.packOptions.include.some(item=>item.type==='folder'&&item.value===path.posix.dirname(record.runtimePath)),'Course resource must be explicitly included');
   const raw=fs.readFileSync(path.join(mini,record.runtimePath));
   assert.equal(crypto.createHash('sha256').update(raw).digest('hex'),record.sha256,'Unit byte mismatch '+record.unit);
   const bundle=JSON.parse(raw),metadata=course.lists[record.unit].vocabulary;
   assert.equal(bundle.number,record.unit);assert.equal(bundle.unit.vocabulary.length,15);assert.equal(bundle.unit.examples.length,15);
   entries+=metadata.length;examples+=bundle.unit.examples.length;
   bundle.unit.vocabulary.forEach((w,i)=>{const m=metadata[i];for(const key of ['word','ipa','partsOfSpeech','meaning'])assert.equal(m[key],w[key],'Vocabulary changed '+record.unit+' '+key);assert.equal(m.audio,bundle.dictionary[normalize(w.word)].audio);cards.add(m.id);usedAudio.add(m.audio);});
+  const unitDir=path.join(root,'audio-by-unit','Unit'+String(record.unit).padStart(3,'0'));
+  assert(fs.existsSync(path.join(unitDir,'00-音频对照表.csv')));
+  assert(fs.existsSync(path.join(unitDir,'03-句中点词共用音频索引.csv')));
+  bundle.unit.vocabulary.forEach((w,i)=>{
+    const stem=w.word.replace(/[\\/:*?"<>|\x00-\x1f]/g,'_').replace(/^[ .]+|[ .]+$/g,'')||'word';
+    for(const [folder,source] of [['01-单词',bundle.dictionary[normalize(w.word)].audio],['02-例句',bundle.unit.examples[i].audio]]){
+      const named=path.join(unitDir,folder,String(i+1).padStart(2,'0')+'_'+stem+path.extname(source));
+      assert(fs.readFileSync(named).equals(fs.readFileSync(path.join(root,'audio-resources',source))),'Named audio differs '+named);namedAudioFiles++;
+    }
+  });
   Object.entries(bundle.dictionary).forEach(([key,d])=>{dictionaries.add(key);if(d.audio)usedAudio.add(d.audio);});
   bundle.unit.examples.forEach(e=>{
     assert(e.source,'Missing original source '+record.unit);assert(e.speechText);usedAudio.add(e.audio);annotations+=(e.annotations||[]).length;
@@ -40,4 +54,5 @@ const mainBytes=walk(mini).filter(f=>!subdirs.some(d=>f.startsWith(d))).reduce((
 assert(mainBytes<2*1024*1024,'Main package exceeds 2MiB');const total=mainBytes+Object.values(packages).reduce((a,b)=>a+b,0);assert(total<20*1024*1024,'Conservative 20MiB project budget exceeded');
 assert(fs.readFileSync(path.join(mini,'utils/srs.js')).equals(fs.readFileSync(path.join(root,'cloudfunctions/learning/srs.js'))));
 const server=require(path.join(root,'cloudfunctions/learning/catalog.json'));assert.equal(new Set(server.words.map(w=>w.id)).size,cards.size);
-console.log(JSON.stringify({scripts,json,routes:routes.length,units:120,vocabularyEntries:entries,examples,learningCards:cards.size,dictionaryForms:dictionaries.size,annotations,alignmentTokens,audioFiles:assets.files.length,audioBytes:assets.files.reduce((n,a)=>n+a.bytes,0),mainBytes,subpackageBytes:packages,totalPackageBytes:total},null,2));
+const bundledMediaBytes=walk(mini).filter(file=>/\.(png|jpe?g|gif|webp|svg|mp3|wav|mp4)$/i.test(file)).reduce((sum,file)=>sum+fs.statSync(file).size,0);
+console.log(JSON.stringify({scripts,json,routes:routes.length,units:120,vocabularyEntries:entries,examples,learningCards:cards.size,dictionaryForms:dictionaries.size,annotations,alignmentTokens,audioFiles:assets.files.length,audioBytes:assets.files.reduce((n,a)=>n+a.bytes,0),unitAudioFolders:120,namedAudioFiles,bundledMediaBytes,mediaAudit200KiB:bundledMediaBytes<=200*1024,mainBytes,subpackageBytes:packages,totalPackageBytes:total},null,2));

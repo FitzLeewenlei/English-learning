@@ -1,6 +1,6 @@
 {
-  "scripts": 162,
-  "json": 156,
+  "scripts": 163,
+  "json": 37,
   "routes": 19,
   "units": 120,
   "vocabularyEntries": 1800,
@@ -11,7 +11,11 @@
   "alignmentTokens": 24654,
   "audioFiles": 4524,
   "audioBytes": 134967820,
-  "mainBytes": 556540,
+  "unitAudioFolders": 120,
+  "namedAudioFiles": 3600,
+  "bundledMediaBytes": 3933785,
+  "mediaAudit200KiB": false,
+  "mainBytes": 557368,
   "subpackageBytes": {
     "unitdata1": 1367755,
     "unitdata2": 1335690,
@@ -25,5 +29,5 @@
     "media2": 1284110,
     "media3": 1279475
   },
-  "totalPackageBytes": 15104103
+  "totalPackageBytes": 15104931
 }

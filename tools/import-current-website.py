@@ -61,7 +61,9 @@ for number in sorted(map(int, index['unitFiles'])):
         data_package += 1
         data_bytes = 0
     package = 'unitdata' + str(data_package)
-    relative = f'{package}/units/unit-{number:03d}.json'
+    # .json is reserved for mini-program compiler configuration. Keep the
+    # source bytes intact as an explicitly included, readable text resource.
+    relative = f'{package}/units/unit-{number:03d}.txt'
     target = MINI / relative
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_bytes(raw)
@@ -146,6 +148,12 @@ for prefix, count in [('unitdata', data_package), ('media', audio_package)]:
         stub(name)
         app['subpackages'].append({'name': name, 'root': name, 'pages': ['stub/index']})
 dump(MINI / 'app.json', app, True)
+project = json.loads((ROOT / 'project.config.json').read_text())
+pack = project.setdefault('packOptions', {})
+includes = [x for x in pack.get('include', []) if not x.get('value', '').startswith('unitdata')]
+includes += [{'type': 'folder', 'value': f'unitdata{n}/units'} for n in range(1, data_package + 1)]
+pack['include'] = includes
+dump(ROOT / 'project.config.json', project, True)
 dump(ROOT / 'cloudfunctions/learning/catalog.json', {'words': list(learning_cards.values()), 'listIds': sorted(map(int, course['lists']))})
 dump(ROOT / 'SOURCE.json', {'repository': 'https://github.com/FitzLeewenlei/English-learning',
     'website': 'https://fitzleewenlei.github.io/English-learning/', 'commit': commit,
@@ -157,4 +165,5 @@ from PIL import Image
 logo = Image.open(SOURCE / 'assets/haina-emblem.webp').convert('RGBA')
 logo.thumbnail((144, 144))
 logo.save(MINI / 'assets/logo.png', optimize=True)
+subprocess.run([sys.executable, str(ROOT / 'tools/organize-audio.py')], check=True)
 print((ROOT / 'SOURCE.json').read_text())

@@ -9,5 +9,5 @@ module.exports = {
   bundledAudio: true,
   defaultDailyGoal: 15,
   sourceWebsite: 'https://fitzleewenlei.github.io/English-learning/',
-  version: '2.0.0'
+  version: '2.0.1'
 };

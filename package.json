@@ -1,6 +1,6 @@
 {
   "name": "haina-english-miniprogram",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": true,
   "description": "Full 120-unit native WeChat migration with teacher and student framework",
   "scripts": {

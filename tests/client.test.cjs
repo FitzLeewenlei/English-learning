@@ -15,7 +15,9 @@ global.wx={
   createInnerAudioContext:()=>audio,env:{USER_DATA_PATH:temp},
   loadSubpackage:({success})=>setTimeout(()=>success({}),1),
   getFileSystemManager:()=>({access:({filePath,success,fail})=>fs.existsSync(filePath)?success():fail(),mkdirSync:(p,recursive)=>fs.mkdirSync(p,{recursive}),
-    readFile:({filePath,success,fail})=>{try{success({data:fs.readFileSync(path.join(root,filePath))});}catch(e){fail(e);}},
+    readFile:({filePath,encoding,success,fail})=>{
+      if(filePath.endsWith('.json'))return fail({errMsg:'readFile:fail compiled configuration is not a resource'});
+      try{success({data:fs.readFileSync(path.join(root,filePath.replace(/^\//,'')),encoding||null)});}catch(e){fail(e);}},
     writeFile:({filePath,data,success,fail})=>{try{fs.writeFileSync(filePath,data);success();}catch(e){fail(e);}}}),
   navigateTo(){},switchTab(){},setClipboardData(){},stopPullDownRefresh(){}
 };

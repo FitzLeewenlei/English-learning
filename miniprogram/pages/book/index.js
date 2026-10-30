@@ -37,7 +37,10 @@ Page({
       this.setData({listId:number,listIndex:number-1,vocabulary:list.vocabulary,
         examples:list.examples.map((e,i)=>({...e,number:String(i+1).padStart(2,'0'),tokens:catalog.tokens(e.text,e.annotations).map(t=>({...t,target:t.word&&target.has(catalog.normalize(t.text))}))}))});
       storage.set('currentList',number);
-    }catch(err){if(request===this.unitRequest)this.setData({loadError:'单元加载失败，请检查网络后重试。'});}
+    }catch(err){if(request===this.unitRequest){
+      console.error('[course] Unit '+number+' 加载失败',err);
+      this.setData({loadError:err.message||'单元加载失败，请重新进入后重试。'});
+    }}
     finally{if(request===this.unitRequest)this.setData({loadingUnit:false});}
   },
   retryUnit(){this.renderList(this.data.requestedUnit);},

@@ -21,7 +21,46 @@
     "ignoreUploadUnusedFiles": false,
     "ignoreDevUnusedFiles": false
   },
-  "packOptions": {"ignore": [], "include": []},
+  "packOptions": {
+    "ignore": [],
+    "include": [
+      {
+        "type": "folder",
+        "value": "unitdata1/units"
+      },
+      {
+        "type": "folder",
+        "value": "unitdata2/units"
+      },
+      {
+        "type": "folder",
+        "value": "unitdata3/units"
+      },
+      {
+        "type": "folder",
+        "value": "unitdata4/units"
+      },
+      {
+        "type": "folder",
+        "value": "unitdata5/units"
+      },
+      {
+        "type": "folder",
+        "value": "unitdata6/units"
+      },
+      {
+        "type": "folder",
+        "value": "unitdata7/units"
+      },
+      {
+        "type": "folder",
+        "value": "unitdata8/units"
+      }
+    ]
+  },
   "condition": {},
-  "editorSetting": {"tabIndent": "insertSpaces", "tabSize": 2}
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
 }
