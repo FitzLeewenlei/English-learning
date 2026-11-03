@@ -25,6 +25,8 @@
 本地开发无需构建后端。云环境已有 Python、aiohttp、Node.js、Playwright、Chromium。在仓库根目录运行 `python3 tools/serve.py --port 8003`。此服务器支持 HTTP Range，能验证音频快进／后退；Python 自带的 `http.server` 不适合验证 MP3 跳转。线上继续使用 GitHub Pages：
 https://fitzleewenlei.github.io/English-learning/
 
+首页按站点所有者提供的代码接入 Cloudflare Web Analytics，统计主机名为 `fitzleewenlei.github.io`。统计脚本以模块方式加载；浏览数据在 Cloudflare 控制台的 Web Analytics 中查看，从接入后开始记录。访问次数不等于去重学生人数，此统计也不提供 GitHub Pages 的每月流量用量。浏览器或网络阻止统计脚本时，点读功能仍可独立运行。
+
 保持服务运行，在另一终端运行：
 
 ```bash
