@@ -21,6 +21,7 @@ function scripts(files) {
 }
 const full = scripts(['content.js', 'dictionary.js', 'sentence-timings.js']);
 const initial = scripts(['course-index.js']);
+const starts = JSON.parse(read('data/audio-starts.json'));
 const numbers = Array.from({length: 120}, (_, i) => i + 1);
 assert.deepEqual(initial.COURSE.availableUnits, numbers);
 assert.deepEqual(Object.keys(initial.COURSE.lists), ['1'], 'Only the first unit should be embedded for immediate display');
@@ -43,10 +44,19 @@ for (const number of numbers) {
   const paths = new Set(bundle.unit.examples.map(entry => entry.audio));
   assert.deepEqual(Object.keys(bundle.timings).sort(), [...paths].sort());
   for (const audio of paths) assert.deepEqual(bundle.timings[audio], full.SENTENCE_TIMINGS[audio], `Unit ${number}: unchanged word boundary data`);
+  const availableAudio = new Set([...paths, ...Object.values(bundle.dictionary).map(entry => entry.audio).filter(Boolean)]);
+  const expectedStarts = Object.fromEntries([...availableAudio].filter(audio => starts.files[audio]?.start > 0)
+    .map(audio => [audio, starts.files[audio].start]));
+  assert.deepEqual(bundle.starts, expectedStarts, `Unit ${number}: only audited leading-silence offsets for this unit`);
+  for (const [audio, offset] of Object.entries(bundle.starts)) {
+    assert.ok(offset > 0 && offset <= .45, `Unit ${number}: safe maximum leading-silence seek`);
+    assert.equal(hash(read(audio)), starts.files[audio].sha256, `Unit ${number}: original recording remains byte-for-byte unchanged`);
+  }
   if (number === 1) {
     assert.deepEqual(initial.COURSE.lists[1], bundle.unit);
     assert.deepEqual(initial.WORD_DICTIONARY, bundle.dictionary);
     assert.deepEqual(initial.SENTENCE_TIMINGS, bundle.timings);
+    assert.deepEqual(initial.AUDIO_STARTS, bundle.starts);
   }
   bundleBytes += bytes.length;
 }
@@ -95,17 +105,23 @@ console.log(JSON.stringify({bundleDataParity: 'all120 units, dictionary source r
     assert.deepEqual(await page.evaluate(() => Object.keys(window.COURSE.lists)), ['1']);
     assert.equal(requests.filter(file => /\/(?:content|dictionary|sentence-timings)\.js$/.test(file)).length, 0, 'No large aggregate script request');
     assert.equal(requests.filter(file => /\/data\/units\//.test(file)).length, 0, 'The embedded first unit needs no extra round trip');
-    assert.equal(requests.filter(file => /\/audio\//.test(file)).length, 0, 'No audio download before a playback gesture');
+    await page.waitForTimeout(1500);
+    const initialAudio = requests.filter(file => /\/audio\//.test(file));
+    const initialAllowedAudio = new Set([
+      ...full.COURSE.lists[1].vocabulary.map(entry => '/' + full.WORD_DICTIONARY[normalize(entry.word)].audio),
+      ...full.COURSE.lists[1].examples.map(entry => '/' + entry.audio),
+    ]);
+    assert.ok(initialAudio.length <= 6, 'At most four visible words and two visible examples are prepared in the background');
+    assert.ok(initialAudio.every(file => initialAllowedAudio.has(file)), 'Background preparation must use only the current unit');
     const chunkRequests = () => requests.filter(file => /\/data\/units\//.test(file));
     await select(page, 120);
     assert.equal(chunkRequests().length, 1, 'Only the chosen unit is fetched');
     assert.deepEqual(await page.evaluate(() => Object.keys(window.COURSE.lists)), ['1', '120']);
     assert.equal(await page.locator('.word-name').first().textContent(), full.COURSE.lists[120].vocabulary[0].word);
-    assert.equal(requests.filter(file => /\/audio\//.test(file)).length, 0);
     await page.locator('#vocab-0').click();
     await page.waitForFunction(() => window.__audio.currentTime > 0 && !window.__audio.paused);
     const expectedWord = full.WORD_DICTIONARY[normalize(full.COURSE.lists[120].vocabulary[0].word)];
-    assert.equal(await page.evaluate(() => window.__audio.currentSrc), new URL(expectedWord.audio, baseURL).href);
+    assert.equal(await page.evaluate(() => new URL(window.__audio.dataset.source || window.__audio.currentSrc, document.baseURI).href), new URL(expectedWord.audio, baseURL).href);
     await page.keyboard.press('Escape');
     await page.locator('.sentence-play').first().click();
     await page.waitForFunction(() => document.querySelector('#sentence-focus').open && window.__audio.currentTime > 0);
@@ -118,7 +134,7 @@ console.log(JSON.stringify({bundleDataParity: 'all120 units, dictionary source r
     await page.reload({waitUntil: 'networkidle'});
     await waitForUnit(page, 120);
     assert.equal(await page.locator('#list-select').inputValue(), '120', 'Remembered unit is restored after asynchronous loading');
-    console.log('Initial load: only first-unit data, no aggregate scripts or eager audio; lazy Unit120 word/sentence audio, cache reuse and remembered selection passed.');
+    console.log('Initial load: only first-unit data, no aggregate scripts and bounded current-unit audio preparation; lazy Unit120 word/sentence audio, cache reuse and remembered selection passed.');
 
     async function checkRapidSelection(failStale) {
       const rapid = await makePage();
@@ -177,7 +193,7 @@ console.log(JSON.stringify({bundleDataParity: 'all120 units, dictionary source r
     assert.equal(await retry.locator('.word-name').first().textContent(), full.COURSE.lists[33].vocabulary[0].word);
     assert.deepEqual(errors, []);
     console.log(JSON.stringify({allUnitBundleParity: 'passed', initialScriptReduction: (100 * (1 - initialBytes / oldBytes)).toFixed(1) + '%',
-      initialAggregateRequests: 0, initialAudioRequests: 0, onDemandLoading: 'passed', loadedUnitReuse: 'passed',
+      initialAggregateRequests: 0, boundedInitialAudioRequests: initialAudio.length, onDemandLoading: 'passed', loadedUnitReuse: 'passed',
       rapidSelectionSuccessAndFailure: 'passed', failedLoadRecoveryAndRetry: 'passed', rememberedUnit: 'passed', browserErrors: errors}));
   } finally {
     await Promise.all(pages.filter(page => !page.isClosed()).map(page => page.close()));

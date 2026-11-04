@@ -245,7 +245,7 @@ async function verifyAudioFiles() {
     const checkedForms = new Set();
     const playback = async entry => {
       await page.waitForFunction(() => window.__audio.currentTime > 0 && !window.__audio.paused);
-      assert.equal(await page.evaluate(() => window.__audio.currentSrc), new URL(entry.audio, baseURL).href);
+      assert.equal(await page.evaluate(() => new URL(window.__audio.dataset.source || window.__audio.currentSrc, document.baseURI).href), new URL(entry.audio, baseURL).href);
       assert.equal(await page.evaluate(() => window.__audio.playbackRate), 0.5);
       assert.equal(await page.locator('#notice').isVisible(), false);
       assert.equal((await page.locator('#player-kind').textContent()).includes('英'), false);

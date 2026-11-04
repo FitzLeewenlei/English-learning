@@ -26,6 +26,134 @@
     return Object.hasOwn(dictionary, key) ? dictionary[key] : {ipa: '', senses: [], audio: '', status: 'unavailable'};
   }
 
+  class AudioWarmCache {
+    constructor() {
+      this.entries = new Map();
+      this.queue = [];
+      this.running = 0;
+      this.bytes = 0;
+      this.active = '';
+    }
+    warm(src, urgent = false) {
+      if (!src || navigator.connection?.saveData) return;
+      const existing = this.entries.get(src);
+      if (existing) {
+        existing.used = performance.now();
+        if (urgent && existing.state === 'queued') {
+          this.queue = [src, ...this.queue.filter(path => path !== src)];
+        }
+        return;
+      }
+      this.entries.set(src, {state: 'queued', used: performance.now()});
+      if (urgent) this.queue.unshift(src);
+      else this.queue.push(src);
+      this.pump();
+    }
+    pump() {
+      while (this.running < 2 && this.queue.length) {
+        const src = this.queue.shift();
+        const entry = this.entries.get(src);
+        if (!entry || entry.state !== 'queued') continue;
+        entry.state = 'loading';
+        entry.controller = new AbortController();
+        this.running++;
+        const timeout = setTimeout(() => entry.controller.abort(), 15000);
+        fetch(src, {cache: 'force-cache', priority: 'low', signal: entry.controller.signal})
+          .then(response => {
+            if (!response.ok) throw new Error('Audio preparation failed');
+            const type = response.headers.get('content-type') || '';
+            if (!/^(audio\/|application\/octet-stream)/i.test(type)) throw new Error('Unexpected audio response');
+            return response.blob();
+          })
+          .then(blob => {
+            if (!blob.size || this.entries.get(src) !== entry) return;
+            entry.url = URL.createObjectURL(blob);
+            entry.size = blob.size;
+            entry.state = 'ready';
+            this.bytes += blob.size;
+            this.trim();
+          })
+          .catch(() => {
+            if (this.entries.get(src) === entry) this.entries.delete(src);
+          })
+          .finally(() => {
+            clearTimeout(timeout);
+            this.running--;
+            this.pump();
+          });
+      }
+    }
+    cached(src) {
+      const entry = this.entries.get(src);
+      if (entry?.state !== 'ready') return '';
+      entry.used = performance.now();
+      return entry.url;
+    }
+    discard(src) {
+      const entry = this.entries.get(src);
+      if (!entry) return;
+      this.entries.delete(src);
+      entry.controller?.abort();
+      if (entry.url) {
+        URL.revokeObjectURL(entry.url);
+        this.bytes -= entry.size;
+      }
+    }
+    trim() {
+      const ready = [...this.entries].filter(([src, entry]) => entry.state === 'ready' && src !== this.active)
+        .sort((a, b) => a[1].used - b[1].used);
+      while ((this.bytes > 6 * 1024 * 1024 || this.entries.size > 48) && ready.length) {
+        const [src, entry] = ready.shift();
+        URL.revokeObjectURL(entry.url);
+        this.bytes -= entry.size;
+        this.entries.delete(src);
+      }
+    }
+    cancelPending() {
+      this.queue = [];
+      for (const [src, entry] of this.entries) {
+        if (entry.state === 'ready') continue;
+        this.entries.delete(src);
+        entry.controller?.abort();
+      }
+    }
+  }
+  const audioCache = new AudioWarmCache();
+  let audioObserver = null, audioWarmTimer = null;
+
+  function stopWatchingAudio() {
+    clearTimeout(audioWarmTimer);
+    audioObserver?.disconnect();
+    audioObserver = null;
+    audioCache.cancelPending();
+  }
+
+  function watchVisibleAudio() {
+    stopWatchingAudio();
+    if (navigator.connection?.saveData || !('IntersectionObserver' in window)) return;
+    audioWarmTimer = setTimeout(() => {
+      let vocabularyBudget = 4, exampleBudget = 2;
+      audioObserver = new IntersectionObserver(entries => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
+          const item = [...wordItems, ...exampleItems].find(item => item.elementId === entry.target.id);
+          if (!item) continue;
+          const budget = item.type === 'word' ? vocabularyBudget : exampleBudget;
+          if (budget > 0) {
+            audioCache.warm(item.src);
+            if (item.type === 'word') vocabularyBudget--;
+            else exampleBudget--;
+          }
+          audioObserver?.unobserve(entry.target);
+        }
+      }, {rootMargin: '80px 0px'});
+      for (const item of [...wordItems, ...exampleItems]) {
+        const element = $(item.elementId);
+        if (element) audioObserver.observe(element);
+      }
+    }, 700);
+  }
+
   function renderWordMeanings(container, entry) {
     container.replaceChildren();
     const senses = entry.senses || [];
@@ -94,6 +222,7 @@
     player.stop();
     trigger.scrollIntoView({block: 'nearest', inline: 'nearest', behavior: 'instant'});
     const entry = wordEntry(word);
+    audioCache.warm(entry.audio, true);
     selectedToken = trigger;
     selectedWord = {text: word, src: entry.audio, elementId: 'word-detail-play', type: 'word'};
     $('word-detail-title').textContent = word;
@@ -248,6 +377,7 @@
     }
 
     if (remember) storePreference('english-reader-list', String(number));
+    watchVisibleAudio();
   }
 
   async function loadUnit(number) {
@@ -266,6 +396,7 @@
         }
         Object.assign(window.WORD_DICTIONARY, bundle.dictionary);
         Object.assign(window.SENTENCE_TIMINGS, bundle.timings);
+        Object.assign(window.AUDIO_STARTS ||= {}, bundle.starts || {});
         course.lists[number] = bundle.unit;
       }).finally(() => {
         clearTimeout(timeout);
@@ -284,6 +415,7 @@
 
   async function selectUnit(number) {
     const request = ++unitRequest;
+    stopWatchingAudio();
     hideWordDetails();
     player.stop();
     const status = $('unit-load-status');
@@ -311,6 +443,7 @@
       status.textContent = `Unit ${number} 暂时未能加载，请检查网络后重新选择。`;
       status.classList.add('is-error');
       status.hidden = false;
+      watchVisibleAudio();
     } finally {
       if (request === unitRequest) unitLoading(false);
     }
@@ -481,13 +614,21 @@
       for (const name of ['loadedmetadata', 'durationchange', 'seeking', 'seeked']) {
         this.audio.addEventListener(name, () => this.focus.sync());
       }
+      this.audio.addEventListener('loadedmetadata', () => {
+        const item = this.items[this.index];
+        if (!item || this.audio.currentSrc !== this.playbackSource) return;
+        const start = Number(window.AUDIO_STARTS?.[item.src] || 0);
+        if (start > 0 && start <= .45 && this.audio.duration > start + .15) {
+          this.audio.currentTime = start;
+        }
+      });
       this.audio.addEventListener('play', () => this.focus.watch());
       this.audio.addEventListener('pause', () => {
         this.focus.cancelFrame();
         this.focus.sync();
       });
       this.audio.addEventListener('error', () => {
-        if (this.items.length) this.fail();
+        if (this.items.length && this.audio.error && !this.retryOriginal()) this.fail();
       });
     }
     start(items, mode) {
@@ -518,11 +659,15 @@
       $('screen-reader-status').textContent = `正在朗读：${item.text}`;
       this.updateButtons();
       if (!item.src) return this.fail();
-      this.audio.src = item.src;
+      audioCache.active = item.src;
+      this.audio.dataset.source = item.src;
+      this.audio.src = audioCache.cached(item.src) || item.src;
+      this.playbackSource = this.audio.src;
       this.audio.playbackRate = Number($('speed').value);
       if (item.type === 'sentence') this.focus.show(item, this.index, this.items.length);
       else this.focus.hide();
       this.resume();
+      for (const next of this.items.slice(this.index + 1, this.index + 3)) audioCache.warm(next.src, true);
     }
     resume() {
       const generation = this.generation;
@@ -530,9 +675,17 @@
         const started = this.audio.play();
         started?.catch((error) => {
           if (generation !== this.generation || error.name === 'AbortError') return;
+          if (this.retryOriginal()) return;
           this.fail();
         });
-      } catch { this.fail(); }
+      } catch { if (!this.retryOriginal()) this.fail(); }
+    }
+    retryOriginal() {
+      const item = this.items[this.index];
+      if (!item || !this.audio.src.startsWith('blob:')) return false;
+      audioCache.discard(item.src);
+      this.playCurrent();
+      return true;
     }
     togglePause() {
       if (this.items[this.index]?.type !== 'sentence') return;
@@ -573,6 +726,8 @@
       this.audio.pause();
       this.audio.removeAttribute('src');
       this.audio.load();
+      audioCache.active = '';
+      audioCache.trim();
       this.focus.hide();
       this.clearHighlight();
       $('player').hidden = true;
@@ -629,6 +784,18 @@
   $('word-details').addEventListener('beforetoggle', (event) => {
     if (event.newState === 'closed') clearWordDetails();
   });
+  function prepareAudioIntent(event) {
+    const control = event.target.closest?.('.word-card,.sentence-play,.word-token,#word-detail-play,#play-vocabulary,#play-examples');
+    if (!control || control.disabled) return;
+    let src = '';
+    if (control.classList.contains('word-card')) src = wordItems[Number(control.id.slice(6))]?.src;
+    else if (control.classList.contains('sentence-play')) src = exampleItems[Number(control.closest('.sentence').id.slice(8))]?.src;
+    else if (control.classList.contains('word-token')) src = wordEntry(control.textContent).audio;
+    else if (control.id === 'word-detail-play') src = selectedWord?.src;
+    else src = (control.id === 'play-vocabulary' ? wordItems : exampleItems)[0]?.src;
+    audioCache.warm(src, true);
+  }
+  for (const type of ['pointerover', 'pointerdown', 'focusin']) document.addEventListener(type, prepareAudioIntent, {passive: true});
   window.addEventListener('resize', positionWordDetails);
   window.addEventListener('scroll', positionWordDetails, {passive: true});
   document.addEventListener('keydown', (event) => {
@@ -638,6 +805,7 @@
     }
   });
   window.addEventListener('pagehide', () => {
+    stopWatchingAudio();
     hideWordDetails();
     player.stop();
   });

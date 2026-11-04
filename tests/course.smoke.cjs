@@ -155,7 +155,7 @@ console.log('Data parity: all120 units, 1800 document words and 1800 example/tra
     const playing = () => page.waitForFunction(() => window.__audio.currentTime > 0 && !window.__audio.paused);
     const audioMatches = async entry => {
       assert.ok(entry?.audio, 'Expected a verified Youdao audio record for the sample word');
-      assert.equal(await page.evaluate(() => window.__audio.currentSrc), new URL(entry.audio, baseURL).href);
+      assert.equal(await page.evaluate(() => new URL(window.__audio.dataset.source || window.__audio.currentSrc, document.baseURI).href), new URL(entry.audio, baseURL).href);
       assert.equal(await page.evaluate(() => window.__audio.playbackRate), 0.5);
       assert.equal(await page.locator('#notice').isVisible(), false);
       assert.equal(/英/.test(await page.locator('#player-kind').textContent()), false);
@@ -201,7 +201,7 @@ console.log('Data parity: all120 units, 1800 document words and 1800 example/tra
       await playing();
       assert.equal(await page.locator('#focus-sentence').textContent(), course.units[number].examples[index].speechText);
       assert.equal(await page.locator('.focus-word').count(), media.units[number][index].words.length);
-      assert.equal(await page.evaluate(() => window.__audio.currentSrc), new URL(media.units[number][index].audio, baseURL).href);
+      assert.equal(await page.evaluate(() => new URL(window.__audio.dataset.source || window.__audio.currentSrc, document.baseURI).href), new URL(media.units[number][index].audio, baseURL).href);
       await page.keyboard.press('Escape');
     }
     await selectUnit('33');
